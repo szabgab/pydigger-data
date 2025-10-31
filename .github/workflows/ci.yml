@@ -22,16 +22,27 @@ jobs:
 
     - uses: actions/checkout@v5
 
+    #- name: Download binary
+    #  env:
+    #    GH_TOKEN: ${{ github.token }}
+    #  run: |
+    #      gh run list -R szabgab/pydigger.rs --limit 1 > run.txt
+    #      cat run.txt
+    #      RUN_ID=$(awk '{print $1}' run.txt)
+    #      gh run download $RUN_ID -R szabgab/pydigger.rs
+    #      rm -f run.txt
+    #      ls -l
+
     - name: Download binary
-      env:
-        GH_TOKEN: ${{ github.token }}
       run: |
-          gh run list -R szabgab/pydigger.rs --limit 1 > run.txt
-          cat run.txt
-          RUN_ID=$(awk '{print $1}' run.txt)
-          gh run download $RUN_ID -R szabgab/pydigger.rs
-          rm -f run.txt
-          ls -l
+          curl -s -H "Accept: application/vnd.github+json" "https://api.github.com/repos/szabgab/pydigger.rs/actions/artifacts" > artifacts.json
+          cat artifacts.json
+          ARTIFACT_ID=$(jq '.artifacts[0].id' artifacts.json)
+          echo "ARTIFACT_ID=$ARTIFACT_ID" >> $GITHUB_ENV
+          curl -L -H "Accept: application/vnd.github+json" "https://api.github.com/repos/szabgab/pydigger.rs/actions/artifacts/$ARTIFACT_ID/zip" -o artifact.zip
+          unzip artifact.zip
+          tree
+
 
     - name: List
       run: |
