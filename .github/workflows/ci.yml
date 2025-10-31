@@ -26,6 +26,7 @@ jobs:
       uses: actions/download-artifact@v6
       with:
         name: pydigger-linux-release
+        github-token: ${{ secrets.GH_PAT }}
         path: pydigger
         repository: szabgab/pydigger.rs
 
