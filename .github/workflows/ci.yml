@@ -40,7 +40,7 @@ jobs:
           cat artifacts.json
           ARTIFACT_ID=$(jq '.artifacts[0].id' artifacts.json)
           echo "ARTIFACT_ID=$ARTIFACT_ID" >> $GITHUB_ENV
-          curl -L -H "Accept: application/vnd.github+json" "https://api.github.com/repos/szabgab/pydigger.rs/actions/artifacts/$ARTIFACT_ID/zip" -o artifact.zip
+          curl -L -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/szabgab/pydigger.rs/actions/artifacts/$ARTIFACT_ID/zip" -o artifact.zip
           tree
           unzip artifact.zip
           tree
