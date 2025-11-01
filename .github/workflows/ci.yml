@@ -35,12 +35,16 @@ jobs:
           unzip artifact.zip
           tree
 
-
     - name: List
       run: |
         chmod +x pydigger
         ls -al
         tree
+
+    - name: Show help
+      run: |
+        #./pydigger --version
+        ./pydigger --help
 
     - name: Collect data
       run: ./pydigger --download --report
@@ -48,13 +52,13 @@ jobs:
     - name: Tree
       run: tree
 
-#    - name: Commit new data
-#      run: |
-#        cd data
-#        GIT_STATUS=$(git status --porcelain)
-#        echo $GIT_STATUS
-#        git config user.name github-actions[bot]
-#        git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-#        git add .
-#        if [ "$GIT_STATUS" != "" ]; then git commit -m "Automated data collection"; fi
-#        if [ "$GIT_STATUS" != "" ]; then git push; fi
+    - name: Commit new data
+      run: |
+        cd data
+        GIT_STATUS=$(git status --porcelain data)
+        echo $GIT_STATUS
+        git config user.name github-actions[bot]
+        git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+        git add .
+        if [ "$GIT_STATUS" != "" ]; then git commit -m "Automated data collection"; fi
+        if [ "$GIT_STATUS" != "" ]; then git push; fi
