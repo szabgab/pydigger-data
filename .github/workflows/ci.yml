@@ -1,9 +1,9 @@
 name: Rust
 
 on:
-  push:
+#  push:
 #  pull_request:
-#  workflow_dispatch:
+  workflow_dispatch:
   schedule:
      - cron: "*/4 * * * *"
 
