@@ -68,6 +68,6 @@ jobs:
         echo $GIT_STATUS
         git config user.name github-actions[bot]
         git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-        git add .
+        git add data
         if [ "$GIT_STATUS" != "" ]; then git commit -m "Automated data collection"; fi
         if [ "$GIT_STATUS" != "" ]; then git push; fi
