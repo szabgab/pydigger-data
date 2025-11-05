@@ -37,19 +37,21 @@ jobs:
       run: |
           set -x
           curl -s -H "Accept: application/vnd.github+json" "https://api.github.com/repos/szabgab/pydigger.rs/actions/artifacts" > artifacts.json
-          cat artifacts.json
+          # cat artifacts.json
           ARTIFACT_ID=$(jq '.artifacts[0].id' artifacts.json)
+          # TODO:
+          # Sometimes we might get {"message":"API rate limit exceeded for 52.159.228.209. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+          # Check if ARTIFACT_ID is null, and don't continue if we got that.
           echo "ARTIFACT_ID=$ARTIFACT_ID" >> $GITHUB_ENV
           curl -L -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/szabgab/pydigger.rs/actions/artifacts/$ARTIFACT_ID/zip" -o artifact.zip
-          tree
+          ls -l
           unzip artifact.zip
-          tree
+          ls -l
 
     - name: List
       run: |
         chmod +x pydigger
         ls -al
-        tree
 
     - name: Show help
       run: |
@@ -59,8 +61,8 @@ jobs:
     - name: Collect data
       run: ./pydigger --download --report
 
-    - name: Tree
-      run: tree
+    - name: Count data
+      run: find data/ | wc
 
     - name: Commit new data
       run: |
