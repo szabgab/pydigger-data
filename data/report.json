@@ -1,181 +1,230 @@
 {
-  "total": 6663,
+  "total": 6688,
   "recent_projects": [
     {
-      "name": "hami-core",
-      "version": "0.40.0",
-      "summary": "A Python library for batched backend scheduling",
-      "license": "Apache-2.0",
-      "pub_date": 1762450480
-    },
-    {
-      "name": "gnetcli-server-bin",
-      "version": "1.1.2rc5",
-      "summary": "Python shim for a prepackaged gnetcli_server binary.",
+      "name": "nifti2bids",
+      "version": "0.1.0",
+      "summary": "Post-hoc BIDS conversion toolkit for NIfTI datasets without original DICOMs.",
       "license": null,
-      "pub_date": 1762450448
+      "pub_date": 1762451124
     },
     {
-      "name": "groundx",
-      "version": "2.7.1",
-      "summary": null,
+      "name": "drap",
+      "version": "0.0.4.post13",
+      "summary": "Tool for analyzing droplet size and concentration using video and EDF images",
       "license": "MIT",
-      "pub_date": 1762450426
+      "pub_date": 1762451119
     },
     {
-      "name": "tabpfn",
-      "version": "6.0.5",
-      "summary": "TabPFN: Foundation model for tabular data",
-      "license": "Prior Labs License\n                                   Version 1.1, May 2025\n                               http://priorlabs.ai/tabpfn-license\n        \n           This license is a derivative of the Apache 2.0 license\n           (http://www.apache.org/licenses/) with a single modification:\n           The added Paragraph 10 introduces an enhanced attribution requirement\n           inspired by the Llama 3 license.\n        \n           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n        \n           1. Definitions.\n        \n              \"License\" shall mean the terms and conditions for use, reproduction,\n              and distribution as defined by Sections 1 through 9 of this document.\n        \n              \"Licensor\" shall mean the copyright owner or entity authorized by\n              the copyright owner that is granting the License.\n        \n              \"Legal Entity\" shall mean the union of the acting entity and all\n              other entities that control, are controlled by, or are under common\n              control with that entity. For the purposes of this definition,\n              \"control\" means (i) the power, direct or indirect, to cause the\n              direction or management of such entity, whether by contract or\n              otherwise, or (ii) ownership of fifty percent (50%) or more of the\n              outstanding shares, or (iii) beneficial ownership of such entity.\n        \n              \"You\" (or \"Your\") shall mean an individual or Legal Entity\n              exercising permissions granted by this License.\n        \n              \"Source\" form shall mean the preferred form for making modifications,\n              including but not limited to software source code, documentation\n              source, and configuration files.\n        \n              \"Object\" form shall mean any form resulting from mechanical\n              transformation or translation of a Source form, including but\n              not limited to compiled object code, generated documentation,\n              and conversions to other media types.\n        \n              \"Work\" shall mean the work of authorship, whether in Source or\n              Object form, made available under the License, as indicated by a\n              copyright notice that is included in or attached to the work\n              (an example is provided in the Appendix below).\n        \n              \"Derivative Works\" shall mean any work, whether in Source or Object\n              form, that is based on (or derived from) the Work and for which the\n              editorial revisions, annotations, elaborations, or other modifications\n              represent, as a whole, an original work of authorship. For the purposes\n              of this License, Derivative Works shall not include works that remain\n              separable from, or merely link (or bind by name) to the interfaces of,\n              the Work and Derivative Works thereof.\n        \n              \"Contribution\" shall mean any work of authorship, including\n              the original version of the Work and any modifications or additions\n              to that Work or Derivative Works thereof, that is intentionally\n              submitted to Licensor for inclusion in the Work by the copyright owner\n              or by an individual or Legal Entity authorized to submit on behalf of\n              the copyright owner. For the purposes of this definition, \"submitted\"\n              means any form of electronic, verbal, or written communication sent\n              to the Licensor or its representatives, including but not limited to\n              communication on electronic mailing lists, source code control systems,\n              and issue tracking systems that are managed by, or on behalf of, the\n              Licensor for the purpose of discussing and improving the Work, but\n              excluding communication that is conspicuously marked or otherwise\n              designated in writing by the copyright owner as \"Not a Contribution.\"\n        \n              \"Contributor\" shall mean Licensor and any individual or Legal Entity\n              on behalf of whom a Contribution has been received by Licensor and\n              subsequently incorporated within the Work.\n        \n           2. Grant of Copyright License. Subject to the terms and conditions of\n              this License, each Contributor hereby grants to You a perpetual,\n              worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n              copyright license to reproduce, prepare Derivative Works of,\n              publicly display, publicly perform, sublicense, and distribute the\n              Work and such Derivative Works in Source or Object form.\n        \n           3. Grant of Patent License. Subject to the terms and conditions of\n              this License, each Contributor hereby grants to You a perpetual,\n              worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n              (except as stated in this section) patent license to make, have made,\n              use, offer to sell, sell, import, and otherwise transfer the Work,\n              where such license applies only to those patent claims licensable\n              by such Contributor that are necessarily infringed by their\n              Contribution(s) alone or by combination of their Contribution(s)\n              with the Work to which such Contribution(s) was submitted. If You\n              institute patent litigation against any entity (including a\n              cross-claim or counterclaim in a lawsuit) alleging that the Work\n              or a Contribution incorporated within the Work constitutes direct\n              or contributory patent infringement, then any patent licenses\n              granted to You under this License for that Work shall terminate\n              as of the date such litigation is filed.\n        \n           4. Redistribution. You may reproduce and distribute copies of the\n              Work or Derivative Works thereof in any medium, with or without\n              modifications, and in Source or Object form, provided that You\n              meet the following conditions:\n        \n              (a) You must give any other recipients of the Work or\n                  Derivative Works a copy of this License; and\n        \n              (b) You must cause any modified files to carry prominent notices\n                  stating that You changed the files; and\n        \n              (c) You must retain, in the Source form of any Derivative Works\n                  that You distribute, all copyright, patent, trademark, and\n                  attribution notices from the Source form of the Work,\n                  excluding those notices that do not pertain to any part of\n                  the Derivative Works; and\n        \n              (d) If the Work includes a \"NOTICE\" text file as part of its\n                  distribution, then any Derivative Works that You distribute must\n                  include a readable copy of the attribution notices contained\n                  within such NOTICE file, excluding those notices that do not\n                  pertain to any part of the Derivative Works, in at least one\n                  of the following places: within a NOTICE text file distributed\n                  as part of the Derivative Works; within the Source form or\n                  documentation, if provided along with the Derivative Works; or,\n                  within a display generated by the Derivative Works, if and\n                  wherever such third-party notices normally appear. The contents\n                  of the NOTICE file are for informational purposes only and\n                  do not modify the License. You may add Your own attribution\n                  notices within Derivative Works that You distribute, alongside\n                  or as an addendum to the NOTICE text from the Work, provided\n                  that such additional attribution notices cannot be construed\n                  as modifying the License.\n        \n              You may add Your own copyright statement to Your modifications and\n              may provide additional or different license terms and conditions\n              for use, reproduction, or distribution of Your modifications, or\n              for any such Derivative Works as a whole, provided Your use,\n              reproduction, and distribution of the Work otherwise complies with\n              the conditions stated in this License.\n        \n           5. Submission of Contributions. Unless You explicitly state otherwise,\n              any Contribution intentionally submitted for inclusion in the Work\n              by You to the Licensor shall be under the terms and conditions of\n              this License, without any additional terms or conditions.\n              Notwithstanding the above, nothing herein shall supersede or modify\n              the terms of any separate license agreement you may have executed\n              with Licensor regarding such Contributions.\n        \n           6. Trademarks. This License does not grant permission to use the trade\n              names, trademarks, service marks, or product names of the Licensor,\n              except as required for reasonable and customary use in describing the\n              origin of the Work and reproducing the content of the NOTICE file.\n        \n           7. Disclaimer of Warranty. Unless required by applicable law or\n              agreed to in writing, Licensor provides the Work (and each\n              Contributor provides its Contributions) on an \"AS IS\" BASIS,\n              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n              implied, including, without limitation, any warranties or conditions\n              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n              PARTICULAR PURPOSE. You are solely responsible for determining the\n              appropriateness of using or redistributing the Work and assume any\n              risks associated with Your exercise of permissions under this License.\n        \n           8. Limitation of Liability. In no event and under no legal theory,\n              whether in tort (including negligence), contract, or otherwise,\n              unless required by applicable law (such as deliberate and grossly\n              negligent acts) or agreed to in writing, shall any Contributor be\n              liable to You for damages, including any direct, indirect, special,\n              incidental, or consequential damages of any character arising as a\n              result of this License or out of the use or inability to use the\n              Work (including but not limited to damages for loss of goodwill,\n              work stoppage, computer failure or malfunction, or any and all\n              other commercial damages or losses), even if such Contributor\n              has been advised of the possibility of such damages.\n        \n           9. Accepting Warranty or Additional Liability. While redistributing\n              the Work or Derivative Works thereof, You may choose to offer,\n              and charge a fee for, acceptance of support, warranty, indemnity,\n              or other liability obligations and/or rights consistent with this\n              License. However, in accepting such obligations, You may act only\n              on Your own behalf and on Your sole responsibility, not on behalf\n              of any other Contributor, and only if You agree to indemnify,\n              defend, and hold each Contributor harmless for any liability\n              incurred by, or claims asserted against, such Contributor by reason\n              of your accepting any such warranty or additional liability.\n        \n           ---------------------- ADDITIONAL PROVISION --------------------------\n        \n            10. Additional attribution.\n            If You distribute or make available the Work or any Derivative\n            Work thereof relating to any part of the source or model weights,\n            or a product or service (including another AI model) that contains\n            any source or model weights, You shall (A) provide a copy of this\n            License with any such materials; and (B) prominently display\n            “Built with PriorLabs-TabPFN” on each related website, user interface, blogpost,\n            about page, or product documentation. If You use the source or model\n            weights or model outputs to create, train, fine tune, distil, or\n            otherwise improve an AI model, which is distributed or made available,\n            you shall also include “TabPFN” at the beginning of any such AI model name.\n            To clarify, internal benchmarking and testing without external\n            communication shall not qualify as distribution or making available\n            pursuant to this Section 10 and no attribution under this Section 10\n            shall be required.\n        \n        \n           END OF TERMS AND CONDITIONS\n        ",
-      "pub_date": 1762450396
-    },
-    {
-      "name": "llama-index-llms-google-genai",
-      "version": "0.7.2",
-      "summary": "llama-index llms google genai integration",
+      "name": "vulnmap",
+      "version": "1.3.0",
+      "summary": "Advanced AI-Driven Penetration Testing Tool",
       "license": null,
-      "pub_date": 1762450389
+      "pub_date": 1762451117
     },
     {
-      "name": "etuCV",
-      "version": "0.0.1",
-      "summary": "A Computer Vision library with high-level functions for educational purposes.",
+      "name": "sf-veritas",
+      "version": "0.10.6",
+      "summary": "Middleware for Django, Flask, and FastAPI to intercept requests, logs, and exceptions.",
+      "license": "Proprietary",
+      "pub_date": 1762451104
+    },
+    {
+      "name": "mchnpkg",
+      "version": "0.4.3",
+      "summary": "Add your description here",
       "license": null,
-      "pub_date": 1762450384
+      "pub_date": 1762451098
     },
     {
-      "name": "MOBPY",
-      "version": "2.1.0",
-      "summary": "Monotone optimal binning (MOB) via PAVA with constraints, plus plotting utilities.",
-      "license": "MIT",
-      "pub_date": 1762450382
+      "name": "reactivated",
+      "version": "0.47.7a3004",
+      "summary": "A statically typed framework to create Django sites with a React frontend.",
+      "license": null,
+      "pub_date": 1762451078
     },
     {
-      "name": "chaiverse",
-      "version": "1.28.13",
-      "summary": "Chaiverse",
-      "license": "MIT",
-      "pub_date": 1762450326
+      "name": "wads",
+      "version": "0.1.43",
+      "summary": "Tools for packaging and publishing to pypi for those who just don not want to deal with it",
+      "license": "Apache Software License",
+      "pub_date": 1762451068
     },
     {
-      "name": "stocktrim-openapi-client",
-      "version": "0.9.2",
-      "summary": "A modern, pythonic StockTrim Inventory Management API client with automatic retries, rate limiting, and smart pagination",
-      "license": "MIT",
-      "pub_date": 1762450320
+      "name": "tomo-detect",
+      "version": "0.1.5",
+      "summary": "A CLI tool for detecting motor coordinates in tomography data",
+      "license": null,
+      "pub_date": 1762451059
     },
     {
-      "name": "mayini-framework",
-      "version": "0.3.8",
-      "summary": "A comprehensive deep learning framework built from scratch in Python with PyTorch-like API",
+      "name": "rezlang",
+      "version": "4.0.1",
+      "summary": "RezLang+ — made by Rez",
+      "license": null,
+      "pub_date": 1762451031
+    },
+    {
+      "name": "9eq",
+      "version": "0.1.0",
+      "summary": "A real-time visualizer for the 9 nineeq frequencies",
       "license": "MIT",
-      "pub_date": 1762450300
+      "pub_date": 1762451002
     }
   ],
   "license": {
     "licenses": {
-      "GNU GPL v3.0": 1,
       "AGPL-3.0-only": 5,
+      "Apache-2.0": 510,
       "GPL-2.0-or-later": 5,
       "GPL-3.0-or-later": 50,
-      "AGPL-3": 98,
-      "Apache 2.0 license": 3,
-      "MIT": 1225,
+      "LGPL-3": 9,
+      "AFL-3.0": 2,
+      "MIT License": 78,
+      "BSD-3-Clause": 64,
+      "GPLv3+": 7,
+      "MIT": 1232,
+      "Apache 2.0 License": 3,
+      "Apache 2.0": 101,
+      "Proprietary": 72,
+      "Apache 2": 9,
+      "AGPL": 6,
+      "BSD-2-Clause": 3,
+      "GNU": 2,
       "GPL-3.0-only": 12,
       "MIT OR Apache-2.0": 4,
-      "Proprietary": 71,
-      "Apache-2.0": 509,
-      "Apache 2.0 License": 3,
-      "GPLv3+": 7,
-      "MIT License": 77,
+      "Apache 2.0 license": 3,
+      "Apache": 8,
       "Apache License 2.0": 150,
       "ASL": 2,
-      "Apache 2": 9,
-      "LGPL-3": 9,
+      "AGPL-3": 98,
       "CC BY-NC-SA 4.0": 4,
-      "AGPL": 6,
-      "Apache 2.0": 100,
-      "BSD-3-Clause": 64,
-      "AFL-3.0": 2,
-      "Apache": 8,
-      "BSD-2-Clause": 3,
-      "GNU": 2
+      "GNU GPL v3.0": 1
     },
-    "no_license_count": 3156,
+    "no_license_count": 3165,
     "recent_no_license_projects": [
       {
-        "name": "gnetcli-server-bin",
-        "version": "1.1.2rc5",
-        "summary": "Python shim for a prepackaged gnetcli_server binary.",
+        "name": "nifti2bids",
+        "version": "0.1.0",
+        "summary": "Post-hoc BIDS conversion toolkit for NIfTI datasets without original DICOMs.",
         "license": null,
-        "pub_date": 1762450448
+        "pub_date": 1762451124
       },
       {
-        "name": "llama-index-llms-google-genai",
-        "version": "0.7.2",
-        "summary": "llama-index llms google genai integration",
+        "name": "vulnmap",
+        "version": "1.3.0",
+        "summary": "Advanced AI-Driven Penetration Testing Tool",
         "license": null,
-        "pub_date": 1762450389
+        "pub_date": 1762451117
       },
       {
-        "name": "etuCV",
-        "version": "0.0.1",
-        "summary": "A Computer Vision library with high-level functions for educational purposes.",
+        "name": "mchnpkg",
+        "version": "0.4.3",
+        "summary": "Add your description here",
         "license": null,
-        "pub_date": 1762450384
+        "pub_date": 1762451098
       },
       {
-        "name": "pixelemon",
-        "version": "0.3.6",
-        "summary": "Citra's basic image processing package",
+        "name": "reactivated",
+        "version": "0.47.7a3004",
+        "summary": "A statically typed framework to create Django sites with a React frontend.",
         "license": null,
-        "pub_date": 1762450177
+        "pub_date": 1762451078
       },
       {
-        "name": "writer",
-        "version": "1.19.0rc9",
-        "summary": "An open-source, Python framework for building feature-rich apps that are fully integrated with the Writer platform.",
+        "name": "tomo-detect",
+        "version": "0.1.5",
+        "summary": "A CLI tool for detecting motor coordinates in tomography data",
         "license": null,
-        "pub_date": 1762450156
+        "pub_date": 1762451059
       },
       {
         "name": "rezlang",
-        "version": "2.0.0",
-        "summary": "RezLang+ — a fun and expressive console toolkit by Goat Rez",
+        "version": "4.0.1",
+        "summary": "RezLang+ — made by Rez",
         "license": null,
-        "pub_date": 1762450107
+        "pub_date": 1762451031
       },
       {
-        "name": "korvax",
-        "version": "0.0.2",
-        "summary": "JAX utilities for Audio DSP and ML",
+        "name": "orto",
+        "version": "1.7.0",
+        "summary": "A package to make life easier when performing Orca calculations.",
         "license": null,
-        "pub_date": 1762450098
+        "pub_date": 1762451001
       },
       {
-        "name": "icmd-python",
-        "version": "1.5.7",
-        "summary": "Python client app for ICMD®",
+        "name": "localstack-core",
+        "version": "4.10.1.dev11",
+        "summary": "The core library and runtime of LocalStack",
         "license": null,
-        "pub_date": 1762450090
+        "pub_date": 1762450989
       },
       {
-        "name": "homa",
-        "version": "0.2.93",
-        "summary": "A curated list of machine learning and deep learning helpers.",
+        "name": "tobiko-cloud-api-client",
+        "version": "202545.2.0",
+        "summary": null,
         "license": null,
-        "pub_date": 1762450043
+        "pub_date": 1762450944
       },
       {
-        "name": "gamengine2d",
-        "version": "2.20.2",
-        "summary": "A Unity-like 2D engine in Python using pygame",
+        "name": "tobiko-cloud-helpers",
+        "version": "202545.2.0",
+        "summary": null,
         "license": null,
-        "pub_date": 1762450021
+        "pub_date": 1762450930
       }
     ],
-    "bad_license_count": 1078,
+    "bad_license_count": 1083,
     "recent_bad_license_projects": [
+      {
+        "name": "wads",
+        "version": "0.1.43",
+        "summary": "Tools for packaging and publishing to pypi for those who just don not want to deal with it",
+        "license": "Apache Software License",
+        "pub_date": 1762451068
+      },
+      {
+        "name": "domaintools-api",
+        "version": "2.6.1",
+        "summary": "DomainTools Official Python API",
+        "license": "The MIT License (MIT)\n        \n        Copyright (c) 2016 DomainTools\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.\n        ",
+        "pub_date": 1762450963
+      },
+      {
+        "name": "tatukgis-pdk",
+        "version": "107.1.39243",
+        "summary": "TatukGIS Developer Kernel for Python (DK.Python). A powerfull GIS SDK.",
+        "license": "Other/Proprietary License",
+        "pub_date": 1762450884
+      },
+      {
+        "name": "encord",
+        "version": "0.1.181",
+        "summary": "Encord Python SDK Client",
+        "license": "Apache Software License",
+        "pub_date": 1762450793
+      },
+      {
+        "name": "UMA-ASE",
+        "version": "0.5.1",
+        "summary": "UMA machine-learned force-field integrated with ASE workflows",
+        "license": "CC BY",
+        "pub_date": 1762450786
+      },
+      {
+        "name": "argo-client",
+        "version": "0.0.14",
+        "summary": "A JSON RPC client library.",
+        "license": "BSD License",
+        "pub_date": 1762450730
+      },
+      {
+        "name": "pytorchfire",
+        "version": "1.0.3.post2",
+        "summary": "PyTorchFire: A GPU-Accelerated Wildfire Simulator with Differentiable Cellular Automata",
+        "license": "MIT License\n        \n        Copyright (c) 2024 Zeyu Xia\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.",
+        "pub_date": 1762450569
+      },
       {
         "name": "tabpfn",
         "version": "6.0.5",
@@ -196,55 +245,6 @@
         "summary": "Scalable gene regulatory network inference using tree-based ensemble regressors with p-values",
         "license": "GNU General Public License v3 (GPLv3)",
         "pub_date": 1762450036
-      },
-      {
-        "name": "pigeon-transitions",
-        "version": "4.0.0",
-        "summary": "A state machine framework for Pigeon.",
-        "license": "BSD 3 Clause",
-        "pub_date": 1762449889
-      },
-      {
-        "name": "compas-cadwork",
-        "version": "0.10.0",
-        "summary": "COMPAS package for integrating with cadwork.",
-        "license": "MIT License\n        \n        Copyright (c) 2024 Gramazio Kohler Research, ETH Zurich\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.\n        ",
-        "pub_date": 1762449664
-      },
-      {
-        "name": "elixir-training-mcp",
-        "version": "0.0.3",
-        "summary": "A Model Context Protocol (MCP) server to access data about training materials.",
-        "license": "MIT License  Copyright (c) 2025-present ELIXIR Europe Training  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
-        "pub_date": 1762449463
-      },
-      {
-        "name": "digimat.mbio",
-        "version": "0.1.189",
-        "summary": "Digimat MBIO System",
-        "license": "PSF",
-        "pub_date": 1762449451
-      },
-      {
-        "name": "care-crn",
-        "version": "0.1.3",
-        "summary": "Chemical Reaction Network generator for heterogenous catalysis",
-        "license": "MIT License\n        \n        Copyright (c) 2024 LopezGroup-ICIQ\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.\n        ",
-        "pub_date": 1762449276
-      },
-      {
-        "name": "pymodaq",
-        "version": "5.1.2",
-        "summary": "Modular Data Acquisition with Python",
-        "license": "The MIT License (MIT)\n        \n        Copyright (c) 2021 Sebastien Weber <sebastien.weber@cemes.fr>\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in\n        all copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n        THE SOFTWARE.",
-        "pub_date": 1762449102
-      },
-      {
-        "name": "pymodaq_gui",
-        "version": "5.1.2",
-        "summary": "User Interface components for PyMoDAQ",
-        "license": "The MIT License (MIT)\n        \n        Copyright (c) 2021 Sebastien Weber <sebastien.weber@cemes.fr>\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in\n        all copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n        THE SOFTWARE.",
-        "pub_date": 1762449094
       }
     ]
   }
