@@ -38,18 +38,6 @@
       "pub_date": 1763134691
     },
     {
-      "name": "SmolPyGUI",
-      "version": "1.64.2.post1",
-      "summary": "A little GUI system made with pygame",
-      "license": "MIT",
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": null,
-      "author_email": "Smol <kingalexander471@gmail.com>",
-      "pub_date": 1763134647
-    },
-    {
       "name": "opentrons-shared-data",
       "version": "8.8.0a7",
       "summary": "A bundle of data and python binding that supports the Opentrons API.Does not need to be installed manually; only a dependency of the opentrons package",
@@ -120,36 +108,48 @@
       "author": null,
       "author_email": "Phil Van Meppelen Scheppink <phil@dclimate.net>, Evan Schechter <evan@arbol.io>, Chris Rossi <chris@christophermrossi.com>, Robert Banick <robert.banick@arbol.io>",
       "pub_date": 1763134590
+    },
+    {
+      "name": "metatomic-torch",
+      "version": "0.1.6",
+      "summary": "Interface between atomistic machine learning models and simulation tools",
+      "license": null,
+      "home_page": null,
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": "Guillaume Fraux, Filippo Bigi",
+      "author_email": null,
+      "pub_date": 1763134580
     }
   ],
   "license": {
     "licenses": {
-      "LGPL-3": 33,
-      "GNU": 3,
-      "GNU GPL v3.0": 1,
-      "GPL-3.0-only": 32,
-      "GPLv3+": 20,
-      "AFL-3.0": 2,
-      "MIT License": 219,
-      "MIT OR Apache-2.0": 14,
-      "Apache 2.0 License": 6,
-      "Apache-2.0": 1180,
-      "BSD-3-Clause": 177,
-      "ASL": 3,
-      "CC BY-NC-SA 4.0": 6,
-      "Apache 2.0": 211,
-      "GPL-3.0-or-later": 153,
-      "Apache": 22,
-      "GPL-2.0-or-later": 13,
-      "MIT": 3713,
-      "Proprietary": 122,
       "AGPL-3.0-only": 15,
       "Apache License 2.0": 282,
-      "AGPL-3": 343,
-      "Apache 2": 16,
-      "Apache 2.0 license": 3,
+      "CC BY-NC-SA 4.0": 6,
+      "AGPL": 12,
+      "MIT License": 219,
+      "GPL-3.0-only": 32,
+      "GNU GPL v3.0": 1,
+      "Proprietary": 122,
+      "GPL-3.0-or-later": 153,
+      "Apache": 22,
+      "Apache-2.0": 1180,
+      "Apache 2.0": 211,
       "BSD-2-Clause": 18,
-      "AGPL": 12
+      "AGPL-3": 343,
+      "BSD-3-Clause": 177,
+      "GPL-2.0-or-later": 13,
+      "MIT": 3713,
+      "GNU": 3,
+      "MIT OR Apache-2.0": 14,
+      "LGPL-3": 33,
+      "AFL-3.0": 2,
+      "Apache 2.0 License": 6,
+      "GPLv3+": 20,
+      "Apache 2.0 license": 3,
+      "ASL": 3,
+      "Apache 2": 16
     },
     "no_license_count": 9026,
     "recent_no_license_projects": [
@@ -400,8 +400,8 @@
   },
   "vcs": {
     "hosts": {
-      "gitlab": 53,
-      "github": 2665
+      "github": 2665,
+      "gitlab": 53
     },
     "no_vcs_count": 15317,
     "recent_no_vcs_projects": [
@@ -416,18 +416,6 @@
         "author": null,
         "author_email": "Jeffrey Horn <jeffreydhorn@gmail.com>",
         "pub_date": 1763134713
-      },
-      {
-        "name": "SmolPyGUI",
-        "version": "1.64.2.post1",
-        "summary": "A little GUI system made with pygame",
-        "license": "MIT",
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "Smol <kingalexander471@gmail.com>",
-        "pub_date": 1763134647
       },
       {
         "name": "opentrons-shared-data",
@@ -524,6 +512,18 @@
         "author": "Vadym Vlasenko",
         "author_email": "vadym_vlasenko@epam.com",
         "pub_date": 1763134578
+      },
+      {
+        "name": "vitrea-host",
+        "version": "0.2.0",
+        "summary": "Python library for controlling Vitrea Smart Home Controllers via TCP",
+        "license": "Apache-2.0",
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Noam Aybes <noama@vitrea-sh.com>",
+        "pub_date": 1763134567
       }
     ],
     "bad_vcs_count": 683,
