@@ -2,6 +2,30 @@
   "total": 19363,
   "recent_projects": [
     {
+      "name": "medthermal-dicom",
+      "version": "1.0.2",
+      "summary": "Professional thermal imaging DICOM library for medical applications",
+      "license": "MIT",
+      "home_page": null,
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": null,
+      "author_email": "\"Niramai Health Analytix Pvt Ltd., Bangalore, India\" <medthermaldicom@niramai.com>",
+      "pub_date": 1763178318
+    },
+    {
+      "name": "odoo-addon-project-task-ancestor",
+      "version": "18.0.1.0.1.2",
+      "summary": "Project Task Ancestor",
+      "license": "LGPL-3",
+      "home_page": "https://github.com/OCA/project",
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": "Moduon, Odoo Community Association (OCA)",
+      "author_email": "support@odoo-community.org",
+      "pub_date": 1763178314
+    },
+    {
       "name": "yacs-stubgen",
       "version": "0.3.1",
       "summary": "Generate stub file for yacs config.",
@@ -96,60 +120,36 @@
       "author": "Valentin Berlier",
       "author_email": "Valentin Berlier <berlier.v@gmail.com>",
       "pub_date": 1763177963
-    },
-    {
-      "name": "mecha",
-      "version": "0.100.0b1",
-      "summary": "A powerful Minecraft command library",
-      "license": "MIT License  Copyright (c) 2021 Valentin Berlier  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": "Valentin Berlier",
-      "author_email": "Valentin Berlier <berlier.v@gmail.com>",
-      "pub_date": 1763177914
-    },
-    {
-      "name": "sdv",
-      "version": "1.29.0",
-      "summary": "Generate synthetic data for single table, multi table and sequential data",
-      "license": "BSL-1.1",
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": null,
-      "author_email": "\"DataCebo, Inc.\" <info@sdv.dev>",
-      "pub_date": 1763177910
     }
   ],
   "license": {
     "licenses": {
-      "MIT OR Apache-2.0": 14,
-      "BSD-3-Clause": 181,
-      "Proprietary": 128,
-      "Apache 2.0 license": 3,
-      "CC BY-NC-SA 4.0": 6,
-      "AGPL": 12,
-      "GNU GPL v3.0": 1,
-      "AFL-3.0": 2,
-      "Apache 2.0": 217,
-      "Apache License 2.0": 287,
-      "AGPL-3": 375,
-      "BSD-2-Clause": 18,
-      "GPL-3.0-only": 32,
-      "Apache-2.0": 1292,
-      "AGPL-3.0-only": 16,
-      "Apache 2": 16,
-      "Apache 2.0 License": 6,
-      "ASL": 3,
-      "LGPL-3": 33,
-      "Apache": 29,
       "GNU": 3,
-      "GPL-2.0-or-later": 13,
+      "GNU GPL v3.0": 1,
+      "AGPL-3": 375,
+      "AGPL-3.0-only": 16,
+      "Apache": 29,
       "GPL-3.0-or-later": 155,
       "MIT": 3849,
+      "BSD-3-Clause": 181,
+      "Apache 2.0 license": 3,
+      "Apache 2.0 License": 6,
+      "MIT License": 224,
+      "Proprietary": 128,
+      "GPL-3.0-only": 32,
+      "CC BY-NC-SA 4.0": 6,
+      "BSD-2-Clause": 18,
+      "ASL": 3,
+      "Apache 2": 16,
+      "LGPL-3": 33,
+      "AFL-3.0": 2,
+      "GPL-2.0-or-later": 13,
       "GPLv3+": 22,
-      "MIT License": 224
+      "Apache 2.0": 217,
+      "AGPL": 12,
+      "Apache License 2.0": 287,
+      "Apache-2.0": 1292,
+      "MIT OR Apache-2.0": 14
     },
     "no_license_count": 9244,
     "recent_no_license_projects": [
@@ -400,11 +400,23 @@
   },
   "vcs": {
     "hosts": {
-      "github": 2875,
-      "gitlab": 56
+      "gitlab": 56,
+      "github": 2874
     },
-    "no_vcs_count": 15688,
+    "no_vcs_count": 15689,
     "recent_no_vcs_projects": [
+      {
+        "name": "medthermal-dicom",
+        "version": "1.0.2",
+        "summary": "Professional thermal imaging DICOM library for medical applications",
+        "license": "MIT",
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "\"Niramai Health Analytix Pvt Ltd., Bangalore, India\" <medthermaldicom@niramai.com>",
+        "pub_date": 1763178318
+      },
       {
         "name": "yacs-stubgen",
         "version": "0.3.1",
@@ -512,18 +524,6 @@
         "author": "Valentin Berlier",
         "author_email": "Valentin Berlier <berlier.v@gmail.com>",
         "pub_date": 1763177871
-      },
-      {
-        "name": "odoo-addons-oca-partner-contact",
-        "version": "19.0.20251114.0",
-        "summary": null,
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": null,
-        "pub_date": 1763177808
       }
     ],
     "bad_vcs_count": 744,
