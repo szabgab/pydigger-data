@@ -1,5 +1,5 @@
 {
-  "total": 23174,
+  "total": 23182,
   "recent_projects": [
     {
       "name": "openedx-ltistore",
@@ -124,34 +124,34 @@
   ],
   "license": {
     "licenses": {
-      "ASL": 3,
-      "LGPL-3": 39,
-      "AGPL": 12,
-      "AGPL-3": 431,
-      "Apache 2": 20,
-      "GPL-3.0-only": 39,
-      "CC BY-NC-SA 4.0": 6,
-      "BSD-3-Clause": 217,
-      "GPLv3+": 25,
-      "MIT": 4650,
-      "MIT License": 261,
-      "Apache 2.0": 246,
-      "MIT OR Apache-2.0": 18,
-      "Apache 2.0 License": 8,
-      "AGPL-3.0-only": 18,
-      "Apache-2.0": 1492,
-      "Proprietary": 139,
       "AFL-3.0": 2,
-      "GPL-2.0-or-later": 14,
-      "Apache 2.0 license": 3,
-      "BSD-2-Clause": 20,
+      "Apache 2": 20,
+      "AGPL": 12,
+      "AGPL-3.0-only": 18,
       "GNU": 4,
-      "GNU GPL v3.0": 1,
-      "Apache License 2.0": 314,
+      "ASL": 3,
+      "BSD-3-Clause": 217,
+      "Apache 2.0 license": 3,
+      "LGPL-3": 39,
       "GPL-3.0-or-later": 176,
-      "Apache": 38
+      "BSD-2-Clause": 20,
+      "MIT": 4652,
+      "Apache": 38,
+      "Apache License 2.0": 314,
+      "CC BY-NC-SA 4.0": 6,
+      "GPL-3.0-only": 39,
+      "MIT OR Apache-2.0": 18,
+      "GPL-2.0-or-later": 14,
+      "Proprietary": 139,
+      "Apache 2.0 License": 8,
+      "AGPL-3": 431,
+      "Apache 2.0": 246,
+      "MIT License": 262,
+      "GNU GPL v3.0": 1,
+      "Apache-2.0": 1493,
+      "GPLv3+": 25
     },
-    "no_license_count": 11115,
+    "no_license_count": 11118,
     "recent_no_license_projects": [
       {
         "name": "depmanager",
@@ -274,7 +274,7 @@
         "pub_date": 1763480767
       }
     ],
-    "bad_license_count": 3863,
+    "bad_license_count": 3864,
     "recent_bad_license_projects": [
       {
         "name": "openedx-ltistore",
@@ -400,10 +400,10 @@
   },
   "vcs": {
     "hosts": {
-      "github": 3717,
-      "gitlab": 71
+      "gitlab": 71,
+      "github": 3719
     },
-    "no_vcs_count": 18401,
+    "no_vcs_count": 18405,
     "recent_no_vcs_projects": [
       {
         "name": "babs",
@@ -526,7 +526,7 @@
         "pub_date": 1763480893
       }
     ],
-    "bad_vcs_count": 985,
+    "bad_vcs_count": 987,
     "recent_bad_vcs_projects": [
       {
         "name": "spaces",
@@ -551,6 +551,42 @@
         "author": null,
         "author_email": "j178 <hi@j178.dev>",
         "pub_date": 1763479056
+      },
+      {
+        "name": "pyspiral",
+        "version": "0.7.20",
+        "summary": "Python client for Spiral.",
+        "license": "Proprietary License",
+        "home_page": "https://spiraldb.com",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "SpiralDB <hello@spiraldb.com>",
+        "pub_date": 1763478929
+      },
+      {
+        "name": "acryl-executor",
+        "version": "0.3.1",
+        "summary": "An library used within Acryl Agents to execute tasks",
+        "license": "Apache License 2.0",
+        "home_page": "https://datahubproject.io/",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": null,
+        "pub_date": 1763478858
+      },
+      {
+        "name": "GeoAlchemy2",
+        "version": "0.18.1",
+        "summary": "Using SQLAlchemy with Spatial Databases",
+        "license": "MIT",
+        "home_page": "https://geoalchemy-2.readthedocs.io/en/stable/",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Eric Lemoine",
+        "author_email": "eric.lemoine@gmail.com",
+        "pub_date": 1763478723
       },
       {
         "name": "craft-ai-sdk",
@@ -611,42 +647,6 @@
         "author": "NVIDIA Corporation",
         "author_email": "cuda_installer@nvidia.com",
         "pub_date": 1763477478
-      },
-      {
-        "name": "custabilizer-cu12",
-        "version": "0.1.0",
-        "summary": "cuStabilizer - a component of NVIDIA cuQuantum SDK",
-        "license": "NVIDIA Proprietary Software",
-        "home_page": "https://developer.nvidia.com/cuquantum-sdk",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "NVIDIA Corporation",
-        "author_email": "cuda_installer@nvidia.com",
-        "pub_date": 1763477455
-      },
-      {
-        "name": "radical.pilot",
-        "version": "1.103.1",
-        "summary": "RADICAL-Cybertools Pilot Job Framework",
-        "license": "MIT",
-        "home_page": "http://radical-cybertools.github.io/radical.pilot/",
-        "maintainer": "The RADICAL Group",
-        "maintainer_email": "radical@rutgers.edu",
-        "author": "RADICAL Group at Rutgers University",
-        "author_email": "radical@rutgers.edu",
-        "pub_date": 1763477398
-      },
-      {
-        "name": "wp21-train",
-        "version": "0.7.2",
-        "summary": "Framework that provides tools allowing for monitoring, training and evaluating ML models",
-        "license": null,
-        "home_page": "https://gitlab.cern.ch/atlas-nextgen-wp21/wp21_training_framework.git",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "ATLAS NextGen WP2.1",
-        "author_email": "ngtwp21@cern.ch",
-        "pub_date": 1763476864
       }
     ]
   }
