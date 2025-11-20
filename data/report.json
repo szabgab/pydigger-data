@@ -1,5 +1,5 @@
 {
-  "total": 26200,
+  "total": 26224,
   "recent_projects": [
     {
       "name": "coz",
@@ -124,34 +124,34 @@
   ],
   "license": {
     "licenses": {
-      "GNU GPL v3.0": 2,
-      "GPL-2.0-or-later": 14,
-      "MIT License": 288,
-      "BSD-3-Clause": 240,
-      "LGPL-3": 45,
-      "BSD-2-Clause": 21,
       "GPL-3.0-only": 47,
-      "Apache 2.0 License": 9,
-      "GNU": 7,
+      "MIT License": 288,
+      "BSD-2-Clause": 21,
+      "GPL-2.0-or-later": 14,
+      "BSD-3-Clause": 241,
+      "CC BY-NC-SA 4.0": 7,
+      "GPLv3+": 27,
+      "ASL": 3,
       "GPL-3.0-or-later": 196,
       "AFL-3.0": 2,
-      "Apache License 2.0": 345,
-      "Apache": 39,
-      "Apache-2.0": 1628,
+      "Apache 2.0 License": 9,
       "MIT OR Apache-2.0": 25,
-      "Proprietary": 161,
-      "AGPL-3": 486,
-      "GPLv3+": 27,
-      "MIT": 5226,
+      "AGPL": 14,
+      "GNU": 7,
+      "Apache-2.0": 1633,
+      "GNU GPL v3.0": 2,
+      "Apache": 39,
       "AGPL-3.0-only": 18,
-      "Apache 2.0": 265,
-      "Apache 2.0 license": 3,
-      "ASL": 3,
+      "MIT": 5231,
+      "Proprietary": 161,
+      "Apache License 2.0": 345,
+      "Apache 2.0": 267,
+      "LGPL-3": 45,
+      "AGPL-3": 486,
       "Apache 2": 22,
-      "CC BY-NC-SA 4.0": 7,
-      "AGPL": 14
+      "Apache 2.0 license": 3
     },
-    "no_license_count": 12580,
+    "no_license_count": 12585,
     "recent_no_license_projects": [
       {
         "name": "beanie",
@@ -274,7 +274,7 @@
         "pub_date": 1763663923
       }
     ],
-    "bad_license_count": 4480,
+    "bad_license_count": 4486,
     "recent_bad_license_projects": [
       {
         "name": "pyeuropepmc",
@@ -400,10 +400,10 @@
   },
   "vcs": {
     "hosts": {
-      "github": 4368,
-      "gitlab": 100
+      "gitlab": 100,
+      "github": 4374
     },
-    "no_vcs_count": 20575,
+    "no_vcs_count": 20592,
     "recent_no_vcs_projects": [
       {
         "name": "coz",
@@ -526,7 +526,7 @@
         "pub_date": 1763664236
       }
     ],
-    "bad_vcs_count": 1157,
+    "bad_vcs_count": 1158,
     "recent_bad_vcs_projects": [
       {
         "name": "pyodide-mkdocs-theme",
@@ -565,6 +565,66 @@
         "pub_date": 1763663832
       },
       {
+        "name": "langgraph-checkpoint-redis",
+        "version": "0.2.1",
+        "summary": "Redis implementation of the LangGraph agent checkpoint saver and store.",
+        "license": "MIT",
+        "home_page": "https://www.github.com/redis-developer/langgraph-redis",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Redis Inc.",
+        "author_email": "applied.ai@redis.com",
+        "pub_date": 1763661710
+      },
+      {
+        "name": "salt",
+        "version": "3007.9",
+        "summary": "Portable, distributed, remote execution and configuration management system",
+        "license": "Apache Software License 2.0",
+        "home_page": "https://saltproject.io",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Thomas S Hatch",
+        "author_email": "thatch45@gmail.com",
+        "pub_date": 1763661495
+      },
+      {
+        "name": "pycarlo",
+        "version": "0.11.18",
+        "summary": "Monte Carlo's Python SDK",
+        "license": "Apache Software License (Apache 2.0)",
+        "home_page": "https://www.montecarlodata.com/",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Monte Carlo Data, Inc",
+        "author_email": "info@montecarlodata.com",
+        "pub_date": 1763661487
+      },
+      {
+        "name": "agrossuite",
+        "version": "2025.11.20.1855",
+        "summary": "Multiplatform application for the solution of physical problems based on the deal.II library",
+        "license": "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)",
+        "home_page": "http://www.agros2d.org/",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Agros Suite",
+        "author_email": "karban@fel.zcu.cz",
+        "pub_date": 1763661361
+      },
+      {
+        "name": "certora-cli-beta",
+        "version": "8.5.1",
+        "summary": "Runner for the Certora Prover",
+        "license": "GPL-3.0-only",
+        "home_page": "https://pypi.org/project/certora-cli-beta",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Certora",
+        "author_email": "support@certora.com",
+        "pub_date": 1763661238
+      },
+      {
         "name": "certora-cli-beta-mirror",
         "version": "8.5.1",
         "summary": "Runner for the Certora Prover",
@@ -587,66 +647,6 @@
         "author": "Certora",
         "author_email": "support@certora.com",
         "pub_date": 1763660637
-      },
-      {
-        "name": "airbyte-cdk",
-        "version": "7.5.1.dev0",
-        "summary": "A framework for writing Airbyte Connectors.",
-        "license": "MIT",
-        "home_page": "https://airbyte.com",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Airbyte",
-        "author_email": "contact@airbyte.io",
-        "pub_date": 1763660291
-      },
-      {
-        "name": "datarobot-drum",
-        "version": "1.17.7",
-        "summary": "DRUM - develop, test and deploy custom models",
-        "license": "Apache License, Version 2.0",
-        "home_page": "http://datarobot.com",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "DataRobot",
-        "author_email": "support@datarobot.com",
-        "pub_date": 1763659184
-      },
-      {
-        "name": "prototwin",
-        "version": "0.2.1",
-        "summary": "The official python client interface for ProtoTwin Connect.",
-        "license": "MIT",
-        "home_page": "https://prototwin.com",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "ProtoTwin",
-        "author_email": null,
-        "pub_date": 1763658765
-      },
-      {
-        "name": "airbyte-source-google-ads",
-        "version": "4.1.0",
-        "summary": "Source implementation for Google Ads.",
-        "license": "Elv2",
-        "home_page": "https://airbyte.com",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Airbyte",
-        "author_email": "contact@airbyte.io",
-        "pub_date": 1763657707
-      },
-      {
-        "name": "max-core",
-        "version": "25.7.0",
-        "summary": null,
-        "license": "LicenseRef-MAX-Platform-Software-License",
-        "home_page": "https://modular.com",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Modular Inc",
-        "author_email": "hello@modular.com",
-        "pub_date": 1763656618
       }
     ]
   }
