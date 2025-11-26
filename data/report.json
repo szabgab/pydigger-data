@@ -1,5 +1,5 @@
 {
-  "total": 32474,
+  "total": 32480,
   "recent_projects": [
     {
       "name": "scc-firewall-manager-sdk",
@@ -124,34 +124,34 @@
   ],
   "license": {
     "licenses": {
-      "AFL-3.0": 2,
-      "Apache 2.0 License": 11,
-      "LGPL-3": 73,
-      "BSD-2-Clause": 28,
-      "GNU GPL v3.0": 2,
-      "GPL-3.0-or-later": 239,
-      "GPL-2.0-or-later": 15,
-      "Proprietary": 209,
-      "AGPL": 20,
-      "GPL-3.0-only": 54,
-      "MIT License": 349,
-      "Apache 2.0": 331,
-      "MIT": 6620,
-      "Apache": 50,
-      "AGPL-3": 645,
-      "MIT OR Apache-2.0": 31,
-      "GPLv3+": 36,
-      "ASL": 3,
-      "AGPL-3.0-only": 22,
-      "Apache 2": 27,
-      "Apache 2.0 license": 3,
       "Apache License 2.0": 410,
-      "BSD-3-Clause": 295,
-      "CC BY-NC-SA 4.0": 9,
+      "ASL": 3,
+      "MIT OR Apache-2.0": 31,
       "GNU": 7,
-      "Apache-2.0": 1921
+      "Proprietary": 209,
+      "AGPL-3.0-only": 22,
+      "Apache 2.0 License": 11,
+      "GPL-3.0-only": 54,
+      "MIT": 6619,
+      "Apache 2.0": 331,
+      "AGPL": 20,
+      "Apache": 50,
+      "AFL-3.0": 2,
+      "GPL-2.0-or-later": 15,
+      "GPLv3+": 36,
+      "BSD-2-Clause": 28,
+      "MIT License": 349,
+      "Apache 2.0 license": 3,
+      "Apache-2.0": 1921,
+      "LGPL-3": 73,
+      "BSD-3-Clause": 295,
+      "GPL-3.0-or-later": 239,
+      "Apache 2": 27,
+      "AGPL-3": 645,
+      "CC BY-NC-SA 4.0": 9,
+      "GNU GPL v3.0": 2
     },
-    "no_license_count": 15511,
+    "no_license_count": 15517,
     "recent_no_license_projects": [
       {
         "name": "scc-firewall-manager-sdk",
@@ -274,7 +274,7 @@
         "pub_date": 1764171178
       }
     ],
-    "bad_license_count": 5551,
+    "bad_license_count": 5552,
     "recent_bad_license_projects": [
       {
         "name": "signalpilot-ai-internal",
@@ -400,10 +400,10 @@
   },
   "vcs": {
     "hosts": {
-      "gitlab": 137,
-      "github": 5823
+      "github": 5823,
+      "gitlab": 138
     },
-    "no_vcs_count": 24995,
+    "no_vcs_count": 25000,
     "recent_no_vcs_projects": [
       {
         "name": "scc-firewall-manager-sdk",
@@ -589,6 +589,42 @@
         "pub_date": 1764170543
       },
       {
+        "name": "rebrandly-otel",
+        "version": "0.2.36",
+        "summary": "Python OTEL wrapper by Rebrandly",
+        "license": null,
+        "home_page": "https://gitlab.rebrandly.com/rebrandly/instrumentation/rebrandly-otel-python",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Antonio Romano",
+        "author_email": "antonio@rebrandly.com",
+        "pub_date": 1764168359
+      },
+      {
+        "name": "openmeter",
+        "version": "1.0.0a36",
+        "summary": "Client for OpenMeter: Real-Time and Scalable Usage Metering",
+        "license": "Apache-2.0",
+        "home_page": "https://openmeter.io",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Andras Toth",
+        "author_email": "4157749+tothandras@users.noreply.github.com",
+        "pub_date": 1764168352
+      },
+      {
+        "name": "xpander-sdk",
+        "version": "2.0.121",
+        "summary": "xpander.ai Backend-as-a-service for AI Agents - SDK",
+        "license": null,
+        "home_page": "https://www.xpander.ai",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "xpanderAI",
+        "author_email": "dev@xpander.ai",
+        "pub_date": 1764168294
+      },
+      {
         "name": "smoothglue_django_core",
         "version": "1.4.0",
         "summary": "Enhance your development with SmoothGlue™, providing a user-friendly gateway to interoperable microservices for effortlessly creating complex app behaviors.",
@@ -601,18 +637,6 @@
         "pub_date": 1764167378
       },
       {
-        "name": "xpander-sdk",
-        "version": "2.0.120",
-        "summary": "xpander.ai Backend-as-a-service for AI Agents - SDK",
-        "license": null,
-        "home_page": "https://www.xpander.ai",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "xpanderAI",
-        "author_email": "dev@xpander.ai",
-        "pub_date": 1764167270
-      },
-      {
         "name": "lazynovel",
         "version": "0.1.44",
         "summary": "小说平台接口封包",
@@ -623,30 +647,6 @@
         "author": "ZeroSeeker",
         "author_email": "zeroseeker@foxmail.com",
         "pub_date": 1764166781
-      },
-      {
-        "name": "tauq",
-        "version": "0.1.0",
-        "summary": "Tauq parser for Python - Token-efficient data notation (44% fewer tokens than JSON)",
-        "license": null,
-        "home_page": "https://www.tauq.org",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": null,
-        "pub_date": 1764165615
-      },
-      {
-        "name": "odoo14-addon-ssi-odoo-implementation",
-        "version": "14.0.5.4.0",
-        "summary": "Odoo Implementation",
-        "license": "AGPL-3",
-        "home_page": "https://simetri-sinergi.id",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "OpenSynergy Indonesia, PT. Simetri Sinergi Indonesia",
-        "author_email": null,
-        "pub_date": 1764165367
       }
     ]
   }
