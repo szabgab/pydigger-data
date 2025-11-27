@@ -1,5 +1,5 @@
 {
-  "total": 33310,
+  "total": 33327,
   "recent_projects": [
     {
       "name": "rara-meta-extractor",
@@ -124,34 +124,34 @@
   ],
   "license": {
     "licenses": {
-      "AFL-3.0": 2,
+      "MIT OR Apache-2.0": 31,
+      "AGPL-3.0-only": 22,
+      "Apache 2": 27,
+      "GPL-2.0-or-later": 15,
+      "GPL-3.0-or-later": 246,
+      "Apache 2.0": 330,
       "Apache": 51,
-      "GNU GPL v3.0": 2,
       "AGPL-3": 659,
-      "GPL-3.0-only": 54,
-      "GPLv3+": 36,
-      "Proprietary": 219,
-      "Apache 2.0 License": 11,
-      "MIT": 6784,
       "AGPL": 21,
       "BSD-3-Clause": 299,
-      "Apache 2": 27,
+      "BSD-2-Clause": 28,
       "Apache 2.0 license": 3,
-      "GNU": 7,
-      "GPL-3.0-or-later": 246,
-      "AGPL-3.0-only": 22,
-      "GPL-2.0-or-later": 15,
+      "GNU GPL v3.0": 2,
+      "Apache 2.0 License": 11,
       "LGPL-3": 80,
+      "AFL-3.0": 2,
+      "CC BY-NC-SA 4.0": 9,
+      "Proprietary": 219,
+      "GPLv3+": 36,
+      "Apache License 2.0": 422,
+      "GNU": 7,
       "MIT License": 355,
       "ASL": 3,
-      "Apache-2.0": 1951,
-      "CC BY-NC-SA 4.0": 9,
-      "MIT OR Apache-2.0": 31,
-      "Apache 2.0": 330,
-      "Apache License 2.0": 422,
-      "BSD-2-Clause": 28
+      "GPL-3.0-only": 54,
+      "Apache-2.0": 1952,
+      "MIT": 6786
     },
-    "no_license_count": 15885,
+    "no_license_count": 15896,
     "recent_no_license_projects": [
       {
         "name": "pybinwalk-rust",
@@ -274,7 +274,7 @@
         "pub_date": 1764235343
       }
     ],
-    "bad_license_count": 5758,
+    "bad_license_count": 5761,
     "recent_bad_license_projects": [
       {
         "name": "rara-meta-extractor",
@@ -385,25 +385,25 @@
         "pub_date": 1764234553
       },
       {
-        "name": "bach-weather-api167",
-        "version": "2.0.0",
-        "summary": "RapidAPI: maruf111/weather-api167",
-        "license": "MIT License\n        \n        Copyright (c) 2025 bachstudio\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.",
-        "home_page": null,
+        "name": "dsf-mobility",
+        "version": "4.4.6",
+        "summary": "DSF C++ core with Python bindings via pybind11",
+        "license": "CC-BY-NC-SA-4.0",
+        "home_page": "https://github.com/physycom/DynamicalSystemFramework",
         "maintainer": null,
         "maintainer_email": null,
-        "author": "bachstudio",
-        "author_email": null,
-        "pub_date": 1764233092
+        "author": "Grufoony",
+        "author_email": "gregorio.berselli@studio.unibo.it",
+        "pub_date": 1764234333
       }
     ]
   },
   "vcs": {
     "hosts": {
-      "gitlab": 139,
-      "github": 6003
+      "github": 6005,
+      "gitlab": 139
     },
-    "no_vcs_count": 25565,
+    "no_vcs_count": 25578,
     "recent_no_vcs_projects": [
       {
         "name": "rara-meta-extractor",
@@ -526,7 +526,7 @@
         "pub_date": 1764235384
       }
     ],
-    "bad_vcs_count": 1603,
+    "bad_vcs_count": 1605,
     "recent_bad_vcs_projects": [
       {
         "name": "tinybird",
@@ -565,8 +565,20 @@
         "pub_date": 1764234782
       },
       {
+        "name": "librespot-spotizerr-phoenix",
+        "version": "0.0.12",
+        "summary": "Spotizerr's python librespot implementation - Phoenix fork",
+        "license": "Apache-2.0",
+        "home_page": "https://lavaforge.org/spotizerrphoenix/librespot-spotizerr-phoenix",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "spotizerrphoenix",
+        "author_email": null,
+        "pub_date": 1764234408
+      },
+      {
         "name": "novita-sandbox",
-        "version": "1.1.0a2",
+        "version": "1.1.0b1",
         "summary": "Novita Agent Sandbox SDK - Python library for Novita Agent Sandbox",
         "license": "MIT",
         "home_page": "https://novita.ai",
@@ -574,7 +586,43 @@
         "maintainer_email": "support@novita.ai",
         "author": "Novita",
         "author_email": "support@novita.ai",
-        "pub_date": 1764233075
+        "pub_date": 1764233968
+      },
+      {
+        "name": "spire-pdf",
+        "version": "11.11.0",
+        "summary": "A 100% standalone Pdf Python API for Processing Pdf Files",
+        "license": null,
+        "home_page": "https://www.e-iceblue.com",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "E-iceblue",
+        "author_email": "sales@e-iceblue.com",
+        "pub_date": 1764233932
+      },
+      {
+        "name": "dv-py",
+        "version": "0.1.7",
+        "summary": "Python bindings for dv (DimensionalVariable) - keeping track of units and dimensions for physical quantities",
+        "license": "Apache-2.0",
+        "home_page": "https://dv.alextac.com",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Alex Tacescu <alextac98@gmail.com>",
+        "pub_date": 1764233793
+      },
+      {
+        "name": "castor-extractor",
+        "version": "0.25.23",
+        "summary": "Extract your metadata assets.",
+        "license": "EULA",
+        "home_page": "https://www.castordoc.com/",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Castor",
+        "author_email": "support@castordoc.com",
+        "pub_date": 1764233733
       },
       {
         "name": "XGM-devtest",
@@ -599,54 +647,6 @@
         "author": "Andras Toth",
         "author_email": "4157749+tothandras@users.noreply.github.com",
         "pub_date": 1764232268
-      },
-      {
-        "name": "mlbi-lab",
-        "version": "0.4.4",
-        "summary": "MLBI Lab custom libraries and data",
-        "license": null,
-        "home_page": "https://github.com/combio-dku",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Seokhyun Yoon",
-        "author_email": "syoon@dku.edu",
-        "pub_date": 1764231496
-      },
-      {
-        "name": "ox-script",
-        "version": "2.1.3",
-        "summary": "The pskfunc.py file details offically supported APIs. The printer have a version of pskfunc.py on the printer with all functions fully implemented.",
-        "license": "MIT",
-        "home_page": "https://github.com/POSTEK-OX-Script",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Postek Electronics Co., Ltd.",
-        "author_email": "support@postek.com.cn",
-        "pub_date": 1764231495
-      },
-      {
-        "name": "scapi",
-        "version": "3.1.4",
-        "summary": "非同期なScratchAPIモジュール",
-        "license": "MIT",
-        "home_page": "https://scapi.kakeru.f5.si/",
-        "maintainer": "kakeruzoku",
-        "maintainer_email": "kakeruzoku@gmail.com",
-        "author": "kakeruzoku",
-        "author_email": "kakeruzoku@gmail.com",
-        "pub_date": 1764229436
-      },
-      {
-        "name": "cuteknopka123texttools",
-        "version": "0.0.1",
-        "summary": "Simple text tools",
-        "license": null,
-        "home_page": "https://github.com/CUTEknopka123/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "CUTEknopka123",
-        "author_email": "nnone@none.none",
-        "pub_date": 1764229077
       }
     ]
   }
