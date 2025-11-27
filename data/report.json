@@ -2,6 +2,30 @@
   "total": 33523,
   "recent_projects": [
     {
+      "name": "shotgun-sh",
+      "version": "0.2.27",
+      "summary": "AI-powered research, planning, and task management CLI tool",
+      "license": "MIT",
+      "home_page": null,
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": null,
+      "author_email": "\"Proofs.io\" <hello@proofs.io>",
+      "pub_date": 1764251104
+    },
+    {
+      "name": "djangocms-aldryn-forms",
+      "version": "8.6.4",
+      "summary": "Create forms and embed them on CMS pages.",
+      "license": "BSD",
+      "home_page": "https://github.com/CZ-NIC/djangocms-aldryn-forms",
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": "Divio AG",
+      "author_email": "info@divio.ch",
+      "pub_date": 1764251085
+    },
+    {
       "name": "lexorank-py",
       "version": "0.2.0",
       "summary": "lexorank",
@@ -96,60 +120,36 @@
       "author": null,
       "author_email": "Liam <liam@example.com>",
       "pub_date": 1764250905
-    },
-    {
-      "name": "ipfabric_netbox",
-      "version": "4.3.2b7",
-      "summary": "NetBox plugin to sync IP Fabric data into NetBox",
-      "license": "MIT",
-      "home_page": "https://gitlab.com/ip-fabric/integrations/ipfabric-netbox-sync",
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": "Solution Architecture",
-      "author_email": "solution.architecture@ipfabric.io",
-      "pub_date": 1764250859
-    },
-    {
-      "name": "scrybe-check",
-      "version": "0.1.1",
-      "summary": "Add inline annotations to check that files are self-consistent",
-      "license": null,
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": null,
-      "author_email": "Neven Villani <vanille@crans.org>",
-      "pub_date": 1764250840
     }
   ],
   "license": {
     "licenses": {
-      "GNU": 7,
+      "MIT": 6825,
+      "MIT License": 356,
+      "Apache 2": 27,
+      "LGPL-3": 80,
+      "GPL-3.0-only": 54,
+      "ASL": 3,
+      "BSD-2-Clause": 28,
+      "Apache-2.0": 1956,
+      "GPLv3+": 36,
+      "BSD-3-Clause": 302,
+      "Apache 2.0": 332,
+      "MIT OR Apache-2.0": 31,
+      "Proprietary": 221,
       "AFL-3.0": 2,
       "AGPL-3.0-only": 22,
-      "Apache-2.0": 1956,
-      "Apache 2.0": 332,
-      "Apache License 2.0": 425,
+      "Apache 2.0 license": 3,
+      "Apache 2.0 License": 13,
+      "GNU": 7,
       "GPL-2.0-or-later": 15,
       "GPL-3.0-or-later": 246,
-      "MIT": 6825,
-      "Apache 2.0 License": 13,
-      "LGPL-3": 80,
-      "Apache 2": 27,
-      "CC BY-NC-SA 4.0": 9,
-      "GPL-3.0-only": 54,
-      "AGPL-3": 659,
-      "GNU GPL v3.0": 2,
-      "BSD-2-Clause": 28,
-      "Apache": 51,
-      "BSD-3-Clause": 302,
-      "MIT License": 356,
       "AGPL": 21,
-      "Proprietary": 221,
-      "MIT OR Apache-2.0": 31,
-      "GPLv3+": 36,
-      "Apache 2.0 license": 3,
-      "ASL": 3
+      "Apache": 51,
+      "Apache License 2.0": 425,
+      "AGPL-3": 659,
+      "CC BY-NC-SA 4.0": 9,
+      "GNU GPL v3.0": 2
     },
     "no_license_count": 16001,
     "recent_no_license_projects": [
@@ -277,6 +277,18 @@
     "bad_license_count": 5796,
     "recent_bad_license_projects": [
       {
+        "name": "djangocms-aldryn-forms",
+        "version": "8.6.4",
+        "summary": "Create forms and embed them on CMS pages.",
+        "license": "BSD",
+        "home_page": "https://github.com/CZ-NIC/djangocms-aldryn-forms",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Divio AG",
+        "author_email": "info@divio.ch",
+        "pub_date": 1764251085
+      },
+      {
         "name": "lexorank-py",
         "version": "0.2.0",
         "summary": "lexorank",
@@ -383,28 +395,28 @@
         "author": null,
         "author_email": "Les Leslie <les@wedgwoodwebworks.com>",
         "pub_date": 1764250417
-      },
-      {
-        "name": "ncuhep",
-        "version": "0.2.1",
-        "summary": "NCU High Energy Physics tools for muography and related analysis.",
-        "license": "NCUHEP Research License (see LICENSE)",
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Phay Kah Seng",
-        "author_email": "phay_ks@icloud.com",
-        "pub_date": 1764250338
       }
     ]
   },
   "vcs": {
     "hosts": {
-      "gitlab": 139,
-      "github": 6061
+      "github": 6061,
+      "gitlab": 139
     },
     "no_vcs_count": 25704,
     "recent_no_vcs_projects": [
+      {
+        "name": "shotgun-sh",
+        "version": "0.2.27",
+        "summary": "AI-powered research, planning, and task management CLI tool",
+        "license": "MIT",
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "\"Proofs.io\" <hello@proofs.io>",
+        "pub_date": 1764251104
+      },
       {
         "name": "lexorank-py",
         "version": "0.2.0",
@@ -512,18 +524,6 @@
         "author": null,
         "author_email": "Alessandro Pandolfi <alessandro.pandolfi@protonmail.com>",
         "pub_date": 1764250822
-      },
-      {
-        "name": "ds-caselaw-marklogic-api-client",
-        "version": "44.0.2",
-        "summary": "An API client for interacting with the underlying data in Find Caselaw.",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "The National Archives",
-        "author_email": null,
-        "pub_date": 1764250798
       }
     ],
     "bad_vcs_count": 1619,
