@@ -1,5 +1,5 @@
 {
-  "total": 43816,
+  "total": 43837,
   "recent_projects": [
     {
       "name": "alibabacloud-privatelink20200415",
@@ -124,34 +124,34 @@
   ],
   "license": {
     "licenses": {
-      "Apache 2.0 License": 17,
-      "Apache-2.0": 2278,
-      "GPL-2.0-or-later": 27,
-      "ASL": 3,
-      "Apache": 59,
-      "BSD-2-Clause": 42,
-      "BSD-3-Clause": 400,
-      "AGPL-3.0-only": 29,
       "Apache License 2.0": 549,
-      "Apache 2": 30,
-      "GNU GPL v3.0": 2,
-      "Apache 2.0 license": 3,
-      "LGPL-3": 104,
-      "CC BY-NC-SA 4.0": 10,
-      "Apache 2.0": 415,
-      "MIT": 9201,
-      "MIT License": 444,
-      "GPL-3.0-or-later": 316,
-      "MIT OR Apache-2.0": 41,
+      "BSD-2-Clause": 42,
       "GPLv3+": 40,
+      "MIT OR Apache-2.0": 41,
+      "ASL": 3,
+      "GPL-2.0-or-later": 27,
+      "Apache 2.0": 415,
+      "CC BY-NC-SA 4.0": 10,
       "Proprietary": 259,
-      "AGPL": 25,
-      "AGPL-3": 799,
+      "Apache-2.0": 2278,
       "GNU": 8,
+      "AGPL": 25,
+      "LGPL-3": 104,
+      "GPL-3.0-or-later": 316,
+      "MIT License": 444,
+      "Apache 2": 30,
+      "BSD-3-Clause": 400,
+      "GPL-3.0-only": 79,
+      "GNU GPL v3.0": 2,
+      "MIT": 9207,
       "AFL-3.0": 1,
-      "GPL-3.0-only": 79
+      "Apache": 59,
+      "Apache 2.0 license": 3,
+      "AGPL-3.0-only": 29,
+      "Apache 2.0 License": 17,
+      "AGPL-3": 799
     },
-    "no_license_count": 21094,
+    "no_license_count": 21106,
     "recent_no_license_projects": [
       {
         "name": "project-diagnose",
@@ -226,18 +226,6 @@
         "pub_date": 1765213631
       },
       {
-        "name": "jragbeer_common",
-        "version": "0.2.44",
-        "summary": "Package to create JRAGBEER Common Functions",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "jragbeer <jragbeer@gmail.com>",
-        "pub_date": 1765213605
-      },
-      {
         "name": "pyprocessors-openai_completion",
         "version": "0.5.397",
         "summary": "OpenAICompletion processor",
@@ -272,9 +260,21 @@
         "author": null,
         "author_email": "Kayce Basques <kaycebasques@gmail.com>",
         "pub_date": 1765213521
+      },
+      {
+        "name": "giql",
+        "version": "0.1rc0",
+        "summary": "Genomic Interval Query Language - SQL dialect for genomic range queries",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": "Nezar Abdennur <nabdennur@gmail.com>, Conrad Bzura <conradbzura@gmail.com>",
+        "author": null,
+        "author_email": "Nezar Abdennur <nabdennur@gmail.com>, Conrad Bzura <conradbzura@gmail.com>",
+        "pub_date": 1765213484
       }
     ],
-    "bad_license_count": 7541,
+    "bad_license_count": 7544,
     "recent_bad_license_projects": [
       {
         "name": "peakrdl-rawheader",
@@ -400,10 +400,10 @@
   },
   "vcs": {
     "hosts": {
-      "github": 8149,
-      "gitlab": 172
+      "github": 8150,
+      "gitlab": 173
     },
-    "no_vcs_count": 33395,
+    "no_vcs_count": 33413,
     "recent_no_vcs_projects": [
       {
         "name": "peakrdl-rawheader",
@@ -526,7 +526,7 @@
         "pub_date": 1765213631
       }
     ],
-    "bad_vcs_count": 2100,
+    "bad_vcs_count": 2101,
     "recent_bad_vcs_projects": [
       {
         "name": "pyprocessors-openai_completion",
@@ -589,6 +589,30 @@
         "pub_date": 1765212745
       },
       {
+        "name": "databallpy",
+        "version": "0.7.2",
+        "summary": "A package for loading, preprocessing, vizualising and synchronizing soccere event and tracking data.",
+        "license": "MIT",
+        "home_page": "https://pypi.org/project/databallpy/",
+        "maintainer": "Alexander Oonk",
+        "maintainer_email": "alexanderoonk26@gmail.com",
+        "author": "Alexander Oonk",
+        "author_email": "alexanderoonk26@gmail.com",
+        "pub_date": 1765212021
+      },
+      {
+        "name": "castor-extractor",
+        "version": "0.25.28",
+        "summary": "Extract your metadata assets.",
+        "license": "EULA",
+        "home_page": "https://www.castordoc.com/",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Castor",
+        "author_email": "support@castordoc.com",
+        "pub_date": 1765211851
+      },
+      {
         "name": "pyodide-mkdocs-theme",
         "version": "5.3.2",
         "summary": "Package embedding the necessary tools to host pyodide, ACE editors, jQuery terminals in mkdocs documentations",
@@ -623,30 +647,6 @@
         "author": "Google Inc.",
         "author_email": "packages@tensorflow.org",
         "pub_date": 1765210560
-      },
-      {
-        "name": "tf-nightly",
-        "version": "2.21.0.dev20251208",
-        "summary": "TensorFlow is an open source machine learning framework for everyone.",
-        "license": "Apache 2.0",
-        "home_page": "https://www.tensorflow.org/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Google Inc.",
-        "author_email": "packages@tensorflow.org",
-        "pub_date": 1765210365
-      },
-      {
-        "name": "damage",
-        "version": "0.5.6",
-        "summary": "File manifest generator and python package for statistical data files and documentation'",
-        "license": "MIT",
-        "home_page": "https://ubc-library-rc.github.io/damage",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Paul Lesack",
-        "author_email": "paul.lesack@ubc.ca",
-        "pub_date": 1765210231
       }
     ]
   }
