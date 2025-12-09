@@ -1,5 +1,5 @@
 {
-  "total": 44313,
+  "total": 44330,
   "recent_projects": [
     {
       "name": "purelypdb",
@@ -124,34 +124,34 @@
   ],
   "license": {
     "licenses": {
-      "BSD-3-Clause": 404,
-      "GNU GPL v3.0": 2,
-      "GPL-2.0-or-later": 27,
+      "Apache 2.0 License": 17,
+      "Apache 2.0 license": 3,
       "GPL-3.0-only": 79,
+      "LGPL-3": 104,
+      "Apache-2.0": 2301,
+      "GPL-2.0-or-later": 27,
       "AGPL-3.0-only": 29,
+      "Apache 2": 30,
+      "Apache License 2.0": 552,
+      "BSD-3-Clause": 404,
+      "GPLv3+": 40,
+      "BSD-2-Clause": 42,
+      "AGPL-3": 812,
+      "MIT": 9316,
+      "AFL-3.0": 1,
       "ASL": 3,
       "CC BY-NC-SA 4.0": 10,
-      "MIT": 9310,
+      "GPL-3.0-or-later": 319,
+      "GNU": 8,
+      "AGPL": 25,
+      "GNU GPL v3.0": 2,
       "MIT License": 448,
       "MIT OR Apache-2.0": 41,
-      "GNU": 8,
-      "Apache 2.0 License": 17,
-      "Proprietary": 259,
-      "Apache-2.0": 2301,
-      "GPL-3.0-or-later": 319,
-      "LGPL-3": 104,
-      "Apache 2.0 license": 3,
-      "AGPL": 25,
-      "GPLv3+": 40,
-      "Apache License 2.0": 552,
-      "AFL-3.0": 1,
-      "Apache": 59,
+      "Proprietary": 260,
       "Apache 2.0": 415,
-      "Apache 2": 30,
-      "AGPL-3": 812,
-      "BSD-2-Clause": 42
+      "Apache": 59
     },
-    "no_license_count": 21352,
+    "no_license_count": 21359,
     "recent_no_license_projects": [
       {
         "name": "wisent",
@@ -274,7 +274,7 @@
         "pub_date": 1765262989
       }
     ],
-    "bad_license_count": 7621,
+    "bad_license_count": 7624,
     "recent_bad_license_projects": [
       {
         "name": "purelypdb",
@@ -400,10 +400,10 @@
   },
   "vcs": {
     "hosts": {
-      "github": 8244,
+      "github": 8248,
       "gitlab": 175
     },
-    "no_vcs_count": 33767,
+    "no_vcs_count": 33779,
     "recent_no_vcs_projects": [
       {
         "name": "purelypdb",
@@ -526,7 +526,7 @@
         "pub_date": 1765263249
       }
     ],
-    "bad_vcs_count": 2127,
+    "bad_vcs_count": 2128,
     "recent_bad_vcs_projects": [
       {
         "name": "marscore",
@@ -565,6 +565,66 @@
         "pub_date": 1765262371
       },
       {
+        "name": "modelon-impact-client",
+        "version": "4.10.3",
+        "summary": "Client library for easy scripting against Modelon Impact",
+        "license": "BSD",
+        "home_page": "https://www.modelon.com/modelon-impact",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "WEP",
+        "author_email": "impact@modelon.com",
+        "pub_date": 1765260900
+      },
+      {
+        "name": "kcwebps",
+        "version": "1.4",
+        "summary": "kcwebps是建立在 kcwebs 框架的基础上研发的一套 linux 服务器容器系统",
+        "license": "Apache License 2.0",
+        "home_page": "https://docs.kwebapp.cn/index/index/3",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "百里",
+        "author_email": "fk1402936534@qq.com",
+        "pub_date": 1765260810
+      },
+      {
+        "name": "kcwebs",
+        "version": "1.4",
+        "summary": "kcwebs作为web开发而设计的高性能框架",
+        "license": "MIT License",
+        "home_page": "https://docs.kwebapp.cn/index/index/2",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "坤坤",
+        "author_email": "fk1402936534@qq.com",
+        "pub_date": 1765260716
+      },
+      {
+        "name": "rapid-pe",
+        "version": "0.1.2.dev20251209",
+        "summary": "RapidPE: The original low-latency gravitational wave parameter estimation code.",
+        "license": "GPL-2+",
+        "home_page": "https://git.ligo.org/rapidpe-rift/rapidpe/",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": null,
+        "pub_date": 1765260648
+      },
+      {
+        "name": "kcws",
+        "version": "1.4",
+        "summary": "超轻量级http框架",
+        "license": "MIT License",
+        "home_page": "https://docs.kwebapp.cn/index/index/1",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "坤坤",
+        "author_email": "fk1402936534@qq.com",
+        "pub_date": 1765260499
+      },
+      {
         "name": "mmsw",
         "version": "0.0.12",
         "summary": "Matilo (C) Deep-Learning Model Serving Worker Module",
@@ -587,66 +647,6 @@
         "author": "guolei",
         "author_email": "174000902@qq.com",
         "pub_date": 1765258290
-      },
-      {
-        "name": "prek",
-        "version": "0.2.21",
-        "summary": "Better `pre-commit`, re-engineered in Rust",
-        "license": null,
-        "home_page": "https://prek.j178.dev/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "j178 <hi@j178.dev>",
-        "pub_date": 1765257695
-      },
-      {
-        "name": "py-brhk-utils",
-        "version": "1.0.0",
-        "summary": "a python brhk utils by guolei",
-        "license": "MIT",
-        "home_page": "https://gitee.com/guolei19850528/py_brhk_utils",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "guolei",
-        "author_email": "174000902@qq.com",
-        "pub_date": 1765257615
-      },
-      {
-        "name": "kcwebps",
-        "version": "1.3",
-        "summary": "kcwebps是建立在 kcwebs 框架的基础上研发的一套 linux 服务器容器系统",
-        "license": "Apache License 2.0",
-        "home_page": "https://docs.kwebapp.cn/index/index/3",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "百里",
-        "author_email": "fk1402936534@qq.com",
-        "pub_date": 1765257176
-      },
-      {
-        "name": "kcwebs",
-        "version": "1.3",
-        "summary": "kcwebs作为web开发而设计的高性能框架",
-        "license": "MIT License",
-        "home_page": "https://docs.kwebapp.cn/index/index/2",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "坤坤",
-        "author_email": "fk1402936534@qq.com",
-        "pub_date": 1765257161
-      },
-      {
-        "name": "py-chanjet-utils",
-        "version": "1.0.1",
-        "summary": "a python chanjet utils by guolei",
-        "license": "MIT",
-        "home_page": "https://gitee.com/guolei19850528/py_chanjet_utils",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "guolei",
-        "author_email": "174000902@qq.com",
-        "pub_date": 1765256996
       }
     ]
   }
