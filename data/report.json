@@ -1,5 +1,5 @@
 {
-  "total": 45977,
+  "total": 45986,
   "recent_projects": [
     {
       "name": "permacache",
@@ -124,34 +124,34 @@
   ],
   "license": {
     "licenses": {
-      "BSD-2-Clause": 44,
-      "GPL-3.0-or-later": 329,
-      "GPL-3.0-only": 83,
-      "GPLv3+": 40,
-      "Apache 2.0 License": 17,
-      "CC BY-NC-SA 4.0": 10,
-      "Apache-2.0": 2350,
-      "Apache 2": 31,
+      "Apache-2.0": 2351,
       "AGPL-3.0-only": 29,
-      "AGPL": 24,
-      "BSD-3-Clause": 413,
-      "MIT OR Apache-2.0": 43,
-      "Apache 2.0 license": 3,
-      "Apache 2.0": 424,
-      "Proprietary": 268,
-      "MIT": 9657,
       "GNU GPL v3.0": 2,
-      "Apache License 2.0": 569,
-      "MIT License": 461,
-      "ASL": 3,
+      "Apache 2.0 License": 17,
+      "MIT OR Apache-2.0": 43,
+      "Apache": 60,
+      "BSD-3-Clause": 413,
+      "AGPL": 24,
+      "Apache 2.0": 424,
+      "Apache 2.0 license": 3,
       "AGPL-3": 846,
-      "LGPL-3": 113,
-      "GNU": 8,
-      "GPL-2.0-or-later": 28,
       "AFL-3.0": 1,
-      "Apache": 60
+      "GPLv3+": 40,
+      "Apache 2": 31,
+      "Apache License 2.0": 569,
+      "ASL": 3,
+      "BSD-2-Clause": 44,
+      "LGPL-3": 113,
+      "CC BY-NC-SA 4.0": 10,
+      "GNU": 8,
+      "MIT License": 461,
+      "Proprietary": 268,
+      "GPL-3.0-only": 83,
+      "GPL-2.0-or-later": 28,
+      "MIT": 9660,
+      "GPL-3.0-or-later": 330
     },
-    "no_license_count": 22214,
+    "no_license_count": 22217,
     "recent_no_license_projects": [
       {
         "name": "permacache",
@@ -274,7 +274,7 @@
         "pub_date": 1765391043
       }
     ],
-    "bad_license_count": 7907,
+    "bad_license_count": 7908,
     "recent_bad_license_projects": [
       {
         "name": "judo-framework",
@@ -400,10 +400,10 @@
   },
   "vcs": {
     "hosts": {
-      "github": 8579,
-      "gitlab": 183
+      "gitlab": 183,
+      "github": 8580
     },
-    "no_vcs_count": 35004,
+    "no_vcs_count": 35009,
     "recent_no_vcs_projects": [
       {
         "name": "tenso",
@@ -526,7 +526,7 @@
         "pub_date": 1765391215
       }
     ],
-    "bad_vcs_count": 2211,
+    "bad_vcs_count": 2214,
     "recent_bad_vcs_projects": [
       {
         "name": "sumtyme",
@@ -565,6 +565,66 @@
         "pub_date": 1765388600
       },
       {
+        "name": "opik",
+        "version": "1.9.45",
+        "summary": "Comet tool for logging and evaluating LLM traces",
+        "license": "Apache 2.0 License",
+        "home_page": "https://www.comet.com",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Comet ML Inc.",
+        "author_email": "mail@comet.com",
+        "pub_date": 1765387104
+      },
+      {
+        "name": "prefig",
+        "version": "0.4.6",
+        "summary": "An authoring system for mathematical diagrams",
+        "license": "GPL-3.0-or-later",
+        "home_page": "https://prefigure.org",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "David Austin",
+        "author_email": "david.austin.m@gmail.com",
+        "pub_date": 1765387093
+      },
+      {
+        "name": "pycarlo",
+        "version": "0.12.19",
+        "summary": "Monte Carlo's Python SDK",
+        "license": "Apache Software License (Apache 2.0)",
+        "home_page": "https://www.montecarlodata.com/",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Monte Carlo Data, Inc",
+        "author_email": "info@montecarlodata.com",
+        "pub_date": 1765387015
+      },
+      {
+        "name": "invoicing-11-12-2025",
+        "version": "1.0.0",
+        "summary": "This package can be used to convert Excel invoices to PDF invoices.",
+        "license": "MIT",
+        "home_page": "https://example.com",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Ardit Sulce",
+        "author_email": "your.email@example.com",
+        "pub_date": 1765386994
+      },
+      {
+        "name": "ampel-alerts",
+        "version": "0.10.3",
+        "summary": "Alert support for the Ampel system",
+        "license": "BSD-3-Clause",
+        "home_page": "https://ampelproject.github.io",
+        "maintainer": "Jakob van Santen",
+        "maintainer_email": "jakob.van.santen@desy.de",
+        "author": "Valery Brinnel",
+        "author_email": null,
+        "pub_date": 1765386908
+      },
+      {
         "name": "baseshift",
         "version": "2.3.1",
         "summary": "Baseshift CLI - Database clone management with Tailscale connectivity",
@@ -587,66 +647,6 @@
         "author": "Thorsten Kracht",
         "author_email": "fs-ec@desy.de",
         "pub_date": 1765384378
-      },
-      {
-        "name": "data-cascade",
-        "version": "0.2.0",
-        "summary": "Composable directory-based data cascade loader/saver with per-file origins and a convenient path/proxy API.",
-        "license": "MIT",
-        "home_page": "https://example.com/data-cascade",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Your Name",
-        "author_email": "you@example.com",
-        "pub_date": 1765382637
-      },
-      {
-        "name": "oasys2",
-        "version": "0.0.28",
-        "summary": "Core component of OASYS 2.0",
-        "license": "BSD3",
-        "home_page": "https://www.aps.anl.gov/Science/Scientific-Software/OASYS",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Manuel Sanchez del Rio & Luca Rebuffi",
-        "author_email": "lrebuffi@aps.gov",
-        "pub_date": 1765382296
-      },
-      {
-        "name": "pyspiral",
-        "version": "0.8.5",
-        "summary": "Python client for Spiral.",
-        "license": "Proprietary License",
-        "home_page": "https://spiraldb.com",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "SpiralDB <hello@spiraldb.com>",
-        "pub_date": 1765381119
-      },
-      {
-        "name": "tinybird",
-        "version": "1.0.5.dev0",
-        "summary": "Tinybird Command Line Tool",
-        "license": null,
-        "home_page": "https://www.tinybird.co/docs/forward/commands",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Tinybird",
-        "author_email": "support@tinybird.co",
-        "pub_date": 1765380852
-      },
-      {
-        "name": "tinybird-cli",
-        "version": "5.22.1.dev2",
-        "summary": "Tinybird Command Line Tool",
-        "license": null,
-        "home_page": "https://www.tinybird.co/docs/cli",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Tinybird",
-        "author_email": "support@tinybird.co",
-        "pub_date": 1765380836
       }
     ]
   }
