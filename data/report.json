@@ -1,5 +1,5 @@
 {
-  "total": 47003,
+  "total": 47023,
   "recent_projects": [
     {
       "name": "aws-cdk-cli",
@@ -124,34 +124,34 @@
   ],
   "license": {
     "licenses": {
-      "BSD-2-Clause": 44,
-      "LGPL-3": 115,
+      "AGPL-3": 869,
+      "AGPL-3.0-only": 31,
+      "Apache 2": 32,
+      "MIT License": 476,
       "GPL-3.0-only": 86,
-      "BSD-3-Clause": 423,
-      "Apache 2.0 license": 3,
-      "GNU": 8,
       "GPLv3+": 40,
+      "GPL-2.0-or-later": 28,
+      "Apache 2.0 license": 3,
+      "Apache 2.0": 434,
+      "Apache License 2.0": 579,
       "Apache-2.0": 2415,
       "ASL": 3,
-      "GPL-2.0-or-later": 28,
-      "AGPL-3": 868,
+      "MIT": 9847,
       "Apache 2.0 License": 17,
-      "CC BY-NC-SA 4.0": 11,
-      "MIT": 9841,
-      "MIT License": 476,
-      "MIT OR Apache-2.0": 43,
-      "Proprietary": 270,
-      "Apache": 60,
-      "GNU GPL v3.0": 2,
-      "GPL-3.0-or-later": 334,
-      "AGPL-3.0-only": 31,
-      "Apache 2.0": 434,
-      "Apache 2": 32,
-      "Apache License 2.0": 578,
+      "BSD-2-Clause": 44,
+      "BSD-3-Clause": 423,
       "AGPL": 25,
+      "GNU GPL v3.0": 2,
+      "LGPL-3": 115,
+      "GPL-3.0-or-later": 334,
+      "MIT OR Apache-2.0": 43,
+      "Apache": 60,
+      "Proprietary": 270,
+      "CC BY-NC-SA 4.0": 11,
+      "GNU": 8,
       "AFL-3.0": 1
     },
-    "no_license_count": 22752,
+    "no_license_count": 22758,
     "recent_no_license_projects": [
       {
         "name": "serialcables-sphinx",
@@ -274,7 +274,7 @@
         "pub_date": 1765476318
       }
     ],
-    "bad_license_count": 8063,
+    "bad_license_count": 8069,
     "recent_bad_license_projects": [
       {
         "name": "discrete-continuous-embed-readout",
@@ -400,10 +400,10 @@
   },
   "vcs": {
     "hosts": {
-      "github": 8801,
-      "gitlab": 184
+      "gitlab": 184,
+      "github": 8807
     },
-    "no_vcs_count": 35767,
+    "no_vcs_count": 35780,
     "recent_no_vcs_projects": [
       {
         "name": "agentic-reliability-framework",
@@ -526,7 +526,7 @@
         "pub_date": 1765476453
       }
     ],
-    "bad_vcs_count": 2251,
+    "bad_vcs_count": 2252,
     "recent_bad_vcs_projects": [
       {
         "name": "beeai-framework",
@@ -551,6 +551,54 @@
         "author": "OpenMS team",
         "author_email": "webmaster@openms.de",
         "pub_date": 1765474395
+      },
+      {
+        "name": "dynamiq",
+        "version": "0.35.1",
+        "summary": "Dynamiq is an orchestration framework for agentic AI and LLM applications",
+        "license": "Apache-2.0",
+        "home_page": "https://www.getdynamiq.ai",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Dynamiq Team",
+        "author_email": "hello@getdynamiq.ai",
+        "pub_date": 1765473919
+      },
+      {
+        "name": "seabirdfilehandler",
+        "version": "0.12.1",
+        "summary": "Library of parsers to interact with SeaBird CTD files.",
+        "license": null,
+        "home_page": "https://ctd-software.pages.iow.de/seabirdfilehandler",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Emil Michels",
+        "author_email": "<emil.michels@iow.de>",
+        "pub_date": 1765473054
+      },
+      {
+        "name": "feos",
+        "version": "0.9.2",
+        "summary": "FeOs - A framework for equations of state and classical density functional theory.",
+        "license": "MIT OR Apache-2.0",
+        "home_page": "https://github.com/feos-org",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Gernot Bauer <bauer@itt.uni-stuttgart.de>, Philipp Rehner <prehner@ethz.ch>",
+        "author_email": "Gernot Bauer <bauer@itt.uni-stuttgart.de>, Philipp Rehner <prehner@ethz.ch>",
+        "pub_date": 1765472807
+      },
+      {
+        "name": "mythic-container",
+        "version": "0.6.9",
+        "summary": "Functionality for Mythic Services",
+        "license": "BSD3",
+        "home_page": "https://docs.mythic-c2.net/customizing/payload-type-development",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "@its_a_feature_",
+        "author_email": null,
+        "pub_date": 1765472477
       },
       {
         "name": "amulet-map-editor",
@@ -599,54 +647,6 @@
         "author": "Monte Carlo Data, Inc",
         "author_email": "info@montecarlodata.com",
         "pub_date": 1765471358
-      },
-      {
-        "name": "agilicus",
-        "version": "1.401.4",
-        "summary": "Agilicus SDK",
-        "license": "MIT",
-        "home_page": "https://www.agilicus.com/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Agilicus Devs",
-        "author_email": "dev@agilicus.com",
-        "pub_date": 1765470263
-      },
-      {
-        "name": "m9s-party-carddav-client",
-        "version": "7.0.6",
-        "summary": "Tryton Party Carddav Client Module",
-        "license": "GPL-3",
-        "home_page": "https://www.m9s.biz/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "MBSolutions",
-        "author_email": "info@m9s.biz",
-        "pub_date": 1765469886
-      },
-      {
-        "name": "tf-nightly-cpu",
-        "version": "2.21.0.dev20251211",
-        "summary": "TensorFlow is an open source machine learning framework for everyone.",
-        "license": "Apache 2.0",
-        "home_page": "https://www.tensorflow.org/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Google Inc.",
-        "author_email": "packages@tensorflow.org",
-        "pub_date": 1765469773
-      },
-      {
-        "name": "tf-nightly",
-        "version": "2.21.0.dev20251211",
-        "summary": "TensorFlow is an open source machine learning framework for everyone.",
-        "license": "Apache 2.0",
-        "home_page": "https://www.tensorflow.org/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Google Inc.",
-        "author_email": "packages@tensorflow.org",
-        "pub_date": 1765469573
       }
     ]
   }
