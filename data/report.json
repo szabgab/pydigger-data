@@ -1,5 +1,5 @@
 {
-  "total": 47128,
+  "total": 47139,
   "recent_projects": [
     {
       "name": "gigaml-secrets",
@@ -124,34 +124,34 @@
   ],
   "license": {
     "licenses": {
-      "Apache 2.0": 436,
-      "AGPL": 25,
-      "Apache 2.0 license": 3,
+      "LGPL-3": 115,
+      "MIT OR Apache-2.0": 43,
+      "AGPL-3": 871,
+      "GNU": 8,
+      "AFL-3.0": 1,
+      "Apache 2": 32,
       "Apache 2.0 License": 17,
+      "AGPL-3.0-only": 31,
+      "Apache License 2.0": 580,
+      "MIT": 9866,
+      "AGPL": 25,
+      "Apache 2.0": 436,
+      "BSD-2-Clause": 44,
+      "BSD-3-Clause": 430,
       "GPL-3.0-or-later": 334,
       "GPL-3.0-only": 87,
-      "GNU GPL v3.0": 2,
-      "GPLv3+": 40,
-      "BSD-3-Clause": 430,
-      "LGPL-3": 115,
-      "AGPL-3": 870,
-      "Proprietary": 270,
-      "ASL": 3,
-      "AGPL-3.0-only": 31,
-      "CC BY-NC-SA 4.0": 11,
-      "Apache-2.0": 2437,
-      "Apache License 2.0": 580,
-      "MIT OR Apache-2.0": 43,
-      "MIT License": 478,
-      "GNU": 8,
-      "MIT": 9863,
-      "BSD-2-Clause": 44,
-      "GPL-2.0-or-later": 28,
-      "AFL-3.0": 1,
       "Apache": 60,
-      "Apache 2": 32
+      "GPL-2.0-or-later": 28,
+      "MIT License": 478,
+      "ASL": 3,
+      "CC BY-NC-SA 4.0": 11,
+      "GPLv3+": 40,
+      "Apache 2.0 license": 3,
+      "Proprietary": 270,
+      "Apache-2.0": 2437,
+      "GNU GPL v3.0": 2
     },
-    "no_license_count": 22794,
+    "no_license_count": 22800,
     "recent_no_license_projects": [
       {
         "name": "gigaml-secrets",
@@ -274,7 +274,7 @@
         "pub_date": 1765487726
       }
     ],
-    "bad_license_count": 8086,
+    "bad_license_count": 8087,
     "recent_bad_license_projects": [
       {
         "name": "sagemath",
@@ -400,10 +400,10 @@
   },
   "vcs": {
     "hosts": {
-      "github": 8826,
+      "github": 8827,
       "gitlab": 185
     },
-    "no_vcs_count": 35858,
+    "no_vcs_count": 35867,
     "recent_no_vcs_projects": [
       {
         "name": "pulumi-aws",
@@ -526,7 +526,7 @@
         "pub_date": 1765487873
       }
     ],
-    "bad_vcs_count": 2259,
+    "bad_vcs_count": 2260,
     "recent_bad_vcs_projects": [
       {
         "name": "solaar",
@@ -563,6 +563,42 @@
         "author": "Kian Ghodoussi",
         "author_email": "ghodoussikian@gmail.com",
         "pub_date": 1765486316
+      },
+      {
+        "name": "moose-cli",
+        "version": "0.6.280",
+        "summary": "Build tool for moose apps",
+        "license": "MIT",
+        "home_page": "https://www.fiveonefour.com/moose",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Fiveonefour Labs Inc. <support@fiveonefour.com>",
+        "author_email": "Fiveonefour Labs Inc. <support@fiveonefour.com>",
+        "pub_date": 1765485515
+      },
+      {
+        "name": "airbyte-source-iterable",
+        "version": "0.6.53.dev202512112036",
+        "summary": "Source implementation for Iterable.",
+        "license": "ELv2",
+        "home_page": "https://airbyte.com",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Airbyte",
+        "author_email": "contact@airbyte.io",
+        "pub_date": 1765485407
+      },
+      {
+        "name": "apache-beam",
+        "version": "2.70.0rc4",
+        "summary": "Apache Beam SDK for Python",
+        "license": "Apache License, Version 2.0",
+        "home_page": "https://beam.apache.org",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Apache Software Foundation",
+        "author_email": "dev@beam.apache.org",
+        "pub_date": 1765485190
       },
       {
         "name": "molmass",
@@ -611,42 +647,6 @@
         "author": "Agilicus Devs",
         "author_email": "dev@agilicus.com",
         "pub_date": 1765482176
-      },
-      {
-        "name": "brewtils",
-        "version": "3.31.0",
-        "summary": "Beer-garden plugin and utility library",
-        "license": "MIT",
-        "home_page": "https://beer-garden.io/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "The Beer-garden Team",
-        "author_email": null,
-        "pub_date": 1765481568
-      },
-      {
-        "name": "biblemategui",
-        "version": "0.1.83",
-        "summary": "BibleMate AI - Automate Your Bible Study",
-        "license": "GNU General Public License (GPL)",
-        "home_page": "https://biblemate.ai",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Eliran Wong",
-        "author_email": "support@marvel.bible",
-        "pub_date": 1765481542
-      },
-      {
-        "name": "netpbmfile",
-        "version": "2025.12.12",
-        "summary": "Read and write Netpbm files",
-        "license": "BSD-3-Clause",
-        "home_page": "https://www.cgohlke.com",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Christoph Gohlke",
-        "author_email": "cgohlke@cgohlke.com",
-        "pub_date": 1765481390
       }
     ]
   }
