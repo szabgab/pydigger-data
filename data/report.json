@@ -2,6 +2,30 @@
   "total": 52015,
   "recent_projects": [
     {
+      "name": "icare-sensor-client",
+      "version": "0.1.4",
+      "summary": "Python client library for iCare Sensor Communication Agent API",
+      "license": "MIT",
+      "home_page": "https://github.com/icare/sensor-client",
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": "iCare Development Team",
+      "author_email": "iCare Development Team <dev@icare.example.com>",
+      "pub_date": 1765988706
+    },
+    {
+      "name": "git-adr",
+      "version": "0.2.2",
+      "summary": "Architecture Decision Records management for git repositories using git notes",
+      "license": "MIT",
+      "home_page": null,
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": "zircote",
+      "author_email": null,
+      "pub_date": 1765988703
+    },
+    {
       "name": "pyansys",
       "version": "2024.2.7",
       "summary": "Pythonic interfaces to Ansys products",
@@ -96,60 +120,36 @@
       "author": null,
       "author_email": "OpenVINO Developers <openvino@intel.com>",
       "pub_date": 1765988592
-    },
-    {
-      "name": "real-time-stock-mcp-service",
-      "version": "0.1.6",
-      "summary": "一个获取实时股票数据服务和分析的MCP服务器",
-      "license": null,
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": null,
-      "author_email": null,
-      "pub_date": 1765988562
-    },
-    {
-      "name": "tracecov-professional",
-      "version": "0.14.1",
-      "summary": "TraceCov Professional Edition. Contact info@tracecov.sh for access.",
-      "license": null,
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": null,
-      "author_email": null,
-      "pub_date": 1765988531
     }
   ],
   "license": {
     "licenses": {
-      "GPL-2.0-or-later": 31,
-      "Apache": 68,
-      "MIT License": 509,
-      "Proprietary": 287,
-      "ASL": 3,
-      "GPL-3.0-only": 93,
-      "BSD-3-Clause": 466,
-      "MIT OR Apache-2.0": 52,
-      "GPL-3.0-or-later": 386,
-      "AFL-3.0": 1,
-      "Apache 2": 34,
       "AGPL-3.0-only": 33,
-      "AGPL": 27,
-      "AGPL-3": 957,
-      "Apache 2.0 license": 3,
-      "Apache License 2.0": 612,
-      "Apache 2.0": 496,
-      "GNU": 8,
-      "GNU GPL v3.0": 2,
-      "GPLv3+": 46,
-      "LGPL-3": 125,
-      "Apache 2.0 License": 17,
-      "BSD-2-Clause": 48,
+      "GPL-3.0-only": 93,
       "MIT": 10821,
+      "Apache 2.0 license": 3,
+      "ASL": 3,
+      "MIT License": 509,
+      "Apache 2.0 License": 17,
+      "Apache License 2.0": 612,
+      "AGPL-3": 957,
+      "AGPL": 27,
+      "GNU": 8,
+      "GPLv3+": 46,
+      "AFL-3.0": 1,
+      "Proprietary": 287,
+      "GPL-3.0-or-later": 386,
+      "BSD-2-Clause": 48,
       "Apache-2.0": 2721,
-      "CC BY-NC-SA 4.0": 13
+      "Apache 2.0": 496,
+      "GNU GPL v3.0": 2,
+      "Apache 2": 34,
+      "MIT OR Apache-2.0": 52,
+      "Apache": 68,
+      "BSD-3-Clause": 466,
+      "LGPL-3": 125,
+      "CC BY-NC-SA 4.0": 13,
+      "GPL-2.0-or-later": 31
     },
     "no_license_count": 25170,
     "recent_no_license_projects": [
@@ -400,11 +400,23 @@
   },
   "vcs": {
     "hosts": {
-      "gitlab": 194,
-      "github": 9791
+      "github": 9791,
+      "gitlab": 194
     },
     "no_vcs_count": 39301,
     "recent_no_vcs_projects": [
+      {
+        "name": "git-adr",
+        "version": "0.2.2",
+        "summary": "Architecture Decision Records management for git repositories using git notes",
+        "license": "MIT",
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "zircote",
+        "author_email": null,
+        "pub_date": 1765988703
+      },
       {
         "name": "pyansys",
         "version": "2024.2.7",
@@ -512,18 +524,6 @@
         "author": null,
         "author_email": null,
         "pub_date": 1765988521
-      },
-      {
-        "name": "krkn-lib",
-        "version": "5.1.13",
-        "summary": "Foundation library for Kraken",
-        "license": "Apache-2.0",
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Red Hat Chaos Team",
-        "author_email": null,
-        "pub_date": 1765988512
       }
     ],
     "bad_vcs_count": 2729,
