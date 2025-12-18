@@ -1,5 +1,5 @@
 {
-  "total": 52585,
+  "total": 52591,
   "recent_projects": [
     {
       "name": "compose-farm",
@@ -124,34 +124,34 @@
   ],
   "license": {
     "licenses": {
-      "GNU": 8,
-      "BSD-3-Clause": 471,
-      "LGPL-3": 127,
-      "Apache": 70,
-      "Apache-2.0": 2761,
-      "CC BY-NC-SA 4.0": 13,
-      "Apache 2.0 License": 17,
+      "GPLv3+": 46,
       "GNU GPL v3.0": 2,
-      "AFL-3.0": 1,
-      "GPL-2.0-or-later": 31,
-      "MIT OR Apache-2.0": 56,
-      "MIT": 10962,
+      "GPL-3.0-or-later": 390,
+      "CC BY-NC-SA 4.0": 13,
+      "Apache": 71,
+      "Apache-2.0": 2761,
       "AGPL-3.0-only": 33,
       "Apache 2": 34,
-      "ASL": 3,
-      "AGPL": 28,
-      "Proprietary": 288,
-      "GPLv3+": 46,
-      "Apache License 2.0": 614,
-      "GPL-3.0-or-later": 390,
-      "Apache 2.0": 504,
+      "GNU": 8,
+      "MIT License": 511,
       "AGPL-3": 963,
+      "MIT": 10964,
+      "Apache License 2.0": 614,
+      "Apache 2.0 License": 17,
+      "ASL": 3,
+      "AFL-3.0": 1,
+      "Apache 2.0": 504,
       "Apache 2.0 license": 3,
-      "BSD-2-Clause": 51,
+      "GPL-2.0-or-later": 31,
       "GPL-3.0-only": 93,
-      "MIT License": 511
+      "Proprietary": 288,
+      "LGPL-3": 127,
+      "BSD-3-Clause": 471,
+      "MIT OR Apache-2.0": 56,
+      "BSD-2-Clause": 51,
+      "AGPL": 28
     },
-    "no_license_count": 25438,
+    "no_license_count": 25442,
     "recent_no_license_projects": [
       {
         "name": "compose-farm",
@@ -274,7 +274,7 @@
         "pub_date": 1766047005
       }
     ],
-    "bad_license_count": 9067,
+    "bad_license_count": 9066,
     "recent_bad_license_projects": [
       {
         "name": "frago-cli",
@@ -400,10 +400,10 @@
   },
   "vcs": {
     "hosts": {
-      "gitlab": 195,
-      "github": 9941
+      "github": 9942,
+      "gitlab": 195
     },
-    "no_vcs_count": 39696,
+    "no_vcs_count": 39700,
     "recent_no_vcs_projects": [
       {
         "name": "compose-farm",
@@ -526,7 +526,7 @@
         "pub_date": 1766047060
       }
     ],
-    "bad_vcs_count": 2753,
+    "bad_vcs_count": 2754,
     "recent_bad_vcs_projects": [
       {
         "name": "easy-start-sms",
@@ -601,6 +601,42 @@
         "pub_date": 1766045005
       },
       {
+        "name": "ascend-deployer",
+        "version": "7.2rc1",
+        "summary": "ascend offline installer",
+        "license": "Apache",
+        "home_page": "https://gitcode.com/ascend/ascend-deployer",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": null,
+        "pub_date": 1766044791
+      },
+      {
+        "name": "python-linstor",
+        "version": "1.27.1",
+        "summary": "Linstor python api",
+        "license": null,
+        "home_page": "https://www.linbit.com",
+        "maintainer": null,
+        "maintainer_email": "Rene Peinthor <rene.peinthor@linbit.com>",
+        "author": null,
+        "author_email": "Rene Peinthor <rene.peinthor@linbit.com>, Roland Kammerer <roland.kammerer@linbit.com>, Gabor Hernadi <gabor.hernadi@linbit.com>, Moritz Wanzenboeck <moritz.wanzenboeck@linbit.com>",
+        "pub_date": 1766044568
+      },
+      {
+        "name": "certora-cli-alpha-master",
+        "version": "20251218.7.52.158130",
+        "summary": "Runner for the Certora Prover",
+        "license": "GPL-3.0-only",
+        "home_page": "https://pypi.org/project/certora-cli-alpha-master",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Certora",
+        "author_email": "support@certora.com",
+        "pub_date": 1766044346
+      },
+      {
         "name": "pyolive-ng",
         "version": "1.0.4",
         "summary": "Python API for Athena Worker (Next Generation with Athena Broker).",
@@ -611,42 +647,6 @@
         "author": "Kiro Lee",
         "author_email": "kiroly@ingris.com",
         "pub_date": 1766044157
-      },
-      {
-        "name": "easy-start-images",
-        "version": "0.1.0",
-        "summary": "A Python package for images integration, easy to start",
-        "license": null,
-        "home_page": "https://gitee.com/guolei19850528/easy_start_images",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "guolei",
-        "author_email": "174000902@qq.com",
-        "pub_date": 1766044117
-      },
-      {
-        "name": "easy-start-chanjet",
-        "version": "0.1.0",
-        "summary": "A Python package for Chanjet integration, easy to start",
-        "license": null,
-        "home_page": "https://gitee.com/guolei19850528/easy_start_chanjet",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "guolei",
-        "author_email": "174000902@qq.com",
-        "pub_date": 1766043948
-      },
-      {
-        "name": "loci-api",
-        "version": "0.2.30",
-        "summary": "Aurora Labs API helper for automated upload to Loci Binary Analysis tool",
-        "license": "Apache License 2.0",
-        "home_page": "https://loci-dev.net",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Aurora Labs",
-        "author_email": "info@auroralabs.com",
-        "pub_date": 1766043671
       }
     ]
   }
