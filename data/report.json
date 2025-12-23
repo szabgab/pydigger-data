@@ -1,5 +1,5 @@
 {
-  "total": 56815,
+  "total": 56839,
   "recent_projects": [
     {
       "name": "polysome",
@@ -62,18 +62,6 @@
       "pub_date": 1766495825
     },
     {
-      "name": "OASYS2-SHADOW4",
-      "version": "0.0.31",
-      "summary": "oasys2-shadow4: Oasys 2 widgets for shadow4",
-      "license": "BSD3",
-      "home_page": "https://github.com/oasys-kit/OASYS2-SHADOW4",
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": "M. Sanchez del Rio, L. Rebuffi",
-      "author_email": "srio@esrf.eu",
-      "pub_date": 1766495824
-    },
-    {
       "name": "talisman-dm",
       "version": "1.3.12",
       "summary": "Talisman Document Model python implementation",
@@ -120,38 +108,50 @@
       "author": null,
       "author_email": "Bart Thate <bthate@dds.nl>",
       "pub_date": 1766495783
+    },
+    {
+      "name": "dia-compliance-tool",
+      "version": "0.1.8",
+      "summary": "Digital India Act compliance checker with rule-based and LLM-based analysis",
+      "license": null,
+      "home_page": null,
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": "Your Name",
+      "author_email": null,
+      "pub_date": 1766495778
     }
   ],
   "license": {
     "licenses": {
-      "LGPL-3": 141,
-      "AFL-3.0": 1,
-      "BSD-2-Clause": 54,
-      "CC BY-NC-SA 4.0": 14,
-      "Apache 2.0": 519,
-      "GPL-3.0-only": 101,
-      "BSD-3-Clause": 505,
-      "AGPL-3.0-only": 33,
-      "GPL-3.0-or-later": 407,
-      "GPLv3+": 49,
-      "MIT": 12253,
-      "MIT OR Apache-2.0": 63,
-      "Apache": 85,
-      "Apache 2.0 license": 3,
-      "GNU": 8,
-      "GPL-2.0-or-later": 33,
-      "Apache-2.0": 2920,
-      "GNU GPL v3.0": 2,
+      "AGPL-3": 1027,
       "AGPL": 29,
-      "Apache 2": 34,
-      "Proprietary": 300,
+      "Apache-2.0": 2921,
+      "ASL": 3,
+      "LGPL-3": 141,
+      "GNU": 8,
+      "BSD-2-Clause": 54,
+      "Apache": 85,
+      "GNU GPL v3.0": 2,
+      "GPL-2.0-or-later": 33,
+      "AGPL-3.0-only": 33,
       "Apache 2.0 License": 18,
-      "AGPL-3": 1025,
+      "GPL-3.0-or-later": 407,
+      "AFL-3.0": 1,
+      "GPL-3.0-only": 102,
+      "GPLv3+": 49,
+      "MIT": 12259,
       "MIT License": 540,
-      "Apache License 2.0": 663,
-      "ASL": 3
+      "Apache 2.0": 519,
+      "MIT OR Apache-2.0": 63,
+      "Proprietary": 300,
+      "Apache 2": 34,
+      "Apache License 2.0": 664,
+      "Apache 2.0 license": 3,
+      "BSD-3-Clause": 505,
+      "CC BY-NC-SA 4.0": 14
     },
-    "no_license_count": 27406,
+    "no_license_count": 27416,
     "recent_no_license_projects": [
       {
         "name": "pulumi-provider-boilerplate",
@@ -274,7 +274,7 @@
         "pub_date": 1766495560
       }
     ],
-    "bad_license_count": 9606,
+    "bad_license_count": 9609,
     "recent_bad_license_projects": [
       {
         "name": "aikido-zen",
@@ -287,18 +287,6 @@
         "author": "Aikido Security",
         "author_email": "help@aikido.dev",
         "pub_date": 1766495825
-      },
-      {
-        "name": "OASYS2-SHADOW4",
-        "version": "0.0.31",
-        "summary": "oasys2-shadow4: Oasys 2 widgets for shadow4",
-        "license": "BSD3",
-        "home_page": "https://github.com/oasys-kit/OASYS2-SHADOW4",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "M. Sanchez del Rio, L. Rebuffi",
-        "author_email": "srio@esrf.eu",
-        "pub_date": 1766495824
       },
       {
         "name": "talisman-dm",
@@ -395,15 +383,27 @@
         "author": "Opentensor Foundation",
         "author_email": "BD Himes <b@latent.to>",
         "pub_date": 1766495138
+      },
+      {
+        "name": "dp-fusion-lib",
+        "version": "0.1.0",
+        "summary": "Token-Level Differentially Private Inference for Large Language Models",
+        "license": "DP-Fusion-Lib Non-Commercial License\n        \n        Copyright (c) 2025 Rushil Thareja\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to use,\n        copy, modify, and distribute the Software for non-commercial purposes only,\n        subject to the following conditions:\n        \n        1. NON-COMMERCIAL USE ONLY\n        \n           The Software may only be used for:\n           - Academic research and publications\n           - Educational purposes and coursework\n           - Personal projects and experimentation\n           - Non-profit organizations\n        \n        2. COMMERCIAL USE REQUIRES LICENSE\n        \n           Any commercial use, including but not limited to:\n           - Use in commercial products or services\n           - Use by for-profit companies or entities\n           - Integration into proprietary software\n           - Offering the Software as a service (SaaS)\n        \n           requires a separate commercial license. Contact rushil.thareja@mbzuai.ac.ae\n           for commercial licensing inquiries.\n        \n        3. ATTRIBUTION\n        \n           The above copyright notice and this permission notice shall be included\n           in all copies or substantial portions of the Software.\n        \n        4. CITATION\n        \n           Academic use must cite the associated paper:\n        \n           Thareja et al. \"DP-Fusion: Token-Level Differentially Private Inference\n           for Large Language Models\" (arXiv:2507.04531)\n        \n        5. NO WARRANTY\n        \n           THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n           IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n           FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n           AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n           LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n           FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\n           DEALINGS IN THE SOFTWARE.\n        ",
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Rushil Thareja <rushil.thareja@mbzuai.ac.ae>",
+        "pub_date": 1766493913
       }
     ]
   },
   "vcs": {
     "hosts": {
-      "github": 10706,
-      "gitlab": 204
+      "gitlab": 204,
+      "github": 10714
     },
-    "no_vcs_count": 42935,
+    "no_vcs_count": 42950,
     "recent_no_vcs_projects": [
       {
         "name": "polysome",
@@ -526,7 +526,7 @@
         "pub_date": 1766495746
       }
     ],
-    "bad_vcs_count": 2970,
+    "bad_vcs_count": 2971,
     "recent_bad_vcs_projects": [
       {
         "name": "talisman-dm",
@@ -577,6 +577,30 @@
         "pub_date": 1766495318
       },
       {
+        "name": "writer",
+        "version": "1.26.0rc7",
+        "summary": "An open-source, Python framework for building feature-rich apps that are fully integrated with the Writer platform.",
+        "license": null,
+        "home_page": "https://www.writer.com",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Writer, Inc.",
+        "author_email": null,
+        "pub_date": 1766493415
+      },
+      {
+        "name": "nlds-client",
+        "version": "1.0.14",
+        "summary": "Client library and command line tool for the Near Line Data Store (NLDS).",
+        "license": null,
+        "home_page": "http://www.ceda.ac.uk/",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Neil Massey",
+        "author_email": "Neil Massey <neil.massey@stfc.ac.uk>",
+        "pub_date": 1766493346
+      },
+      {
         "name": "tinybird-cli",
         "version": "5.22.3.dev0",
         "summary": "Tinybird Command Line Tool",
@@ -623,30 +647,6 @@
         "author": "SuperMaker",
         "author_email": null,
         "pub_date": 1766489725
-      },
-      {
-        "name": "xpander-sdk",
-        "version": "2.0.180",
-        "summary": "xpander.ai Backend-as-a-service for AI Agents - SDK",
-        "license": null,
-        "home_page": "https://www.xpander.ai",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "xpanderAI",
-        "author_email": "dev@xpander.ai",
-        "pub_date": 1766488956
-      },
-      {
-        "name": "tf-keras-nightly",
-        "version": "2.21.0.dev2025122310",
-        "summary": "Deep learning for humans.",
-        "license": "Apache 2.0",
-        "home_page": "https://keras.io/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Keras team",
-        "author_email": "keras-users@googlegroups.com",
-        "pub_date": 1766488477
       }
     ]
   }
