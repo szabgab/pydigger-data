@@ -1,5 +1,5 @@
 {
-  "total": 57180,
+  "total": 57185,
   "recent_projects": [
     {
       "name": "oracle.oci-database-mcp-server",
@@ -124,34 +124,34 @@
   ],
   "license": {
     "licenses": {
-      "GNU": 8,
-      "ASL": 3,
-      "GPL-2.0-or-later": 33,
-      "Apache 2.0 license": 2,
-      "MIT License": 545,
-      "CC BY-NC-SA 4.0": 14,
-      "AGPL": 29,
-      "Apache 2.0": 520,
-      "BSD-2-Clause": 54,
-      "Apache": 85,
-      "Apache License 2.0": 668,
-      "Apache 2": 34,
-      "GPL-3.0-or-later": 407,
-      "Proprietary": 300,
-      "BSD-3-Clause": 510,
-      "GPL-3.0-only": 102,
-      "Apache-2.0": 2927,
-      "GPLv3+": 51,
-      "MIT": 12332,
-      "LGPL-3": 142,
-      "Apache 2.0 License": 18,
-      "GNU GPL v3.0": 2,
+      "AGPL-3": 1033,
       "AGPL-3.0-only": 34,
-      "AFL-3.0": 1,
+      "Apache": 85,
+      "Apache 2.0": 520,
+      "Apache License 2.0": 668,
+      "BSD-3-Clause": 510,
+      "CC BY-NC-SA 4.0": 14,
+      "Apache 2.0 license": 2,
+      "GNU GPL v3.0": 2,
+      "GPL-3.0-or-later": 407,
+      "MIT License": 545,
+      "AGPL": 29,
+      "Apache 2.0 License": 18,
+      "BSD-2-Clause": 54,
+      "GPL-2.0-or-later": 33,
       "MIT OR Apache-2.0": 63,
-      "AGPL-3": 1033
+      "MIT": 12332,
+      "GPLv3+": 51,
+      "Apache-2.0": 2927,
+      "GNU": 8,
+      "GPL-3.0-only": 102,
+      "Proprietary": 300,
+      "AFL-3.0": 1,
+      "LGPL-3": 142,
+      "ASL": 3,
+      "Apache 2": 34
     },
-    "no_license_count": 27588,
+    "no_license_count": 27590,
     "recent_no_license_projects": [
       {
         "name": "oracle.oci-database-mcp-server",
@@ -274,7 +274,7 @@
         "pub_date": 1766529025
       }
     ],
-    "bad_license_count": 9675,
+    "bad_license_count": 9678,
     "recent_bad_license_projects": [
       {
         "name": "simple-python-rbac",
@@ -400,10 +400,10 @@
   },
   "vcs": {
     "hosts": {
-      "gitlab": 203,
-      "github": 10784
+      "github": 10784,
+      "gitlab": 203
     },
-    "no_vcs_count": 43203,
+    "no_vcs_count": 43205,
     "recent_no_vcs_projects": [
       {
         "name": "oracle.oci-database-mcp-server",
@@ -526,7 +526,7 @@
         "pub_date": 1766529240
       }
     ],
-    "bad_vcs_count": 2990,
+    "bad_vcs_count": 2993,
     "recent_bad_vcs_projects": [
       {
         "name": "whyis",
@@ -589,6 +589,42 @@
         "pub_date": 1766527372
       },
       {
+        "name": "easybuild-easyconfigs",
+        "version": "5.2.0",
+        "summary": "Easyconfig files are simple build specification files for EasyBuild, that specify the build parameters for software packages (version, compiler toolchain, dependency versions, etc.).",
+        "license": "GPLv2",
+        "home_page": "https://easybuild.io",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "EasyBuild community",
+        "author_email": "easybuild@lists.ugent.be",
+        "pub_date": 1766526719
+      },
+      {
+        "name": "easybuild-easyblocks",
+        "version": "5.2.0",
+        "summary": "Python modules which implement support for installing particular  (groups of) software packages with EasyBuild.",
+        "license": "GPLv2",
+        "home_page": "https://easybuild.io",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "EasyBuild community",
+        "author_email": "easybuild@lists.ugent.be",
+        "pub_date": 1766526684
+      },
+      {
+        "name": "easybuild-framework",
+        "version": "5.2.0",
+        "summary": "The EasyBuild framework supports the creation of custom easyblocks that implement support for installing particular (groups of) software packages.",
+        "license": "GPLv2",
+        "home_page": "https://easybuild.io",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "EasyBuild community",
+        "author_email": "easybuild@lists.ugent.be",
+        "pub_date": 1766526665
+      },
+      {
         "name": "iops-benchmark",
         "version": "3.1.1",
         "summary": "A generic benchmark orchestration framework for automated parametric experiments",
@@ -611,42 +647,6 @@
         "author": "Rocketgraph",
         "author_email": "support@rocketgraph.com",
         "pub_date": 1766525314
-      },
-      {
-        "name": "duper-python",
-        "version": "0.4.3",
-        "summary": "The format that's super!",
-        "license": null,
-        "home_page": "https://duper.dev.br",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "Eric Rodrigues Pires <eric@eric.dev.br>",
-        "pub_date": 1766524621
-      },
-      {
-        "name": "AWSTransactionalApps",
-        "version": "0.10.1",
-        "summary": "AWS Transactional Apps - A reusable Python CDKTF package for provisioning EC2-based Docker architectures with S3 script deployment",
-        "license": null,
-        "home_page": "https://www.buzzerboy.com/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Buzzerboy Inc",
-        "author_email": "Buzzerboy Inc <info@buzzerboy.com>",
-        "pub_date": 1766524304
-      },
-      {
-        "name": "loveclose1",
-        "version": "0.0.2",
-        "summary": "A simple library for Android UI automation using UIAutomator and ADB",
-        "license": null,
-        "home_page": "https://pypi.org/project/loveclose1/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "CodeMaster",
-        "author_email": "theloveme403@gmail.com",
-        "pub_date": 1766524097
       }
     ]
   }
