@@ -1,5 +1,5 @@
 {
-  "total": 57547,
+  "total": 57551,
   "recent_projects": [
     {
       "name": "assisted-service-client",
@@ -86,18 +86,6 @@
       "pub_date": 1766582727
     },
     {
-      "name": "fiber_uploader",
-      "version": "1.2.0",
-      "summary": null,
-      "license": null,
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": null,
-      "author_email": null,
-      "pub_date": 1766582722
-    },
-    {
       "name": "lastuuid",
       "version": "0.3.3",
       "summary": "Fast UUIDv7 Compatible with standard library type, and utils.",
@@ -120,38 +108,50 @@
       "author": "Herman W. Jacobsen",
       "author_email": "\"Herman W. Jacobsen\" <herman@wjacobsen.fo>",
       "pub_date": 1766582668
+    },
+    {
+      "name": "anyenv",
+      "version": "2.0.9",
+      "summary": "Compatibility layer for some basic operations to allow painless operation in PyOdide and Python pre-releases",
+      "license": null,
+      "home_page": null,
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": "Philipp Temminghoff",
+      "author_email": "Philipp Temminghoff <philipptemminghoff@googlemail.com>",
+      "pub_date": 1766582659
     }
   ],
   "license": {
     "licenses": {
       "GNU": 8,
-      "Apache License 2.0": 673,
-      "Apache 2.0 license": 2,
-      "GPL-2.0-or-later": 33,
-      "GPLv3+": 51,
+      "Apache 2.0": 520,
+      "BSD-3-Clause": 516,
+      "GNU GPL v3.0": 2,
+      "Apache-2.0": 2938,
       "MIT OR Apache-2.0": 63,
-      "AGPL-3": 1037,
-      "AGPL-3.0-only": 35,
+      "Proprietary": 300,
+      "Apache 2.0 license": 2,
+      "Apache License 2.0": 673,
+      "AGPL": 29,
+      "AFL-3.0": 1,
+      "Apache 2": 34,
       "BSD-2-Clause": 54,
       "LGPL-3": 142,
-      "Apache": 86,
-      "Apache 2": 34,
-      "CC BY-NC-SA 4.0": 14,
-      "AGPL": 29,
-      "Proprietary": 300,
-      "GPL-3.0-or-later": 407,
       "Apache 2.0 License": 18,
+      "CC BY-NC-SA 4.0": 14,
+      "MIT License": 552,
+      "AGPL-3": 1037,
+      "AGPL-3.0-only": 35,
+      "Apache": 86,
       "GPL-3.0-only": 102,
       "ASL": 3,
-      "Apache 2.0": 520,
-      "GNU GPL v3.0": 2,
-      "MIT": 12427,
-      "MIT License": 552,
-      "BSD-3-Clause": 516,
-      "AFL-3.0": 1,
-      "Apache-2.0": 2938
+      "GPL-2.0-or-later": 33,
+      "GPLv3+": 51,
+      "MIT": 12428,
+      "GPL-3.0-or-later": 407
     },
-    "no_license_count": 27778,
+    "no_license_count": 27780,
     "recent_no_license_projects": [
       {
         "name": "assisted-service-client",
@@ -200,18 +200,6 @@
         "author": null,
         "author_email": "Hashdown <user@example.com>",
         "pub_date": 1766582794
-      },
-      {
-        "name": "fiber_uploader",
-        "version": "1.2.0",
-        "summary": null,
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": null,
-        "pub_date": 1766582722
       },
       {
         "name": "hfortix",
@@ -272,9 +260,21 @@
         "author": null,
         "author_email": "OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>",
         "pub_date": 1766582457
+      },
+      {
+        "name": "vchrome",
+        "version": "0.1.1",
+        "summary": null,
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": null,
+        "pub_date": 1766582443
       }
     ],
-    "bad_license_count": 9722,
+    "bad_license_count": 9723,
     "recent_bad_license_projects": [
       {
         "name": "MyoGen",
@@ -400,10 +400,10 @@
   },
   "vcs": {
     "hosts": {
-      "github": 10845,
-      "gitlab": 204
+      "gitlab": 204,
+      "github": 10846
     },
-    "no_vcs_count": 43485,
+    "no_vcs_count": 43488,
     "recent_no_vcs_projects": [
       {
         "name": "psqlmodel",
@@ -440,18 +440,6 @@
         "author": null,
         "author_email": "David Dashti <david@dashti.se>",
         "pub_date": 1766582727
-      },
-      {
-        "name": "fiber_uploader",
-        "version": "1.2.0",
-        "summary": null,
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": null,
-        "pub_date": 1766582722
       },
       {
         "name": "lastuuid",
@@ -524,6 +512,18 @@
         "author": null,
         "author_email": "KeiroLabs Team <support@keiro.com>",
         "pub_date": 1766582566
+      },
+      {
+        "name": "scriptbook",
+        "version": "1.4.1",
+        "summary": "Scriptbook - An executable Markdown server with script execution, result persistence, and stop functionality, ideal for SOP automation",
+        "license": "MIT",
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "lzy <forlearn_lzy@163.com>",
+        "pub_date": 1766582547
       }
     ],
     "bad_vcs_count": 3013,
