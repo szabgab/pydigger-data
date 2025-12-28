@@ -74,18 +74,6 @@
       "pub_date": 1766926782
     },
     {
-      "name": "diffpy.srxconfutils",
-      "version": "1.0.2",
-      "summary": "Configuration utilities for project. Part of xPDFsuite",
-      "license": null,
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": "\"Simon J.L. Billinge group\" <sb2896@columbia.edu>",
-      "author": null,
-      "author_email": "\"Simon J.L. Billinge group\" <sb2896@columbia.edu>",
-      "pub_date": 1766926753
-    },
-    {
       "name": "strutex",
       "version": "0.9.3",
       "summary": "Structured AI document processing with robust fallback strategies.",
@@ -120,36 +108,48 @@
       "author": "Havsalt",
       "author_email": "Havsalt <77575424+Havsalt@users.noreply.github.com>",
       "pub_date": 1766926686
+    },
+    {
+      "name": "streamblocks",
+      "version": "0.3.0",
+      "summary": "Real-time extraction and processing of structured blocks from text streams",
+      "license": null,
+      "home_page": null,
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": null,
+      "author_email": null,
+      "pub_date": 1766926678
     }
   ],
   "license": {
     "licenses": {
       "AGPL-3.0-only": 36,
-      "MIT": 13081,
-      "MIT License": 577,
-      "Apache 2.0 license": 1,
-      "Apache 2": 34,
-      "GNU GPL v3.0": 2,
-      "GPL-3.0-or-later": 416,
-      "MIT OR Apache-2.0": 65,
-      "Proprietary": 306,
-      "Apache": 85,
-      "Apache 2.0 License": 18,
-      "Apache 2.0": 545,
-      "ASL": 3,
-      "AFL-3.0": 1,
-      "AGPL": 30,
-      "Apache-2.0": 3012,
-      "AGPL-3": 1051,
-      "BSD-2-Clause": 55,
-      "BSD-3-Clause": 530,
-      "Apache License 2.0": 692,
       "CC BY-NC-SA 4.0": 15,
-      "GNU": 8,
-      "LGPL-3": 142,
+      "ASL": 3,
+      "BSD-3-Clause": 530,
       "GPL-2.0-or-later": 33,
       "GPL-3.0-only": 106,
-      "GPLv3+": 52
+      "GPL-3.0-or-later": 416,
+      "MIT": 13081,
+      "Apache 2.0 license": 1,
+      "Apache 2.0 License": 18,
+      "AGPL": 30,
+      "Apache License 2.0": 692,
+      "AFL-3.0": 1,
+      "MIT OR Apache-2.0": 65,
+      "Apache 2": 34,
+      "AGPL-3": 1051,
+      "Apache-2.0": 3012,
+      "LGPL-3": 142,
+      "GNU": 8,
+      "GNU GPL v3.0": 2,
+      "GPLv3+": 52,
+      "BSD-2-Clause": 55,
+      "MIT License": 577,
+      "Apache": 85,
+      "Apache 2.0": 545,
+      "Proprietary": 306
     },
     "no_license_count": 28831,
     "recent_no_license_projects": [
@@ -200,18 +200,6 @@
         "author": null,
         "author_email": "Bittu Singh <bittusinghtech@gmail.com>",
         "pub_date": 1766926782
-      },
-      {
-        "name": "diffpy.srxconfutils",
-        "version": "1.0.2",
-        "summary": "Configuration utilities for project. Part of xPDFsuite",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": "\"Simon J.L. Billinge group\" <sb2896@columbia.edu>",
-        "author": null,
-        "author_email": "\"Simon J.L. Billinge group\" <sb2896@columbia.edu>",
-        "pub_date": 1766926753
       },
       {
         "name": "strox",
@@ -272,6 +260,18 @@
         "author": "Tip ten Brink",
         "author_email": "Tip ten Brink <tip@tenbrinkmeijs.com>",
         "pub_date": 1766926413
+      },
+      {
+        "name": "tensorcircuit-nightly",
+        "version": "1.4.0.dev20251228",
+        "summary": "High performance unified quantum computing framework for the NISQ era",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "TensorCircuit Authors <znfesnpbh@gmail.com>",
+        "pub_date": 1766926385
       }
     ],
     "bad_license_count": 9959,
@@ -400,8 +400,8 @@
   },
   "vcs": {
     "hosts": {
-      "gitlab": 206,
-      "github": 11216
+      "github": 11216,
+      "gitlab": 206
     },
     "no_vcs_count": 45186,
     "recent_no_vcs_projects": [
@@ -466,18 +466,6 @@
         "pub_date": 1766926782
       },
       {
-        "name": "diffpy.srxconfutils",
-        "version": "1.0.2",
-        "summary": "Configuration utilities for project. Part of xPDFsuite",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": "\"Simon J.L. Billinge group\" <sb2896@columbia.edu>",
-        "author": null,
-        "author_email": "\"Simon J.L. Billinge group\" <sb2896@columbia.edu>",
-        "pub_date": 1766926753
-      },
-      {
         "name": "strutex",
         "version": "0.9.3",
         "summary": "Structured AI document processing with robust fallback strategies.",
@@ -524,6 +512,18 @@
         "author": null,
         "author_email": "Viraj Ravani <viraj.ravani@somaiya.edu>, Visha Yadav <visha.232973201@vcet.edu.in>",
         "pub_date": 1766926668
+      },
+      {
+        "name": "tklr-dgraham",
+        "version": "0.0.0rc37",
+        "summary": "Reminders Tickler / CLI and Textual UI",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Daniel Graham <dnlgrhm@gmail.com>",
+        "pub_date": 1766926616
       }
     ],
     "bad_vcs_count": 3078,
