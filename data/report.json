@@ -124,32 +124,32 @@
   ],
   "license": {
     "licenses": {
-      "Apache 2.0 license": 1,
-      "Apache 2.0": 546,
-      "GNU": 8,
-      "LGPL-3": 142,
-      "ASL": 3,
-      "AGPL-3": 1051,
-      "MIT License": 577,
-      "AFL-3.0": 2,
-      "GPL-3.0-or-later": 415,
-      "Apache License 2.0": 692,
-      "BSD-3-Clause": 530,
-      "GNU GPL v3.0": 2,
       "AGPL": 30,
-      "Apache 2.0 License": 18,
-      "GPL-2.0-or-later": 33,
-      "GPL-3.0-only": 106,
       "BSD-2-Clause": 55,
-      "Apache-2.0": 3016,
+      "Apache": 85,
+      "GPLv3+": 52,
+      "ASL": 3,
+      "GNU GPL v3.0": 2,
+      "GPL-2.0-or-later": 33,
+      "Proprietary": 306,
+      "Apache License 2.0": 692,
+      "Apache 2.0": 546,
+      "GPL-3.0-only": 106,
       "MIT": 13090,
-      "MIT OR Apache-2.0": 65,
+      "Apache-2.0": 3016,
+      "AGPL-3": 1051,
+      "Apache 2.0 License": 18,
+      "Apache 2.0 license": 1,
+      "GNU": 8,
       "AGPL-3.0-only": 36,
       "CC BY-NC-SA 4.0": 15,
-      "GPLv3+": 52,
+      "LGPL-3": 142,
       "Apache 2": 34,
-      "Proprietary": 306,
-      "Apache": 85
+      "GPL-3.0-or-later": 415,
+      "MIT License": 577,
+      "AFL-3.0": 2,
+      "BSD-3-Clause": 530,
+      "MIT OR Apache-2.0": 65
     },
     "no_license_count": 28846,
     "recent_no_license_projects": [
@@ -214,18 +214,6 @@
         "pub_date": 1766929656
       },
       {
-        "name": "diffpy.srxconfutils",
-        "version": "1.0.3",
-        "summary": "Configuration utilities for project. Part of xPDFsuite",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": "\"Simon J.L. Billinge group\" <sb2896@columbia.edu>",
-        "author": null,
-        "author_email": "\"Simon J.L. Billinge group\" <sb2896@columbia.edu>",
-        "pub_date": 1766929646
-      },
-      {
         "name": "customazuremcpagent",
         "version": "1.0.1",
         "summary": "Azure MCP Agent for secure, compliant resource deployment",
@@ -272,6 +260,18 @@
         "author": "Philipp Temminghoff",
         "author_email": "Philipp Temminghoff <philipptemminghoff@googlemail.com>",
         "pub_date": 1766929369
+      },
+      {
+        "name": "fops",
+        "version": "0.1.0rc1",
+        "summary": null,
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "oyghen",
+        "author_email": "oyghen <oyghen@duck.com>",
+        "pub_date": 1766929291
       }
     ],
     "bad_license_count": 9964,
@@ -311,18 +311,6 @@
         "author": null,
         "author_email": "Erik Munkby <erik.munkby@gmail.com>",
         "pub_date": 1766929364
-      },
-      {
-        "name": "fmtr.tools",
-        "version": "1.4.37",
-        "summary": "Collection of high-level tools to simplify everyday development tasks, with a focus on AI/ML",
-        "license": "Copyright © 2025 Frontmatter. All rights reserved.",
-        "home_page": "https://github.com/fmtr/fmtr.tools",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Frontmatter",
-        "author_email": "innovative.fowler@mask.pro.fmtr.dev",
-        "pub_date": 1766929286
       },
       {
         "name": "mfi-mpower",
@@ -395,13 +383,25 @@
         "author": null,
         "author_email": "MGnify team <metagenomics-help@ebi.ac.uk>",
         "pub_date": 1766928232
+      },
+      {
+        "name": "FletXr",
+        "version": "0.1.4b3",
+        "summary": "The GetX-inspired Python Framework for Building Reactive, Cross-Platform Apps with Flet",
+        "license": "MIT License\n        \n        Copyright (c) FletX\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.",
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": "#Einswilli <einswilligoeh@email.com>",
+        "author": null,
+        "author_email": "AllDotPy <hello@alldotpy.com>",
+        "pub_date": 1766928062
       }
     ]
   },
   "vcs": {
     "hosts": {
-      "gitlab": 206,
-      "github": 11221
+      "github": 11221,
+      "gitlab": 206
     },
     "no_vcs_count": 45214,
     "recent_no_vcs_projects": [
@@ -514,16 +514,16 @@
         "pub_date": 1766929656
       },
       {
-        "name": "diffpy.srxconfutils",
-        "version": "1.0.3",
-        "summary": "Configuration utilities for project. Part of xPDFsuite",
+        "name": "customazuremcpagent",
+        "version": "1.0.1",
+        "summary": "Azure MCP Agent for secure, compliant resource deployment",
         "license": null,
         "home_page": null,
         "maintainer": null,
-        "maintainer_email": "\"Simon J.L. Billinge group\" <sb2896@columbia.edu>",
-        "author": null,
-        "author_email": "\"Simon J.L. Billinge group\" <sb2896@columbia.edu>",
-        "pub_date": 1766929646
+        "maintainer_email": null,
+        "author": "Siddhant Jha",
+        "author_email": null,
+        "pub_date": 1766929606
       }
     ],
     "bad_vcs_count": 3079,
