@@ -2,6 +2,42 @@
   "total": 60140,
   "recent_projects": [
     {
+      "name": "mcap-data-loader",
+      "version": "0.1.0",
+      "summary": "MCAP Data Loader",
+      "license": "MIT",
+      "home_page": null,
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": null,
+      "author_email": "OpenGHz <your.email@example.com>",
+      "pub_date": 1766993465
+    },
+    {
+      "name": "aiecs",
+      "version": "1.7.2",
+      "summary": "AI Execute Services - A middleware framework for AI-powered task execution and tool orchestration",
+      "license": null,
+      "home_page": null,
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": null,
+      "author_email": "AIECS Team <iretbl@gmail.com>",
+      "pub_date": 1766993423
+    },
+    {
+      "name": "cognee-integration-langgraph",
+      "version": "0.1.6",
+      "summary": "A powerful integration between LangGraph and Cognee providing intelligent knowledge management and retrieval capabilities for AI agents",
+      "license": null,
+      "home_page": null,
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": "Cognee team",
+      "author_email": null,
+      "pub_date": 1766993412
+    },
+    {
       "name": "varray",
       "version": "1.0.5",
       "summary": "A numpy-like array object with variable-length rows",
@@ -84,75 +120,63 @@
       "author": "Yang Zhou",
       "author_email": "zyaztec@gmail.com",
       "pub_date": 1766993146
-    },
-    {
-      "name": "podkit",
-      "version": "0.3.0",
-      "summary": "Container management library with backend abstraction for sandboxed execution",
-      "license": null,
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": "Navari Team",
-      "author_email": null,
-      "pub_date": 1766993110
-    },
-    {
-      "name": "decidra",
-      "version": "1.0.1",
-      "summary": "Intelligent Trading Decision System - Python Stock Trading Analysis Platform Based on Futu OpenAPI",
-      "license": "MIT License\n        \n        Copyright (c) 2024 Ivan Seredkin\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.",
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": "rtx3 <r@rtx3.com>",
-      "author": null,
-      "author_email": "rtx3 <r@rtx3.com>",
-      "pub_date": 1766993057
-    },
-    {
-      "name": "oarepo-oai-pmh-harvester",
-      "version": "6.0.0.dev6",
-      "summary": "OAIPMH harvester for Invenio repositories",
-      "license": null,
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": null,
-      "author_email": "Mirek Simek <miroslav.simek@cesnet.cz>, Alzbeta Pokorna <alzbeta.pokorna@cesnet.cz>",
-      "pub_date": 1766993049
     }
   ],
   "license": {
     "licenses": {
-      "BSD-2-Clause": 55,
+      "ASL": 3,
+      "Apache 2": 34,
+      "AFL-3.0": 2,
+      "AGPL-3.0-only": 36,
+      "Apache": 86,
+      "GPLv3+": 52,
+      "MIT OR Apache-2.0": 66,
+      "Apache 2.0": 547,
+      "Apache License 2.0": 695,
+      "GPL-2.0-or-later": 33,
+      "MIT": 13210,
       "LGPL-3": 142,
       "CC BY-NC-SA 4.0": 15,
-      "GNU": 8,
-      "GPL-2.0-or-later": 33,
-      "GPL-3.0-only": 106,
-      "MIT": 13210,
-      "MIT License": 583,
-      "BSD-3-Clause": 532,
-      "Proprietary": 309,
-      "GPLv3+": 52,
-      "ASL": 3,
-      "Apache 2.0": 547,
       "GNU GPL v3.0": 2,
-      "AFL-3.0": 2,
+      "GNU": 8,
       "GPL-3.0-or-later": 416,
-      "Apache-2.0": 3029,
+      "Proprietary": 309,
+      "BSD-2-Clause": 55,
       "AGPL": 30,
-      "Apache License 2.0": 695,
-      "Apache": 86,
-      "MIT OR Apache-2.0": 66,
-      "AGPL-3": 1052,
-      "Apache 2": 34,
-      "Apache 2.0 license": 1,
+      "MIT License": 583,
+      "Apache-2.0": 3029,
       "Apache 2.0 License": 18,
-      "AGPL-3.0-only": 36
+      "GPL-3.0-only": 106,
+      "AGPL-3": 1052,
+      "Apache 2.0 license": 1,
+      "BSD-3-Clause": 532
     },
     "no_license_count": 29059,
     "recent_no_license_projects": [
+      {
+        "name": "aiecs",
+        "version": "1.7.2",
+        "summary": "AI Execute Services - A middleware framework for AI-powered task execution and tool orchestration",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "AIECS Team <iretbl@gmail.com>",
+        "pub_date": 1766993423
+      },
+      {
+        "name": "cognee-integration-langgraph",
+        "version": "0.1.6",
+        "summary": "A powerful integration between LangGraph and Cognee providing intelligent knowledge management and retrieval capabilities for AI agents",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Cognee team",
+        "author_email": null,
+        "pub_date": 1766993412
+      },
       {
         "name": "varray",
         "version": "1.0.5",
@@ -248,30 +272,6 @@
         "author": "SuperMaker",
         "author_email": null,
         "pub_date": 1766993044
-      },
-      {
-        "name": "hdsp-jupyter-extension",
-        "version": "2.0.6",
-        "summary": "HDSP Agent JupyterLab Extension - Thin client for Agent Server",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "Your Name <your.email@example.com>",
-        "pub_date": 1766993035
-      },
-      {
-        "name": "focomy",
-        "version": "0.1.9",
-        "summary": "The Most Beautiful CMS - A metadata-driven, zero-duplicate-code content management system",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Focomy Team",
-        "author_email": null,
-        "pub_date": 1766992917
       }
     ],
     "bad_license_count": 10019,
@@ -400,11 +400,47 @@
   },
   "vcs": {
     "hosts": {
-      "gitlab": 206,
-      "github": 11280
+      "github": 11280,
+      "gitlab": 206
     },
     "no_vcs_count": 45559,
     "recent_no_vcs_projects": [
+      {
+        "name": "mcap-data-loader",
+        "version": "0.1.0",
+        "summary": "MCAP Data Loader",
+        "license": "MIT",
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "OpenGHz <your.email@example.com>",
+        "pub_date": 1766993465
+      },
+      {
+        "name": "aiecs",
+        "version": "1.7.2",
+        "summary": "AI Execute Services - A middleware framework for AI-powered task execution and tool orchestration",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "AIECS Team <iretbl@gmail.com>",
+        "pub_date": 1766993423
+      },
+      {
+        "name": "cognee-integration-langgraph",
+        "version": "0.1.6",
+        "summary": "A powerful integration between LangGraph and Cognee providing intelligent knowledge management and retrieval capabilities for AI agents",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Cognee team",
+        "author_email": null,
+        "pub_date": 1766993412
+      },
       {
         "name": "varray",
         "version": "1.0.5",
@@ -488,42 +524,6 @@
         "author": "Navari Team",
         "author_email": null,
         "pub_date": 1766993110
-      },
-      {
-        "name": "decidra",
-        "version": "1.0.1",
-        "summary": "Intelligent Trading Decision System - Python Stock Trading Analysis Platform Based on Futu OpenAPI",
-        "license": "MIT License\n        \n        Copyright (c) 2024 Ivan Seredkin\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.",
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": "rtx3 <r@rtx3.com>",
-        "author": null,
-        "author_email": "rtx3 <r@rtx3.com>",
-        "pub_date": 1766993057
-      },
-      {
-        "name": "oarepo-oai-pmh-harvester",
-        "version": "6.0.0.dev6",
-        "summary": "OAIPMH harvester for Invenio repositories",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "Mirek Simek <miroslav.simek@cesnet.cz>, Alzbeta Pokorna <alzbeta.pokorna@cesnet.cz>",
-        "pub_date": 1766993049
-      },
-      {
-        "name": "maxibot",
-        "version": "1.0.7",
-        "summary": "Library for build bot in MAX",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": null,
-        "pub_date": 1766993045
       }
     ],
     "bad_vcs_count": 3095,
