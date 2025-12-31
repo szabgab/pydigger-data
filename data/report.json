@@ -1,5 +1,5 @@
 {
-  "total": 61880,
+  "total": 61891,
   "recent_projects": [
     {
       "name": "mas-cli",
@@ -124,34 +124,34 @@
   ],
   "license": {
     "licenses": {
-      "AGPL": 31,
-      "GPL-2.0-or-later": 33,
       "Proprietary": 323,
+      "BSD-2-Clause": 58,
+      "Apache": 86,
+      "Apache 2.0 License": 18,
+      "Apache 2": 34,
       "CC BY-NC-SA 4.0": 15,
-      "Apache 2.0": 554,
+      "GNU GPL v3.0": 2,
+      "GPL-2.0-or-later": 33,
+      "ASL": 3,
+      "MIT License": 600,
       "AFL-3.0": 3,
-      "GPL-3.0-or-later": 424,
-      "GNU": 8,
-      "Apache-2.0": 3085,
-      "BSD-3-Clause": 543,
+      "AGPL-3": 1088,
+      "Apache License 2.0": 713,
       "LGPL-3": 144,
       "GPLv3+": 53,
+      "BSD-3-Clause": 543,
       "MIT OR Apache-2.0": 69,
-      "MIT License": 600,
-      "BSD-2-Clause": 58,
-      "Apache 2.0 license": 1,
-      "ASL": 3,
-      "Apache 2": 34,
-      "Apache License 2.0": 713,
-      "GNU GPL v3.0": 2,
-      "GPL-3.0-only": 106,
+      "AGPL": 31,
+      "Apache 2.0": 554,
+      "GPL-3.0-or-later": 424,
+      "MIT": 13657,
       "AGPL-3.0-only": 80,
-      "AGPL-3": 1088,
-      "MIT": 13655,
-      "Apache": 86,
-      "Apache 2.0 License": 18
+      "Apache-2.0": 3086,
+      "Apache 2.0 license": 1,
+      "GNU": 8,
+      "GPL-3.0-only": 106
     },
-    "no_license_count": 29915,
+    "no_license_count": 29920,
     "recent_no_license_projects": [
       {
         "name": "fastband-agent-control",
@@ -238,18 +238,6 @@
         "pub_date": 1767189195
       },
       {
-        "name": "amsdal_langgraph",
-        "version": "0.1.1",
-        "summary": "amsdal_langgraph plugin for AMSDAL Framework",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": null,
-        "pub_date": 1767189061
-      },
-      {
         "name": "aiogrem",
         "version": "0.2",
         "summary": "Simple Scopper Library",
@@ -272,9 +260,21 @@
         "author": null,
         "author_email": null,
         "pub_date": 1767188900
+      },
+      {
+        "name": "kosong",
+        "version": "0.36.0",
+        "summary": "The LLM abstraction layer for modern AI agent applications.",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": null,
+        "pub_date": 1767188833
       }
     ],
-    "bad_license_count": 10236,
+    "bad_license_count": 10239,
     "recent_bad_license_projects": [
       {
         "name": "mas-cli",
@@ -400,10 +400,10 @@
   },
   "vcs": {
     "hosts": {
-      "gitlab": 209,
-      "github": 11569
+      "github": 11569,
+      "gitlab": 209
     },
-    "no_vcs_count": 46932,
+    "no_vcs_count": 46943,
     "recent_no_vcs_projects": [
       {
         "name": "fastband-agent-control",
@@ -589,6 +589,42 @@
         "pub_date": 1767184396
       },
       {
+        "name": "p01.build",
+        "version": "0.8.4",
+        "summary": "A build system supporting application deploy and installation",
+        "license": "ZPL 2.1",
+        "home_page": "https://pypi.org/pypi/p01.build",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Roger Ineichen, Projekt01 GmbH",
+        "author_email": "dev@projekt01.ch",
+        "pub_date": 1767182841
+      },
+      {
+        "name": "civilpy",
+        "version": "0.1.35",
+        "summary": "Civil Engineering Tools in Python",
+        "license": "AGPL-V3",
+        "home_page": "https://daneparks.com/Dane/civilpy",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Dane Parks",
+        "author_email": "Dane@daneparks.com",
+        "pub_date": 1767182840
+      },
+      {
+        "name": "gazu",
+        "version": "1.1.0",
+        "summary": "Gazu is a client for Zou, the API to store the data of your CG production.",
+        "license": "GNU Library or Lesser General Public License (LGPL)",
+        "home_page": "https://gazu.cg-wire.com/",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "CG Wire",
+        "author_email": "frank@cg-wire.com",
+        "pub_date": 1767182038
+      },
+      {
         "name": "nintynine-boundaries",
         "version": "0.2.3",
         "summary": "Generate administrative boundaries with OpenStreetMap and Overpass",
@@ -611,42 +647,6 @@
         "author": "Jan Klötzke",
         "author_email": "jan@kloetzke.net",
         "pub_date": 1767180892
-      },
-      {
-        "name": "python-xbus",
-        "version": "0.4.0",
-        "summary": "A python client for Xbus (https://xbus.io)",
-        "license": null,
-        "home_page": "https://bitbucket.org/orus-io/python-xbus",
-        "maintainer": "xbus.io",
-        "maintainer_email": "contact@xbus.io",
-        "author": null,
-        "author_email": null,
-        "pub_date": 1767180727
-      },
-      {
-        "name": "copilotkit",
-        "version": "0.1.75a8",
-        "summary": "CopilotKit python SDK",
-        "license": "MIT",
-        "home_page": "https://copilotkit.ai",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Markus Ecker",
-        "author_email": "markus.ecker@gmail.com",
-        "pub_date": 1767180663
-      },
-      {
-        "name": "certora-cli-alpha-master",
-        "version": "20251231.11.27.802485",
-        "summary": "Runner for the Certora Prover",
-        "license": "GPL-3.0-only",
-        "home_page": "https://pypi.org/project/certora-cli-alpha-master",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Certora",
-        "author_email": "support@certora.com",
-        "pub_date": 1767180431
       }
     ]
   }
