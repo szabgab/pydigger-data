@@ -2,6 +2,54 @@
   "total": 62864,
   "recent_projects": [
     {
+      "name": "home-ops-cli",
+      "version": "0.4.6",
+      "summary": "A CLI tool for managing home operations tasks.",
+      "license": "MIT",
+      "home_page": null,
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": "d4rkfella",
+      "author_email": "georgi.panov@darkfellanetwork.com",
+      "pub_date": 1767345128
+    },
+    {
+      "name": "bear-dereth",
+      "version": "0.5.1.post2",
+      "summary": "A set of common tools for various bear projects.",
+      "license": null,
+      "home_page": null,
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": null,
+      "author_email": "chaz <bright.lid5647@fastmail.com>",
+      "pub_date": 1767345113
+    },
+    {
+      "name": "cloudmersive-documentai-api-client",
+      "version": "3.0.6",
+      "summary": "Document AI API",
+      "license": null,
+      "home_page": "https://cloudmersive.com/document-ai-api",
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": null,
+      "author_email": null,
+      "pub_date": 1767345090
+    },
+    {
+      "name": "crm-automator",
+      "version": "1.9.7",
+      "summary": "AI-powered email processing and CRM automation",
+      "license": null,
+      "home_page": null,
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": null,
+      "author_email": null,
+      "pub_date": 1767345072
+    },
+    {
       "name": "stravinsky",
       "version": "0.1.17",
       "summary": "MCP Bridge for Claude Code with Multi-Model Support. Install globally: claude mcp add --scope user stravinsky -- uvx stravinsky. Add to CLAUDE.md: See https://pypi.org/project/stravinsky/",
@@ -72,87 +120,75 @@
       "author": null,
       "author_email": "Serg <sott095@gmail.com>",
       "pub_date": 1767345020
-    },
-    {
-      "name": "gcbrickwork",
-      "version": "3.0.2",
-      "summary": "A library of tools to read various GameCube files",
-      "license": "MIT",
-      "home_page": "https://github.com/SomeJakeGuy/gcbrickwork",
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": "Some Jake Guy",
-      "author_email": "somejakeguy@gmail.com",
-      "pub_date": 1767344994
-    },
-    {
-      "name": "appium-utility",
-      "version": "0.2.0",
-      "summary": "Reusable Appium utility helpers",
-      "license": null,
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": null,
-      "author_email": null,
-      "pub_date": 1767344980
-    },
-    {
-      "name": "solverforge",
-      "version": "0.3.0",
-      "summary": "Python bindings for SolverForge constraint solver",
-      "license": "Apache-2.0",
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": null,
-      "author_email": null,
-      "pub_date": 1767344976
-    },
-    {
-      "name": "openapi-spec-models",
-      "version": "0.1.1",
-      "summary": "Framework-agnostic OpenAPI 3.0 specification models and render plugins",
-      "license": "MIT",
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": "Tobi",
-      "author_email": "Tobi <tobidegnon@proton.me>",
-      "pub_date": 1767344973
     }
   ],
   "license": {
     "licenses": {
-      "CC BY-NC-SA 4.0": 15,
-      "GNU": 8,
-      "AGPL": 31,
-      "AGPL-3.0-only": 81,
-      "Apache 2": 34,
-      "Apache 2.0": 554,
-      "Apache License 2.0": 716,
-      "GPLv3+": 53,
-      "AGPL-3": 1095,
-      "MIT OR Apache-2.0": 76,
       "Apache 2.0 license": 1,
       "GPL-3.0-only": 108,
-      "GPL-3.0-or-later": 428,
-      "AFL-3.0": 3,
-      "MIT License": 610,
-      "ASL": 3,
-      "Apache-2.0": 3121,
-      "MIT": 13925,
-      "LGPL-3": 146,
-      "GPL-2.0-or-later": 33,
       "Proprietary": 330,
+      "CC BY-NC-SA 4.0": 15,
+      "GPL-3.0-or-later": 428,
+      "Apache 2.0": 554,
+      "ASL": 3,
+      "AFL-3.0": 3,
       "Apache 2.0 License": 18,
-      "BSD-3-Clause": 552,
-      "Apache": 87,
+      "LGPL-3": 146,
+      "AGPL": 31,
       "BSD-2-Clause": 60,
-      "GNU GPL v3.0": 2
+      "GPL-2.0-or-later": 33,
+      "GPLv3+": 53,
+      "AGPL-3.0-only": 81,
+      "Apache 2": 34,
+      "GNU GPL v3.0": 2,
+      "GNU": 8,
+      "Apache-2.0": 3121,
+      "AGPL-3": 1095,
+      "Apache License 2.0": 716,
+      "Apache": 87,
+      "BSD-3-Clause": 552,
+      "MIT": 13925,
+      "MIT License": 610,
+      "MIT OR Apache-2.0": 76
     },
     "no_license_count": 30400,
     "recent_no_license_projects": [
+      {
+        "name": "bear-dereth",
+        "version": "0.5.1.post2",
+        "summary": "A set of common tools for various bear projects.",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "chaz <bright.lid5647@fastmail.com>",
+        "pub_date": 1767345113
+      },
+      {
+        "name": "cloudmersive-documentai-api-client",
+        "version": "3.0.6",
+        "summary": "Document AI API",
+        "license": null,
+        "home_page": "https://cloudmersive.com/document-ai-api",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": null,
+        "pub_date": 1767345090
+      },
+      {
+        "name": "crm-automator",
+        "version": "1.9.7",
+        "summary": "AI-powered email processing and CRM automation",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": null,
+        "pub_date": 1767345072
+      },
       {
         "name": "mapping-agent",
         "version": "0.1.2",
@@ -236,42 +272,6 @@
         "author": null,
         "author_email": null,
         "pub_date": 1767344828
-      },
-      {
-        "name": "crm-automator",
-        "version": "1.9.6",
-        "summary": "AI-powered email processing and CRM automation",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": null,
-        "pub_date": 1767344821
-      },
-      {
-        "name": "cryzen",
-        "version": "0.1.1",
-        "summary": "A powerful & modular toolkit for modern cryptography and hashing.",
-        "license": null,
-        "home_page": "https://github.com/mahadi99900/cryzen",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Mahadi bin Iqbal",
-        "author_email": "islammdmahadi943@gmail.com",
-        "pub_date": 1767344819
-      },
-      {
-        "name": "free-ai-for-all",
-        "version": "1.5",
-        "summary": null,
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Seigh_sword",
-        "author_email": null,
-        "pub_date": 1767344800
       }
     ],
     "bad_license_count": 10374,
@@ -406,6 +406,42 @@
     "no_vcs_count": 47701,
     "recent_no_vcs_projects": [
       {
+        "name": "home-ops-cli",
+        "version": "0.4.6",
+        "summary": "A CLI tool for managing home operations tasks.",
+        "license": "MIT",
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "d4rkfella",
+        "author_email": "georgi.panov@darkfellanetwork.com",
+        "pub_date": 1767345128
+      },
+      {
+        "name": "bear-dereth",
+        "version": "0.5.1.post2",
+        "summary": "A set of common tools for various bear projects.",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "chaz <bright.lid5647@fastmail.com>",
+        "pub_date": 1767345113
+      },
+      {
+        "name": "crm-automator",
+        "version": "1.9.7",
+        "summary": "AI-powered email processing and CRM automation",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": null,
+        "pub_date": 1767345072
+      },
+      {
         "name": "stravinsky",
         "version": "0.1.17",
         "summary": "MCP Bridge for Claude Code with Multi-Model Support. Install globally: claude mcp add --scope user stravinsky -- uvx stravinsky. Add to CLAUDE.md: See https://pypi.org/project/stravinsky/",
@@ -488,46 +524,22 @@
         "author": null,
         "author_email": null,
         "pub_date": 1767344976
-      },
-      {
-        "name": "openapi-spec-models",
-        "version": "0.1.1",
-        "summary": "Framework-agnostic OpenAPI 3.0 specification models and render plugins",
-        "license": "MIT",
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Tobi",
-        "author_email": "Tobi <tobidegnon@proton.me>",
-        "pub_date": 1767344973
-      },
-      {
-        "name": "bidviz",
-        "version": "1.0.0",
-        "summary": "A powerful, configurable backend visualization data transformation library",
-        "license": "MIT",
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "Mohammad Amin Khara <kharama8709@gmail.com>",
-        "pub_date": 1767344945
-      },
-      {
-        "name": "soildb",
-        "version": "0.5.0",
-        "summary": "A Python client for accessing USDA Soil Data Access (SDA) web service",
-        "license": "MIT",
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "Andrew Brown <brown.andrewg@gmail.com>",
-        "pub_date": 1767344941
       }
     ],
     "bad_vcs_count": 3200,
     "recent_bad_vcs_projects": [
+      {
+        "name": "cloudmersive-documentai-api-client",
+        "version": "3.0.6",
+        "summary": "Document AI API",
+        "license": null,
+        "home_page": "https://cloudmersive.com/document-ai-api",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": null,
+        "pub_date": 1767345090
+      },
       {
         "name": "edgeimpulse-api",
         "version": "1.82.7",
@@ -635,18 +647,6 @@
         "author": "Google AI Edge Authors",
         "author_email": "packages@tensorflow.org",
         "pub_date": 1767338345
-      },
-      {
-        "name": "streamlit-nightly",
-        "version": "1.52.3.dev20260101",
-        "summary": "A faster way to build and share data apps",
-        "license": "Apache License 2.0",
-        "home_page": "https://streamlit.io",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Snowflake Inc",
-        "author_email": "hello@streamlit.io",
-        "pub_date": 1767337398
       }
     ]
   }
