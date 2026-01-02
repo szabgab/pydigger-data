@@ -1,5 +1,5 @@
 {
-  "total": 62708,
+  "total": 62720,
   "recent_projects": [
     {
       "name": "babappalign",
@@ -124,34 +124,34 @@
   ],
   "license": {
     "licenses": {
-      "AFL-3.0": 3,
+      "CC BY-NC-SA 4.0": 15,
+      "Apache 2.0": 553,
       "Apache License 2.0": 716,
-      "Proprietary": 329,
+      "MIT License": 608,
+      "AGPL-3.0-only": 81,
+      "Apache 2.0 license": 1,
+      "AGPL-3": 1091,
+      "GNU GPL v3.0": 2,
       "ASL": 3,
-      "Apache": 87,
-      "GPL-3.0-or-later": 428,
+      "AFL-3.0": 3,
+      "Apache 2.0 License": 18,
+      "BSD-2-Clause": 60,
+      "Apache-2.0": 3112,
+      "BSD-3-Clause": 552,
+      "GPL-2.0-or-later": 33,
       "GPL-3.0-only": 108,
       "GPLv3+": 53,
-      "MIT": 13879,
-      "Apache 2.0 license": 1,
-      "LGPL-3": 146,
-      "AGPL": 31,
-      "BSD-3-Clause": 552,
-      "GNU": 8,
-      "GPL-2.0-or-later": 33,
-      "MIT OR Apache-2.0": 75,
       "Apache 2": 34,
-      "Apache 2.0": 553,
-      "AGPL-3.0-only": 81,
-      "Apache-2.0": 3112,
-      "BSD-2-Clause": 60,
-      "AGPL-3": 1091,
-      "CC BY-NC-SA 4.0": 15,
-      "Apache 2.0 License": 18,
-      "MIT License": 608,
-      "GNU GPL v3.0": 2
+      "LGPL-3": 146,
+      "MIT": 13886,
+      "GPL-3.0-or-later": 429,
+      "GNU": 8,
+      "MIT OR Apache-2.0": 75,
+      "Apache": 87,
+      "AGPL": 31,
+      "Proprietary": 329
     },
-    "no_license_count": 30328,
+    "no_license_count": 30331,
     "recent_no_license_projects": [
       {
         "name": "termlogger",
@@ -274,7 +274,7 @@
         "pub_date": 1767318608
       }
     ],
-    "bad_license_count": 10354,
+    "bad_license_count": 10355,
     "recent_bad_license_projects": [
       {
         "name": "cjm-system-monitor-nvidia",
@@ -400,10 +400,10 @@
   },
   "vcs": {
     "hosts": {
-      "gitlab": 212,
-      "github": 11720
+      "github": 11724,
+      "gitlab": 212
     },
-    "no_vcs_count": 47587,
+    "no_vcs_count": 47595,
     "recent_no_vcs_projects": [
       {
         "name": "termlogger",
@@ -577,18 +577,6 @@
         "pub_date": 1767314562
       },
       {
-        "name": "organizze_api",
-        "version": "1.0.9",
-        "summary": "SDK to interface with the Organizze REST API",
-        "license": null,
-        "home_page": "https://pypi.org/project/organizze_api/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Rhuan Barreto",
-        "author_email": "Rhuan Barreto <rhuan@barreto.work>",
-        "pub_date": 1767314124
-      },
-      {
         "name": "sqlmap",
         "version": "1.10",
         "summary": "Automatic SQL injection and database takeover tool",
@@ -613,6 +601,42 @@
         "pub_date": 1767313294
       },
       {
+        "name": "pretext",
+        "version": "2.34.0",
+        "summary": "A package to author, build, and deploy PreTeXt projects.",
+        "license": "GPL-3.0-or-later",
+        "home_page": "https://pretextbook.org",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Oscar Levin",
+        "author_email": "oscar.levin@unco.edu",
+        "pub_date": 1767312083
+      },
+      {
+        "name": "cspresso",
+        "version": "0.1.1",
+        "summary": "Crawl a website with a headless browser and generate a draft Content-Security-Policy (CSP).",
+        "license": "GPL-3.0-or-later",
+        "home_page": "https://git.mig5.net/mig5/cspresso",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Miguel Jacq",
+        "author_email": "mig@mig5.net",
+        "pub_date": 1767311784
+      },
+      {
+        "name": "organizze_api",
+        "version": "1.0.7",
+        "summary": "SDK to interface with the Organizze REST API",
+        "license": null,
+        "home_page": "https://pypi.org/project/organizze_api/",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Rhuan Barreto",
+        "author_email": "Rhuan Barreto <rhuan@barreto.work>",
+        "pub_date": 1767311626
+      },
+      {
         "name": "ailia-speech",
         "version": "1.5.0.1",
         "summary": "ailia AI Speech",
@@ -623,30 +647,6 @@
         "author": "ailia Inc.",
         "author_email": "contact@ailia.ai",
         "pub_date": 1767310363
-      },
-      {
-        "name": "acryl-datahub",
-        "version": "1.3.1.5",
-        "summary": "A CLI to work with DataHub metadata",
-        "license": "Apache-2.0",
-        "home_page": "https://docs.datahub.com/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": null,
-        "pub_date": 1767310327
-      },
-      {
-        "name": "prefect-datahub",
-        "version": "1.3.1.5",
-        "summary": "Datahub prefect block to capture executions and send to Datahub",
-        "license": "Apache-2.0",
-        "home_page": "https://docs.datahub.com/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": null,
-        "pub_date": 1767310313
       }
     ]
   }
