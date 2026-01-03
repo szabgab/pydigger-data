@@ -31,7 +31,7 @@ jobs:
         rustup update
         rustc -vV
 
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
 
     - name: Download binary
       run: |
@@ -75,7 +75,7 @@ jobs:
         if [ "$GIT_STATUS" != "" ]; then git push; fi
 
     - name: Checkout the front-end repository
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
       with:
         repository: 'szabgab/pydigger-front'
         path: pydigger-front
