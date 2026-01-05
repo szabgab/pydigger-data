@@ -1,5 +1,5 @@
 {
-  "total": 64976,
+  "total": 64985,
   "recent_projects": [
     {
       "name": "xSide-Window",
@@ -854,34 +854,34 @@
   ],
   "license": {
     "licenses": {
+      "CC BY-NC-SA 4.0": 15,
       "GNU": 11,
-      "BSD-3-Clause": 565,
-      "Apache 2.0 License": 18,
+      "GPL-2.0-or-later": 34,
       "GPL-3.0-or-later": 439,
-      "Apache-2.0": 3187,
-      "MIT License": 623,
+      "AGPL-3": 1116,
+      "AGPL-3.0-only": 85,
       "BSD-2-Clause": 61,
-      "AGPL": 32,
+      "BSD-3-Clause": 565,
+      "GPL-3.0-only": 111,
       "AFL-3.0": 3,
-      "Apache License 2.0": 732,
-      "ASL": 3,
-      "GNU GPL v3.0": 2,
-      "MIT": 14470,
+      "MIT": 14473,
+      "MIT License": 623,
       "MIT OR Apache-2.0": 81,
-      "GPLv3+": 55,
+      "Apache License 2.0": 732,
       "Apache": 88,
-      "Apache 2": 34,
       "Proprietary": 337,
       "Apache 2.0": 559,
-      "Apache 2.0 license": 1,
+      "GPLv3+": 55,
       "LGPL-3": 151,
-      "AGPL-3": 1116,
-      "CC BY-NC-SA 4.0": 15,
-      "GPL-3.0-only": 111,
-      "AGPL-3.0-only": 85,
-      "GPL-2.0-or-later": 34
+      "GNU GPL v3.0": 2,
+      "AGPL": 32,
+      "Apache 2.0 license": 1,
+      "ASL": 3,
+      "Apache 2.0 License": 18,
+      "Apache 2": 34,
+      "Apache-2.0": 3187
     },
-    "no_license_count": 31500,
+    "no_license_count": 31503,
     "recent_no_license_projects": [
       {
         "name": "xSide-Window",
@@ -1734,7 +1734,7 @@
         }
       }
     ],
-    "bad_license_count": 10663,
+    "bad_license_count": 10666,
     "recent_bad_license_projects": [
       {
         "name": "sli-lib",
@@ -2558,10 +2558,10 @@
   },
   "vcs": {
     "hosts": {
-      "gitlab": 221,
-      "github": 12220
+      "github": 12237,
+      "gitlab": 221
     },
-    "no_vcs_count": 49276,
+    "no_vcs_count": 49265,
     "recent_no_vcs_projects": [
       {
         "name": "xSide-Window",
@@ -3414,7 +3414,7 @@
         }
       }
     ],
-    "bad_vcs_count": 3259,
+    "bad_vcs_count": 3262,
     "recent_bad_vcs_projects": [
       {
         "name": "ptnetinspector",
@@ -3824,6 +3824,57 @@
         "project_urls": null
       },
       {
+        "name": "gemseo-calibration-vimseo",
+        "version": "3.0.1",
+        "summary": "Temporary version of gemseo-calibration. Gemseo-calibration provides capability to calibrate GEMSEO disciplines from data.",
+        "license": "GNU Lesser General Public License v3",
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Sebastien Bocquet <sebastien.bocquet@irt-saintexupery.com>, Matthias De Lozzo <contact@gemseo.org>",
+        "pub_date": 1767608049,
+        "project_urls": {
+          "homepage": "https://gitlab.com/gemseo",
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "openarmx-arm-driver",
+        "version": "1.1.5",
+        "summary": "Python SDK for OpenArmX robotic arm control via CAN bus",
+        "license": "OpenArmX Research and Education License\n        Version 1.0\n        \n        Copyright (c) 2025 Wei Lindong\n        \n        Permission is hereby granted, free of charge, to any individual person or\n        non-profit academic or research institution, to use, copy, modify, and\n        distribute this software and its associated documentation (the \"Software\"),\n        solely for non-commercial research, academic, and educational purposes.\n        \n        Commercial use of the Software is strictly prohibited without prior written\n        permission from the copyright holder. Commercial use includes, but is not\n        limited to:\n          - Use in commercial products or services;\n          - Use within for-profit organizations or institutions;\n          - Use for internal business operations, manufacturing, or production;\n          - Use in research or development activities intended for commercial gain;\n          - Redistribution of the Software as part of a paid product or service.\n        \n        Any individual or organization wishing to use the Software for commercial\n        purposes must obtain a separate commercial license from the copyright holder.\n        \n        Redistributions of the Software for permitted non-commercial purposes must\n        retain this license text and the above copyright notice.\n        \n        If the Software is used in academic publications, presentations, theses, or\n        other publicly available research outputs, appropriate citation of the\n        Software and its author is requested.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL\n        THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n        THE SOFTWARE.\n        ",
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Wei Lindong <weilindong02@gmail.com>",
+        "pub_date": 1767607900,
+        "project_urls": {
+          "homepage": "https://www.openarmx.com",
+          "repository": "https://www.openarmx.com",
+          "github": null
+        }
+      },
+      {
+        "name": "Scrapy",
+        "version": "2.14.0",
+        "summary": "A high-level Web Crawling and Web Scraping framework",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": "Pablo Hoffman <pablo@pablohoffman.com>",
+        "author": null,
+        "author_email": "Scrapy developers <pablo@pablohoffman.com>",
+        "pub_date": 1767607638,
+        "project_urls": {
+          "homepage": "https://scrapy.org/",
+          "repository": null,
+          "github": null
+        }
+      },
+      {
         "name": "mozyq",
         "version": "0.0.20",
         "summary": "Mozyq: Mosaic generation and more",
@@ -4081,45 +4132,6 @@
         "author": "Snowflake Inc",
         "author_email": "hello@streamlit.io",
         "pub_date": 1767596695,
-        "project_urls": null
-      },
-      {
-        "name": "gmsofttest",
-        "version": "0.0.77",
-        "summary": "大家软件内部测试技术线支撑工具",
-        "license": null,
-        "home_page": "https://www.gec123.com",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "gmsoft1997",
-        "author_email": "uph4rmt@dingtalk.com",
-        "pub_date": 1767596279,
-        "project_urls": null
-      },
-      {
-        "name": "beast-logger",
-        "version": "0.1.4",
-        "summary": "A package for advanced logging and visualization of Python objects, especially tensors.",
-        "license": null,
-        "home_page": "https://github.com/beast-logger",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "qingxu.fu@alibaba-inc.com",
-        "author_email": "qingxu.fu@alibaba-inc.com",
-        "pub_date": 1767595965,
-        "project_urls": null
-      },
-      {
-        "name": "whatap-python",
-        "version": "1.9.1rc1",
-        "summary": "Monitoring and Profiling Service",
-        "license": "Whatap License",
-        "home_page": "https://www.whatap.io",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "whatap",
-        "author_email": "admin@whatap.io",
-        "pub_date": 1767595933,
         "project_urls": null
       }
     ]
