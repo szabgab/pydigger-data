@@ -854,32 +854,32 @@
   ],
   "license": {
     "licenses": {
-      "Apache 2.0 License": 18,
-      "CC BY-NC-SA 4.0": 15,
-      "GPL-2.0-or-later": 34,
-      "AFL-3.0": 3,
-      "Apache 2.0 license": 1,
-      "Apache-2.0": 3195,
       "BSD-2-Clause": 61,
-      "AGPL-3.0-only": 85,
-      "BSD-3-Clause": 566,
+      "CC BY-NC-SA 4.0": 15,
       "GNU GPL v3.0": 2,
+      "Apache 2.0 license": 1,
       "GPL-3.0-or-later": 440,
-      "LGPL-3": 152,
-      "GPL-3.0-only": 111,
       "GPLv3+": 55,
+      "LGPL-3": 152,
       "MIT": 14569,
-      "MIT OR Apache-2.0": 82,
-      "AGPL": 32,
-      "GNU": 11,
-      "Apache": 91,
-      "AGPL-3": 1118,
       "MIT License": 626,
-      "Apache 2.0": 560,
+      "GNU": 11,
       "Apache License 2.0": 736,
-      "ASL": 3,
+      "GPL-2.0-or-later": 34,
+      "Proprietary": 337,
+      "MIT OR Apache-2.0": 82,
+      "AFL-3.0": 3,
+      "BSD-3-Clause": 566,
+      "GPL-3.0-only": 111,
+      "AGPL": 32,
       "Apache 2": 34,
-      "Proprietary": 337
+      "Apache 2.0": 560,
+      "AGPL-3.0-only": 85,
+      "Apache-2.0": 3195,
+      "Apache": 91,
+      "ASL": 3,
+      "AGPL-3": 1118,
+      "Apache 2.0 License": 18
     },
     "no_license_count": 31667,
     "recent_no_license_projects": [
@@ -1462,23 +1462,6 @@
         }
       },
       {
-        "name": "my_test_tuxpkg_project",
-        "version": "0.15.0",
-        "summary": "my-test-tuxpkg-project is ...",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "Anders Roxell <anders.roxell@linaro.org>",
-        "pub_date": 1767645515,
-        "project_urls": {
-          "homepage": null,
-          "repository": null,
-          "github": null
-        }
-      },
-      {
         "name": "ael-sdk",
         "version": "0.2.3",
         "summary": "Python SDK for Agent Execution Ledger - Audit trail for AI agents",
@@ -1509,23 +1492,6 @@
         "project_urls": {
           "homepage": "https://github.com/cognizant-ai-lab/neuro-san",
           "repository": "https://github.com/cognizant-ai-lab/neuro-san",
-          "github": null
-        }
-      },
-      {
-        "name": "ApiLogicServer",
-        "version": "16.0.7",
-        "summary": null,
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "Val Huber <apilogicserver@gmail.com>",
-        "pub_date": 1767645355,
-        "project_urls": {
-          "homepage": "https://www.genai-logic.com",
-          "repository": null,
           "github": null
         }
       },
@@ -1729,6 +1695,40 @@
         "pub_date": 1767644702,
         "project_urls": {
           "homepage": null,
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "iatoolkit",
+        "version": "1.10.4",
+        "summary": "IAToolkit",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Fernando Libedinsky",
+        "author_email": null,
+        "pub_date": 1767644668,
+        "project_urls": {
+          "homepage": null,
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "supervisely",
+        "version": "6.73.496",
+        "summary": "Supervisely Python SDK.",
+        "license": null,
+        "home_page": "https://github.com/supervisely/supervisely",
+        "maintainer": "Max Kolomeychenko",
+        "maintainer_email": null,
+        "author": "Supervisely",
+        "author_email": "support@supervisely.com",
+        "pub_date": 1767644635,
+        "project_urls": {
+          "homepage": "https://github.com/supervisely/supervisely",
           "repository": null,
           "github": null
         }
@@ -2590,8 +2590,8 @@
   },
   "vcs": {
     "hosts": {
-      "github": 12753,
-      "gitlab": 231
+      "gitlab": 231,
+      "github": 12753
     },
     "no_vcs_count": 49009,
     "recent_no_vcs_projects": [
@@ -2861,23 +2861,6 @@
         "author": null,
         "author_email": "FutureHouse technical staff <hello@futurehouse.org>",
         "pub_date": 1767645555,
-        "project_urls": {
-          "homepage": null,
-          "repository": null,
-          "github": null
-        }
-      },
-      {
-        "name": "my_test_tuxpkg_project",
-        "version": "0.15.0",
-        "summary": "my-test-tuxpkg-project is ...",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "Anders Roxell <anders.roxell@linaro.org>",
-        "pub_date": 1767645515,
         "project_urls": {
           "homepage": null,
           "repository": null,
@@ -3444,6 +3427,23 @@
           "repository": null,
           "github": null
         }
+      },
+      {
+        "name": "psr-factory",
+        "version": "5.0.0b66",
+        "summary": "PSR database management module.",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "\"PSR Inc.\" <psrfactory@psr-inc.com>",
+        "pub_date": 1767643071,
+        "project_urls": {
+          "homepage": null,
+          "repository": null,
+          "github": null
+        }
       }
     ],
     "bad_vcs_count": 3323,
@@ -3530,23 +3530,6 @@
         "project_urls": {
           "homepage": "https://github.com/adryserage/aetheris",
           "repository": "https://github.com//adryserage/aetheris",
-          "github": null
-        }
-      },
-      {
-        "name": "ApiLogicServer",
-        "version": "16.0.7",
-        "summary": null,
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "Val Huber <apilogicserver@gmail.com>",
-        "pub_date": 1767645355,
-        "project_urls": {
-          "homepage": "https://www.genai-logic.com",
-          "repository": null,
           "github": null
         }
       },
@@ -4005,6 +3988,23 @@
         "pub_date": 1767640698,
         "project_urls": {
           "homepage": "https://git.startinblox.com/djangoldp-packages/django-webidoidc-provider",
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "ApiLogicServer",
+        "version": "16.0.5",
+        "summary": null,
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Val Huber <apilogicserver@gmail.com>",
+        "pub_date": 1767640482,
+        "project_urls": {
+          "homepage": "https://www.genai-logic.com",
           "repository": null,
           "github": null
         }
