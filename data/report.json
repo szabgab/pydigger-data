@@ -854,32 +854,32 @@
   ],
   "license": {
     "licenses": {
-      "MIT": 14601,
-      "BSD-2-Clause": 61,
-      "Proprietary": 337,
-      "Apache 2.0": 560,
-      "BSD-3-Clause": 568,
-      "GPL-2.0-or-later": 34,
-      "LGPL-3": 152,
-      "MIT License": 626,
-      "MIT OR Apache-2.0": 82,
+      "AFL-3.0": 3,
       "AGPL-3": 1118,
-      "Apache-2.0": 3195,
-      "GNU GPL v3.0": 2,
-      "GNU": 11,
-      "Apache License 2.0": 740,
       "Apache 2.0 License": 18,
-      "Apache 2.0 license": 1,
+      "LGPL-3": 152,
+      "GPL-3.0-or-later": 440,
       "AGPL": 32,
-      "AGPL-3.0-only": 85,
+      "GPLv3+": 55,
+      "Apache License 2.0": 740,
+      "MIT": 14601,
       "Apache 2": 34,
       "CC BY-NC-SA 4.0": 15,
+      "GNU GPL v3.0": 2,
+      "MIT License": 626,
+      "Proprietary": 337,
+      "BSD-2-Clause": 61,
+      "GNU": 11,
+      "Apache-2.0": 3195,
+      "AGPL-3.0-only": 85,
       "Apache": 91,
-      "ASL": 3,
-      "AFL-3.0": 3,
-      "GPL-3.0-or-later": 440,
+      "Apache 2.0": 560,
+      "GPL-2.0-or-later": 34,
+      "BSD-3-Clause": 568,
       "GPL-3.0-only": 111,
-      "GPLv3+": 55
+      "MIT OR Apache-2.0": 82,
+      "ASL": 3,
+      "Apache 2.0 license": 1
     },
     "no_license_count": 31706,
     "recent_no_license_projects": [
@@ -1309,23 +1309,6 @@
         }
       },
       {
-        "name": "SigMF",
-        "version": "1.4.0",
-        "summary": "Easily interact with Signal Metadata Format (SigMF) recordings.",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": null,
-        "pub_date": 1767654747,
-        "project_urls": {
-          "homepage": null,
-          "repository": null,
-          "github": null
-        }
-      },
-      {
         "name": "penngrader-client",
         "version": "0.5.10",
         "summary": "In-line python grader client.",
@@ -1649,23 +1632,6 @@
         }
       },
       {
-        "name": "my_test_tuxpkg_project",
-        "version": "0.20.0",
-        "summary": "my-test-tuxpkg-project is ...",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "Anders Roxell <anders.roxell@linaro.org>",
-        "pub_date": 1767653748,
-        "project_urls": {
-          "homepage": null,
-          "repository": null,
-          "github": null
-        }
-      },
-      {
         "name": "releasio",
         "version": "2.1.6",
         "summary": "Best-in-class Python release automation, inspired by release-plz",
@@ -1730,6 +1696,40 @@
         "project_urls": {
           "homepage": "https://coiled.io",
           "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "rtfsig",
+        "version": "0.1.4",
+        "summary": "Extract potentially unique strings from RTF files for threat hunting",
+        "license": null,
+        "home_page": "https://github.com/PwCUK-CTO/rtfsig",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "David Cannings",
+        "author_email": "david@edeca.net",
+        "pub_date": 1767653370,
+        "project_urls": {
+          "homepage": "https://github.com/PwCUK-CTO/rtfsig",
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "agenterm",
+        "version": "0.1.6",
+        "summary": "Terminal-native agent runtime with persistent sessions, branching, and MCP",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Tiziano Contorno",
+        "author_email": null,
+        "pub_date": 1767653350,
+        "project_urls": {
+          "homepage": "https://agenterm.ai",
+          "repository": "https://github.com/Tiziano-AI/agenterm",
           "github": null
         }
       }
@@ -2590,8 +2590,8 @@
   },
   "vcs": {
     "hosts": {
-      "gitlab": 234,
-      "github": 12930
+      "github": 12930,
+      "gitlab": 234
     },
     "no_vcs_count": 48908,
     "recent_no_vcs_projects": [
@@ -2987,23 +2987,6 @@
         }
       },
       {
-        "name": "SigMF",
-        "version": "1.4.0",
-        "summary": "Easily interact with Signal Metadata Format (SigMF) recordings.",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": null,
-        "pub_date": 1767654747,
-        "project_urls": {
-          "homepage": null,
-          "repository": null,
-          "github": null
-        }
-      },
-      {
         "name": "fast-agent-mcp",
         "version": "0.4.23",
         "summary": "Define, Prompt and Test MCP enabled Agents and Workflows",
@@ -3174,23 +3157,6 @@
         }
       },
       {
-        "name": "my_test_tuxpkg_project",
-        "version": "0.20.0",
-        "summary": "my-test-tuxpkg-project is ...",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "Anders Roxell <anders.roxell@linaro.org>",
-        "pub_date": 1767653748,
-        "project_urls": {
-          "homepage": null,
-          "repository": null,
-          "github": null
-        }
-      },
-      {
         "name": "aa-timezones",
         "version": "2.4.4",
         "summary": "Time Zones Overview for Alliance Auth",
@@ -3269,6 +3235,23 @@
         "author": null,
         "author_email": "Aiden Jabari <Jabariaiden15@email.com>",
         "pub_date": 1767652850,
+        "project_urls": {
+          "homepage": null,
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "SigMF",
+        "version": "1.2.13",
+        "summary": "Easily interact with Signal Metadata Format (SigMF) recordings.",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": null,
+        "pub_date": 1767652670,
         "project_urls": {
           "homepage": null,
           "repository": null,
@@ -3371,6 +3354,23 @@
         "author": null,
         "author_email": null,
         "pub_date": 1767652379,
+        "project_urls": {
+          "homepage": null,
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "my_test_tuxpkg_project",
+        "version": "0.19.0",
+        "summary": "my-test-tuxpkg-project is ...",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Anders Roxell <anders.roxell@linaro.org>",
+        "pub_date": 1767652360,
         "project_urls": {
           "homepage": null,
           "repository": null,
