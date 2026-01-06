@@ -1,5 +1,5 @@
 {
-  "total": 65529,
+  "total": 65535,
   "recent_projects": [
     {
       "name": "adryserage-aetheris",
@@ -854,34 +854,34 @@
   ],
   "license": {
     "licenses": {
-      "AFL-3.0": 3,
-      "Apache-2.0": 3200,
-      "AGPL-3": 1124,
-      "AGPL-3.0-only": 85,
-      "BSD-2-Clause": 61,
-      "Apache 2.0 license": 1,
-      "GNU": 11,
-      "GNU GPL v3.0": 2,
-      "Apache": 91,
-      "Apache License 2.0": 740,
-      "LGPL-3": 154,
-      "Apache 2.0 License": 18,
-      "BSD-3-Clause": 570,
-      "CC BY-NC-SA 4.0": 15,
-      "Proprietary": 338,
-      "Apache 2.0": 560,
-      "GPL-3.0-or-later": 441,
-      "ASL": 3,
-      "GPL-2.0-or-later": 34,
       "MIT OR Apache-2.0": 83,
       "AGPL": 32,
+      "Apache 2.0 license": 1,
       "GPLv3+": 55,
+      "LGPL-3": 154,
+      "GPL-2.0-or-later": 34,
+      "Proprietary": 337,
+      "Apache-2.0": 3200,
+      "GPL-3.0-or-later": 441,
       "GPL-3.0-only": 111,
-      "Apache 2": 34,
+      "BSD-3-Clause": 570,
+      "AFL-3.0": 3,
       "MIT License": 627,
+      "CC BY-NC-SA 4.0": 15,
+      "Apache": 91,
+      "Apache 2.0 License": 18,
+      "BSD-2-Clause": 61,
+      "Apache 2": 34,
+      "Apache License 2.0": 740,
+      "AGPL-3": 1124,
+      "AGPL-3.0-only": 85,
+      "Apache 2.0": 561,
+      "ASL": 3,
+      "GNU": 11,
+      "GNU GPL v3.0": 2,
       "MIT": 14625
     },
-    "no_license_count": 31762,
+    "no_license_count": 31767,
     "recent_no_license_projects": [
       {
         "name": "dv-pipecat-ai",
@@ -1734,7 +1734,7 @@
         }
       }
     ],
-    "bad_license_count": 10749,
+    "bad_license_count": 10750,
     "recent_bad_license_projects": [
       {
         "name": "ministats",
@@ -2590,10 +2590,10 @@
   },
   "vcs": {
     "hosts": {
-      "github": 13119,
+      "github": 13135,
       "gitlab": 234
     },
-    "no_vcs_count": 48823,
+    "no_vcs_count": 48810,
     "recent_no_vcs_projects": [
       {
         "name": "dv-pipecat-ai",
@@ -3446,7 +3446,7 @@
         }
       }
     ],
-    "bad_vcs_count": 3353,
+    "bad_vcs_count": 3356,
     "recent_bad_vcs_projects": [
       {
         "name": "zelos-demeter",
@@ -3942,6 +3942,91 @@
         }
       },
       {
+        "name": "zizmor",
+        "version": "1.20.0",
+        "summary": "Static analysis for GitHub Actions",
+        "license": "MIT",
+        "home_page": "https://docs.zizmor.sh",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "William Woodruff <william@yossarian.net>",
+        "author_email": "William Woodruff <william@yossarian.net>",
+        "pub_date": 1767659734,
+        "project_urls": {
+          "homepage": "https://docs.zizmor.sh",
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "regula-facesdk-webclient",
+        "version": "8.1.486.dev0",
+        "summary": "Regula's FaceSDK web python client",
+        "license": null,
+        "home_page": "https://regulaforensics.com",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Regula Forensics, Inc.",
+        "author_email": "support@regulaforensics.com",
+        "pub_date": 1767658909,
+        "project_urls": {
+          "homepage": "https://regulaforensics.com",
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "pydantic-graph",
+        "version": "1.39.1",
+        "summary": "Graph and state machine library",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Samuel Colvin <samuel@pydantic.dev>, Marcelo Trylesinski <marcelotryle@gmail.com>, David Montague <david@pydantic.dev>, Alex Hall <alex@pydantic.dev>, Douwe Maan <douwe@pydantic.dev>",
+        "pub_date": 1767658384,
+        "project_urls": {
+          "homepage": "https://ai.pydantic.dev/graph/tree/main/pydantic_graph",
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "pydantic-evals",
+        "version": "1.39.1",
+        "summary": "Framework for evaluating stochastic code execution, especially code making use of LLMs",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Samuel Colvin <samuel@pydantic.dev>, Marcelo Trylesinski <marcelotryle@gmail.com>, David Montague <david@pydantic.dev>, Alex Hall <alex@pydantic.dev>, Douwe Maan <douwe@pydantic.dev>",
+        "pub_date": 1767658382,
+        "project_urls": {
+          "homepage": "https://ai.pydantic.dev/evals",
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "pydantic-ai",
+        "version": "1.39.1",
+        "summary": "Agent Framework / shim to use Pydantic with LLMs",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Samuel Colvin <samuel@pydantic.dev>, Marcelo Trylesinski <marcelotryle@gmail.com>, David Montague <david@pydantic.dev>, Alex Hall <alex@pydantic.dev>, Douwe Maan <douwe@pydantic.dev>",
+        "pub_date": 1767658377,
+        "project_urls": {
+          "homepage": "https://ai.pydantic.dev",
+          "repository": null,
+          "github": null
+        }
+      },
+      {
         "name": "langchain-google-genai",
         "version": "4.1.3",
         "summary": "An integration package connecting Google's genai package and LangChain",
@@ -4209,91 +4294,6 @@
         "pub_date": 1767650803,
         "project_urls": {
           "homepage": "https://docs.snorkel.ai/docs/user-guide/sdk/overview",
-          "repository": null,
-          "github": null
-        }
-      },
-      {
-        "name": "ket-lang",
-        "version": "0.9.2.dev5",
-        "summary": "Ket quantum programming language interpreter and library",
-        "license": "Apache-2.0",
-        "home_page": "https://quantumket.org",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Evandro Chagas Ribeiro da Rosa",
-        "author_email": "evandro@quantuloop.com",
-        "pub_date": 1767650221,
-        "project_urls": {
-          "homepage": "https://quantumket.org",
-          "repository": null,
-          "github": null
-        }
-      },
-      {
-        "name": "playback-tui",
-        "version": "1.3.6",
-        "summary": "A terminal-based music player with playlist management and downloading capabilities",
-        "license": "MIT",
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "Ashank Behara <ashank.behara@gmail.com>",
-        "pub_date": 1767649961,
-        "project_urls": {
-          "homepage": "https://playback-tui.ashankbehara.com",
-          "repository": null,
-          "github": null
-        }
-      },
-      {
-        "name": "chaiverse",
-        "version": "1.29.8",
-        "summary": "Chaiverse",
-        "license": "MIT",
-        "home_page": "https://www.chaiverse.com",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Chai Research Corp.",
-        "author_email": "hello@chai-research.com",
-        "pub_date": 1767649821,
-        "project_urls": {
-          "homepage": "https://www.chaiverse.com",
-          "repository": null,
-          "github": null
-        }
-      },
-      {
-        "name": "langchain-google-vertexai",
-        "version": "3.2.1",
-        "summary": "An integration package connecting Google VertexAI and LangChain",
-        "license": "MIT",
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": null,
-        "pub_date": 1767649677,
-        "project_urls": {
-          "homepage": "https://docs.langchain.com/oss/python/integrations/providers/google",
-          "repository": null,
-          "github": null
-        }
-      },
-      {
-        "name": "certora-cli-alpha-master",
-        "version": "20260105.21.39.33321",
-        "summary": "Runner for the Certora Prover",
-        "license": "GPL-3.0-only",
-        "home_page": "https://pypi.org/project/certora-cli-alpha-master",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Certora",
-        "author_email": "support@certora.com",
-        "pub_date": 1767649181,
-        "project_urls": {
-          "homepage": "https://pypi.org/project/certora-cli-alpha-master",
           "repository": null,
           "github": null
         }
