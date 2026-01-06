@@ -1,12 +1,17 @@
 {
   "name": "mcp-security-framework",
-  "version": "1.5.1",
-  "summary": "Universal security framework for microservices with SSL/TLS, authentication, authorization, and rate limiting. Added UnknownRoleError exception for certificate role validation. Added to_string() method for CertificateRole serialization. Enhanced error handling with detailed exception information. Comprehensive test coverage with 1052+ tests including UnknownRoleError tests. All tests use real certificates. Requires cryptography>=42.0.0 for certificate operations.",
+  "version": "1.6.0",
+  "summary": "Universal security framework for microservices with SSL/TLS, authentication, authorization, and rate limiting. Added extensible security adapter system for custom operation validation, structured audit logging, and operation context support. Comprehensive test coverage with 1104+ tests. Fully backward compatible. Requires cryptography>=42.0.0 for certificate operations.",
   "license": "MIT",
   "home_page": null,
   "maintainer": null,
   "maintainer_email": "Vasiliy Zdanovskiy <vasilyvz@gmail.com>",
   "author": null,
   "author_email": "Vasiliy Zdanovskiy <vasilyvz@gmail.com>",
-  "pub_date": 1763651143
+  "pub_date": 1767701497,
+  "project_urls": {
+    "homepage": "https://github.com/maverikod/mcp-security-framework",
+    "repository": "https://github.com/maverikod/mcp-security-framework",
+    "github": null
+  }
 }
