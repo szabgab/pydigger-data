@@ -1,5 +1,5 @@
 {
-  "total": 66695,
+  "total": 66708,
   "recent_projects": [
     {
       "name": "petal-app-manager",
@@ -461,23 +461,6 @@
       }
     },
     {
-      "name": "OpenFisca-France",
-      "version": "175.0.2",
-      "summary": "OpenFisca Rules as Code model for France.",
-      "license": null,
-      "home_page": null,
-      "maintainer": null,
-      "maintainer_email": null,
-      "author": null,
-      "author_email": "OpenFisca Team <contact@openfisca.fr>",
-      "pub_date": 1767789511,
-      "project_urls": {
-        "homepage": "https://github.com/openfisca/openfisca-france",
-        "repository": "https://github.com/openfisca/openfisca-france",
-        "github": null
-      }
-    },
-    {
       "name": "bigtest",
       "version": "2.0.1",
       "summary": "Holy Grail Backtester - Institutional-grade quant backtesting engine with 100x leverage support",
@@ -850,38 +833,55 @@
         "repository": null,
         "github": null
       }
+    },
+    {
+      "name": "restage",
+      "version": "0.10.1",
+      "summary": null,
+      "license": "BSD-3-Clause",
+      "home_page": null,
+      "maintainer": null,
+      "maintainer_email": null,
+      "author": null,
+      "author_email": "Gregory Tucker <gregory.tucker@ess.eu>",
+      "pub_date": 1767789127,
+      "project_urls": {
+        "homepage": null,
+        "repository": null,
+        "github": null
+      }
     }
   ],
   "license": {
     "licenses": {
-      "Proprietary": 338,
       "Apache 2.0": 567,
-      "Apache-2.0": 3248,
+      "Apache 2.0 license": 1,
+      "GPL-3.0-or-later": 445,
       "GNU": 12,
-      "Apache 2.0 License": 19,
-      "MIT OR Apache-2.0": 87,
       "Apache License 2.0": 746,
-      "GPL-3.0-or-later": 444,
+      "AGPL-3": 1133,
+      "AFL-3.0": 3,
       "BSD-2-Clause": 61,
       "BSD-3-Clause": 578,
-      "AFL-3.0": 3,
-      "Apache": 93,
-      "ASL": 3,
-      "AGPL": 32,
-      "AGPL-3.0-only": 85,
-      "LGPL-3": 157,
-      "GPL-2.0-or-later": 35,
-      "GPLv3+": 55,
-      "CC BY-NC-SA 4.0": 16,
-      "GPL-3.0-only": 114,
-      "AGPL-3": 1133,
       "Apache 2": 34,
-      "MIT": 14921,
-      "Apache 2.0 license": 1,
       "GNU GPL v3.0": 3,
-      "MIT License": 643
+      "Apache-2.0": 3249,
+      "LGPL-3": 157,
+      "GPL-3.0-only": 114,
+      "GPLv3+": 55,
+      "MIT License": 643,
+      "MIT OR Apache-2.0": 87,
+      "Proprietary": 338,
+      "CC BY-NC-SA 4.0": 16,
+      "GPL-2.0-or-later": 35,
+      "AGPL": 32,
+      "MIT": 14927,
+      "ASL": 3,
+      "AGPL-3.0-only": 85,
+      "Apache 2.0 License": 19,
+      "Apache": 93
     },
-    "no_license_count": 32304,
+    "no_license_count": 32308,
     "recent_no_license_projects": [
       {
         "name": "pymort-palqc",
@@ -1050,23 +1050,6 @@
         "project_urls": {
           "homepage": "https://github.com/upenn/PennGrader",
           "repository": null,
-          "github": null
-        }
-      },
-      {
-        "name": "OpenFisca-France",
-        "version": "175.0.2",
-        "summary": "OpenFisca Rules as Code model for France.",
-        "license": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "OpenFisca Team <contact@openfisca.fr>",
-        "pub_date": 1767789511,
-        "project_urls": {
-          "homepage": "https://github.com/openfisca/openfisca-france",
-          "repository": "https://github.com/openfisca/openfisca-france",
           "github": null
         }
       },
@@ -1732,9 +1715,26 @@
           "repository": null,
           "github": null
         }
+      },
+      {
+        "name": "siili-ai-sdk",
+        "version": "0.6.2",
+        "summary": "Python SDK for building AI agents with multi-LLM support, streaming, and production-ready infrastructure",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Siili Solutions Oyj <info@siili.com>",
+        "pub_date": 1767787247,
+        "project_urls": {
+          "homepage": "https://github.com/siilisolutions/siili-ai-sdk",
+          "repository": "https://github.com/siilisolutions/siili-ai-sdk",
+          "github": null
+        }
       }
     ],
-    "bad_license_count": 10963,
+    "bad_license_count": 10964,
     "recent_bad_license_projects": [
       {
         "name": "petal-app-manager",
@@ -2590,10 +2590,10 @@
   },
   "vcs": {
     "hosts": {
-      "gitlab": 253,
-      "github": 14514
+      "github": 14526,
+      "gitlab": 253
     },
-    "no_vcs_count": 48436,
+    "no_vcs_count": 48437,
     "recent_no_vcs_projects": [
       {
         "name": "petal-app-manager",
@@ -3344,23 +3344,6 @@
         }
       },
       {
-        "name": "utils_devops",
-        "version": "0.1.173",
-        "summary": "Lightweight DevOps utilities for automation scripts: config editing (YAML/JSON/INI/.env), templating, diffing, and CLI tools",
-        "license": "MIT",
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Hamed Sheikhan",
-        "author_email": "sh.sheikhan.m@gmail.com",
-        "pub_date": 1767787221,
-        "project_urls": {
-          "homepage": null,
-          "repository": null,
-          "github": null
-        }
-      },
-      {
         "name": "sphn",
         "version": "0.2.1",
         "summary": null,
@@ -3439,6 +3422,23 @@
         "author": null,
         "author_email": "Fenke Meijer <fenkemeijer@gmail.com>",
         "pub_date": 1767787128,
+        "project_urls": {
+          "homepage": null,
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "uvm-tb-gen",
+        "version": "0.1.4",
+        "summary": "An automation tool that generates complete UVM testbench infrastructure with dynamic configuration for interfaces, agents, environments, and tests.",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Vinay Kumar Kadirika",
+        "author_email": null,
+        "pub_date": 1767787012,
         "project_urls": {
           "homepage": null,
           "repository": null,
@@ -4180,6 +4180,91 @@
         }
       },
       {
+        "name": "TDCRPy",
+        "version": "2.16.17",
+        "summary": "TDCR model",
+        "license": null,
+        "home_page": "https://pypi.org/project/TDCRPy/",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "RomainCoulon (Romain Coulon)",
+        "author_email": "<romain.coulon@bipm.org>",
+        "pub_date": 1767779040,
+        "project_urls": {
+          "homepage": "https://pypi.org/project/TDCRPy/",
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "rustypot",
+        "version": "1.4.2",
+        "summary": null,
+        "license": null,
+        "home_page": "https://www.pollen-robotics.com",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": null,
+        "pub_date": 1767778865,
+        "project_urls": {
+          "homepage": "https://www.pollen-robotics.com",
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "minedrac",
+        "version": "4.54.1.2",
+        "summary": "MineDRAC provides a command-line interface to query, analyze, and extract metadata from DRAC.",
+        "license": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": null,
+        "pub_date": 1767778735,
+        "project_urls": {
+          "homepage": "https://icat.gitlab-pages.esrf.fr/MineDRAC",
+          "repository": "https://gitlab.esrf.fr/icat/minedrac",
+          "github": null
+        }
+      },
+      {
+        "name": "chartmogul",
+        "version": "4.8.0",
+        "summary": "Python library for ChartMogul API.",
+        "license": "MIT",
+        "home_page": "https://chartmogul.com",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Petr Kopac (ChartMogul Ltd.)",
+        "author_email": "petr@chartmogul.com",
+        "pub_date": 1767778562,
+        "project_urls": {
+          "homepage": "https://chartmogul.com",
+          "repository": null,
+          "github": null
+        }
+      },
+      {
+        "name": "liberty-parser",
+        "version": "0.0.27",
+        "summary": "Liberty format parser.",
+        "license": "GPL-3.0-or-later",
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "\"T. Kramer\" <code@tkramer.ch>",
+        "pub_date": 1767778289,
+        "project_urls": {
+          "homepage": "https://codeberg.org/tok/liberty-parser",
+          "repository": "https://codeberg.org/tok/liberty-parser",
+          "github": null
+        }
+      },
+      {
         "name": "git-annex",
         "version": "10.20251215",
         "summary": "manage files with git, without checking their contents into git",
@@ -4209,91 +4294,6 @@
         "pub_date": 1767776603,
         "project_urls": {
           "homepage": "https://www.siasoftwareinnovations.com",
-          "repository": null,
-          "github": null
-        }
-      },
-      {
-        "name": "hk-cdp",
-        "version": "1.0.136",
-        "summary": "hk cdp",
-        "license": "MIT",
-        "home_page": "http://gitlab.tdtech.gao7.com/newfire/hk_cap/hk_cdp/server/hk_cdp.git",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "seven",
-        "author_email": "tech@gao7.com",
-        "pub_date": 1767776477,
-        "project_urls": {
-          "homepage": "http://gitlab.tdtech.gao7.com/newfire/hk_cap/hk_cdp/server/hk_cdp.git",
-          "repository": null,
-          "github": null
-        }
-      },
-      {
-        "name": "TDCRPy",
-        "version": "2.16.16",
-        "summary": "TDCR model",
-        "license": null,
-        "home_page": "https://pypi.org/project/TDCRPy/",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "RomainCoulon (Romain Coulon)",
-        "author_email": "<romain.coulon@bipm.org>",
-        "pub_date": 1767776408,
-        "project_urls": {
-          "homepage": "https://pypi.org/project/TDCRPy/",
-          "repository": null,
-          "github": null
-        }
-      },
-      {
-        "name": "eyelogic-sdk",
-        "version": "1.2.0",
-        "summary": "Python wrapper for the EyeLogic eye tracking API",
-        "license": null,
-        "home_page": "https://www.eyelogic.de",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "EyeLogic GmbH",
-        "author_email": "info@eyelogic.de",
-        "pub_date": 1767776332,
-        "project_urls": {
-          "homepage": "https://www.eyelogic.de",
-          "repository": null,
-          "github": null
-        }
-      },
-      {
-        "name": "lds-weixin",
-        "version": "0.0.11",
-        "summary": "企业微信Api接口",
-        "license": "GNU GPL 3",
-        "home_page": "https://github.com/ldsxp",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "lds",
-        "author_email": "85176878@qq.com",
-        "pub_date": 1767775726,
-        "project_urls": {
-          "homepage": "https://github.com/ldsxp",
-          "repository": null,
-          "github": null
-        }
-      },
-      {
-        "name": "certora-cli-alpha-master",
-        "version": "20260107.8.41.992761",
-        "summary": "Runner for the Certora Prover",
-        "license": "GPL-3.0-only",
-        "home_page": "https://pypi.org/project/certora-cli-alpha-master",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Certora",
-        "author_email": "support@certora.com",
-        "pub_date": 1767775276,
-        "project_urls": {
-          "homepage": "https://pypi.org/project/certora-cli-alpha-master",
           "repository": null,
           "github": null
         }
