@@ -1,5 +1,5 @@
 {
-  "total": 70943,
+  "total": 70944,
   "recent_projects": [
     {
       "name": "atlantic",
@@ -954,34 +954,34 @@
   ],
   "license": {
     "licenses": {
-      "CC BY-NC-SA 4.0": 16,
-      "MIT": 16844,
-      "GPL-2.0-or-later": 91,
-      "GNU": 15,
-      "GPLv3+": 61,
-      "Apache 2.0": 652,
-      "Apache 2": 32,
-      "AGPL-3.0-only": 93,
-      "ASL": 3,
-      "AFL-3.0": 3,
-      "Apache": 98,
-      "MIT License": 671,
       "MIT OR Apache-2.0": 102,
-      "Proprietary": 356,
-      "LGPL-3": 164,
-      "BSD-2-Clause": 77,
-      "GNU GPL v3.0": 4,
-      "Apache 2.0 license": 1,
       "Apache 2.0 License": 20,
-      "Apache License 2.0": 773,
-      "AGPL": 35,
-      "AGPL-3": 1192,
+      "CC BY-NC-SA 4.0": 16,
+      "Proprietary": 356,
+      "ASL": 3,
+      "Apache 2": 32,
       "Apache-2.0": 3705,
+      "Apache License 2.0": 773,
       "BSD-3-Clause": 684,
+      "BSD-2-Clause": 77,
+      "LGPL-3": 164,
+      "MIT": 16847,
+      "GPL-3.0-only": 141,
+      "Apache 2.0": 652,
+      "Apache 2.0 license": 1,
       "GPL-3.0-or-later": 550,
-      "GPL-3.0-only": 141
+      "GPL-2.0-or-later": 91,
+      "GNU GPL v3.0": 4,
+      "GPLv3+": 61,
+      "MIT License": 671,
+      "AGPL-3": 1192,
+      "Apache": 98,
+      "AGPL": 35,
+      "AFL-3.0": 3,
+      "AGPL-3.0-only": 93,
+      "GNU": 15
     },
-    "no_license_count": 32782,
+    "no_license_count": 32780,
     "recent_no_license_projects": [
       {
         "name": "duct-tape",
@@ -1668,25 +1668,6 @@
         "has_github_actions": false
       },
       {
-        "name": "durabletask.azuremanaged",
-        "version": "0.0.0.dev28",
-        "summary": "Durable Task Python SDK provider implementation for the Azure Durable Task Scheduler",
-        "license": null,
-        "license_expression": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": null,
-        "pub_date": 1768250668,
-        "project_urls": {
-          "homepage": null,
-          "repository": null,
-          "github": null
-        },
-        "has_github_actions": null
-      },
-      {
         "name": "lalamo",
         "version": "0.6.0",
         "summary": "JAX library for optimization and export of models for use with the UZU inference engine.",
@@ -1913,6 +1894,25 @@
           "github": null
         },
         "has_github_actions": null
+      },
+      {
+        "name": "parkapi-sources",
+        "version": "0.33.1",
+        "summary": "ParkAPI Sources is a collection of converters from several different data sources to normalized ParkAPI data.",
+        "license": null,
+        "license_expression": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": "\"Ernesto Ruge, binary butterfly GmbH\" <ernesto.ruge@binary-butterfly.de>",
+        "author": null,
+        "author_email": "\"Ernesto Ruge, binary butterfly GmbH\" <ernesto.ruge@binary-butterfly.de>",
+        "pub_date": 1768249781,
+        "project_urls": {
+          "homepage": "https://github.com/ParkenDD/parkapi-sources-v3",
+          "repository": "https://github.com/ParkenDD/parkapi-sources-v3.git",
+          "github": null
+        },
+        "has_github_actions": false
       },
       {
         "name": "argus-cv",
@@ -2165,44 +2165,6 @@
         "has_github_actions": true
       },
       {
-        "name": "rxfoundry.clients.swifty_api",
-        "version": "0.1.999",
-        "summary": "SwiftyRX API",
-        "license": "NoLicense",
-        "license_expression": null,
-        "home_page": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "RxFoundry Team",
-        "author_email": "paul.tindall@rxfoundry.com",
-        "pub_date": 1768251077,
-        "project_urls": {
-          "homepage": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-          "repository": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-          "github": null
-        },
-        "has_github_actions": false
-      },
-      {
-        "name": "rxfoundry.clients.swifty_oauth_api",
-        "version": "0.1.999",
-        "summary": "Swifty OAuth API",
-        "license": "NoLicense",
-        "license_expression": null,
-        "home_page": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "RxFoundry Team",
-        "author_email": "paul.tindall@rxfoundry.com",
-        "pub_date": 1768251076,
-        "project_urls": {
-          "homepage": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-          "repository": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-          "github": null
-        },
-        "has_github_actions": false
-      },
-      {
         "name": "openrewrite",
         "version": "8.72.0.dev20260112204952",
         "summary": "OpenRewrite automated refactoring for Python.",
@@ -2429,6 +2391,101 @@
           "github": null
         },
         "has_github_actions": true
+      },
+      {
+        "name": "rxfoundry.clients.swifty_api",
+        "version": "0.1.998",
+        "summary": "SwiftyRX API",
+        "license": "NoLicense",
+        "license_expression": null,
+        "home_page": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "RxFoundry Team",
+        "author_email": "paul.tindall@rxfoundry.com",
+        "pub_date": 1768249757,
+        "project_urls": {
+          "homepage": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
+          "repository": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
+          "github": null
+        },
+        "has_github_actions": false
+      },
+      {
+        "name": "rxfoundry.clients.swifty_oauth_api",
+        "version": "0.1.998",
+        "summary": "Swifty OAuth API",
+        "license": "NoLicense",
+        "license_expression": null,
+        "home_page": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "RxFoundry Team",
+        "author_email": "paul.tindall@rxfoundry.com",
+        "pub_date": 1768249755,
+        "project_urls": {
+          "homepage": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
+          "repository": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
+          "github": null
+        },
+        "has_github_actions": false
+      },
+      {
+        "name": "airbyte-source-github",
+        "version": "2.2.0.dev202601122028",
+        "summary": "Source implementation for GitHub.",
+        "license": "ELv2",
+        "license_expression": null,
+        "home_page": "https://airbyte.com",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Airbyte",
+        "author_email": "contact@airbyte.io",
+        "pub_date": 1768249729,
+        "project_urls": {
+          "homepage": "https://airbyte.com",
+          "repository": "https://github.com/airbytehq/airbyte",
+          "github": null
+        },
+        "has_github_actions": true
+      },
+      {
+        "name": "posit-sdk",
+        "version": "0.14.0",
+        "summary": "Posit SDK for Python",
+        "license": "MIT License\n        \n        Copyright (c) 2024 posit-dev\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.\n        ",
+        "license_expression": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": null,
+        "pub_date": 1768249717,
+        "project_urls": {
+          "homepage": null,
+          "repository": null,
+          "github": null
+        },
+        "has_github_actions": null
+      },
+      {
+        "name": "aiel-sdk",
+        "version": "1.1.4",
+        "summary": "AI Execution Layer SDK (contracts + registry + decorators) with curated facades.",
+        "license": "```text\n        MIT License\n        \n        Copyright (c) 2025 Aldenir Flauzino\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.",
+        "license_expression": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Aldenir Flauzino <aldenirsrv@gmail.com>",
+        "pub_date": 1768249650,
+        "project_urls": {
+          "homepage": null,
+          "repository": null,
+          "github": null
+        },
+        "has_github_actions": null
       },
       {
         "name": "gemstone-engine",
@@ -2828,72 +2885,15 @@
           "github": null
         },
         "has_github_actions": null
-      },
-      {
-        "name": "fairyfly-therm",
-        "version": "0.7.6",
-        "summary": "Fairyfly extension for translating HBJSON files to INP files for eQuest",
-        "license": "AGPL-3.0",
-        "license_expression": null,
-        "home_page": "https://github.com/ladybug-tools/fairyfly-therm",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Ladybug Tools",
-        "author_email": "info@ladybug.tools",
-        "pub_date": 1768246703,
-        "project_urls": {
-          "homepage": "https://github.com/ladybug-tools/fairyfly-therm",
-          "repository": null,
-          "github": null
-        },
-        "has_github_actions": true
-      },
-      {
-        "name": "ErisPulse-SandboxAdapter",
-        "version": "1.0.0",
-        "summary": "ErisPulse的沙箱适配器，提供网页界面用于调试和模拟消息",
-        "license": "MIT License\n        \n        Copyright (c) 2026 wsu2059q\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.\n        ",
-        "license_expression": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "ErisPulse Team",
-        "author_email": null,
-        "pub_date": 1768246688,
-        "project_urls": {
-          "homepage": null,
-          "repository": null,
-          "github": null
-        },
-        "has_github_actions": null
-      },
-      {
-        "name": "reposcope-ai",
-        "version": "0.1.0",
-        "summary": "CLI tool that analyzes a Git repository and generates actionable reports",
-        "license": "MIT License\n        \n        Copyright (c) 2026 RepoScope AI\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.",
-        "license_expression": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "RepoScope AI",
-        "author_email": null,
-        "pub_date": 1768246571,
-        "project_urls": {
-          "homepage": "https://github.com/reposcope-ai/reposcope",
-          "repository": "https://github.com/reposcope-ai/reposcope",
-          "github": null
-        },
-        "has_github_actions": false
       }
     ]
   },
   "vcs": {
     "hosts": {
-      "github": 18830,
+      "github": 18832,
       "gitlab": 310
     },
-    "no_vcs_count": 47869,
+    "no_vcs_count": 47868,
     "recent_no_vcs_projects": [
       {
         "name": "regvelo",
@@ -3751,25 +3751,6 @@
         "has_github_actions": null
       },
       {
-        "name": "durabletask.azuremanaged",
-        "version": "0.0.0.dev28",
-        "summary": "Durable Task Python SDK provider implementation for the Azure Durable Task Scheduler",
-        "license": null,
-        "license_expression": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": null,
-        "pub_date": 1768250668,
-        "project_urls": {
-          "homepage": null,
-          "repository": null,
-          "github": null
-        },
-        "has_github_actions": null
-      },
-      {
         "name": "durabletask",
         "version": "0.0.0.dev28",
         "summary": "A Durable Task Client SDK for Python",
@@ -3838,6 +3819,25 @@
         "author": "DuckDB Foundation",
         "author_email": null,
         "pub_date": 1768250563,
+        "project_urls": {
+          "homepage": null,
+          "repository": null,
+          "github": null
+        },
+        "has_github_actions": null
+      },
+      {
+        "name": "utf8-tokenizer",
+        "version": "0.6.3",
+        "summary": "True UTF-8 tokenizer for byte level models",
+        "license": null,
+        "license_expression": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Amit Moryossef <amit@sign.mt>",
+        "pub_date": 1768250527,
         "project_urls": {
           "homepage": null,
           "repository": null,
@@ -3995,6 +3995,25 @@
         "pub_date": 1768250009,
         "project_urls": {
           "homepage": "https://docs.langchain.com/oss/python/langgraph/overview",
+          "repository": null,
+          "github": null
+        },
+        "has_github_actions": null
+      },
+      {
+        "name": "dash",
+        "version": "4.0.0rc6",
+        "summary": "A Python framework for building reactive web-apps. Developed by Plotly.",
+        "license": "MIT",
+        "license_expression": null,
+        "home_page": "https://plotly.com/dash",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Chris Parmer",
+        "author_email": "chris@plotly.com",
+        "pub_date": 1768249621,
+        "project_urls": {
+          "homepage": "https://plotly.com/dash",
           "repository": null,
           "github": null
         },
@@ -4774,25 +4793,6 @@
         "pub_date": 1768238508,
         "project_urls": {
           "homepage": "https://www.pulumi.com",
-          "repository": null,
-          "github": null
-        },
-        "has_github_actions": null
-      },
-      {
-        "name": "minitap-mobile-use",
-        "version": "3.3.0",
-        "summary": "AI-powered multi-agent system that automates real Android and iOS devices through low-level control using LangGraph.",
-        "license": "MIT License  Copyright (c) 2025 Minitap, Inc  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
-        "license_expression": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Pierre-Louis Favreau, Jean-Pierre Lo, Nicolas Dehandschoewercker",
-        "author_email": null,
-        "pub_date": 1768238453,
-        "project_urls": {
-          "homepage": "https://minitap.ai/",
           "repository": null,
           "github": null
         },
@@ -5580,44 +5580,6 @@
         "has_github_actions": true
       },
       {
-        "name": "rxfoundry.clients.swifty_api",
-        "version": "0.1.999",
-        "summary": "SwiftyRX API",
-        "license": "NoLicense",
-        "license_expression": null,
-        "home_page": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "RxFoundry Team",
-        "author_email": "paul.tindall@rxfoundry.com",
-        "pub_date": 1768251077,
-        "project_urls": {
-          "homepage": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-          "repository": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-          "github": null
-        },
-        "has_github_actions": false
-      },
-      {
-        "name": "rxfoundry.clients.swifty_oauth_api",
-        "version": "0.1.999",
-        "summary": "Swifty OAuth API",
-        "license": "NoLicense",
-        "license_expression": null,
-        "home_page": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "RxFoundry Team",
-        "author_email": "paul.tindall@rxfoundry.com",
-        "pub_date": 1768251076,
-        "project_urls": {
-          "homepage": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-          "repository": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-          "github": null
-        },
-        "has_github_actions": false
-      },
-      {
         "name": "dijkies",
         "version": "0.1.4",
         "summary": "A python framework that can be used to create, test and deploy trading algorithms.",
@@ -5746,6 +5708,44 @@
         "project_urls": {
           "homepage": "https://github.com/s3rgeym/hh-applicant-tool",
           "repository": "https://github.com/s3rgeym/hh-applicant-tool",
+          "github": null
+        },
+        "has_github_actions": true
+      },
+      {
+        "name": "SwapLayer",
+        "version": "0.2.2",
+        "summary": "Swap providers with zero vendor lock-in. For Django SaaS.",
+        "license": null,
+        "license_expression": "MIT",
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Alex C <alex@coded.uk>",
+        "pub_date": 1768250895,
+        "project_urls": {
+          "homepage": "https://github.com/Tunet-xyz/swap_layer",
+          "repository": "https://github.com/Tunet-xyz/swap_layer",
+          "github": null
+        },
+        "has_github_actions": false
+      },
+      {
+        "name": "ng2nlm",
+        "version": "1.0.0",
+        "summary": "Convert a Norton Guide database into a source for NotebookLM",
+        "license": null,
+        "license_expression": "GPL-3.0-or-later",
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "Dave Pearson",
+        "author_email": "Dave Pearson <davep@davep.org>",
+        "pub_date": 1768250892,
+        "project_urls": {
+          "homepage": "https://ng2nlm.davep.dev/",
+          "repository": "https://github.com/davep/ng2nlm",
           "github": null
         },
         "has_github_actions": true
@@ -7047,44 +7047,6 @@
         "has_github_actions": false
       },
       {
-        "name": "rxfoundry.clients.swifty_api",
-        "version": "0.1.999",
-        "summary": "SwiftyRX API",
-        "license": "NoLicense",
-        "license_expression": null,
-        "home_page": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "RxFoundry Team",
-        "author_email": "paul.tindall@rxfoundry.com",
-        "pub_date": 1768251077,
-        "project_urls": {
-          "homepage": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-          "repository": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-          "github": null
-        },
-        "has_github_actions": false
-      },
-      {
-        "name": "rxfoundry.clients.swifty_oauth_api",
-        "version": "0.1.999",
-        "summary": "Swifty OAuth API",
-        "license": "NoLicense",
-        "license_expression": null,
-        "home_page": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "RxFoundry Team",
-        "author_email": "paul.tindall@rxfoundry.com",
-        "pub_date": 1768251076,
-        "project_urls": {
-          "homepage": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-          "repository": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
-          "github": null
-        },
-        "has_github_actions": false
-      },
-      {
         "name": "dijkies",
         "version": "0.1.4",
         "summary": "A python framework that can be used to create, test and deploy trading algorithms.",
@@ -7408,6 +7370,82 @@
         "has_github_actions": false
       },
       {
+        "name": "parkapi-sources",
+        "version": "0.33.1",
+        "summary": "ParkAPI Sources is a collection of converters from several different data sources to normalized ParkAPI data.",
+        "license": null,
+        "license_expression": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": "\"Ernesto Ruge, binary butterfly GmbH\" <ernesto.ruge@binary-butterfly.de>",
+        "author": null,
+        "author_email": "\"Ernesto Ruge, binary butterfly GmbH\" <ernesto.ruge@binary-butterfly.de>",
+        "pub_date": 1768249781,
+        "project_urls": {
+          "homepage": "https://github.com/ParkenDD/parkapi-sources-v3",
+          "repository": "https://github.com/ParkenDD/parkapi-sources-v3.git",
+          "github": null
+        },
+        "has_github_actions": false
+      },
+      {
+        "name": "rxfoundry.clients.swifty_api",
+        "version": "0.1.998",
+        "summary": "SwiftyRX API",
+        "license": "NoLicense",
+        "license_expression": null,
+        "home_page": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "RxFoundry Team",
+        "author_email": "paul.tindall@rxfoundry.com",
+        "pub_date": 1768249757,
+        "project_urls": {
+          "homepage": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
+          "repository": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
+          "github": null
+        },
+        "has_github_actions": false
+      },
+      {
+        "name": "rxfoundry.clients.swifty_oauth_api",
+        "version": "0.1.998",
+        "summary": "Swifty OAuth API",
+        "license": "NoLicense",
+        "license_expression": null,
+        "home_page": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": "RxFoundry Team",
+        "author_email": "paul.tindall@rxfoundry.com",
+        "pub_date": 1768249755,
+        "project_urls": {
+          "homepage": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
+          "repository": "https://github.com/GIT_USER_ID/GIT_REPO_ID",
+          "github": null
+        },
+        "has_github_actions": false
+      },
+      {
+        "name": "coder-screensaver",
+        "version": "0.1.1",
+        "summary": "Animated code screensaver with syntax highlighting - displays source code as if being typed in real-time",
+        "license": "MIT",
+        "license_expression": null,
+        "home_page": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "author": null,
+        "author_email": "Sinan Islekdemir <sinan@islekdemir.com>",
+        "pub_date": 1768249673,
+        "project_urls": {
+          "homepage": "https://github.com/sinanislekdemir/coder-screensaver",
+          "repository": "https://github.com/sinanislekdemir/coder-screensaver",
+          "github": null
+        },
+        "has_github_actions": false
+      },
+      {
         "name": "jleechanorg-pr-automation",
         "version": "0.2.52",
         "summary": "GitHub PR automation system with safety limits and actionable counting",
@@ -7612,44 +7650,6 @@
         "project_urls": {
           "homepage": "https://github.com/MitudruDutta/learnlock",
           "repository": "https://github.com/MitudruDutta/learnlock",
-          "github": null
-        },
-        "has_github_actions": false
-      },
-      {
-        "name": "M3Drop",
-        "version": "0.4.18",
-        "summary": "A Python implementation of the M3Drop single-cell RNA-seq analysis tool.",
-        "license": "MIT",
-        "license_expression": null,
-        "home_page": "https://github.com/PragalvhaSharma/m3DropNew",
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": "Tallulah Andrews",
-        "author_email": "tandrew6@uwo.ca",
-        "pub_date": 1768248556,
-        "project_urls": {
-          "homepage": "https://github.com/PragalvhaSharma/m3DropNew",
-          "repository": null,
-          "github": null
-        },
-        "has_github_actions": false
-      },
-      {
-        "name": "dataframe-textual",
-        "version": "2.4.3",
-        "summary": "Interactive terminal viewer/editor for tabular data",
-        "license": "MIT",
-        "license_expression": null,
-        "home_page": null,
-        "maintainer": null,
-        "maintainer_email": null,
-        "author": null,
-        "author_email": "Tiejun Cheng <need47@gmail.com>",
-        "pub_date": 1768248515,
-        "project_urls": {
-          "homepage": "https://github.com/need47/dataframe-textual",
-          "repository": "https://github.com/need47/dataframe-textual.git",
           "github": null
         },
         "has_github_actions": false
