@@ -304,80 +304,80 @@
   ],
   "license": {
     "licenses": {
-      "BSD-3-clause": 4,
-      "AGPL-3": 1228,
-      "Apache-2.0": 4219,
-      "GPLv3+": 63,
-      "AGPLv3": 27,
-      "BSD-3": 38,
-      "BSD (3-clause)": 10,
-      "Artistic-2.0": 2,
-      "Apache License 2.0": 808,
-      "LGPL-3.0-only": 31,
-      "Apache": 100,
-      "MIT License": 689,
+      "AGPL-3.0-or-later": 160,
       "ISC": 55,
-      "MIT OR Apache-2.0": 109,
-      "MIT license": 80,
+      "BSD 3-Clause": 66,
+      "GPL-2.0": 17,
+      "GNU": 15,
       "Apache 2.0 License": 21,
+      "AGPLv3": 27,
+      "BSD-3-clause": 4,
+      "MPL-2.0": 176,
+      "Apache": 100,
+      "AGPL-3": 1228,
+      "LGPLv3": 66,
+      "MPL": 5,
+      "GPLv3+": 63,
+      "BSD-2-Clause": 93,
       "CC BY-NC-SA 4.0": 16,
       "GPL3": 32,
-      "LGPLv3": 66,
-      "GPL-2.0-only": 39,
-      "Apache License": 20,
-      "LGPL-3.0-or-later": 92,
-      "EUPL 1.1+": 2,
-      "Apache-2.0 license": 23,
-      "GPL-2.0": 17,
-      "AGPL-3.0": 156,
-      "Apache-2": 13,
       "AGPL 3.0": 16,
-      "BSD 3-Clause": 66,
-      "FreeBSD": 3,
-      "BSD-3-Clause": 794,
-      "GPLv3": 258,
-      "GPLv2+": 31,
-      "EUPL-1.2-or-later": 2,
-      "MPL": 5,
-      "GPL": 127,
-      "MPL-2.0": 176,
-      "Apache v2.0": 8,
-      "Elastic-2.0": 41,
-      "BSD 2-CLAUSE": 2,
-      "Proprietary": 373,
-      "EUPL-1.2": 42,
-      "AFL-3.0": 3,
-      "BSD": 233,
-      "ELv2": 14,
-      "GPL License": 22,
-      "BSD License": 45,
-      "LGPL-2.1-or-later": 21,
       "gpl": 10,
+      "Apache License 2.0": 808,
+      "BSD-3-Clause": 794,
+      "Apache License": 20,
+      "ELv2": 14,
+      "FreeBSD": 3,
+      "LGPL-2.1-or-later": 21,
       "GPL 3.0": 5,
-      "AGPL-3.0-or-later": 160,
-      "GPL-3": 184,
-      "BSD-Clause-2": 2,
-      "GPL-3.0": 243,
-      "GPL-3.0-only": 159,
-      "AGPL-3.0-only": 97,
-      "Elastic License 2.0": 8,
-      "GNU GPL v3.0": 4,
-      "LGPL-3": 169,
-      "ASL": 3,
-      "BSD-2-Clause": 93,
-      "BSD-3-Clause-Clear": 13,
-      "Apache 2.0 license": 1,
       "Apache 2.0": 718,
+      "EUPL-1.2": 42,
+      "Apache-2": 13,
+      "GPL-3.0-only": 159,
+      "MIT OR Apache-2.0": 109,
+      "GNU GPL v3.0": 4,
+      "Apache-2.0 license": 23,
+      "Elastic-2.0": 41,
+      "BSD-3": 38,
+      "GPL": 127,
       "GPL-2+": 2,
-      "AGPL": 35,
-      "GPL-3.0-or-later": 609,
+      "MIT license": 80,
+      "BSD": 233,
+      "Apache 2.0 license": 1,
+      "ASL": 3,
       "MIT": 18086,
-      "Mulan PSL v2": 1,
+      "AGPL": 35,
+      "GPLv3": 258,
+      "LGPL-3.0-only": 31,
       "GPL version 2": 91,
+      "GPL-3.0": 243,
+      "EUPL-1.2-or-later": 2,
+      "Artistic-2.0": 2,
+      "MIT License": 689,
+      "Apache v2.0": 8,
+      "AGPL-3.0-only": 97,
       "GPL-2.0-or-later": 144,
-      "LGPL 3.0": 3,
-      "GNU": 15,
-      "Apache 2": 36
+      "BSD 2-CLAUSE": 2,
+      "BSD-Clause-2": 2,
+      "Mulan PSL v2": 1,
+      "GPL License": 22,
+      "LGPL-3.0-or-later": 92,
+      "GPL-2.0-only": 39,
+      "GPL-3": 184,
+      "Proprietary": 373,
+      "EUPL 1.1+": 2,
+      "BSD (3-clause)": 10,
+      "BSD License": 45,
+      "Elastic License 2.0": 8,
+      "GPL-3.0-or-later": 609,
+      "GPLv2+": 31,
+      "Apache-2.0": 4219,
+      "LGPL-3": 169,
+      "Apache 2": 36,
+      "BSD-3-Clause-Clear": 13,
+      "AFL-3.0": 3,
+      "AGPL-3.0": 156,
+      "LGPL 3.0": 3
     },
     "no_license_count": 32553,
     "no_license": [
@@ -634,6 +634,12 @@
         "pub_date": 1768516219
       },
       {
+        "name": "airbyte-agent-mcp",
+        "version": "0.1.64",
+        "summary": "MCP server that exposes Airbyte Connector SDK as MCP tools",
+        "pub_date": 1768515998
+      },
+      {
         "name": "solverpy",
         "version": "1.9.2",
         "summary": "Python inteface for Automated Reasoning (AR) solvers, provers, and checkers.",
@@ -674,12 +680,6 @@
         "version": "0.6.6",
         "summary": "A Python library to generate and query ASTs, CFGs, and syntax graphs from multi-language source code",
         "pub_date": 1768515173
-      },
-      {
-        "name": "profiles-mlcorelib",
-        "version": "0.8.11",
-        "summary": null,
-        "pub_date": 1768515169
       }
     ],
     "bad_license_count": 1906,
@@ -1030,12 +1030,6 @@
         "pub_date": 1768517297
       },
       {
-        "name": "metabOmics",
-        "version": "0.1.24",
-        "summary": "metabOmics — tools for metabolomics and metabolic network analysis",
-        "pub_date": 1768517177
-      },
-      {
         "name": "ghapi",
         "version": "1.0.9",
         "summary": "A python client for the GitHub API",
@@ -1076,6 +1070,12 @@
         "version": "0.1.23",
         "summary": "A .dos file viewer",
         "pub_date": 1768515717
+      },
+      {
+        "name": "metabOmics",
+        "version": "0.1.23",
+        "summary": "metabOmics — tools for metabolomics and metabolic network analysis",
+        "pub_date": 1768515675
       },
       {
         "name": "kani",
@@ -1291,9 +1291,9 @@
   },
   "vcs": {
     "hosts": {
+      "github": 21281,
       "gitlab": 335,
-      "other": 106,
-      "github": 21281
+      "other": 106
     },
     "no_vcs_count": 47716,
     "no_vcs": [
@@ -1568,6 +1568,18 @@
         "pub_date": 1768516045
       },
       {
+        "name": "mcp-souschef",
+        "version": "2.5.3",
+        "summary": "AI-powered MCP server for Chef to Ansible conversion",
+        "pub_date": 1768516020
+      },
+      {
+        "name": "airbyte-agent-mcp",
+        "version": "0.1.64",
+        "summary": "MCP server that exposes Airbyte Connector SDK as MCP tools",
+        "pub_date": 1768515998
+      },
+      {
         "name": "cryospax",
         "version": "0.0.1",
         "summary": "A small library for cryo-EM single particle analysis in JAX.",
@@ -1584,18 +1596,6 @@
         "version": "0.23.0",
         "summary": "Batteries-included framework for building durable agentic workflows and business applications.",
         "pub_date": 1768515621
-      },
-      {
-        "name": "synqly",
-        "version": "1.0.57",
-        "summary": "SDK for Synqly APIs",
-        "pub_date": 1768515608
-      },
-      {
-        "name": "ptctools",
-        "version": "0.1.0",
-        "summary": "Portainer Client Tools - CLI for managing Portainer from client",
-        "pub_date": 1768515538
       }
     ],
     "bad_vcs_count": 4081,
@@ -1671,6 +1671,12 @@
         "version": "0.0.1rc3",
         "summary": null,
         "pub_date": 1768516457
+      },
+      {
+        "name": "coiled",
+        "version": "1.130.3.dev2",
+        "summary": "Python client for coiled.io dask clusters",
+        "pub_date": 1768516029
       },
       {
         "name": "obra",
@@ -1893,12 +1899,6 @@
         "version": "0.4.3",
         "summary": "SDK for integrating Braintrust",
         "pub_date": 1768507512
-      },
-      {
-        "name": "icechunk",
-        "version": "1.1.16",
-        "summary": "Icechunk Python",
-        "pub_date": 1768507478
       }
     ],
     "github_count": 21281,
@@ -2174,12 +2174,6 @@
         "pub_date": 1768517180
       },
       {
-        "name": "metabOmics",
-        "version": "0.1.24",
-        "summary": "metabOmics — tools for metabolomics and metabolic network analysis",
-        "pub_date": 1768517177
-      },
-      {
         "name": "mlstructfp",
         "version": "0.7.4",
         "summary": "Machine learning structural floor plan dataset",
@@ -2202,6 +2196,12 @@
         "version": "0.3.13",
         "summary": "Mopidy Extension for Tidal music service integration.",
         "pub_date": 1768517054
+      },
+      {
+        "name": "assemblyline-core",
+        "version": "4.7.0.dev55",
+        "summary": "Assemblyline 4 - Core components",
+        "pub_date": 1768517037
       }
     ],
     "gitlab_count": 335,
@@ -2600,12 +2600,6 @@
         "pub_date": 1768517180
       },
       {
-        "name": "metabOmics",
-        "version": "0.1.24",
-        "summary": "metabOmics — tools for metabolomics and metabolic network analysis",
-        "pub_date": 1768517177
-      },
-      {
         "name": "mfcli",
         "version": "0.2.0",
         "summary": "AI-powered CLI for analyzing hardware engineering documents",
@@ -2754,6 +2748,12 @@
         "version": "0.2.0",
         "summary": "Ambient light-aware Ghostty theme selector with Bayesian preference learning",
         "pub_date": 1768515805
+      },
+      {
+        "name": "metabOmics",
+        "version": "0.1.23",
+        "summary": "metabOmics — tools for metabolomics and metabolic network analysis",
+        "pub_date": 1768515675
       },
       {
         "name": "subcortex-visualization",
@@ -3083,34 +3083,34 @@
         "pub_date": 1768516282
       },
       {
-        "name": "qmeasure",
-        "version": "1.2.2",
-        "summary": "Measurement code for condensed matter groups at UW based on QCoDeS.",
-        "pub_date": 1768515890
+        "name": "airbyte-agent-google-drive",
+        "version": "0.1.15",
+        "summary": "Airbyte Google-Drive Connector for AI platforms",
+        "pub_date": 1768516002
       },
       {
-        "name": "sandboxy",
-        "version": "0.0.1",
-        "summary": "Open-source agent simulation and benchmarking platform",
-        "pub_date": 1768515673
+        "name": "airbyte-agent-intercom",
+        "version": "0.1.15",
+        "summary": "Airbyte Intercom Connector for AI platforms",
+        "pub_date": 1768515997
       },
       {
-        "name": "kilosort",
-        "version": "4.1.5",
-        "summary": "spike sorting pipeline",
-        "pub_date": 1768515656
+        "name": "airbyte-agent-slack",
+        "version": "0.1.2",
+        "summary": "Airbyte Slack Connector for AI platforms",
+        "pub_date": 1768515994
       },
       {
-        "name": "kani",
-        "version": "1.8.0",
-        "summary": "kani (カニ) is a lightweight and highly hackable framework for chat-based language models with tool usage/function calling.",
-        "pub_date": 1768515625
+        "name": "airbyte-agent-greenhouse",
+        "version": "0.17.43",
+        "summary": "Airbyte Greenhouse Connector for AI platforms",
+        "pub_date": 1768515992
       },
       {
-        "name": "no-slop",
-        "version": "0.5.0",
-        "summary": "Detect AI-generated code patterns via static analysis",
-        "pub_date": 1768515586
+        "name": "airbyte-agent-github",
+        "version": "0.18.48",
+        "summary": "Airbyte Github Connector for AI platforms",
+        "pub_date": 1768515991
       }
     ],
     "has_gitlab_pipeline_count": 22,
