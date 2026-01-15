@@ -1,386 +1,518 @@
 {
-  "total": 73368,
+  "total": 73389,
   "projects": [
     {
-      "name": "fire-opal",
-      "version": "9.2.0",
-      "summary": "Fire Opal Client",
-      "pub_date": 1768505372
+      "name": "phytospatial",
+      "version": "0.3.1",
+      "summary": "A python package to process remote sensing forestry data",
+      "pub_date": 1768508814
     },
     {
-      "name": "unsiloed-sdk",
-      "version": "0.1.3",
-      "summary": "Python SDK for Unsiloed Vision API - Parse, Extract, Classify, and Split documents",
-      "pub_date": 1768505352
+      "name": "xlwings-server",
+      "version": "1.0.0a1",
+      "summary": "Modern Excel add-ins with Python, running on your self-hosted server.",
+      "pub_date": 1768508806
     },
     {
-      "name": "toon-parse-mcp",
-      "version": "1.0.1b0",
-      "summary": "Token optimization MCP server that reduces LLM context by stripping code comments and converting data formats to TOON",
-      "pub_date": 1768505333
+      "name": "voicetest",
+      "version": "1",
+      "summary": "A generic test harness for voice agent workflows",
+      "pub_date": 1768508800
     },
     {
-      "name": "waterstand",
-      "version": "1.4.2",
-      "summary": "package voor ophalen waterstand",
-      "pub_date": 1768505324
-    },
-    {
-      "name": "sandwitches",
-      "version": "2.1.1",
-      "summary": "Add your description here",
-      "pub_date": 1768505320
-    },
-    {
-      "name": "pipeline-node-agents",
-      "version": "0.1.1",
-      "summary": "A lightweight Python framework for building modular AI pipelines with function nodes and agent nodes.",
-      "pub_date": 1768505289
-    },
-    {
-      "name": "vit-pytorch",
-      "version": "1.17.5",
-      "summary": "Vision Transformer (ViT) - Pytorch",
-      "pub_date": 1768505277
-    },
-    {
-      "name": "django-cfg",
-      "version": "1.5.177",
-      "summary": "Modern Django framework with type-safe Pydantic v2 configuration, Next.js admin integration, real-time WebSockets, and 8 enterprise apps. Replace settings.py with validated models,  90% less code. Production-ready with AI agents, auto-generated TypeScript clients,  and zero-config features.",
-      "pub_date": 1768505238
-    },
-    {
-      "name": "garf-executors",
-      "version": "1.0.3",
-      "summary": "Executes queries against API and writes data to local/remote storage.",
-      "pub_date": 1768505223
-    },
-    {
-      "name": "openstudio",
-      "version": "3.11.0",
-      "summary": "OpenStudio python bindings.",
-      "pub_date": 1768505196
-    },
-    {
-      "name": "doti18n",
-      "version": "0.4.4",
-      "summary": "Python library for loading localizations with dot access and pluralization.",
-      "pub_date": 1768505146
-    },
-    {
-      "name": "civics-cdf-validator",
-      "version": "1.56.dev2",
-      "summary": "Checks if an election feed follows best practices",
-      "pub_date": 1768505136
-    },
-    {
-      "name": "standardbots",
-      "version": "2.0.0.dev1768505129",
-      "summary": "Standard Bots RO1 Robotics API",
-      "pub_date": 1768505130
-    },
-    {
-      "name": "odyn",
-      "version": "0.4.0",
-      "summary": "Odyn is a python client for Business Central Web Services API.",
-      "pub_date": 1768505108
-    },
-    {
-      "name": "tarang",
-      "version": "4.2.0",
-      "summary": "Tarang - AI Coding Agent (Hybrid WebSocket Architecture)",
-      "pub_date": 1768505076
-    },
-    {
-      "name": "wyrmx-cli",
-      "version": "1.0.107",
-      "summary": "Wyrmx CLI is the official command-line interface for Wyrmx — a blazing-fast, Cython-accelerated, AI-enhanced web framework built on FastAPI.",
-      "pub_date": 1768505067
-    },
-    {
-      "name": "jl95terceira-net-io",
-      "version": "1.4.1",
-      "summary": "Python command line tools collection (general)",
-      "pub_date": 1768505062
-    },
-    {
-      "name": "pulumi-vault",
-      "version": "7.7.0a1768504203",
-      "summary": "A Pulumi package for creating and managing HashiCorp Vault cloud resources.",
-      "pub_date": 1768504998
-    },
-    {
-      "name": "keplar-api",
-      "version": "0.0.38",
-      "summary": "Fastify Template API",
-      "pub_date": 1768504995
-    },
-    {
-      "name": "konokenj.cdk-api-mcp-server",
-      "version": "0.69.0",
-      "summary": "An MCP server provides AWS CDK API Reference",
-      "pub_date": 1768504983
-    },
-    {
-      "name": "dynamic-random-sampler",
-      "version": "26.1.15.0",
-      "summary": "Dynamic weighted random sampling with O(log* N) operations",
-      "pub_date": 1768504967
-    },
-    {
-      "name": "TempEst2",
-      "version": "0.1.0",
-      "summary": "TempEst 2 estimates stream water temperature at a point, for streams of any size, using a data-driven model based on satellite remote sensing data. This is the Python implementation.",
-      "pub_date": 1768504950
-    },
-    {
-      "name": "glint-mask-tools",
-      "version": "4.0.0",
-      "summary": "Create masks for specular reflection in UAV and aerial imagery",
-      "pub_date": 1768504923
-    },
-    {
-      "name": "markpact",
-      "version": "0.1.16",
-      "summary": "Executable Markdown Runtime – run projects from README.md",
-      "pub_date": 1768504900
-    },
-    {
-      "name": "rusty-graph",
-      "version": "0.3.20",
-      "summary": "A high-performance graph database library with Python bindings written in Rust",
-      "pub_date": 1768504871
-    },
-    {
-      "name": "snowfakery-mcp",
-      "version": "0.0.2",
-      "summary": "MCP server for authoring, analyzing, debugging, and running Snowfakery recipes",
-      "pub_date": 1768504845
-    },
-    {
-      "name": "across-server-openapi-python",
-      "version": "1.1.1",
-      "summary": "FastAPI",
-      "pub_date": 1768504806
-    },
-    {
-      "name": "petal-leafsdk",
-      "version": "0.2.4",
-      "summary": "SDK for mission planning",
-      "pub_date": 1768504801
-    },
-    {
-      "name": "chia-wallet-sdk",
-      "version": "0.33.0",
+      "name": "player-tools-xlr-types",
+      "version": "0.13.0.dev2215878",
       "summary": null,
-      "pub_date": 1768504766
+      "pub_date": 1768508797
     },
     {
-      "name": "blendconf",
-      "version": "1.0.1",
-      "summary": "Helper to merge multiple configuration files into one file.",
-      "pub_date": 1768504762
+      "name": "player-tools-dsl-generator",
+      "version": "0.13.0.dev2215878",
+      "summary": null,
+      "pub_date": 1768508793
     },
     {
-      "name": "pulumi-mongodbatlas",
-      "version": "4.2.0a1768504040",
-      "summary": "A Pulumi package for creating and managing mongodbatlas cloud resources.",
-      "pub_date": 1768504753
+      "name": "player-tools-dsl",
+      "version": "0.13.0.dev2215878",
+      "summary": null,
+      "pub_date": 1768508787
     },
     {
-      "name": "models-dev",
-      "version": "1.0.11",
-      "summary": "Typed Python interface to models.dev API data",
-      "pub_date": 1768504726
+      "name": "lmnr",
+      "version": "0.7.30",
+      "summary": "Python SDK for Laminar",
+      "pub_date": 1768508739
     },
     {
-      "name": "mteb",
-      "version": "2.7.2",
-      "summary": "Massive Text Embedding Benchmark",
-      "pub_date": 1768504724
+      "name": "basilisk-engine",
+      "version": "0.2.6",
+      "summary": "Python bindings for the Basilisk C++ library",
+      "pub_date": 1768508733
     },
     {
-      "name": "cumulus-library",
-      "version": "6.0.0b7",
-      "summary": "Clinical study SQL generation for data derived from bulk FHIR",
-      "pub_date": 1768504707
+      "name": "pycsp3-solvers-extra",
+      "version": "0.3.0",
+      "summary": "Extra solver backends for pycsp3 (OR-Tools, IBM CPO, Z3)",
+      "pub_date": 1768508684
+    },
+    {
+      "name": "multi-llm-consensus",
+      "version": "0.1.2",
+      "summary": "Achieve consensus across multiple LLMs through an AI judge coordinator",
+      "pub_date": 1768508660
+    },
+    {
+      "name": "pycsp3-scheduling",
+      "version": "0.2.0",
+      "summary": "Scheduling extension for PyCSP3 with interval variables, sequence variables, and scheduling constraints",
+      "pub_date": 1768508647
+    },
+    {
+      "name": "pyexptest",
+      "version": "0.1.0",
+      "summary": "Statistical tools for A/B testing - sample size calculation, power analysis, and significance testing",
+      "pub_date": 1768508618
+    },
+    {
+      "name": "docent-python",
+      "version": "0.1.45a0",
+      "summary": "Docent SDK",
+      "pub_date": 1768508611
+    },
+    {
+      "name": "scale-gp-agents",
+      "version": "0.1.0a7",
+      "summary": "The official Python library for the agents API",
+      "pub_date": 1768508581
+    },
+    {
+      "name": "cortexgraph",
+      "version": "1.1.1",
+      "summary": "CortexGraph: Temporal memory management for AI assistants with human-like dynamics",
+      "pub_date": 1768508559
+    },
+    {
+      "name": "petpal",
+      "version": "0.6.0",
+      "summary": "PET-PAL (Positron Emission Tomography Processing and Analysis Library)",
+      "pub_date": 1768508556
+    },
+    {
+      "name": "arviz-base",
+      "version": "0.8.1",
+      "summary": "Base ArviZ features and converters.",
+      "pub_date": 1768508527
+    },
+    {
+      "name": "pycsp3-explain",
+      "version": "0.1.1",
+      "summary": "Explanation tools for PyCSP3 constraint models",
+      "pub_date": 1768508519
+    },
+    {
+      "name": "mockamorph",
+      "version": "0.2.0",
+      "summary": "Lightweight interface mocking library for Python for expectation-driven testing",
+      "pub_date": 1768508508
+    },
+    {
+      "name": "policyengine-us",
+      "version": "1.501.0",
+      "summary": "Add your description here.",
+      "pub_date": 1768508417
+    },
+    {
+      "name": "paperless-asn-qr-codes",
+      "version": "0.4.1.dev14",
+      "summary": "Code for generating paperless ASN labels with QR codes",
+      "pub_date": 1768508394
+    },
+    {
+      "name": "p3lib",
+      "version": "1.1.145",
+      "summary": "A group of python modules for networking, plotting data, config storage, automating boot scripts, ssh access and user input output.",
+      "pub_date": 1768508392
+    },
+    {
+      "name": "nominal-api-protos",
+      "version": "0.1071.0",
+      "summary": null,
+      "pub_date": 1768508385
+    },
+    {
+      "name": "nominal-api",
+      "version": "0.1071.0",
+      "summary": null,
+      "pub_date": 1768508382
+    },
+    {
+      "name": "vibe-widget",
+      "version": "0.2.4",
+      "summary": "Create interactive visualizations using natural language and LLMs",
+      "pub_date": 1768508373
+    },
+    {
+      "name": "clicknick",
+      "version": "0.16.3",
+      "summary": "Tag-Based Programming for Automation Direct CLICK PLCs.",
+      "pub_date": 1768508331
+    },
+    {
+      "name": "orca-sdk",
+      "version": "0.1.9",
+      "summary": "SDK for interacting with Orca Services",
+      "pub_date": 1768508320
+    },
+    {
+      "name": "merlin-batch-predictor",
+      "version": "0.49.4rc1",
+      "summary": "Base PySpark application for running Merlin prediction batch job",
+      "pub_date": 1768508305
+    },
+    {
+      "name": "merlin-pyfunc-server",
+      "version": "0.49.4rc1",
+      "summary": "Model Server implementation for Merlin PyFunc model",
+      "pub_date": 1768508299
+    },
+    {
+      "name": "merlin-sdk",
+      "version": "0.49.4rc1",
+      "summary": "Python SDK for Merlin",
+      "pub_date": 1768508275
+    },
+    {
+      "name": "comfyui-workflow-templates",
+      "version": "0.8.10",
+      "summary": "ComfyUI workflow templates package",
+      "pub_date": 1768508271
+    },
+    {
+      "name": "pulumi-databricks",
+      "version": "1.82.0a1768507296",
+      "summary": "A Pulumi package for creating and managing databricks cloud resources.",
+      "pub_date": 1768508266
+    },
+    {
+      "name": "comfyui-workflow-templates-media-image",
+      "version": "0.3.62",
+      "summary": "Media bundle containing image workflow assets",
+      "pub_date": 1768508262
+    },
+    {
+      "name": "comfyui-workflow-templates-core",
+      "version": "0.3.96",
+      "summary": "Core helpers for ComfyUI workflow templates",
+      "pub_date": 1768508255
     },
     {
       "name": "aiinbx",
-      "version": "0.308.0",
+      "version": "0.309.0",
       "summary": "The official Python library for the AIInbx API",
-      "pub_date": 1768504666
+      "pub_date": 1768508252
+    },
+    {
+      "name": "hud-python",
+      "version": "0.5.11",
+      "summary": "SDK for the HUD platform.",
+      "pub_date": 1768508214
+    },
+    {
+      "name": "a4e",
+      "version": "0.1.6",
+      "summary": "A comprehensive MCP server toolkit for building, managing, and running AI agents compatible with the A4E ecosystem.",
+      "pub_date": 1768508191
+    },
+    {
+      "name": "vurze",
+      "version": "0.1.2",
+      "summary": "Version control your Python functions and classes with automated cryptographic decorator injection.",
+      "pub_date": 1768508188
+    },
+    {
+      "name": "dipperpy",
+      "version": "1.0.3",
+      "summary": "Package performing spectral diagnostics and radiative transfer calculations",
+      "pub_date": 1768508180
+    },
+    {
+      "name": "osslili",
+      "version": "1.6.2",
+      "summary": "Open Source License Identification Library",
+      "pub_date": 1768508153
+    },
+    {
+      "name": "mlflow-modal-deploy",
+      "version": "0.2.3",
+      "summary": "MLflow deployment plugin for Modal serverless GPU infrastructure (actively maintained)",
+      "pub_date": 1768508132
     },
     {
       "name": "cybrid-api-bank-python",
-      "version": "0.126.50",
+      "version": "0.126.51",
       "summary": "Cybrid Bank API",
-      "pub_date": 1768504663
+      "pub_date": 1768508127
+    },
+    {
+      "name": "ruff",
+      "version": "0.14.13",
+      "summary": "An extremely fast Python linter and code formatter, written in Rust.",
+      "pub_date": 1768508083
     },
     {
       "name": "cybrid-api-organization-python",
-      "version": "0.126.50",
+      "version": "0.126.51",
       "summary": "Cybrid Organization API",
-      "pub_date": 1768504633
+      "pub_date": 1768508077
     },
     {
-      "name": "lsp-client",
-      "version": "0.3.5",
-      "summary": "Full-featured, well-typed, and easy-to-use LSP client",
-      "pub_date": 1768504621
+      "name": "obra",
+      "version": "2.9.46",
+      "summary": "Obra - Cloud-native AI orchestration platform for autonomous software development",
+      "pub_date": 1768508071
     },
     {
-      "name": "cybrid-api-id-python",
-      "version": "0.126.50",
-      "summary": "Cybrid Identity API",
-      "pub_date": 1768504614
+      "name": "mloda-testing",
+      "version": "0.2.5",
+      "summary": "Test utilities for mloda plugin development",
+      "pub_date": 1768508070
     },
     {
-      "name": "spotoptim",
-      "version": "0.0.148",
-      "summary": "Sequential Parameter Optimization Toolbox",
-      "pub_date": 1768504543
+      "name": "mloda-registry",
+      "version": "0.2.5",
+      "summary": "Plugin discovery and search for mloda",
+      "pub_date": 1768508070
     },
     {
-      "name": "throttled-py",
-      "version": "3.1.1",
-      "summary": "🔧 High-performance Python rate limiting library with multiple algorithms (Fixed Window, Sliding Window, Token Bucket, Leaky Bucket & GCRA) and storage backends (Redis, In-Memory).",
-      "pub_date": 1768504521
+      "name": "i18ntools",
+      "version": "0.2.2",
+      "summary": "i18ntools helps translate Java properties i18n files using Azure Cognitive Services Translator",
+      "pub_date": 1768508070
     },
     {
-      "name": "giftpy",
-      "version": "3.3.6",
-      "summary": "GIFT mathematical core - Formally verified constants (Lean 4 + Coq)",
-      "pub_date": 1768504517
+      "name": "mloda-enterprise",
+      "version": "0.2.5",
+      "summary": "All enterprise plugins for mloda",
+      "pub_date": 1768508068
     },
     {
-      "name": "dagster-cloud-examples",
-      "version": "1.12.11",
-      "summary": null,
-      "pub_date": 1768504516
-    },
-    {
-      "name": "dagster-cloud",
-      "version": "1.12.11",
-      "summary": null,
-      "pub_date": 1768504511
-    },
-    {
-      "name": "dagster-gcp-pyspark",
-      "version": "0.28.11",
-      "summary": "Package for storing PySpark DataFrames in GCP",
-      "pub_date": 1768504505
-    },
-    {
-      "name": "dagster-deltalake-pandas",
-      "version": "0.28.11",
-      "summary": "Package for storing Pandas DataFrames in Delta tables.",
-      "pub_date": 1768504502
-    },
-    {
-      "name": "dagster-ssh",
-      "version": "0.28.11",
-      "summary": "Package for ssh Dagster framework components.",
-      "pub_date": 1768504499
-    },
-    {
-      "name": "dagster-gcp-pandas",
-      "version": "0.28.11",
-      "summary": "Package for storing Pandas DataFrames in GCP.",
-      "pub_date": 1768504496
-    },
-    {
-      "name": "dagster-aws",
-      "version": "0.28.11",
-      "summary": "Package for AWS-specific Dagster framework solid and resource components.",
-      "pub_date": 1768504493
-    },
-    {
-      "name": "safeexecute",
-      "version": "0.0.17",
-      "summary": "Safe way to execute Python code with containerization.",
-      "pub_date": 1768504490
+      "name": "bb-integrations-library",
+      "version": "3.0.21",
+      "summary": "Provides common logic for all types of integration jobs.",
+      "pub_date": 1768508067
     }
   ],
   "license": {
     "licenses": {
-      "GPL 3.0": 5,
-      "Apache 2.0": 718,
-      "Elastic-2.0": 41,
-      "Apache 2": 36,
-      "BSD": 233,
-      "MPL-2.0": 175,
-      "GPLv3+": 63,
-      "GPL-2.0-only": 39,
-      "GPL-3.0": 242,
-      "Proprietary": 371,
       "GPLv3": 258,
-      "LGPL 3.0": 3,
       "gpl": 10,
-      "GPL-2.0-or-later": 144,
-      "ISC": 55,
-      "Apache-2": 13,
-      "BSD-3-clause": 4,
-      "MIT license": 80,
-      "BSD-3-Clause": 787,
-      "BSD 3-Clause": 65,
-      "MPL": 5,
-      "ELv2": 14,
-      "MIT OR Apache-2.0": 106,
-      "AGPL-3.0": 156,
-      "BSD-Clause-2": 2,
-      "Apache 2.0 License": 21,
-      "AGPL-3.0-only": 96,
-      "EUPL 1.1+": 2,
-      "LGPL-3.0-or-later": 91,
-      "Apache v2.0": 8,
-      "Apache-2.0 license": 23,
-      "LGPL-2.1-or-later": 21,
-      "GPL-2.0": 17,
-      "Apache License": 20,
-      "EUPL-1.2-or-later": 2,
-      "FreeBSD": 3,
-      "ASL": 3,
-      "LGPL-3": 169,
-      "GPL-3": 181,
-      "BSD-3": 37,
-      "Apache-2.0": 4197,
-      "GPL": 127,
-      "CC BY-NC-SA 4.0": 16,
+      "GPL 3.0": 5,
+      "Proprietary": 371,
       "Mulan PSL v2": 1,
-      "GPL3": 32,
-      "GPL-3.0-only": 158,
-      "BSD License": 45,
-      "MIT License": 689,
-      "LGPLv3": 66,
-      "BSD-2-Clause": 91,
-      "BSD 2-CLAUSE": 2,
-      "GPL version 2": 89,
-      "Artistic-2.0": 2,
-      "GNU": 15,
-      "GPLv2+": 31,
-      "GPL-2+": 2,
+      "ELv2": 14,
+      "MPL-2.0": 175,
       "AGPL": 35,
-      "MIT": 18006,
-      "Elastic License 2.0": 8,
-      "EUPL-1.2": 41,
-      "GPL License": 22,
-      "AGPL 3.0": 16,
-      "BSD-3-Clause-Clear": 13,
-      "AGPL-3.0-or-later": 158,
-      "GPL-3.0-or-later": 606,
+      "ISC": 55,
       "Apache 2.0 license": 1,
-      "AFL-3.0": 3,
-      "BSD (3-clause)": 9,
-      "Apache License 2.0": 807,
-      "LGPL-3.0-only": 30,
+      "ASL": 3,
+      "Apache": 100,
+      "BSD-3-clause": 4,
+      "GPL License": 22,
       "GNU GPL v3.0": 4,
-      "AGPLv3": 27,
+      "Apache v2.0": 8,
+      "LGPL 3.0": 3,
+      "GPL-3.0": 242,
+      "Apache-2.0": 4203,
+      "BSD 3-Clause": 65,
+      "AGPL-3.0-or-later": 158,
+      "GPL-3": 181,
+      "BSD (3-clause)": 9,
+      "EUPL-1.2": 41,
+      "AGPL-3.0": 156,
+      "EUPL 1.1+": 2,
+      "GPL-3.0-only": 158,
+      "MIT license": 80,
+      "BSD License": 45,
+      "LGPL-3.0-only": 30,
+      "Apache License": 20,
+      "GPL version 2": 89,
+      "GPLv2+": 31,
+      "Apache-2.0 license": 23,
+      "MIT OR Apache-2.0": 106,
+      "GPL-2.0": 17,
+      "LGPL-3.0-or-later": 91,
+      "GPL-2.0-only": 39,
       "AGPL-3": 1228,
-      "Apache": 100
+      "BSD-3": 37,
+      "MPL": 5,
+      "GPL-2+": 2,
+      "GPL3": 32,
+      "Elastic-2.0": 41,
+      "BSD": 233,
+      "GPL-2.0-or-later": 144,
+      "BSD-3-Clause": 788,
+      "Apache-2": 13,
+      "GNU": 15,
+      "AGPLv3": 27,
+      "LGPL-3": 169,
+      "MIT License": 689,
+      "Elastic License 2.0": 8,
+      "Apache 2.0 License": 21,
+      "Apache 2": 36,
+      "AFL-3.0": 3,
+      "BSD 2-CLAUSE": 2,
+      "GPL": 127,
+      "EUPL-1.2-or-later": 2,
+      "MIT": 18016,
+      "AGPL-3.0-only": 96,
+      "BSD-2-Clause": 91,
+      "GPL-3.0-or-later": 607,
+      "LGPLv3": 66,
+      "GPLv3+": 63,
+      "Apache 2.0": 718,
+      "Apache License 2.0": 807,
+      "AGPL 3.0": 16,
+      "BSD-Clause-2": 2,
+      "FreeBSD": 3,
+      "BSD-3-Clause-Clear": 13,
+      "LGPL-2.1-or-later": 21,
+      "CC BY-NC-SA 4.0": 16,
+      "Artistic-2.0": 2
     },
-    "no_license_count": 32621,
+    "no_license_count": 32620,
     "no_license": [
+      {
+        "name": "player-tools-xlr-types",
+        "version": "0.13.0.dev2215878",
+        "summary": null,
+        "pub_date": 1768508797
+      },
+      {
+        "name": "player-tools-dsl-generator",
+        "version": "0.13.0.dev2215878",
+        "summary": null,
+        "pub_date": 1768508793
+      },
+      {
+        "name": "player-tools-dsl",
+        "version": "0.13.0.dev2215878",
+        "summary": null,
+        "pub_date": 1768508787
+      },
+      {
+        "name": "scale-gp-agents",
+        "version": "0.1.0a7",
+        "summary": "The official Python library for the agents API",
+        "pub_date": 1768508581
+      },
+      {
+        "name": "petpal",
+        "version": "0.6.0",
+        "summary": "PET-PAL (Positron Emission Tomography Processing and Analysis Library)",
+        "pub_date": 1768508556
+      },
+      {
+        "name": "arviz-base",
+        "version": "0.8.1",
+        "summary": "Base ArviZ features and converters.",
+        "pub_date": 1768508527
+      },
+      {
+        "name": "policyengine-us",
+        "version": "1.501.0",
+        "summary": "Add your description here.",
+        "pub_date": 1768508417
+      },
+      {
+        "name": "nominal-api-protos",
+        "version": "0.1071.0",
+        "summary": null,
+        "pub_date": 1768508385
+      },
+      {
+        "name": "nominal-api",
+        "version": "0.1071.0",
+        "summary": null,
+        "pub_date": 1768508382
+      },
+      {
+        "name": "merlin-batch-predictor",
+        "version": "0.49.4rc1",
+        "summary": "Base PySpark application for running Merlin prediction batch job",
+        "pub_date": 1768508305
+      },
+      {
+        "name": "merlin-pyfunc-server",
+        "version": "0.49.4rc1",
+        "summary": "Model Server implementation for Merlin PyFunc model",
+        "pub_date": 1768508299
+      },
+      {
+        "name": "merlin-sdk",
+        "version": "0.49.4rc1",
+        "summary": "Python SDK for Merlin",
+        "pub_date": 1768508275
+      },
+      {
+        "name": "ruff",
+        "version": "0.14.13",
+        "summary": "An extremely fast Python linter and code formatter, written in Rust.",
+        "pub_date": 1768508083
+      },
+      {
+        "name": "bb-integrations-library",
+        "version": "3.0.21",
+        "summary": "Provides common logic for all types of integration jobs.",
+        "pub_date": 1768508067
+      },
+      {
+        "name": "zephyr-kconfig",
+        "version": "0.0.1",
+        "summary": "Tools for Zephyr Kconfig files",
+        "pub_date": 1768508035
+      },
+      {
+        "name": "safeexecute",
+        "version": "0.0.19",
+        "summary": "Safe way to execute Python code with containerization.",
+        "pub_date": 1768508025
+      },
+      {
+        "name": "x402-xrpl",
+        "version": "0.1.1",
+        "summary": "XRPL implementation of x402 payments (presigned Payment scheme) with client + FastAPI/Starlette helpers",
+        "pub_date": 1768507957
+      },
+      {
+        "name": "DobotTCP",
+        "version": "1.1.5",
+        "summary": "A library to control Dobot robots via TCP",
+        "pub_date": 1768507906
+      },
+      {
+        "name": "lsp-cli",
+        "version": "0.3.3",
+        "summary": "A powerful command-line interface for the Language Server Agent Protocol (LSAP)",
+        "pub_date": 1768507791
+      },
+      {
+        "name": "qnc-data-tables",
+        "version": "0.0.5a0",
+        "summary": "Work-in-progress",
+        "pub_date": 1768507746
+      },
+      {
+        "name": "tico",
+        "version": "0.1.0.dev260115",
+        "summary": "Convert exported Torch module to circle",
+        "pub_date": 1768507699
+      },
+      {
+        "name": "praisonaiagents",
+        "version": "0.12.2",
+        "summary": "Praison AI agents for completing complex tasks with Self Reflection Agents",
+        "pub_date": 1768507558
+      },
       {
         "name": "toon-parse-mcp",
         "version": "1.0.1b0",
@@ -466,12 +598,6 @@
         "pub_date": 1768504543
       },
       {
-        "name": "safeexecute",
-        "version": "0.0.17",
-        "summary": "Safe way to execute Python code with containerization.",
-        "pub_date": 1768504490
-      },
-      {
         "name": "aury-sdk-storage",
         "version": "0.0.10",
         "summary": "Multi-cloud storage SDK with STS support (AWS, Aliyun OSS, Tencent COS)",
@@ -554,132 +680,6 @@
         "version": "2026.1.1",
         "summary": "Progiciel de gestion pour CAE",
         "pub_date": 1768503548
-      },
-      {
-        "name": "moogli-erp",
-        "version": "2026.1.1",
-        "summary": "Progiciel de gestion pour CAE",
-        "pub_date": 1768503482
-      },
-      {
-        "name": "flax-metrics",
-        "version": "0.2.5",
-        "summary": "Flax NXX implementation of common metrics.",
-        "pub_date": 1768503478
-      },
-      {
-        "name": "esentity",
-        "version": "0.2.278",
-        "summary": "Elasticsearch Entity Tools",
-        "pub_date": 1768503415
-      },
-      {
-        "name": "openhands-ai",
-        "version": "1.2.0",
-        "summary": "OpenHands: Code Less, Make More",
-        "pub_date": 1768503338
-      },
-      {
-        "name": "rds-proxy-password-rotation",
-        "version": "0.6.266",
-        "summary": "A program to rotate the password of an RDS database accessed via a RDS proxy",
-        "pub_date": 1768503319
-      },
-      {
-        "name": "aic-sdk",
-        "version": "2.0.0",
-        "summary": "Python bindings for ai-coustics SDK",
-        "pub_date": 1768503143
-      },
-      {
-        "name": "nbs-gui",
-        "version": "0.1.2",
-        "summary": "NBS GUI Module",
-        "pub_date": 1768503121
-      },
-      {
-        "name": "notehub-py",
-        "version": "5.0.0",
-        "summary": "Python-based library for accessing the Blues Notehub API.",
-        "pub_date": 1768503089
-      },
-      {
-        "name": "anomaly-pipeline",
-        "version": "0.1.62",
-        "summary": "Ensemble framework for detecting outliers in grouped time-series data",
-        "pub_date": 1768502782
-      },
-      {
-        "name": "nc1709",
-        "version": "3.0.11",
-        "summary": "AI coding assistant with fine-tuned tool calling - Your code comes to life",
-        "pub_date": 1768502766
-      },
-      {
-        "name": "aury-boot",
-        "version": "0.0.28",
-        "summary": "Aury Boot - 基于 FastAPI 生态的企业级 API 开发框架",
-        "pub_date": 1768502727
-      },
-      {
-        "name": "clipsync-xdt",
-        "version": "0.1.0",
-        "summary": "A professional cross-platform clipboard synchronization CLI by XDT Labs.",
-        "pub_date": 1768502716
-      },
-      {
-        "name": "mkyz",
-        "version": "0.2.3",
-        "summary": "MKYZ is a Python library for ML and data science tasks.",
-        "pub_date": 1768502674
-      },
-      {
-        "name": "parcky-cli",
-        "version": "2026.6.0a2",
-        "summary": "AI-powered git commit and PR creation tool",
-        "pub_date": 1768502662
-      },
-      {
-        "name": "catocli",
-        "version": "3.0.52",
-        "summary": "Cato Networks cli wrapper for the GraphQL API.",
-        "pub_date": 1768502614
-      },
-      {
-        "name": "sal-xarray",
-        "version": "0.2.0",
-        "summary": "SAL backend for xarray",
-        "pub_date": 1768500903
-      },
-      {
-        "name": "sigexec",
-        "version": "2026.43",
-        "summary": "Signal processing execution graph using DAG and data classes",
-        "pub_date": 1768500887
-      },
-      {
-        "name": "uda-xarray",
-        "version": "0.2.0",
-        "summary": "UDA backend for xarray",
-        "pub_date": 1768500874
-      },
-      {
-        "name": "langgraph-store-mongodb",
-        "version": "0.2.0",
-        "summary": "MongoDB implementation of the LangGraph long-term memory store.",
-        "pub_date": 1768500774
-      },
-      {
-        "name": "inference-sdk",
-        "version": "0.64.2",
-        "summary": "With no prior knowledge of machine learning or device-specific deployment, you can deploy a computer vision model to a range of devices and environments using Roboflow Inference.",
-        "pub_date": 1768500769
-      },
-      {
-        "name": "inference-gpu",
-        "version": "0.64.2",
-        "summary": "With no prior knowledge of machine learning or device-specific deployment, you can deploy a computer vision model to a range of devices and environments using Roboflow Inference.",
-        "pub_date": 1768500767
       }
     ],
     "bad_license_count": 1840,
@@ -985,8 +985,62 @@
         "pub_date": 1768459467
       }
     ],
-    "long_license_count": 7911,
+    "long_license_count": 7915,
     "long_license": [
+      {
+        "name": "xlwings-server",
+        "version": "1.0.0a1",
+        "summary": "Modern Excel add-ins with Python, running on your self-hosted server.",
+        "pub_date": 1768508806
+      },
+      {
+        "name": "hud-python",
+        "version": "0.5.11",
+        "summary": "SDK for the HUD platform.",
+        "pub_date": 1768508214
+      },
+      {
+        "name": "obra",
+        "version": "2.9.46",
+        "summary": "Obra - Cloud-native AI orchestration platform for autonomous software development",
+        "pub_date": 1768508071
+      },
+      {
+        "name": "mloda-enterprise",
+        "version": "0.2.5",
+        "summary": "All enterprise plugins for mloda",
+        "pub_date": 1768508068
+      },
+      {
+        "name": "nosj",
+        "version": "0.1.0",
+        "summary": "JSON encoding/decoding for Numpy arrays and scalars",
+        "pub_date": 1768507955
+      },
+      {
+        "name": "ui-rl",
+        "version": "0.1.0",
+        "summary": "RLVR Finetuning for Computer Use models",
+        "pub_date": 1768507838
+      },
+      {
+        "name": "ossdbs",
+        "version": "0.5.3",
+        "summary": "OSS-DBS v2: faster and modular open-source code for deep brain stimulation",
+        "pub_date": 1768507782
+      },
+      {
+        "name": "env-example",
+        "version": "0.3.0",
+        "summary": "Add your description here",
+        "pub_date": 1768507753
+      },
+      {
+        "name": "pzfx",
+        "version": "0.3.1",
+        "summary": "Read and write GraphPad Prism .pzfx files",
+        "pub_date": 1768507602
+      },
       {
         "name": "fire-opal",
         "version": "9.2.0",
@@ -1016,12 +1070,6 @@
         "version": "0.3.21",
         "summary": "An SDK for building reliable AI agents",
         "pub_date": 1768504323
-      },
-      {
-        "name": "obra",
-        "version": "2.9.45",
-        "summary": "Obra - Cloud-native AI orchestration platform for autonomous software development",
-        "pub_date": 1768504238
       },
       {
         "name": "l0-python",
@@ -1238,65 +1286,221 @@
         "version": "0.2.1",
         "summary": "A high-performance, hierarchical, thread-safe mapping library for Python.",
         "pub_date": 1768495620
-      },
-      {
-        "name": "nbdime",
-        "version": "4.0.3",
-        "summary": "Diff and merge of Jupyter Notebooks",
-        "pub_date": 1768495433
-      },
-      {
-        "name": "paperpipe",
-        "version": "1.1.3",
-        "summary": "Unified paper database for coding agents + PaperQA2",
-        "pub_date": 1768495209
-      },
-      {
-        "name": "sphinx-colorschemed-images",
-        "version": "0.3.0",
-        "summary": "A Sphinx extension to add support for colorschemed images.",
-        "pub_date": 1768494961
-      },
-      {
-        "name": "soprano-tts",
-        "version": "0.2.0",
-        "summary": "Soprano: Instant, Ultra‑Realistic Text‑to‑Speech",
-        "pub_date": 1768494925
-      },
-      {
-        "name": "printrgb",
-        "version": "1.0.1",
-        "summary": "Print rainbow text in terminal with true-color ANSI",
-        "pub_date": 1768494755
-      },
-      {
-        "name": "secbench-processing",
-        "version": "2.12.0",
-        "summary": "Secbench algorithms for side-channel analysis",
-        "pub_date": 1768494748
-      },
-      {
-        "name": "tgadmin",
-        "version": "0.38.1",
-        "summary": "TextGrid repository administration cli tool, based on tgclients",
-        "pub_date": 1768493578
-      },
-      {
-        "name": "zae-limiter",
-        "version": "0.3.0",
-        "summary": "Rate limiting library backed by DynamoDB with token bucket algorithm",
-        "pub_date": 1768493564
       }
     ]
   },
   "vcs": {
     "hosts": {
       "other": 106,
-      "gitlab": 333,
-      "github": 21112
+      "github": 21137,
+      "gitlab": 333
     },
-    "no_vcs_count": 47735,
+    "no_vcs_count": 47731,
     "no_vcs": [
+      {
+        "name": "player-tools-xlr-types",
+        "version": "0.13.0.dev2215878",
+        "summary": null,
+        "pub_date": 1768508797
+      },
+      {
+        "name": "player-tools-dsl-generator",
+        "version": "0.13.0.dev2215878",
+        "summary": null,
+        "pub_date": 1768508793
+      },
+      {
+        "name": "player-tools-dsl",
+        "version": "0.13.0.dev2215878",
+        "summary": null,
+        "pub_date": 1768508787
+      },
+      {
+        "name": "lmnr",
+        "version": "0.7.30",
+        "summary": "Python SDK for Laminar",
+        "pub_date": 1768508739
+      },
+      {
+        "name": "cortexgraph",
+        "version": "1.1.1",
+        "summary": "CortexGraph: Temporal memory management for AI assistants with human-like dynamics",
+        "pub_date": 1768508559
+      },
+      {
+        "name": "arviz-base",
+        "version": "0.8.1",
+        "summary": "Base ArviZ features and converters.",
+        "pub_date": 1768508527
+      },
+      {
+        "name": "policyengine-us",
+        "version": "1.501.0",
+        "summary": "Add your description here.",
+        "pub_date": 1768508417
+      },
+      {
+        "name": "paperless-asn-qr-codes",
+        "version": "0.4.1.dev14",
+        "summary": "Code for generating paperless ASN labels with QR codes",
+        "pub_date": 1768508394
+      },
+      {
+        "name": "nominal-api-protos",
+        "version": "0.1071.0",
+        "summary": null,
+        "pub_date": 1768508385
+      },
+      {
+        "name": "nominal-api",
+        "version": "0.1071.0",
+        "summary": null,
+        "pub_date": 1768508382
+      },
+      {
+        "name": "orca-sdk",
+        "version": "0.1.9",
+        "summary": "SDK for interacting with Orca Services",
+        "pub_date": 1768508320
+      },
+      {
+        "name": "merlin-batch-predictor",
+        "version": "0.49.4rc1",
+        "summary": "Base PySpark application for running Merlin prediction batch job",
+        "pub_date": 1768508305
+      },
+      {
+        "name": "merlin-pyfunc-server",
+        "version": "0.49.4rc1",
+        "summary": "Model Server implementation for Merlin PyFunc model",
+        "pub_date": 1768508299
+      },
+      {
+        "name": "comfyui-workflow-templates",
+        "version": "0.8.10",
+        "summary": "ComfyUI workflow templates package",
+        "pub_date": 1768508271
+      },
+      {
+        "name": "comfyui-workflow-templates-media-image",
+        "version": "0.3.62",
+        "summary": "Media bundle containing image workflow assets",
+        "pub_date": 1768508262
+      },
+      {
+        "name": "comfyui-workflow-templates-core",
+        "version": "0.3.96",
+        "summary": "Core helpers for ComfyUI workflow templates",
+        "pub_date": 1768508255
+      },
+      {
+        "name": "dipperpy",
+        "version": "1.0.3",
+        "summary": "Package performing spectral diagnostics and radiative transfer calculations",
+        "pub_date": 1768508180
+      },
+      {
+        "name": "bb-integrations-library",
+        "version": "3.0.21",
+        "summary": "Provides common logic for all types of integration jobs.",
+        "pub_date": 1768508067
+      },
+      {
+        "name": "NREL-COMPASS",
+        "version": "0.12.0",
+        "summary": "INFRA-COMPASS is a tool that leverages Large Language Models (LLMs) to create and maintain an inventory of state and local codes and ordinances applicable to energy infrastructure.",
+        "pub_date": 1768508046
+      },
+      {
+        "name": "kb-dashboard-compiler",
+        "version": "0.1.9",
+        "summary": "Compiles dashboard definitions from YAML to Kibana format",
+        "pub_date": 1768508040
+      },
+      {
+        "name": "zephyr-kconfig",
+        "version": "0.0.1",
+        "summary": "Tools for Zephyr Kconfig files",
+        "pub_date": 1768508035
+      },
+      {
+        "name": "safeexecute",
+        "version": "0.0.19",
+        "summary": "Safe way to execute Python code with containerization.",
+        "pub_date": 1768508025
+      },
+      {
+        "name": "x402-xrpl",
+        "version": "0.1.1",
+        "summary": "XRPL implementation of x402 payments (presigned Payment scheme) with client + FastAPI/Starlette helpers",
+        "pub_date": 1768507957
+      },
+      {
+        "name": "unitpackage",
+        "version": "0.11.2",
+        "summary": "a Python library to interact with a collection of frictionless datapackages",
+        "pub_date": 1768507929
+      },
+      {
+        "name": "deterministic-ai-gateway",
+        "version": "0.3.0",
+        "summary": "Deterministic AI Gateway",
+        "pub_date": 1768507837
+      },
+      {
+        "name": "lsp-cli",
+        "version": "0.3.3",
+        "summary": "A powerful command-line interface for the Language Server Agent Protocol (LSAP)",
+        "pub_date": 1768507791
+      },
+      {
+        "name": "ossdbs",
+        "version": "0.5.3",
+        "summary": "OSS-DBS v2: faster and modular open-source code for deep brain stimulation",
+        "pub_date": 1768507782
+      },
+      {
+        "name": "platzky",
+        "version": "1.2.1",
+        "summary": "Not only blog engine",
+        "pub_date": 1768507757
+      },
+      {
+        "name": "env-example",
+        "version": "0.3.0",
+        "summary": "Add your description here",
+        "pub_date": 1768507753
+      },
+      {
+        "name": "qnc-data-tables",
+        "version": "0.0.5a0",
+        "summary": "Work-in-progress",
+        "pub_date": 1768507746
+      },
+      {
+        "name": "sqlspec",
+        "version": "0.36.2",
+        "summary": "SQL Experiments in Python",
+        "pub_date": 1768507700
+      },
+      {
+        "name": "tico",
+        "version": "0.1.0.dev260115",
+        "summary": "Convert exported Torch module to circle",
+        "pub_date": 1768507699
+      },
+      {
+        "name": "polars-extensions",
+        "version": "1.4.0",
+        "summary": "The Library of Polars Extensions",
+        "pub_date": 1768507612
+      },
+      {
+        "name": "praisonaiagents",
+        "version": "0.12.2",
+        "summary": "Praison AI agents for completing complex tasks with Self Reflection Agents",
+        "pub_date": 1768507558
+      },
       {
         "name": "fire-opal",
         "version": "9.2.0",
@@ -1392,214 +1596,22 @@
         "version": "0.3.5",
         "summary": "Full-featured, well-typed, and easy-to-use LSP client",
         "pub_date": 1768504621
-      },
-      {
-        "name": "spotoptim",
-        "version": "0.0.148",
-        "summary": "Sequential Parameter Optimization Toolbox",
-        "pub_date": 1768504543
-      },
-      {
-        "name": "dagster-cloud-examples",
-        "version": "1.12.11",
-        "summary": null,
-        "pub_date": 1768504516
-      },
-      {
-        "name": "safeexecute",
-        "version": "0.0.17",
-        "summary": "Safe way to execute Python code with containerization.",
-        "pub_date": 1768504490
-      },
-      {
-        "name": "dagstermill",
-        "version": "0.28.11",
-        "summary": "run notebooks using the Dagster tools",
-        "pub_date": 1768504415
-      },
-      {
-        "name": "LeafSDK",
-        "version": "0.3.2",
-        "summary": "SDK for mission planning",
-        "pub_date": 1768504413
-      },
-      {
-        "name": "aury-sdk-storage",
-        "version": "0.0.10",
-        "summary": "Multi-cloud storage SDK with STS support (AWS, Aliyun OSS, Tencent COS)",
-        "pub_date": 1768504388
-      },
-      {
-        "name": "yta-editor-nodes-cpu",
-        "version": "0.1.3",
-        "summary": "Youtube Autonomous Main Editor Nodes CPU module",
-        "pub_date": 1768504377
-      },
-      {
-        "name": "kaqing",
-        "version": "2.0.209",
-        "summary": null,
-        "pub_date": 1768504364
-      },
-      {
-        "name": "relai",
-        "version": "0.3.21",
-        "summary": "An SDK for building reliable AI agents",
-        "pub_date": 1768504323
-      },
-      {
-        "name": "gmtorch_pse",
-        "version": "0.1.2.dev1",
-        "summary": "A library to work with gm",
-        "pub_date": 1768504287
-      },
-      {
-        "name": "setup-agent",
-        "version": "0.2.6",
-        "summary": "AI agent for installing tools and running projects.",
-        "pub_date": 1768504218
-      },
-      {
-        "name": "gsctl",
-        "version": "0.31.0a20260115",
-        "summary": "Command line tool for GraphScope",
-        "pub_date": 1768504159
-      },
-      {
-        "name": "graphscope-flex",
-        "version": "0.31.0a20260115",
-        "summary": "GraphScope FLEX HTTP SERVICE API",
-        "pub_date": 1768504158
-      },
-      {
-        "name": "tailgrid",
-        "version": "0.6.0",
-        "summary": "Multi-tile tail viewer for terminal",
-        "pub_date": 1768504155
-      },
-      {
-        "name": "crc-pulp-service-client",
-        "version": "20260115.3",
-        "summary": "Pulp 3 API",
-        "pub_date": 1768504103
-      },
-      {
-        "name": "crc-pulp-file-client",
-        "version": "20260115.3",
-        "summary": "Pulp 3 API",
-        "pub_date": 1768504097
-      },
-      {
-        "name": "crc-pulp-maven-client",
-        "version": "20260115.3",
-        "summary": "Pulp 3 API",
-        "pub_date": 1768504091
-      },
-      {
-        "name": "crc-pulp-rpm-client",
-        "version": "20260115.3",
-        "summary": "Pulp 3 API",
-        "pub_date": 1768504085
-      },
-      {
-        "name": "crc-pulp-gem-client",
-        "version": "20260115.3",
-        "summary": "Pulp 3 API",
-        "pub_date": 1768504079
-      },
-      {
-        "name": "crc-pulp-npm-client",
-        "version": "20260115.3",
-        "summary": "Pulp 3 API",
-        "pub_date": 1768504073
-      },
-      {
-        "name": "crc-pulp-python-client",
-        "version": "20260115.3",
-        "summary": "Pulp 3 API",
-        "pub_date": 1768504066
-      },
-      {
-        "name": "crc-pulpcore-client",
-        "version": "20260115.3",
-        "summary": "Pulp 3 API",
-        "pub_date": 1768504057
-      },
-      {
-        "name": "edgygraph",
-        "version": "0.0.19",
-        "summary": "Graph-based Pipeline Builder",
-        "pub_date": 1768504049
-      },
-      {
-        "name": "tmart",
-        "version": "2.6.1",
-        "summary": "Modelling and correcting for the adjacency effect in aquatic remote sensing",
-        "pub_date": 1768504021
-      },
-      {
-        "name": "qmk-skim",
-        "version": "0.4.2",
-        "summary": "Svalboard Keymap Image Maker",
-        "pub_date": 1768504000
-      },
-      {
-        "name": "en-chem-ner",
-        "version": "0.1.0",
-        "summary": "A named entity recognition model for chemical entities.",
-        "pub_date": 1768503940
-      },
-      {
-        "name": "tilings",
-        "version": "4.1.0",
-        "summary": "A Python library for gridded permutations and tilings.",
-        "pub_date": 1768503914
-      },
-      {
-        "name": "tgzr.shell_services.settings",
-        "version": "0.0.2",
-        "summary": "A frontend for tgzr.pipeline workspaces.",
-        "pub_date": 1768503833
-      },
-      {
-        "name": "tgzr.shell",
-        "version": "0.2.2",
-        "summary": "tgzr command line interface",
-        "pub_date": 1768503807
-      },
-      {
-        "name": "semistaticsim",
-        "version": "0.5.15",
-        "summary": "Add your description here",
-        "pub_date": 1768503740
-      },
-      {
-        "name": "aieng-platform-onboard",
-        "version": "0.5.0",
-        "summary": "CLI tool for onboarding participants to AI Engineering bootcamps",
-        "pub_date": 1768503722
-      },
-      {
-        "name": "synthetic-image-caption-generator",
-        "version": "0.0.1",
-        "summary": "Tool to generate captions to use as input for pre-trained image generation models, aligned with some pre-existing captions.",
-        "pub_date": 1768503675
-      },
-      {
-        "name": "openenv-dipg-safety",
-        "version": "0.1.19",
-        "summary": "DIPG Safety Environment for OpenEnv",
-        "pub_date": 1768503584
-      },
-      {
-        "name": "pyxetabase",
-        "version": "4.0.0.dev89",
-        "summary": "A REST client for OpenCGA enterprise REST web services",
-        "pub_date": 1768503565
       }
     ],
     "bad_vcs_count": 4082,
     "bad_vcs": [
+      {
+        "name": "obra",
+        "version": "2.9.46",
+        "summary": "Obra - Cloud-native AI orchestration platform for autonomous software development",
+        "pub_date": 1768508071
+      },
+      {
+        "name": "moose-cli",
+        "version": "0.6.320",
+        "summary": "Build tool for moose apps",
+        "pub_date": 1768508051
+      },
       {
         "name": "TempEst2",
         "version": "0.1.0",
@@ -1611,12 +1623,6 @@
         "version": "1.12.11",
         "summary": null,
         "pub_date": 1768504511
-      },
-      {
-        "name": "obra",
-        "version": "2.9.45",
-        "summary": "Obra - Cloud-native AI orchestration platform for autonomous software development",
-        "pub_date": 1768504238
       },
       {
         "name": "dagster",
@@ -1893,315 +1899,309 @@
         "version": "3.0.0",
         "summary": "Open source TPS for advanced proton therapy",
         "pub_date": 1768490200
-      },
-      {
-        "name": "ket-lang",
-        "version": "0.9.2",
-        "summary": "Ket quantum programming language interpreter and library",
-        "pub_date": 1768490075
       }
     ],
-    "github_count": 21112,
+    "github_count": 21137,
     "github_projects": [
       {
-        "name": "unsiloed-sdk",
-        "version": "0.1.3",
-        "summary": "Python SDK for Unsiloed Vision API - Parse, Extract, Classify, and Split documents",
-        "pub_date": 1768505352
+        "name": "phytospatial",
+        "version": "0.3.1",
+        "summary": "A python package to process remote sensing forestry data",
+        "pub_date": 1768508814
       },
       {
-        "name": "waterstand",
-        "version": "1.4.2",
-        "summary": "package voor ophalen waterstand",
-        "pub_date": 1768505324
+        "name": "xlwings-server",
+        "version": "1.0.0a1",
+        "summary": "Modern Excel add-ins with Python, running on your self-hosted server.",
+        "pub_date": 1768508806
       },
       {
-        "name": "vit-pytorch",
-        "version": "1.17.5",
-        "summary": "Vision Transformer (ViT) - Pytorch",
-        "pub_date": 1768505277
+        "name": "voicetest",
+        "version": "1",
+        "summary": "A generic test harness for voice agent workflows",
+        "pub_date": 1768508800
       },
       {
-        "name": "django-cfg",
-        "version": "1.5.177",
-        "summary": "Modern Django framework with type-safe Pydantic v2 configuration, Next.js admin integration, real-time WebSockets, and 8 enterprise apps. Replace settings.py with validated models,  90% less code. Production-ready with AI agents, auto-generated TypeScript clients,  and zero-config features.",
-        "pub_date": 1768505238
+        "name": "basilisk-engine",
+        "version": "0.2.6",
+        "summary": "Python bindings for the Basilisk C++ library",
+        "pub_date": 1768508733
       },
       {
-        "name": "openstudio",
-        "version": "3.11.0",
-        "summary": "OpenStudio python bindings.",
-        "pub_date": 1768505196
+        "name": "pycsp3-solvers-extra",
+        "version": "0.3.0",
+        "summary": "Extra solver backends for pycsp3 (OR-Tools, IBM CPO, Z3)",
+        "pub_date": 1768508684
       },
       {
-        "name": "doti18n",
-        "version": "0.4.4",
-        "summary": "Python library for loading localizations with dot access and pluralization.",
-        "pub_date": 1768505146
+        "name": "multi-llm-consensus",
+        "version": "0.1.2",
+        "summary": "Achieve consensus across multiple LLMs through an AI judge coordinator",
+        "pub_date": 1768508660
       },
       {
-        "name": "civics-cdf-validator",
-        "version": "1.56.dev2",
-        "summary": "Checks if an election feed follows best practices",
-        "pub_date": 1768505136
+        "name": "pycsp3-scheduling",
+        "version": "0.2.0",
+        "summary": "Scheduling extension for PyCSP3 with interval variables, sequence variables, and scheduling constraints",
+        "pub_date": 1768508647
       },
       {
-        "name": "odyn",
-        "version": "0.4.0",
-        "summary": "Odyn is a python client for Business Central Web Services API.",
-        "pub_date": 1768505108
+        "name": "pyexptest",
+        "version": "0.1.0",
+        "summary": "Statistical tools for A/B testing - sample size calculation, power analysis, and significance testing",
+        "pub_date": 1768508618
       },
       {
-        "name": "tarang",
-        "version": "4.2.0",
-        "summary": "Tarang - AI Coding Agent (Hybrid WebSocket Architecture)",
-        "pub_date": 1768505076
+        "name": "docent-python",
+        "version": "0.1.45a0",
+        "summary": "Docent SDK",
+        "pub_date": 1768508611
       },
       {
-        "name": "jl95terceira-net-io",
-        "version": "1.4.1",
-        "summary": "Python command line tools collection (general)",
-        "pub_date": 1768505062
+        "name": "scale-gp-agents",
+        "version": "0.1.0a7",
+        "summary": "The official Python library for the agents API",
+        "pub_date": 1768508581
       },
       {
-        "name": "pulumi-vault",
-        "version": "7.7.0a1768504203",
-        "summary": "A Pulumi package for creating and managing HashiCorp Vault cloud resources.",
-        "pub_date": 1768504998
+        "name": "petpal",
+        "version": "0.6.0",
+        "summary": "PET-PAL (Positron Emission Tomography Processing and Analysis Library)",
+        "pub_date": 1768508556
       },
       {
-        "name": "keplar-api",
-        "version": "0.0.38",
-        "summary": "Fastify Template API",
-        "pub_date": 1768504995
+        "name": "pycsp3-explain",
+        "version": "0.1.1",
+        "summary": "Explanation tools for PyCSP3 constraint models",
+        "pub_date": 1768508519
       },
       {
-        "name": "markpact",
-        "version": "0.1.16",
-        "summary": "Executable Markdown Runtime – run projects from README.md",
-        "pub_date": 1768504900
+        "name": "mockamorph",
+        "version": "0.2.0",
+        "summary": "Lightweight interface mocking library for Python for expectation-driven testing",
+        "pub_date": 1768508508
       },
       {
-        "name": "rusty-graph",
-        "version": "0.3.20",
-        "summary": "A high-performance graph database library with Python bindings written in Rust",
-        "pub_date": 1768504871
+        "name": "p3lib",
+        "version": "1.1.145",
+        "summary": "A group of python modules for networking, plotting data, config storage, automating boot scripts, ssh access and user input output.",
+        "pub_date": 1768508392
       },
       {
-        "name": "across-server-openapi-python",
-        "version": "1.1.1",
-        "summary": "FastAPI",
-        "pub_date": 1768504806
+        "name": "vibe-widget",
+        "version": "0.2.4",
+        "summary": "Create interactive visualizations using natural language and LLMs",
+        "pub_date": 1768508373
       },
       {
-        "name": "pulumi-mongodbatlas",
-        "version": "4.2.0a1768504040",
-        "summary": "A Pulumi package for creating and managing mongodbatlas cloud resources.",
-        "pub_date": 1768504753
+        "name": "clicknick",
+        "version": "0.16.3",
+        "summary": "Tag-Based Programming for Automation Direct CLICK PLCs.",
+        "pub_date": 1768508331
       },
       {
-        "name": "models-dev",
-        "version": "1.0.11",
-        "summary": "Typed Python interface to models.dev API data",
-        "pub_date": 1768504726
+        "name": "merlin-sdk",
+        "version": "0.49.4rc1",
+        "summary": "Python SDK for Merlin",
+        "pub_date": 1768508275
       },
       {
-        "name": "mteb",
-        "version": "2.7.2",
-        "summary": "Massive Text Embedding Benchmark",
-        "pub_date": 1768504724
+        "name": "pulumi-databricks",
+        "version": "1.82.0a1768507296",
+        "summary": "A Pulumi package for creating and managing databricks cloud resources.",
+        "pub_date": 1768508266
       },
       {
         "name": "aiinbx",
-        "version": "0.308.0",
+        "version": "0.309.0",
         "summary": "The official Python library for the AIInbx API",
-        "pub_date": 1768504666
+        "pub_date": 1768508252
+      },
+      {
+        "name": "hud-python",
+        "version": "0.5.11",
+        "summary": "SDK for the HUD platform.",
+        "pub_date": 1768508214
+      },
+      {
+        "name": "a4e",
+        "version": "0.1.6",
+        "summary": "A comprehensive MCP server toolkit for building, managing, and running AI agents compatible with the A4E ecosystem.",
+        "pub_date": 1768508191
+      },
+      {
+        "name": "vurze",
+        "version": "0.1.2",
+        "summary": "Version control your Python functions and classes with automated cryptographic decorator injection.",
+        "pub_date": 1768508188
+      },
+      {
+        "name": "osslili",
+        "version": "1.6.2",
+        "summary": "Open Source License Identification Library",
+        "pub_date": 1768508153
+      },
+      {
+        "name": "mlflow-modal-deploy",
+        "version": "0.2.3",
+        "summary": "MLflow deployment plugin for Modal serverless GPU infrastructure (actively maintained)",
+        "pub_date": 1768508132
       },
       {
         "name": "cybrid-api-bank-python",
-        "version": "0.126.50",
+        "version": "0.126.51",
         "summary": "Cybrid Bank API",
-        "pub_date": 1768504663
+        "pub_date": 1768508127
+      },
+      {
+        "name": "ruff",
+        "version": "0.14.13",
+        "summary": "An extremely fast Python linter and code formatter, written in Rust.",
+        "pub_date": 1768508083
       },
       {
         "name": "cybrid-api-organization-python",
-        "version": "0.126.50",
+        "version": "0.126.51",
         "summary": "Cybrid Organization API",
-        "pub_date": 1768504633
+        "pub_date": 1768508077
+      },
+      {
+        "name": "mloda-testing",
+        "version": "0.2.5",
+        "summary": "Test utilities for mloda plugin development",
+        "pub_date": 1768508070
+      },
+      {
+        "name": "mloda-registry",
+        "version": "0.2.5",
+        "summary": "Plugin discovery and search for mloda",
+        "pub_date": 1768508070
+      },
+      {
+        "name": "i18ntools",
+        "version": "0.2.2",
+        "summary": "i18ntools helps translate Java properties i18n files using Azure Cognitive Services Translator",
+        "pub_date": 1768508070
+      },
+      {
+        "name": "mloda-enterprise",
+        "version": "0.2.5",
+        "summary": "All enterprise plugins for mloda",
+        "pub_date": 1768508068
+      },
+      {
+        "name": "mloda-community-example-a",
+        "version": "0.2.5",
+        "summary": "Example A FeatureGroup extending community example base",
+        "pub_date": 1768508067
+      },
+      {
+        "name": "mloda-community-example",
+        "version": "0.2.5",
+        "summary": "Example community FeatureGroup plugin for mloda",
+        "pub_date": 1768508066
+      },
+      {
+        "name": "mloda-community",
+        "version": "0.2.5",
+        "summary": "All community plugins for mloda",
+        "pub_date": 1768508065
       },
       {
         "name": "cybrid-api-id-python",
-        "version": "0.126.50",
+        "version": "0.126.51",
         "summary": "Cybrid Identity API",
-        "pub_date": 1768504614
+        "pub_date": 1768508057
       },
       {
-        "name": "throttled-py",
-        "version": "3.1.1",
-        "summary": "🔧 High-performance Python rate limiting library with multiple algorithms (Fixed Window, Sliding Window, Token Bucket, Leaky Bucket & GCRA) and storage backends (Redis, In-Memory).",
-        "pub_date": 1768504521
+        "name": "aparavi-client-python",
+        "version": "1.1.1",
+        "summary": "Aparavi Pipeline Python Client SDK",
+        "pub_date": 1768507996
       },
       {
-        "name": "giftpy",
-        "version": "3.3.6",
-        "summary": "GIFT mathematical core - Formally verified constants (Lean 4 + Coq)",
-        "pub_date": 1768504517
+        "name": "bmrb-sans",
+        "version": "1.0.0",
+        "summary": "SAX-like API for NMR-STAR (SANS) format parser",
+        "pub_date": 1768507993
       },
       {
-        "name": "dagster-gcp-pyspark",
-        "version": "0.28.11",
-        "summary": "Package for storing PySpark DataFrames in GCP",
-        "pub_date": 1768504505
+        "name": "plaknit",
+        "version": "0.1.1",
+        "summary": "Processing Large-Scale PlanetScope Data",
+        "pub_date": 1768507960
       },
       {
-        "name": "dagster-deltalake-pandas",
-        "version": "0.28.11",
-        "summary": "Package for storing Pandas DataFrames in Delta tables.",
-        "pub_date": 1768504502
+        "name": "coalesce-mcp",
+        "version": "0.1.3",
+        "summary": "MCP server for Coalesce data pipeline investigation",
+        "pub_date": 1768507959
       },
       {
-        "name": "dagster-ssh",
-        "version": "0.28.11",
-        "summary": "Package for ssh Dagster framework components.",
-        "pub_date": 1768504499
+        "name": "nosj",
+        "version": "0.1.0",
+        "summary": "JSON encoding/decoding for Numpy arrays and scalars",
+        "pub_date": 1768507955
       },
       {
-        "name": "dagster-gcp-pandas",
-        "version": "0.28.11",
-        "summary": "Package for storing Pandas DataFrames in GCP.",
-        "pub_date": 1768504496
+        "name": "breez-sdk-spark",
+        "version": "0.7.4",
+        "summary": "Python language bindings for the Breez Spark SDK",
+        "pub_date": 1768507947
       },
       {
-        "name": "dagster-aws",
-        "version": "0.28.11",
-        "summary": "Package for AWS-specific Dagster framework solid and resource components.",
-        "pub_date": 1768504493
+        "name": "DobotTCP",
+        "version": "1.1.5",
+        "summary": "A library to control Dobot robots via TCP",
+        "pub_date": 1768507906
       },
       {
-        "name": "dagster-spark",
-        "version": "0.28.11",
-        "summary": "Package for Spark Dagster framework components.",
-        "pub_date": 1768504489
+        "name": "biblium",
+        "version": "2.13",
+        "summary": "Comprehensive Python library for bibliometric analysis of scientific literature",
+        "pub_date": 1768507879
       },
       {
-        "name": "dagster-openai",
-        "version": "0.28.11",
-        "summary": "An OpenAI client resource for interacting with OpenAI API.",
-        "pub_date": 1768504487
+        "name": "autonomous-agentloop",
+        "version": "0.1.0",
+        "summary": "An autonomous agent system demonstrating LLM-based decision-making in a closed-loop control architecture",
+        "pub_date": 1768507870
       },
       {
-        "name": "dagster-sigma",
-        "version": "0.28.11",
-        "summary": "Build assets representing Sigma dashboards.",
-        "pub_date": 1768504485
+        "name": "tunacode-cli",
+        "version": "0.1.33",
+        "summary": "Your agentic CLI developer.",
+        "pub_date": 1768507846
       },
       {
-        "name": "dagster-k8s",
-        "version": "0.28.11",
-        "summary": "A Dagster integration for k8s",
-        "pub_date": 1768504482
+        "name": "ui-rl",
+        "version": "0.1.0",
+        "summary": "RLVR Finetuning for Computer Use models",
+        "pub_date": 1768507838
       },
       {
-        "name": "dagster-celery",
-        "version": "0.28.11",
-        "summary": "Package for using Celery as Dagster's execution engine.",
-        "pub_date": 1768504479
+        "name": "assemblyline-core",
+        "version": "4.7.0.dev54",
+        "summary": "Assemblyline 4 - Core components",
+        "pub_date": 1768507797
       },
       {
-        "name": "dagster-wandb",
-        "version": "0.28.11",
-        "summary": "Package for wandb Dagster components.",
-        "pub_date": 1768504477
+        "name": "assemblyline",
+        "version": "4.7.0.dev54",
+        "summary": "Assemblyline 4 - Automated malware analysis framework",
+        "pub_date": 1768507795
       },
       {
-        "name": "dagster-twilio",
-        "version": "0.28.11",
-        "summary": "A Dagster integration for twilio",
-        "pub_date": 1768504474
+        "name": "assemblyline-v4-service",
+        "version": "4.7.0.dev54",
+        "summary": "Assemblyline 4 - Service base",
+        "pub_date": 1768507792
       },
       {
-        "name": "dagster-shared",
-        "version": "1.12.11",
-        "summary": "Shared code between dagster and dagster-dg-core.",
-        "pub_date": 1768504472
-      },
-      {
-        "name": "dagster-tableau",
-        "version": "0.28.11",
-        "summary": "Build assets representing Tableau workbooks and sheets.",
-        "pub_date": 1768504469
-      },
-      {
-        "name": "dagster-airflow",
-        "version": "1.12.11",
-        "summary": "Airflow plugin for Dagster",
-        "pub_date": 1768504466
-      },
-      {
-        "name": "dagster-embedded-elt",
-        "version": "0.28.11",
-        "summary": "Package for performing ETL/ELT tasks with Dagster.",
-        "pub_date": 1768504464
-      },
-      {
-        "name": "dagster-fivetran",
-        "version": "0.28.11",
-        "summary": "Package for integrating Fivetran with Dagster.",
-        "pub_date": 1768504462
-      },
-      {
-        "name": "dagster-datadog",
-        "version": "0.28.11",
-        "summary": "Package for datadog Dagster framework components.",
-        "pub_date": 1768504459
-      },
-      {
-        "name": "dagster-duckdb-pyspark",
-        "version": "0.28.11",
-        "summary": "Package for storing PySpark DataFrames in DuckDB.",
-        "pub_date": 1768504457
-      },
-      {
-        "name": "dagster-duckdb-polars",
-        "version": "0.28.11",
-        "summary": "Package for storing Polars DataFrames in DuckDB.",
-        "pub_date": 1768504455
-      },
-      {
-        "name": "dagster-snowflake-pandas",
-        "version": "0.28.11",
-        "summary": "Package for integrating Snowflake and Pandas with Dagster.",
-        "pub_date": 1768504452
-      },
-      {
-        "name": "dagster-mysql",
-        "version": "0.28.11",
-        "summary": "A Dagster integration for MySQL",
-        "pub_date": 1768504450
-      },
-      {
-        "name": "nao-core",
-        "version": "0.0.22",
-        "summary": "nao Core is your analytics context builder with the best chat interface.",
-        "pub_date": 1768504447
-      },
-      {
-        "name": "dagster-dbt",
-        "version": "0.28.11",
-        "summary": "A Dagster integration for dbt",
-        "pub_date": 1768504445
-      },
-      {
-        "name": "dagster-snowflake-pyspark",
-        "version": "0.28.11",
-        "summary": "Package for integrating Snowflake and PySpark with Dagster.",
-        "pub_date": 1768504442
-      },
-      {
-        "name": "dagster-snowflake",
-        "version": "0.28.11",
-        "summary": "Package for Snowflake Dagster framework components.",
-        "pub_date": 1768504440
+        "name": "assemblyline-ui",
+        "version": "4.7.0.dev54",
+        "summary": "Assemblyline 4 - API and Socket IO server",
+        "pub_date": 1768507789
       }
     ],
     "gitlab_count": 333,
@@ -2507,8 +2507,200 @@
         "pub_date": 1768314855
       }
     ],
-    "no_github_actions_count": 1813,
+    "no_github_actions_count": 1831,
     "no_github_actions": [
+      {
+        "name": "voicetest",
+        "version": "1",
+        "summary": "A generic test harness for voice agent workflows",
+        "pub_date": 1768508800
+      },
+      {
+        "name": "multi-llm-consensus",
+        "version": "0.1.2",
+        "summary": "Achieve consensus across multiple LLMs through an AI judge coordinator",
+        "pub_date": 1768508660
+      },
+      {
+        "name": "pyexptest",
+        "version": "0.1.0",
+        "summary": "Statistical tools for A/B testing - sample size calculation, power analysis, and significance testing",
+        "pub_date": 1768508618
+      },
+      {
+        "name": "docent-python",
+        "version": "0.1.45a0",
+        "summary": "Docent SDK",
+        "pub_date": 1768508611
+      },
+      {
+        "name": "scale-gp-agents",
+        "version": "0.1.0a7",
+        "summary": "The official Python library for the agents API",
+        "pub_date": 1768508581
+      },
+      {
+        "name": "petpal",
+        "version": "0.6.0",
+        "summary": "PET-PAL (Positron Emission Tomography Processing and Analysis Library)",
+        "pub_date": 1768508556
+      },
+      {
+        "name": "p3lib",
+        "version": "1.1.145",
+        "summary": "A group of python modules for networking, plotting data, config storage, automating boot scripts, ssh access and user input output.",
+        "pub_date": 1768508392
+      },
+      {
+        "name": "a4e",
+        "version": "0.1.6",
+        "summary": "A comprehensive MCP server toolkit for building, managing, and running AI agents compatible with the A4E ecosystem.",
+        "pub_date": 1768508191
+      },
+      {
+        "name": "osslili",
+        "version": "1.6.2",
+        "summary": "Open Source License Identification Library",
+        "pub_date": 1768508153
+      },
+      {
+        "name": "cybrid-api-bank-python",
+        "version": "0.126.51",
+        "summary": "Cybrid Bank API",
+        "pub_date": 1768508127
+      },
+      {
+        "name": "cybrid-api-organization-python",
+        "version": "0.126.51",
+        "summary": "Cybrid Organization API",
+        "pub_date": 1768508077
+      },
+      {
+        "name": "mloda-testing",
+        "version": "0.2.5",
+        "summary": "Test utilities for mloda plugin development",
+        "pub_date": 1768508070
+      },
+      {
+        "name": "mloda-registry",
+        "version": "0.2.5",
+        "summary": "Plugin discovery and search for mloda",
+        "pub_date": 1768508070
+      },
+      {
+        "name": "mloda-enterprise",
+        "version": "0.2.5",
+        "summary": "All enterprise plugins for mloda",
+        "pub_date": 1768508068
+      },
+      {
+        "name": "mloda-community-example-a",
+        "version": "0.2.5",
+        "summary": "Example A FeatureGroup extending community example base",
+        "pub_date": 1768508067
+      },
+      {
+        "name": "mloda-community-example",
+        "version": "0.2.5",
+        "summary": "Example community FeatureGroup plugin for mloda",
+        "pub_date": 1768508066
+      },
+      {
+        "name": "mloda-community",
+        "version": "0.2.5",
+        "summary": "All community plugins for mloda",
+        "pub_date": 1768508065
+      },
+      {
+        "name": "cybrid-api-id-python",
+        "version": "0.126.51",
+        "summary": "Cybrid Identity API",
+        "pub_date": 1768508057
+      },
+      {
+        "name": "aparavi-client-python",
+        "version": "1.1.1",
+        "summary": "Aparavi Pipeline Python Client SDK",
+        "pub_date": 1768507996
+      },
+      {
+        "name": "coalesce-mcp",
+        "version": "0.1.3",
+        "summary": "MCP server for Coalesce data pipeline investigation",
+        "pub_date": 1768507959
+      },
+      {
+        "name": "nosj",
+        "version": "0.1.0",
+        "summary": "JSON encoding/decoding for Numpy arrays and scalars",
+        "pub_date": 1768507955
+      },
+      {
+        "name": "DobotTCP",
+        "version": "1.1.5",
+        "summary": "A library to control Dobot robots via TCP",
+        "pub_date": 1768507906
+      },
+      {
+        "name": "biblium",
+        "version": "2.13",
+        "summary": "Comprehensive Python library for bibliometric analysis of scientific literature",
+        "pub_date": 1768507879
+      },
+      {
+        "name": "autonomous-agentloop",
+        "version": "0.1.0",
+        "summary": "An autonomous agent system demonstrating LLM-based decision-making in a closed-loop control architecture",
+        "pub_date": 1768507870
+      },
+      {
+        "name": "assemblyline-core",
+        "version": "4.7.0.dev54",
+        "summary": "Assemblyline 4 - Core components",
+        "pub_date": 1768507797
+      },
+      {
+        "name": "assemblyline",
+        "version": "4.7.0.dev54",
+        "summary": "Assemblyline 4 - Automated malware analysis framework",
+        "pub_date": 1768507795
+      },
+      {
+        "name": "assemblyline-v4-service",
+        "version": "4.7.0.dev54",
+        "summary": "Assemblyline 4 - Service base",
+        "pub_date": 1768507792
+      },
+      {
+        "name": "assemblyline-ui",
+        "version": "4.7.0.dev54",
+        "summary": "Assemblyline 4 - API and Socket IO server",
+        "pub_date": 1768507789
+      },
+      {
+        "name": "assemblyline-service-server",
+        "version": "4.7.0.dev54",
+        "summary": "Assemblyline 4 - Service Server",
+        "pub_date": 1768507787
+      },
+      {
+        "name": "assemblyline-service-client",
+        "version": "4.7.0.dev54",
+        "summary": "Assemblyline 4 - Service client",
+        "pub_date": 1768507786
+      },
+      {
+        "name": "evoproc-procedures",
+        "version": "1.1.0",
+        "summary": "Domain procedures, schemas, prompts, runners, and backends for EvoProc",
+        "pub_date": 1768507710
+      },
+      {
+        "name": "xconnect",
+        "version": "1.0.0",
+        "summary": "A professional cross-platform clipboard synchronization CLI by XDT Labs.",
+        "pub_date": 1768507560
+      },
       {
         "name": "unsiloed-sdk",
         "version": "0.1.3",
@@ -2546,24 +2738,6 @@
         "pub_date": 1768504900
       },
       {
-        "name": "cybrid-api-bank-python",
-        "version": "0.126.50",
-        "summary": "Cybrid Bank API",
-        "pub_date": 1768504663
-      },
-      {
-        "name": "cybrid-api-organization-python",
-        "version": "0.126.50",
-        "summary": "Cybrid Organization API",
-        "pub_date": 1768504633
-      },
-      {
-        "name": "cybrid-api-id-python",
-        "version": "0.126.50",
-        "summary": "Cybrid Identity API",
-        "pub_date": 1768504614
-      },
-      {
         "name": "nao-core",
         "version": "0.0.22",
         "summary": "nao Core is your analytics context builder with the best chat interface.",
@@ -2580,42 +2754,6 @@
         "version": "1.0.0",
         "summary": "Python SDK for the StateSet Sandbox API",
         "pub_date": 1768504242
-      },
-      {
-        "name": "assemblyline-core",
-        "version": "4.7.0.dev53",
-        "summary": "Assemblyline 4 - Core components",
-        "pub_date": 1768504205
-      },
-      {
-        "name": "assemblyline",
-        "version": "4.7.0.dev53",
-        "summary": "Assemblyline 4 - Automated malware analysis framework",
-        "pub_date": 1768504203
-      },
-      {
-        "name": "assemblyline-v4-service",
-        "version": "4.7.0.dev53",
-        "summary": "Assemblyline 4 - Service base",
-        "pub_date": 1768504200
-      },
-      {
-        "name": "assemblyline-ui",
-        "version": "4.7.0.dev53",
-        "summary": "Assemblyline 4 - API and Socket IO server",
-        "pub_date": 1768504198
-      },
-      {
-        "name": "assemblyline-service-server",
-        "version": "4.7.0.dev53",
-        "summary": "Assemblyline 4 - Service Server",
-        "pub_date": 1768504196
-      },
-      {
-        "name": "assemblyline-service-client",
-        "version": "4.7.0.dev53",
-        "summary": "Assemblyline 4 - Service client",
-        "pub_date": 1768504194
       },
       {
         "name": "artemis",
@@ -2648,12 +2786,6 @@
         "pub_date": 1768503832
       },
       {
-        "name": "coalesce-mcp",
-        "version": "0.1.2",
-        "summary": "MCP server for Coalesce data pipeline investigation",
-        "pub_date": 1768503780
-      },
-      {
         "name": "gammarers.aws-resource-naming",
         "version": "0.11.24",
         "summary": "@gammarers/aws-resource-naming",
@@ -2676,142 +2808,172 @@
         "version": "0.1.1",
         "summary": "Framework for enabling AI agents to perform complex, multi-step work tasks",
         "pub_date": 1768503425
-      },
-      {
-        "name": "verodat-adri",
-        "version": "7.0.3",
-        "summary": "Enterprise data quality layer for AI agents - Validates data quality with Verodat cloud integration. Requires Verodat API key.",
-        "pub_date": 1768503262
-      },
-      {
-        "name": "git-adr",
-        "version": "0.3.0",
-        "summary": "Architecture Decision Records management for git repositories using git notes",
-        "pub_date": 1768503084
-      },
-      {
-        "name": "regscale-cli",
-        "version": "6.29.6.1",
-        "summary": "Command Line Interface (CLI) for bulk processing/loading data into RegScale",
-        "pub_date": 1768503056
-      },
-      {
-        "name": "pactown",
-        "version": "0.1.5",
-        "summary": "Decentralized Service Ecosystem Orchestrator - Build interconnected microservices from Markdown using markpact",
-        "pub_date": 1768502889
-      },
-      {
-        "name": "localstack-core",
-        "version": "4.12.1.dev69",
-        "summary": "The core library and runtime of LocalStack",
-        "pub_date": 1768502773
-      },
-      {
-        "name": "nc1709",
-        "version": "3.0.11",
-        "summary": "AI coding assistant with fine-tuned tool calling - Your code comes to life",
-        "pub_date": 1768502766
-      },
-      {
-        "name": "mkyz",
-        "version": "0.2.3",
-        "summary": "MKYZ is a Python library for ML and data science tasks.",
-        "pub_date": 1768502674
-      },
-      {
-        "name": "corp-extractor",
-        "version": "0.3.0",
-        "summary": "Extract structured statements from text using T5-Gemma 2 and Diverse Beam Search",
-        "pub_date": 1768502602
-      },
-      {
-        "name": "mytech-rest-auth",
-        "version": "1.1.11",
-        "summary": "App de autenticação e gestão de entidades para Django REST Framework",
-        "pub_date": 1768502600
-      },
-      {
-        "name": "alibabacloud-das20200116",
-        "version": "2.11.3",
-        "summary": "Alibaba Cloud DAS (20200116) SDK Library for Python",
-        "pub_date": 1768500938
-      },
-      {
-        "name": "alibabacloud-apig20240327",
-        "version": "5.8.0",
-        "summary": "Alibaba Cloud APIG (20240327) SDK Library for Python",
-        "pub_date": 1768500917
-      },
-      {
-        "name": "alibabacloud-alidns20150109",
-        "version": "4.1.1",
-        "summary": "Alibaba Cloud Alidns (20150109) SDK Library for Python",
-        "pub_date": 1768500901
-      },
-      {
-        "name": "alibabacloud-eds-aic20230930",
-        "version": "4.20.1",
-        "summary": "Alibaba Cloud eds-aic (20230930) SDK Library for Python",
-        "pub_date": 1768500891
-      },
-      {
-        "name": "alibabacloud-safconsole20250521",
-        "version": "1.1.0",
-        "summary": "Alibaba Cloud safconsole (20250521) SDK Library for Python",
-        "pub_date": 1768500890
-      },
-      {
-        "name": "spectroview",
-        "version": "26.3.1",
-        "summary": "SPECTROView: A Tool for Spectroscopic Data Processing and Visualization",
-        "pub_date": 1768500840
-      },
-      {
-        "name": "alibabacloud-vpc20160428",
-        "version": "6.15.0",
-        "summary": "Alibaba Cloud Virtual Private Cloud (20160428) SDK Library for Python",
-        "pub_date": 1768500796
-      },
-      {
-        "name": "kubmonitor-cli",
-        "version": "0.1.0",
-        "summary": "A rich CLI Kubernetes monitor",
-        "pub_date": 1768500741
-      },
-      {
-        "name": "imgwtools",
-        "version": "2.0.1",
-        "summary": "Python library for accessing IMGW (Polish Institute of Meteorology and Water Management) public data",
-        "pub_date": 1768500722
-      },
-      {
-        "name": "RinexParser",
-        "version": "1.2.1",
-        "summary": "A tool to parse, check and resample Rinex files",
-        "pub_date": 1768500706
-      },
-      {
-        "name": "shepherd-score",
-        "version": "1.2.0",
-        "summary": "3D scoring functions used for evaluation of ShEPhERD",
-        "pub_date": 1768500643
-      },
-      {
-        "name": "proteo-suite-json9112",
-        "version": "0.1.11",
-        "summary": "Advanced Proteomics Analysis Suite for Medical Outcomes Prediction",
-        "pub_date": 1768500509
-      },
-      {
-        "name": "whatenc",
-        "version": "0.9.1",
-        "summary": "Text encoding type classifier",
-        "pub_date": 1768500491
       }
     ],
-    "has_github_actions_count": 3146,
+    "has_github_actions_count": 3161,
     "has_github_actions": [
+      {
+        "name": "phytospatial",
+        "version": "0.3.1",
+        "summary": "A python package to process remote sensing forestry data",
+        "pub_date": 1768508814
+      },
+      {
+        "name": "xlwings-server",
+        "version": "1.0.0a1",
+        "summary": "Modern Excel add-ins with Python, running on your self-hosted server.",
+        "pub_date": 1768508806
+      },
+      {
+        "name": "basilisk-engine",
+        "version": "0.2.6",
+        "summary": "Python bindings for the Basilisk C++ library",
+        "pub_date": 1768508733
+      },
+      {
+        "name": "pycsp3-solvers-extra",
+        "version": "0.3.0",
+        "summary": "Extra solver backends for pycsp3 (OR-Tools, IBM CPO, Z3)",
+        "pub_date": 1768508684
+      },
+      {
+        "name": "pycsp3-scheduling",
+        "version": "0.2.0",
+        "summary": "Scheduling extension for PyCSP3 with interval variables, sequence variables, and scheduling constraints",
+        "pub_date": 1768508647
+      },
+      {
+        "name": "pycsp3-explain",
+        "version": "0.1.1",
+        "summary": "Explanation tools for PyCSP3 constraint models",
+        "pub_date": 1768508519
+      },
+      {
+        "name": "mockamorph",
+        "version": "0.2.0",
+        "summary": "Lightweight interface mocking library for Python for expectation-driven testing",
+        "pub_date": 1768508508
+      },
+      {
+        "name": "vibe-widget",
+        "version": "0.2.4",
+        "summary": "Create interactive visualizations using natural language and LLMs",
+        "pub_date": 1768508373
+      },
+      {
+        "name": "clicknick",
+        "version": "0.16.3",
+        "summary": "Tag-Based Programming for Automation Direct CLICK PLCs.",
+        "pub_date": 1768508331
+      },
+      {
+        "name": "merlin-sdk",
+        "version": "0.49.4rc1",
+        "summary": "Python SDK for Merlin",
+        "pub_date": 1768508275
+      },
+      {
+        "name": "pulumi-databricks",
+        "version": "1.82.0a1768507296",
+        "summary": "A Pulumi package for creating and managing databricks cloud resources.",
+        "pub_date": 1768508266
+      },
+      {
+        "name": "aiinbx",
+        "version": "0.309.0",
+        "summary": "The official Python library for the AIInbx API",
+        "pub_date": 1768508252
+      },
+      {
+        "name": "hud-python",
+        "version": "0.5.11",
+        "summary": "SDK for the HUD platform.",
+        "pub_date": 1768508214
+      },
+      {
+        "name": "vurze",
+        "version": "0.1.2",
+        "summary": "Version control your Python functions and classes with automated cryptographic decorator injection.",
+        "pub_date": 1768508188
+      },
+      {
+        "name": "mlflow-modal-deploy",
+        "version": "0.2.3",
+        "summary": "MLflow deployment plugin for Modal serverless GPU infrastructure (actively maintained)",
+        "pub_date": 1768508132
+      },
+      {
+        "name": "ruff",
+        "version": "0.14.13",
+        "summary": "An extremely fast Python linter and code formatter, written in Rust.",
+        "pub_date": 1768508083
+      },
+      {
+        "name": "i18ntools",
+        "version": "0.2.2",
+        "summary": "i18ntools helps translate Java properties i18n files using Azure Cognitive Services Translator",
+        "pub_date": 1768508070
+      },
+      {
+        "name": "bmrb-sans",
+        "version": "1.0.0",
+        "summary": "SAX-like API for NMR-STAR (SANS) format parser",
+        "pub_date": 1768507993
+      },
+      {
+        "name": "plaknit",
+        "version": "0.1.1",
+        "summary": "Processing Large-Scale PlanetScope Data",
+        "pub_date": 1768507960
+      },
+      {
+        "name": "breez-sdk-spark",
+        "version": "0.7.4",
+        "summary": "Python language bindings for the Breez Spark SDK",
+        "pub_date": 1768507947
+      },
+      {
+        "name": "tunacode-cli",
+        "version": "0.1.33",
+        "summary": "Your agentic CLI developer.",
+        "pub_date": 1768507846
+      },
+      {
+        "name": "ui-rl",
+        "version": "0.1.0",
+        "summary": "RLVR Finetuning for Computer Use models",
+        "pub_date": 1768507838
+      },
+      {
+        "name": "pulumi-oci",
+        "version": "3.14.0a1768505600",
+        "summary": "A Pulumi package for creating and managing Oracle Cloud Infrastructure resources.",
+        "pub_date": 1768507788
+      },
+      {
+        "name": "PraisonAI",
+        "version": "3.9.1",
+        "summary": "PraisonAI is an AI Agents Framework with Self Reflection. PraisonAI application combines PraisonAI Agents, AutoGen, and CrewAI into a low-code solution for building and managing multi-agent LLM systems, focusing on simplicity, customisation, and efficient human-agent collaboration.",
+        "pub_date": 1768507751
+      },
+      {
+        "name": "topmark",
+        "version": "0.11.0",
+        "summary": "A Python CLI to inspect, validate, and manage license and copyright headers.",
+        "pub_date": 1768507685
+      },
+      {
+        "name": "pzfx",
+        "version": "0.3.1",
+        "summary": "Read and write GraphPad Prism .pzfx files",
+        "pub_date": 1768507602
+      },
+      {
+        "name": "pytest-deadfixtures",
+        "version": "3.1.0",
+        "summary": "A simple plugin to list unused fixtures in pytest",
+        "pub_date": 1768507539
+      },
       {
         "name": "waterstand",
         "version": "1.4.2",
@@ -2885,12 +3047,6 @@
         "pub_date": 1768504724
       },
       {
-        "name": "aiinbx",
-        "version": "0.308.0",
-        "summary": "The official Python library for the AIInbx API",
-        "pub_date": 1768504666
-      },
-      {
         "name": "throttled-py",
         "version": "3.1.1",
         "summary": "🔧 High-performance Python rate limiting library with multiple algorithms (Fixed Window, Sliding Window, Token Bucket, Leaky Bucket & GCRA) and storage backends (Redis, In-Memory).",
@@ -2955,162 +3111,6 @@
         "version": "0.28.11",
         "summary": "A Dagster integration for k8s",
         "pub_date": 1768504482
-      },
-      {
-        "name": "dagster-celery",
-        "version": "0.28.11",
-        "summary": "Package for using Celery as Dagster's execution engine.",
-        "pub_date": 1768504479
-      },
-      {
-        "name": "dagster-wandb",
-        "version": "0.28.11",
-        "summary": "Package for wandb Dagster components.",
-        "pub_date": 1768504477
-      },
-      {
-        "name": "dagster-twilio",
-        "version": "0.28.11",
-        "summary": "A Dagster integration for twilio",
-        "pub_date": 1768504474
-      },
-      {
-        "name": "dagster-shared",
-        "version": "1.12.11",
-        "summary": "Shared code between dagster and dagster-dg-core.",
-        "pub_date": 1768504472
-      },
-      {
-        "name": "dagster-tableau",
-        "version": "0.28.11",
-        "summary": "Build assets representing Tableau workbooks and sheets.",
-        "pub_date": 1768504469
-      },
-      {
-        "name": "dagster-airflow",
-        "version": "1.12.11",
-        "summary": "Airflow plugin for Dagster",
-        "pub_date": 1768504466
-      },
-      {
-        "name": "dagster-embedded-elt",
-        "version": "0.28.11",
-        "summary": "Package for performing ETL/ELT tasks with Dagster.",
-        "pub_date": 1768504464
-      },
-      {
-        "name": "dagster-fivetran",
-        "version": "0.28.11",
-        "summary": "Package for integrating Fivetran with Dagster.",
-        "pub_date": 1768504462
-      },
-      {
-        "name": "dagster-datadog",
-        "version": "0.28.11",
-        "summary": "Package for datadog Dagster framework components.",
-        "pub_date": 1768504459
-      },
-      {
-        "name": "dagster-duckdb-pyspark",
-        "version": "0.28.11",
-        "summary": "Package for storing PySpark DataFrames in DuckDB.",
-        "pub_date": 1768504457
-      },
-      {
-        "name": "dagster-duckdb-polars",
-        "version": "0.28.11",
-        "summary": "Package for storing Polars DataFrames in DuckDB.",
-        "pub_date": 1768504455
-      },
-      {
-        "name": "dagster-snowflake-pandas",
-        "version": "0.28.11",
-        "summary": "Package for integrating Snowflake and Pandas with Dagster.",
-        "pub_date": 1768504452
-      },
-      {
-        "name": "dagster-mysql",
-        "version": "0.28.11",
-        "summary": "A Dagster integration for MySQL",
-        "pub_date": 1768504450
-      },
-      {
-        "name": "dagster-dbt",
-        "version": "0.28.11",
-        "summary": "A Dagster integration for dbt",
-        "pub_date": 1768504445
-      },
-      {
-        "name": "dagster-snowflake-pyspark",
-        "version": "0.28.11",
-        "summary": "Package for integrating Snowflake and PySpark with Dagster.",
-        "pub_date": 1768504442
-      },
-      {
-        "name": "dagster-snowflake",
-        "version": "0.28.11",
-        "summary": "Package for Snowflake Dagster framework components.",
-        "pub_date": 1768504440
-      },
-      {
-        "name": "dagster-databricks",
-        "version": "0.28.11",
-        "summary": "Package for Databricks-specific Dagster framework op and resource components.",
-        "pub_date": 1768504437
-      },
-      {
-        "name": "dagster-postgres",
-        "version": "0.28.11",
-        "summary": "A Dagster integration for postgres",
-        "pub_date": 1768504434
-      },
-      {
-        "name": "dagster-omni",
-        "version": "0.28.11",
-        "summary": "Package for integrating Omni with Dagster.",
-        "pub_date": 1768504432
-      },
-      {
-        "name": "dagster-deltalake-polars",
-        "version": "0.28.11",
-        "summary": "Package for storing Polars DataFrames in Delta tables.",
-        "pub_date": 1768504429
-      },
-      {
-        "name": "dagster-dlt",
-        "version": "0.28.11",
-        "summary": "Package for performing ETL/ELT tasks with dlt in Dagster.",
-        "pub_date": 1768504427
-      },
-      {
-        "name": "dagster-pandas",
-        "version": "0.28.11",
-        "summary": "Utilities and examples for working with pandas and dagster, an opinionated framework for expressing data pipelines",
-        "pub_date": 1768504424
-      },
-      {
-        "name": "pulumi-linode",
-        "version": "5.7.0a1768503912",
-        "summary": "A Pulumi package for creating and managing linode cloud resources.",
-        "pub_date": 1768504421
-      },
-      {
-        "name": "dagster-airlift",
-        "version": "0.28.11",
-        "summary": "A toolkit for observing integration and migration between Apache Airflow and Dagster.",
-        "pub_date": 1768504421
-      },
-      {
-        "name": "dagster-pandera",
-        "version": "0.28.11",
-        "summary": "Integration layer for dagster and pandera.",
-        "pub_date": 1768504418
-      },
-      {
-        "name": "dagster-duckdb-pandas",
-        "version": "0.28.11",
-        "summary": "Package for storing Pandas DataFrames in DuckDB.",
-        "pub_date": 1768504412
       }
     ],
     "has_gitlab_pipeline_count": 17,
