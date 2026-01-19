@@ -7,6 +7,13 @@ To see the result visit the [PyDigger](https://pydigger.code-maven.com/) web sit
 If you'd like to make improvements to this project open an issue or send a PR to either the backend or the frontend.
 
 
+
+## Move to new repository
+
+When I had enough of the historical data that did not collect many of the new data points (and thus indicates wrong percentages),
+I can start from a totally new dataset. These are the steps now.
+
+
 * Create the pydigger-data-new repository
 * Copy the `README.md` file and the `.github` folder from the `pydigger-data` repository to the new one.
 * `git init`
