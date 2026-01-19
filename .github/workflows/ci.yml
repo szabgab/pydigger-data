@@ -1,0 +1,103 @@
+name: PyDigger
+
+on:
+#  push:
+#  pull_request:
+  workflow_dispatch:
+  schedule:
+     - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Report rust version
+      run: |
+        rustc -vV
+        rustup update
+        rustc -vV
+
+    - uses: actions/checkout@v6
+
+    - name: Download binary
+      run: |
+          set -x
+          curl -s -H "Accept: application/vnd.github+json" "https://api.github.com/repos/szabgab/pydigger.rs/actions/artifacts" > artifacts.json
+          # cat artifacts.json
+          ARTIFACT_ID=$(jq '.artifacts[0].id' artifacts.json)
+          # TODO:
+          # Sometimes we might get {"message":"API rate limit exceeded for 52.159.228.209. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+          # Check if ARTIFACT_ID is null, and don't continue if we got that.
+          echo "ARTIFACT_ID=$ARTIFACT_ID" >> $GITHUB_ENV
+          curl -L -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/szabgab/pydigger.rs/actions/artifacts/$ARTIFACT_ID/zip" -o artifact.zip
+          ls -l
+          unzip artifact.zip
+          ls -l
+
+    - name: List
+      run: |
+        chmod +x pydigger
+        ls -al
+
+    - name: Show help
+      run: |
+        #./pydigger --version
+        ./pydigger --help
+
+    - name: Collect data
+      run: ./pydigger --download --report
+
+    - name: Count data
+      run: find data/ | wc
+
+    - name: Commit new data
+      run: |
+        GIT_STATUS=$(git status --porcelain data)
+        echo $GIT_STATUS
+        git config user.name github-actions[bot]
+        git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+        git add data
+        if [ "$GIT_STATUS" != "" ]; then git commit -m "Automated data collection"; fi
+        if [ "$GIT_STATUS" != "" ]; then git push; fi
+
+    - name: Checkout the front-end repository
+      uses: actions/checkout@v6
+      with:
+        repository: 'szabgab/pydigger-front'
+        path: pydigger-front
+
+    - name: Create site
+      run: |
+        mv pydigger-front/html/ _site
+        mv data _site/
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v4
+
+  # Publish web site
+  publish:
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: collect
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
