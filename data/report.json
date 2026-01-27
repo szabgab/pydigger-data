@@ -1,386 +1,494 @@
 {
-  "total": 13694,
+  "total": 13737,
   "projects": [
     {
-      "name": "swarmauri_certservice_gcpkms",
-      "version": "0.2.0.dev24",
-      "summary": "Google Cloud KMS Certificate Service for Swarmauri",
-      "pub_date": 1769555037
+      "name": "jamlib",
+      "version": "3.0.0b5",
+      "summary": "Simple and universal library for authorization.",
+      "pub_date": 1769555987
     },
     {
-      "name": "swarmauri_certservice_ms_adcs",
-      "version": "0.2.0.dev23",
-      "summary": "Microsoft AD CS certificate service client for Swarmauri",
-      "pub_date": 1769555036
-    },
-    {
-      "name": "swarmauri_certservice_scep",
-      "version": "0.8.0.dev19",
-      "summary": "Swarmauri SCEP Certificate Service",
-      "pub_date": 1769555034
-    },
-    {
-      "name": "swarmauri_certs_ocspverify",
-      "version": "0.9.0.dev23",
-      "summary": "OCSP certificate verification service for Swarmauri.",
-      "pub_date": 1769555028
-    },
-    {
-      "name": "datawalk",
-      "version": "0.3.0",
-      "summary": "Fetch values from nested data structures",
-      "pub_date": 1769555027
-    },
-    {
-      "name": "swarmauri_certs_crlverifyservice",
-      "version": "0.1.0.dev23",
-      "summary": "Certificate verification against CRLs",
-      "pub_date": 1769555020
-    },
-    {
-      "name": "tair-tvs",
-      "version": "0.0.1",
-      "summary": "Defensive package registration.",
-      "pub_date": 1769555016
-    },
-    {
-      "name": "swarmauri_keyprovider_gcpkms",
-      "version": "0.9.0.dev24",
-      "summary": "Google Cloud KMS Key Provider for Swarmauri",
-      "pub_date": 1769555015
-    },
-    {
-      "name": "swarmauri_tool_searchword",
-      "version": "0.3.0.dev24",
-      "summary": "A tool for searching a specific word or phrase in a file.",
-      "pub_date": 1769555014
-    },
-    {
-      "name": "swarmauri_parser_slate",
-      "version": "0.2.0.dev23",
-      "summary": "A parser for extracting text from PDFs using Slate.",
-      "pub_date": 1769555010
-    },
-    {
-      "name": "swarmauri_keyprovider_vaulttransit",
-      "version": "0.9.0.dev23",
-      "summary": "Swarmauri Vault Transit Key Provider",
-      "pub_date": 1769555009
-    },
-    {
-      "name": "swarmauri_tool_jupytergetiopubmessage",
-      "version": "0.8.0.dev24",
-      "summary": "A tool designed to retrieve messages from the IOPub channel of a Jupyter kernel using jupyter_client, capturing cell outputs and logs.",
-      "pub_date": 1769554999
-    },
-    {
-      "name": "swarmauri_tool_jupyterexportlatex",
-      "version": "0.8.0.dev22",
-      "summary": "A tool that exports a Jupyter Notebook to LaTeX format using nbconvert’s LatexExporter, enabling further conversion to PDF.",
-      "pub_date": 1769554994
-    },
-    {
-      "name": "swarmauri_toolkit_jupytertoolkit",
-      "version": "0.3.0.dev21",
-      "summary": "A unified toolkit for aggregating standalone jupyter notebook tools.",
-      "pub_date": 1769554990
-    },
-    {
-      "name": "swarmauri_tool_jupyterdisplay",
-      "version": "0.8.0.dev21",
-      "summary": "A tool designed to display rich media and object representations in a Jupyter Notebook using IPython's display functionality.",
-      "pub_date": 1769554987
-    },
-    {
-      "name": "swarmauri_tool_jupyterclearoutput",
-      "version": "0.9.0.dev21",
-      "summary": "A tool designed to clear all outputs from a Jupyter Notebook using nbconvert’s ClearOutputPreprocessor, preparing the notebook for sharing or version control.",
-      "pub_date": 1769554987
-    },
-    {
-      "name": "swarmauri_tool_jupyterdisplayhtml",
-      "version": "0.9.0.dev21",
-      "summary": "A tool designed to render HTML content within a Jupyter Notebook using IPython's HTML display method.",
-      "pub_date": 1769554978
-    },
-    {
-      "name": "swarmauri_tool_jupyterexecuteandconvert",
-      "version": "0.9.0.dev22",
-      "summary": "A tool that programmatically executes and converts a Jupyter Notebook using nbconvert's CLI functionality, enabling automated notebook execution and format conversion.",
-      "pub_date": 1769554975
-    },
-    {
-      "name": "swarmauri_tool_jupyterexecutenotebook",
-      "version": "0.9.0.dev21",
-      "summary": "A tool designed to execute all cells in a Jupyter Notebook using nbconvert’s ExecutePreprocessor, capturing outputs for testing and reporting.",
-      "pub_date": 1769554969
-    },
-    {
-      "name": "swarmauri_tool_jupyterexecutecell",
-      "version": "0.9.0.dev22",
-      "summary": "A tool designed to execute a single code cell in a running Jupyter kernel using jupyter_client, capturing its output and errors.",
-      "pub_date": 1769554968
-    },
-    {
-      "name": "swarmauri_tool_jupyterexecutenotebookwithparameters",
-      "version": "1.3.0.dev22",
-      "summary": "A tool designed to execute parameterized notebooks using papermill, allowing dynamic input and output capture for automated workflows.",
-      "pub_date": 1769554965
-    },
-    {
-      "name": "swarmauri_tool_jupyterexporthtml",
-      "version": "0.8.0.dev22",
-      "summary": "A tool that exports a Jupyter Notebook to HTML format using nbconvert’s HTMLExporter, enabling web-based presentation of notebooks.",
-      "pub_date": 1769554956
-    },
-    {
-      "name": "swarmauri_tool_jupyterexportmarkdown",
-      "version": "1.3.0.dev21",
-      "summary": "A Swarmauri tool designed to export Jupyter Notebooks to Markdown.",
-      "pub_date": 1769554953
-    },
-    {
-      "name": "swarmauri_tool_jupyterexportpython",
-      "version": "0.9.0.dev22",
-      "summary": "A tool that exports a Jupyter Notebook to a Python script using nbconvert’s PythonExporter, facilitating code extraction.",
-      "pub_date": 1769554946
-    },
-    {
-      "name": "swarmauri_tool_jupyterfromdict",
-      "version": "0.9.0.dev6",
-      "summary": "A tool that converts a plain dictionary into a NotebookNode object using nbformat, facilitating programmatic notebook creation.",
-      "pub_date": 1769554944
-    },
-    {
-      "name": "odoo14-addon-l10n-br-nfse-focus",
-      "version": "14.0.2.0.1",
-      "summary": "NFS-e (FocusNFE)",
-      "pub_date": 1769554942
-    },
-    {
-      "name": "swarmauri_tool_jupytergetshellmessage",
-      "version": "0.9.0.dev22",
-      "summary": "A tool designed to retrieve shell messages from a running Jupyter kernel using jupyter_client, useful for debugging execution responses.",
-      "pub_date": 1769554940
-    },
-    {
-      "name": "yfhist",
-      "version": "0.1.3",
-      "summary": "Simple and efficient access to Yahoo Finance's historical data API <https://finance.yahoo.com/> for querying and retrieval of financial data.",
-      "pub_date": 1769554933
-    },
-    {
-      "name": "swarmauri_tool_jupyterreadnotebook",
-      "version": "0.8.0.dev21",
-      "summary": "A tool that reads a Jupyter Notebook file using nbformat, converting the JSON file into a NotebookNode object.",
-      "pub_date": 1769554931
-    },
-    {
-      "name": "swarmauri_tool_jupyterruncell",
-      "version": "0.9.0.dev21",
-      "summary": "A tool designed to execute a single code cell in an IPython interactive shell, mimicking notebook cell execution.",
-      "pub_date": 1769554926
-    },
-    {
-      "name": "swarmauri_tool_jupytershutdownkernel",
-      "version": "0.8.0.dev21",
-      "summary": "A tool designed to shut down a running Jupyter kernel programmatically using jupyter_client, releasing all associated resources.",
-      "pub_date": 1769554922
-    },
-    {
-      "name": "swarmauri_tool_jupytervalidatenotebook",
-      "version": "0.9.0.dev21",
-      "summary": "A tool that validates a NotebookNode object against the Jupyter Notebook schema using nbformat, ensuring structural correctness.",
-      "pub_date": 1769554918
-    },
-    {
-      "name": "sciris",
-      "version": "3.2.5",
-      "summary": "Fast, flexible tools to simplify scientific Python",
-      "pub_date": 1769554917
-    },
-    {
-      "name": "swarmauri_tool_jupyterstartkernel",
-      "version": "0.9.0.dev21",
-      "summary": "A tool designed to start a new Jupyter kernel programmatically using jupyter_client, enabling execution of notebook cells.",
-      "pub_date": 1769554917
-    },
-    {
-      "name": "tradedangerous",
-      "version": "12.10.1",
-      "summary": "Trade-Dangerous is a set of powerful trading tools for Elite Dangerous, organized around one of the most powerful trade run optimizers available.",
-      "pub_date": 1769554917
-    },
-    {
-      "name": "swarmauri_tool_jupyterwritenotebook",
-      "version": "0.8.0.dev22",
-      "summary": "A tool that writes a NotebookNode object to a file in JSON format, preserving the notebook structure.",
-      "pub_date": 1769554908
-    },
-    {
-      "name": "swarmauri_vectorstore_annoy",
-      "version": "0.9.0.dev21",
-      "summary": "Swarmauri Annoy Vector Store",
-      "pub_date": 1769554902
-    },
-    {
-      "name": "tigrbl_api_hpks",
-      "version": "0.1.0.dev11",
-      "summary": "High-trust OpenPGP keyserver APIs built on the Tigrbl application engine.",
-      "pub_date": 1769554900
-    },
-    {
-      "name": "swarmauri_embedding_mlm",
-      "version": "0.8.0.dev21",
-      "summary": "example community package",
-      "pub_date": 1769554899
-    },
-    {
-      "name": "swarmauri_llm_leptonai",
-      "version": "0.9.0.dev21",
-      "summary": "Swarmauri Lepton AI Model",
-      "pub_date": 1769554896
-    },
-    {
-      "name": "swarmauri_tool_entityrecognition",
-      "version": "0.8.0.dev5",
-      "summary": "Swarmauri Community Entity Recognition Tool",
-      "pub_date": 1769554895
-    },
-    {
-      "name": "moducomp",
-      "version": "0.7.0",
-      "summary": "moducomp: metabolic module completeness and complementarity for microbiomes.",
-      "pub_date": 1769554894
+      "name": "python-cxx",
+      "version": "0.1.0b19",
+      "summary": "C++ DSP Extensions for Python.",
+      "pub_date": 1769555981
     },
     {
       "name": "guardrails-cli",
-      "version": "0.1.12",
+      "version": "0.1.14",
       "summary": "Guardrails CLI for scanning repositories",
-      "pub_date": 1769554893
+      "pub_date": 1769555958
     },
     {
-      "name": "aa-campaign",
-      "version": "0.1.17",
-      "summary": "Z-Kill Campaigns for Alliance Auth",
-      "pub_date": 1769554888
+      "name": "hadoku-fidelity",
+      "version": "1.1.2",
+      "summary": "Fidelity trading automation with FastAPI service for hadoku",
+      "pub_date": 1769555917
     },
     {
-      "name": "swarmauri_tests_griffe",
-      "version": "0.1.1.dev17",
-      "summary": "Pytest plugin that turns Griffe inspection warnings into failing quality gates for Swarmauri packages.",
-      "pub_date": 1769554885
+      "name": "leanvec-edge",
+      "version": "1.1.3",
+      "summary": "Testing",
+      "pub_date": 1769555901
     },
     {
-      "name": "vision-agents-plugins-twilio",
+      "name": "DataCleaningPipeline",
+      "version": "2.1.1",
+      "summary": "Production-grade data cleaning and validation pipeline",
+      "pub_date": 1769555896
+    },
+    {
+      "name": "locusts",
+      "version": "0.0.93",
+      "summary": "Distributes many short tasks on multicore and hpc systems",
+      "pub_date": 1769555861
+    },
+    {
+      "name": "dj-cli-tools",
+      "version": "0.1",
+      "summary": "A Django app to conduct web-based polls.",
+      "pub_date": 1769555836
+    },
+    {
+      "name": "comed-prices",
+      "version": "0.0.17",
+      "summary": "ComEd® hourly and 5 minute prices",
+      "pub_date": 1769555835
+    },
+    {
+      "name": "foundry-mcp",
+      "version": "0.9.0b10",
+      "summary": "MCP server for spec-driven development management",
+      "pub_date": 1769555832
+    },
+    {
+      "name": "flaskpp",
+      "version": "0.4.4",
+      "summary": "A Flask based framework for fast and easy app creation. Experience the real power of Flask without boilerplate, but therefore a well balanced mix of magic and the default Flask framework.",
+      "pub_date": 1769555824
+    },
+    {
+      "name": "grib2sail",
+      "version": "0.1.0",
+      "summary": "Grib files downloader for sailing purposes",
+      "pub_date": 1769555818
+    },
+    {
+      "name": "vivarium-build-utils",
+      "version": "2.2.1",
+      "summary": "Shared build utilities and Jenkins pipeline library for Simulation Science projects.",
+      "pub_date": 1769555803
+    },
+    {
+      "name": "geneva",
+      "version": "0.9.1",
+      "summary": "Geneva - Multimodal Data Lake for AI",
+      "pub_date": 1769555796
+    },
+    {
+      "name": "cfbs",
+      "version": "5.5.2",
+      "summary": "Tooling to build, manage and deploy CFEngine policy",
+      "pub_date": 1769555795
+    },
+    {
+      "name": "cloudcat",
+      "version": "0.3.7",
+      "summary": "Preview and analyze data files in Google Cloud Storage, AWS S3, and Azure Data Lake Storage Gen2 from your terminal",
+      "pub_date": 1769555779
+    },
+    {
+      "name": "sop4py",
+      "version": "2.3.3",
+      "summary": "Scalable Objects Persistence (SOP) V2 for Python. General Public Availability (GPA) Release",
+      "pub_date": 1769555775
+    },
+    {
+      "name": "rag-foundry",
+      "version": "0.0.1",
+      "summary": "Opinionated, production-minded core library for RAG systems",
+      "pub_date": 1769555741
+    },
+    {
+      "name": "lpro-s",
+      "version": "1.0.1.1",
+      "summary": "MProcs simplified - A Life program by tderk, originally LPro.py and Destiny [2024] -this version does not save to a .txt file",
+      "pub_date": 1769555735
+    },
+    {
+      "name": "tetra-rp",
+      "version": "0.22.0",
+      "summary": "A Python library for distributed inference and serving of machine learning models",
+      "pub_date": 1769555717
+    },
+    {
+      "name": "whisper-s2t-reborn",
+      "version": "1.4.1",
+      "summary": "A streamlined Speech-to-Text pipeline for Whisper using CTranslate2",
+      "pub_date": 1769555698
+    },
+    {
+      "name": "zigpy",
+      "version": "0.91.0",
+      "summary": "Library implementing a Zigbee stack",
+      "pub_date": 1769555697
+    },
+    {
+      "name": "models-dev",
+      "version": "1.0.41",
+      "summary": "Typed Python interface to models.dev API data",
+      "pub_date": 1769555678
+    },
+    {
+      "name": "lpro",
+      "version": "1.0.1",
+      "summary": "MProcs simplified - A Life program by tderk, originally LPro.py and Destiny [2024]",
+      "pub_date": 1769555671
+    },
+    {
+      "name": "vision-agents-plugins-qwen",
       "version": "0.3.2",
-      "summary": "Twilio plugin for Vision Agents - Voice call integration with media streaming",
-      "pub_date": 1769554884
+      "summary": "Qwen Omni plugin for vision agents",
+      "pub_date": 1769555654
     },
     {
-      "name": "tigrbl-kms",
-      "version": "0.3.0.dev17",
-      "summary": "A Tigrbl key management service for Swarmauri.",
-      "pub_date": 1769554884
+      "name": "libera_utils",
+      "version": "5.5.2",
+      "summary": "Utility package for Libera Science Data Processing and the Libera Science Data Center. Copyright 2022 University of Colorado.",
+      "pub_date": 1769555622
     },
     {
-      "name": "swarmauri_ocr_pytesseract",
-      "version": "0.9.0.dev21",
-      "summary": "Swarmauri Tesseract Image to Text Model",
-      "pub_date": 1769554880
+      "name": "eaglebirth",
+      "version": "1.1.1",
+      "summary": "Official Python SDK for EagleBirth API",
+      "pub_date": 1769555605
     },
     {
-      "name": "swarmauri_matrix_hamming74",
-      "version": "0.9.0.dev22",
-      "summary": "Swarmauri Hamming (7,4) matrix community package.",
-      "pub_date": 1769554876
+      "name": "biatoolkit",
+      "version": "1.1.0",
+      "summary": "Biblioteca para desenvolvedores que utilizam o BiaAgentBuilder",
+      "pub_date": 1769555590
     },
     {
-      "name": "deebot-client",
-      "version": "17.1.0",
-      "summary": "Deebot client library in python 3",
-      "pub_date": 1769554875
+      "name": "cr-proc",
+      "version": "0.1.3",
+      "summary": "A tool for processing BYU CS code recording files",
+      "pub_date": 1769555574
+    },
+    {
+      "name": "sequins-inventory-tool",
+      "version": "1.2.3",
+      "summary": "A tool for sequins inventory.",
+      "pub_date": 1769555555
+    },
+    {
+      "name": "numba-types",
+      "version": "0.0.0",
+      "summary": "numba-types",
+      "pub_date": 1769555544
+    },
+    {
+      "name": "opuspocus",
+      "version": "0.1.0",
+      "summary": "Modular NLP pipeline manager.",
+      "pub_date": 1769555543
+    },
+    {
+      "name": "messagebus",
+      "version": "0.16.1",
+      "summary": "Lightweight message bus library designed for event-driven architectures.",
+      "pub_date": 1769555531
+    },
+    {
+      "name": "dbn-cache",
+      "version": "1.2.2",
+      "summary": "Download and cache historical market data from Databento",
+      "pub_date": 1769555527
+    },
+    {
+      "name": "hogql-parser",
+      "version": "1.3.7",
+      "summary": "HogQL parser for internal PostHog use",
+      "pub_date": 1769555527
+    },
+    {
+      "name": "internal",
+      "version": "1.1.49.2",
+      "summary": null,
+      "pub_date": 1769555519
+    },
+    {
+      "name": "tb-pymedia",
+      "version": "0.0.1",
+      "summary": "Defensive package registration.",
+      "pub_date": 1769555486
+    },
+    {
+      "name": "kpf",
+      "version": "0.8.1",
+      "summary": "A terminal utility with a better UX for kubectl port-forward",
+      "pub_date": 1769555477
+    },
+    {
+      "name": "rslearn",
+      "version": "0.0.25",
+      "summary": "A library for developing remote sensing datasets and models",
+      "pub_date": 1769555465
+    },
+    {
+      "name": "qwerky-vllm-models",
+      "version": "0.2.0",
+      "summary": "vLLM plugin for Qwerky AI MambaInLlama hybrid models",
+      "pub_date": 1769555450
+    },
+    {
+      "name": "wordauth",
+      "version": "0.1.0",
+      "summary": "Natural-language based OTP integration client for WordAuth API",
+      "pub_date": 1769555449
+    },
+    {
+      "name": "taobao-scythe",
+      "version": "0.0.1",
+      "summary": "Defensive package registration.",
+      "pub_date": 1769555408
+    },
+    {
+      "name": "mtbls-mhd-integration",
+      "version": "0.0.8",
+      "summary": "MetaboLights - MetabolomicsHub Integration",
+      "pub_date": 1769555399
+    },
+    {
+      "name": "ai-todo",
+      "version": "4.0.0b1",
+      "summary": "AI-Agent First TODO List Tracker with MCP and CLI interfaces",
+      "pub_date": 1769555387
+    },
+    {
+      "name": "hedit",
+      "version": "0.6.8a2",
+      "summary": "Multi-agent system for HED annotation generation and validation",
+      "pub_date": 1769555379
+    },
+    {
+      "name": "quantconnect-stubs",
+      "version": "17496",
+      "summary": "Type stubs for QuantConnect's Lean",
+      "pub_date": 1769555364
+    },
+    {
+      "name": "taobao-pgm",
+      "version": "0.0.1",
+      "summary": "Defensive package registration.",
+      "pub_date": 1769555330
+    },
+    {
+      "name": "fdray",
+      "version": "0.1.17",
+      "summary": "A Python interface for POV-Ray (Persistence of Vision Raytracer)",
+      "pub_date": 1769555291
+    },
+    {
+      "name": "swarmauri_workflow_statedriven",
+      "version": "0.2.0.dev25",
+      "summary": "Swarmauri's StateDrivenWorkflow",
+      "pub_date": 1769555272
+    },
+    {
+      "name": "flwr-nightly",
+      "version": "1.26.0.dev20260127",
+      "summary": "Flower: A Friendly Federated AI Framework",
+      "pub_date": 1769555272
     }
   ],
   "license": {
     "licenses": {
-      "AGPL-3.0-or-later": 65,
-      "Apache 2.0": 114,
-      "GPL": 8,
-      "LGPL-3.0-only": 12,
-      "LGPL-3.0-or-later": 28,
-      "GPL version 2": 10,
-      "GPLv2+": 11,
-      "BSD-3-Clause-Clear": 3,
-      "BSD-Clause-2": 1,
-      "Apache v2.0": 1,
-      "BSD-3": 14,
       "AGPL-3.0": 61,
-      "AGPL 3.0": 2,
-      "EUPL 1.1+": 0,
-      "Apache": 23,
-      "GPL-2+": 1,
-      "GPL-2.0-only": 11,
-      "LGPLv3": 25,
-      "GPL-3.0-or-later": 232,
-      "GPL-3": 3,
-      "BSD 2-CLAUSE": 1,
-      "Apache-2.0": 1562,
-      "Apache 2.0 License": 4,
-      "BSD-2-Clause": 27,
-      "Apache-2": 3,
-      "Apache-2.0 license": 4,
-      "Apache License": 6,
-      "BSD-3-Clause": 246,
-      "MPL": 0,
-      "EUPL-1.2": 9,
-      "Apache 2.0 license": 0,
-      "Artistic-2.0": 0,
-      "BSD-3-clause": 0,
-      "BSD": 33,
-      "EUPL-1.2-or-later": 1,
-      "ELv2": 4,
-      "BSD (3-clause)": 1,
-      "MPL-2.0": 55,
-      "GNU": 1,
-      "gpl": 0,
-      "GPL3": 6,
-      "GPL-3.0-only": 65,
-      "MIT License": 117,
-      "GPL-3.0": 48,
-      "GPLv3": 43,
-      "MIT OR Apache-2.0": 18,
-      "LGPL 3.0": 2,
-      "Proprietary": 73,
-      "AGPL-3.0-only": 19,
-      "LGPL-2.1-or-later": 4,
-      "Elastic License 2.0": 1,
-      "ISC": 20,
-      "Apache License 2.0": 181,
-      "GPLv3+": 6,
-      "MIT": 4731,
-      "GPL-2.0-or-later": 103,
+      "AGPL-3.0-or-later": 65,
       "LGPL-3": 28,
-      "BSD 3-Clause": 12,
-      "AFL-3.0": 0,
-      "ASL": 1,
-      "Apache 2": 5,
-      "Mulan PSL v2": 0,
-      "FreeBSD": 2,
-      "GPL-2.0": 4,
-      "Elastic-2.0": 27,
-      "GPL License": 0,
-      "GPL 3.0": 1,
-      "MIT license": 18,
+      "LGPL-3.0-or-later": 28,
       "BSD License": 8,
-      "GNU GPL v3.0": 1,
-      "AGPLv3": 1,
+      "Mulan PSL v2": 0,
+      "LGPL-3.0-only": 12,
+      "GPLv2+": 11,
+      "GPLv3": 43,
+      "Apache License": 6,
+      "Elastic-2.0": 27,
+      "AGPL-3": 212,
+      "GPL": 8,
+      "BSD-2-Clause": 27,
+      "GPL 3.0": 1,
+      "GPLv3+": 6,
+      "GPL-3.0-only": 66,
+      "MPL-2.0": 55,
       "CC BY-NC-SA 4.0": 1,
+      "BSD-3-Clause-Clear": 3,
+      "AGPL-3.0-only": 19,
+      "Artistic-2.0": 0,
+      "Elastic License 2.0": 1,
+      "ELv2": 4,
+      "GPL3": 6,
+      "MIT License": 117,
+      "GNU": 1,
+      "GPL version 2": 10,
+      "AGPLv3": 1,
+      "GPL-2.0": 4,
+      "AFL-3.0": 0,
       "AGPL": 8,
-      "AGPL-3": 212
+      "BSD (3-clause)": 1,
+      "GPL-2.0-only": 11,
+      "gpl": 0,
+      "FreeBSD": 2,
+      "Apache 2": 5,
+      "Apache License 2.0": 181,
+      "GPL-3.0-or-later": 233,
+      "GPL-3.0": 49,
+      "LGPL-2.1-or-later": 4,
+      "LGPL 3.0": 2,
+      "ISC": 20,
+      "MIT": 4745,
+      "GPL-2.0-or-later": 103,
+      "GPL-3": 3,
+      "GPL-2+": 1,
+      "Apache-2.0 license": 4,
+      "Proprietary": 73,
+      "Apache-2.0": 1573,
+      "EUPL-1.2-or-later": 1,
+      "LGPLv3": 25,
+      "BSD 2-CLAUSE": 1,
+      "Apache-2": 3,
+      "Apache v2.0": 1,
+      "BSD-3-Clause": 248,
+      "Apache 2.0 License": 4,
+      "BSD-3": 14,
+      "EUPL 1.1+": 0,
+      "GNU GPL v3.0": 1,
+      "GPL License": 0,
+      "AGPL 3.0": 2,
+      "BSD": 33,
+      "MIT OR Apache-2.0": 18,
+      "BSD-Clause-2": 1,
+      "MPL": 0,
+      "ASL": 1,
+      "BSD-3-clause": 0,
+      "BSD 3-Clause": 12,
+      "Apache 2.0 license": 0,
+      "EUPL-1.2": 9,
+      "Apache": 23,
+      "MIT license": 18,
+      "Apache 2.0": 114
     },
-    "no_license_count": 3572,
+    "no_license_count": 3577,
     "no_license": [
+      {
+        "name": "python-cxx",
+        "version": "0.1.0b19",
+        "summary": "C++ DSP Extensions for Python.",
+        "pub_date": 1769555981
+      },
+      {
+        "name": "leanvec-edge",
+        "version": "1.1.3",
+        "summary": "Testing",
+        "pub_date": 1769555901
+      },
+      {
+        "name": "DataCleaningPipeline",
+        "version": "2.1.1",
+        "summary": "Production-grade data cleaning and validation pipeline",
+        "pub_date": 1769555896
+      },
+      {
+        "name": "locusts",
+        "version": "0.0.93",
+        "summary": "Distributes many short tasks on multicore and hpc systems",
+        "pub_date": 1769555861
+      },
+      {
+        "name": "comed-prices",
+        "version": "0.0.17",
+        "summary": "ComEd® hourly and 5 minute prices",
+        "pub_date": 1769555835
+      },
+      {
+        "name": "flaskpp",
+        "version": "0.4.4",
+        "summary": "A Flask based framework for fast and easy app creation. Experience the real power of Flask without boilerplate, but therefore a well balanced mix of magic and the default Flask framework.",
+        "pub_date": 1769555824
+      },
+      {
+        "name": "cfbs",
+        "version": "5.5.2",
+        "summary": "Tooling to build, manage and deploy CFEngine policy",
+        "pub_date": 1769555795
+      },
+      {
+        "name": "cloudcat",
+        "version": "0.3.7",
+        "summary": "Preview and analyze data files in Google Cloud Storage, AWS S3, and Azure Data Lake Storage Gen2 from your terminal",
+        "pub_date": 1769555779
+      },
+      {
+        "name": "sop4py",
+        "version": "2.3.3",
+        "summary": "Scalable Objects Persistence (SOP) V2 for Python. General Public Availability (GPA) Release",
+        "pub_date": 1769555775
+      },
+      {
+        "name": "eaglebirth",
+        "version": "1.1.1",
+        "summary": "Official Python SDK for EagleBirth API",
+        "pub_date": 1769555605
+      },
+      {
+        "name": "biatoolkit",
+        "version": "1.1.0",
+        "summary": "Biblioteca para desenvolvedores que utilizam o BiaAgentBuilder",
+        "pub_date": 1769555590
+      },
+      {
+        "name": "cr-proc",
+        "version": "0.1.3",
+        "summary": "A tool for processing BYU CS code recording files",
+        "pub_date": 1769555574
+      },
+      {
+        "name": "internal",
+        "version": "1.1.49.2",
+        "summary": null,
+        "pub_date": 1769555519
+      },
+      {
+        "name": "quantconnect-stubs",
+        "version": "17496",
+        "summary": "Type stubs for QuantConnect's Lean",
+        "pub_date": 1769555364
+      },
+      {
+        "name": "mcp-server-sql-inspector",
+        "version": "0.1.1",
+        "summary": "A Model Context Protocol server that enables AI to inspect SQL databases and analyze query performance.",
+        "pub_date": 1769555204
+      },
+      {
+        "name": "arnmatch",
+        "version": "0.3.1",
+        "summary": "Parse AWS ARNs into structured data",
+        "pub_date": 1769555193
+      },
+      {
+        "name": "primfunctions",
+        "version": "0.1.74",
+        "summary": "Prim AI Functions",
+        "pub_date": 1769555118
+      },
+      {
+        "name": "magic_hour",
+        "version": "0.51.0",
+        "summary": "Python SDK for Magic Hour API",
+        "pub_date": 1769555088
+      },
       {
         "name": "datawalk",
         "version": "0.3.0",
@@ -398,12 +506,6 @@
         "version": "0.7.1409",
         "summary": "Monitor and influence AI Brains",
         "pub_date": 1769554753
-      },
-      {
-        "name": "arnmatch",
-        "version": "0.1.0",
-        "summary": "AWS ARN Matcher - parses and returns information about AWS ARNs",
-        "pub_date": 1769554736
       },
       {
         "name": "sinapsis-retina-face-trt",
@@ -458,12 +560,6 @@
         "version": "0.2.2",
         "summary": "Framework for streamlining the FCC framework powered by b2luigi",
         "pub_date": 1769553778
-      },
-      {
-        "name": "flaskpp",
-        "version": "0.4.2",
-        "summary": "A Flask based framework for fast and easy app creation. Experience the real power of Flask without boilerplate, but therefore a well balanced mix of magic and the default Flask framework.",
-        "pub_date": 1769553544
       },
       {
         "name": "wasm-action",
@@ -584,102 +680,6 @@
         "version": "0.3.0",
         "summary": "A Python client for the Axionic API.",
         "pub_date": 1769551635
-      },
-      {
-        "name": "dapper-sqls",
-        "version": "1.2.8",
-        "summary": null,
-        "pub_date": 1769551431
-      },
-      {
-        "name": "ado-autoconf",
-        "version": "1.4.0",
-        "summary": "An AutoConf plugin that suggests the minimum number of gpus necessary to execute a Tuning job",
-        "pub_date": 1769551415
-      },
-      {
-        "name": "ado-vllm-performance",
-        "version": "1.4.0",
-        "summary": "VLLM performance testing actuator",
-        "pub_date": 1769551411
-      },
-      {
-        "name": "ado-ray-tune",
-        "version": "1.4.0",
-        "summary": null,
-        "pub_date": 1769551406
-      },
-      {
-        "name": "ado-sfttrainer",
-        "version": "1.4.0",
-        "summary": "An actuator for benchmarking fine-tuning of foundation models",
-        "pub_date": 1769551401
-      },
-      {
-        "name": "ado-core",
-        "version": "1.4.0",
-        "summary": "ado is a unified platform for executing computational experiments at scale and analysing their results. It can be easily extended with new experiments or new analysis tools. It allows distributed teams of researchers and engineers to collaborate on projects, execute experiments, and share data.",
-        "pub_date": 1769551394
-      },
-      {
-        "name": "llmir",
-        "version": "0.0.1",
-        "summary": "Core message and tool IR for LLM pipelines",
-        "pub_date": 1769551298
-      },
-      {
-        "name": "terminusgps-payments",
-        "version": "4.7.0",
-        "summary": "Add your description here",
-        "pub_date": 1769551266
-      },
-      {
-        "name": "dycw-pre-commit-hooks",
-        "version": "0.14.120",
-        "summary": "Pre-commit hooks",
-        "pub_date": 1769551240
-      },
-      {
-        "name": "para-sdk",
-        "version": "0.27.0rc8",
-        "summary": null,
-        "pub_date": 1769551237
-      },
-      {
-        "name": "vastai-sdk",
-        "version": "0.4.3",
-        "summary": "SDK for Vast.ai GPU Cloud Service",
-        "pub_date": 1769551188
-      },
-      {
-        "name": "kaggle-environments",
-        "version": "1.26.13",
-        "summary": "Kaggle Environments",
-        "pub_date": 1769551066
-      },
-      {
-        "name": "curun",
-        "version": "0.1",
-        "summary": null,
-        "pub_date": 1769551027
-      },
-      {
-        "name": "scc-firewall-manager-sdk",
-        "version": "1.15.925",
-        "summary": "Cisco Security Cloud Control Firewall Manager API",
-        "pub_date": 1769550920
-      },
-      {
-        "name": "polars-mas",
-        "version": "0.4.0",
-        "summary": "polars-mas - a fast multiple association library for python backed by polars",
-        "pub_date": 1769550850
-      },
-      {
-        "name": "composer-alloc-polars",
-        "version": "0.1.0",
-        "summary": null,
-        "pub_date": 1769550820
       }
     ],
     "bad_license_count": 313,
@@ -985,8 +985,68 @@
         "pub_date": 1769528667
       }
     ],
-    "long_license_count": 1461,
+    "long_license_count": 1469,
     "long_license": [
+      {
+        "name": "geneva",
+        "version": "0.9.1",
+        "summary": "Geneva - Multimodal Data Lake for AI",
+        "pub_date": 1769555796
+      },
+      {
+        "name": "lpro-s",
+        "version": "1.0.1.1",
+        "summary": "MProcs simplified - A Life program by tderk, originally LPro.py and Destiny [2024] -this version does not save to a .txt file",
+        "pub_date": 1769555735
+      },
+      {
+        "name": "lpro",
+        "version": "1.0.1",
+        "summary": "MProcs simplified - A Life program by tderk, originally LPro.py and Destiny [2024]",
+        "pub_date": 1769555671
+      },
+      {
+        "name": "numba-types",
+        "version": "0.0.0",
+        "summary": "numba-types",
+        "pub_date": 1769555544
+      },
+      {
+        "name": "kpf",
+        "version": "0.8.1",
+        "summary": "A terminal utility with a better UX for kubectl port-forward",
+        "pub_date": 1769555477
+      },
+      {
+        "name": "rslearn",
+        "version": "0.0.25",
+        "summary": "A library for developing remote sensing datasets and models",
+        "pub_date": 1769555465
+      },
+      {
+        "name": "fdray",
+        "version": "0.1.17",
+        "summary": "A Python interface for POV-Ray (Persistence of Vision Raytracer)",
+        "pub_date": 1769555291
+      },
+      {
+        "name": "openrewrite",
+        "version": "8.72.3",
+        "summary": "OpenRewrite automated refactoring for Python.",
+        "pub_date": 1769555229
+      },
+      {
+        "name": "nvidia-cudnn-frontend",
+        "version": "1.18.0",
+        "summary": "CUDNN FrontEnd python library",
+        "pub_date": 1769555194
+      },
+      {
+        "name": "redback",
+        "version": "1.13.0",
+        "summary": "A Bayesian inference and modelling pipeline for electromagnetic transients",
+        "pub_date": 1769555153
+      },
       {
         "name": "tigrbl_api_hpks",
         "version": "0.1.0.dev11",
@@ -1016,12 +1076,6 @@
         "version": "0.2.5",
         "summary": "Dreamer 4",
         "pub_date": 1769554091
-      },
-      {
-        "name": "openrewrite",
-        "version": "8.73.0.dev20260127224606",
-        "summary": "OpenRewrite automated refactoring for Python.",
-        "pub_date": 1769554044
       },
       {
         "name": "homesec",
@@ -1232,71 +1286,191 @@
         "version": "0.3.1",
         "summary": "The Workspace Manager",
         "pub_date": 1769549217
-      },
-      {
-        "name": "pytrain-ogr-api",
-        "version": "1.6.7",
-        "summary": "Restful API to control Lionel TMCC/Legacy engines, switches, and accesseries from a Raspberry Pi",
-        "pub_date": 1769549182
-      },
-      {
-        "name": "dnastack-client-library",
-        "version": "3.1.208",
-        "summary": "DNAstack's GA4GH library and CLI",
-        "pub_date": 1769549117
-      },
-      {
-        "name": "codeconcat",
-        "version": "3.0.0",
-        "summary": "A tool to concatenate folders into a single text file, respecting .gitignore and using optional config.",
-        "pub_date": 1769549024
-      },
-      {
-        "name": "pytrain-ogr",
-        "version": "1.6.7",
-        "summary": "Control Lionel TMCC/Legacy engines, switches, and accesseries from a Raspberry Pi",
-        "pub_date": 1769548952
-      },
-      {
-        "name": "lineax",
-        "version": "0.1.0",
-        "summary": "Linear solvers in JAX and Equinox.",
-        "pub_date": 1769548645
-      },
-      {
-        "name": "wool",
-        "version": "0.1rc27",
-        "summary": "A Python framework for distributed multiprocessing.",
-        "pub_date": 1769548617
-      },
-      {
-        "name": "vsview-split-planes",
-        "version": "0.1.0",
-        "summary": "A vsview plugin displaying video clips' constituent planes",
-        "pub_date": 1769548587
-      },
-      {
-        "name": "pydocmaker",
-        "version": "2.5.4",
-        "summary": "a minimal python document maker to create and show reports (including figures and tables) from within python and export them as markdown, pdf, html, and word.",
-        "pub_date": 1769548548
-      },
-      {
-        "name": "vsview-frameprops-extended",
-        "version": "0.1.0",
-        "summary": "A vsview plugin adding more categories and formatters to the built-in vsview frameprops tool",
-        "pub_date": 1769548539
       }
     ]
   },
   "vcs": {
     "hosts": {
-      "github": 8687,
       "other": 48,
+      "github": 8705,
       "gitlab": 144
     },
-    "no_vcs_count": 3639,
+    "no_vcs_count": 3657,
     "no_vcs": [
+      {
+        "name": "python-cxx",
+        "version": "0.1.0b19",
+        "summary": "C++ DSP Extensions for Python.",
+        "pub_date": 1769555981
+      },
+      {
+        "name": "guardrails-cli",
+        "version": "0.1.14",
+        "summary": "Guardrails CLI for scanning repositories",
+        "pub_date": 1769555958
+      },
+      {
+        "name": "flaskpp",
+        "version": "0.4.4",
+        "summary": "A Flask based framework for fast and easy app creation. Experience the real power of Flask without boilerplate, but therefore a well balanced mix of magic and the default Flask framework.",
+        "pub_date": 1769555824
+      },
+      {
+        "name": "geneva",
+        "version": "0.9.1",
+        "summary": "Geneva - Multimodal Data Lake for AI",
+        "pub_date": 1769555796
+      },
+      {
+        "name": "lpro-s",
+        "version": "1.0.1.1",
+        "summary": "MProcs simplified - A Life program by tderk, originally LPro.py and Destiny [2024] -this version does not save to a .txt file",
+        "pub_date": 1769555735
+      },
+      {
+        "name": "tetra-rp",
+        "version": "0.22.0",
+        "summary": "A Python library for distributed inference and serving of machine learning models",
+        "pub_date": 1769555717
+      },
+      {
+        "name": "lpro",
+        "version": "1.0.1",
+        "summary": "MProcs simplified - A Life program by tderk, originally LPro.py and Destiny [2024]",
+        "pub_date": 1769555671
+      },
+      {
+        "name": "libera_utils",
+        "version": "5.5.2",
+        "summary": "Utility package for Libera Science Data Processing and the Libera Science Data Center. Copyright 2022 University of Colorado.",
+        "pub_date": 1769555622
+      },
+      {
+        "name": "biatoolkit",
+        "version": "1.1.0",
+        "summary": "Biblioteca para desenvolvedores que utilizam o BiaAgentBuilder",
+        "pub_date": 1769555590
+      },
+      {
+        "name": "cr-proc",
+        "version": "0.1.3",
+        "summary": "A tool for processing BYU CS code recording files",
+        "pub_date": 1769555574
+      },
+      {
+        "name": "sequins-inventory-tool",
+        "version": "1.2.3",
+        "summary": "A tool for sequins inventory.",
+        "pub_date": 1769555555
+      },
+      {
+        "name": "internal",
+        "version": "1.1.49.2",
+        "summary": null,
+        "pub_date": 1769555519
+      },
+      {
+        "name": "wordauth",
+        "version": "0.1.0",
+        "summary": "Natural-language based OTP integration client for WordAuth API",
+        "pub_date": 1769555449
+      },
+      {
+        "name": "mtbls-mhd-integration",
+        "version": "0.0.8",
+        "summary": "MetaboLights - MetabolomicsHub Integration",
+        "pub_date": 1769555399
+      },
+      {
+        "name": "swarmauri_workflow_statedriven",
+        "version": "0.2.0.dev25",
+        "summary": "Swarmauri's StateDrivenWorkflow",
+        "pub_date": 1769555272
+      },
+      {
+        "name": "swarmauri_tests_pylicense",
+        "version": "0.1.0.dev20",
+        "summary": "Pytest plugin reporting dependency licenses",
+        "pub_date": 1769555271
+      },
+      {
+        "name": "swarmauri_tests_readme_examples",
+        "version": "0.1.0.dev17",
+        "summary": "Pytest plugin that executes README code examples.",
+        "pub_date": 1769555270
+      },
+      {
+        "name": "swarmauri_tests_loc_tersity",
+        "version": "0.1.0.dev18",
+        "summary": "Pytest plugin enforcing line count limits",
+        "pub_date": 1769555264
+      },
+      {
+        "name": "swarmauri_keyprovider_pkcs11",
+        "version": "0.3.0.dev22",
+        "summary": "PKCS#11 hardware-backed key provider for Swarmauri",
+        "pub_date": 1769555250
+      },
+      {
+        "name": "catoml",
+        "version": "0.3.0.dev23",
+        "summary": "Swarmauri's Canon Toml",
+        "pub_date": 1769555250
+      },
+      {
+        "name": "swarmauri_certs_pkcs11",
+        "version": "0.3.0.dev22",
+        "summary": "PKCS#11-backed certificate service for Swarmauri",
+        "pub_date": 1769555248
+      },
+      {
+        "name": "cayaml",
+        "version": "0.3.0.dev23",
+        "summary": "Swarmauri's Canon Yaml Handler",
+        "pub_date": 1769555248
+      },
+      {
+        "name": "llamactl",
+        "version": "0.4.3",
+        "summary": "A command-line interface for managing LlamaDeploy projects and deployments",
+        "pub_date": 1769555242
+      },
+      {
+        "name": "llama-deploy-core",
+        "version": "0.4.3",
+        "summary": "Core models and schemas for LlamaDeploy",
+        "pub_date": 1769555240
+      },
+      {
+        "name": "llama-deploy-appserver",
+        "version": "0.4.3",
+        "summary": "Application server components for LlamaDeploy",
+        "pub_date": 1769555238
+      },
+      {
+        "name": "mcp-server-sql-inspector",
+        "version": "0.1.1",
+        "summary": "A Model Context Protocol server that enables AI to inspect SQL databases and analyze query performance.",
+        "pub_date": 1769555204
+      },
+      {
+        "name": "arnmatch",
+        "version": "0.3.1",
+        "summary": "Parse AWS ARNs into structured data",
+        "pub_date": 1769555193
+      },
+      {
+        "name": "primfunctions",
+        "version": "0.1.74",
+        "summary": "Prim AI Functions",
+        "pub_date": 1769555118
+      },
+      {
+        "name": "magic_hour",
+        "version": "0.51.0",
+        "summary": "Python SDK for Magic Hour API",
+        "pub_date": 1769555088
+      },
       {
         "name": "swarmauri_certservice_gcpkms",
         "version": "0.2.0.dev24",
@@ -1422,184 +1596,58 @@
         "version": "0.8.0.dev22",
         "summary": "A tool that exports a Jupyter Notebook to HTML format using nbconvert’s HTMLExporter, enabling web-based presentation of notebooks.",
         "pub_date": 1769554956
-      },
-      {
-        "name": "swarmauri_tool_jupyterexportmarkdown",
-        "version": "1.3.0.dev21",
-        "summary": "A Swarmauri tool designed to export Jupyter Notebooks to Markdown.",
-        "pub_date": 1769554953
-      },
-      {
-        "name": "swarmauri_tool_jupyterexportpython",
-        "version": "0.9.0.dev22",
-        "summary": "A tool that exports a Jupyter Notebook to a Python script using nbconvert’s PythonExporter, facilitating code extraction.",
-        "pub_date": 1769554946
-      },
-      {
-        "name": "swarmauri_tool_jupyterfromdict",
-        "version": "0.9.0.dev6",
-        "summary": "A tool that converts a plain dictionary into a NotebookNode object using nbformat, facilitating programmatic notebook creation.",
-        "pub_date": 1769554944
-      },
-      {
-        "name": "swarmauri_tool_jupytergetshellmessage",
-        "version": "0.9.0.dev22",
-        "summary": "A tool designed to retrieve shell messages from a running Jupyter kernel using jupyter_client, useful for debugging execution responses.",
-        "pub_date": 1769554940
-      },
-      {
-        "name": "swarmauri_tool_jupyterreadnotebook",
-        "version": "0.8.0.dev21",
-        "summary": "A tool that reads a Jupyter Notebook file using nbformat, converting the JSON file into a NotebookNode object.",
-        "pub_date": 1769554931
-      },
-      {
-        "name": "swarmauri_tool_jupyterruncell",
-        "version": "0.9.0.dev21",
-        "summary": "A tool designed to execute a single code cell in an IPython interactive shell, mimicking notebook cell execution.",
-        "pub_date": 1769554926
-      },
-      {
-        "name": "swarmauri_tool_jupytershutdownkernel",
-        "version": "0.8.0.dev21",
-        "summary": "A tool designed to shut down a running Jupyter kernel programmatically using jupyter_client, releasing all associated resources.",
-        "pub_date": 1769554922
-      },
-      {
-        "name": "swarmauri_tool_jupytervalidatenotebook",
-        "version": "0.9.0.dev21",
-        "summary": "A tool that validates a NotebookNode object against the Jupyter Notebook schema using nbformat, ensuring structural correctness.",
-        "pub_date": 1769554918
-      },
-      {
-        "name": "swarmauri_tool_jupyterstartkernel",
-        "version": "0.9.0.dev21",
-        "summary": "A tool designed to start a new Jupyter kernel programmatically using jupyter_client, enabling execution of notebook cells.",
-        "pub_date": 1769554917
-      },
-      {
-        "name": "swarmauri_tool_jupyterwritenotebook",
-        "version": "0.8.0.dev22",
-        "summary": "A tool that writes a NotebookNode object to a file in JSON format, preserving the notebook structure.",
-        "pub_date": 1769554908
-      },
-      {
-        "name": "swarmauri_vectorstore_annoy",
-        "version": "0.9.0.dev21",
-        "summary": "Swarmauri Annoy Vector Store",
-        "pub_date": 1769554902
-      },
-      {
-        "name": "swarmauri_embedding_mlm",
-        "version": "0.8.0.dev21",
-        "summary": "example community package",
-        "pub_date": 1769554899
-      },
-      {
-        "name": "swarmauri_llm_leptonai",
-        "version": "0.9.0.dev21",
-        "summary": "Swarmauri Lepton AI Model",
-        "pub_date": 1769554896
-      },
-      {
-        "name": "swarmauri_tool_entityrecognition",
-        "version": "0.8.0.dev5",
-        "summary": "Swarmauri Community Entity Recognition Tool",
-        "pub_date": 1769554895
-      },
-      {
-        "name": "guardrails-cli",
-        "version": "0.1.12",
-        "summary": "Guardrails CLI for scanning repositories",
-        "pub_date": 1769554893
-      },
-      {
-        "name": "aa-campaign",
-        "version": "0.1.17",
-        "summary": "Z-Kill Campaigns for Alliance Auth",
-        "pub_date": 1769554888
-      },
-      {
-        "name": "swarmauri_tests_griffe",
-        "version": "0.1.1.dev17",
-        "summary": "Pytest plugin that turns Griffe inspection warnings into failing quality gates for Swarmauri packages.",
-        "pub_date": 1769554885
-      },
-      {
-        "name": "tigrbl-kms",
-        "version": "0.3.0.dev17",
-        "summary": "A Tigrbl key management service for Swarmauri.",
-        "pub_date": 1769554884
-      },
-      {
-        "name": "swarmauri_ocr_pytesseract",
-        "version": "0.9.0.dev21",
-        "summary": "Swarmauri Tesseract Image to Text Model",
-        "pub_date": 1769554880
-      },
-      {
-        "name": "swarmauri_matrix_hamming74",
-        "version": "0.9.0.dev22",
-        "summary": "Swarmauri Hamming (7,4) matrix community package.",
-        "pub_date": 1769554876
-      },
-      {
-        "name": "swarmauri_measurement_mutualinformation",
-        "version": "0.9.0.dev21",
-        "summary": "Swarmauri Mutual Information Measurement Community Package.",
-        "pub_date": 1769554867
-      },
-      {
-        "name": "swarmauri_metric_hamming",
-        "version": "0.9.0.dev9",
-        "summary": "Swarmauri Hamming distance metric community package.",
-        "pub_date": 1769554866
-      },
-      {
-        "name": "swarmauri_measurement_tokencountestimator",
-        "version": "0.9.0.dev21",
-        "summary": "This repository includes an example of a First Class Swarmauri Example.",
-        "pub_date": 1769554863
-      },
-      {
-        "name": "swarmauri_parser_pypdftk",
-        "version": "0.8.0.dev21",
-        "summary": "A parser for extracting text from PDFs using PyPDFTK.",
-        "pub_date": 1769554859
-      },
-      {
-        "name": "swarmauri_parser_pypdf2",
-        "version": "0.8.0.dev21",
-        "summary": "PyPDF2 Parser for Swarmauri.",
-        "pub_date": 1769554852
-      },
-      {
-        "name": "swarmauri_parser_bertembedding",
-        "version": "0.8.0.dev21",
-        "summary": "Swarmauri Bert Embedding Parser",
-        "pub_date": 1769554845
-      },
-      {
-        "name": "swarmauri_parser_entityrecognition",
-        "version": "0.8.0.dev21",
-        "summary": "Entity Recognition Parser for Swarmauri.",
-        "pub_date": 1769554841
-      },
-      {
-        "name": "swarmauri_parser_fitzpdf",
-        "version": "0.8.0.dev22",
-        "summary": "Fitz PDF Parser for Swarmauri.",
-        "pub_date": 1769554841
-      },
-      {
-        "name": "tigrbl-client",
-        "version": "0.2.0.dev23",
-        "summary": "A client for Tigrbl servers by Swarmauri.",
-        "pub_date": 1769554836
       }
     ],
-    "bad_vcs_count": 1176,
+    "bad_vcs_count": 1183,
     "bad_vcs": [
+      {
+        "name": "leanvec-edge",
+        "version": "1.1.3",
+        "summary": "Testing",
+        "pub_date": 1769555901
+      },
+      {
+        "name": "sop4py",
+        "version": "2.3.3",
+        "summary": "Scalable Objects Persistence (SOP) V2 for Python. General Public Availability (GPA) Release",
+        "pub_date": 1769555775
+      },
+      {
+        "name": "tb-pymedia",
+        "version": "0.0.1",
+        "summary": "Defensive package registration.",
+        "pub_date": 1769555486
+      },
+      {
+        "name": "taobao-scythe",
+        "version": "0.0.1",
+        "summary": "Defensive package registration.",
+        "pub_date": 1769555408
+      },
+      {
+        "name": "taobao-pgm",
+        "version": "0.0.1",
+        "summary": "Defensive package registration.",
+        "pub_date": 1769555330
+      },
+      {
+        "name": "taobao-malfurion-test",
+        "version": "0.0.1",
+        "summary": "Defensive package registration.",
+        "pub_date": 1769555252
+      },
+      {
+        "name": "taobao-malfurion",
+        "version": "0.0.1",
+        "summary": "Defensive package registration.",
+        "pub_date": 1769555173
+      },
+      {
+        "name": "taobao-ios-patch-linter",
+        "version": "0.0.1",
+        "summary": "Defensive package registration.",
+        "pub_date": 1769555094
+      },
       {
         "name": "tair-tvs",
         "version": "0.0.1",
@@ -1847,62 +1895,242 @@
         "pub_date": 1769549852
       },
       {
-        "name": "sop4py",
-        "version": "2.3.2",
-        "summary": "Scalable Objects Persistence (SOP) V2 for Python. General Public Availability (GPA) Release",
-        "pub_date": 1769549544
-      },
-      {
         "name": "signalpilot-ai-internal",
         "version": "0.12.6",
         "summary": "SignalPilot Agent - Your Jupyter Notebook Assistant",
         "pub_date": 1769549518
-      },
-      {
-        "name": "slb-release-applb-node-custom-changesafe",
-        "version": "0.0.1",
-        "summary": "Defensive package registration.",
-        "pub_date": 1769549517
-      },
-      {
-        "name": "slb-release",
-        "version": "0.0.1",
-        "summary": "Defensive package registration.",
-        "pub_date": 1769549439
-      },
-      {
-        "name": "barsukov",
-        "version": "1.4.1",
-        "summary": "Experiment Automation Package",
-        "pub_date": 1769549368
-      },
-      {
-        "name": "slb-proxy-burying-client",
-        "version": "0.0.1",
-        "summary": "Defensive package registration.",
-        "pub_date": 1769549359
-      },
-      {
-        "name": "dischub",
-        "version": "2.1.4",
-        "summary": "A Python SDK to initiate online payment to the Dischub API",
-        "pub_date": 1769549054
-      },
-      {
-        "name": "slb-maintenance-tools",
-        "version": "0.0.1",
-        "summary": "Defensive package registration.",
-        "pub_date": 1769549023
-      },
-      {
-        "name": "slb-lvstop",
-        "version": "0.0.1",
-        "summary": "Defensive package registration.",
-        "pub_date": 1769548945
       }
     ],
-    "github_count": 8687,
+    "github_count": 8705,
     "github_projects": [
+      {
+        "name": "jamlib",
+        "version": "3.0.0b5",
+        "summary": "Simple and universal library for authorization.",
+        "pub_date": 1769555987
+      },
+      {
+        "name": "hadoku-fidelity",
+        "version": "1.1.2",
+        "summary": "Fidelity trading automation with FastAPI service for hadoku",
+        "pub_date": 1769555917
+      },
+      {
+        "name": "DataCleaningPipeline",
+        "version": "2.1.1",
+        "summary": "Production-grade data cleaning and validation pipeline",
+        "pub_date": 1769555896
+      },
+      {
+        "name": "locusts",
+        "version": "0.0.93",
+        "summary": "Distributes many short tasks on multicore and hpc systems",
+        "pub_date": 1769555861
+      },
+      {
+        "name": "dj-cli-tools",
+        "version": "0.1",
+        "summary": "A Django app to conduct web-based polls.",
+        "pub_date": 1769555836
+      },
+      {
+        "name": "comed-prices",
+        "version": "0.0.17",
+        "summary": "ComEd® hourly and 5 minute prices",
+        "pub_date": 1769555835
+      },
+      {
+        "name": "foundry-mcp",
+        "version": "0.9.0b10",
+        "summary": "MCP server for spec-driven development management",
+        "pub_date": 1769555832
+      },
+      {
+        "name": "grib2sail",
+        "version": "0.1.0",
+        "summary": "Grib files downloader for sailing purposes",
+        "pub_date": 1769555818
+      },
+      {
+        "name": "vivarium-build-utils",
+        "version": "2.2.1",
+        "summary": "Shared build utilities and Jenkins pipeline library for Simulation Science projects.",
+        "pub_date": 1769555803
+      },
+      {
+        "name": "cfbs",
+        "version": "5.5.2",
+        "summary": "Tooling to build, manage and deploy CFEngine policy",
+        "pub_date": 1769555795
+      },
+      {
+        "name": "cloudcat",
+        "version": "0.3.7",
+        "summary": "Preview and analyze data files in Google Cloud Storage, AWS S3, and Azure Data Lake Storage Gen2 from your terminal",
+        "pub_date": 1769555779
+      },
+      {
+        "name": "rag-foundry",
+        "version": "0.0.1",
+        "summary": "Opinionated, production-minded core library for RAG systems",
+        "pub_date": 1769555741
+      },
+      {
+        "name": "whisper-s2t-reborn",
+        "version": "1.4.1",
+        "summary": "A streamlined Speech-to-Text pipeline for Whisper using CTranslate2",
+        "pub_date": 1769555698
+      },
+      {
+        "name": "zigpy",
+        "version": "0.91.0",
+        "summary": "Library implementing a Zigbee stack",
+        "pub_date": 1769555697
+      },
+      {
+        "name": "models-dev",
+        "version": "1.0.41",
+        "summary": "Typed Python interface to models.dev API data",
+        "pub_date": 1769555678
+      },
+      {
+        "name": "vision-agents-plugins-qwen",
+        "version": "0.3.2",
+        "summary": "Qwen Omni plugin for vision agents",
+        "pub_date": 1769555654
+      },
+      {
+        "name": "eaglebirth",
+        "version": "1.1.1",
+        "summary": "Official Python SDK for EagleBirth API",
+        "pub_date": 1769555605
+      },
+      {
+        "name": "numba-types",
+        "version": "0.0.0",
+        "summary": "numba-types",
+        "pub_date": 1769555544
+      },
+      {
+        "name": "opuspocus",
+        "version": "0.1.0",
+        "summary": "Modular NLP pipeline manager.",
+        "pub_date": 1769555543
+      },
+      {
+        "name": "messagebus",
+        "version": "0.16.1",
+        "summary": "Lightweight message bus library designed for event-driven architectures.",
+        "pub_date": 1769555531
+      },
+      {
+        "name": "dbn-cache",
+        "version": "1.2.2",
+        "summary": "Download and cache historical market data from Databento",
+        "pub_date": 1769555527
+      },
+      {
+        "name": "hogql-parser",
+        "version": "1.3.7",
+        "summary": "HogQL parser for internal PostHog use",
+        "pub_date": 1769555527
+      },
+      {
+        "name": "kpf",
+        "version": "0.8.1",
+        "summary": "A terminal utility with a better UX for kubectl port-forward",
+        "pub_date": 1769555477
+      },
+      {
+        "name": "rslearn",
+        "version": "0.0.25",
+        "summary": "A library for developing remote sensing datasets and models",
+        "pub_date": 1769555465
+      },
+      {
+        "name": "qwerky-vllm-models",
+        "version": "0.2.0",
+        "summary": "vLLM plugin for Qwerky AI MambaInLlama hybrid models",
+        "pub_date": 1769555450
+      },
+      {
+        "name": "ai-todo",
+        "version": "4.0.0b1",
+        "summary": "AI-Agent First TODO List Tracker with MCP and CLI interfaces",
+        "pub_date": 1769555387
+      },
+      {
+        "name": "hedit",
+        "version": "0.6.8a2",
+        "summary": "Multi-agent system for HED annotation generation and validation",
+        "pub_date": 1769555379
+      },
+      {
+        "name": "quantconnect-stubs",
+        "version": "17496",
+        "summary": "Type stubs for QuantConnect's Lean",
+        "pub_date": 1769555364
+      },
+      {
+        "name": "fdray",
+        "version": "0.1.17",
+        "summary": "A Python interface for POV-Ray (Persistence of Vision Raytracer)",
+        "pub_date": 1769555291
+      },
+      {
+        "name": "flwr-nightly",
+        "version": "1.26.0.dev20260127",
+        "summary": "Flower: A Friendly Federated AI Framework",
+        "pub_date": 1769555272
+      },
+      {
+        "name": "openrewrite",
+        "version": "8.72.3",
+        "summary": "OpenRewrite automated refactoring for Python.",
+        "pub_date": 1769555229
+      },
+      {
+        "name": "bochord",
+        "version": "1.2.4",
+        "summary": "Backup iCloud Books to usable ePubs",
+        "pub_date": 1769555207
+      },
+      {
+        "name": "nvidia-cudnn-frontend",
+        "version": "1.18.0",
+        "summary": "CUDNN FrontEnd python library",
+        "pub_date": 1769555194
+      },
+      {
+        "name": "smoosense",
+        "version": "0.1.38",
+        "summary": "Smoothly make sense of your large multi-modal datasets",
+        "pub_date": 1769555182
+      },
+      {
+        "name": "redback",
+        "version": "1.13.0",
+        "summary": "A Bayesian inference and modelling pipeline for electromagnetic transients",
+        "pub_date": 1769555153
+      },
+      {
+        "name": "pulumi-duplocloud",
+        "version": "0.11.33",
+        "summary": "A Pulumi provider for creating and managing DuploCloud infrastructure.",
+        "pub_date": 1769555151
+      },
+      {
+        "name": "brawny",
+        "version": "0.1.38",
+        "summary": "Block-driven Ethereum job/transaction execution framework",
+        "pub_date": 1769555151
+      },
+      {
+        "name": "fairyfly-therm",
+        "version": "0.9.1",
+        "summary": "Fairyfly extension for translating HBJSON files to INP files for eQuest",
+        "pub_date": 1769555079
+      },
       {
         "name": "odoo14-addon-l10n-br-nfse-focus",
         "version": "14.0.2.0.1",
@@ -1974,234 +2202,6 @@
         "version": "0.1.16",
         "summary": "trt version of retina face and facenet",
         "pub_date": 1769554714
-      },
-      {
-        "name": "swm-example-plugin",
-        "version": "0.6.2.dev19",
-        "summary": "This repository includes an example of a Swarmauri Plugin.",
-        "pub_date": 1769554256
-      },
-      {
-        "name": "EmbeddedSigner",
-        "version": "0.1.1.dev10",
-        "summary": "Embed XMP metadata and sign media assets using Swarmauri plugins.",
-        "pub_date": 1769554255
-      },
-      {
-        "name": "litellm",
-        "version": "1.81.4",
-        "summary": "Library to easily interface with LLM API providers",
-        "pub_date": 1769554254
-      },
-      {
-        "name": "lunartools-sdk",
-        "version": "1.0.5",
-        "summary": "Official SDK for Lunar Tools API",
-        "pub_date": 1769554237
-      },
-      {
-        "name": "bleak-esphome",
-        "version": "3.6.0",
-        "summary": "Bleak backend of ESPHome",
-        "pub_date": 1769554211
-      },
-      {
-        "name": "ferp",
-        "version": "0.6.7",
-        "summary": "Terminal-first file navigator and FSCP automation workbench built with Textual.",
-        "pub_date": 1769554196
-      },
-      {
-        "name": "torchrl",
-        "version": "0.11.0",
-        "summary": "A modular, primitive-first, python-first PyTorch library for Reinforcement Learning",
-        "pub_date": 1769554177
-      },
-      {
-        "name": "metacontroller-pytorch",
-        "version": "0.0.34",
-        "summary": "Transformer Metacontroller",
-        "pub_date": 1769554168
-      },
-      {
-        "name": "aurora-dsql-sqlalchemy",
-        "version": "1.1.1",
-        "summary": "Amazon Aurora DSQL dialect for SQLAlchemy",
-        "pub_date": 1769554148
-      },
-      {
-        "name": "dreamer4",
-        "version": "0.2.5",
-        "summary": "Dreamer 4",
-        "pub_date": 1769554091
-      },
-      {
-        "name": "openrewrite",
-        "version": "8.73.0.dev20260127224606",
-        "summary": "OpenRewrite automated refactoring for Python.",
-        "pub_date": 1769554044
-      },
-      {
-        "name": "prophet",
-        "version": "1.3.0",
-        "summary": "Automatic Forecasting Procedure",
-        "pub_date": 1769554013
-      },
-      {
-        "name": "ooi-metadata",
-        "version": "0.0.2",
-        "summary": "A Python package for accessing OOI metadata from the OOI API.",
-        "pub_date": 1769553999
-      },
-      {
-        "name": "odoo-addon-l10n-es-ticketbai-pos",
-        "version": "16.0.1.1.2",
-        "summary": "TicketBAI - Point of Sale - declaración de todas las operaciones de venta realizadas por las personas y entidades que desarrollan actividades económicas",
-        "pub_date": 1769553961
-      },
-      {
-        "name": "homesec",
-        "version": "1.2.2",
-        "summary": "Pluggable async home security camera pipeline with detection, VLM analysis, and alerts.",
-        "pub_date": 1769553950
-      },
-      {
-        "name": "xingu",
-        "version": "2.0",
-        "summary": "Full machine learning training pipeline, from query to pickle",
-        "pub_date": 1769553840
-      },
-      {
-        "name": "turingdb",
-        "version": "1.17.1.dev2",
-        "summary": null,
-        "pub_date": 1769553812
-      },
-      {
-        "name": "carl-control-panel",
-        "version": "1.0.46",
-        "summary": "Context Augmentation & Reinforcement Layer - Desktop control panel for Claude Code",
-        "pub_date": 1769553790
-      },
-      {
-        "name": "lumibot",
-        "version": "4.4.40",
-        "summary": "Backtesting and Trading Library, Made by Lumiwealth",
-        "pub_date": 1769553784
-      },
-      {
-        "name": "hep-flare",
-        "version": "0.2.2",
-        "summary": "Framework for streamlining the FCC framework powered by b2luigi",
-        "pub_date": 1769553778
-      },
-      {
-        "name": "psi-io",
-        "version": "1.1.0",
-        "summary": "Readers and writers for HDF data used by Predictive Science Inc.",
-        "pub_date": 1769553740
-      },
-      {
-        "name": "pixelflux",
-        "version": "1.5.7",
-        "summary": "A performant web native pixel delivery pipeline for diverse sources, blending VNC-inspired parallel processing of pixel buffers with flexible modern encoding formats.",
-        "pub_date": 1769553656
-      },
-      {
-        "name": "mlx-cpu",
-        "version": "0.30.4",
-        "summary": "A framework for machine learning on Apple silicon.",
-        "pub_date": 1769553639
-      },
-      {
-        "name": "aline-ai",
-        "version": "0.5.8",
-        "summary": "Shared AI memory; everyone knows everything in teams",
-        "pub_date": 1769553635
-      },
-      {
-        "name": "coreason-arbitrage",
-        "version": "0.2.0",
-        "summary": "coreason-arbitrage",
-        "pub_date": 1769553571
-      },
-      {
-        "name": "folderbot",
-        "version": "0.1.12",
-        "summary": "Telegram bot for chatting with your folder using Claude AI",
-        "pub_date": 1769553554
-      },
-      {
-        "name": "jaxmg",
-        "version": "0.0.5",
-        "summary": "JAXMg provides a C++ interface between JAX and cuSolverMg, NVIDIA's multi-GPU linear solver. ",
-        "pub_date": 1769553543
-      },
-      {
-        "name": "e2b",
-        "version": "2.12.1",
-        "summary": "E2B SDK that give agents cloud environments",
-        "pub_date": 1769553497
-      },
-      {
-        "name": "sagemaker-hyperpod",
-        "version": "3.6.0",
-        "summary": "Amazon SageMaker HyperPod SDK and CLI",
-        "pub_date": 1769553466
-      },
-      {
-        "name": "wasm-action",
-        "version": "0.0.8",
-        "summary": "Interact with WebAssembly registries.",
-        "pub_date": 1769553447
-      },
-      {
-        "name": "grekt-keywords",
-        "version": "0.1.0",
-        "summary": "Keyword extraction for grekt artifacts using KeyBERT",
-        "pub_date": 1769553425
-      },
-      {
-        "name": "cybrid-api-bank-python",
-        "version": "0.126.78",
-        "summary": "Cybrid Bank API",
-        "pub_date": 1769553340
-      },
-      {
-        "name": "iceprod",
-        "version": "3.2.11",
-        "summary": "IceCube dataset management system",
-        "pub_date": 1769553337
-      },
-      {
-        "name": "onellm",
-        "version": "0.20260127.0",
-        "summary": "A unified interface for interacting with large language models from various providers - a complete drop-in replacement for OpenAI's client",
-        "pub_date": 1769553332
-      },
-      {
-        "name": "agent-framework-lib",
-        "version": "0.5.8.post19",
-        "summary": "A comprehensive Python framework for building and serving conversational AI agents with FastAPI",
-        "pub_date": 1769553309
-      },
-      {
-        "name": "cybrid-api-organization-python",
-        "version": "0.126.78",
-        "summary": "Cybrid Organization API",
-        "pub_date": 1769553298
-      },
-      {
-        "name": "pcp-mcp",
-        "version": "1.3.1",
-        "summary": "MCP server for Performance Co-Pilot",
-        "pub_date": 1769553284
-      },
-      {
-        "name": "mgraph-ai-service-html-graph",
-        "version": "1.7.0",
-        "summary": "MGraph-AI__Service__Html__Graph",
-        "pub_date": 1769553276
       }
     ],
     "gitlab_count": 144,
@@ -2507,8 +2507,80 @@
         "pub_date": 1769450115
       }
     ],
-    "no_github_actions_count": 3230,
+    "no_github_actions_count": 3236,
     "no_github_actions": [
+      {
+        "name": "DataCleaningPipeline",
+        "version": "2.1.1",
+        "summary": "Production-grade data cleaning and validation pipeline",
+        "pub_date": 1769555896
+      },
+      {
+        "name": "dj-cli-tools",
+        "version": "0.1",
+        "summary": "A Django app to conduct web-based polls.",
+        "pub_date": 1769555836
+      },
+      {
+        "name": "eaglebirth",
+        "version": "1.1.1",
+        "summary": "Official Python SDK for EagleBirth API",
+        "pub_date": 1769555605
+      },
+      {
+        "name": "numba-types",
+        "version": "0.0.0",
+        "summary": "numba-types",
+        "pub_date": 1769555544
+      },
+      {
+        "name": "opuspocus",
+        "version": "0.1.0",
+        "summary": "Modular NLP pipeline manager.",
+        "pub_date": 1769555543
+      },
+      {
+        "name": "messagebus",
+        "version": "0.16.1",
+        "summary": "Lightweight message bus library designed for event-driven architectures.",
+        "pub_date": 1769555531
+      },
+      {
+        "name": "qwerky-vllm-models",
+        "version": "0.2.0",
+        "summary": "vLLM plugin for Qwerky AI MambaInLlama hybrid models",
+        "pub_date": 1769555450
+      },
+      {
+        "name": "ai-todo",
+        "version": "4.0.0b1",
+        "summary": "AI-Agent First TODO List Tracker with MCP and CLI interfaces",
+        "pub_date": 1769555387
+      },
+      {
+        "name": "openrewrite",
+        "version": "8.72.3",
+        "summary": "OpenRewrite automated refactoring for Python.",
+        "pub_date": 1769555229
+      },
+      {
+        "name": "bochord",
+        "version": "1.2.4",
+        "summary": "Backup iCloud Books to usable ePubs",
+        "pub_date": 1769555207
+      },
+      {
+        "name": "nvidia-cudnn-frontend",
+        "version": "1.18.0",
+        "summary": "CUDNN FrontEnd python library",
+        "pub_date": 1769555194
+      },
+      {
+        "name": "brawny",
+        "version": "0.1.38",
+        "summary": "Block-driven Ethereum job/transaction execution framework",
+        "pub_date": 1769555151
+      },
       {
         "name": "moducomp",
         "version": "0.7.0",
@@ -2538,12 +2610,6 @@
         "version": "1.0.5",
         "summary": "Official SDK for Lunar Tools API",
         "pub_date": 1769554237
-      },
-      {
-        "name": "openrewrite",
-        "version": "8.73.0.dev20260127224606",
-        "summary": "OpenRewrite automated refactoring for Python.",
-        "pub_date": 1769554044
       },
       {
         "name": "ooi-metadata",
@@ -2742,76 +2808,166 @@
         "version": "0.11.2",
         "summary": "Robust Angular Diameters in Python: an angular diameter fitting routine for multi-wavelength interferometric data",
         "pub_date": 1769551771
-      },
-      {
-        "name": "clarity-api-sdk-python",
-        "version": "0.3.23",
-        "summary": "A Python SDK to connect to the CTI Clarity API server.",
-        "pub_date": 1769551751
-      },
-      {
-        "name": "micro-users",
-        "version": "1.7.1",
-        "summary": "Arabic Django user management app with abstract user, permissions, and activity logging",
-        "pub_date": 1769551557
-      },
-      {
-        "name": "ado-core",
-        "version": "1.4.0",
-        "summary": "ado is a unified platform for executing computational experiments at scale and analysing their results. It can be easily extended with new experiments or new analysis tools. It allows distributed teams of researchers and engineers to collaborate on projects, execute experiments, and share data.",
-        "pub_date": 1769551394
-      },
-      {
-        "name": "agentic-dashboard-ai",
-        "version": "0.1.3",
-        "summary": "Autonomous BI dashboard agent for plug-and-play analytics and Power BI integration",
-        "pub_date": 1769551260
-      },
-      {
-        "name": "contextpilot",
-        "version": "0.2.0",
-        "summary": "Efficient Retrieval-Augmented Generation with Accuracy-Preserving Context Reuse",
-        "pub_date": 1769551108
-      },
-      {
-        "name": "kaggle-environments",
-        "version": "1.26.13",
-        "summary": "Kaggle Environments",
-        "pub_date": 1769551066
-      },
-      {
-        "name": "coreason-budget",
-        "version": "0.4.0",
-        "summary": "enforces budget",
-        "pub_date": 1769551026
-      },
-      {
-        "name": "coreason-economist",
-        "version": "0.4.0",
-        "summary": "is it worth thinking?",
-        "pub_date": 1769550979
-      },
-      {
-        "name": "django-flex",
-        "version": "26.1.11",
-        "summary": "A flexible query language for Django - enable frontends to dynamically construct database queries",
-        "pub_date": 1769550832
-      },
-      {
-        "name": "universal-ads-sdk",
-        "version": "1.2.0",
-        "summary": "Python SDK for the Universal Ads Third Party API",
-        "pub_date": 1769550800
-      },
-      {
-        "name": "lcyt",
-        "version": "1.1.1",
-        "summary": "Send live captions to YouTube streams",
-        "pub_date": 1769550758
       }
     ],
-    "has_github_actions_count": 5457,
+    "has_github_actions_count": 5469,
     "has_github_actions": [
+      {
+        "name": "jamlib",
+        "version": "3.0.0b5",
+        "summary": "Simple and universal library for authorization.",
+        "pub_date": 1769555987
+      },
+      {
+        "name": "hadoku-fidelity",
+        "version": "1.1.2",
+        "summary": "Fidelity trading automation with FastAPI service for hadoku",
+        "pub_date": 1769555917
+      },
+      {
+        "name": "locusts",
+        "version": "0.0.93",
+        "summary": "Distributes many short tasks on multicore and hpc systems",
+        "pub_date": 1769555861
+      },
+      {
+        "name": "comed-prices",
+        "version": "0.0.17",
+        "summary": "ComEd® hourly and 5 minute prices",
+        "pub_date": 1769555835
+      },
+      {
+        "name": "foundry-mcp",
+        "version": "0.9.0b10",
+        "summary": "MCP server for spec-driven development management",
+        "pub_date": 1769555832
+      },
+      {
+        "name": "grib2sail",
+        "version": "0.1.0",
+        "summary": "Grib files downloader for sailing purposes",
+        "pub_date": 1769555818
+      },
+      {
+        "name": "vivarium-build-utils",
+        "version": "2.2.1",
+        "summary": "Shared build utilities and Jenkins pipeline library for Simulation Science projects.",
+        "pub_date": 1769555803
+      },
+      {
+        "name": "cfbs",
+        "version": "5.5.2",
+        "summary": "Tooling to build, manage and deploy CFEngine policy",
+        "pub_date": 1769555795
+      },
+      {
+        "name": "cloudcat",
+        "version": "0.3.7",
+        "summary": "Preview and analyze data files in Google Cloud Storage, AWS S3, and Azure Data Lake Storage Gen2 from your terminal",
+        "pub_date": 1769555779
+      },
+      {
+        "name": "rag-foundry",
+        "version": "0.0.1",
+        "summary": "Opinionated, production-minded core library for RAG systems",
+        "pub_date": 1769555741
+      },
+      {
+        "name": "whisper-s2t-reborn",
+        "version": "1.4.1",
+        "summary": "A streamlined Speech-to-Text pipeline for Whisper using CTranslate2",
+        "pub_date": 1769555698
+      },
+      {
+        "name": "zigpy",
+        "version": "0.91.0",
+        "summary": "Library implementing a Zigbee stack",
+        "pub_date": 1769555697
+      },
+      {
+        "name": "models-dev",
+        "version": "1.0.41",
+        "summary": "Typed Python interface to models.dev API data",
+        "pub_date": 1769555678
+      },
+      {
+        "name": "vision-agents-plugins-qwen",
+        "version": "0.3.2",
+        "summary": "Qwen Omni plugin for vision agents",
+        "pub_date": 1769555654
+      },
+      {
+        "name": "dbn-cache",
+        "version": "1.2.2",
+        "summary": "Download and cache historical market data from Databento",
+        "pub_date": 1769555527
+      },
+      {
+        "name": "hogql-parser",
+        "version": "1.3.7",
+        "summary": "HogQL parser for internal PostHog use",
+        "pub_date": 1769555527
+      },
+      {
+        "name": "kpf",
+        "version": "0.8.1",
+        "summary": "A terminal utility with a better UX for kubectl port-forward",
+        "pub_date": 1769555477
+      },
+      {
+        "name": "rslearn",
+        "version": "0.0.25",
+        "summary": "A library for developing remote sensing datasets and models",
+        "pub_date": 1769555465
+      },
+      {
+        "name": "hedit",
+        "version": "0.6.8a2",
+        "summary": "Multi-agent system for HED annotation generation and validation",
+        "pub_date": 1769555379
+      },
+      {
+        "name": "quantconnect-stubs",
+        "version": "17496",
+        "summary": "Type stubs for QuantConnect's Lean",
+        "pub_date": 1769555364
+      },
+      {
+        "name": "fdray",
+        "version": "0.1.17",
+        "summary": "A Python interface for POV-Ray (Persistence of Vision Raytracer)",
+        "pub_date": 1769555291
+      },
+      {
+        "name": "flwr-nightly",
+        "version": "1.26.0.dev20260127",
+        "summary": "Flower: A Friendly Federated AI Framework",
+        "pub_date": 1769555272
+      },
+      {
+        "name": "smoosense",
+        "version": "0.1.38",
+        "summary": "Smoothly make sense of your large multi-modal datasets",
+        "pub_date": 1769555182
+      },
+      {
+        "name": "redback",
+        "version": "1.13.0",
+        "summary": "A Bayesian inference and modelling pipeline for electromagnetic transients",
+        "pub_date": 1769555153
+      },
+      {
+        "name": "pulumi-duplocloud",
+        "version": "0.11.33",
+        "summary": "A Pulumi provider for creating and managing DuploCloud infrastructure.",
+        "pub_date": 1769555151
+      },
+      {
+        "name": "fairyfly-therm",
+        "version": "0.9.1",
+        "summary": "Fairyfly extension for translating HBJSON files to INP files for eQuest",
+        "pub_date": 1769555079
+      },
       {
         "name": "odoo14-addon-l10n-br-nfse-focus",
         "version": "14.0.2.0.1",
@@ -2955,166 +3111,208 @@
         "version": "1.1.0",
         "summary": "Readers and writers for HDF data used by Predictive Science Inc.",
         "pub_date": 1769553740
-      },
-      {
-        "name": "mlx-cpu",
-        "version": "0.30.4",
-        "summary": "A framework for machine learning on Apple silicon.",
-        "pub_date": 1769553639
-      },
-      {
-        "name": "jaxmg",
-        "version": "0.0.5",
-        "summary": "JAXMg provides a C++ interface between JAX and cuSolverMg, NVIDIA's multi-GPU linear solver. ",
-        "pub_date": 1769553543
-      },
-      {
-        "name": "e2b",
-        "version": "2.12.1",
-        "summary": "E2B SDK that give agents cloud environments",
-        "pub_date": 1769553497
-      },
-      {
-        "name": "sagemaker-hyperpod",
-        "version": "3.6.0",
-        "summary": "Amazon SageMaker HyperPod SDK and CLI",
-        "pub_date": 1769553466
-      },
-      {
-        "name": "wasm-action",
-        "version": "0.0.8",
-        "summary": "Interact with WebAssembly registries.",
-        "pub_date": 1769553447
-      },
-      {
-        "name": "iceprod",
-        "version": "3.2.11",
-        "summary": "IceCube dataset management system",
-        "pub_date": 1769553337
-      },
-      {
-        "name": "onellm",
-        "version": "0.20260127.0",
-        "summary": "A unified interface for interacting with large language models from various providers - a complete drop-in replacement for OpenAI's client",
-        "pub_date": 1769553332
-      },
-      {
-        "name": "pcp-mcp",
-        "version": "1.3.1",
-        "summary": "MCP server for Performance Co-Pilot",
-        "pub_date": 1769553284
-      },
-      {
-        "name": "mgraph-ai-service-html-graph",
-        "version": "1.7.0",
-        "summary": "MGraph-AI__Service__Html__Graph",
-        "pub_date": 1769553276
-      },
-      {
-        "name": "ynab-cli",
-        "version": "0.7.2",
-        "summary": "YNAB Command Line Interface",
-        "pub_date": 1769553149
-      },
-      {
-        "name": "scikit-rca",
-        "version": "0.1.1",
-        "summary": "Reliability Component Analysis",
-        "pub_date": 1769553138
-      },
-      {
-        "name": "ddcDatabases",
-        "version": "3.0.7",
-        "summary": "Simplified database ORM connections with support for multiple database engines",
-        "pub_date": 1769553106
-      },
-      {
-        "name": "finlang",
-        "version": "0.7.1",
-        "summary": "FinLang: a deterministic, auditable DSL for financial rules",
-        "pub_date": 1769553097
-      },
-      {
-        "name": "qbraid",
-        "version": "0.11.0.dev20260127222807",
-        "summary": "Platform-agnostic quantum runtime framework.",
-        "pub_date": 1769552897
-      },
-      {
-        "name": "polymcp",
-        "version": "1.3.5",
-        "summary": "Universal MCP Agent & Toolkit for intelligent LLM tool orchestration",
-        "pub_date": 1769552565
-      },
-      {
-        "name": "sphinx-breeze-theme",
-        "version": "0.8.0",
-        "summary": "A modern, accessible, and responsive Sphinx documentation theme.",
-        "pub_date": 1769552498
-      },
-      {
-        "name": "npcsh",
-        "version": "1.1.18",
-        "summary": "npcsh is a command-line toolkit for using AI agents in novel ways.",
-        "pub_date": 1769552489
-      },
-      {
-        "name": "vegas",
-        "version": "6.4.1",
-        "summary": "Tools for adaptive multidimensional Monte Carlo integration.",
-        "pub_date": 1769552419
-      },
-      {
-        "name": "openPMD-api",
-        "version": "0.17.0",
-        "summary": "C++ & Python API for Scientific I/O with openPMD",
-        "pub_date": 1769552326
-      },
-      {
-        "name": "pylego",
-        "version": "0.1.34",
-        "summary": "A python wrapper package for the lego application written in Golang",
-        "pub_date": 1769552294
-      },
-      {
-        "name": "fastrand",
-        "version": "3.0.8",
-        "summary": "Fast random number generation in Python",
-        "pub_date": 1769552248
-      },
-      {
-        "name": "odoo-addon-l10n-es-aeat-mod592",
-        "version": "17.0.1.0.4",
-        "summary": "AEAT modelo 592",
-        "pub_date": 1769552216
-      },
-      {
-        "name": "opentelemetry-instrumentation-google-genai",
-        "version": "0.6b0",
-        "summary": "OpenTelemetry",
-        "pub_date": 1769552112
-      },
-      {
-        "name": "sglang-cpu",
-        "version": "0.5.7",
-        "summary": "SGLang is a fast serving framework for large language models and vision language models.",
-        "pub_date": 1769552091
-      },
-      {
-        "name": "torch-einops-utils",
-        "version": "0.0.20",
-        "summary": "Personal utility functions",
-        "pub_date": 1769552085
-      },
-      {
-        "name": "sgl-kernel-cpu",
-        "version": "0.3.20",
-        "summary": "Kernel Library for SGLang",
-        "pub_date": 1769552050
       }
     ],
-    "no_dependabot_count": 7556,
+    "no_dependabot_count": 7570,
     "no_dependabot": [
+      {
+        "name": "jamlib",
+        "version": "3.0.0b5",
+        "summary": "Simple and universal library for authorization.",
+        "pub_date": 1769555987
+      },
+      {
+        "name": "hadoku-fidelity",
+        "version": "1.1.2",
+        "summary": "Fidelity trading automation with FastAPI service for hadoku",
+        "pub_date": 1769555917
+      },
+      {
+        "name": "DataCleaningPipeline",
+        "version": "2.1.1",
+        "summary": "Production-grade data cleaning and validation pipeline",
+        "pub_date": 1769555896
+      },
+      {
+        "name": "locusts",
+        "version": "0.0.93",
+        "summary": "Distributes many short tasks on multicore and hpc systems",
+        "pub_date": 1769555861
+      },
+      {
+        "name": "dj-cli-tools",
+        "version": "0.1",
+        "summary": "A Django app to conduct web-based polls.",
+        "pub_date": 1769555836
+      },
+      {
+        "name": "comed-prices",
+        "version": "0.0.17",
+        "summary": "ComEd® hourly and 5 minute prices",
+        "pub_date": 1769555835
+      },
+      {
+        "name": "foundry-mcp",
+        "version": "0.9.0b10",
+        "summary": "MCP server for spec-driven development management",
+        "pub_date": 1769555832
+      },
+      {
+        "name": "grib2sail",
+        "version": "0.1.0",
+        "summary": "Grib files downloader for sailing purposes",
+        "pub_date": 1769555818
+      },
+      {
+        "name": "vivarium-build-utils",
+        "version": "2.2.1",
+        "summary": "Shared build utilities and Jenkins pipeline library for Simulation Science projects.",
+        "pub_date": 1769555803
+      },
+      {
+        "name": "cfbs",
+        "version": "5.5.2",
+        "summary": "Tooling to build, manage and deploy CFEngine policy",
+        "pub_date": 1769555795
+      },
+      {
+        "name": "cloudcat",
+        "version": "0.3.7",
+        "summary": "Preview and analyze data files in Google Cloud Storage, AWS S3, and Azure Data Lake Storage Gen2 from your terminal",
+        "pub_date": 1769555779
+      },
+      {
+        "name": "rag-foundry",
+        "version": "0.0.1",
+        "summary": "Opinionated, production-minded core library for RAG systems",
+        "pub_date": 1769555741
+      },
+      {
+        "name": "whisper-s2t-reborn",
+        "version": "1.4.1",
+        "summary": "A streamlined Speech-to-Text pipeline for Whisper using CTranslate2",
+        "pub_date": 1769555698
+      },
+      {
+        "name": "zigpy",
+        "version": "0.91.0",
+        "summary": "Library implementing a Zigbee stack",
+        "pub_date": 1769555697
+      },
+      {
+        "name": "models-dev",
+        "version": "1.0.41",
+        "summary": "Typed Python interface to models.dev API data",
+        "pub_date": 1769555678
+      },
+      {
+        "name": "vision-agents-plugins-qwen",
+        "version": "0.3.2",
+        "summary": "Qwen Omni plugin for vision agents",
+        "pub_date": 1769555654
+      },
+      {
+        "name": "eaglebirth",
+        "version": "1.1.1",
+        "summary": "Official Python SDK for EagleBirth API",
+        "pub_date": 1769555605
+      },
+      {
+        "name": "numba-types",
+        "version": "0.0.0",
+        "summary": "numba-types",
+        "pub_date": 1769555544
+      },
+      {
+        "name": "opuspocus",
+        "version": "0.1.0",
+        "summary": "Modular NLP pipeline manager.",
+        "pub_date": 1769555543
+      },
+      {
+        "name": "messagebus",
+        "version": "0.16.1",
+        "summary": "Lightweight message bus library designed for event-driven architectures.",
+        "pub_date": 1769555531
+      },
+      {
+        "name": "dbn-cache",
+        "version": "1.2.2",
+        "summary": "Download and cache historical market data from Databento",
+        "pub_date": 1769555527
+      },
+      {
+        "name": "rslearn",
+        "version": "0.0.25",
+        "summary": "A library for developing remote sensing datasets and models",
+        "pub_date": 1769555465
+      },
+      {
+        "name": "qwerky-vllm-models",
+        "version": "0.2.0",
+        "summary": "vLLM plugin for Qwerky AI MambaInLlama hybrid models",
+        "pub_date": 1769555450
+      },
+      {
+        "name": "ai-todo",
+        "version": "4.0.0b1",
+        "summary": "AI-Agent First TODO List Tracker with MCP and CLI interfaces",
+        "pub_date": 1769555387
+      },
+      {
+        "name": "quantconnect-stubs",
+        "version": "17496",
+        "summary": "Type stubs for QuantConnect's Lean",
+        "pub_date": 1769555364
+      },
+      {
+        "name": "openrewrite",
+        "version": "8.72.3",
+        "summary": "OpenRewrite automated refactoring for Python.",
+        "pub_date": 1769555229
+      },
+      {
+        "name": "bochord",
+        "version": "1.2.4",
+        "summary": "Backup iCloud Books to usable ePubs",
+        "pub_date": 1769555207
+      },
+      {
+        "name": "nvidia-cudnn-frontend",
+        "version": "1.18.0",
+        "summary": "CUDNN FrontEnd python library",
+        "pub_date": 1769555194
+      },
+      {
+        "name": "smoosense",
+        "version": "0.1.38",
+        "summary": "Smoothly make sense of your large multi-modal datasets",
+        "pub_date": 1769555182
+      },
+      {
+        "name": "redback",
+        "version": "1.13.0",
+        "summary": "A Bayesian inference and modelling pipeline for electromagnetic transients",
+        "pub_date": 1769555153
+      },
+      {
+        "name": "pulumi-duplocloud",
+        "version": "0.11.33",
+        "summary": "A Pulumi provider for creating and managing DuploCloud infrastructure.",
+        "pub_date": 1769555151
+      },
+      {
+        "name": "brawny",
+        "version": "0.1.38",
+        "summary": "Block-driven Ethereum job/transaction execution framework",
+        "pub_date": 1769555151
+      },
+      {
+        "name": "fairyfly-therm",
+        "version": "0.9.1",
+        "summary": "Fairyfly extension for translating HBJSON files to INP files for eQuest",
+        "pub_date": 1769555079
+      },
       {
         "name": "odoo14-addon-l10n-br-nfse-focus",
         "version": "14.0.2.0.1",
@@ -3216,208 +3414,40 @@
         "version": "0.6.7",
         "summary": "Terminal-first file navigator and FSCP automation workbench built with Textual.",
         "pub_date": 1769554196
-      },
-      {
-        "name": "torchrl",
-        "version": "0.11.0",
-        "summary": "A modular, primitive-first, python-first PyTorch library for Reinforcement Learning",
-        "pub_date": 1769554177
-      },
-      {
-        "name": "metacontroller-pytorch",
-        "version": "0.0.34",
-        "summary": "Transformer Metacontroller",
-        "pub_date": 1769554168
-      },
-      {
-        "name": "aurora-dsql-sqlalchemy",
-        "version": "1.1.1",
-        "summary": "Amazon Aurora DSQL dialect for SQLAlchemy",
-        "pub_date": 1769554148
-      },
-      {
-        "name": "dreamer4",
-        "version": "0.2.5",
-        "summary": "Dreamer 4",
-        "pub_date": 1769554091
-      },
-      {
-        "name": "openrewrite",
-        "version": "8.73.0.dev20260127224606",
-        "summary": "OpenRewrite automated refactoring for Python.",
-        "pub_date": 1769554044
-      },
-      {
-        "name": "prophet",
-        "version": "1.3.0",
-        "summary": "Automatic Forecasting Procedure",
-        "pub_date": 1769554013
-      },
-      {
-        "name": "ooi-metadata",
-        "version": "0.0.2",
-        "summary": "A Python package for accessing OOI metadata from the OOI API.",
-        "pub_date": 1769553999
-      },
-      {
-        "name": "odoo-addon-l10n-es-ticketbai-pos",
-        "version": "16.0.1.1.2",
-        "summary": "TicketBAI - Point of Sale - declaración de todas las operaciones de venta realizadas por las personas y entidades que desarrollan actividades económicas",
-        "pub_date": 1769553961
-      },
-      {
-        "name": "homesec",
-        "version": "1.2.2",
-        "summary": "Pluggable async home security camera pipeline with detection, VLM analysis, and alerts.",
-        "pub_date": 1769553950
-      },
-      {
-        "name": "xingu",
-        "version": "2.0",
-        "summary": "Full machine learning training pipeline, from query to pickle",
-        "pub_date": 1769553840
-      },
-      {
-        "name": "turingdb",
-        "version": "1.17.1.dev2",
-        "summary": null,
-        "pub_date": 1769553812
-      },
-      {
-        "name": "carl-control-panel",
-        "version": "1.0.46",
-        "summary": "Context Augmentation & Reinforcement Layer - Desktop control panel for Claude Code",
-        "pub_date": 1769553790
-      },
-      {
-        "name": "lumibot",
-        "version": "4.4.40",
-        "summary": "Backtesting and Trading Library, Made by Lumiwealth",
-        "pub_date": 1769553784
-      },
-      {
-        "name": "hep-flare",
-        "version": "0.2.2",
-        "summary": "Framework for streamlining the FCC framework powered by b2luigi",
-        "pub_date": 1769553778
-      },
-      {
-        "name": "psi-io",
-        "version": "1.1.0",
-        "summary": "Readers and writers for HDF data used by Predictive Science Inc.",
-        "pub_date": 1769553740
-      },
-      {
-        "name": "pixelflux",
-        "version": "1.5.7",
-        "summary": "A performant web native pixel delivery pipeline for diverse sources, blending VNC-inspired parallel processing of pixel buffers with flexible modern encoding formats.",
-        "pub_date": 1769553656
-      },
-      {
-        "name": "aline-ai",
-        "version": "0.5.8",
-        "summary": "Shared AI memory; everyone knows everything in teams",
-        "pub_date": 1769553635
-      },
-      {
-        "name": "coreason-arbitrage",
-        "version": "0.2.0",
-        "summary": "coreason-arbitrage",
-        "pub_date": 1769553571
-      },
-      {
-        "name": "folderbot",
-        "version": "0.1.12",
-        "summary": "Telegram bot for chatting with your folder using Claude AI",
-        "pub_date": 1769553554
-      },
-      {
-        "name": "jaxmg",
-        "version": "0.0.5",
-        "summary": "JAXMg provides a C++ interface between JAX and cuSolverMg, NVIDIA's multi-GPU linear solver. ",
-        "pub_date": 1769553543
-      },
-      {
-        "name": "e2b",
-        "version": "2.12.1",
-        "summary": "E2B SDK that give agents cloud environments",
-        "pub_date": 1769553497
-      },
-      {
-        "name": "sagemaker-hyperpod",
-        "version": "3.6.0",
-        "summary": "Amazon SageMaker HyperPod SDK and CLI",
-        "pub_date": 1769553466
-      },
-      {
-        "name": "wasm-action",
-        "version": "0.0.8",
-        "summary": "Interact with WebAssembly registries.",
-        "pub_date": 1769553447
-      },
-      {
-        "name": "grekt-keywords",
-        "version": "0.1.0",
-        "summary": "Keyword extraction for grekt artifacts using KeyBERT",
-        "pub_date": 1769553425
-      },
-      {
-        "name": "cybrid-api-bank-python",
-        "version": "0.126.78",
-        "summary": "Cybrid Bank API",
-        "pub_date": 1769553340
-      },
-      {
-        "name": "agent-framework-lib",
-        "version": "0.5.8.post19",
-        "summary": "A comprehensive Python framework for building and serving conversational AI agents with FastAPI",
-        "pub_date": 1769553309
-      },
-      {
-        "name": "cybrid-api-organization-python",
-        "version": "0.126.78",
-        "summary": "Cybrid Organization API",
-        "pub_date": 1769553298
-      },
-      {
-        "name": "mgraph-ai-service-html-graph",
-        "version": "1.7.0",
-        "summary": "MGraph-AI__Service__Html__Graph",
-        "pub_date": 1769553276
-      },
-      {
-        "name": "cybrid-api-id-python",
-        "version": "0.126.78",
-        "summary": "Cybrid Identity API",
-        "pub_date": 1769553273
-      },
-      {
-        "name": "brain-modules",
-        "version": "0.0.8",
-        "summary": "Replicate brain modules' computations with Artificial Neural Networks",
-        "pub_date": 1769553270
-      },
-      {
-        "name": "scalexi-llm",
-        "version": "0.1.17",
-        "summary": "A comprehensive multi-provider LLM proxy library with unified interface",
-        "pub_date": 1769553225
-      },
-      {
-        "name": "discovery-engine-api",
-        "version": "0.1.26",
-        "summary": "Python SDK for the Discovery Engine API",
-        "pub_date": 1769553187
-      },
-      {
-        "name": "coreason-sentinel",
-        "version": "0.2.0",
-        "summary": "alerts you when things go wrong in production",
-        "pub_date": 1769553172
       }
     ],
-    "has_dependabot_count": 1131,
+    "has_dependabot_count": 1135,
     "has_dependabot": [
+      {
+        "name": "hogql-parser",
+        "version": "1.3.7",
+        "summary": "HogQL parser for internal PostHog use",
+        "pub_date": 1769555527
+      },
+      {
+        "name": "kpf",
+        "version": "0.8.1",
+        "summary": "A terminal utility with a better UX for kubectl port-forward",
+        "pub_date": 1769555477
+      },
+      {
+        "name": "hedit",
+        "version": "0.6.8a2",
+        "summary": "Multi-agent system for HED annotation generation and validation",
+        "pub_date": 1769555379
+      },
+      {
+        "name": "fdray",
+        "version": "0.1.17",
+        "summary": "A Python interface for POV-Ray (Persistence of Vision Raytracer)",
+        "pub_date": 1769555291
+      },
+      {
+        "name": "flwr-nightly",
+        "version": "1.26.0.dev20260127",
+        "summary": "Flower: A Friendly Federated AI Framework",
+        "pub_date": 1769555272
+      },
       {
         "name": "bleak-esphome",
         "version": "3.6.0",
@@ -3687,36 +3717,6 @@
         "version": "1.0.0b260127",
         "summary": "Azure AI Search integration for Microsoft Agent Framework.",
         "pub_date": 1769549068
-      },
-      {
-        "name": "agent-framework-a2a",
-        "version": "1.0.0b260127",
-        "summary": "A2A integration for Microsoft Agent Framework.",
-        "pub_date": 1769549067
-      },
-      {
-        "name": "agent-framework-github-copilot",
-        "version": "1.0.0b260127",
-        "summary": "GitHub Copilot integration for Microsoft Agent Framework.",
-        "pub_date": 1769549066
-      },
-      {
-        "name": "agent-framework-copilotstudio",
-        "version": "1.0.0b260127",
-        "summary": "Copilot Studio integration for Microsoft Agent Framework.",
-        "pub_date": 1769549065
-      },
-      {
-        "name": "agent-framework",
-        "version": "1.0.0b260127",
-        "summary": "Microsoft Agent Framework for building AI Agents with Python. This package contains all the core and optional packages.",
-        "pub_date": 1769549063
-      },
-      {
-        "name": "agent-framework-redis",
-        "version": "1.0.0b260127",
-        "summary": "Redis integration for Microsoft Agent Framework.",
-        "pub_date": 1769549062
       }
     ],
     "has_gitlab_pipeline_count": 75,
@@ -4628,8 +4628,92 @@
         "pub_date": 1769545857
       }
     ],
-    "no_pyproject_toml_count": 2253,
+    "no_pyproject_toml_count": 2257,
     "no_pyproject_toml": [
+      {
+        "name": "hadoku-fidelity",
+        "version": "1.1.2",
+        "summary": "Fidelity trading automation with FastAPI service for hadoku",
+        "pub_date": 1769555917
+      },
+      {
+        "name": "cfbs",
+        "version": "5.5.2",
+        "summary": "Tooling to build, manage and deploy CFEngine policy",
+        "pub_date": 1769555795
+      },
+      {
+        "name": "models-dev",
+        "version": "1.0.41",
+        "summary": "Typed Python interface to models.dev API data",
+        "pub_date": 1769555678
+      },
+      {
+        "name": "eaglebirth",
+        "version": "1.1.1",
+        "summary": "Official Python SDK for EagleBirth API",
+        "pub_date": 1769555605
+      },
+      {
+        "name": "opuspocus",
+        "version": "0.1.0",
+        "summary": "Modular NLP pipeline manager.",
+        "pub_date": 1769555543
+      },
+      {
+        "name": "messagebus",
+        "version": "0.16.1",
+        "summary": "Lightweight message bus library designed for event-driven architectures.",
+        "pub_date": 1769555531
+      },
+      {
+        "name": "ai-todo",
+        "version": "4.0.0b1",
+        "summary": "AI-Agent First TODO List Tracker with MCP and CLI interfaces",
+        "pub_date": 1769555387
+      },
+      {
+        "name": "quantconnect-stubs",
+        "version": "17496",
+        "summary": "Type stubs for QuantConnect's Lean",
+        "pub_date": 1769555364
+      },
+      {
+        "name": "flwr-nightly",
+        "version": "1.26.0.dev20260127",
+        "summary": "Flower: A Friendly Federated AI Framework",
+        "pub_date": 1769555272
+      },
+      {
+        "name": "openrewrite",
+        "version": "8.72.3",
+        "summary": "OpenRewrite automated refactoring for Python.",
+        "pub_date": 1769555229
+      },
+      {
+        "name": "smoosense",
+        "version": "0.1.38",
+        "summary": "Smoothly make sense of your large multi-modal datasets",
+        "pub_date": 1769555182
+      },
+      {
+        "name": "redback",
+        "version": "1.13.0",
+        "summary": "A Bayesian inference and modelling pipeline for electromagnetic transients",
+        "pub_date": 1769555153
+      },
+      {
+        "name": "pulumi-duplocloud",
+        "version": "0.11.33",
+        "summary": "A Pulumi provider for creating and managing DuploCloud infrastructure.",
+        "pub_date": 1769555151
+      },
+      {
+        "name": "fairyfly-therm",
+        "version": "0.9.1",
+        "summary": "Fairyfly extension for translating HBJSON files to INP files for eQuest",
+        "pub_date": 1769555079
+      },
       {
         "name": "odoo14-addon-l10n-br-nfse-focus",
         "version": "14.0.2.0.1",
@@ -4671,12 +4755,6 @@
         "version": "1.1.1",
         "summary": "Amazon Aurora DSQL dialect for SQLAlchemy",
         "pub_date": 1769554148
-      },
-      {
-        "name": "openrewrite",
-        "version": "8.73.0.dev20260127224606",
-        "summary": "OpenRewrite automated refactoring for Python.",
-        "pub_date": 1769554044
       },
       {
         "name": "prophet",
@@ -4851,478 +4929,400 @@
         "version": "17.0.1.0.3",
         "summary": "=?utf-8?q?Env=C3=ADo_de_pedidos_del_TPV_al_SII?=",
         "pub_date": 1769550347
-      },
-      {
-        "name": "musicdl",
-        "version": "2.8.9",
-        "summary": "Musicdl: A lightweight music downloader written in pure python",
-        "pub_date": 1769550297
-      },
-      {
-        "name": "azure-monitor-opentelemetry",
-        "version": "1.8.5",
-        "summary": "Microsoft Azure Monitor Opentelemetry Distro Client Library for Python",
-        "pub_date": 1769550205
-      },
-      {
-        "name": "nextmv",
-        "version": "1.0.0.dev4",
-        "summary": "The all-purpose Python SDK for Nextmv",
-        "pub_date": 1769550174
-      },
-      {
-        "name": "ocha-lens",
-        "version": "0.4.0",
-        "summary": "Utilities for standard climate-related data analysis",
-        "pub_date": 1769550124
-      },
-      {
-        "name": "surf-tls",
-        "version": "0.1.0",
-        "summary": "An async HTTP library based on surf (Go) with TLS fingerprinting support",
-        "pub_date": 1769550101
-      },
-      {
-        "name": "upbge-stubs",
-        "version": "0.3.1.27.dev21412926580",
-        "summary": "API stubs for Blender and UPBGE generated with bpystubgen.",
-        "pub_date": 1769550079
-      },
-      {
-        "name": "venn-abers",
-        "version": "1.5.0",
-        "summary": "Venn-ABERS calibration package",
-        "pub_date": 1769549935
-      },
-      {
-        "name": "odoo-addon-rma-delivery",
-        "version": "18.0.1.0.0.2",
-        "summary": "Allow to choose a default delivery carrier for returns",
-        "pub_date": 1769549913
-      },
-      {
-        "name": "alak-acl",
-        "version": "0.1.24",
-        "summary": "Package professionnel pour gérer l'authentification et les permissions ACL dans FastAPI",
-        "pub_date": 1769549902
-      },
-      {
-        "name": "assemblyline-core",
-        "version": "4.7.0.dev76",
-        "summary": "Assemblyline 4 - Core components",
-        "pub_date": 1769549730
-      },
-      {
-        "name": "assemblyline-v4-service",
-        "version": "4.7.0.dev76",
-        "summary": "Assemblyline 4 - Service base",
-        "pub_date": 1769549725
-      },
-      {
-        "name": "assemblyline-ui",
-        "version": "4.7.0.dev76",
-        "summary": "Assemblyline 4 - API and Socket IO server",
-        "pub_date": 1769549720
-      },
-      {
-        "name": "assemblyline-service-server",
-        "version": "4.7.0.dev76",
-        "summary": "Assemblyline 4 - Service Server",
-        "pub_date": 1769549717
       }
     ]
   },
   "project_urls_count": {
-    "Issue Tracker": 82,
-    "DevOps & Deployment - @mixaill76": 1,
-    "Search": 1,
-    "Maintainer": 2,
-    "Tracker": 205,
-    "API Key Application": 1,
-    "MeaningfulData": 2,
-    "Bug_Tracker": 2,
-    "FraiseQL": 1,
-    "Package": 4,
-    "SDK Docs": 1,
-    "Coverage": 4,
-    "Change_log": 1,
-    "GitHub: repo": 11,
-    "source code": 1,
-    "Sponsor on Open Collective": 1,
-    "Web App": 1,
-    "CHANGELOG": 1,
-    "Source - Precompiled (.py)": 2,
-    "ArcadeDB Upstream": 1,
+    "issue-new": 1,
+    "Funding": 50,
+    "Telegram BotAPI Docs": 1,
+    "Baseten": 1,
+    "Source": 1065,
+    "Demo": 9,
+    "Systemd Guide": 1,
+    "Examples": 11,
+    "Zulip": 1,
+    "PRIDE": 1,
+    "Mailing List": 1,
+    "support": 1,
+    "Mirror": 1,
     "Original C++ Project": 1,
-    "dogesec HQ": 4,
-    "OpenCGA-enterprise": 1,
-    "Source": 1063,
-    "中文文档 (Chinese)": 1,
-    "home": 3,
+    "package": 1,
+    "GitHub": 57,
+    "Release notes": 10,
+    "Package": 4,
+    "Artifacts": 1,
+    "HuggingFace": 2,
+    "Discussion Forum": 2,
+    "Issuses": 1,
+    "Contribute": 1,
+    "Skyline": 1,
+    "Demos": 1,
+    "Notebook Examples": 1,
+    "Downloads": 6,
+    "Author": 3,
+    "Tutorials & Wiki": 1,
+    "SpRIT Web App": 1,
+    "Home-page": 5,
     "tracker": 116,
-    "donations": 1,
-    "Core Developer - @virrius": 1,
+    "Código fonte": 2,
+    "Contribute!": 7,
+    "Source code": 13,
+    "Zenodo": 4,
+    "quiz": 1,
+    "Author Website": 1,
+    "pip": 2,
+    "SimpleCore Documentation": 1,
+    "readme": 1,
+    "Documentations": 1,
+    "Maritaca AI": 1,
+    "Issues": 2545,
+    "Gitter": 1,
+    "Tests": 1,
+    "Docs: Dev": 1,
+    "Source Code (GitHub)": 1,
+    "Homepage": 8411,
     "source_code": 1,
-    "Data System Docs": 1,
-    "Homepage": 8392,
-    "Issue 反馈（主站）": 1,
-    "API": 2,
-    "PyTorch CUDA Wheels": 1,
+    "Source - Compiled (.c)": 2,
+    "issue": 1,
+    "DAMON": 1,
+    "FAQ": 1,
+    "Repo": 1,
+    "Github Pages API Docs": 1,
+    "MCP Endpoint": 1,
+    "Preprint": 2,
+    "DOI": 2,
+    "download": 15,
+    "Csvpath.org": 1,
+    "Hybrid FC research - @Shadekss": 1,
+    "中文文档 (Chinese)": 1,
+    "Repository": 4178,
+    "chat": 1,
+    "Trademarks": 1,
+    "Launch on Lab": 1,
+    "Donate": 5,
+    "Certified": 1,
+    "GitHub Discussions": 1,
+    "homepage (upstream)": 91,
+    "Upstream (Rust)": 1,
+    "PyPI Package": 1,
+    "Roadmap": 2,
+    "Modaic": 1,
+    "respository": 1,
+    "Bug-Tracker": 9,
+    "Security Policy": 1,
+    "Coverage": 4,
+    "JOSS paper": 1,
+    "Gitlab": 1,
+    "Mailing-list": 3,
+    "CI: GitHub Actions": 9,
+    "Bug Traccker": 1,
+    "Forums": 1,
+    "conda": 2,
+    "Web App": 1,
+    "Demonstration website": 1,
+    "Report Issues": 1,
+    "JAX-sklearn": 1,
+    "User Support": 8,
+    "Mastodon": 8,
     "Home": 55,
-    "docs": 15,
-    "Code_of_Conduct": 1,
-    "Live Server": 1,
-    "Commercial": 1,
-    "pypi": 3,
-    "slides": 1,
-    "Website": 106,
+    "Source Repository": 1,
+    "Releases": 16,
+    "Code of Conduct": 1,
+    "Facebook": 1,
+    "words": 1,
+    "Git Repository": 1,
+    "CI: GitHub": 2,
+    "release-notes": 1,
+    "Wiki": 3,
+    "source-code": 2,
+    "Coordinator - @VaKovaLskii": 1,
+    "Weights": 1,
+    "Bug Report": 2,
     "Community": 6,
-    "Telegram": 1,
-    "MCP Registry": 1,
+    "User Forum": 16,
+    "SoundCloud": 1,
+    "Source (GitHub)": 1,
+    "Mann Labs Homepage": 1,
+    "Reddit": 5,
+    "Snakemake Repository": 1,
+    "Discourse": 1,
     "Config Browser": 1,
     "Upgrade to Globus Compute": 2,
-    "Bug tracker": 5,
-    "Matrix": 1,
-    "PiWheels": 2,
+    "Dashboard": 2,
+    "Model (Hugging Face)": 2,
+    "Bug Tracker": 957,
+    "issue-tracker": 4,
+    "Download": 153,
+    "Blog": 13,
+    "Health Check": 1,
+    "Core Developer - @EvilFreelancer": 1,
+    "Hawky.ai": 1,
+    "Donate via Ko-fi": 1,
+    "Merge requests": 1,
+    "Youtube": 1,
+    "SpRIT App (streamlit) Docs": 1,
+    "IssueTracker": 4,
+    "Mastodon (nedbat)": 1,
+    "DOWNLOAD": 2,
+    "Bug System": 1,
+    "Donate via GitHub Sponsors": 1,
+    "opentrons.com": 1,
+    "Commercial": 1,
+    "Getting Started": 2,
+    "CI/CD": 2,
+    "Paper preprint": 1,
+    "Bug_Tracker": 2,
+    "Change Log": 5,
+    "pypi": 3,
+    "Hugging Face Spaces": 1,
+    "Discussion": 6,
+    "Repositorio": 1,
+    "Tutorials": 1,
+    "Docker Image": 1,
+    "SGR Concept Creator - @abdullin": 1,
+    "SDK Docs": 1,
+    "Telegram": 1,
+    "Toolkit Overview": 1,
+    "Source Code": 253,
+    "docs": 15,
+    "tracker (upstream)": 91,
+    "Q & A": 2,
+    "Code coverage": 3,
+    "Agent Skills": 1,
+    "Youtube_Tutorial": 1,
+    "Knowledge Base": 2,
+    "release notes": 93,
+    "Community Forum": 1,
+    "Project": 2,
+    "Discussions": 49,
+    "Pypi": 3,
+    "Home page": 2,
+    "Free Support": 1,
+    "OneTick": 1,
+    "Donations": 3,
+    "Arthur Homepage": 1,
+    "ReleaseNotes": 1,
+    "Donation": 5,
+    "cite": 1,
+    "codes": 1,
+    "Issue tracker": 22,
+    "ChangeLog": 4,
+    "MCP Registry": 1,
+    "Changelog": 934,
+    "Help Center": 1,
+    "Sponsor": 2,
+    "OpenCGA-enterprise": 1,
+    "Source Code On Github": 1,
+    "homepage": 384,
+    "dogesec HQ": 4,
+    "ArcadeDB Upstream": 1,
+    "Feature Requests": 3,
     "Doxygen": 1,
     "Apify Homepage": 4,
-    "Sources": 4,
-    "Live Demo": 1,
-    "About Ouranos": 1,
-    "Gitee Repo": 1,
-    "ReadTheDocs": 2,
-    "Original Project": 3,
-    "BugReports": 1,
-    "DOI": 2,
-    "Resources": 1,
-    "repo (upstream)": 91,
-    "Help": 8,
-    "Support": 11,
-    "JAX-sklearn": 1,
-    "Source Code (GitHub)": 1,
-    "Contact": 12,
-    "homepage (upstream)": 91,
-    "Vastxiao Blog": 1,
-    "SecretFlow": 1,
-    "Contributing": 5,
-    "Project-URL": 1,
-    "HomePage": 5,
-    "Source Repository": 1,
-    "Youtube_Tutorial": 1,
-    "Logo": 3,
-    "Echoes SF page": 1,
-    "Artifacts": 1,
-    "Claude Code": 1,
-    "Documentation": 3387,
-    "Getting Started": 2,
-    "Zulip": 1,
-    "Bug System": 1,
-    "Git Repository": 1,
-    "Download": 153,
-    "bug_tracker": 2,
-    "Changelog": 933,
-    "Tutorials": 1,
-    "Tidelift": 1,
-    "Discord": 32,
-    "SoundCloud": 1,
-    "Mailing-list": 3,
-    "Source_code": 1,
-    "User Support": 8,
-    "Bugs and Features": 1,
-    "issue-new": 1,
-    "Bug Report": 2,
-    "Help Center": 1,
-    "twitter": 2,
-    "readme": 1,
-    "Toolkit Overview": 1,
-    "issues": 105,
-    "JOSS paper": 1,
-    "IssueTracker": 4,
-    "bug tracker": 3,
-    "sourcecode": 1,
-    "Change log": 3,
-    "Facebook": 1,
-    "LinkedIn": 7,
-    "Sponsoring": 12,
-    "Changes": 17,
-    "Paper": 10,
-    "PRIDE": 1,
-    "Nuclia": 1,
-    "Sponsor on GitHub": 1,
-    "Console": 2,
-    "Telegram Bot": 1,
-    "release notes": 93,
-    "Codecov": 7,
-    "Model (Hugging Face)": 2,
-    "Benchmarks": 2,
-    "Modaic": 1,
-    "Benchmarks - Results": 2,
-    "Downloads": 6,
-    "Security Policy": 1,
-    "HED Resources": 1,
-    "Dataset": 2,
-    "release-notes": 1,
-    "DeepWiki": 1,
-    "Mann Labs Homepage": 1,
-    "Developer": 1,
-    "SpRIT Web App": 1,
-    "SimpleCore Documentation": 1,
-    "Repository": 4170,
-    "Docs": 14,
-    "Tutorials & Wiki": 1,
-    "Zenodo": 4,
-    "Moodle": 1,
-    "Quickstart": 1,
-    "Hugging Face Spaces": 1,
-    "Home page": 2,
-    "Upstream (Rust)": 1,
-    "Contribute": 1,
-    "issue-tracker": 4,
-    "Issue-Tracker": 1,
-    "News": 5,
-    "Snakemake Documentation": 1,
-    "Code": 8,
-    "Knowledge Base": 2,
-    "opentrons.com": 1,
-    "ReleaseNotes": 1,
-    "project-url/documentation": 1,
-    "Paper preprint": 1,
-    "Notebook Examples": 1,
-    "Bug Traccker": 1,
-    "Weights": 1,
-    "Demo": 9,
-    "Discourse": 1,
-    "GitHub Discussions": 1,
-    "Donate via GitHub Sponsors": 1,
-    "Donation": 5,
-    "Source (GitHub)": 1,
-    "Certified": 1,
-    "support-forum": 1,
-    "Pricing": 1,
-    "Stats": 1,
-    "Live example": 1,
-    "discourse": 91,
-    "repository": 386,
-    "Launch on Lab": 1,
-    "DOWNLOAD": 2,
-    "Pypi": 3,
-    "Code of Conduct": 1,
-    "Funding": 50,
-    "Docs: RTD": 10,
-    "source_archive": 1,
-    "benchmark": 1,
-    "Health Check": 1,
-    "Reddit": 5,
-    "source": 128,
-    "Twitter": 19,
-    "Código fonte": 2,
-    "Release Notes": 27,
-    "Project": 2,
-    "Code coverage": 3,
-    "Echoes FB page": 1,
-    "Translation": 5,
-    "Documentations": 1,
-    "GitHub Source": 1,
-    "Wiliot": 1,
-    "blog": 1,
-    "cite": 1,
-    "words": 1,
-    "GitHub 中文镜像": 1,
-    "HuggingFace": 2,
-    "tracker (upstream)": 91,
-    "changelog": 91,
-    "Telegram BotAPI Docs": 1,
-    "Issuses": 1,
-    "bugs": 8,
-    "Conda-forge": 1,
-    "Donate via Ko-fi": 1,
-    "Slack": 17,
-    "GitHub": 57,
-    "Tests": 1,
-    "Chat room": 1,
-    "pip": 2,
-    "SGR Concept Creator - @abdullin": 1,
-    "CI/CD": 2,
-    "Mastodon": 8,
-    "Demonstration": 1,
-    "Pull Requests": 1,
-    "Agent Skills": 1,
-    "Third-Party Licenses": 1,
-    "Telegram Channel": 1,
-    "Issue": 3,
-    "Leonid Shpaner's Website": 1,
-    "Sponsor": 2,
-    "ONNXRuntime-Compatibility": 1,
     "user_group": 1,
-    "Api Doc": 1,
-    "OneTick": 1,
-    "Say Thanks!": 7,
-    "Demo Server": 1,
-    "SpRIT App (streamlit) Docs": 1,
-    "download": 15,
-    "bug-tracker": 1,
-    "codes": 1,
-    "Bug-Tracker": 9,
-    "Author Website": 1,
-    "conda": 2,
-    "Mailing List": 1,
-    "Temporary License": 1,
-    "Toolkit Download": 1,
-    "tubes": 1,
-    "Contribute!": 7,
-    "Standard Document": 1,
-    "website": 1,
-    "Youtube": 1,
-    "Q & A": 2,
-    "Free Support": 1,
-    "Blog": 13,
-    "GitHub: issues": 11,
-    "respository": 1,
-    "github": 9,
-    "Funding (PayPal)": 1,
-    "Release notes": 10,
-    "FAQ": 1,
-    "Docker Image": 1,
-    "discord": 3,
-    "Engine": 1,
-    "Documenation": 1,
-    "Bug Reports": 177,
-    "Bug Tracker": 954,
-    "Hardware": 1,
-    "Docker": 1,
-    "Chrome Extension": 1,
-    "Readthedocs": 1,
-    "Demonstration website": 1,
-    "Wiki": 3,
-    "Gitlab": 1,
-    "Instagram": 1,
-    "Discussion Forum": 2,
-    "Privacy Policy": 1,
-    "Source Code On Github": 1,
-    "documentation": 401,
-    "LibreNMS_Documentation": 1,
-    "Parent Project": 1,
-    "IRC": 1,
-    "License": 7,
-    "Preprint": 2,
-    "bugtracker": 4,
-    "HoloViz": 3,
-    "doc": 2,
-    "Csvpath.org": 1,
-    "Downloadable_Version": 1,
+    "sourcecode": 1,
+    "Issue": 3,
     "CI": 12,
-    "OpenAPI": 1,
-    "Model Hub": 1,
-    "Trademarks": 1,
-    "Releases": 16,
-    "discussions": 1,
-    "Lean Proofs": 1,
-    "ReadtheDocs API Docs": 1,
-    "Builds": 3,
-    "CI: GitHub Actions": 9,
-    "Feature Request Tracker": 1,
-    "Bioexcel": 1,
-    "ChangeLog": 4,
-    "Discussion": 6,
-    "Source - Compiled (.c)": 2,
-    "quiz": 1,
-    "Troubleshooting": 2,
-    "Quick Start Guide": 1,
-    "Hybrid FC research - @Shadekss": 1,
-    "User Forum": 16,
-    "Upstream": 3,
-    "Author": 3,
-    "Maritaca AI": 1,
-    "Fostrom": 1,
-    "Core Developer - @EvilFreelancer": 1,
-    "Dashboard": 2,
-    "Homebrew Tap": 1,
-    "issue": 1,
-    "Live demo": 1,
-    "Github": 10,
-    "PyPi": 2,
-    "Donations": 3,
-    "Commit": 1,
-    "Source Code": 252,
-    "PyPI": 45,
-    "Library Source": 1,
-    "linkedin": 1,
-    "Authors": 2,
-    "GPG Public Key": 1,
-    "Github Pages API Docs": 1,
-    "R Package": 1,
-    "Hawky.ai": 1,
-    "Gitter": 1,
-    "Merge requests": 1,
-    "Home-page": 5,
-    "DAMON": 1,
-    "Source code": 13,
-    "Jira": 1,
-    "Coq Proofs": 1,
-    "Skyline": 1,
-    "Forum": 5,
-    "Bugs": 2,
-    "Homepages": 1,
-    "Team website": 1,
-    "repo": 93,
-    "Community Forum": 1,
-    "Home Page": 2,
-    "Report Issues": 1,
-    "Forums": 1,
-    "Chat": 11,
-    "Arthur Homepage": 1,
-    "Donate": 5,
-    "Baseten": 1,
-    "Customization": 1,
-    "Roadmap": 2,
-    "forum": 1,
-    "Mastodon (nedbat)": 1,
-    "Documentación": 1,
-    "X": 2,
-    "Releasenotes": 1,
-    "Help Desk": 2,
-    "Demos": 1,
-    "Docker Images": 1,
-    "Snakemake Repository": 1,
-    "releasenotes": 6,
-    "Docs: Dev": 1,
-    "Discussions": 49,
-    "PyPI Package": 1,
-    "CI: GitHub": 2,
-    "History": 16,
-    "Issues": 2539,
-    "YouTube": 9,
-    "source-code": 2,
-    "Stats Page": 1,
-    "support": 1,
-    "Reference": 2,
-    "Systemd Guide": 1,
-    "Docker Hub": 1,
-    "Original": 2,
-    "Repo": 1,
-    "Change Log": 5,
-    "download_url": 1,
-    "Release": 1,
-    "Feature Requests": 3,
-    "homepage": 384,
-    "Hugging Face Organization": 1,
-    "Book": 1,
-    "BugTracker": 4,
-    "chat": 1,
-    "release_notes": 20,
-    "Repositorio": 1,
-    "package": 1,
-    "Issue tracker": 22,
-    "Terms of Service": 1,
-    "Examples": 11,
-    "MCP Endpoint": 1,
-    "Mirror": 1,
-    "Newsletter": 1,
-    "GitHub 主站": 1,
-    "API Reference": 4,
+    "home": 3,
     "funding": 9,
+    "Privacy Policy": 1,
+    "forum": 1,
+    "HoloViz": 3,
+    "OpenAPI": 1,
+    "ReadTheDocs": 2,
+    "Source - Precompiled (.py)": 2,
+    "Commit": 1,
+    "bug tracker": 3,
+    "source code": 1,
+    "Github": 10,
+    "Slack Chat": 3,
+    "donations": 1,
+    "Issue Tracker": 82,
+    "History": 16,
+    "project-url/documentation": 1,
+    "source_archive": 1,
+    "Docs: RTD": 10,
+    "GitHub Source": 1,
+    "Quick Start Guide": 1,
+    "Change log": 3,
+    "LinkedIn": 7,
+    "linkedin": 1,
+    "Home Page": 2,
+    "Authors": 2,
+    "Telegram Channel": 1,
+    "issues": 105,
+    "GitHub 中文镜像": 1,
+    "Contributing": 5,
+    "repository": 387,
+    "discord": 3,
+    "Book": 1,
+    "Engine": 1,
+    "API": 2,
+    "blog": 1,
+    "releasenotes": 6,
+    "Lean Proofs": 1,
+    "PyPi": 2,
+    "Bug tracker": 5,
+    "Issue-Tracker": 1,
+    "Stats": 1,
+    "Matrix": 1,
+    "Support": 11,
+    "Builds": 3,
+    "Project-URL": 1,
+    "BugTracker": 4,
+    "Team website": 1,
+    "Paper": 10,
+    "Benchmarks": 2,
+    "discourse": 91,
+    "Live example": 1,
+    "Readthedocs": 1,
+    "Newsletter": 1,
+    "bugs": 8,
+    "Stats Page": 1,
+    "Changes": 17,
+    "Jira": 1,
+    "Docker Images": 1,
+    "documentation": 401,
+    "YouTube": 9,
+    "Live Server": 1,
+    "download_url": 1,
+    "Instagram": 1,
+    "Echoes FB page": 1,
+    "MeaningfulData": 2,
+    "Issue 反馈（主站）": 1,
+    "Tidelift": 1,
+    "support-forum": 1,
+    "Docker": 1,
+    "Pricing": 1,
+    "release_notes": 20,
+    "Live demo": 1,
+    "Claude Code": 1,
+    "X": 2,
+    "Documentation": 3393,
+    "Homebrew Tap": 1,
+    "Say Thanks!": 7,
+    "Api Doc": 1,
+    "Nuclia": 1,
+    "IRC": 1,
     "author": 1,
-    "Coordinator - @VaKovaLskii": 1,
-    "Slack Chat": 3
+    "Release": 1,
+    "DevOps & Deployment - @mixaill76": 1,
+    "Original Project": 3,
+    "GPG Public Key": 1,
+    "Release Notes": 27,
+    "Demonstration": 1,
+    "Live Demo": 1,
+    "Help Desk": 2,
+    "Standard Document": 1,
+    "CHANGELOG": 1,
+    "DeepWiki": 1,
+    "Docs": 14,
+    "Customization": 1,
+    "Documentación": 1,
+    "Fostrom": 1,
+    "Bug Reports": 177,
+    "repo": 93,
+    "Moodle": 1,
+    "Code_of_Conduct": 1,
+    "Third-Party Licenses": 1,
+    "Telegram Bot": 1,
+    "Leonid Shpaner's Website": 1,
+    "SecretFlow": 1,
+    "Data System Docs": 1,
+    "discussions": 1,
+    "GitHub: issues": 11,
+    "Original": 2,
+    "changelog": 91,
+    "Bugs": 2,
+    "LibreNMS_Documentation": 1,
+    "Translation": 5,
+    "Quickstart": 1,
+    "BugReports": 1,
+    "Twitter": 19,
+    "Slack": 17,
+    "Console": 2,
+    "Logo": 3,
+    "Docker Hub": 1,
+    "Library Source": 1,
+    "bug_tracker": 2,
+    "Releasenotes": 1,
+    "Gitee Repo": 1,
+    "GitHub: repo": 11,
+    "github": 9,
+    "Resources": 1,
+    "Pull Requests": 1,
+    "Bioexcel": 1,
+    "Maintainer": 2,
+    "PyTorch CUDA Wheels": 1,
+    "Reference": 2,
+    "License": 7,
+    "Chat": 11,
+    "tubes": 1,
+    "Bugs and Features": 1,
+    "Wiliot": 1,
+    "Search": 1,
+    "Website": 106,
+    "Sponsor on GitHub": 1,
+    "Hugging Face Organization": 1,
+    "Vastxiao Blog": 1,
+    "Sources": 4,
+    "HomePage": 5,
+    "Dataset": 2,
+    "repo (upstream)": 91,
+    "Homepages": 1,
+    "Code": 8,
+    "PiWheels": 2,
+    "Coq Proofs": 1,
+    "Sponsor on Open Collective": 1,
+    "Core Developer - @virrius": 1,
+    "Model Hub": 1,
+    "Codecov": 7,
+    "Snakemake Documentation": 1,
+    "Toolkit Download": 1,
+    "HED Resources": 1,
+    "twitter": 2,
+    "slides": 1,
+    "Discord": 32,
+    "Help": 8,
+    "Terms of Service": 1,
+    "GitHub 主站": 1,
+    "Downloadable_Version": 1,
+    "Chat room": 1,
+    "FraiseQL": 1,
+    "Tracker": 206,
+    "R Package": 1,
+    "Forum": 5,
+    "Change_log": 1,
+    "Conda-forge": 1,
+    "Hardware": 1,
+    "benchmark": 1,
+    "Parent Project": 1,
+    "website": 1,
+    "Feature Request Tracker": 1,
+    "News": 6,
+    "Echoes SF page": 1,
+    "Developer": 1,
+    "Troubleshooting": 2,
+    "API Reference": 4,
+    "ReadtheDocs API Docs": 1,
+    "ONNXRuntime-Compatibility": 1,
+    "About Ouranos": 1,
+    "Temporary License": 1,
+    "API Key Application": 1,
+    "Chrome Extension": 1,
+    "Upstream": 3,
+    "Sponsoring": 12,
+    "Benchmarks - Results": 2,
+    "PyPI": 45,
+    "Source_code": 1,
+    "Demo Server": 1,
+    "doc": 2,
+    "Contact": 12,
+    "bug-tracker": 1,
+    "Funding (PayPal)": 1,
+    "bugtracker": 4,
+    "Documenation": 1,
+    "source": 128
   }
 }
