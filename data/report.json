@@ -1,386 +1,524 @@
 {
-  "total": 21111,
+  "total": 21154,
   "projects": [
     {
-      "name": "odoo-addon-mrp-multi-level-estimate",
-      "version": "17.0.1.1.0.1",
-      "summary": "Allows to consider demand estimates using MRP multi level.",
-      "pub_date": 1770003295
+      "name": "odoo-addon-stock-picking-batch-extended",
+      "version": "15.0.2.5.0.7",
+      "summary": "Allows manage a lot of pickings in batch",
+      "pub_date": 1770006595
     },
     {
-      "name": "iflow-mcp_strickvl_mcp-beeminder",
-      "version": "0.1.0",
-      "summary": "Beeminder MCP Server",
-      "pub_date": 1770003293
+      "name": "odoo14-addon-stock-picking-batch-extended",
+      "version": "14.0.1.0.3.dev9",
+      "summary": "Allows manage a lot of pickings in batch",
+      "pub_date": 1770006583
     },
     {
-      "name": "iflow-mcp_msnidal_yellhorn-mcp",
-      "version": "0.8.1",
-      "summary": "Yellhorn offers MCP tools to generate detailed workplans with Gemini 2.5 Pro or OpenAI models and to review diffs against them using your entire codebase as context. Features unified LLM management, automatic chunking, and robust retry logic.",
-      "pub_date": 1770003280
+      "name": "usfmtc",
+      "version": "0.4.4",
+      "summary": "USFM reference parser",
+      "pub_date": 1770006544
     },
     {
-      "name": "odoo14-addon-quality-control-oca",
-      "version": "14.0.1.4.3.dev6",
-      "summary": "Generic infrastructure for quality tests.",
-      "pub_date": 1770003267
+      "name": "odoo13-addon-stock-picking-batch-extended",
+      "version": "13.0.1.3.1.dev11",
+      "summary": "Allows manage a lot of pickings in batch",
+      "pub_date": 1770006534
     },
     {
-      "name": "odoo-addon-quality-control-oca",
-      "version": "15.0.1.0.0.33",
-      "summary": "Generic infrastructure for quality tests.",
-      "pub_date": 1770003265
+      "name": "odoo-venv",
+      "version": "1.0.2",
+      "summary": "A command-line tool to spin up isolated Odoo dev environment in seconds.",
+      "pub_date": 1770006527
     },
     {
-      "name": "pycasbin",
-      "version": "2.8.0",
-      "summary": "An authorization library that supports access control models like ACL, RBAC, ABAC in Python",
-      "pub_date": 1770003252
+      "name": "odoo14-addon-stock-lock-lot",
+      "version": "14.0.1.0.1.dev18",
+      "summary": "Stock Lock Lot",
+      "pub_date": 1770006522
     },
     {
-      "name": "simplex",
-      "version": "2.0.5",
-      "summary": "Official Python SDK for the Simplex API",
-      "pub_date": 1770003238
-    },
-    {
-      "name": "odoo13-addon-quality-control-oca",
-      "version": "13.0.2.2.1.dev25",
-      "summary": "Generic infrastructure for quality tests.",
-      "pub_date": 1770003212
-    },
-    {
-      "name": "odoo12-addon-quality-control",
-      "version": "12.0.1.5.1.99.dev30",
-      "summary": "Generic infrastructure for quality tests.",
-      "pub_date": 1770003193
-    },
-    {
-      "name": "odoo11-addon-quality-control",
-      "version": "11.0.1.1.0.99.dev18",
-      "summary": "Generic infrastructure for quality tests.",
-      "pub_date": 1770003172
-    },
-    {
-      "name": "odoo12-addon-mgmtsystem-nonconformity",
-      "version": "12.0.1.5.0.99.dev24",
-      "summary": "Management System - Nonconformity",
-      "pub_date": 1770003084
-    },
-    {
-      "name": "iflow-mcp_ryft-io_iceberg-mcp",
-      "version": "0.1.8",
-      "summary": "An MCP server that interacts with Iceberg tables.",
-      "pub_date": 1770003008
-    },
-    {
-      "name": "iflow-mcp_rileylemm_graphrag-mcp",
-      "version": "0.1.0",
-      "summary": "GraphRAG Model Context Protocol integration for hybrid graph and vector databases",
-      "pub_date": 1770003008
-    },
-    {
-      "name": "ion-tokenizer",
-      "version": "1.0.4",
-      "summary": "Phrase-first semantic tokenizer compiler for neural language models",
-      "pub_date": 1770002989
-    },
-    {
-      "name": "arr-mcp",
-      "version": "0.1.2",
-      "summary": "Arr Suite MCP Server for Agentic AI!",
-      "pub_date": 1770002975
-    },
-    {
-      "name": "indexdoc-converter",
-      "version": "0.2.0",
-      "summary": "可以将Word文档(仅.docx)、Excel表格、Html网页、PPt文件 转化为Markdown文件。",
-      "pub_date": 1770002957
-    },
-    {
-      "name": "orbitkit",
-      "version": "0.8.60",
-      "summary": "This project is only for Orbit Tech internal use.",
-      "pub_date": 1770002941
-    },
-    {
-      "name": "agentmemory-exchange",
-      "version": "0.6.1",
-      "summary": "Collective Intelligence for AI Agents - Share and discover learnings",
-      "pub_date": 1770002903
-    },
-    {
-      "name": "kitedb",
-      "version": "0.2.7",
-      "summary": "High-performance embedded graph database with vector search",
-      "pub_date": 1770002867
-    },
-    {
-      "name": "ai-screenshooter",
-      "version": "1.5.0",
-      "summary": "A CLI tool to capture and send AI-powered screenshots",
-      "pub_date": 1770002844
-    },
-    {
-      "name": "onako",
-      "version": "0.4.2",
-      "summary": "Dispatch and monitor Claude Code tasks from your phone",
-      "pub_date": 1770002839
-    },
-    {
-      "name": "torchada",
-      "version": "0.1.28",
-      "summary": "Adapter package for torch_musa to act exactly like PyTorch CUDA",
-      "pub_date": 1770002837
-    },
-    {
-      "name": "iflow-mcp_jztan_redmine-mcp-server",
-      "version": "0.10.0",
-      "summary": "Production-ready MCP server for Redmine with security, pagination, and enterprise features",
-      "pub_date": 1770002832
-    },
-    {
-      "name": "runpod-mcp-server",
-      "version": "0.2.0",
-      "summary": "MCP server for Runpod Seedream and Nano Banana image APIs",
-      "pub_date": 1770002745
-    },
-    {
-      "name": "cqc-quam-state",
-      "version": "2026.2.2",
-      "summary": "Add your description here",
-      "pub_date": 1770002744
-    },
-    {
-      "name": "tmutils",
-      "version": "0.61.39",
-      "summary": "Basic Module Operations",
-      "pub_date": 1770002715
-    },
-    {
-      "name": "picklescan",
-      "version": "1.0.1",
-      "summary": "Security scanner detecting Python Pickle files performing suspicious actions",
-      "pub_date": 1770002679
-    },
-    {
-      "name": "ploston-core",
-      "version": "1.4.0",
-      "summary": "Core engine for Ploston - Deterministic Agent Execution Layer",
-      "pub_date": 1770002678
-    },
-    {
-      "name": "rbln-replaypulse",
-      "version": "2.0.1",
-      "summary": "RBLN-replayPulse",
-      "pub_date": 1770002648
-    },
-    {
-      "name": "md2hwpx",
+      "name": "xgen-doc2chunk",
       "version": "0.1.1",
-      "summary": "Convert Markdown to HWPX (Korean Hancom Office format)",
-      "pub_date": 1770002637
+      "summary": "Convert raw documents into AI-understandable context with intelligent text extraction, table detection, and semantic chunking",
+      "pub_date": 1770006516
     },
     {
-      "name": "cloudbrain-modules",
-      "version": "1.0.7",
-      "summary": "CloudBrain Modules - AI blog, community, and bug tracking features",
-      "pub_date": 1770002628
+      "name": "odoo12-addon-stock-picking-batch-extended",
+      "version": "12.0.1.3.1.99.dev9",
+      "summary": "Allows manage a lot of pickings in batch",
+      "pub_date": 1770006511
     },
     {
-      "name": "iflow-mcp_ericwanghp_mcp-server",
+      "name": "kmds",
       "version": "0.1.0",
-      "summary": "MCP Server configuration-driven ModelContextProtocol (MCP) server designed for ComfyUI.",
-      "pub_date": 1770002592
+      "summary": "Add your description here",
+      "pub_date": 1770006500
     },
     {
-      "name": "iflow-mcp_singlestore-labs_singlestore_mcp_server",
-      "version": "0.4.14",
-      "summary": "SingleStore MCP server",
-      "pub_date": 1770002587
+      "name": "odoo-addon-stock-cycle-count",
+      "version": "18.0.1.0.1.4",
+      "summary": "Adds the capability to schedule cycle counts in a warehouse through different rules defined by the user.",
+      "pub_date": 1770006464
     },
     {
-      "name": "hex-device",
-      "version": "1.3.15b3",
-      "summary": "A Python library for controlling HexDevice robots and devices",
-      "pub_date": 1770002580
+      "name": "openintent",
+      "version": "0.4.7",
+      "summary": "Python SDK and Server for the OpenIntent Coordination Protocol",
+      "pub_date": 1770006462
+    },
+    {
+      "name": "yutori-mcp",
+      "version": "0.1.7",
+      "summary": "MCP server for Yutori - web monitoring, deep research, and browser automation",
+      "pub_date": 1770006434
+    },
+    {
+      "name": "regexplayground",
+      "version": "2.1.0",
+      "summary": "Playground for Python Regular Expressions. Also includes cheatsheet and interactive examples.",
+      "pub_date": 1770006400
+    },
+    {
+      "name": "satori-python-adapter-qq",
+      "version": "0.1.0",
+      "summary": "Satori Protocol SDK for python, adapter for QQ",
+      "pub_date": 1770006379
+    },
+    {
+      "name": "arango-entity-resolution",
+      "version": "3.1.1",
+      "summary": "A production-ready entity resolution system for ArangoDB using record blocking, graph algorithms, and AI.",
+      "pub_date": 1770006373
+    },
+    {
+      "name": "langchain-cockroachdb",
+      "version": "0.1.0",
+      "summary": "LangChain integration for CockroachDB with native vector support",
+      "pub_date": 1770006367
+    },
+    {
+      "name": "iflow-mcp_evangstav_memory-mcp-server",
+      "version": "0.2.0",
+      "summary": "MCP server for managing Claude's memory and knowledge graph",
+      "pub_date": 1770006352
+    },
+    {
+      "name": "wtf-dev",
+      "version": "0.1.0",
+      "summary": "What did I work on? A snarky standup generator.",
+      "pub_date": 1770006260
     },
     {
       "name": "judge-llm",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "summary": "A lightweight LLM evaluation framework for comparing and testing AI providers",
-      "pub_date": 1770002574
+      "pub_date": 1770006239
     },
     {
-      "name": "bottomofthesea",
-      "version": "0.6.1",
-      "summary": "Decodes hidden materials in the video from the Land At The Bottom Of The Sea project",
-      "pub_date": 1770002557
+      "name": "llmops-observability",
+      "version": "21.0.0",
+      "summary": "LLMOps Observability SDK: decorators + SQS dispatch with compression",
+      "pub_date": 1770006237
     },
     {
-      "name": "db-connect-mcp",
-      "version": "0.3.1",
-      "summary": "Multi-database MCP server for PostgreSQL, MySQL, and ClickHouse",
-      "pub_date": 1770002528
+      "name": "bukka",
+      "version": "0.0.6",
+      "summary": "ML Project Quickstart",
+      "pub_date": 1770006235
     },
     {
-      "name": "axe-cli",
-      "version": "1.7.8",
-      "summary": "axe, yerrrr",
-      "pub_date": 1770002490
+      "name": "iflow-mcp_i-akiya_shiranui",
+      "version": "0.1.0",
+      "summary": "CDISC Library Retriever: A tool to retrieve the metadata from CDISC Library.",
+      "pub_date": 1770006179
     },
     {
-      "name": "Jarvis-Brain",
-      "version": "0.1.11.6",
-      "summary": "Jarvis brain mcp",
-      "pub_date": 1770002489
+      "name": "satori-python-adapter-onebot11",
+      "version": "0.3.0",
+      "summary": "Satori Protocol SDK for python, adapter for OneBot 11",
+      "pub_date": 1770006175
     },
     {
-      "name": "pyoccam",
-      "version": "0.9.4",
-      "summary": "OCCAM Reconstructability Analysis Tools",
-      "pub_date": 1770002484
+      "name": "satori-python-adapter-milky",
+      "version": "0.2.0",
+      "summary": "Satori Protocol SDK for python, adapter for Milky",
+      "pub_date": 1770006169
     },
     {
-      "name": "mvision",
-      "version": "0.0.2",
-      "summary": "计算机视觉工具包",
-      "pub_date": 1770002473
+      "name": "feid-mas",
+      "version": "0.1.1a1",
+      "summary": "Framework Experimental para Integracion de Datos (FEID) - Multi-Agent Systems",
+      "pub_date": 1770006162
     },
     {
-      "name": "athena-intelligence",
-      "version": "0.1.518",
-      "summary": "Athena Intelligence Python Library",
-      "pub_date": 1770002450
+      "name": "fastapi-rest-toolkit",
+      "version": "0.0.4",
+      "summary": "类DRF风格的FastAPI工具包",
+      "pub_date": 1770006143
     },
     {
-      "name": "repository-manager",
-      "version": "1.2.18",
-      "summary": "Manage your git projects",
-      "pub_date": 1770002428
+      "name": "python-cptv",
+      "version": "0.0.9",
+      "summary": "This is Python package provides for quick parsing Cacophony Project Thermal Video (CPTV) files. ",
+      "pub_date": 1770006114
     },
     {
-      "name": "pyspark-cdc",
-      "version": "1.0.0",
-      "summary": "A Python library for Change Data Capture (CDC) workflows using PySpark and Delta Lake.",
-      "pub_date": 1770002418
+      "name": "datavalue",
+      "version": "0.1.6",
+      "summary": "Librería de tipos de datos primitivos y complejos",
+      "pub_date": 1770006100
     },
     {
-      "name": "socx-cli",
-      "version": "0.12.0",
-      "summary": "System on chip verification and tooling infrastructure.",
-      "pub_date": 1770002414
+      "name": "satori-python-adapter-satori",
+      "version": "0.3.0",
+      "summary": "Satori Protocol SDK for python, adapter for Satori",
+      "pub_date": 1770006095
     },
     {
-      "name": "pyemsi",
+      "name": "cloudbrain-client",
+      "version": "1.1.2",
+      "summary": "CloudBrain Client - AI collaboration and communication system with AI-to-AI collaboration support",
+      "pub_date": 1770006094
+    },
+    {
+      "name": "ezmsg-sigproc",
+      "version": "2.12.0",
+      "summary": "Timeseries signal processing implementations in ezmsg",
+      "pub_date": 1770006078
+    },
+    {
+      "name": "keep-protocol",
+      "version": "0.1.1",
+      "summary": "Signed protobuf packets over TCP for AI agent-to-agent communication",
+      "pub_date": 1770006069
+    },
+    {
+      "name": "satori-python-server",
+      "version": "0.18.0",
+      "summary": "Satori Protocol SDK for python, specify server part",
+      "pub_date": 1770006069
+    },
+    {
+      "name": "odoo-addon-spreadsheet-dashboard-purchase-stock-oca",
+      "version": "18.0.1.0.0.7",
+      "summary": "Spreadsheet dashboard for purchases",
+      "pub_date": 1770006063
+    },
+    {
+      "name": "satori-python-client",
+      "version": "0.18.0",
+      "summary": "Satori Protocol SDK for python, specify client part",
+      "pub_date": 1770006060
+    },
+    {
+      "name": "memic",
+      "version": "0.1.0",
+      "summary": "Python SDK for the Memic Context Engineering API",
+      "pub_date": 1770006059
+    },
+    {
+      "name": "satori-python-core",
+      "version": "0.18.0",
+      "summary": "Satori Protocol SDK for python, specify common part",
+      "pub_date": 1770006049
+    },
+    {
+      "name": "iflow-mcp_kyryl-opens-ml_mcp-server-dagster",
       "version": "0.1.2",
-      "summary": "Python tools EMSolution output visualization",
-      "pub_date": 1770002411
+      "summary": "Add your description here",
+      "pub_date": 1770005955
     },
     {
-      "name": "sunwaee-gen",
-      "version": "0.1.8",
-      "summary": "All LLMs, one response format.",
-      "pub_date": 1770002386
+      "name": "emdash-ai",
+      "version": "0.1.112",
+      "summary": "Graph-based coding intelligence system - The 'Senior Engineer' Context Engine",
+      "pub_date": 1770005935
     },
     {
-      "name": "sqlframe",
-      "version": "3.46.1",
-      "summary": "Turning PySpark Into a Universal DataFrame API",
-      "pub_date": 1770002360
+      "name": "emdash-cli",
+      "version": "0.1.112",
+      "summary": "EmDash CLI - Command-line interface for code intelligence",
+      "pub_date": 1770005928
+    },
+    {
+      "name": "emdash-core",
+      "version": "0.1.112",
+      "summary": "EmDash Core - FastAPI server for code intelligence",
+      "pub_date": 1770005922
+    },
+    {
+      "name": "aonyx",
+      "version": "0.1.0.dev3",
+      "summary": null,
+      "pub_date": 1770005913
+    },
+    {
+      "name": "cloudbrain-server",
+      "version": "1.2.0",
+      "summary": "CloudBrain Server - AI collaboration platform with WebSocket support",
+      "pub_date": 1770005903
+    },
+    {
+      "name": "satori-python",
+      "version": "0.18.0",
+      "summary": "Satori Protocol SDK for python",
+      "pub_date": 1770005897
+    },
+    {
+      "name": "novyx",
+      "version": "0.1.2",
+      "summary": "Memory + security layer for AI agents. Persistent memory, semantic search, and Magic Rollback.",
+      "pub_date": 1770005884
+    },
+    {
+      "name": "aiinbx",
+      "version": "0.365.0",
+      "summary": "The official Python library for the AIInbx API",
+      "pub_date": 1770005843
+    },
+    {
+      "name": "local-deep-research",
+      "version": "1.3.47",
+      "summary": "AI-powered research assistant with deep, iterative analysis using LLMs and web searches",
+      "pub_date": 1770005820
+    },
+    {
+      "name": "odoo-addon-fetchmail-attach-from-folder",
+      "version": "16.0.1.7.0.1",
+      "summary": "Attach mails in an IMAP folder to existing objects",
+      "pub_date": 1770005804
+    },
+    {
+      "name": "omni-message-provider",
+      "version": "0.2.1",
+      "summary": "Unified message provider interface for Discord, Slack, Jira, and custom platforms with distributed relay support",
+      "pub_date": 1770005780
     },
     {
       "name": "atdd",
-      "version": "0.5.0",
+      "version": "0.6.1",
       "summary": "ATDD Platform - Acceptance Test Driven Development toolkit",
-      "pub_date": 1770002345
-    },
-    {
-      "name": "nextcloud-agent",
-      "version": "0.1.1",
-      "summary": "Nextcloud MCP Server for Agentic AI!",
-      "pub_date": 1770002315
+      "pub_date": 1770005771
     }
   ],
   "license": {
     "licenses": {
-      "GPL version 2": 14,
-      "Apache 2.0 License": 5,
-      "LGPLv3": 28,
-      "BSD-3": 15,
-      "BSD 3-Clause": 18,
-      "CC BY-NC-SA 4.0": 2,
-      "GPL-2.0-only": 17,
-      "Apache 2": 7,
-      "Apache": 28,
-      "ASL": 1,
-      "Apache-2.0": 2260,
-      "BSD-3-Clause-Clear": 4,
-      "GPL-2.0-or-later": 127,
-      "LGPL-3.0-or-later": 42,
-      "GPL3": 7,
-      "GPL-3.0-or-later": 341,
-      "AGPL-3": 287,
-      "BSD": 53,
-      "BSD (3-clause)": 2,
-      "AGPL-3.0-only": 36,
-      "Apache 2.0": 162,
-      "GPLv2+": 4,
-      "MPL-2.0": 73,
-      "GPLv3": 71,
-      "FreeBSD": 2,
-      "AFL-3.0": 0,
-      "BSD-3-Clause": 376,
-      "BSD-3-clause": 0,
-      "AGPL-3.0-or-later": 112,
-      "EUPL-1.2-or-later": 2,
-      "GNU": 2,
-      "GNU GPL v3.0": 1,
-      "GPL-2.0": 6,
-      "GPLv3+": 12,
-      "MIT license": 23,
-      "Proprietary": 149,
-      "LGPL-3.0-only": 17,
-      "Elastic-2.0": 34,
-      "AGPL 3.0": 4,
-      "LGPL 3.0": 2,
-      "MIT OR Apache-2.0": 29,
-      "LGPL-2.1-or-later": 8,
-      "Artistic-2.0": 0,
-      "GPL-3.0-only": 91,
-      "LGPL-3": 40,
-      "GPL License": 0,
-      "GPL-2+": 1,
-      "MPL": 0,
-      "AGPLv3": 3,
-      "Elastic License 2.0": 2,
-      "MIT": 7494,
-      "gpl": 0,
-      "EUPL 1.1+": 0,
-      "BSD-2-Clause": 44,
-      "ISC": 24,
-      "Apache 2.0 license": 0,
-      "EUPL-1.2": 16,
-      "Apache License": 6,
-      "Apache v2.0": 2,
-      "Apache-2": 8,
-      "Apache License 2.0": 279,
-      "AGPL": 12,
-      "AGPL-3.0": 89,
-      "Apache-2.0 license": 5,
-      "BSD-Clause-2": 1,
-      "BSD License": 16,
-      "Mulan PSL v2": 2,
-      "GPL-3.0": 86,
-      "ELv2": 5,
-      "GPL 3.0": 4,
       "GPL": 13,
-      "GPL-3": 19,
+      "EUPL-1.2-or-later": 2,
+      "GPLv2+": 4,
+      "AGPL-3.0": 90,
+      "ISC": 24,
+      "EUPL 1.1+": 0,
+      "EUPL-1.2": 16,
+      "BSD (3-clause)": 2,
+      "LGPLv3": 28,
+      "AGPL-3.0-only": 36,
+      "AGPL": 12,
       "BSD 2-CLAUSE": 1,
-      "MIT License": 190
+      "BSD-3-clause": 0,
+      "LGPL-3": 42,
+      "AGPL-3": 293,
+      "BSD-2-Clause": 44,
+      "GPL License": 0,
+      "AGPL 3.0": 4,
+      "GPLv3": 71,
+      "MIT OR Apache-2.0": 29,
+      "ASL": 1,
+      "Apache-2.0": 2267,
+      "CC BY-NC-SA 4.0": 2,
+      "MIT": 7509,
+      "AGPLv3": 3,
+      "gpl": 0,
+      "GPL-2.0-or-later": 127,
+      "Mulan PSL v2": 2,
+      "GPL3": 7,
+      "Elastic-2.0": 34,
+      "GPL-2+": 1,
+      "GPL version 2": 14,
+      "GPL-3.0-or-later": 341,
+      "Apache 2.0 License": 5,
+      "AFL-3.0": 0,
+      "Apache 2": 7,
+      "GPL-2.0": 6,
+      "Apache-2.0 license": 5,
+      "AGPL-3.0-or-later": 112,
+      "BSD-3": 15,
+      "Apache": 28,
+      "GPL-3.0": 86,
+      "GPL-3.0-only": 91,
+      "MPL-2.0": 73,
+      "Apache 2.0": 162,
+      "MPL": 0,
+      "LGPL-2.1-or-later": 8,
+      "BSD-3-Clause": 376,
+      "BSD": 53,
+      "LGPL 3.0": 2,
+      "Proprietary": 149,
+      "Artistic-2.0": 0,
+      "GPL-3": 19,
+      "MIT License": 190,
+      "BSD License": 16,
+      "BSD-3-Clause-Clear": 4,
+      "ELv2": 5,
+      "Apache-2": 8,
+      "GPL 3.0": 4,
+      "LGPL-3.0-or-later": 42,
+      "Apache 2.0 license": 0,
+      "GPL-2.0-only": 17,
+      "LGPL-3.0-only": 17,
+      "Apache License": 6,
+      "Elastic License 2.0": 2,
+      "GNU": 2,
+      "GPLv3+": 12,
+      "BSD-Clause-2": 1,
+      "BSD 3-Clause": 18,
+      "MIT license": 23,
+      "FreeBSD": 2,
+      "Apache License 2.0": 279,
+      "GNU GPL v3.0": 1,
+      "Apache v2.0": 2
     },
-    "no_license_count": 5514,
+    "no_license_count": 5524,
     "no_license": [
+      {
+        "name": "kmds",
+        "version": "0.1.0",
+        "summary": "Add your description here",
+        "pub_date": 1770006500
+      },
+      {
+        "name": "regexplayground",
+        "version": "2.1.0",
+        "summary": "Playground for Python Regular Expressions. Also includes cheatsheet and interactive examples.",
+        "pub_date": 1770006400
+      },
+      {
+        "name": "iflow-mcp_evangstav_memory-mcp-server",
+        "version": "0.2.0",
+        "summary": "MCP server for managing Claude's memory and knowledge graph",
+        "pub_date": 1770006352
+      },
+      {
+        "name": "wtf-dev",
+        "version": "0.1.0",
+        "summary": "What did I work on? A snarky standup generator.",
+        "pub_date": 1770006260
+      },
+      {
+        "name": "llmops-observability",
+        "version": "21.0.0",
+        "summary": "LLMOps Observability SDK: decorators + SQS dispatch with compression",
+        "pub_date": 1770006237
+      },
+      {
+        "name": "iflow-mcp_i-akiya_shiranui",
+        "version": "0.1.0",
+        "summary": "CDISC Library Retriever: A tool to retrieve the metadata from CDISC Library.",
+        "pub_date": 1770006179
+      },
+      {
+        "name": "python-cptv",
+        "version": "0.0.9",
+        "summary": "This is Python package provides for quick parsing Cacophony Project Thermal Video (CPTV) files. ",
+        "pub_date": 1770006114
+      },
+      {
+        "name": "datavalue",
+        "version": "0.1.6",
+        "summary": "Librería de tipos de datos primitivos y complejos",
+        "pub_date": 1770006100
+      },
+      {
+        "name": "iflow-mcp_kyryl-opens-ml_mcp-server-dagster",
+        "version": "0.1.2",
+        "summary": "Add your description here",
+        "pub_date": 1770005955
+      },
+      {
+        "name": "emdash-ai",
+        "version": "0.1.112",
+        "summary": "Graph-based coding intelligence system - The 'Senior Engineer' Context Engine",
+        "pub_date": 1770005935
+      },
+      {
+        "name": "emdash-cli",
+        "version": "0.1.112",
+        "summary": "EmDash CLI - Command-line interface for code intelligence",
+        "pub_date": 1770005928
+      },
+      {
+        "name": "emdash-core",
+        "version": "0.1.112",
+        "summary": "EmDash Core - FastAPI server for code intelligence",
+        "pub_date": 1770005922
+      },
+      {
+        "name": "aonyx",
+        "version": "0.1.0.dev3",
+        "summary": null,
+        "pub_date": 1770005913
+      },
+      {
+        "name": "novyx",
+        "version": "0.1.2",
+        "summary": "Memory + security layer for AI agents. Persistent memory, semantic search, and Magic Rollback.",
+        "pub_date": 1770005884
+      },
+      {
+        "name": "talktollm",
+        "version": "0.8.1",
+        "summary": "A Python utility for interacting with large language models (LLMs) via web automation",
+        "pub_date": 1770005711
+      },
+      {
+        "name": "wayfinder-paths",
+        "version": "0.1.29",
+        "summary": "Wayfinder Path: strategies and adapters",
+        "pub_date": 1770005702
+      },
+      {
+        "name": "wmiexec-ng",
+        "version": "1.0.2",
+        "summary": "WMI command execution tool which doesn't require 445; output exfil over HTTPS.",
+        "pub_date": 1770005697
+      },
+      {
+        "name": "SHRY",
+        "version": "1.2.0a1",
+        "summary": null,
+        "pub_date": 1770005624
+      },
+      {
+        "name": "halib",
+        "version": "0.2.33",
+        "summary": "Small library for common tasks",
+        "pub_date": 1770005545
+      },
+      {
+        "name": "PyToolsgr",
+        "version": "0.0.3",
+        "summary": "A lightweight 2D/3D game engine based on Ursina",
+        "pub_date": 1770005496
+      },
+      {
+        "name": "FlowAnalyzer",
+        "version": "0.4.6",
+        "summary": "FlowAnalyzer是一个流量分析器，用于解析和处理tshark导出的JSON数据文件",
+        "pub_date": 1770005194
+      },
+      {
+        "name": "polars-sgt",
+        "version": "0.2.0",
+        "summary": "Sequence Graph Transform (SGT) for Polars - Transform sequential data into weighted n-gram representations",
+        "pub_date": 1770005140
+      },
+      {
+        "name": "iflow-mcp_amidvidy_anki-mcp",
+        "version": "0.1.0",
+        "summary": "Add your description here",
+        "pub_date": 1770005000
+      },
       {
         "name": "iflow-mcp_msnidal_yellhorn-mcp",
         "version": "0.8.1",
@@ -484,12 +622,6 @@
         "pub_date": 1770001958
       },
       {
-        "name": "wayfinder-paths",
-        "version": "0.1.28",
-        "summary": "Wayfinder Path: strategies and adapters",
-        "pub_date": 1770001941
-      },
-      {
         "name": "edgework",
         "version": "0.6.0",
         "summary": null,
@@ -532,12 +664,6 @@
         "pub_date": 1769992952
       },
       {
-        "name": "orthos",
-        "version": "0.1.0",
-        "summary": "High-performance linear algebra library written in Rust",
-        "pub_date": 1769992862
-      },
-      {
         "name": "py-alpha-lib",
         "version": "0.1.1",
         "summary": "Alpha Library: A high-performance rolling window calculation library implemented in Rust with Python bindings. Used for financial data analysis and factor research.",
@@ -554,141 +680,21 @@
         "version": "0.2.11",
         "summary": "a simple, fast, and powerful particle simulator",
         "pub_date": 1769992288
-      },
-      {
-        "name": "dbdicom",
-        "version": "0.3.20",
-        "summary": "A pythonic interface for reading and writing DICOM databases",
-        "pub_date": 1769992285
-      },
-      {
-        "name": "aisbom-cli",
-        "version": "0.6.0",
-        "summary": "An AI Supply Chain security tool that that detects Pickle bombs and generates CycloneDX SBOMs for Machine Learning models.",
-        "pub_date": 1769992118
-      },
-      {
-        "name": "interactive-pipe",
-        "version": "0.8.9",
-        "summary": "Library to create flexible interactive image processing pipelines and automatically add a graphical user interface without knowing anything about GUI coding!",
-        "pub_date": 1769991884
-      },
-      {
-        "name": "emdash-cli",
-        "version": "0.1.109",
-        "summary": "EmDash CLI - Command-line interface for code intelligence",
-        "pub_date": 1769991719
-      },
-      {
-        "name": "emdash-core",
-        "version": "0.1.109",
-        "summary": "EmDash Core - FastAPI server for code intelligence",
-        "pub_date": 1769991713
-      },
-      {
-        "name": "regula-facesdk-webclient",
-        "version": "8.1.517.dev0",
-        "summary": "Regula's FaceSDK web python client",
-        "pub_date": 1769991680
-      },
-      {
-        "name": "ai-edge-quantizer-nightly",
-        "version": "0.5.0.dev20260202",
-        "summary": "A quantizer for advanced developers to quantize converted AI Edge models.",
-        "pub_date": 1769991524
-      },
-      {
-        "name": "wordhelpers",
-        "version": "0.1.5",
-        "summary": "Helpers for working with python-docx",
-        "pub_date": 1769991223
-      },
-      {
-        "name": "trd-utils",
-        "version": "0.0.63",
-        "summary": "Common Basic Utils for Python3. By ALiwoto.",
-        "pub_date": 1769991186
-      },
-      {
-        "name": "pinetext",
-        "version": "0.1.11",
-        "summary": "PineText",
-        "pub_date": 1769990716
-      },
-      {
-        "name": "vector-ta",
-        "version": "0.1.2",
-        "summary": "High-performance technical analysis indicators with optional SIMD/CUDA and language bindings.",
-        "pub_date": 1769990637
-      },
-      {
-        "name": "aurorapay",
-        "version": "1.0.0",
-        "summary": "Python SDK для AuroraPay Payment API",
-        "pub_date": 1769990635
-      },
-      {
-        "name": "signalflow-ta",
-        "version": "0.3.1",
-        "summary": "Technical analysis extension for signalflow-trading.",
-        "pub_date": 1769990441
-      },
-      {
-        "name": "polars-uuid",
-        "version": "0.5.4",
-        "summary": null,
-        "pub_date": 1769990067
-      },
-      {
-        "name": "graflo",
-        "version": "1.4.5",
-        "summary": "A framework for transforming tabular (CSV, SQL) and hierarchical data (JSON, XML) into property graphs and ingesting them into graph databases (ArangoDB, Neo4j, TigerGraph). Features automatic PostgreSQL schema inference.",
-        "pub_date": 1769989724
-      },
-      {
-        "name": "traces",
-        "version": "0.7.0",
-        "summary": "A Python library for unevenly-spaced time series analysis",
-        "pub_date": 1769989577
-      },
-      {
-        "name": "ezpanos",
-        "version": "0.2.4",
-        "summary": "A lightweight PanOS (Palo Alto Netoworks) firewall Management utility.",
-        "pub_date": 1769989460
-      },
-      {
-        "name": "fal",
-        "version": "1.69.1",
-        "summary": "fal is an easy-to-use Serverless Python Framework",
-        "pub_date": 1769989209
-      },
-      {
-        "name": "hackmudChatAPI",
-        "version": "0.0.20.6",
-        "summary": "A python implementation of the hackmud chat API, using the requests module.",
-        "pub_date": 1769989050
-      },
-      {
-        "name": "emdash-ai",
-        "version": "0.1.108",
-        "summary": "Graph-based coding intelligence system - The 'Senior Engineer' Context Engine",
-        "pub_date": 1769989043
-      },
-      {
-        "name": "tagmapper",
-        "version": "0.8.4",
-        "summary": "Python wrapper for Equinor SPD tag mapping database",
-        "pub_date": 1769988713
       }
     ],
-    "bad_license_count": 499,
+    "bad_license_count": 500,
     "bad_license": [
       {
         "name": "judge-llm",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "summary": "A lightweight LLM evaluation framework for comparing and testing AI providers",
-        "pub_date": 1770002574
+        "pub_date": 1770006239
+      },
+      {
+        "name": "LedFx",
+        "version": "2.1.3",
+        "summary": "A network based light effect controller",
+        "pub_date": 1770005701
       },
       {
         "name": "lifx-emulator-core",
@@ -977,16 +983,34 @@
         "version": "0.0.13",
         "summary": "Pyrogram support module for Telegram VoIP Library for Python",
         "pub_date": 1769870789
-      },
-      {
-        "name": "stefano-pytgvoip",
-        "version": "0.0.7.5",
-        "summary": "Telegram VoIP Library for Python",
-        "pub_date": 1769869578
       }
     ],
-    "long_license_count": 2262,
+    "long_license_count": 2263,
     "long_license": [
+      {
+        "name": "local-deep-research",
+        "version": "1.3.47",
+        "summary": "AI-powered research assistant with deep, iterative analysis using LLMs and web searches",
+        "pub_date": 1770005820
+      },
+      {
+        "name": "hhi",
+        "version": "6.22.2",
+        "summary": "HHI photonics PDK",
+        "pub_date": 1770005556
+      },
+      {
+        "name": "yee88",
+        "version": "0.8.0",
+        "summary": "Telegram bridge for Codex, Claude Code, and other agent CLIs.",
+        "pub_date": 1770005134
+      },
+      {
+        "name": "wtr-watcher",
+        "version": "0.14.4",
+        "summary": "Filesystem watcher. Works anywhere. Simple, efficient, and friendly.",
+        "pub_date": 1770004940
+      },
       {
         "name": "sunwaee-gen",
         "version": "0.1.8",
@@ -1058,12 +1082,6 @@
         "version": "0.3.0",
         "summary": "Django integration with for nh3, Python binding to Ammonia HTML sanitizer Rust crate.",
         "pub_date": 1769989510
-      },
-      {
-        "name": "local-deep-research",
-        "version": "1.3.46",
-        "summary": "AI-powered research assistant with deep, iterative analysis using LLMs and web searches",
-        "pub_date": 1769989486
       },
       {
         "name": "danube",
@@ -1268,35 +1286,155 @@
         "version": "10.8.1rc0",
         "summary": "passagemath: Documentation in HTML format",
         "pub_date": 1769977489
-      },
-      {
-        "name": "onvif-parsers",
-        "version": "1.1.0",
-        "summary": "Parsers for ONVIF events",
-        "pub_date": 1769977424
-      },
-      {
-        "name": "cryptoadvance-specter",
-        "version": "2.1.2rc4",
-        "summary": "A GUI for Bitcoin Core & Electrum optimised to work with airgapped hardware wallets",
-        "pub_date": 1769976844
-      },
-      {
-        "name": "bandersnatch",
-        "version": "7.1.0",
-        "summary": "Mirroring tool that implements the client (mirror) side of PEP 381",
-        "pub_date": 1769976682
       }
     ]
   },
   "vcs": {
     "hosts": {
-      "github": 13445,
       "other": 84,
+      "github": 13480,
       "gitlab": 225
     },
-    "no_vcs_count": 5581,
+    "no_vcs_count": 5589,
     "no_vcs": [
+      {
+        "name": "odoo-venv",
+        "version": "1.0.2",
+        "summary": "A command-line tool to spin up isolated Odoo dev environment in seconds.",
+        "pub_date": 1770006527
+      },
+      {
+        "name": "kmds",
+        "version": "0.1.0",
+        "summary": "Add your description here",
+        "pub_date": 1770006500
+      },
+      {
+        "name": "iflow-mcp_evangstav_memory-mcp-server",
+        "version": "0.2.0",
+        "summary": "MCP server for managing Claude's memory and knowledge graph",
+        "pub_date": 1770006352
+      },
+      {
+        "name": "wtf-dev",
+        "version": "0.1.0",
+        "summary": "What did I work on? A snarky standup generator.",
+        "pub_date": 1770006260
+      },
+      {
+        "name": "llmops-observability",
+        "version": "21.0.0",
+        "summary": "LLMOps Observability SDK: decorators + SQS dispatch with compression",
+        "pub_date": 1770006237
+      },
+      {
+        "name": "iflow-mcp_i-akiya_shiranui",
+        "version": "0.1.0",
+        "summary": "CDISC Library Retriever: A tool to retrieve the metadata from CDISC Library.",
+        "pub_date": 1770006179
+      },
+      {
+        "name": "python-cptv",
+        "version": "0.0.9",
+        "summary": "This is Python package provides for quick parsing Cacophony Project Thermal Video (CPTV) files. ",
+        "pub_date": 1770006114
+      },
+      {
+        "name": "datavalue",
+        "version": "0.1.6",
+        "summary": "Librería de tipos de datos primitivos y complejos",
+        "pub_date": 1770006100
+      },
+      {
+        "name": "ezmsg-sigproc",
+        "version": "2.12.0",
+        "summary": "Timeseries signal processing implementations in ezmsg",
+        "pub_date": 1770006078
+      },
+      {
+        "name": "iflow-mcp_kyryl-opens-ml_mcp-server-dagster",
+        "version": "0.1.2",
+        "summary": "Add your description here",
+        "pub_date": 1770005955
+      },
+      {
+        "name": "emdash-ai",
+        "version": "0.1.112",
+        "summary": "Graph-based coding intelligence system - The 'Senior Engineer' Context Engine",
+        "pub_date": 1770005935
+      },
+      {
+        "name": "emdash-cli",
+        "version": "0.1.112",
+        "summary": "EmDash CLI - Command-line interface for code intelligence",
+        "pub_date": 1770005928
+      },
+      {
+        "name": "emdash-core",
+        "version": "0.1.112",
+        "summary": "EmDash Core - FastAPI server for code intelligence",
+        "pub_date": 1770005922
+      },
+      {
+        "name": "aonyx",
+        "version": "0.1.0.dev3",
+        "summary": null,
+        "pub_date": 1770005913
+      },
+      {
+        "name": "atdd",
+        "version": "0.6.1",
+        "summary": "ATDD Platform - Acceptance Test Driven Development toolkit",
+        "pub_date": 1770005771
+      },
+      {
+        "name": "wayfinder-paths",
+        "version": "0.1.29",
+        "summary": "Wayfinder Path: strategies and adapters",
+        "pub_date": 1770005702
+      },
+      {
+        "name": "LedFx",
+        "version": "2.1.3",
+        "summary": "A network based light effect controller",
+        "pub_date": 1770005701
+      },
+      {
+        "name": "hhi",
+        "version": "6.22.2",
+        "summary": "HHI photonics PDK",
+        "pub_date": 1770005556
+      },
+      {
+        "name": "halib",
+        "version": "0.2.33",
+        "summary": "Small library for common tasks",
+        "pub_date": 1770005545
+      },
+      {
+        "name": "hvym-stellar",
+        "version": "0.22.0",
+        "summary": "Heavymeta Stellar Utilities for Python , By: Fibo Metavinci",
+        "pub_date": 1770005414
+      },
+      {
+        "name": "plato-sdk-v2",
+        "version": "2.8.5",
+        "summary": "Python SDK for the Plato API",
+        "pub_date": 1770005366
+      },
+      {
+        "name": "iflow-mcp_amidvidy_anki-mcp",
+        "version": "0.1.0",
+        "summary": "Add your description here",
+        "pub_date": 1770005000
+      },
+      {
+        "name": "wtr-watcher",
+        "version": "0.14.4",
+        "summary": "Filesystem watcher. Works anywhere. Simple, efficient, and friendly.",
+        "pub_date": 1770004940
+      },
       {
         "name": "iflow-mcp_msnidal_yellhorn-mcp",
         "version": "0.8.1",
@@ -1388,12 +1526,6 @@
         "pub_date": 1770002386
       },
       {
-        "name": "atdd",
-        "version": "0.5.0",
-        "summary": "ATDD Platform - Acceptance Test Driven Development toolkit",
-        "pub_date": 1770002345
-      },
-      {
         "name": "nextcloud-agent",
         "version": "0.1.1",
         "summary": "Nextcloud MCP Server for Agentic AI!",
@@ -1422,12 +1554,6 @@
         "version": "1.1.1",
         "summary": "A lightweight Non-ORM with a builder pattern for querying a postgres database",
         "pub_date": 1770001958
-      },
-      {
-        "name": "wayfinder-paths",
-        "version": "0.1.28",
-        "summary": "Wayfinder Path: strategies and adapters",
-        "pub_date": 1770001941
       },
       {
         "name": "longhouse",
@@ -1470,132 +1596,6 @@
         "version": "0.1.0",
         "summary": "Microsoft Graph Agent MCP Server",
         "pub_date": 1770001747
-      },
-      {
-        "name": "markovrcnet",
-        "version": "1.0.0",
-        "summary": "Markov Random Chain Network utilities",
-        "pub_date": 1769993687
-      },
-      {
-        "name": "policyengine-us",
-        "version": "1.542.1",
-        "summary": "Add your description here.",
-        "pub_date": 1769993630
-      },
-      {
-        "name": "batabyal",
-        "version": "1.0.1",
-        "summary": "Data cleaning and automated ML model selection package",
-        "pub_date": 1769993623
-      },
-      {
-        "name": "tui-utilities",
-        "version": "1.0.26",
-        "summary": "Personal-use console utilities library",
-        "pub_date": 1769993409
-      },
-      {
-        "name": "lifx-emulator-core",
-        "version": "3.2.0",
-        "summary": "Core LIFX Emulator library for testing LIFX LAN protocol libraries",
-        "pub_date": 1769993292
-      },
-      {
-        "name": "codenose",
-        "version": "0.1.0",
-        "summary": "Code smell detection for LLMs - sniffs out duplicate logic, architecture violations, and other blind spots",
-        "pub_date": 1769993237
-      },
-      {
-        "name": "tng-python",
-        "version": "0.4.0",
-        "summary": "TNG Python - Automated Test Generation for Python",
-        "pub_date": 1769993188
-      },
-      {
-        "name": "orthos",
-        "version": "0.1.0",
-        "summary": "High-performance linear algebra library written in Rust",
-        "pub_date": 1769992862
-      },
-      {
-        "name": "ytrag",
-        "version": "2.0.0",
-        "summary": "YouTube transcripts to RAG-ready volumes",
-        "pub_date": 1769992776
-      },
-      {
-        "name": "synkro",
-        "version": "0.5.32",
-        "summary": "Curate, evaluate, and ship LLM datasets from any document",
-        "pub_date": 1769992523
-      },
-      {
-        "name": "truthound-dashboard",
-        "version": "1.5.2",
-        "summary": "Open-source data quality dashboard - GX Cloud alternative",
-        "pub_date": 1769992409
-      },
-      {
-        "name": "geoservercloud",
-        "version": "0.8.4.dev2",
-        "summary": "Lightweight Python client to interact with GeoServer Cloud REST API, GeoServer ACL and OGC services",
-        "pub_date": 1769992049
-      },
-      {
-        "name": "analysis3054",
-        "version": "0.4.9",
-        "summary": "Advanced time-series analytics and forecasting toolkit for commodity and power trading",
-        "pub_date": 1769992030
-      },
-      {
-        "name": "emdash-cli",
-        "version": "0.1.109",
-        "summary": "EmDash CLI - Command-line interface for code intelligence",
-        "pub_date": 1769991719
-      },
-      {
-        "name": "emdash-core",
-        "version": "0.1.109",
-        "summary": "EmDash Core - FastAPI server for code intelligence",
-        "pub_date": 1769991713
-      },
-      {
-        "name": "c2r",
-        "version": "1.0.0",
-        "summary": "Deterministic C++ to Rust Transpiler with Industrial-Grade Static Analysis",
-        "pub_date": 1769991625
-      },
-      {
-        "name": "bristlenose",
-        "version": "0.6.5",
-        "summary": "User-research transcription and quote extraction engine",
-        "pub_date": 1769991272
-      },
-      {
-        "name": "wordhelpers",
-        "version": "0.1.5",
-        "summary": "Helpers for working with python-docx",
-        "pub_date": 1769991223
-      },
-      {
-        "name": "pinetext",
-        "version": "0.1.11",
-        "summary": "PineText",
-        "pub_date": 1769990716
-      },
-      {
-        "name": "signalflow-ta",
-        "version": "0.3.1",
-        "summary": "Technical analysis extension for signalflow-trading.",
-        "pub_date": 1769990441
-      },
-      {
-        "name": "clams-utils",
-        "version": "260131",
-        "summary": "a collection of smaller helper/utility code of CLAMS platform",
-        "pub_date": 1769990343
       }
     ],
     "bad_vcs_count": 1776,
@@ -1901,307 +1901,307 @@
         "pub_date": 1769954742
       }
     ],
-    "github_count": 13445,
+    "github_count": 13480,
     "github_projects": [
       {
-        "name": "odoo-addon-mrp-multi-level-estimate",
-        "version": "17.0.1.1.0.1",
-        "summary": "Allows to consider demand estimates using MRP multi level.",
-        "pub_date": 1770003295
+        "name": "odoo-addon-stock-picking-batch-extended",
+        "version": "15.0.2.5.0.7",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006595
       },
       {
-        "name": "iflow-mcp_strickvl_mcp-beeminder",
-        "version": "0.1.0",
-        "summary": "Beeminder MCP Server",
-        "pub_date": 1770003293
+        "name": "odoo14-addon-stock-picking-batch-extended",
+        "version": "14.0.1.0.3.dev9",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006583
       },
       {
-        "name": "odoo14-addon-quality-control-oca",
-        "version": "14.0.1.4.3.dev6",
-        "summary": "Generic infrastructure for quality tests.",
-        "pub_date": 1770003267
+        "name": "usfmtc",
+        "version": "0.4.4",
+        "summary": "USFM reference parser",
+        "pub_date": 1770006544
       },
       {
-        "name": "odoo-addon-quality-control-oca",
-        "version": "15.0.1.0.0.33",
-        "summary": "Generic infrastructure for quality tests.",
-        "pub_date": 1770003265
+        "name": "odoo13-addon-stock-picking-batch-extended",
+        "version": "13.0.1.3.1.dev11",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006534
       },
       {
-        "name": "pycasbin",
-        "version": "2.8.0",
-        "summary": "An authorization library that supports access control models like ACL, RBAC, ABAC in Python",
-        "pub_date": 1770003252
+        "name": "odoo14-addon-stock-lock-lot",
+        "version": "14.0.1.0.1.dev18",
+        "summary": "Stock Lock Lot",
+        "pub_date": 1770006522
       },
       {
-        "name": "simplex",
-        "version": "2.0.5",
-        "summary": "Official Python SDK for the Simplex API",
-        "pub_date": 1770003238
-      },
-      {
-        "name": "odoo13-addon-quality-control-oca",
-        "version": "13.0.2.2.1.dev25",
-        "summary": "Generic infrastructure for quality tests.",
-        "pub_date": 1770003212
-      },
-      {
-        "name": "odoo12-addon-quality-control",
-        "version": "12.0.1.5.1.99.dev30",
-        "summary": "Generic infrastructure for quality tests.",
-        "pub_date": 1770003193
-      },
-      {
-        "name": "odoo11-addon-quality-control",
-        "version": "11.0.1.1.0.99.dev18",
-        "summary": "Generic infrastructure for quality tests.",
-        "pub_date": 1770003172
-      },
-      {
-        "name": "odoo12-addon-mgmtsystem-nonconformity",
-        "version": "12.0.1.5.0.99.dev24",
-        "summary": "Management System - Nonconformity",
-        "pub_date": 1770003084
-      },
-      {
-        "name": "indexdoc-converter",
-        "version": "0.2.0",
-        "summary": "可以将Word文档(仅.docx)、Excel表格、Html网页、PPt文件 转化为Markdown文件。",
-        "pub_date": 1770002957
-      },
-      {
-        "name": "orbitkit",
-        "version": "0.8.60",
-        "summary": "This project is only for Orbit Tech internal use.",
-        "pub_date": 1770002941
-      },
-      {
-        "name": "agentmemory-exchange",
-        "version": "0.6.1",
-        "summary": "Collective Intelligence for AI Agents - Share and discover learnings",
-        "pub_date": 1770002903
-      },
-      {
-        "name": "kitedb",
-        "version": "0.2.7",
-        "summary": "High-performance embedded graph database with vector search",
-        "pub_date": 1770002867
-      },
-      {
-        "name": "ai-screenshooter",
-        "version": "1.5.0",
-        "summary": "A CLI tool to capture and send AI-powered screenshots",
-        "pub_date": 1770002844
-      },
-      {
-        "name": "onako",
-        "version": "0.4.2",
-        "summary": "Dispatch and monitor Claude Code tasks from your phone",
-        "pub_date": 1770002839
-      },
-      {
-        "name": "torchada",
-        "version": "0.1.28",
-        "summary": "Adapter package for torch_musa to act exactly like PyTorch CUDA",
-        "pub_date": 1770002837
-      },
-      {
-        "name": "iflow-mcp_jztan_redmine-mcp-server",
-        "version": "0.10.0",
-        "summary": "Production-ready MCP server for Redmine with security, pagination, and enterprise features",
-        "pub_date": 1770002832
-      },
-      {
-        "name": "runpod-mcp-server",
-        "version": "0.2.0",
-        "summary": "MCP server for Runpod Seedream and Nano Banana image APIs",
-        "pub_date": 1770002745
-      },
-      {
-        "name": "picklescan",
-        "version": "1.0.1",
-        "summary": "Security scanner detecting Python Pickle files performing suspicious actions",
-        "pub_date": 1770002679
-      },
-      {
-        "name": "ploston-core",
-        "version": "1.4.0",
-        "summary": "Core engine for Ploston - Deterministic Agent Execution Layer",
-        "pub_date": 1770002678
-      },
-      {
-        "name": "md2hwpx",
+        "name": "xgen-doc2chunk",
         "version": "0.1.1",
-        "summary": "Convert Markdown to HWPX (Korean Hancom Office format)",
-        "pub_date": 1770002637
+        "summary": "Convert raw documents into AI-understandable context with intelligent text extraction, table detection, and semantic chunking",
+        "pub_date": 1770006516
       },
       {
-        "name": "cloudbrain-modules",
-        "version": "1.0.7",
-        "summary": "CloudBrain Modules - AI blog, community, and bug tracking features",
-        "pub_date": 1770002628
+        "name": "odoo12-addon-stock-picking-batch-extended",
+        "version": "12.0.1.3.1.99.dev9",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006511
       },
       {
-        "name": "hex-device",
-        "version": "1.3.15b3",
-        "summary": "A Python library for controlling HexDevice robots and devices",
-        "pub_date": 1770002580
+        "name": "odoo-addon-stock-cycle-count",
+        "version": "18.0.1.0.1.4",
+        "summary": "Adds the capability to schedule cycle counts in a warehouse through different rules defined by the user.",
+        "pub_date": 1770006464
+      },
+      {
+        "name": "openintent",
+        "version": "0.4.7",
+        "summary": "Python SDK and Server for the OpenIntent Coordination Protocol",
+        "pub_date": 1770006462
+      },
+      {
+        "name": "yutori-mcp",
+        "version": "0.1.7",
+        "summary": "MCP server for Yutori - web monitoring, deep research, and browser automation",
+        "pub_date": 1770006434
+      },
+      {
+        "name": "regexplayground",
+        "version": "2.1.0",
+        "summary": "Playground for Python Regular Expressions. Also includes cheatsheet and interactive examples.",
+        "pub_date": 1770006400
+      },
+      {
+        "name": "satori-python-adapter-qq",
+        "version": "0.1.0",
+        "summary": "Satori Protocol SDK for python, adapter for QQ",
+        "pub_date": 1770006379
+      },
+      {
+        "name": "arango-entity-resolution",
+        "version": "3.1.1",
+        "summary": "A production-ready entity resolution system for ArangoDB using record blocking, graph algorithms, and AI.",
+        "pub_date": 1770006373
+      },
+      {
+        "name": "langchain-cockroachdb",
+        "version": "0.1.0",
+        "summary": "LangChain integration for CockroachDB with native vector support",
+        "pub_date": 1770006367
       },
       {
         "name": "judge-llm",
-        "version": "1.0.6",
+        "version": "1.0.7",
         "summary": "A lightweight LLM evaluation framework for comparing and testing AI providers",
-        "pub_date": 1770002574
+        "pub_date": 1770006239
       },
       {
-        "name": "db-connect-mcp",
-        "version": "0.3.1",
-        "summary": "Multi-database MCP server for PostgreSQL, MySQL, and ClickHouse",
-        "pub_date": 1770002528
+        "name": "bukka",
+        "version": "0.0.6",
+        "summary": "ML Project Quickstart",
+        "pub_date": 1770006235
       },
       {
-        "name": "pyoccam",
-        "version": "0.9.4",
-        "summary": "OCCAM Reconstructability Analysis Tools",
-        "pub_date": 1770002484
+        "name": "satori-python-adapter-onebot11",
+        "version": "0.3.0",
+        "summary": "Satori Protocol SDK for python, adapter for OneBot 11",
+        "pub_date": 1770006175
       },
       {
-        "name": "mvision",
-        "version": "0.0.2",
-        "summary": "计算机视觉工具包",
-        "pub_date": 1770002473
+        "name": "satori-python-adapter-milky",
+        "version": "0.2.0",
+        "summary": "Satori Protocol SDK for python, adapter for Milky",
+        "pub_date": 1770006169
       },
       {
-        "name": "pyspark-cdc",
-        "version": "1.0.0",
-        "summary": "A Python library for Change Data Capture (CDC) workflows using PySpark and Delta Lake.",
-        "pub_date": 1770002418
+        "name": "feid-mas",
+        "version": "0.1.1a1",
+        "summary": "Framework Experimental para Integracion de Datos (FEID) - Multi-Agent Systems",
+        "pub_date": 1770006162
       },
       {
-        "name": "socx-cli",
-        "version": "0.12.0",
-        "summary": "System on chip verification and tooling infrastructure.",
-        "pub_date": 1770002414
+        "name": "fastapi-rest-toolkit",
+        "version": "0.0.4",
+        "summary": "类DRF风格的FastAPI工具包",
+        "pub_date": 1770006143
       },
       {
-        "name": "pyemsi",
+        "name": "satori-python-adapter-satori",
+        "version": "0.3.0",
+        "summary": "Satori Protocol SDK for python, adapter for Satori",
+        "pub_date": 1770006095
+      },
+      {
+        "name": "cloudbrain-client",
+        "version": "1.1.2",
+        "summary": "CloudBrain Client - AI collaboration and communication system with AI-to-AI collaboration support",
+        "pub_date": 1770006094
+      },
+      {
+        "name": "keep-protocol",
+        "version": "0.1.1",
+        "summary": "Signed protobuf packets over TCP for AI agent-to-agent communication",
+        "pub_date": 1770006069
+      },
+      {
+        "name": "satori-python-server",
+        "version": "0.18.0",
+        "summary": "Satori Protocol SDK for python, specify server part",
+        "pub_date": 1770006069
+      },
+      {
+        "name": "odoo-addon-spreadsheet-dashboard-purchase-stock-oca",
+        "version": "18.0.1.0.0.7",
+        "summary": "Spreadsheet dashboard for purchases",
+        "pub_date": 1770006063
+      },
+      {
+        "name": "satori-python-client",
+        "version": "0.18.0",
+        "summary": "Satori Protocol SDK for python, specify client part",
+        "pub_date": 1770006060
+      },
+      {
+        "name": "memic",
+        "version": "0.1.0",
+        "summary": "Python SDK for the Memic Context Engineering API",
+        "pub_date": 1770006059
+      },
+      {
+        "name": "satori-python-core",
+        "version": "0.18.0",
+        "summary": "Satori Protocol SDK for python, specify common part",
+        "pub_date": 1770006049
+      },
+      {
+        "name": "cloudbrain-server",
+        "version": "1.2.0",
+        "summary": "CloudBrain Server - AI collaboration platform with WebSocket support",
+        "pub_date": 1770005903
+      },
+      {
+        "name": "satori-python",
+        "version": "0.18.0",
+        "summary": "Satori Protocol SDK for python",
+        "pub_date": 1770005897
+      },
+      {
+        "name": "novyx",
         "version": "0.1.2",
-        "summary": "Python tools EMSolution output visualization",
-        "pub_date": 1770002411
-      },
-      {
-        "name": "sqlframe",
-        "version": "3.46.1",
-        "summary": "Turning PySpark Into a Universal DataFrame API",
-        "pub_date": 1770002360
-      },
-      {
-        "name": "underthesea",
-        "version": "9.2.3",
-        "summary": "Vietnamese NLP Toolkit",
-        "pub_date": 1770002256
-      },
-      {
-        "name": "mytunes-pro",
-        "version": "2.0.6",
-        "summary": "A lightweight, keyboard-centric terminal player for streaming YouTube music.",
-        "pub_date": 1770002249
+        "summary": "Memory + security layer for AI agents. Persistent memory, semantic search, and Magic Rollback.",
+        "pub_date": 1770005884
       },
       {
         "name": "aiinbx",
-        "version": "0.364.0",
+        "version": "0.365.0",
         "summary": "The official Python library for the AIInbx API",
-        "pub_date": 1770002243
+        "pub_date": 1770005843
       },
       {
-        "name": "huace-aigc-auth-client",
-        "version": "1.1.24",
-        "summary": "华策AIGC Auth Client - 提供 Token 验证、用户信息获取、权限检查、旧系统接入等功能",
-        "pub_date": 1770002220
+        "name": "local-deep-research",
+        "version": "1.3.47",
+        "summary": "AI-powered research assistant with deep, iterative analysis using LLMs and web searches",
+        "pub_date": 1770005820
       },
       {
-        "name": "flask-openapi3-scalar",
-        "version": "1.44.9",
-        "summary": "Provide Scalar UI for flask-openapi3.",
-        "pub_date": 1770002186
+        "name": "odoo-addon-fetchmail-attach-from-folder",
+        "version": "16.0.1.7.0.1",
+        "summary": "Attach mails in an IMAP folder to existing objects",
+        "pub_date": 1770005804
       },
       {
-        "name": "NikGapps",
-        "version": "3.89",
-        "summary": "A short description of your project",
-        "pub_date": 1770002091
-      },
-      {
-        "name": "star-openapi-scalar",
-        "version": "1.44.9",
-        "summary": "Provide Scalar UI for star-openapi.",
-        "pub_date": 1770002067
-      },
-      {
-        "name": "verbatim",
-        "version": "1.2.5",
-        "summary": "high quality multi-lingual speech to text",
-        "pub_date": 1770001959
-      },
-      {
-        "name": "proxilion",
-        "version": "0.0.2",
-        "summary": "Application-layer security SDK for LLM tool call authorization",
-        "pub_date": 1770001945
-      },
-      {
-        "name": "defog",
-        "version": "1.4.17",
-        "summary": "Defog is a Python library that helps you generate data queries from natural language questions.",
-        "pub_date": 1770001918
-      },
-      {
-        "name": "prompture",
-        "version": "0.0.49",
-        "summary": "Ask LLMs to return structured JSON and run cross-model tests. API-first.",
-        "pub_date": 1770001823
-      },
-      {
-        "name": "picoflow",
-        "version": "0.1.5",
-        "summary": "Simple, flexible AI agent framework with a small DSL and explicit state",
-        "pub_date": 1770001794
-      },
-      {
-        "name": "odoo14-addon-knowledge",
-        "version": "14.0.1.1.2.dev10",
-        "summary": "Knowledge",
-        "pub_date": 1770001792
-      },
-      {
-        "name": "agmem",
+        "name": "omni-message-provider",
         "version": "0.2.1",
-        "summary": "Agentic Memory Version Control System - Git for AI agent memories",
-        "pub_date": 1770001788
+        "summary": "Unified message provider interface for Discord, Slack, Jira, and custom platforms with distributed relay support",
+        "pub_date": 1770005780
       },
       {
-        "name": "odoo-addon-intrastat-product",
-        "version": "18.0.1.2.0.2",
-        "summary": "Base module for Intrastat Product",
-        "pub_date": 1770001750
+        "name": "leonai",
+        "version": "0.2.1",
+        "summary": "Leon - Proactive AI coding assistant with persistent memory and TUI",
+        "pub_date": 1770005757
       },
       {
-        "name": "odoo-addon-product-harmonized-system",
-        "version": "18.0.1.2.0.5",
-        "summary": "Base module for Product Import/Export reports",
-        "pub_date": 1770001745
+        "name": "talktollm",
+        "version": "0.8.1",
+        "summary": "A Python utility for interacting with large language models (LLMs) via web automation",
+        "pub_date": 1770005711
       },
       {
-        "name": "odoo-addon-intrastat-base",
-        "version": "18.0.2.0.0.5",
-        "summary": "Base module for Intrastat reporting",
-        "pub_date": 1770001742
+        "name": "wmiexec-ng",
+        "version": "1.0.2",
+        "summary": "WMI command execution tool which doesn't require 445; output exfil over HTTPS.",
+        "pub_date": 1770005697
       },
       {
-        "name": "sp-svg-diagram",
-        "version": "1.9.0",
-        "summary": "A library for rendering diagrams to SVG.",
-        "pub_date": 1770001741
+        "name": "SHRY",
+        "version": "1.2.0a1",
+        "summary": null,
+        "pub_date": 1770005624
+      },
+      {
+        "name": "polars-row-collector",
+        "version": "0.2.2",
+        "summary": "Facade to collect rows one-by-one into a Polars DataFrame (in the least-bad way)",
+        "pub_date": 1770005567
+      },
+      {
+        "name": "orthos",
+        "version": "0.1.3",
+        "summary": "High-performance linear algebra library written in Rust",
+        "pub_date": 1770005554
+      },
+      {
+        "name": "agent-arcade",
+        "version": "1.0.0",
+        "summary": "Play terminal games while AI coding agents think",
+        "pub_date": 1770005532
+      },
+      {
+        "name": "PyToolsgr",
+        "version": "0.0.3",
+        "summary": "A lightweight 2D/3D game engine based on Ursina",
+        "pub_date": 1770005496
+      },
+      {
+        "name": "types-tqdm",
+        "version": "4.67.2.20260202",
+        "summary": "Typing stubs for tqdm",
+        "pub_date": 1770005485
+      },
+      {
+        "name": "odoo-addon-sale-order-type",
+        "version": "19.0.1.0.1.2",
+        "summary": "Sale Order Type",
+        "pub_date": 1770005484
+      },
+      {
+        "name": "types-jsonschema",
+        "version": "4.26.0.20260202",
+        "summary": "Typing stubs for jsonschema",
+        "pub_date": 1770005481
+      },
+      {
+        "name": "types-yt-dlp",
+        "version": "2026.1.31.20260202",
+        "summary": "Typing stubs for yt-dlp",
+        "pub_date": 1770005477
+      },
+      {
+        "name": "vectorwrap",
+        "version": "0.9.0",
+        "summary": "Universal vector search wrapper for Postgres, MySQL, MariaDB, SQLite, DuckDB, ClickHouse, Redis, RethinkDB (pgvector, HeatWave, sqlite-vss, DuckDB VSS, ClickHouse ANN, RediSearch, Real-time changefeeds)",
+        "pub_date": 1770005463
+      },
+      {
+        "name": "ai-infra",
+        "version": "1.8.1",
+        "summary": "Infrastructure for efficient and scalable AI applications.",
+        "pub_date": 1770005418
+      },
+      {
+        "name": "cjm-fasthtml-keyboard-navigation",
+        "version": "0.0.9",
+        "summary": "A declarative keyboard navigation framework for FastHTML applications with multi-zone focus management, mode switching, and HTMX integration.",
+        "pub_date": 1770005369
       }
     ],
     "gitlab_count": 225,
@@ -2507,8 +2507,128 @@
         "pub_date": 1769760852
       }
     ],
-    "no_github_actions_count": 5054,
+    "no_github_actions_count": 5064,
     "no_github_actions": [
+      {
+        "name": "usfmtc",
+        "version": "0.4.4",
+        "summary": "USFM reference parser",
+        "pub_date": 1770006544
+      },
+      {
+        "name": "xgen-doc2chunk",
+        "version": "0.1.1",
+        "summary": "Convert raw documents into AI-understandable context with intelligent text extraction, table detection, and semantic chunking",
+        "pub_date": 1770006516
+      },
+      {
+        "name": "yutori-mcp",
+        "version": "0.1.7",
+        "summary": "MCP server for Yutori - web monitoring, deep research, and browser automation",
+        "pub_date": 1770006434
+      },
+      {
+        "name": "regexplayground",
+        "version": "2.1.0",
+        "summary": "Playground for Python Regular Expressions. Also includes cheatsheet and interactive examples.",
+        "pub_date": 1770006400
+      },
+      {
+        "name": "arango-entity-resolution",
+        "version": "3.1.1",
+        "summary": "A production-ready entity resolution system for ArangoDB using record blocking, graph algorithms, and AI.",
+        "pub_date": 1770006373
+      },
+      {
+        "name": "feid-mas",
+        "version": "0.1.1a1",
+        "summary": "Framework Experimental para Integracion de Datos (FEID) - Multi-Agent Systems",
+        "pub_date": 1770006162
+      },
+      {
+        "name": "fastapi-rest-toolkit",
+        "version": "0.0.4",
+        "summary": "类DRF风格的FastAPI工具包",
+        "pub_date": 1770006143
+      },
+      {
+        "name": "cloudbrain-client",
+        "version": "1.1.2",
+        "summary": "CloudBrain Client - AI collaboration and communication system with AI-to-AI collaboration support",
+        "pub_date": 1770006094
+      },
+      {
+        "name": "memic",
+        "version": "0.1.0",
+        "summary": "Python SDK for the Memic Context Engineering API",
+        "pub_date": 1770006059
+      },
+      {
+        "name": "cloudbrain-server",
+        "version": "1.2.0",
+        "summary": "CloudBrain Server - AI collaboration platform with WebSocket support",
+        "pub_date": 1770005903
+      },
+      {
+        "name": "novyx",
+        "version": "0.1.2",
+        "summary": "Memory + security layer for AI agents. Persistent memory, semantic search, and Magic Rollback.",
+        "pub_date": 1770005884
+      },
+      {
+        "name": "talktollm",
+        "version": "0.8.1",
+        "summary": "A Python utility for interacting with large language models (LLMs) via web automation",
+        "pub_date": 1770005711
+      },
+      {
+        "name": "wmiexec-ng",
+        "version": "1.0.2",
+        "summary": "WMI command execution tool which doesn't require 445; output exfil over HTTPS.",
+        "pub_date": 1770005697
+      },
+      {
+        "name": "agent-arcade",
+        "version": "1.0.0",
+        "summary": "Play terminal games while AI coding agents think",
+        "pub_date": 1770005532
+      },
+      {
+        "name": "PyToolsgr",
+        "version": "0.0.3",
+        "summary": "A lightweight 2D/3D game engine based on Ursina",
+        "pub_date": 1770005496
+      },
+      {
+        "name": "vectorwrap",
+        "version": "0.9.0",
+        "summary": "Universal vector search wrapper for Postgres, MySQL, MariaDB, SQLite, DuckDB, ClickHouse, Redis, RethinkDB (pgvector, HeatWave, sqlite-vss, DuckDB VSS, ClickHouse ANN, RediSearch, Real-time changefeeds)",
+        "pub_date": 1770005463
+      },
+      {
+        "name": "FlowAnalyzer",
+        "version": "0.4.6",
+        "summary": "FlowAnalyzer是一个流量分析器，用于解析和处理tshark导出的JSON数据文件",
+        "pub_date": 1770005194
+      },
+      {
+        "name": "majoplot",
+        "version": "0.1.9",
+        "summary": "Automates scenario-specific data preprocessing and plotting workflows for condensed-matter physics labs (OriginLab COM backend + Matplotlib for preview).",
+        "pub_date": 1770005144
+      },
+      {
+        "name": "yee88",
+        "version": "0.8.0",
+        "summary": "Telegram bridge for Codex, Claude Code, and other agent CLIs.",
+        "pub_date": 1770005134
+      },
+      {
+        "name": "chromedriver-binary",
+        "version": "146.0.7664.0.0",
+        "summary": "Installer for chromedriver.",
+        "pub_date": 1770005094
+      },
       {
         "name": "iflow-mcp_strickvl_mcp-beeminder",
         "version": "0.1.0",
@@ -2688,131 +2808,275 @@
         "version": "3.1.0.dev5",
         "summary": "Invoice synchronization library between Loggro and Siigo platforms",
         "pub_date": 1769992914
-      },
-      {
-        "name": "tokencostauto",
-        "version": "0.1.481",
-        "summary": "To calculate token and translated USD cost of string and message calls to OpenAI, for example when used by AI agents",
-        "pub_date": 1769992784
-      },
-      {
-        "name": "cdk-docker-image-deployment",
-        "version": "0.0.939",
-        "summary": "This module allows you to copy docker image assets to a repository you control. This can be necessary if you want to build a Docker image in one CDK app and consume it in a different app or outside the CDK.",
-        "pub_date": 1769992764
-      },
-      {
-        "name": "fastapi-pundra",
-        "version": "0.0.21",
-        "summary": "Pundra: Your FastAPI Companion for Productivity",
-        "pub_date": 1769992645
-      },
-      {
-        "name": "EvoScientist",
-        "version": "0.1.0rc2",
-        "summary": "EvoScientist: Towards Self-Evolving AI Scientists for End-to-End Scientific Discovery",
-        "pub_date": 1769992544
-      },
-      {
-        "name": "jaymd96-pants-baseline",
-        "version": "0.1.10",
-        "summary": "Opinionated Python code quality baseline plugin for Pants build system",
-        "pub_date": 1769992220
-      },
-      {
-        "name": "waveframe-stamp",
-        "version": "0.1.1",
-        "summary": "Schema-agnostic structural diagnostics engine for governed research artifacts.",
-        "pub_date": 1769992011
-      },
-      {
-        "name": "cdk-common",
-        "version": "2.0.1387",
-        "summary": "Common AWS CDK librarys.",
-        "pub_date": 1769991721
-      },
-      {
-        "name": "margindash",
-        "version": "0.1.4",
-        "summary": "MarginDash SDK for tracking AI usage and revenue",
-        "pub_date": 1769991673
-      },
-      {
-        "name": "vital-graph",
-        "version": "0.0.7",
-        "summary": "VitalGraph",
-        "pub_date": 1769991561
-      },
-      {
-        "name": "codrsync",
-        "version": "1.0.3",
-        "summary": "Your AI's AI — Context engineering that makes Claude, GPT & Gemini 10x smarter",
-        "pub_date": 1769991535
-      },
-      {
-        "name": "cdk-events-notify",
-        "version": "2.2.718",
-        "summary": "The Events Notify AWS Construct lib for AWS CDK",
-        "pub_date": 1769991514
-      },
-      {
-        "name": "stabilize",
-        "version": "0.15.6",
-        "summary": "Highway Workflow Engine - Stabilize execution layer",
-        "pub_date": 1769991506
-      },
-      {
-        "name": "jjrawlins-cdk-git-tagger",
-        "version": "0.0.116",
-        "summary": "CDK Aspect to tag resources with git metadata.  This provides a nice connection between the construct and the git repository.",
-        "pub_date": 1769991384
-      },
-      {
-        "name": "polartools",
-        "version": "0.5.5",
-        "summary": "Python package to read and process data from the APS Polar beamline",
-        "pub_date": 1769991363
-      },
-      {
-        "name": "sing-box-bin",
-        "version": "1.12.19",
-        "summary": "python template package",
-        "pub_date": 1769991208
-      },
-      {
-        "name": "supervertaler",
-        "version": "1.9.195",
-        "summary": "Professional AI-enhanced translation workbench with multi-LLM support, glossary system, TM, spellcheck, voice commands, and PyQt6 interface. Batteries included (core).",
-        "pub_date": 1769991149
-      },
-      {
-        "name": "flyto-core",
-        "version": "2.0.5",
-        "summary": "Atomic workflow automation modules for git-native automation",
-        "pub_date": 1769991066
-      },
-      {
-        "name": "pyfabricops",
-        "version": "0.3.8",
-        "summary": "A Python wrapper library for Microsoft Fabric and Power BI that provides a simple, consistent interface to the official Fabric REST APIs, with automatic fallback to Power BI REST APIs when required. Designed to run in Fabric notebooks, pure Python scripts, or as part of YAML-based CI/CD workflows.",
-        "pub_date": 1769990878
-      },
-      {
-        "name": "caesar-cipher-tool",
-        "version": "1.0.1",
-        "summary": "Reusable Caesar cipher module for educational purposes",
-        "pub_date": 1769990669
-      },
-      {
-        "name": "aurorapay",
-        "version": "1.0.0",
-        "summary": "Python SDK для AuroraPay Payment API",
-        "pub_date": 1769990635
       }
     ],
-    "has_github_actions_count": 8391,
+    "has_github_actions_count": 8416,
     "has_github_actions": [
       {
+        "name": "odoo-addon-stock-picking-batch-extended",
+        "version": "15.0.2.5.0.7",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006595
+      },
+      {
+        "name": "odoo14-addon-stock-picking-batch-extended",
+        "version": "14.0.1.0.3.dev9",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006583
+      },
+      {
+        "name": "odoo13-addon-stock-picking-batch-extended",
+        "version": "13.0.1.3.1.dev11",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006534
+      },
+      {
+        "name": "odoo14-addon-stock-lock-lot",
+        "version": "14.0.1.0.1.dev18",
+        "summary": "Stock Lock Lot",
+        "pub_date": 1770006522
+      },
+      {
+        "name": "odoo12-addon-stock-picking-batch-extended",
+        "version": "12.0.1.3.1.99.dev9",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006511
+      },
+      {
+        "name": "odoo-addon-stock-cycle-count",
+        "version": "18.0.1.0.1.4",
+        "summary": "Adds the capability to schedule cycle counts in a warehouse through different rules defined by the user.",
+        "pub_date": 1770006464
+      },
+      {
+        "name": "openintent",
+        "version": "0.4.7",
+        "summary": "Python SDK and Server for the OpenIntent Coordination Protocol",
+        "pub_date": 1770006462
+      },
+      {
+        "name": "satori-python-adapter-qq",
+        "version": "0.1.0",
+        "summary": "Satori Protocol SDK for python, adapter for QQ",
+        "pub_date": 1770006379
+      },
+      {
+        "name": "langchain-cockroachdb",
+        "version": "0.1.0",
+        "summary": "LangChain integration for CockroachDB with native vector support",
+        "pub_date": 1770006367
+      },
+      {
+        "name": "judge-llm",
+        "version": "1.0.7",
+        "summary": "A lightweight LLM evaluation framework for comparing and testing AI providers",
+        "pub_date": 1770006239
+      },
+      {
+        "name": "bukka",
+        "version": "0.0.6",
+        "summary": "ML Project Quickstart",
+        "pub_date": 1770006235
+      },
+      {
+        "name": "satori-python-adapter-onebot11",
+        "version": "0.3.0",
+        "summary": "Satori Protocol SDK for python, adapter for OneBot 11",
+        "pub_date": 1770006175
+      },
+      {
+        "name": "satori-python-adapter-milky",
+        "version": "0.2.0",
+        "summary": "Satori Protocol SDK for python, adapter for Milky",
+        "pub_date": 1770006169
+      },
+      {
+        "name": "satori-python-adapter-satori",
+        "version": "0.3.0",
+        "summary": "Satori Protocol SDK for python, adapter for Satori",
+        "pub_date": 1770006095
+      },
+      {
+        "name": "keep-protocol",
+        "version": "0.1.1",
+        "summary": "Signed protobuf packets over TCP for AI agent-to-agent communication",
+        "pub_date": 1770006069
+      },
+      {
+        "name": "satori-python-server",
+        "version": "0.18.0",
+        "summary": "Satori Protocol SDK for python, specify server part",
+        "pub_date": 1770006069
+      },
+      {
+        "name": "odoo-addon-spreadsheet-dashboard-purchase-stock-oca",
+        "version": "18.0.1.0.0.7",
+        "summary": "Spreadsheet dashboard for purchases",
+        "pub_date": 1770006063
+      },
+      {
+        "name": "satori-python-client",
+        "version": "0.18.0",
+        "summary": "Satori Protocol SDK for python, specify client part",
+        "pub_date": 1770006060
+      },
+      {
+        "name": "satori-python-core",
+        "version": "0.18.0",
+        "summary": "Satori Protocol SDK for python, specify common part",
+        "pub_date": 1770006049
+      },
+      {
+        "name": "satori-python",
+        "version": "0.18.0",
+        "summary": "Satori Protocol SDK for python",
+        "pub_date": 1770005897
+      },
+      {
+        "name": "aiinbx",
+        "version": "0.365.0",
+        "summary": "The official Python library for the AIInbx API",
+        "pub_date": 1770005843
+      },
+      {
+        "name": "local-deep-research",
+        "version": "1.3.47",
+        "summary": "AI-powered research assistant with deep, iterative analysis using LLMs and web searches",
+        "pub_date": 1770005820
+      },
+      {
+        "name": "odoo-addon-fetchmail-attach-from-folder",
+        "version": "16.0.1.7.0.1",
+        "summary": "Attach mails in an IMAP folder to existing objects",
+        "pub_date": 1770005804
+      },
+      {
+        "name": "omni-message-provider",
+        "version": "0.2.1",
+        "summary": "Unified message provider interface for Discord, Slack, Jira, and custom platforms with distributed relay support",
+        "pub_date": 1770005780
+      },
+      {
+        "name": "leonai",
+        "version": "0.2.1",
+        "summary": "Leon - Proactive AI coding assistant with persistent memory and TUI",
+        "pub_date": 1770005757
+      },
+      {
+        "name": "SHRY",
+        "version": "1.2.0a1",
+        "summary": null,
+        "pub_date": 1770005624
+      },
+      {
+        "name": "polars-row-collector",
+        "version": "0.2.2",
+        "summary": "Facade to collect rows one-by-one into a Polars DataFrame (in the least-bad way)",
+        "pub_date": 1770005567
+      },
+      {
+        "name": "orthos",
+        "version": "0.1.3",
+        "summary": "High-performance linear algebra library written in Rust",
+        "pub_date": 1770005554
+      },
+      {
+        "name": "types-tqdm",
+        "version": "4.67.2.20260202",
+        "summary": "Typing stubs for tqdm",
+        "pub_date": 1770005485
+      },
+      {
+        "name": "odoo-addon-sale-order-type",
+        "version": "19.0.1.0.1.2",
+        "summary": "Sale Order Type",
+        "pub_date": 1770005484
+      },
+      {
+        "name": "types-jsonschema",
+        "version": "4.26.0.20260202",
+        "summary": "Typing stubs for jsonschema",
+        "pub_date": 1770005481
+      },
+      {
+        "name": "types-yt-dlp",
+        "version": "2026.1.31.20260202",
+        "summary": "Typing stubs for yt-dlp",
+        "pub_date": 1770005477
+      },
+      {
+        "name": "ai-infra",
+        "version": "1.8.1",
+        "summary": "Infrastructure for efficient and scalable AI applications.",
+        "pub_date": 1770005418
+      },
+      {
+        "name": "cjm-fasthtml-keyboard-navigation",
+        "version": "0.0.9",
+        "summary": "A declarative keyboard navigation framework for FastHTML applications with multi-zone focus management, mode switching, and HTMX integration.",
+        "pub_date": 1770005369
+      },
+      {
+        "name": "mkv-episode-matcher",
+        "version": "1.3.4",
+        "summary": "The MKV Episode Matcher is a tool for identifying TV series episodes from MKV files and renaming the files accordingly.",
+        "pub_date": 1770005337
+      },
+      {
+        "name": "tesseract-decoder",
+        "version": "0.1.1.dev20260202040206",
+        "summary": "A search-based decoder for quantum error correction (QEC).",
+        "pub_date": 1770005271
+      },
+      {
+        "name": "ant-ray-nightly",
+        "version": "2.53.0b3",
+        "summary": "Ray provides a simple, universal API for building distributed applications.",
+        "pub_date": 1770005258
+      },
+      {
+        "name": "ant-ray-cpp-nightly",
+        "version": "2.53.0b3",
+        "summary": "A subpackage of Ray which provides the Ray C++ API.",
+        "pub_date": 1770005248
+      },
+      {
+        "name": "osrs-prices",
+        "version": "1.1.0",
+        "summary": "Python client for the OSRS Real-time Prices API",
+        "pub_date": 1770005188
+      },
+      {
+        "name": "mdb-engine",
+        "version": "0.7.0",
+        "summary": "MongoDB Engine",
+        "pub_date": 1770005172
+      },
+      {
+        "name": "odoo-addon-sale-quotation-builder",
+        "version": "17.0.1.0.1.3",
+        "summary": "Build great quotation templates",
+        "pub_date": 1770005154
+      },
+      {
+        "name": "keras-rs-nightly",
+        "version": "0.4.1.dev202602020405",
+        "summary": "Multi-backend recommender systems with Keras 3.",
+        "pub_date": 1770005142
+      },
+      {
+        "name": "polars-sgt",
+        "version": "0.2.0",
+        "summary": "Sequence Graph Transform (SGT) for Polars - Transform sequential data into weighted n-gram representations",
+        "pub_date": 1770005140
+      },
+      {
+        "name": "iflow-mcp_kaluso-nolodjska_ai-team-mcp",
+        "version": "4.0.0",
+        "summary": "AI Team MCP - Multi-AI Collaboration Framework",
+        "pub_date": 1770005070
+      },
+      {
         "name": "odoo-addon-mrp-multi-level-estimate",
         "version": "17.0.1.1.0.1",
         "summary": "Allows to consider demand estimates using MRP multi level.",
@@ -2847,577 +3111,391 @@
         "version": "12.0.1.5.1.99.dev30",
         "summary": "Generic infrastructure for quality tests.",
         "pub_date": 1770003193
-      },
-      {
-        "name": "odoo11-addon-quality-control",
-        "version": "11.0.1.1.0.99.dev18",
-        "summary": "Generic infrastructure for quality tests.",
-        "pub_date": 1770003172
-      },
-      {
-        "name": "odoo12-addon-mgmtsystem-nonconformity",
-        "version": "12.0.1.5.0.99.dev24",
-        "summary": "Management System - Nonconformity",
-        "pub_date": 1770003084
-      },
-      {
-        "name": "kitedb",
-        "version": "0.2.7",
-        "summary": "High-performance embedded graph database with vector search",
-        "pub_date": 1770002867
-      },
-      {
-        "name": "picklescan",
-        "version": "1.0.1",
-        "summary": "Security scanner detecting Python Pickle files performing suspicious actions",
-        "pub_date": 1770002679
-      },
-      {
-        "name": "ploston-core",
-        "version": "1.4.0",
-        "summary": "Core engine for Ploston - Deterministic Agent Execution Layer",
-        "pub_date": 1770002678
-      },
-      {
-        "name": "md2hwpx",
-        "version": "0.1.1",
-        "summary": "Convert Markdown to HWPX (Korean Hancom Office format)",
-        "pub_date": 1770002637
-      },
-      {
-        "name": "judge-llm",
-        "version": "1.0.6",
-        "summary": "A lightweight LLM evaluation framework for comparing and testing AI providers",
-        "pub_date": 1770002574
-      },
-      {
-        "name": "db-connect-mcp",
-        "version": "0.3.1",
-        "summary": "Multi-database MCP server for PostgreSQL, MySQL, and ClickHouse",
-        "pub_date": 1770002528
-      },
-      {
-        "name": "pyspark-cdc",
-        "version": "1.0.0",
-        "summary": "A Python library for Change Data Capture (CDC) workflows using PySpark and Delta Lake.",
-        "pub_date": 1770002418
-      },
-      {
-        "name": "socx-cli",
-        "version": "0.12.0",
-        "summary": "System on chip verification and tooling infrastructure.",
-        "pub_date": 1770002414
-      },
-      {
-        "name": "pyemsi",
-        "version": "0.1.2",
-        "summary": "Python tools EMSolution output visualization",
-        "pub_date": 1770002411
-      },
-      {
-        "name": "sqlframe",
-        "version": "3.46.1",
-        "summary": "Turning PySpark Into a Universal DataFrame API",
-        "pub_date": 1770002360
-      },
-      {
-        "name": "underthesea",
-        "version": "9.2.3",
-        "summary": "Vietnamese NLP Toolkit",
-        "pub_date": 1770002256
-      },
-      {
-        "name": "mytunes-pro",
-        "version": "2.0.6",
-        "summary": "A lightweight, keyboard-centric terminal player for streaming YouTube music.",
-        "pub_date": 1770002249
-      },
-      {
-        "name": "aiinbx",
-        "version": "0.364.0",
-        "summary": "The official Python library for the AIInbx API",
-        "pub_date": 1770002243
-      },
-      {
-        "name": "flask-openapi3-scalar",
-        "version": "1.44.9",
-        "summary": "Provide Scalar UI for flask-openapi3.",
-        "pub_date": 1770002186
-      },
-      {
-        "name": "NikGapps",
-        "version": "3.89",
-        "summary": "A short description of your project",
-        "pub_date": 1770002091
-      },
-      {
-        "name": "star-openapi-scalar",
-        "version": "1.44.9",
-        "summary": "Provide Scalar UI for star-openapi.",
-        "pub_date": 1770002067
-      },
-      {
-        "name": "verbatim",
-        "version": "1.2.5",
-        "summary": "high quality multi-lingual speech to text",
-        "pub_date": 1770001959
-      },
-      {
-        "name": "defog",
-        "version": "1.4.17",
-        "summary": "Defog is a Python library that helps you generate data queries from natural language questions.",
-        "pub_date": 1770001918
-      },
-      {
-        "name": "prompture",
-        "version": "0.0.49",
-        "summary": "Ask LLMs to return structured JSON and run cross-model tests. API-first.",
-        "pub_date": 1770001823
-      },
-      {
-        "name": "odoo14-addon-knowledge",
-        "version": "14.0.1.1.2.dev10",
-        "summary": "Knowledge",
-        "pub_date": 1770001792
-      },
-      {
-        "name": "agmem",
-        "version": "0.2.1",
-        "summary": "Agentic Memory Version Control System - Git for AI agent memories",
-        "pub_date": 1770001788
-      },
-      {
-        "name": "odoo-addon-intrastat-product",
-        "version": "18.0.1.2.0.2",
-        "summary": "Base module for Intrastat Product",
-        "pub_date": 1770001750
-      },
-      {
-        "name": "odoo-addon-product-harmonized-system",
-        "version": "18.0.1.2.0.5",
-        "summary": "Base module for Product Import/Export reports",
-        "pub_date": 1770001745
-      },
-      {
-        "name": "odoo-addon-intrastat-base",
-        "version": "18.0.2.0.0.5",
-        "summary": "Base module for Intrastat reporting",
-        "pub_date": 1770001742
-      },
-      {
-        "name": "sp-svg-diagram",
-        "version": "1.9.0",
-        "summary": "A library for rendering diagrams to SVG.",
-        "pub_date": 1770001741
-      },
-      {
-        "name": "openintent",
-        "version": "0.4.4",
-        "summary": "Python SDK and Server for the OpenIntent Coordination Protocol",
-        "pub_date": 1770001738
-      },
-      {
-        "name": "strapi-kit",
-        "version": "0.0.4",
-        "summary": "A modern Python client for Strapi CMS with import/export capabilities",
-        "pub_date": 1769993754
-      },
-      {
-        "name": "lpdb_python",
-        "version": "0.1.2",
-        "summary": null,
-        "pub_date": 1769993631
-      },
-      {
-        "name": "local-openai2anthropic",
-        "version": "0.2.7",
-        "summary": "A lightweight proxy server that converts Anthropic Messages API to OpenAI API",
-        "pub_date": 1769993590
-      },
-      {
-        "name": "docscrape",
-        "version": "0.2.0",
-        "summary": "Scrape any documentation site to Markdown in seconds",
-        "pub_date": 1769993440
-      },
-      {
-        "name": "clang-tool-chain",
-        "version": "1.1.4",
-        "summary": "Clang Tool Chain - C/C++ compilation toolchain utilities",
-        "pub_date": 1769993340
-      },
-      {
-        "name": "astropy-iers-data",
-        "version": "0.2026.2.2.0.48.1",
-        "summary": "IERS Earth Rotation and Leap Second tables for the astropy core package",
-        "pub_date": 1769993325
-      },
-      {
-        "name": "causers",
-        "version": "0.8.0",
-        "summary": "High-performance statistical operations for Polars DataFrames",
-        "pub_date": 1769993180
-      },
-      {
-        "name": "democlean",
-        "version": "0.1.0",
-        "summary": "Score robot demonstrations by motion quality",
-        "pub_date": 1769993153
-      },
-      {
-        "name": "pitlane-web",
-        "version": "0.1.2.dev3",
-        "summary": "Web interface for PitLane AI",
-        "pub_date": 1769993067
-      },
-      {
-        "name": "pitlane-agent",
-        "version": "0.1.2.dev3",
-        "summary": "AI agent for F1 data analysis using Claude Agent SDK and FastF1",
-        "pub_date": 1769993066
-      },
-      {
-        "name": "PhiSpy",
-        "version": "5.0.1",
-        "summary": "Prophage finder using multiple metrics",
-        "pub_date": 1769993046
-      },
-      {
-        "name": "eule",
-        "version": "1.4.0",
-        "summary": "Euler diagrams in python",
-        "pub_date": 1769993042
-      },
-      {
-        "name": "pythagoras",
-        "version": "0.51.1",
-        "summary": "Planet-scale distributed computing in Python.",
-        "pub_date": 1769992952
-      },
-      {
-        "name": "kompoz",
-        "version": "0.3.0",
-        "summary": "Composable predicate and transform combinators with operator overloading",
-        "pub_date": 1769992898
-      },
-      {
-        "name": "alembic-autoscan",
-        "version": "1.2.0",
-        "summary": "Automatically discover and import SQLAlchemy models for Alembic migrations",
-        "pub_date": 1769992877
-      },
-      {
-        "name": "py-alpha-lib",
-        "version": "0.1.1",
-        "summary": "Alpha Library: A high-performance rolling window calculation library implemented in Rust with Python bindings. Used for financial data analysis and factor research.",
-        "pub_date": 1769992818
       }
     ],
-    "no_dependabot_count": 11756,
+    "no_dependabot_count": 11782,
     "no_dependabot": [
       {
-        "name": "odoo-addon-mrp-multi-level-estimate",
-        "version": "17.0.1.1.0.1",
-        "summary": "Allows to consider demand estimates using MRP multi level.",
-        "pub_date": 1770003295
+        "name": "odoo-addon-stock-picking-batch-extended",
+        "version": "15.0.2.5.0.7",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006595
       },
       {
-        "name": "iflow-mcp_strickvl_mcp-beeminder",
-        "version": "0.1.0",
-        "summary": "Beeminder MCP Server",
-        "pub_date": 1770003293
+        "name": "odoo14-addon-stock-picking-batch-extended",
+        "version": "14.0.1.0.3.dev9",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006583
       },
       {
-        "name": "odoo14-addon-quality-control-oca",
-        "version": "14.0.1.4.3.dev6",
-        "summary": "Generic infrastructure for quality tests.",
-        "pub_date": 1770003267
+        "name": "usfmtc",
+        "version": "0.4.4",
+        "summary": "USFM reference parser",
+        "pub_date": 1770006544
       },
       {
-        "name": "odoo-addon-quality-control-oca",
-        "version": "15.0.1.0.0.33",
-        "summary": "Generic infrastructure for quality tests.",
-        "pub_date": 1770003265
+        "name": "odoo13-addon-stock-picking-batch-extended",
+        "version": "13.0.1.3.1.dev11",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006534
       },
       {
-        "name": "pycasbin",
-        "version": "2.8.0",
-        "summary": "An authorization library that supports access control models like ACL, RBAC, ABAC in Python",
-        "pub_date": 1770003252
+        "name": "odoo14-addon-stock-lock-lot",
+        "version": "14.0.1.0.1.dev18",
+        "summary": "Stock Lock Lot",
+        "pub_date": 1770006522
       },
       {
-        "name": "simplex",
-        "version": "2.0.5",
-        "summary": "Official Python SDK for the Simplex API",
-        "pub_date": 1770003238
-      },
-      {
-        "name": "odoo13-addon-quality-control-oca",
-        "version": "13.0.2.2.1.dev25",
-        "summary": "Generic infrastructure for quality tests.",
-        "pub_date": 1770003212
-      },
-      {
-        "name": "odoo12-addon-quality-control",
-        "version": "12.0.1.5.1.99.dev30",
-        "summary": "Generic infrastructure for quality tests.",
-        "pub_date": 1770003193
-      },
-      {
-        "name": "odoo11-addon-quality-control",
-        "version": "11.0.1.1.0.99.dev18",
-        "summary": "Generic infrastructure for quality tests.",
-        "pub_date": 1770003172
-      },
-      {
-        "name": "odoo12-addon-mgmtsystem-nonconformity",
-        "version": "12.0.1.5.0.99.dev24",
-        "summary": "Management System - Nonconformity",
-        "pub_date": 1770003084
-      },
-      {
-        "name": "indexdoc-converter",
-        "version": "0.2.0",
-        "summary": "可以将Word文档(仅.docx)、Excel表格、Html网页、PPt文件 转化为Markdown文件。",
-        "pub_date": 1770002957
-      },
-      {
-        "name": "orbitkit",
-        "version": "0.8.60",
-        "summary": "This project is only for Orbit Tech internal use.",
-        "pub_date": 1770002941
-      },
-      {
-        "name": "agentmemory-exchange",
-        "version": "0.6.1",
-        "summary": "Collective Intelligence for AI Agents - Share and discover learnings",
-        "pub_date": 1770002903
-      },
-      {
-        "name": "kitedb",
-        "version": "0.2.7",
-        "summary": "High-performance embedded graph database with vector search",
-        "pub_date": 1770002867
-      },
-      {
-        "name": "ai-screenshooter",
-        "version": "1.5.0",
-        "summary": "A CLI tool to capture and send AI-powered screenshots",
-        "pub_date": 1770002844
-      },
-      {
-        "name": "onako",
-        "version": "0.4.2",
-        "summary": "Dispatch and monitor Claude Code tasks from your phone",
-        "pub_date": 1770002839
-      },
-      {
-        "name": "torchada",
-        "version": "0.1.28",
-        "summary": "Adapter package for torch_musa to act exactly like PyTorch CUDA",
-        "pub_date": 1770002837
-      },
-      {
-        "name": "iflow-mcp_jztan_redmine-mcp-server",
-        "version": "0.10.0",
-        "summary": "Production-ready MCP server for Redmine with security, pagination, and enterprise features",
-        "pub_date": 1770002832
-      },
-      {
-        "name": "runpod-mcp-server",
-        "version": "0.2.0",
-        "summary": "MCP server for Runpod Seedream and Nano Banana image APIs",
-        "pub_date": 1770002745
-      },
-      {
-        "name": "picklescan",
-        "version": "1.0.1",
-        "summary": "Security scanner detecting Python Pickle files performing suspicious actions",
-        "pub_date": 1770002679
-      },
-      {
-        "name": "ploston-core",
-        "version": "1.4.0",
-        "summary": "Core engine for Ploston - Deterministic Agent Execution Layer",
-        "pub_date": 1770002678
-      },
-      {
-        "name": "md2hwpx",
+        "name": "xgen-doc2chunk",
         "version": "0.1.1",
-        "summary": "Convert Markdown to HWPX (Korean Hancom Office format)",
-        "pub_date": 1770002637
+        "summary": "Convert raw documents into AI-understandable context with intelligent text extraction, table detection, and semantic chunking",
+        "pub_date": 1770006516
       },
       {
-        "name": "cloudbrain-modules",
-        "version": "1.0.7",
-        "summary": "CloudBrain Modules - AI blog, community, and bug tracking features",
-        "pub_date": 1770002628
+        "name": "odoo12-addon-stock-picking-batch-extended",
+        "version": "12.0.1.3.1.99.dev9",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006511
       },
       {
-        "name": "hex-device",
-        "version": "1.3.15b3",
-        "summary": "A Python library for controlling HexDevice robots and devices",
-        "pub_date": 1770002580
-      },
-      {
-        "name": "judge-llm",
-        "version": "1.0.6",
-        "summary": "A lightweight LLM evaluation framework for comparing and testing AI providers",
-        "pub_date": 1770002574
-      },
-      {
-        "name": "db-connect-mcp",
-        "version": "0.3.1",
-        "summary": "Multi-database MCP server for PostgreSQL, MySQL, and ClickHouse",
-        "pub_date": 1770002528
-      },
-      {
-        "name": "pyoccam",
-        "version": "0.9.4",
-        "summary": "OCCAM Reconstructability Analysis Tools",
-        "pub_date": 1770002484
-      },
-      {
-        "name": "mvision",
-        "version": "0.0.2",
-        "summary": "计算机视觉工具包",
-        "pub_date": 1770002473
-      },
-      {
-        "name": "socx-cli",
-        "version": "0.12.0",
-        "summary": "System on chip verification and tooling infrastructure.",
-        "pub_date": 1770002414
-      },
-      {
-        "name": "pyemsi",
-        "version": "0.1.2",
-        "summary": "Python tools EMSolution output visualization",
-        "pub_date": 1770002411
-      },
-      {
-        "name": "sqlframe",
-        "version": "3.46.1",
-        "summary": "Turning PySpark Into a Universal DataFrame API",
-        "pub_date": 1770002360
-      },
-      {
-        "name": "underthesea",
-        "version": "9.2.3",
-        "summary": "Vietnamese NLP Toolkit",
-        "pub_date": 1770002256
-      },
-      {
-        "name": "mytunes-pro",
-        "version": "2.0.6",
-        "summary": "A lightweight, keyboard-centric terminal player for streaming YouTube music.",
-        "pub_date": 1770002249
-      },
-      {
-        "name": "aiinbx",
-        "version": "0.364.0",
-        "summary": "The official Python library for the AIInbx API",
-        "pub_date": 1770002243
-      },
-      {
-        "name": "huace-aigc-auth-client",
-        "version": "1.1.24",
-        "summary": "华策AIGC Auth Client - 提供 Token 验证、用户信息获取、权限检查、旧系统接入等功能",
-        "pub_date": 1770002220
-      },
-      {
-        "name": "verbatim",
-        "version": "1.2.5",
-        "summary": "high quality multi-lingual speech to text",
-        "pub_date": 1770001959
-      },
-      {
-        "name": "proxilion",
-        "version": "0.0.2",
-        "summary": "Application-layer security SDK for LLM tool call authorization",
-        "pub_date": 1770001945
-      },
-      {
-        "name": "defog",
-        "version": "1.4.17",
-        "summary": "Defog is a Python library that helps you generate data queries from natural language questions.",
-        "pub_date": 1770001918
-      },
-      {
-        "name": "prompture",
-        "version": "0.0.49",
-        "summary": "Ask LLMs to return structured JSON and run cross-model tests. API-first.",
-        "pub_date": 1770001823
-      },
-      {
-        "name": "picoflow",
-        "version": "0.1.5",
-        "summary": "Simple, flexible AI agent framework with a small DSL and explicit state",
-        "pub_date": 1770001794
-      },
-      {
-        "name": "odoo14-addon-knowledge",
-        "version": "14.0.1.1.2.dev10",
-        "summary": "Knowledge",
-        "pub_date": 1770001792
-      },
-      {
-        "name": "agmem",
-        "version": "0.2.1",
-        "summary": "Agentic Memory Version Control System - Git for AI agent memories",
-        "pub_date": 1770001788
-      },
-      {
-        "name": "odoo-addon-intrastat-product",
-        "version": "18.0.1.2.0.2",
-        "summary": "Base module for Intrastat Product",
-        "pub_date": 1770001750
-      },
-      {
-        "name": "odoo-addon-product-harmonized-system",
-        "version": "18.0.1.2.0.5",
-        "summary": "Base module for Product Import/Export reports",
-        "pub_date": 1770001745
-      },
-      {
-        "name": "odoo-addon-intrastat-base",
-        "version": "18.0.2.0.0.5",
-        "summary": "Base module for Intrastat reporting",
-        "pub_date": 1770001742
-      },
-      {
-        "name": "sp-svg-diagram",
-        "version": "1.9.0",
-        "summary": "A library for rendering diagrams to SVG.",
-        "pub_date": 1770001741
-      },
-      {
-        "name": "quiltx",
-        "version": "0.3.0",
-        "summary": "Unified toolkit for Quilt workflows.",
-        "pub_date": 1770001739
+        "name": "odoo-addon-stock-cycle-count",
+        "version": "18.0.1.0.1.4",
+        "summary": "Adds the capability to schedule cycle counts in a warehouse through different rules defined by the user.",
+        "pub_date": 1770006464
       },
       {
         "name": "openintent",
-        "version": "0.4.4",
+        "version": "0.4.7",
         "summary": "Python SDK and Server for the OpenIntent Coordination Protocol",
-        "pub_date": 1770001738
+        "pub_date": 1770006462
       },
       {
-        "name": "gravi-cli",
-        "version": "0.4.0",
-        "summary": "CLI tool for Gravitate infrastructure management",
-        "pub_date": 1769993698
+        "name": "yutori-mcp",
+        "version": "0.1.7",
+        "summary": "MCP server for Yutori - web monitoring, deep research, and browser automation",
+        "pub_date": 1770006434
       },
       {
-        "name": "lpdb_python",
+        "name": "regexplayground",
+        "version": "2.1.0",
+        "summary": "Playground for Python Regular Expressions. Also includes cheatsheet and interactive examples.",
+        "pub_date": 1770006400
+      },
+      {
+        "name": "arango-entity-resolution",
+        "version": "3.1.1",
+        "summary": "A production-ready entity resolution system for ArangoDB using record blocking, graph algorithms, and AI.",
+        "pub_date": 1770006373
+      },
+      {
+        "name": "judge-llm",
+        "version": "1.0.7",
+        "summary": "A lightweight LLM evaluation framework for comparing and testing AI providers",
+        "pub_date": 1770006239
+      },
+      {
+        "name": "bukka",
+        "version": "0.0.6",
+        "summary": "ML Project Quickstart",
+        "pub_date": 1770006235
+      },
+      {
+        "name": "feid-mas",
+        "version": "0.1.1a1",
+        "summary": "Framework Experimental para Integracion de Datos (FEID) - Multi-Agent Systems",
+        "pub_date": 1770006162
+      },
+      {
+        "name": "fastapi-rest-toolkit",
+        "version": "0.0.4",
+        "summary": "类DRF风格的FastAPI工具包",
+        "pub_date": 1770006143
+      },
+      {
+        "name": "cloudbrain-client",
+        "version": "1.1.2",
+        "summary": "CloudBrain Client - AI collaboration and communication system with AI-to-AI collaboration support",
+        "pub_date": 1770006094
+      },
+      {
+        "name": "keep-protocol",
+        "version": "0.1.1",
+        "summary": "Signed protobuf packets over TCP for AI agent-to-agent communication",
+        "pub_date": 1770006069
+      },
+      {
+        "name": "odoo-addon-spreadsheet-dashboard-purchase-stock-oca",
+        "version": "18.0.1.0.0.7",
+        "summary": "Spreadsheet dashboard for purchases",
+        "pub_date": 1770006063
+      },
+      {
+        "name": "memic",
+        "version": "0.1.0",
+        "summary": "Python SDK for the Memic Context Engineering API",
+        "pub_date": 1770006059
+      },
+      {
+        "name": "cloudbrain-server",
+        "version": "1.2.0",
+        "summary": "CloudBrain Server - AI collaboration platform with WebSocket support",
+        "pub_date": 1770005903
+      },
+      {
+        "name": "novyx",
         "version": "0.1.2",
+        "summary": "Memory + security layer for AI agents. Persistent memory, semantic search, and Magic Rollback.",
+        "pub_date": 1770005884
+      },
+      {
+        "name": "aiinbx",
+        "version": "0.365.0",
+        "summary": "The official Python library for the AIInbx API",
+        "pub_date": 1770005843
+      },
+      {
+        "name": "odoo-addon-fetchmail-attach-from-folder",
+        "version": "16.0.1.7.0.1",
+        "summary": "Attach mails in an IMAP folder to existing objects",
+        "pub_date": 1770005804
+      },
+      {
+        "name": "omni-message-provider",
+        "version": "0.2.1",
+        "summary": "Unified message provider interface for Discord, Slack, Jira, and custom platforms with distributed relay support",
+        "pub_date": 1770005780
+      },
+      {
+        "name": "leonai",
+        "version": "0.2.1",
+        "summary": "Leon - Proactive AI coding assistant with persistent memory and TUI",
+        "pub_date": 1770005757
+      },
+      {
+        "name": "talktollm",
+        "version": "0.8.1",
+        "summary": "A Python utility for interacting with large language models (LLMs) via web automation",
+        "pub_date": 1770005711
+      },
+      {
+        "name": "wmiexec-ng",
+        "version": "1.0.2",
+        "summary": "WMI command execution tool which doesn't require 445; output exfil over HTTPS.",
+        "pub_date": 1770005697
+      },
+      {
+        "name": "SHRY",
+        "version": "1.2.0a1",
         "summary": null,
-        "pub_date": 1769993631
+        "pub_date": 1770005624
+      },
+      {
+        "name": "polars-row-collector",
+        "version": "0.2.2",
+        "summary": "Facade to collect rows one-by-one into a Polars DataFrame (in the least-bad way)",
+        "pub_date": 1770005567
+      },
+      {
+        "name": "orthos",
+        "version": "0.1.3",
+        "summary": "High-performance linear algebra library written in Rust",
+        "pub_date": 1770005554
+      },
+      {
+        "name": "agent-arcade",
+        "version": "1.0.0",
+        "summary": "Play terminal games while AI coding agents think",
+        "pub_date": 1770005532
+      },
+      {
+        "name": "PyToolsgr",
+        "version": "0.0.3",
+        "summary": "A lightweight 2D/3D game engine based on Ursina",
+        "pub_date": 1770005496
+      },
+      {
+        "name": "types-tqdm",
+        "version": "4.67.2.20260202",
+        "summary": "Typing stubs for tqdm",
+        "pub_date": 1770005485
+      },
+      {
+        "name": "odoo-addon-sale-order-type",
+        "version": "19.0.1.0.1.2",
+        "summary": "Sale Order Type",
+        "pub_date": 1770005484
+      },
+      {
+        "name": "types-jsonschema",
+        "version": "4.26.0.20260202",
+        "summary": "Typing stubs for jsonschema",
+        "pub_date": 1770005481
+      },
+      {
+        "name": "types-yt-dlp",
+        "version": "2026.1.31.20260202",
+        "summary": "Typing stubs for yt-dlp",
+        "pub_date": 1770005477
+      },
+      {
+        "name": "vectorwrap",
+        "version": "0.9.0",
+        "summary": "Universal vector search wrapper for Postgres, MySQL, MariaDB, SQLite, DuckDB, ClickHouse, Redis, RethinkDB (pgvector, HeatWave, sqlite-vss, DuckDB VSS, ClickHouse ANN, RediSearch, Real-time changefeeds)",
+        "pub_date": 1770005463
+      },
+      {
+        "name": "ai-infra",
+        "version": "1.8.1",
+        "summary": "Infrastructure for efficient and scalable AI applications.",
+        "pub_date": 1770005418
+      },
+      {
+        "name": "cjm-fasthtml-keyboard-navigation",
+        "version": "0.0.9",
+        "summary": "A declarative keyboard navigation framework for FastHTML applications with multi-zone focus management, mode switching, and HTMX integration.",
+        "pub_date": 1770005369
+      },
+      {
+        "name": "mkv-episode-matcher",
+        "version": "1.3.4",
+        "summary": "The MKV Episode Matcher is a tool for identifying TV series episodes from MKV files and renaming the files accordingly.",
+        "pub_date": 1770005337
+      },
+      {
+        "name": "tesseract-decoder",
+        "version": "0.1.1.dev20260202040206",
+        "summary": "A search-based decoder for quantum error correction (QEC).",
+        "pub_date": 1770005271
+      },
+      {
+        "name": "FlowAnalyzer",
+        "version": "0.4.6",
+        "summary": "FlowAnalyzer是一个流量分析器，用于解析和处理tshark导出的JSON数据文件",
+        "pub_date": 1770005194
+      },
+      {
+        "name": "osrs-prices",
+        "version": "1.1.0",
+        "summary": "Python client for the OSRS Real-time Prices API",
+        "pub_date": 1770005188
+      },
+      {
+        "name": "mdb-engine",
+        "version": "0.7.0",
+        "summary": "MongoDB Engine",
+        "pub_date": 1770005172
+      },
+      {
+        "name": "odoo-addon-sale-quotation-builder",
+        "version": "17.0.1.0.1.3",
+        "summary": "Build great quotation templates",
+        "pub_date": 1770005154
+      },
+      {
+        "name": "majoplot",
+        "version": "0.1.9",
+        "summary": "Automates scenario-specific data preprocessing and plotting workflows for condensed-matter physics labs (OriginLab COM backend + Matplotlib for preview).",
+        "pub_date": 1770005144
+      },
+      {
+        "name": "polars-sgt",
+        "version": "0.2.0",
+        "summary": "Sequence Graph Transform (SGT) for Polars - Transform sequential data into weighted n-gram representations",
+        "pub_date": 1770005140
+      },
+      {
+        "name": "yee88",
+        "version": "0.8.0",
+        "summary": "Telegram bridge for Codex, Claude Code, and other agent CLIs.",
+        "pub_date": 1770005134
+      },
+      {
+        "name": "chromedriver-binary",
+        "version": "146.0.7664.0.0",
+        "summary": "Installer for chromedriver.",
+        "pub_date": 1770005094
       }
     ],
-    "has_dependabot_count": 1689,
+    "has_dependabot_count": 1698,
     "has_dependabot": [
+      {
+        "name": "satori-python-adapter-qq",
+        "version": "0.1.0",
+        "summary": "Satori Protocol SDK for python, adapter for QQ",
+        "pub_date": 1770006379
+      },
+      {
+        "name": "langchain-cockroachdb",
+        "version": "0.1.0",
+        "summary": "LangChain integration for CockroachDB with native vector support",
+        "pub_date": 1770006367
+      },
+      {
+        "name": "satori-python-adapter-onebot11",
+        "version": "0.3.0",
+        "summary": "Satori Protocol SDK for python, adapter for OneBot 11",
+        "pub_date": 1770006175
+      },
+      {
+        "name": "satori-python-adapter-milky",
+        "version": "0.2.0",
+        "summary": "Satori Protocol SDK for python, adapter for Milky",
+        "pub_date": 1770006169
+      },
+      {
+        "name": "satori-python-adapter-satori",
+        "version": "0.3.0",
+        "summary": "Satori Protocol SDK for python, adapter for Satori",
+        "pub_date": 1770006095
+      },
+      {
+        "name": "satori-python-server",
+        "version": "0.18.0",
+        "summary": "Satori Protocol SDK for python, specify server part",
+        "pub_date": 1770006069
+      },
+      {
+        "name": "satori-python-client",
+        "version": "0.18.0",
+        "summary": "Satori Protocol SDK for python, specify client part",
+        "pub_date": 1770006060
+      },
+      {
+        "name": "satori-python-core",
+        "version": "0.18.0",
+        "summary": "Satori Protocol SDK for python, specify common part",
+        "pub_date": 1770006049
+      },
+      {
+        "name": "satori-python",
+        "version": "0.18.0",
+        "summary": "Satori Protocol SDK for python",
+        "pub_date": 1770005897
+      },
+      {
+        "name": "local-deep-research",
+        "version": "1.3.47",
+        "summary": "AI-powered research assistant with deep, iterative analysis using LLMs and web searches",
+        "pub_date": 1770005820
+      },
+      {
+        "name": "ant-ray-nightly",
+        "version": "2.53.0b3",
+        "summary": "Ray provides a simple, universal API for building distributed applications.",
+        "pub_date": 1770005258
+      },
+      {
+        "name": "ant-ray-cpp-nightly",
+        "version": "2.53.0b3",
+        "summary": "A subpackage of Ray which provides the Ray C++ API.",
+        "pub_date": 1770005248
+      },
+      {
+        "name": "keras-rs-nightly",
+        "version": "0.4.1.dev202602020405",
+        "summary": "Multi-backend recommender systems with Keras 3.",
+        "pub_date": 1770005142
+      },
       {
         "name": "pyspark-cdc",
         "version": "1.0.0",
@@ -3501,12 +3579,6 @@
         "version": "0.3.0",
         "summary": "Django integration with for nh3, Python binding to Ammonia HTML sanitizer Rust crate.",
         "pub_date": 1769989510
-      },
-      {
-        "name": "local-deep-research",
-        "version": "1.3.46",
-        "summary": "AI-powered research assistant with deep, iterative analysis using LLMs and web searches",
-        "pub_date": 1769989486
       },
       {
         "name": "python-amazon-sp-api",
@@ -3645,78 +3717,6 @@
         "version": "0.5.1",
         "summary": "Structured LLM task runner with schema validation, confidence scoring, and subagent orchestration",
         "pub_date": 1769975341
-      },
-      {
-        "name": "certbot-dns-duckdns",
-        "version": "1.8.0",
-        "summary": "Obtain certificates using a DNS TXT record for DuckDNS domains",
-        "pub_date": 1769974993
-      },
-      {
-        "name": "commit-check",
-        "version": "2.4.0",
-        "summary": "Check commit message formatting, branch naming, commit author, email, and more.",
-        "pub_date": 1769974745
-      },
-      {
-        "name": "md-dead-link-check",
-        "version": "1.3.0",
-        "summary": "This is a lightweight and fast tool to help you keep your Markdown files free of broken links.",
-        "pub_date": 1769974720
-      },
-      {
-        "name": "gitman",
-        "version": "3.8",
-        "summary": "A language-agnostic dependency manager using Git.",
-        "pub_date": 1769974596
-      },
-      {
-        "name": "sqlmodel-slim",
-        "version": "0.0.32",
-        "summary": "SQLModel, SQL databases in Python, designed for simplicity, compatibility, and robustness.",
-        "pub_date": 1769969954
-      },
-      {
-        "name": "sqlmodel",
-        "version": "0.0.32",
-        "summary": "SQLModel, SQL databases in Python, designed for simplicity, compatibility, and robustness.",
-        "pub_date": 1769969954
-      },
-      {
-        "name": "pyg90alarm",
-        "version": "2.7.0",
-        "summary": "G90 Alarm system protocol",
-        "pub_date": 1769969929
-      },
-      {
-        "name": "pydns-scanner",
-        "version": "1.2.6",
-        "summary": "A high-performance DNS scanner with beautiful GitHub dark-themed TUI, parallel Slipstream proxy testing (5 concurrent), proxy authentication, and Iran CIDR bundle",
-        "pub_date": 1769968713
-      },
-      {
-        "name": "vm-tool",
-        "version": "1.0.43",
-        "summary": "A Comprehensive Tool for Setting Up Virtual Machines.",
-        "pub_date": 1769966469
-      },
-      {
-        "name": "luma.emulator",
-        "version": "1.7.0",
-        "summary": "A suite of pseudo-devices for luma.core components",
-        "pub_date": 1769966085
-      },
-      {
-        "name": "langbot",
-        "version": "4.8.3",
-        "summary": "Production-grade platform for building agentic IM bots",
-        "pub_date": 1769966017
-      },
-      {
-        "name": "jobflow",
-        "version": "0.3.0",
-        "summary": "jobflow is a library for writing computational workflows",
-        "pub_date": 1769965974
       }
     ],
     "has_gitlab_pipeline_count": 107,
@@ -4325,8 +4325,20 @@
         "pub_date": 1769616139
       }
     ],
-    "has_setup_cfg_count": 912,
+    "has_setup_cfg_count": 913,
     "has_setup_cfg": [
+      {
+        "name": "SHRY",
+        "version": "1.2.0a1",
+        "summary": null,
+        "pub_date": 1770005624
+      },
+      {
+        "name": "mkv-episode-matcher",
+        "version": "1.3.4",
+        "summary": "The MKV Episode Matcher is a tool for identifying TV series episodes from MKV files and renaming the files accordingly.",
+        "pub_date": 1770005337
+      },
       {
         "name": "picklescan",
         "version": "1.0.1",
@@ -4344,12 +4356,6 @@
         "version": "0.50.15",
         "summary": "Python API for the Cupra Born online services",
         "pub_date": 1769992493
-      },
-      {
-        "name": "mkv-episode-matcher",
-        "version": "1.3.3",
-        "summary": "The MKV Episode Matcher is a tool for identifying TV series episodes from MKV files and renaming the files accordingly.",
-        "pub_date": 1769989982
       },
       {
         "name": "ravix",
@@ -4620,16 +4626,124 @@
         "version": "2026.2.1",
         "summary": "TensorDict is a pytorch dedicated tensor container.",
         "pub_date": 1769954411
-      },
-      {
-        "name": "runpandarun",
-        "version": "0.7.0",
-        "summary": "Tell pandas what to do – easy tabular data I/O playbooks",
-        "pub_date": 1769950309
       }
     ],
-    "no_pyproject_toml_count": 3462,
+    "no_pyproject_toml_count": 3474,
     "no_pyproject_toml": [
+      {
+        "name": "odoo-addon-stock-picking-batch-extended",
+        "version": "15.0.2.5.0.7",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006595
+      },
+      {
+        "name": "odoo14-addon-stock-picking-batch-extended",
+        "version": "14.0.1.0.3.dev9",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006583
+      },
+      {
+        "name": "odoo13-addon-stock-picking-batch-extended",
+        "version": "13.0.1.3.1.dev11",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006534
+      },
+      {
+        "name": "odoo14-addon-stock-lock-lot",
+        "version": "14.0.1.0.1.dev18",
+        "summary": "Stock Lock Lot",
+        "pub_date": 1770006522
+      },
+      {
+        "name": "odoo12-addon-stock-picking-batch-extended",
+        "version": "12.0.1.3.1.99.dev9",
+        "summary": "Allows manage a lot of pickings in batch",
+        "pub_date": 1770006511
+      },
+      {
+        "name": "odoo-addon-stock-cycle-count",
+        "version": "18.0.1.0.1.4",
+        "summary": "Adds the capability to schedule cycle counts in a warehouse through different rules defined by the user.",
+        "pub_date": 1770006464
+      },
+      {
+        "name": "regexplayground",
+        "version": "2.1.0",
+        "summary": "Playground for Python Regular Expressions. Also includes cheatsheet and interactive examples.",
+        "pub_date": 1770006400
+      },
+      {
+        "name": "feid-mas",
+        "version": "0.1.1a1",
+        "summary": "Framework Experimental para Integracion de Datos (FEID) - Multi-Agent Systems",
+        "pub_date": 1770006162
+      },
+      {
+        "name": "keep-protocol",
+        "version": "0.1.1",
+        "summary": "Signed protobuf packets over TCP for AI agent-to-agent communication",
+        "pub_date": 1770006069
+      },
+      {
+        "name": "odoo-addon-spreadsheet-dashboard-purchase-stock-oca",
+        "version": "18.0.1.0.0.7",
+        "summary": "Spreadsheet dashboard for purchases",
+        "pub_date": 1770006063
+      },
+      {
+        "name": "odoo-addon-fetchmail-attach-from-folder",
+        "version": "16.0.1.7.0.1",
+        "summary": "Attach mails in an IMAP folder to existing objects",
+        "pub_date": 1770005804
+      },
+      {
+        "name": "talktollm",
+        "version": "0.8.1",
+        "summary": "A Python utility for interacting with large language models (LLMs) via web automation",
+        "pub_date": 1770005711
+      },
+      {
+        "name": "PyToolsgr",
+        "version": "0.0.3",
+        "summary": "A lightweight 2D/3D game engine based on Ursina",
+        "pub_date": 1770005496
+      },
+      {
+        "name": "odoo-addon-sale-order-type",
+        "version": "19.0.1.0.1.2",
+        "summary": "Sale Order Type",
+        "pub_date": 1770005484
+      },
+      {
+        "name": "tesseract-decoder",
+        "version": "0.1.1.dev20260202040206",
+        "summary": "A search-based decoder for quantum error correction (QEC).",
+        "pub_date": 1770005271
+      },
+      {
+        "name": "FlowAnalyzer",
+        "version": "0.4.6",
+        "summary": "FlowAnalyzer是一个流量分析器，用于解析和处理tshark导出的JSON数据文件",
+        "pub_date": 1770005194
+      },
+      {
+        "name": "odoo-addon-sale-quotation-builder",
+        "version": "17.0.1.0.1.3",
+        "summary": "Build great quotation templates",
+        "pub_date": 1770005154
+      },
+      {
+        "name": "chromedriver-binary",
+        "version": "146.0.7664.0.0",
+        "summary": "Installer for chromedriver.",
+        "pub_date": 1770005094
+      },
+      {
+        "name": "iflow-mcp_kaluso-nolodjska_ai-team-mcp",
+        "version": "4.0.0",
+        "summary": "AI Team MCP - Multi-AI Collaboration Framework",
+        "pub_date": 1770005070
+      },
       {
         "name": "odoo-addon-mrp-multi-level-estimate",
         "version": "17.0.1.1.0.1",
@@ -4815,643 +4929,530 @@
         "version": "0.5.0.dev20260202",
         "summary": "A quantizer for advanced developers to quantize converted AI Edge models.",
         "pub_date": 1769991524
-      },
-      {
-        "name": "cdk-events-notify",
-        "version": "2.2.718",
-        "summary": "The Events Notify AWS Construct lib for AWS CDK",
-        "pub_date": 1769991514
-      },
-      {
-        "name": "tesseract-decoder",
-        "version": "0.1.1.dev20260202001241",
-        "summary": "A search-based decoder for quantum error correction (QEC).",
-        "pub_date": 1769991389
-      },
-      {
-        "name": "jjrawlins-cdk-git-tagger",
-        "version": "0.0.116",
-        "summary": "CDK Aspect to tag resources with git metadata.  This provides a nice connection between the construct and the git repository.",
-        "pub_date": 1769991384
-      },
-      {
-        "name": "polartools",
-        "version": "0.5.5",
-        "summary": "Python package to read and process data from the APS Polar beamline",
-        "pub_date": 1769991363
-      },
-      {
-        "name": "supervertaler",
-        "version": "1.9.195",
-        "summary": "Professional AI-enhanced translation workbench with multi-LLM support, glossary system, TM, spellcheck, voice commands, and PyQt6 interface. Batteries included (core).",
-        "pub_date": 1769991149
-      },
-      {
-        "name": "pyfabricops",
-        "version": "0.3.8",
-        "summary": "A Python wrapper library for Microsoft Fabric and Power BI that provides a simple, consistent interface to the official Fabric REST APIs, with automatic fallback to Power BI REST APIs when required. Designed to run in Fabric notebooks, pure Python scripts, or as part of YAML-based CI/CD workflows.",
-        "pub_date": 1769990878
-      },
-      {
-        "name": "caesar-cipher-tool",
-        "version": "1.0.1",
-        "summary": "Reusable Caesar cipher module for educational purposes",
-        "pub_date": 1769990669
-      },
-      {
-        "name": "openproficiency",
-        "version": "0.0.2",
-        "summary": "A simple library for managing proficiency topics and topic lists",
-        "pub_date": 1769989926
-      },
-      {
-        "name": "datatypical",
-        "version": "0.7.0",
-        "summary": "Explainable instance significance discovery for scientific datasets",
-        "pub_date": 1769989787
-      },
-      {
-        "name": "backparq",
-        "version": "0.3.0",
-        "summary": "Archive PostgreSQL tables to Parquet files on S3 with safety, restore, and retention management.",
-        "pub_date": 1769989604
-      },
-      {
-        "name": "ipyslides",
-        "version": "6.9.6",
-        "summary": "Live rich content slides in jupyter notebook",
-        "pub_date": 1769989277
-      },
-      {
-        "name": "nv-ingest",
-        "version": "2026.2.1.dev20260201",
-        "summary": "Python module for multimodal document ingestion",
-        "pub_date": 1769989227
-      },
-      {
-        "name": "nv-ingest-client",
-        "version": "2026.2.1.dev20260201",
-        "summary": "Python client for the nv-ingest service",
-        "pub_date": 1769989224
-      },
-      {
-        "name": "nv-ingest-api",
-        "version": "2026.2.1.dev20260201",
-        "summary": "Python module with core document ingestion functions.",
-        "pub_date": 1769989221
-      },
-      {
-        "name": "pympristui",
-        "version": "1.0.7",
-        "summary": "TUI MPRIS2 Control",
-        "pub_date": 1769989125
-      },
-      {
-        "name": "qgis-plugin-analyzer",
-        "version": "1.5.0",
-        "summary": "A professional static analysis tool for QGIS (PyQGIS) plugins",
-        "pub_date": 1769988976
-      },
-      {
-        "name": "python-amazon-sp-api",
-        "version": "2.0.15",
-        "summary": "Python wrapper for the Amazon Selling-Partner API",
-        "pub_date": 1769988849
-      },
-      {
-        "name": "executors",
-        "version": "0.6.0",
-        "summary": "Job scheduling abstractions",
-        "pub_date": 1769988539
-      },
-      {
-        "name": "codescalpel",
-        "version": "1.3.0",
-        "summary": "MCP server toolkit for AI agents - surgical code analysis and modification",
-        "pub_date": 1769988329
       }
     ]
   },
   "project_urls_count": {
-    "Lab Website": 1,
-    "Demo Server": 1,
-    "Coverage": 5,
-    "JAX-sklearn": 1,
-    "donations": 1,
-    "Twitter": 28,
-    "Bug Tracker": 1548,
-    "tracker": 151,
-    "DAMON": 1,
-    "Readthedocs": 1,
-    "Downloadable_Version": 1,
-    "History": 20,
-    "Core Developer - @EvilFreelancer": 1,
-    "Contact": 15,
-    "Authors": 4,
-    "Chaneglog": 1,
-    "Third-Party Licenses": 1,
-    "Repositorio": 1,
-    "Forums": 1,
-    "Contribute!": 7,
-    "Notebook Examples": 1,
-    "SpRIT Web App": 1,
-    "Library Source": 1,
-    "Docs: RTD": 10,
-    "Stats": 1,
-    "Issue tracker": 47,
-    "README": 1,
-    "chat": 1,
-    "ReleaseNotes": 2,
-    "HuggingFaceDatasets": 1,
-    "bug_reports": 1,
-    "TemporaryLicense": 1,
-    "ONNXRuntime-Compatibility": 1,
-    "Engine": 1,
-    "Getting Started": 3,
-    "Protobuf": 1,
-    "Demonstration website": 1,
-    "Commit": 1,
-    "Installation": 1,
-    "issue-new": 1,
-    "changelog": 139,
-    "support": 1,
-    "Full Applications": 1,
-    "space": 1,
-    "upstream": 2,
-    "Coordinator - @VaKovaLskii": 1,
-    "LinkedIn": 14,
-    "Bugtracker": 2,
-    "Developer": 1,
-    "Echoes FB page": 1,
-    "Helios Core": 1,
-    "API Documentation": 1,
-    "FIA Ecosystem": 1,
-    "FraiseQL": 1,
-    "Bioexcel": 2,
-    "Source code": 20,
-    "issue": 1,
-    "Hardware": 1,
-    "Config Browser": 1,
-    "Donation": 6,
-    "Project-URL": 1,
-    "Skills": 1,
-    "Say Thanks!": 9,
-    "Change Log": 7,
-    "Team website": 1,
-    "Discussions": 76,
-    "Leonid Shpaner's Website": 1,
-    "DevOps & Deployment - @mixaill76": 1,
-    "Model Hub": 1,
-    "project-url/documentation": 1,
-    "soucecode": 1,
-    "Launch on Lab": 1,
-    "live_demo": 1,
-    "Legal": 1,
-    "Donate via GitHub Sponsors": 1,
-    "repo (upstream)": 111,
-    "Quantms": 1,
-    "Bug tracker": 8,
-    "Slack Chat": 22,
-    "Leaderborad": 1,
-    "Main Code": 1,
-    "Website": 117,
-    "Newsletter": 1,
-    "Original Project": 4,
-    "Changes": 30,
-    "source-code": 3,
-    "Standard": 1,
-    "download_url": 1,
-    "SecretFlow": 1,
-    "Releases": 25,
-    "Docker": 1,
-    "Github": 12,
-    "BugTracker": 12,
-    "VergeOS Docs": 1,
-    "Pypi": 5,
-    "HuggingFaceModels": 1,
-    "AuroraX Platform": 1,
-    "Modaic": 1,
-    "User Forum": 16,
-    "Git repository": 1,
-    "respository": 1,
-    "Hybrid FC research - @Shadekss": 1,
-    "ArchDesign": 1,
-    "Citation": 2,
-    "DAHITI Homepage": 1,
-    "Toolkit Overview": 1,
-    "Documentation": 5312,
-    "Repository": 6569,
-    "Mailing List": 2,
-    "repo": 117,
-    "Código fonte": 2,
-    "Discourse": 2,
-    "Funding (PayPal)": 1,
-    "E-Examples": 1,
-    "Telegram": 1,
-    "Demos": 4,
-    "SoundCloud": 1,
-    "Release notes": 18,
-    "OneTick": 1,
-    "release-notes": 1,
-    "Bug System": 1,
-    "X": 3,
-    "Change log": 7,
-    "Upstream": 4,
-    "SDK Docs": 1,
-    "Original": 3,
-    "Community Forum": 1,
-    "Change_log": 1,
-    "Issue Tracker": 116,
-    "API-Docs": 1,
-    "HuggingFace": 3,
-    "F-Documentation": 1,
-    "Patent Information": 1,
-    "Home Page": 2,
-    "Quick Start": 1,
-    "Release": 2,
-    "Builds": 4,
-    "Source - Precompiled (.py)": 2,
-    "Artifacts": 1,
-    "Gitlab": 1,
-    "Bugs": 1,
-    "Hugging Face Organization": 1,
-    "News": 11,
-    "Dashboard": 4,
-    "YouTube": 30,
-    "Sponsor on Open Collective": 1,
-    "Source Code (GitHub)": 1,
-    "Preprint": 2,
-    "Package": 7,
-    "Temporary License": 4,
-    "Csvpath.org": 1,
-    "ReadtheDocs API Docs": 1,
-    "Live demo": 2,
-    "UCalgary SRS Open Data Platform": 2,
-    "Pull Requests": 1,
-    "PYPI": 1,
-    "Feature Request Tracker": 1,
-    "discussions": 1,
-    "Bluesky": 3,
-    "Health Check": 1,
-    "discourse": 111,
-    "Binder": 1,
-    "bug_tracker": 3,
-    "Demonstration": 1,
-    "Model (Hugging Face)": 2,
-    "Bug": 1,
-    "opentrons.com": 1,
-    "Release Notes": 67,
-    "Main instance": 1,
-    "project_source": 1,
-    "Notebook": 1,
-    "Home-page": 11,
-    "Coverage: codecov": 1,
-    "HomePage": 5,
-    "B-CollectionlessAI": 1,
     "Source Code On Github": 1,
-    "Youtube": 2,
-    "source_code": 2,
-    "Releasenotes": 2,
-    "Git page": 1,
-    "support-forum": 1,
-    "Maintainer": 2,
-    "Research Reference": 1,
-    "Organization": 1,
-    "Tutorials": 1,
-    "Trademarks": 1,
-    "Terms of Service": 1,
-    "Homepage": 13075,
-    "Donate": 6,
-    "issues": 132,
-    "Source (GitHub)": 1,
-    "github": 13,
-    "RDKit on Github": 1,
-    "Sponsoring": 15,
-    "Contributors": 2,
-    "GitHub: repo": 12,
-    "Web App": 1,
-    "Funding": 83,
-    "tracker (upstream)": 111,
-    "About Ouranos": 2,
-    "HoloViz": 4,
-    "Mann Labs Homepage": 2,
-    "Github Pages API Docs": 1,
-    "Feature Requests": 3,
-    "Donate via Ko-fi": 1,
-    "Telegram BotAPI Docs": 1,
-    "Youtube_Tutorial": 1,
-    "Glory Wall": 1,
-    "slides": 1,
-    "Tidelift": 1,
-    "Help": 8,
-    "Zulip": 1,
-    "PyPi": 3,
-    "Publications": 2,
-    "Source_Code": 3,
-    "Pricing": 2,
-    "ci": 2,
-    "Build Data": 1,
-    "ChangeLog": 4,
-    "Protobuf Github": 1,
-    "A-Homepage": 1,
-    "Code of Conduct": 4,
-    "Sources": 5,
-    "Enterprise Edition": 2,
-    "Code": 18,
-    "Fostrom": 1,
-    "Tests": 1,
-    "Doxygen": 1,
-    "Customization": 1,
-    "POC Tool": 1,
-    "PiWheels": 2,
-    "Contribute": 2,
-    "GitHub Mirror": 1,
-    "Upstream (Rust)": 1,
-    "Benchmarks - Results": 2,
-    "中文文档 (Chinese)": 1,
-    "Repo": 3,
-    "Live Demo": 1,
-    "Bugs and Features": 1,
-    "bug tracker": 4,
-    "user_support": 1,
-    "Matrix": 1,
-    "Codecov": 7,
-    "Quick Start Guide": 1,
-    "Search": 1,
-    "forum": 2,
-    "Snakemake Repository": 1,
-    "Credits": 1,
-    "pypi": 3,
-    "Quickstart": 1,
-    "OpenAPI": 1,
-    "GitHub 主站": 1,
-    "codes": 1,
-    "Gitter": 3,
-    "Systemd Guide": 1,
+    "SDK Docs": 1,
     "MyHomepage": 1,
-    "Original Source": 1,
-    "Console": 2,
-    "Gitee Repo": 1,
+    "ReadtheDocs API Docs": 1,
     "readme": 1,
-    "HED Resources": 2,
-    "Wiki": 4,
-    "releasenotes": 7,
-    "IRC": 1,
-    "Code Repository": 1,
-    "Reference": 2,
-    "Agent Skills": 1,
-    "releases": 2,
-    "Resources": 1,
-    "Docker Image": 1,
-    "Userguide": 1,
-    "IANA Registration": 1,
-    "FAF Specification": 1,
-    "Knowledge Base": 2,
-    "Licensing": 1,
-    "Slack": 23,
-    "Apps Gallery": 1,
-    "Facebook": 2,
-    "Demo": 11,
-    "License": 16,
-    "tubes": 1,
-    "Source Code (mirror)": 1,
-    "Zenodo": 6,
-    "Skyline": 1,
-    "Parent Project": 1,
-    "選股策略": 1,
-    "Forum": 28,
-    "home": 5,
-    "Source (Python)": 1,
-    "source_archive": 2,
-    "GitHub Source": 1,
-    "ASCOM Developer Forum": 1,
-    "ImplementationCase": 1,
-    "Project": 2,
-    "Mastodon (nedbat)": 1,
-    "release_notes": 21,
-    "Concept_DOI": 1,
-    "Free Support": 4,
-    "funding": 11,
-    "Chat room": 1,
-    "PyTorch CUDA Wheels": 1,
-    "CI: GitHub Actions": 9,
-    "GitHub": 84,
-    "package": 1,
-    "repository": 548,
-    "Samples": 1,
-    "PayPal": 1,
-    "bugtracker": 6,
-    "Code_of_Conduct": 2,
-    "Documentations": 1,
-    "Mirror": 1,
-    "Mastodon": 28,
-    "Docs: Dev": 1,
-    "Tutorials & Wiki": 1,
-    "Contributing": 8,
-    "Jira": 1,
-    "Live example": 1,
-    "DOI": 6,
-    "Benchmarks": 2,
-    "User Guide": 1,
-    "Instagram": 1,
-    "Author": 6,
-    "Community": 13,
-    "pip": 2,
-    "quiz": 1,
     "Issue": 7,
-    "dogesec HQ": 4,
-    "discord": 3,
-    "LibreNMS_Documentation": 1,
-    "cite": 1,
-    "Discussion Forum": 2,
-    "sourcecode": 1,
-    "GitHub 中文镜像": 1,
-    "Wiliot": 1,
-    "Bug_Tracker": 6,
-    "Issue / Bug Reports": 1,
-    "Commercial License": 1,
-    "Plugin Discussion Thread": 1,
-    "python documentation": 1,
-    "conda": 2,
-    "Discord": 42,
-    "doc": 2,
-    "Toolkit Download": 1,
-    "Source": 1586,
-    "words": 1,
-    "GitLab XMU Group": 1,
-    "release notes": 115,
-    "Logo": 3,
-    "Git Repository": 1,
-    "Library Guide": 1,
-    "Discord Community": 1,
-    "homeSource Codepage": 2,
-    "Git Hub": 1,
-    "GitHub Discussions": 1,
-    "Privacy Policy": 1,
-    "Conda-forge": 1,
-    "API": 4,
-    "wiki": 2,
-    "DAGModelling Team": 1,
-    "BugReports": 1,
-    "Issue 反馈（主站）": 1,
-    "Home": 88,
-    "Stats Page": 1,
-    "Developer docs": 1,
-    "Baseten": 1,
-    "Echoes SF page": 1,
-    "Lean Proofs": 1,
-    "Help Center": 1,
-    "Tracker": 310,
-    "GitHub Page": 1,
-    "community": 1,
-    "Report Issues": 1,
-    "Merge requests": 1,
-    "Data System Docs": 1,
-    "Certified": 1,
-    "Docker Images": 1,
-    "Telegram Channel": 1,
-    "Arthur Homepage": 1,
-    "Blog": 18,
-    "RRID": 1,
-    "Nuclia": 1,
-    "ArcadeDB Upstream": 1,
-    "Docs": 21,
-    "Developer Doc": 2,
-    "OpenCGA-enterprise": 1,
-    "Source - Compiled (.c)": 2,
-    "Replit": 1,
-    "R Package": 1,
-    "Issue_Tracker": 1,
-    "Tutorial": 1,
-    "Downloads": 10,
-    "Documenation": 1,
-    "Bug Traccker": 1,
-    "Changelog": 1502,
-    "bugs": 14,
-    "User Support": 19,
-    "LICENSE": 1,
-    "CI: Travis": 1,
-    "Help Desk": 2,
-    "Security": 1,
-    "Live Server": 1,
-    "Upgrade to Globus Compute": 2,
-    "Download": 315,
-    "Docker Hub": 2,
-    "twitter": 4,
-    "bugtrack": 1,
-    "source code": 2,
-    "MCP Registry": 1,
-    "Examples & Demos": 1,
-    "Examples": 16,
-    "SimpleCore Documentation": 1,
-    "Source Repository": 1,
-    "Chrome Extension": 1,
-    "Moodle": 1,
-    "WeChat": 1,
-    "Weights": 1,
-    "Fork of": 1,
-    "homepage": 582,
-    "Bug Report": 2,
-    "Hawky.ai": 1,
-    "C-Source": 1,
-    "Github Repository": 1,
-    "Telegram Bot": 1,
-    "CI/CD": 2,
-    "Bug Reports": 266,
-    "Q & A": 2,
-    "user_group": 1,
-    "Issuses": 1,
-    "Security Policy": 3,
-    "Restapi": 1,
-    "Code coverage": 4,
-    "FAQ": 2,
-    "Versioned_DOI": 1,
-    "MCP Endpoint": 1,
-    "Test-Coverage": 2,
-    "Discussion": 7,
-    "Book": 2,
-    "ReadTheDocs": 4,
-    "Paper preprint": 1,
-    "Apify Homepage": 4,
-    "Issues Tracker": 1,
-    "bug-tracker": 1,
-    "Issue-Tracker": 1,
     "Schedule Demo": 1,
-    "tutorial": 1,
-    "download": 19,
-    "DeepWiki": 1,
-    "MeaningfulData": 2,
-    "CHANGELOG": 1,
-    "Roadmap": 3,
-    "文件教學": 1,
-    "Mailing-list": 3,
-    "Commercial": 1,
-    "Maritaca AI": 1,
-    "Core Developer - @virrius": 1,
-    "Documentación": 1,
-    "benchmark": 1,
-    "Original C++ Project": 1,
-    "Homebrew Tap": 1,
-    "Api Doc": 1,
-    "Source_code": 1,
-    "CI": 19,
-    "Paper": 13,
+    "Versioned_DOI": 1,
+    "Original Source": 1,
+    "issues": 132,
+    "Hybrid FC research - @Shadekss": 1,
+    "Quick Start Guide": 1,
+    "Commercial License": 1,
+    "Homepage": 13108,
+    "Privacy Policy": 1,
+    "Baseten": 1,
+    "X": 3,
+    "Matrix": 1,
+    "releases": 2,
+    "ReleaseNotes": 2,
+    "CI: Travis": 1,
+    "Library Source": 1,
+    "Live example": 1,
     "IssueTracker": 6,
-    "Wikidata": 1,
-    "website": 1,
-    "Troubleshooting": 2,
-    "SDev Finance": 1,
-    "Dataset": 2,
-    "source": 180,
-    "issue-tracker": 5,
+    "Contributing": 8,
+    "Documentations": 2,
+    "Original": 3,
     "PyPI Package": 1,
-    "Bug-Tracker": 13,
-    "API Key Application": 1,
-    "RDKit": 1,
-    "homepage (upstream)": 111,
-    "Information": 1,
-    "D-Starting": 1,
-    "Issues": 4065,
-    "Donations": 3,
-    "Developers": 1,
-    "PyPI": 66,
-    "Release-notes": 1,
-    "DOWNLOAD": 4,
-    "Translation": 5,
-    "Source-Code": 2,
-    "documentation": 536,
-    "docs": 15,
-    "Sponsor": 6,
-    "SpRIT App (streamlit) Docs": 1,
-    "PRIDE": 1,
-    "CI: GitHub": 2,
-    "GPG Public Key": 1,
-    "Snakemake Documentation": 1,
-    "GitHub: issues": 12,
-    "Hugging Face Spaces": 1,
-    "CI: Azure Pipelines": 1,
-    "Source Code": 397,
-    "Reddit": 8,
-    "Vastxiao Blog": 1,
-    "Linkedin": 1,
-    "Claude Code": 1,
-    "Sponsor on GitHub": 1,
-    "Research Paper": 2,
-    "Changelogs": 1,
-    "Source Archive": 1,
-    "SGR Concept Creator - @abdullin": 1,
-    "API Reference": 11,
-    "Support": 18,
-    "SciPy2015-talk": 1,
-    "linkedin": 1,
-    "Mobile app": 1,
-    "Home page": 2,
-    "Author Website": 1,
-    "Google Group": 1,
+    "release-notes": 1,
+    "quiz": 1,
+    "Resources": 1,
+    "Telegram Bot": 1,
+    "Examples": 16,
+    "文件教學": 1,
+    "Notebook Examples": 1,
+    "Slack Chat": 22,
+    "Tracker": 310,
+    "Free Support": 4,
+    "source code": 2,
+    "ArchDesign": 1,
+    "ci": 2,
+    "YouTube": 30,
+    "Preprint": 2,
     "ASCOM Initiative": 1,
-    "Chat": 23,
-    "blog": 1,
+    "Dashboard": 4,
+    "Samples": 1,
+    "Stats Page": 1,
+    "Health Check": 1,
+    "HuggingFaceModels": 1,
+    "bugtracker": 6,
+    "Newsletter": 1,
+    "ImplementationCase": 1,
+    "Developer": 1,
+    "ONNXRuntime-Compatibility": 1,
+    "Sponsor": 6,
+    "Quickstart": 1,
+    "PYPI": 1,
+    "UCalgary SRS Open Data Platform": 2,
+    "Paper": 13,
+    "Benchmarks": 2,
+    "download_url": 1,
+    "Download": 315,
+    "About Ouranos": 2,
+    "Source": 1588,
+    "Donations": 3,
+    "A-Homepage": 1,
+    "Source Archive": 1,
+    "FAQ": 2,
+    "API": 4,
+    "Hardware": 1,
+    "Hugging Face Spaces": 1,
+    "Original C++ Project": 1,
+    "Authors": 4,
+    "RDKit": 1,
+    "Readthedocs": 1,
+    "Issue-Tracker": 1,
+    "Trademarks": 1,
+    "Discussions": 76,
+    "twitter": 4,
+    "Docker": 1,
+    "Contribute!": 7,
+    "Core Developer - @virrius": 1,
+    "Bug tracker": 9,
+    "Release Notes": 67,
+    "SecretFlow": 1,
+    "Git page": 1,
+    "sourcecode": 1,
+    "Downloads": 10,
+    "community": 1,
+    "Binder": 1,
+    "Modaic": 1,
+    "Arthur Homepage": 1,
+    "python documentation": 1,
+    "Core Developer - @EvilFreelancer": 1,
+    "tracker (upstream)": 111,
+    "Docker Hub": 2,
+    "ArcadeDB Upstream": 1,
+    "SciPy2015-talk": 1,
+    "CI: Azure Pipelines": 1,
+    "Model (Hugging Face)": 2,
+    "Protobuf": 1,
+    "Issue 反馈（主站）": 1,
+    "Chaneglog": 1,
+    "Bug_Tracker": 6,
+    "Chat room": 1,
+    "pypi": 3,
+    "Bug Traccker": 1,
+    "Skyline": 1,
+    "changelog": 139,
+    "User Guide": 1,
+    "Coverage": 5,
+    "Documentation": 5320,
+    "Source-Code": 2,
+    "Home page": 2,
+    "Community": 13,
+    "PyPi": 3,
+    "Package": 7,
+    "Userguide": 1,
+    "Temporary License": 4,
+    "Security": 1,
+    "API-Docs": 1,
+    "Doxygen": 1,
+    "Changes": 32,
+    "Say Thanks!": 9,
+    "Issue / Bug Reports": 1,
+    "respository": 1,
+    "Code_of_Conduct": 2,
+    "ReadTheDocs": 4,
+    "GitHub Mirror": 1,
+    "Third-Party Licenses": 1,
+    "Certified": 1,
+    "Home Page": 2,
+    "Tidelift": 1,
+    "Chrome Extension": 1,
+    "Sponsor on Open Collective": 1,
+    "Publications": 2,
+    "Hawky.ai": 1,
+    "Bugtracker": 2,
+    "WeChat": 1,
+    "bug-tracker": 1,
+    "GitHub 中文镜像": 1,
+    "Toolkit Overview": 1,
+    "Tutorial": 1,
+    "Bug Report": 2,
+    "Forums": 1,
+    "Telegram": 1,
+    "Benchmarks - Results": 2,
+    "Funding": 83,
+    "issue": 1,
+    "Releases": 25,
+    "Parent Project": 1,
+    "GitHub Discussions": 1,
+    "Lab Website": 1,
+    "Facebook": 2,
+    "Organization": 1,
+    "donations": 1,
+    "Bug-Tracker": 13,
+    "Jira": 1,
+    "Restapi": 1,
+    "Commercial": 1,
+    "Sponsoring": 15,
     "author": 1,
-    "JOSS paper": 1
+    "HuggingFace": 3,
+    "linkedin": 1,
+    "GitLab XMU Group": 1,
+    "PiWheels": 2,
+    "License": 16,
+    "Upgrade to Globus Compute": 2,
+    "Pull Requests": 1,
+    "Bugs": 1,
+    "Repository": 6587,
+    "Tutorials & Wiki": 1,
+    "Issue tracker": 49,
+    "ChangeLog": 4,
+    "Contribute": 2,
+    "Source Repository": 1,
+    "Source_code": 1,
+    "Docker Image": 1,
+    "Notebook": 1,
+    "Project": 2,
+    "Codecov": 7,
+    "release notes": 115,
+    "Issue Tracker": 116,
+    "GitHub 主站": 1,
+    "Wikidata": 1,
+    "Author Website": 1,
+    "discourse": 111,
+    "benchmark": 1,
+    "Patent Information": 1,
+    "Team website": 1,
+    "Installation": 1,
+    "Source - Precompiled (.py)": 2,
+    "Telegram BotAPI Docs": 1,
+    "words": 1,
+    "bug tracker": 4,
+    "Coverage: codecov": 1,
+    "issue-new": 1,
+    "Issues": 4076,
+    "Mirror": 1,
+    "Standard": 1,
+    "OneTick": 1,
+    "Tests": 1,
+    "BugTracker": 12,
+    "chat": 1,
+    "DevOps & Deployment - @mixaill76": 1,
+    "ASCOM Developer Forum": 1,
+    "Builds": 4,
+    "Paper preprint": 1,
+    "DOWNLOAD": 4,
+    "Git Repository": 1,
+    "Upstream": 4,
+    "Release notes": 18,
+    "Docker Images": 1,
+    "Mailing-list": 3,
+    "Tutorials": 1,
+    "Claude Code": 1,
+    "Live Demo": 1,
+    "Launch on Lab": 1,
+    "E-Examples": 1,
+    "GitHub": 86,
+    "GitHub: issues": 12,
+    "Systemd Guide": 1,
+    "opentrons.com": 1,
+    "Funding (PayPal)": 1,
+    "Discussion": 7,
+    "Code Repository": 1,
+    "Donation": 6,
+    "discord": 3,
+    "project-url/documentation": 1,
+    "Research Reference": 1,
+    "Maritaca AI": 1,
+    "CHANGELOG": 1,
+    "Bug": 1,
+    "OpenAPI": 1,
+    "API Key Application": 1,
+    "FAF Specification": 1,
+    "Customization": 1,
+    "Toolkit Download": 1,
+    "download": 19,
+    "Issue_Tracker": 1,
+    "Quantms": 1,
+    "Linkedin": 1,
+    "B-CollectionlessAI": 1,
+    "bug_tracker": 3,
+    "FraiseQL": 1,
+    "Home-page": 11,
+    "Source (GitHub)": 1,
+    "discussions": 1,
+    "forum": 2,
+    "LibreNMS_Documentation": 1,
+    "project_source": 1,
+    "Gitlab": 1,
+    "Homebrew Tap": 1,
+    "Moodle": 1,
+    "Developer docs": 1,
+    "Home-Page": 1,
+    "Issuses": 1,
+    "CI: GitHub Actions": 9,
+    "Código fonte": 2,
+    "PayPal": 1,
+    "DAGModelling Team": 1,
+    "Main Code": 1,
+    "wiki": 2,
+    "Main instance": 1,
+    "Github": 12,
+    "Sources": 5,
+    "Data System Docs": 1,
+    "Terms of Service": 1,
+    "Source Code (GitHub)": 1,
+    "Reddit": 8,
+    "Glory Wall": 1,
+    "support": 1,
+    "Donate via Ko-fi": 1,
+    "Hugging Face Organization": 1,
+    "DOI": 6,
+    "Source code": 20,
+    "MeaningfulData": 2,
+    "Quick Start": 1,
+    "Bug System": 1,
+    "Code of Conduct": 4,
+    "GitHub Page": 1,
+    "FIA Ecosystem": 1,
+    "DAHITI Homepage": 1,
+    "user_support": 1,
+    "SDev Finance": 1,
+    "slides": 1,
+    "Weights": 1,
+    "support-forum": 1,
+    "Snakemake Documentation": 1,
+    "Helios Core": 1,
+    "RRID": 1,
+    "D-Starting": 1,
+    "Model Hub": 1,
+    "Leaderborad": 1,
+    "Author": 6,
+    "Repo": 3,
+    "space": 1,
+    "Developer Doc": 2,
+    "Bug Reports": 266,
+    "RDKit on Github": 1,
+    "Discussion Forum": 2,
+    "Fork of": 1,
+    "API Reference": 11,
+    "Troubleshooting": 2,
+    "Mailing List": 2,
+    "IRC": 1,
+    "Issues Tracker": 1,
+    "Leonid Shpaner's Website": 1,
+    "Wiki": 4,
+    "Mastodon (nedbat)": 1,
+    "Knowledge Base": 2,
+    "Protobuf Github": 1,
+    "user_group": 1,
+    "funding": 11,
+    "docs": 15,
+    "Bug Tracker": 1548,
+    "中文文档 (Chinese)": 1,
+    "CI/CD": 2,
+    "tracker": 151,
+    "Support": 18,
+    "Code coverage": 4,
+    "Logo": 3,
+    "Docs: RTD": 10,
+    "Git Hub": 1,
+    "Youtube_Tutorial": 1,
+    "VergeOS Docs": 1,
+    "HomePage": 5,
+    "Telegram Channel": 1,
+    "Legal": 1,
+    "GPG Public Key": 1,
+    "GitHub Source": 1,
+    "Getting Started": 3,
+    "Pypi": 5,
+    "TemporaryLicense": 1,
+    "Demo": 11,
+    "README": 1,
+    "Contributors": 2,
+    "Information": 1,
+    "Full Applications": 1,
+    "Search": 1,
+    "github": 13,
+    "Github Pages API Docs": 1,
+    "Bluesky": 3,
+    "Security Policy": 3,
+    "Book": 2,
+    "IANA Registration": 1,
+    "issue-tracker": 5,
+    "CI: GitHub": 2,
+    "tubes": 1,
+    "Donate via GitHub Sponsors": 1,
+    "Original Project": 4,
+    "codes": 1,
+    "History": 20,
+    "Citation": 2,
+    "Donate": 6,
+    "Google Group": 1,
+    "Help Center": 1,
+    "Help Desk": 2,
+    "Live demo": 2,
+    "homeSource Codepage": 2,
+    "website": 1,
+    "R Package": 1,
+    "JOSS paper": 1,
+    "F-Documentation": 1,
+    "LICENSE": 1,
+    "Examples & Demos": 1,
+    "Config Browser": 1,
+    "Wiliot": 1,
+    "Q & A": 2,
+    "Code": 18,
+    "Coordinator - @VaKovaLskii": 1,
+    "Source (Python)": 1,
+    "Live Server": 1,
+    "Build Data": 1,
+    "DeepWiki": 1,
+    "Sponsor on GitHub": 1,
+    "POC Tool": 1,
+    "API Documentation": 1,
+    "Artifacts": 1,
+    "Pricing": 2,
+    "bug_reports": 1,
+    "Plugin Discussion Thread": 1,
+    "Fostrom": 1,
+    "Commit": 1,
+    "Zenodo": 6,
+    "Contact": 15,
+    "tutorial": 1,
+    "Source - Compiled (.c)": 2,
+    "Vastxiao Blog": 1,
+    "Community Forum": 1,
+    "Bioexcel": 2,
+    "Blog": 18,
+    "Web App": 1,
+    "Discord Community": 1,
+    "Echoes SF page": 1,
+    "Demonstration website": 1,
+    "Reference": 2,
+    "Home": 88,
+    "Chat": 25,
+    "Developers": 1,
+    "Concept_DOI": 1,
+    "dogesec HQ": 4,
+    "DAMON": 1,
+    "MCP Registry": 1,
+    "Echoes FB page": 1,
+    "Research Paper": 2,
+    "source": 180,
+    "C-Source": 1,
+    "Test-Coverage": 2,
+    "Forum": 28,
+    "Dataset": 2,
+    "HoloViz": 4,
+    "Console": 2,
+    "Release-notes": 1,
+    "HuggingFaceDatasets": 1,
+    "live_demo": 1,
+    "HED Resources": 2,
+    "pip": 2,
+    "Gitter": 3,
+    "Mann Labs Homepage": 2,
+    "SoundCloud": 1,
+    "Changelogs": 1,
+    "Docs": 21,
+    "Docs: Dev": 1,
+    "SimpleCore Documentation": 1,
+    "Mastodon": 28,
+    "Conda-forge": 1,
+    "Release": 2,
+    "Stats": 1,
+    "Engine": 1,
+    "Slack": 23,
+    "Licensing": 1,
+    "source-code": 3,
+    "Feature Requests": 3,
+    "Source Code (mirror)": 1,
+    "Csvpath.org": 1,
+    "Demonstration": 1,
+    "OpenCGA-enterprise": 1,
+    "Downloadable_Version": 1,
+    "Report Issues": 1,
+    "home": 5,
+    "Zulip": 1,
+    "User Forum": 16,
+    "PyTorch CUDA Wheels": 1,
+    "Documenation": 1,
+    "Apify Homepage": 4,
+    "bugs": 14,
+    "MCP Endpoint": 1,
+    "Twitter": 28,
+    "AuroraX Platform": 1,
+    "Merge requests": 1,
+    "Repositorio": 1,
+    "Agent Skills": 1,
+    "bugtrack": 1,
+    "Git repository": 1,
+    "Bugs and Features": 1,
+    "GitHub: repo": 12,
+    "Source_Code": 3,
+    "Instagram": 1,
+    "Lean Proofs": 1,
+    "Discourse": 2,
+    "PRIDE": 1,
+    "upstream": 2,
+    "Nuclia": 1,
+    "User Support": 19,
+    "Youtube": 2,
+    "doc": 2,
+    "Roadmap": 3,
+    "Changelog": 1506,
+    "LinkedIn": 14,
+    "BugReports": 1,
+    "SpRIT Web App": 1,
+    "Help": 8,
+    "Releasenotes": 2,
+    "Change Log": 7,
+    "repo": 117,
+    "homepage (upstream)": 111,
+    "releasenotes": 7,
+    "documentation": 536,
+    "package": 1,
+    "Demos": 4,
+    "Website": 117,
+    "Mobile app": 1,
+    "Demo Server": 1,
+    "Source Code": 397,
+    "Enterprise Edition": 2,
+    "source_code": 2,
+    "Replit": 1,
+    "Credits": 1,
+    "CI": 19,
+    "Apps Gallery": 1,
+    "Gitee Repo": 1,
+    "repo (upstream)": 111,
+    "Snakemake Repository": 1,
+    "source_archive": 2,
+    "News": 11,
+    "SGR Concept Creator - @abdullin": 1,
+    "Feature Request Tracker": 1,
+    "Discord": 42,
+    "cite": 1,
+    "repository": 548,
+    "Documentación": 1,
+    "JAX-sklearn": 1,
+    "Change_log": 1,
+    "Maintainer": 2,
+    "Github Repository": 1,
+    "Skills": 1,
+    "release_notes": 21,
+    "conda": 2,
+    "SpRIT App (streamlit) Docs": 1,
+    "Translation": 5,
+    "blog": 1,
+    "Change log": 7,
+    "Library Guide": 1,
+    "選股策略": 1,
+    "PyPI": 66,
+    "Api Doc": 1,
+    "Upstream (Rust)": 1,
+    "homepage": 582,
+    "soucecode": 1,
+    "Project-URL": 1
   }
 }
