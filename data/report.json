@@ -1,386 +1,506 @@
 {
-  "total": 44888,
+  "total": 44917,
   "projects": [
     {
-      "name": "clawagents",
-      "version": "4.0.0",
-      "summary": "Python port of the ClawAgents framework",
-      "pub_date": 1771741795
-    },
-    {
-      "name": "logsentry-agent",
-      "version": "1.0.28",
-      "summary": "LogSentry agent SDK and collectors.",
-      "pub_date": 1771741790
-    },
-    {
-      "name": "pypizza",
-      "version": "1.3.10",
-      "summary": "Pizza Python Project Manager",
-      "pub_date": 1771741775
-    },
-    {
-      "name": "optimuslib",
-      "version": "0.0.90",
-      "summary": "Function Library for mostly used codes",
-      "pub_date": 1771741760
-    },
-    {
-      "name": "humanlayer-ai",
-      "version": "0.2.1",
-      "summary": "Zero-code AI agent monitoring with Human-in-the-Loop for LangChain, LangGraph, CrewAI, AutoGen, and any agentic framework",
-      "pub_date": 1771741738
-    },
-    {
-      "name": "experimental-lowqa",
-      "version": "0.1.11",
-      "summary": "Read the sign.",
-      "pub_date": 1771741654
-    },
-    {
-      "name": "django-rahavard",
-      "version": "0.0.63",
-      "summary": "A Django App Containing Overridden Django Commands",
-      "pub_date": 1771741645
-    },
-    {
-      "name": "pizzaui",
-      "version": "0.0.1",
-      "summary": "项目描述",
-      "pub_date": 1771741603
-    },
-    {
-      "name": "fedinesia",
-      "version": "3.4.16",
-      "summary": "Deletes old posts from fediverse accounts. Confirmed working with Mastodon, Pleroma (and Forks), Gotosocial, and Takahe",
-      "pub_date": 1771741566
-    },
-    {
-      "name": "pg-here",
-      "version": "0.1.0",
-      "summary": "Run a local PostgreSQL instance in your project folder with one command",
-      "pub_date": 1771741559
-    },
-    {
-      "name": "cdk8s-plus-31",
-      "version": "2.6.26",
-      "summary": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-31 synthesizes Kubernetes manifests for Kubernetes 1.31.0",
-      "pub_date": 1771741554
-    },
-    {
-      "name": "cdk8s-plus-33",
-      "version": "2.4.26",
-      "summary": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-33 synthesizes Kubernetes manifests for Kubernetes 1.33.0",
-      "pub_date": 1771741529
-    },
-    {
-      "name": "gmft",
-      "version": "0.4.3",
-      "summary": "Lightweight, performant, deep table extraction",
-      "pub_date": 1771741522
-    },
-    {
-      "name": "claude-relay",
-      "version": "0.2.0",
-      "summary": "OpenAI- and Anthropic-compatible API server that routes through Claude Code",
-      "pub_date": 1771741436
-    },
-    {
-      "name": "graphbus",
-      "version": "0.4.0",
-      "summary": "Multi-agent orchestration framework — LLM-powered agents negotiate, refactor, and evolve your codebase",
-      "pub_date": 1771741397
-    },
-    {
-      "name": "davybot",
+      "name": "aurora-to-rs",
       "version": "0.1.5",
-      "summary": "Dawei AI Assistant - Server Package (Backend + Frontend)",
-      "pub_date": 1771741386
+      "summary": "Lean Aurora PostgreSQL to Redshift loader via copy_expert + S3 COPY",
+      "pub_date": 1771746351
     },
     {
-      "name": "fabrix-ai",
-      "version": "1.6.1",
-      "summary": "Graph-based agent framework powered by oauth-codex",
-      "pub_date": 1771741323
+      "name": "askai-python",
+      "version": "0.2.0",
+      "summary": "AI Made Stupid Simple. Unified API for OpenAI, Groq, Google, and more.",
+      "pub_date": 1771746298
     },
     {
-      "name": "rahavard",
-      "version": "0.0.76",
-      "summary": "Re-Usable Utils",
-      "pub_date": 1771741320
+      "name": "astra-engine",
+      "version": "0.0.2b8",
+      "summary": "A high-performance WhatsApp Web automation library for Python.",
+      "pub_date": 1771746275
+    },
+    {
+      "name": "ferrum-rs",
+      "version": "0.1.0",
+      "summary": "Ferrum: A Rust-first web framework with Django-like Python API",
+      "pub_date": 1771746238
+    },
+    {
+      "name": "zenlink-mcp",
+      "version": "1.0.0",
+      "summary": "MCP server for browser automation via ZenLink - gives Claude Desktop and other MCP clients native browser control.",
+      "pub_date": 1771746236
+    },
+    {
+      "name": "pyalexs3",
+      "version": "0.1.5",
+      "summary": "OpenAlex S3 processor",
+      "pub_date": 1771746223
+    },
+    {
+      "name": "pyspcbridge",
+      "version": "0.6.3",
+      "summary": "Python library for communicating with acre/Vanderbilt SPC alarm system via Lundix's SPC Bridge Generic (Lite)",
+      "pub_date": 1771746151
+    },
+    {
+      "name": "llm-workers-evaluation",
+      "version": "1.1.0",
+      "summary": "Evaluation framework for LLM Workers",
+      "pub_date": 1771746121
+    },
+    {
+      "name": "llm-workers-tools",
+      "version": "1.1.0",
+      "summary": "Command-line tools for LLM Workers - llm-workers-cli and llm-workers-chat",
+      "pub_date": 1771746109
+    },
+    {
+      "name": "llm-workers-console",
+      "version": "1.1.0",
+      "summary": "Console UI components for LLM Workers - interactive chat interface and rich terminal output",
+      "pub_date": 1771746096
+    },
+    {
+      "name": "llm-workers",
+      "version": "1.1.0",
+      "summary": "Core library for experimenting with LLMs - provides configuration, workers, tools, and LLM integrations",
+      "pub_date": 1771746082
+    },
+    {
+      "name": "know-cli",
+      "version": "0.7.6",
+      "summary": "Context Intelligence for AI Coding Agents — smart, token-budgeted code context",
+      "pub_date": 1771746081
+    },
+    {
+      "name": "iyakku",
+      "version": "1.0.0",
+      "summary": "Remote media controller - control your laptop's media from your phone",
+      "pub_date": 1771746079
+    },
+    {
+      "name": "vmklib",
+      "version": "2.0.9",
+      "summary": "Simplify project workflows by standardizing use of GNU Make.",
+      "pub_date": 1771746065
+    },
+    {
+      "name": "bicep-whatif-advisor",
+      "version": "2.5.2",
+      "summary": "AI-powered Azure Bicep What-If deployment advisor with automated safety reviews",
+      "pub_date": 1771746055
+    },
+    {
+      "name": "klaude-code",
+      "version": "2.16.0",
+      "summary": "Minimal code agent CLI",
+      "pub_date": 1771746040
+    },
+    {
+      "name": "Jarvis-Operas",
+      "version": "1.0.1",
+      "summary": "Operator registry and async-friendly execution layer for Jarvis",
+      "pub_date": 1771745998
+    },
+    {
+      "name": "mteb",
+      "version": "2.8.4",
+      "summary": "Massive Text Embedding Benchmark",
+      "pub_date": 1771745967
+    },
+    {
+      "name": "pandadock",
+      "version": "4.0.0",
+      "summary": "GPU-accelerated molecular docking software",
+      "pub_date": 1771745930
+    },
+    {
+      "name": "datumhub-cli",
+      "version": "0.1.9",
+      "summary": "Publish and consume open data from the command line. Discover, pull, and verify any file by identifier.",
+      "pub_date": 1771745916
+    },
+    {
+      "name": "invar-tools",
+      "version": "1.17.33",
+      "summary": "AI-native software engineering tools with design-by-contract verification",
+      "pub_date": 1771745893
+    },
+    {
+      "name": "ractogateway",
+      "version": "0.1.3",
+      "summary": "A unified, production-ready AI SDK that enforces structured outputs and anti-hallucination prompting via the RACTO principle. One package for OpenAI, Gemini, and Anthropic — with streaming, tool calling, embeddings, and strict Pydantic validation.",
+      "pub_date": 1771745885
+    },
+    {
+      "name": "broker-nanobot",
+      "version": "0.1.0",
+      "summary": "Nanobot module injector that patches in broker transport channels",
+      "pub_date": 1771745833
+    },
+    {
+      "name": "ai-edge-litert-sdk-mediatek-nightly",
+      "version": "0.2.0.dev20260221",
+      "summary": "MediaTek NeuroPilot SDK for AI Edge LiteRT",
+      "pub_date": 1771745771
+    },
+    {
+      "name": "ai-edge-litert-sdk-qualcomm-nightly",
+      "version": "0.2.0.dev20260221",
+      "summary": "Qualcomm SDK for AI Edge LiteRT",
+      "pub_date": 1771745770
+    },
+    {
+      "name": "prysmai",
+      "version": "0.3.1",
+      "summary": "Prysm AI — The observability and security layer for LLM applications. Full trace capture, real-time dashboard, alerting, cost tracking, multi-provider support (OpenAI, Anthropic, Google Gemini, vLLM, Ollama), prompt injection detection, PII redaction, and content policy enforcement. One line of code.",
+      "pub_date": 1771745761
+    },
+    {
+      "name": "archipy",
+      "version": "4.3.0",
+      "summary": "Architecture + Python – Perfect for structured design.",
+      "pub_date": 1771745748
+    },
+    {
+      "name": "green-love",
+      "version": "0.1.3",
+      "summary": "PyTorch training estimator plugin — benchmark locally, estimate full training cost/time/CO₂, compare against Crusoe Cloud GPUs",
+      "pub_date": 1771745735
+    },
+    {
+      "name": "copilot-session-tools",
+      "version": "0.2.0",
+      "summary": "A collection of tools for VS Code GitHub Copilot chat history",
+      "pub_date": 1771745714
     },
     {
       "name": "wisent",
-      "version": "0.7.1556",
+      "version": "0.7.1559",
       "summary": "Monitor and influence AI Brains",
-      "pub_date": 1771741255
+      "pub_date": 1771745703
     },
     {
-      "name": "retio-pagemap",
-      "version": "0.5.2",
-      "summary": "Structured web page representation for AI agents — 97% HTML token reduction",
-      "pub_date": 1771741199
+      "name": "albums",
+      "version": "0.1.17",
+      "summary": "Manage music albums, automatically correct tags, organize and sync copies with interactive command line interface.",
+      "pub_date": 1771745683
     },
     {
-      "name": "pyg-nightly",
-      "version": "2.8.0.dev20260222",
-      "summary": "Graph Neural Network Library for PyTorch",
-      "pub_date": 1771741171
+      "name": "np_codeocean",
+      "version": "0.3.18",
+      "summary": "Tools for uploading and interacting with Mindscope Neuropixels experiments on Code Ocean",
+      "pub_date": 1771745651
     },
     {
-      "name": "cdk8s-plus-32",
-      "version": "2.5.27",
-      "summary": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-32 synthesizes Kubernetes manifests for Kubernetes 1.32.0",
-      "pub_date": 1771741153
-    },
-    {
-      "name": "tars-robot",
-      "version": "0.5.1",
-      "summary": "TARS robot control library with daemon, dashboard, and SDK",
-      "pub_date": 1771741132
-    },
-    {
-      "name": "pyolive-ng",
-      "version": "1.1.5",
-      "summary": "Python API for Athena pywok (Next Generation with Athena Broker).",
-      "pub_date": 1771741117
-    },
-    {
-      "name": "cocoindex",
-      "version": "1.0.0a18",
-      "summary": "With CocoIndex, users declare the transformation, CocoIndex creates & maintains an index, and keeps the derived index up to date based on source update, with minimal computation and changes.",
-      "pub_date": 1771741107
-    },
-    {
-      "name": "MapleX",
-      "version": "3.0.0",
-      "summary": "A Python library for simple logging, json file operations, Maple file format operations, and console color utilities.",
-      "pub_date": 1771741100
-    },
-    {
-      "name": "akshare",
-      "version": "1.18.26",
-      "summary": "AKShare is an elegant and simple financial data interface library for Python, built for human beings!",
-      "pub_date": 1771741065
+      "name": "xync-client",
+      "version": "0.0.217",
+      "summary": null,
+      "pub_date": 1771745642
     },
     {
       "name": "mcp-memory-service",
-      "version": "10.17.6",
+      "version": "10.17.8",
       "summary": "Open-source persistent memory for AI agent pipelines and Claude. REST API + semantic search + knowledge graph + autonomous consolidation. Self-host, zero cloud cost.",
-      "pub_date": 1771741023
+      "pub_date": 1771745637
     },
     {
-      "name": "couchers",
-      "version": "0.0.51",
-      "summary": "Couchers.org: The next-generation couch surfing platform. Free forever. Community-led. Non-profit. Modern.",
-      "pub_date": 1771740973
-    },
-    {
-      "name": "fleeks-sdk",
-      "version": "0.4.0",
-      "summary": "Python SDK for the Fleeks AI Development Platform",
-      "pub_date": 1771740965
-    },
-    {
-      "name": "leaf-example",
-      "version": "0.2.1",
-      "summary": "Leaf Adapter with a basic example function. Creating a measurement message every x interval.",
-      "pub_date": 1771740929
-    },
-    {
-      "name": "llm-vertex",
-      "version": "0.2.4",
-      "summary": "Plugin for LLM adding support for Google Cloud Vertex AI",
-      "pub_date": 1771740914
-    },
-    {
-      "name": "sai-chat",
-      "version": "0.1.4",
-      "summary": "Simple AI interface to chat with your LLM models from the terminal",
-      "pub_date": 1771740908
-    },
-    {
-      "name": "safari-bookmarks-mcp",
-      "version": "0.6.2",
-      "summary": "A CLI and MCP server to manage bookmarks in the Safari web browser.",
-      "pub_date": 1771740896
-    },
-    {
-      "name": "oak-ci",
-      "version": "1.2.5",
-      "summary": "CLI toolkit for AI-powered development workflows - spec-driven development, RFC/ARC management, and shared conventions across AI coding agents",
-      "pub_date": 1771740880
-    },
-    {
-      "name": "portacode",
-      "version": "1.4.33.dev3",
-      "summary": "Portacode CLI client and SDK",
-      "pub_date": 1771740864
-    },
-    {
-      "name": "apcore-mcp",
-      "version": "0.3.0",
-      "summary": "Automatic MCP Server & OpenAI Tools Bridge for apcore",
-      "pub_date": 1771740861
-    },
-    {
-      "name": "cucu",
-      "version": "1.4.7",
-      "summary": "Easy BDD web testing",
-      "pub_date": 1771740831
-    },
-    {
-      "name": "siglab-py",
-      "version": "0.7.60",
-      "summary": "Market data fetches, TA calculations and generic order gateway.",
-      "pub_date": 1771740815
-    },
-    {
-      "name": "federated-graph",
-      "version": "0.1.0",
-      "summary": "Federated Graph Intelligence SDK for financial fraud detection",
-      "pub_date": 1771740762
-    },
-    {
-      "name": "contractlane-operator-sdk",
-      "version": "0.1.0",
-      "summary": "Python SDK for Contract Lane Operator API",
-      "pub_date": 1771740761
-    },
-    {
-      "name": "piscem",
-      "version": "0.1.1",
-      "summary": "Python bindings for the piscem k-mer mapping engine",
-      "pub_date": 1771740734
-    },
-    {
-      "name": "agentouto",
-      "version": "0.3.0",
-      "summary": "Multi-agent Python SDK with peer-to-peer agent communication",
-      "pub_date": 1771740733
-    },
-    {
-      "name": "rbv-ut-downloader",
-      "version": "0.1.3.1",
-      "summary": "A simple Python-based tool to automate module downloads from Universitas Terbuka's Virtual Reading Room (RBV).",
-      "pub_date": 1771740725
-    },
-    {
-      "name": "aerospike-py",
-      "version": "0.0.1b1",
-      "summary": "Aerospike Python Client - PyO3 + Rust binding",
-      "pub_date": 1771740702
-    },
-    {
-      "name": "geventhttpclient",
-      "version": "2.3.8",
-      "summary": "HTTP client library for gevent",
-      "pub_date": 1771740682
-    },
-    {
-      "name": "artificer-dispatcher",
-      "version": "0.2.5",
-      "summary": "Polls project management APIs for ready tickets and spawns AI agents to work on them",
-      "pub_date": 1771740681
-    },
-    {
-      "name": "rtxpy",
-      "version": "0.0.8",
-      "summary": "Ray tracing using CUDA accessible from Python",
-      "pub_date": 1771740643
-    },
-    {
-      "name": "ainb",
-      "version": "0.2.9",
+      "name": "hbase-driver",
+      "version": "1.0.3",
       "summary": null,
-      "pub_date": 1771740602
+      "pub_date": 1771745629
     },
     {
-      "name": "iflow2api",
-      "version": "1.5.10",
-      "summary": "将 iFlow CLI 的 AI 服务暴露为 OpenAI 兼容 API",
-      "pub_date": 1771740583
+      "name": "feldera",
+      "version": "0.250.0",
+      "summary": "The feldera python client",
+      "pub_date": 1771745609
+    },
+    {
+      "name": "summon-ai",
+      "version": "0.1.0",
+      "summary": "Autonomous idea-to-product pipeline — one idea in, working project out",
+      "pub_date": 1771745498
+    },
+    {
+      "name": "kinpy2",
+      "version": "1.0.2",
+      "summary": "Reaction kinetics intergration from user-friendly input",
+      "pub_date": 1771745425
+    },
+    {
+      "name": "pyspacer",
+      "version": "0.13.0",
+      "summary": "Spatial image analysis with pytorch and caffe backends.",
+      "pub_date": 1771745332
+    },
+    {
+      "name": "agent-utilities",
+      "version": "0.1.1",
+      "summary": "Agent Utilities for Pydantic AI Agents",
+      "pub_date": 1771745310
+    },
+    {
+      "name": "universal-skills",
+      "version": "0.1.1",
+      "summary": "Integrate RAG into AI Agents via MCP Server. Supports multiple Vector database technologies.",
+      "pub_date": 1771745293
+    },
+    {
+      "name": "simmetry",
+      "version": "1.0.2",
+      "summary": "Blazing-fast similarity scores for strings, vectors, points, and sets.",
+      "pub_date": 1771745284
+    },
+    {
+      "name": "webtoolkit",
+      "version": "0.0.207",
+      "summary": "Web tools and interfaces for Internet data processing.",
+      "pub_date": 1771745270
+    },
+    {
+      "name": "lain-shorten",
+      "version": "1.18",
+      "summary": "A simple CLI URL shortener using s.lain.la API, with optional clipboard copy.",
+      "pub_date": 1771745245
+    },
+    {
+      "name": "overlay.library",
+      "version": "0.2.0.post7.dev0",
+      "summary": "The Overlay language standard library — built-in definitions for the Overlay language",
+      "pub_date": 1771745230
+    },
+    {
+      "name": "overlay.language",
+      "version": "0.2.0.post7.dev0",
+      "summary": "A dependency injection framework with pytest-fixture syntax, plus a configuration language for declarative programming",
+      "pub_date": 1771745229
+    },
+    {
+      "name": "naturalshell-mac",
+      "version": "1.0.0",
+      "summary": "Natural language to shell command converter with bilingual support",
+      "pub_date": 1771745224
+    },
+    {
+      "name": "pymoku",
+      "version": "4.7.7",
+      "summary": "Python scripting interface to the Liquid Instruments Moku",
+      "pub_date": 1771745222
+    },
+    {
+      "name": "uipath-dev",
+      "version": "0.0.58",
+      "summary": "UiPath Developer Console",
+      "pub_date": 1771745212
+    },
+    {
+      "name": "diesel-heater-ble",
+      "version": "0.2.17",
+      "summary": "BLE protocol library for diesel heaters (Vevor, Hcalory, Sunster, HeaterCC)",
+      "pub_date": 1771745208
     }
   ],
   "license": {
     "licenses": {
-      "LGPLv3": 46,
-      "GNU GPL v3.0": 3,
-      "EUPL 1.1+": 0,
-      "GPL version 2": 20,
-      "GPLv3+": 39,
-      "MIT OR Apache-2.0": 108,
-      "GPL 3.0": 5,
-      "GPL-2.0-only": 32,
-      "AGPLv3": 11,
-      "GPL-3": 25,
-      "FreeBSD": 2,
-      "GPL-3.0-or-later": 681,
-      "BSD": 118,
-      "Apache v2.0": 2,
-      "Apache License": 11,
-      "AGPL-3.0-or-later": 229,
-      "MPL-2.0": 143,
-      "Mulan PSL v2": 6,
-      "GPL-3.0-only": 241,
-      "GPL-3.0": 164,
-      "Apache-2.0": 4408,
-      "LGPL-3.0-or-later": 92,
-      "AGPL-3.0-only": 95,
-      "BSD-3": 29,
-      "GPLv3": 145,
-      "GPL-2.0-or-later": 153,
+      "BSD-3-Clause": 827,
       "Apache License 2.0": 433,
-      "BSD-2-Clause": 101,
-      "Apache-2.0 license": 9,
-      "BSD-3-Clause-Clear": 6,
-      "GPL-2.0": 16,
-      "BSD 2-CLAUSE": 1,
-      "Elastic License 2.0": 5,
-      "Apache 2": 20,
-      "MIT License": 373,
-      "CC BY-NC-SA 4.0": 8,
-      "ISC": 65,
-      "Apache 2.0 license": 0,
-      "Artistic-2.0": 0,
-      "GNU": 9,
-      "Apache 2.0 License": 10,
-      "BSD-3-Clause": 826,
-      "BSD 3-Clause": 31,
-      "ELv2": 15,
-      "BSD-Clause-2": 1,
-      "GPL License": 1,
-      "AGPL-3.0": 156,
+      "ASL": 1,
+      "Apache License": 11,
+      "Proprietary": 266,
       "BSD License": 28,
-      "Apache 2.0": 359,
-      "gpl": 3,
-      "GPLv2+": 10,
-      "GPL": 32,
-      "AGPL-3": 593,
-      "Apache-2": 10,
+      "BSD 2-CLAUSE": 1,
+      "GPL-2+": 2,
+      "BSD-3-Clause-Clear": 6,
+      "Apache-2.0": 4409,
+      "ISC": 65,
+      "MPL": 0,
+      "CC BY-NC-SA 4.0": 8,
+      "GPL-3.0": 164,
       "GPL3": 19,
-      "LGPL 3.0": 2,
-      "Proprietary": 265,
+      "Apache 2.0": 359,
+      "LGPL-3.0-or-later": 92,
+      "Apache-2.0 license": 9,
       "AGPL": 30,
       "EUPL-1.2": 35,
-      "LGPL-3": 67,
-      "GPL-2+": 2,
-      "MIT license": 37,
-      "BSD-3-clause": 0,
-      "ASL": 1,
-      "Elastic-2.0": 41,
-      "Apache": 45,
+      "GPLv3+": 39,
+      "GPL-3": 25,
+      "GPLv3": 145,
+      "GPL-2.0-or-later": 153,
+      "BSD-3": 29,
+      "GNU": 9,
       "EUPL-1.2-or-later": 2,
+      "GPL-3.0-or-later": 681,
+      "Mulan PSL v2": 6,
+      "Elastic License 2.0": 5,
+      "Apache 2.0 License": 10,
+      "AGPL-3.0-only": 95,
+      "FreeBSD": 2,
+      "BSD": 118,
       "LGPL-2.1-or-later": 29,
-      "MPL": 0,
-      "AFL-3.0": 1,
-      "MIT": 16666,
+      "MIT License": 373,
+      "GPL License": 1,
+      "GPL version 2": 20,
       "AGPL 3.0": 12,
+      "AGPLv3": 11,
+      "AGPL-3.0-or-later": 229,
+      "GNU GPL v3.0": 3,
+      "Artistic-2.0": 0,
+      "BSD (3-clause)": 6,
+      "LGPLv3": 46,
+      "AGPL-3": 593,
+      "GPL 3.0": 5,
+      "ELv2": 15,
+      "Apache 2.0 license": 0,
+      "BSD 3-Clause": 31,
+      "LGPL 3.0": 2,
+      "GPL-2.0": 16,
+      "MIT OR Apache-2.0": 108,
+      "GPLv2+": 10,
+      "Apache 2": 20,
+      "MPL-2.0": 143,
+      "GPL": 32,
       "LGPL-3.0-only": 45,
-      "BSD (3-clause)": 6
+      "gpl": 3,
+      "LGPL-3": 67,
+      "Apache v2.0": 2,
+      "BSD-Clause-2": 1,
+      "AFL-3.0": 1,
+      "GPL-2.0-only": 32,
+      "MIT": 16681,
+      "GPL-3.0-only": 241,
+      "Apache": 45,
+      "EUPL 1.1+": 0,
+      "MIT license": 37,
+      "Apache-2": 10,
+      "Elastic-2.0": 41,
+      "BSD-2-Clause": 101,
+      "BSD-3-clause": 0,
+      "AGPL-3.0": 156
     },
-    "no_license_count": 11946,
+    "no_license_count": 11954,
     "no_license": [
+      {
+        "name": "llm-workers-evaluation",
+        "version": "1.1.0",
+        "summary": "Evaluation framework for LLM Workers",
+        "pub_date": 1771746121
+      },
+      {
+        "name": "llm-workers-tools",
+        "version": "1.1.0",
+        "summary": "Command-line tools for LLM Workers - llm-workers-cli and llm-workers-chat",
+        "pub_date": 1771746109
+      },
+      {
+        "name": "llm-workers-console",
+        "version": "1.1.0",
+        "summary": "Console UI components for LLM Workers - interactive chat interface and rich terminal output",
+        "pub_date": 1771746096
+      },
+      {
+        "name": "llm-workers",
+        "version": "1.1.0",
+        "summary": "Core library for experimenting with LLMs - provides configuration, workers, tools, and LLM integrations",
+        "pub_date": 1771746082
+      },
+      {
+        "name": "klaude-code",
+        "version": "2.16.0",
+        "summary": "Minimal code agent CLI",
+        "pub_date": 1771746040
+      },
+      {
+        "name": "Jarvis-Operas",
+        "version": "1.0.1",
+        "summary": "Operator registry and async-friendly execution layer for Jarvis",
+        "pub_date": 1771745998
+      },
+      {
+        "name": "pandadock",
+        "version": "4.0.0",
+        "summary": "GPU-accelerated molecular docking software",
+        "pub_date": 1771745930
+      },
+      {
+        "name": "wisent",
+        "version": "0.7.1559",
+        "summary": "Monitor and influence AI Brains",
+        "pub_date": 1771745703
+      },
+      {
+        "name": "xync-client",
+        "version": "0.0.217",
+        "summary": null,
+        "pub_date": 1771745642
+      },
+      {
+        "name": "hbase-driver",
+        "version": "1.0.3",
+        "summary": null,
+        "pub_date": 1771745629
+      },
+      {
+        "name": "universal-skills",
+        "version": "0.1.1",
+        "summary": "Integrate RAG into AI Agents via MCP Server. Supports multiple Vector database technologies.",
+        "pub_date": 1771745293
+      },
+      {
+        "name": "uipath-dev",
+        "version": "0.0.58",
+        "summary": "UiPath Developer Console",
+        "pub_date": 1771745212
+      },
+      {
+        "name": "staticpipes",
+        "version": "0.7.1",
+        "summary": "StaticPipes, the flexible and extendable static site website generator in Python",
+        "pub_date": 1771744944
+      },
+      {
+        "name": "omni-fetcher",
+        "version": "0.4.0",
+        "summary": "Universal data fetcher with Pydantic schemas",
+        "pub_date": 1771744943
+      },
+      {
+        "name": "langchain-caching",
+        "version": "0.1.1",
+        "summary": "A minimal caching utility",
+        "pub_date": 1771744935
+      },
+      {
+        "name": "usdm4-m11",
+        "version": "0.10.0",
+        "summary": "A package for processing M11 protocol documents and converting them to USDM format",
+        "pub_date": 1771744756
+      },
+      {
+        "name": "grover-visualizer",
+        "version": "0.1.5",
+        "summary": "Visualize Grover's Algorithm with quantum state animations",
+        "pub_date": 1771744543
+      },
+      {
+        "name": "zython",
+        "version": "0.6.0",
+        "summary": "Express constraint programming problem with python and solve it with minizinc",
+        "pub_date": 1771744395
+      },
+      {
+        "name": "solite",
+        "version": "0.0.1a27",
+        "summary": "Solite CLI - A command line interface for Solite",
+        "pub_date": 1771744274
+      },
+      {
+        "name": "materialyoucolor",
+        "version": "3.0.2",
+        "summary": "Material You color generation algorithms in pure python!",
+        "pub_date": 1771744148
+      },
       {
         "name": "clawagents",
         "version": "4.0.0",
@@ -410,12 +530,6 @@
         "version": "0.0.76",
         "summary": "Re-Usable Utils",
         "pub_date": 1771741320
-      },
-      {
-        "name": "wisent",
-        "version": "0.7.1556",
-        "summary": "Monitor and influence AI Brains",
-        "pub_date": 1771741255
       },
       {
         "name": "cocoindex",
@@ -532,12 +646,6 @@
         "pub_date": 1771739415
       },
       {
-        "name": "aurora-to-rs",
-        "version": "0.1.2",
-        "summary": "Lean Aurora PostgreSQL to Redshift loader via copy_expert + S3 COPY",
-        "pub_date": 1771739282
-      },
-      {
         "name": "featrixsphere",
         "version": "0.2.7258",
         "summary": "Transform any CSV into a production-ready ML model in minutes, not months.",
@@ -572,118 +680,28 @@
         "version": "0.1.0",
         "summary": "A Python 3.12 compatible .pyc decompiler wrapper around pycdc",
         "pub_date": 1771738592
-      },
-      {
-        "name": "elspais",
-        "version": "0.84.1",
-        "summary": "Requirements validation and traceability tools - L-Space connects all libraries",
-        "pub_date": 1771738276
-      },
-      {
-        "name": "aider-ce",
-        "version": "0.97.1",
-        "summary": "⚠️ DEPRECATED: This package has been renamed to 'cecli-dev'.",
-        "pub_date": 1771738216
-      },
-      {
-        "name": "cecli-dev",
-        "version": "0.97.1",
-        "summary": "we also can't pronounce cecli",
-        "pub_date": 1771738188
-      },
-      {
-        "name": "uipath-agent-framework",
-        "version": "0.0.8",
-        "summary": "Python SDK that enables developers to build and deploy Microsoft Agent Framework agents to the UiPath Cloud Platform",
-        "pub_date": 1771737852
-      },
-      {
-        "name": "hgvs-weaver",
-        "version": "0.3.0",
-        "summary": "High-performance HGVS parser for Python (Rust powered)",
-        "pub_date": 1771737715
-      },
-      {
-        "name": "uipath-dev",
-        "version": "0.0.57",
-        "summary": "UiPath Developer Console",
-        "pub_date": 1771737663
-      },
-      {
-        "name": "aarushlohit-git",
-        "version": "1.1.0",
-        "summary": "A Clean & Powerful Git Workflow Engine",
-        "pub_date": 1771737381
-      },
-      {
-        "name": "envelopes-qc",
-        "version": "0.0.11",
-        "summary": "Envelops impelemented by C++ and Python.",
-        "pub_date": 1771737005
-      },
-      {
-        "name": "nowfy",
-        "version": "1.1.40",
-        "summary": "Nowfy unified plugin package with integrated runtime core and services",
-        "pub_date": 1771736723
-      },
-      {
-        "name": "jcapy",
-        "version": "4.1.9",
-        "summary": "JCapy CLI - One-Army Orchestrator",
-        "pub_date": 1771735602
-      },
-      {
-        "name": "philh_myftp_biz",
-        "version": "2026.2.21",
-        "summary": null,
-        "pub_date": 1771735491
-      },
-      {
-        "name": "noai-watermark",
-        "version": "0.1.15",
-        "summary": "AI Metadata Toolkit for cloning, checking, cleaning, and watermark removal",
-        "pub_date": 1771735380
-      },
-      {
-        "name": "mb_utils",
-        "version": "2.0.17",
-        "summary": "Extra mb python utilities",
-        "pub_date": 1771735344
-      },
-      {
-        "name": "calkit-python",
-        "version": "0.34.1",
-        "summary": "Reproducibility simplified.",
-        "pub_date": 1771735296
-      },
-      {
-        "name": "fenix-mcp",
-        "version": "2.9.0",
-        "summary": "Fênix Cloud MCP server implemented in Python",
-        "pub_date": 1771735274
-      },
-      {
-        "name": "omni-fetcher",
-        "version": "0.3.1",
-        "summary": "Universal data fetcher with Pydantic schemas",
-        "pub_date": 1771735137
-      },
-      {
-        "name": "better-social-notifications",
-        "version": "3.0.1",
-        "summary": "Python app to send notifications with lower latency from social networks like YouTube and Twitch",
-        "pub_date": 1771735091
-      },
-      {
-        "name": "sporestack",
-        "version": "15.0.0",
-        "summary": "SporeStack API library and CLI for launching servers with Monero or Bitcoin",
-        "pub_date": 1771734838
       }
     ],
-    "bad_license_count": 1146,
+    "bad_license_count": 1147,
     "bad_license": [
+      {
+        "name": "lain-shorten",
+        "version": "1.18",
+        "summary": "A simple CLI URL shortener using s.lain.la API, with optional clipboard copy.",
+        "pub_date": 1771745245
+      },
+      {
+        "name": "lain-upload",
+        "version": "1.18",
+        "summary": "A simple CLI file uploader for multiple file-hosting services, with optional clipboard copy.",
+        "pub_date": 1771745175
+      },
+      {
+        "name": "pushfill",
+        "version": "2.0.0b1",
+        "summary": "Fill a disk with random data to push out old SSD data",
+        "pub_date": 1771744373
+      },
       {
         "name": "tars-robot",
         "version": "0.5.1",
@@ -965,28 +983,34 @@
         "version": "2026.1.14",
         "summary": "Karrio - UPS Shipping extension",
         "pub_date": 1771641662
-      },
-      {
-        "name": "karrio-tnt",
-        "version": "2026.1.14",
-        "summary": "Karrio - TNT Shipping extension",
-        "pub_date": 1771641661
-      },
-      {
-        "name": "karrio-tge",
-        "version": "2026.1.14",
-        "summary": "Karrio - TGE Shipping Extension",
-        "pub_date": 1771641660
-      },
-      {
-        "name": "karrio-teleship",
-        "version": "2026.1.14",
-        "summary": "Karrio - Teleship Shipping Extension",
-        "pub_date": 1771641659
       }
     ],
-    "long_license_count": 4562,
+    "long_license_count": 4564,
     "long_license": [
+      {
+        "name": "archipy",
+        "version": "4.3.0",
+        "summary": "Architecture + Python – Perfect for structured design.",
+        "pub_date": 1771745748
+      },
+      {
+        "name": "kinpy2",
+        "version": "1.0.2",
+        "summary": "Reaction kinetics intergration from user-friendly input",
+        "pub_date": 1771745425
+      },
+      {
+        "name": "pyspacer",
+        "version": "0.13.0",
+        "summary": "Spatial image analysis with pytorch and caffe backends.",
+        "pub_date": 1771745332
+      },
+      {
+        "name": "synapse-sdk",
+        "version": "2026.1.48",
+        "summary": "synapse sdk",
+        "pub_date": 1771744095
+      },
       {
         "name": "mcp-ssh-session",
         "version": "0.2.2",
@@ -1262,41 +1286,161 @@
         "version": "0.3.3",
         "summary": "Matrix analysis primitives (SVD, covariance, eigendecomposition)",
         "pub_date": 1771722412
-      },
-      {
-        "name": "pmtvs-information",
-        "version": "0.3.3",
-        "summary": "Information theory primitives",
-        "pub_date": 1771722411
-      },
-      {
-        "name": "pmtvs-fractal",
-        "version": "0.3.3",
-        "summary": "Fractal primitives: Hurst exponent, DFA",
-        "pub_date": 1771722396
-      },
-      {
-        "name": "pmtvs-entropy",
-        "version": "0.3.3",
-        "summary": "Entropy primitives: sample entropy, permutation entropy",
-        "pub_date": 1771722380
-      },
-      {
-        "name": "pmtvs-embedding",
-        "version": "0.3.3",
-        "summary": "Time-delay embedding for dynamical systems analysis (4 functions, 1 Rust-accelerated)",
-        "pub_date": 1771722365
       }
     ]
   },
   "vcs": {
     "hosts": {
+      "gitlab": 493,
       "other": 174,
-      "github": 28970,
-      "gitlab": 492
+      "github": 28983
     },
-    "no_vcs_count": 12214,
+    "no_vcs_count": 12224,
     "no_vcs": [
+      {
+        "name": "ferrum-rs",
+        "version": "0.1.0",
+        "summary": "Ferrum: A Rust-first web framework with Django-like Python API",
+        "pub_date": 1771746238
+      },
+      {
+        "name": "pyspcbridge",
+        "version": "0.6.3",
+        "summary": "Python library for communicating with acre/Vanderbilt SPC alarm system via Lundix's SPC Bridge Generic (Lite)",
+        "pub_date": 1771746151
+      },
+      {
+        "name": "klaude-code",
+        "version": "2.16.0",
+        "summary": "Minimal code agent CLI",
+        "pub_date": 1771746040
+      },
+      {
+        "name": "Jarvis-Operas",
+        "version": "1.0.1",
+        "summary": "Operator registry and async-friendly execution layer for Jarvis",
+        "pub_date": 1771745998
+      },
+      {
+        "name": "pandadock",
+        "version": "4.0.0",
+        "summary": "GPU-accelerated molecular docking software",
+        "pub_date": 1771745930
+      },
+      {
+        "name": "datumhub-cli",
+        "version": "0.1.9",
+        "summary": "Publish and consume open data from the command line. Discover, pull, and verify any file by identifier.",
+        "pub_date": 1771745916
+      },
+      {
+        "name": "broker-nanobot",
+        "version": "0.1.0",
+        "summary": "Nanobot module injector that patches in broker transport channels",
+        "pub_date": 1771745833
+      },
+      {
+        "name": "green-love",
+        "version": "0.1.3",
+        "summary": "PyTorch training estimator plugin — benchmark locally, estimate full training cost/time/CO₂, compare against Crusoe Cloud GPUs",
+        "pub_date": 1771745735
+      },
+      {
+        "name": "mcp-memory-service",
+        "version": "10.17.8",
+        "summary": "Open-source persistent memory for AI agent pipelines and Claude. REST API + semantic search + knowledge graph + autonomous consolidation. Self-host, zero cloud cost.",
+        "pub_date": 1771745637
+      },
+      {
+        "name": "agent-utilities",
+        "version": "0.1.1",
+        "summary": "Agent Utilities for Pydantic AI Agents",
+        "pub_date": 1771745310
+      },
+      {
+        "name": "universal-skills",
+        "version": "0.1.1",
+        "summary": "Integrate RAG into AI Agents via MCP Server. Supports multiple Vector database technologies.",
+        "pub_date": 1771745293
+      },
+      {
+        "name": "webtoolkit",
+        "version": "0.0.207",
+        "summary": "Web tools and interfaces for Internet data processing.",
+        "pub_date": 1771745270
+      },
+      {
+        "name": "pymoku",
+        "version": "4.7.7",
+        "summary": "Python scripting interface to the Liquid Instruments Moku",
+        "pub_date": 1771745222
+      },
+      {
+        "name": "redeem-properties",
+        "version": "0.1.0",
+        "summary": null,
+        "pub_date": 1771745187
+      },
+      {
+        "name": "omni-fetcher",
+        "version": "0.4.0",
+        "summary": "Universal data fetcher with Pydantic schemas",
+        "pub_date": 1771744943
+      },
+      {
+        "name": "theow",
+        "version": "0.0.11",
+        "summary": "LLM-in-the-loop rule based expert system",
+        "pub_date": 1771744902
+      },
+      {
+        "name": "causalis",
+        "version": "0.1.9",
+        "summary": "A Python toolkit for causal inference and experimentation",
+        "pub_date": 1771744760
+      },
+      {
+        "name": "usdm4-m11",
+        "version": "0.10.0",
+        "summary": "A package for processing M11 protocol documents and converting them to USDM format",
+        "pub_date": 1771744756
+      },
+      {
+        "name": "watcher",
+        "version": "0.4.0",
+        "summary": "A simple file watcher that runs commands when files change",
+        "pub_date": 1771744661
+      },
+      {
+        "name": "pushfill",
+        "version": "2.0.0b1",
+        "summary": "Fill a disk with random data to push out old SSD data",
+        "pub_date": 1771744373
+      },
+      {
+        "name": "solite",
+        "version": "0.0.1a27",
+        "summary": "Solite CLI - A command line interface for Solite",
+        "pub_date": 1771744274
+      },
+      {
+        "name": "materialyoucolor",
+        "version": "3.0.2",
+        "summary": "Material You color generation algorithms in pure python!",
+        "pub_date": 1771744148
+      },
+      {
+        "name": "synapse-sdk",
+        "version": "2026.1.48",
+        "summary": "synapse sdk",
+        "pub_date": 1771744095
+      },
+      {
+        "name": "nautobot-app-bgp-soo",
+        "version": "0.1.1",
+        "summary": "Nautobot app for modeling BGP Site of Origin (SoO) extended communities.",
+        "pub_date": 1771744055
+      },
       {
         "name": "clawagents",
         "version": "4.0.0",
@@ -1326,12 +1470,6 @@
         "version": "0.2.0",
         "summary": "OpenAI- and Anthropic-compatible API server that routes through Claude Code",
         "pub_date": 1771741436
-      },
-      {
-        "name": "mcp-memory-service",
-        "version": "10.17.6",
-        "summary": "Open-source persistent memory for AI agent pipelines and Claude. REST API + semantic search + knowledge graph + autonomous consolidation. Self-host, zero cloud cost.",
-        "pub_date": 1771741023
       },
       {
         "name": "leaf-example",
@@ -1458,148 +1596,76 @@
         "version": "2.0.30",
         "summary": "支持部署和管理多种 WebUI 的工具",
         "pub_date": 1771738786
-      },
-      {
-        "name": "animuz-core",
-        "version": "0.1.5",
-        "summary": "Core shared utilities for Animuz RAG system - LLM clients, pipelines, vector DB, and document ingestion",
-        "pub_date": 1771738783
-      },
-      {
-        "name": "vt-eyre",
-        "version": "0.6.0",
-        "summary": "Lightweight VirusTotal CLI scanner using a secure server",
-        "pub_date": 1771738710
-      },
-      {
-        "name": "canvas-chat",
-        "version": "0.1.98",
-        "summary": "A visual, non-linear chat interface where conversations are nodes on an infinite canvas",
-        "pub_date": 1771738635
-      },
-      {
-        "name": "bisos.lcnt",
-        "version": "0.15",
-        "summary": "bisos.lcnt:  Command Services (CS) and libraries to support ByStar Libre Content (LCNT) capabilities for impressive (pdf presentations), screenstudio (desktop recorder), etc.",
-        "pub_date": 1771738475
-      },
-      {
-        "name": "napari-manual-labels-editor",
-        "version": "0.1.0",
-        "summary": "Manual fine-tuning toolkit for napari Labels: compute stats, assign new IDs, delete/merge labels, relabel to 1..N, and save LZW BigTIFF safely.",
-        "pub_date": 1771738423
-      },
-      {
-        "name": "matrice-compute",
-        "version": "0.1.65",
-        "summary": "Common server utilities for Matrice.ai services",
-        "pub_date": 1771738323
-      },
-      {
-        "name": "bisos.graphviz",
-        "version": "0.27",
-        "summary": "bisos.graphviz: Seeded-PyCS Graphviz",
-        "pub_date": 1771738297
-      },
-      {
-        "name": "bisos.facter",
-        "version": "1.33",
-        "summary": "bisos.facter:  Adoption and adaptation of facter to Python and as Command-Services",
-        "pub_date": 1771738147
-      },
-      {
-        "name": "bashers",
-        "version": "0.8.7",
-        "summary": "Installable cli helpers",
-        "pub_date": 1771738084
-      },
-      {
-        "name": "cr-cress",
-        "version": "0.1.3",
-        "summary": "tbd",
-        "pub_date": 1771737748
-      },
-      {
-        "name": "kigo-gui-framework",
-        "version": "1.9",
-        "summary": "You can now write your own skins oh and you wont get another update for a few weeks cuz im gonna shift to grade 5 in the final exam and got selected for the IVWS cricket team soooo yeah im busy there is an example skin in kits/cyberblue. ",
-        "pub_date": 1771737715
-      },
-      {
-        "name": "hgvs-weaver",
-        "version": "0.3.0",
-        "summary": "High-performance HGVS parser for Python (Rust powered)",
-        "pub_date": 1771737715
-      },
-      {
-        "name": "hwpx-mcp-server",
-        "version": "2.0.2",
-        "summary": "Model Context Protocol server for local HWPX document automation.",
-        "pub_date": 1771737028
-      },
-      {
-        "name": "envelopes-qc",
-        "version": "0.0.11",
-        "summary": "Envelops impelemented by C++ and Python.",
-        "pub_date": 1771737005
-      },
-      {
-        "name": "otel-hooks",
-        "version": "0.12.1",
-        "summary": "AI coding tools tracing hooks for observability (Langfuse, OTLP, and more)",
-        "pub_date": 1771736742
-      },
-      {
-        "name": "nowfy",
-        "version": "1.1.40",
-        "summary": "Nowfy unified plugin package with integrated runtime core and services",
-        "pub_date": 1771736723
-      },
-      {
-        "name": "makerrepo",
-        "version": "0.3.3",
-        "summary": "Open source library that brings Manufacturing As Code concept into build123d ecosystem",
-        "pub_date": 1771736143
-      },
-      {
-        "name": "petal-leafsdk",
-        "version": "0.2.11",
-        "summary": "SDK for mission planning",
-        "pub_date": 1771735661
-      },
-      {
-        "name": "petal-user-journey-coordinator",
-        "version": "0.1.13",
-        "summary": "A petal for the DroneLeaf ecosystem",
-        "pub_date": 1771735626
-      },
-      {
-        "name": "petal-flight-log",
-        "version": "0.2.7",
-        "summary": "A petal for creating flight logs and download Ulog files from PXHawk",
-        "pub_date": 1771735583
-      },
-      {
-        "name": "philh_myftp_biz",
-        "version": "2026.2.21",
-        "summary": null,
-        "pub_date": 1771735491
-      },
-      {
-        "name": "pylottie-convert",
-        "version": "0.1.1.dev3",
-        "summary": "High performance Lottie renderer powered by rlottie",
-        "pub_date": 1771735402
-      },
-      {
-        "name": "mb_utils",
-        "version": "2.0.17",
-        "summary": "Extra mb python utilities",
-        "pub_date": 1771735344
       }
     ],
-    "bad_vcs_count": 3038,
+    "bad_vcs_count": 3043,
     "bad_vcs": [
+      {
+        "name": "askai-python",
+        "version": "0.2.0",
+        "summary": "AI Made Stupid Simple. Unified API for OpenAI, Groq, Google, and more.",
+        "pub_date": 1771746298
+      },
+      {
+        "name": "llm-workers-evaluation",
+        "version": "1.1.0",
+        "summary": "Evaluation framework for LLM Workers",
+        "pub_date": 1771746121
+      },
+      {
+        "name": "llm-workers-tools",
+        "version": "1.1.0",
+        "summary": "Command-line tools for LLM Workers - llm-workers-cli and llm-workers-chat",
+        "pub_date": 1771746109
+      },
+      {
+        "name": "llm-workers-console",
+        "version": "1.1.0",
+        "summary": "Console UI components for LLM Workers - interactive chat interface and rich terminal output",
+        "pub_date": 1771746096
+      },
+      {
+        "name": "llm-workers",
+        "version": "1.1.0",
+        "summary": "Core library for experimenting with LLMs - provides configuration, workers, tools, and LLM integrations",
+        "pub_date": 1771746082
+      },
+      {
+        "name": "ai-edge-litert-sdk-mediatek-nightly",
+        "version": "0.2.0.dev20260221",
+        "summary": "MediaTek NeuroPilot SDK for AI Edge LiteRT",
+        "pub_date": 1771745771
+      },
+      {
+        "name": "ai-edge-litert-sdk-qualcomm-nightly",
+        "version": "0.2.0.dev20260221",
+        "summary": "Qualcomm SDK for AI Edge LiteRT",
+        "pub_date": 1771745770
+      },
+      {
+        "name": "ai-edge-litert-nightly",
+        "version": "2.2.0.dev20260221",
+        "summary": "LiteRT is for mobile and embedded devices.",
+        "pub_date": 1771744665
+      },
+      {
+        "name": "trademux",
+        "version": "0.1.1",
+        "summary": "Unified trading API and Python SDK for MetaTrader 4/5 and OANDA.",
+        "pub_date": 1771744626
+      },
+      {
+        "name": "null-client",
+        "version": "0.12.0",
+        "summary": "Python client for the null content-addressable storage system",
+        "pub_date": 1771744341
+      },
+      {
+        "name": "tree-distribution-shift",
+        "version": "0.2.1",
+        "summary": "Tree Distribution Shift benchmark — WILDS-style PyTorch datasets + COCO export for satellite tree-crown detection under distribution shift.",
+        "pub_date": 1771744194
+      },
       {
         "name": "pyolive-ng",
         "version": "1.1.5",
@@ -1647,12 +1713,6 @@
         "version": "2.0.0",
         "summary": null,
         "pub_date": 1771729972
-      },
-      {
-        "name": "tree-distribution-shift",
-        "version": "0.2.0",
-        "summary": "Tree Distribution Shift benchmark — WILDS-style PyTorch datasets + COCO export for satellite tree-crown detection under distribution shift.",
-        "pub_date": 1771727895
       },
       {
         "name": "salt",
@@ -1811,12 +1871,6 @@
         "pub_date": 1771703299
       },
       {
-        "name": "null-client",
-        "version": "0.11.0",
-        "summary": "Python client for the null content-addressable storage system",
-        "pub_date": 1771701394
-      },
-      {
         "name": "venver",
         "version": "0.5.4",
         "summary": "Automatically activate, and deactivate virutal environments when entering or leaving directories.",
@@ -1845,367 +1899,325 @@
         "version": "0.12.1",
         "summary": "Command Line Interface for interacting with all parts of the qBraid platform.",
         "pub_date": 1771697237
-      },
-      {
-        "name": "trustplane-sdk",
-        "version": "0.3.3",
-        "summary": "Trustplane SDK (Python) for generating request proof headers",
-        "pub_date": 1771695996
-      },
-      {
-        "name": "chaiverse",
-        "version": "1.33.7",
-        "summary": "Chaiverse",
-        "pub_date": 1771695721
-      },
-      {
-        "name": "bnlearn",
-        "version": "0.12.3",
-        "summary": "bnlearn is a Python package for Causal Discovery by learning the graphical structure of Bayesian networks, parameter learning, inference and sampling methods.",
-        "pub_date": 1771695229
-      },
-      {
-        "name": "amina-cli",
-        "version": "0.2.2",
-        "summary": "CLI for AminoAnalytica protein engineering platform",
-        "pub_date": 1771694706
-      },
-      {
-        "name": "chATLAS_Chains",
-        "version": "0.1.7",
-        "summary": "A modular Python package for implementing Retrieval Augmented Generation chains for the chATLAS project.",
-        "pub_date": 1771694700
-      },
-      {
-        "name": "danger-downloader",
-        "version": "7.77.7",
-        "summary": "Multi-platform social media video downloader with embedded cookies",
-        "pub_date": 1771694326
-      },
-      {
-        "name": "tf-nightly-cpu",
-        "version": "2.22.0.dev20260221",
-        "summary": "TensorFlow is an open source machine learning framework for everyone.",
-        "pub_date": 1771691176
-      },
-      {
-        "name": "tf-nightly",
-        "version": "2.22.0.dev20260221",
-        "summary": "TensorFlow is an open source machine learning framework for everyone.",
-        "pub_date": 1771690988
-      },
-      {
-        "name": "auraagent",
-        "version": "0.2.0",
-        "summary": "Aura — Carbon tracking and AI bias analysis toolkit",
-        "pub_date": 1771689147
       }
     ],
-    "github_count": 28970,
+    "github_count": 28983,
     "github_projects": [
       {
+        "name": "aurora-to-rs",
+        "version": "0.1.5",
+        "summary": "Lean Aurora PostgreSQL to Redshift loader via copy_expert + S3 COPY",
+        "pub_date": 1771746351
+      },
+      {
+        "name": "astra-engine",
+        "version": "0.0.2b8",
+        "summary": "A high-performance WhatsApp Web automation library for Python.",
+        "pub_date": 1771746275
+      },
+      {
+        "name": "zenlink-mcp",
+        "version": "1.0.0",
+        "summary": "MCP server for browser automation via ZenLink - gives Claude Desktop and other MCP clients native browser control.",
+        "pub_date": 1771746236
+      },
+      {
+        "name": "pyalexs3",
+        "version": "0.1.5",
+        "summary": "OpenAlex S3 processor",
+        "pub_date": 1771746223
+      },
+      {
+        "name": "know-cli",
+        "version": "0.7.6",
+        "summary": "Context Intelligence for AI Coding Agents — smart, token-budgeted code context",
+        "pub_date": 1771746081
+      },
+      {
+        "name": "iyakku",
+        "version": "1.0.0",
+        "summary": "Remote media controller - control your laptop's media from your phone",
+        "pub_date": 1771746079
+      },
+      {
+        "name": "vmklib",
+        "version": "2.0.9",
+        "summary": "Simplify project workflows by standardizing use of GNU Make.",
+        "pub_date": 1771746065
+      },
+      {
+        "name": "bicep-whatif-advisor",
+        "version": "2.5.2",
+        "summary": "AI-powered Azure Bicep What-If deployment advisor with automated safety reviews",
+        "pub_date": 1771746055
+      },
+      {
+        "name": "mteb",
+        "version": "2.8.4",
+        "summary": "Massive Text Embedding Benchmark",
+        "pub_date": 1771745967
+      },
+      {
+        "name": "invar-tools",
+        "version": "1.17.33",
+        "summary": "AI-native software engineering tools with design-by-contract verification",
+        "pub_date": 1771745893
+      },
+      {
+        "name": "ractogateway",
+        "version": "0.1.3",
+        "summary": "A unified, production-ready AI SDK that enforces structured outputs and anti-hallucination prompting via the RACTO principle. One package for OpenAI, Gemini, and Anthropic — with streaming, tool calling, embeddings, and strict Pydantic validation.",
+        "pub_date": 1771745885
+      },
+      {
+        "name": "prysmai",
+        "version": "0.3.1",
+        "summary": "Prysm AI — The observability and security layer for LLM applications. Full trace capture, real-time dashboard, alerting, cost tracking, multi-provider support (OpenAI, Anthropic, Google Gemini, vLLM, Ollama), prompt injection detection, PII redaction, and content policy enforcement. One line of code.",
+        "pub_date": 1771745761
+      },
+      {
+        "name": "archipy",
+        "version": "4.3.0",
+        "summary": "Architecture + Python – Perfect for structured design.",
+        "pub_date": 1771745748
+      },
+      {
+        "name": "copilot-session-tools",
+        "version": "0.2.0",
+        "summary": "A collection of tools for VS Code GitHub Copilot chat history",
+        "pub_date": 1771745714
+      },
+      {
+        "name": "wisent",
+        "version": "0.7.1559",
+        "summary": "Monitor and influence AI Brains",
+        "pub_date": 1771745703
+      },
+      {
+        "name": "albums",
+        "version": "0.1.17",
+        "summary": "Manage music albums, automatically correct tags, organize and sync copies with interactive command line interface.",
+        "pub_date": 1771745683
+      },
+      {
+        "name": "np_codeocean",
+        "version": "0.3.18",
+        "summary": "Tools for uploading and interacting with Mindscope Neuropixels experiments on Code Ocean",
+        "pub_date": 1771745651
+      },
+      {
+        "name": "hbase-driver",
+        "version": "1.0.3",
+        "summary": null,
+        "pub_date": 1771745629
+      },
+      {
+        "name": "feldera",
+        "version": "0.250.0",
+        "summary": "The feldera python client",
+        "pub_date": 1771745609
+      },
+      {
+        "name": "summon-ai",
+        "version": "0.1.0",
+        "summary": "Autonomous idea-to-product pipeline — one idea in, working project out",
+        "pub_date": 1771745498
+      },
+      {
+        "name": "pyspacer",
+        "version": "0.13.0",
+        "summary": "Spatial image analysis with pytorch and caffe backends.",
+        "pub_date": 1771745332
+      },
+      {
+        "name": "simmetry",
+        "version": "1.0.2",
+        "summary": "Blazing-fast similarity scores for strings, vectors, points, and sets.",
+        "pub_date": 1771745284
+      },
+      {
+        "name": "lain-shorten",
+        "version": "1.18",
+        "summary": "A simple CLI URL shortener using s.lain.la API, with optional clipboard copy.",
+        "pub_date": 1771745245
+      },
+      {
+        "name": "overlay.library",
+        "version": "0.2.0.post7.dev0",
+        "summary": "The Overlay language standard library — built-in definitions for the Overlay language",
+        "pub_date": 1771745230
+      },
+      {
+        "name": "overlay.language",
+        "version": "0.2.0.post7.dev0",
+        "summary": "A dependency injection framework with pytest-fixture syntax, plus a configuration language for declarative programming",
+        "pub_date": 1771745229
+      },
+      {
+        "name": "naturalshell-mac",
+        "version": "1.0.0",
+        "summary": "Natural language to shell command converter with bilingual support",
+        "pub_date": 1771745224
+      },
+      {
+        "name": "uipath-dev",
+        "version": "0.0.58",
+        "summary": "UiPath Developer Console",
+        "pub_date": 1771745212
+      },
+      {
+        "name": "diesel-heater-ble",
+        "version": "0.2.17",
+        "summary": "BLE protocol library for diesel heaters (Vevor, Hcalory, Sunster, HeaterCC)",
+        "pub_date": 1771745208
+      },
+      {
+        "name": "lain-upload",
+        "version": "1.18",
+        "summary": "A simple CLI file uploader for multiple file-hosting services, with optional clipboard copy.",
+        "pub_date": 1771745175
+      },
+      {
+        "name": "bussdcc-system-health",
+        "version": "0.5.0",
+        "summary": "bussdcc-system-health",
+        "pub_date": 1771745152
+      },
+      {
+        "name": "pyscn-mcp",
+        "version": "1.11.1",
+        "summary": "MCP (Model Context Protocol) server for pyscn Python code analyzer",
+        "pub_date": 1771745065
+      },
+      {
+        "name": "pyscn",
+        "version": "1.11.1",
+        "summary": "An intelligent Python code quality analyzer with architectural guidance",
+        "pub_date": 1771745064
+      },
+      {
+        "name": "npc_session",
+        "version": "0.1.41",
+        "summary": "Basic tools for parsing subject, session, date and time associated with data from the Mindscope Neuropixels team, in the cloud.",
+        "pub_date": 1771744945
+      },
+      {
+        "name": "staticpipes",
+        "version": "0.7.1",
+        "summary": "StaticPipes, the flexible and extendable static site website generator in Python",
+        "pub_date": 1771744944
+      },
+      {
+        "name": "langchain-caching",
+        "version": "0.1.1",
+        "summary": "A minimal caching utility",
+        "pub_date": 1771744935
+      },
+      {
+        "name": "rain-assistant",
+        "version": "1.0.4",
+        "summary": "AI-powered coding assistant with voice, plugins, web UI, and Telegram bot",
+        "pub_date": 1771744920
+      },
+      {
         "name": "pypizza",
-        "version": "1.3.10",
+        "version": "1.3.11",
         "summary": "Pizza Python Project Manager",
-        "pub_date": 1771741775
+        "pub_date": 1771744876
+      },
+      {
+        "name": "mcp-server-tibet-core",
+        "version": "0.1.0",
+        "summary": "MCP Server for TIBET - The Trust Kernel for AI. Audit as a Precondition, Not an Afterthought.",
+        "pub_date": 1771744865
+      },
+      {
+        "name": "python-devlog",
+        "version": "2.1",
+        "summary": "No more logging in your code business logic with decorators",
+        "pub_date": 1771744812
+      },
+      {
+        "name": "classixclustering",
+        "version": "1.4.5",
+        "summary": "Fast and explainable clustering based on sorting",
+        "pub_date": 1771744720
+      },
+      {
+        "name": "distillate",
+        "version": "0.4.4",
+        "summary": "Distill research papers from Zotero through reMarkable into structured notes",
+        "pub_date": 1771744662
+      },
+      {
+        "name": "mcp-bastion-python",
+        "version": "1.0.1",
+        "summary": "Security middleware for MCP servers protecting LLM agents from prompt injection, resource exhaustion, and PII leakage",
+        "pub_date": 1771744646
+      },
+      {
+        "name": "experimental-lowqa",
+        "version": "0.1.12",
+        "summary": "Read the sign.",
+        "pub_date": 1771744584
+      },
+      {
+        "name": "grover-visualizer",
+        "version": "0.1.5",
+        "summary": "Visualize Grover's Algorithm with quantum state animations",
+        "pub_date": 1771744543
+      },
+      {
+        "name": "zython",
+        "version": "0.6.0",
+        "summary": "Express constraint programming problem with python and solve it with minizinc",
+        "pub_date": 1771744395
+      },
+      {
+        "name": "wemo-mcp-server",
+        "version": "1.3.0",
+        "summary": "Model Context Protocol server for WeMo smart home device discovery and control",
+        "pub_date": 1771744339
+      },
+      {
+        "name": "mantic-thinking",
+        "version": "2.0.1",
+        "summary": "Cross-domain anomaly and opportunity detection using 4-layer hierarchical analysis",
+        "pub_date": 1771744330
+      },
+      {
+        "name": "cdk-express-pipeline",
+        "version": "2.3.0",
+        "summary": "CDK pipelines provides constructs for Waves, Stages using only native CDK stack dependencies",
+        "pub_date": 1771744279
+      },
+      {
+        "name": "streamlit-nightly",
+        "version": "1.54.1.dev20260221",
+        "summary": "A faster way to build and share data apps",
+        "pub_date": 1771744080
       },
       {
         "name": "humanlayer-ai",
         "version": "0.2.1",
         "summary": "Zero-code AI agent monitoring with Human-in-the-Loop for LangChain, LangGraph, CrewAI, AutoGen, and any agentic framework",
         "pub_date": 1771741738
-      },
-      {
-        "name": "experimental-lowqa",
-        "version": "0.1.11",
-        "summary": "Read the sign.",
-        "pub_date": 1771741654
-      },
-      {
-        "name": "django-rahavard",
-        "version": "0.0.63",
-        "summary": "A Django App Containing Overridden Django Commands",
-        "pub_date": 1771741645
-      },
-      {
-        "name": "pg-here",
-        "version": "0.1.0",
-        "summary": "Run a local PostgreSQL instance in your project folder with one command",
-        "pub_date": 1771741559
-      },
-      {
-        "name": "cdk8s-plus-31",
-        "version": "2.6.26",
-        "summary": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-31 synthesizes Kubernetes manifests for Kubernetes 1.31.0",
-        "pub_date": 1771741554
-      },
-      {
-        "name": "cdk8s-plus-33",
-        "version": "2.4.26",
-        "summary": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-33 synthesizes Kubernetes manifests for Kubernetes 1.33.0",
-        "pub_date": 1771741529
-      },
-      {
-        "name": "gmft",
-        "version": "0.4.3",
-        "summary": "Lightweight, performant, deep table extraction",
-        "pub_date": 1771741522
-      },
-      {
-        "name": "graphbus",
-        "version": "0.4.0",
-        "summary": "Multi-agent orchestration framework — LLM-powered agents negotiate, refactor, and evolve your codebase",
-        "pub_date": 1771741397
-      },
-      {
-        "name": "davybot",
-        "version": "0.1.5",
-        "summary": "Dawei AI Assistant - Server Package (Backend + Frontend)",
-        "pub_date": 1771741386
-      },
-      {
-        "name": "fabrix-ai",
-        "version": "1.6.1",
-        "summary": "Graph-based agent framework powered by oauth-codex",
-        "pub_date": 1771741323
-      },
-      {
-        "name": "rahavard",
-        "version": "0.0.76",
-        "summary": "Re-Usable Utils",
-        "pub_date": 1771741320
-      },
-      {
-        "name": "wisent",
-        "version": "0.7.1556",
-        "summary": "Monitor and influence AI Brains",
-        "pub_date": 1771741255
-      },
-      {
-        "name": "retio-pagemap",
-        "version": "0.5.2",
-        "summary": "Structured web page representation for AI agents — 97% HTML token reduction",
-        "pub_date": 1771741199
-      },
-      {
-        "name": "pyg-nightly",
-        "version": "2.8.0.dev20260222",
-        "summary": "Graph Neural Network Library for PyTorch",
-        "pub_date": 1771741171
-      },
-      {
-        "name": "cdk8s-plus-32",
-        "version": "2.5.27",
-        "summary": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-32 synthesizes Kubernetes manifests for Kubernetes 1.32.0",
-        "pub_date": 1771741153
-      },
-      {
-        "name": "tars-robot",
-        "version": "0.5.1",
-        "summary": "TARS robot control library with daemon, dashboard, and SDK",
-        "pub_date": 1771741132
-      },
-      {
-        "name": "MapleX",
-        "version": "3.0.0",
-        "summary": "A Python library for simple logging, json file operations, Maple file format operations, and console color utilities.",
-        "pub_date": 1771741100
-      },
-      {
-        "name": "akshare",
-        "version": "1.18.26",
-        "summary": "AKShare is an elegant and simple financial data interface library for Python, built for human beings!",
-        "pub_date": 1771741065
-      },
-      {
-        "name": "couchers",
-        "version": "0.0.51",
-        "summary": "Couchers.org: The next-generation couch surfing platform. Free forever. Community-led. Non-profit. Modern.",
-        "pub_date": 1771740973
-      },
-      {
-        "name": "fleeks-sdk",
-        "version": "0.4.0",
-        "summary": "Python SDK for the Fleeks AI Development Platform",
-        "pub_date": 1771740965
-      },
-      {
-        "name": "llm-vertex",
-        "version": "0.2.4",
-        "summary": "Plugin for LLM adding support for Google Cloud Vertex AI",
-        "pub_date": 1771740914
-      },
-      {
-        "name": "sai-chat",
-        "version": "0.1.4",
-        "summary": "Simple AI interface to chat with your LLM models from the terminal",
-        "pub_date": 1771740908
-      },
-      {
-        "name": "safari-bookmarks-mcp",
-        "version": "0.6.2",
-        "summary": "A CLI and MCP server to manage bookmarks in the Safari web browser.",
-        "pub_date": 1771740896
-      },
-      {
-        "name": "oak-ci",
-        "version": "1.2.5",
-        "summary": "CLI toolkit for AI-powered development workflows - spec-driven development, RFC/ARC management, and shared conventions across AI coding agents",
-        "pub_date": 1771740880
-      },
-      {
-        "name": "portacode",
-        "version": "1.4.33.dev3",
-        "summary": "Portacode CLI client and SDK",
-        "pub_date": 1771740864
-      },
-      {
-        "name": "apcore-mcp",
-        "version": "0.3.0",
-        "summary": "Automatic MCP Server & OpenAI Tools Bridge for apcore",
-        "pub_date": 1771740861
-      },
-      {
-        "name": "cucu",
-        "version": "1.4.7",
-        "summary": "Easy BDD web testing",
-        "pub_date": 1771740831
-      },
-      {
-        "name": "siglab-py",
-        "version": "0.7.60",
-        "summary": "Market data fetches, TA calculations and generic order gateway.",
-        "pub_date": 1771740815
-      },
-      {
-        "name": "federated-graph",
-        "version": "0.1.0",
-        "summary": "Federated Graph Intelligence SDK for financial fraud detection",
-        "pub_date": 1771740762
-      },
-      {
-        "name": "aerospike-py",
-        "version": "0.0.1b1",
-        "summary": "Aerospike Python Client - PyO3 + Rust binding",
-        "pub_date": 1771740702
-      },
-      {
-        "name": "geventhttpclient",
-        "version": "2.3.8",
-        "summary": "HTTP client library for gevent",
-        "pub_date": 1771740682
-      },
-      {
-        "name": "rtxpy",
-        "version": "0.0.8",
-        "summary": "Ray tracing using CUDA accessible from Python",
-        "pub_date": 1771740643
-      },
-      {
-        "name": "ainb",
-        "version": "0.2.9",
-        "summary": null,
-        "pub_date": 1771740602
-      },
-      {
-        "name": "iflow2api",
-        "version": "1.5.10",
-        "summary": "将 iFlow CLI 的 AI 服务暴露为 OpenAI 兼容 API",
-        "pub_date": 1771740583
-      },
-      {
-        "name": "litesoc",
-        "version": "1.0.1",
-        "summary": "Official Python SDK for LiteSOC - Security event tracking and threat detection",
-        "pub_date": 1771740544
-      },
-      {
-        "name": "mcp-mesh",
-        "version": "0.9.7",
-        "summary": "Python SDK for MCP Mesh — build distributed AI agents with auto-discovery, dependency injection, and LLM integration",
-        "pub_date": 1771740540
-      },
-      {
-        "name": "mcp-mesh-core",
-        "version": "0.9.7",
-        "summary": "Rust core runtime for MCP Mesh agents",
-        "pub_date": 1771740489
-      },
-      {
-        "name": "mcp-ssh-session",
-        "version": "0.2.2",
-        "summary": "MCP server for managing persistent SSH sessions",
-        "pub_date": 1771740468
-      },
-      {
-        "name": "scope-rx",
-        "version": "2.0.0",
-        "summary": "A comprehensive neural network explainability and interpretability library",
-        "pub_date": 1771740293
-      },
-      {
-        "name": "mdb-engine",
-        "version": "0.8.0",
-        "summary": "MongoDB Engine",
-        "pub_date": 1771740270
-      },
-      {
-        "name": "ParsWeather",
-        "version": "2.0.0",
-        "summary": "A Python package for getting Iran's weather data, including temperature and RealFeel.",
-        "pub_date": 1771740232
-      },
-      {
-        "name": "srilankan-food-trainer",
-        "version": "0.2.1",
-        "summary": "Easy-to-use library for extending Sri Lankan food recognition models",
-        "pub_date": 1771740147
-      },
-      {
-        "name": "autoscorecard",
-        "version": "0.1.0",
-        "summary": "一个简单的示例包",
-        "pub_date": 1771740121
-      },
-      {
-        "name": "colab-grading-client",
-        "version": "1.0.9",
-        "summary": "Client functions for colab notebook to access AI teaching and grading assistant",
-        "pub_date": 1771740023
-      },
-      {
-        "name": "octave-mcp",
-        "version": "1.4.1",
-        "summary": "OCTAVE MCP Server - Lenient-to-Canonical OCTAVE pipeline with schema validation and generative holographic contracts",
-        "pub_date": 1771739912
-      },
-      {
-        "name": "speedtest-z",
-        "version": "0.6.0",
-        "summary": "Automates major speed test sites with a web browser for continuous network quality monitoring",
-        "pub_date": 1771739897
-      },
-      {
-        "name": "django-tex",
-        "version": "1.1.12",
-        "summary": "A simple Django app to render Latex templates and compile them into PDF files.",
-        "pub_date": 1771739831
-      },
-      {
-        "name": "pyrobotiqgripper",
-        "version": "2.0.3",
-        "summary": "Python Driver for Robotiq Grippers",
-        "pub_date": 1771739799
-      },
-      {
-        "name": "fallrisk-itpuf",
-        "version": "0.1.0",
-        "summary": "Biometric identity verification for AI models — challenge-response fingerprinting with cryptographic guarantees.",
-        "pub_date": 1771739670
       }
     ],
-    "gitlab_count": 492,
+    "gitlab_count": 493,
     "gitlab_projects": [
+      {
+        "name": "xync-client",
+        "version": "0.0.217",
+        "summary": null,
+        "pub_date": 1771745642
+      },
+      {
+        "name": "kinpy2",
+        "version": "1.0.2",
+        "summary": "Reaction kinetics intergration from user-friendly input",
+        "pub_date": 1771745425
+      },
       {
         "name": "core-mixins",
         "version": "3.0.0",
@@ -2235,12 +2247,6 @@
         "version": "4.1.0",
         "summary": "GWALK: Gravitational Wave Approximate LiKelihood",
         "pub_date": 1771727555
-      },
-      {
-        "name": "xync-client",
-        "version": "0.0.216",
-        "summary": null,
-        "pub_date": 1771726858
       },
       {
         "name": "dev-tools-loader",
@@ -2499,21 +2505,93 @@
         "version": "0.6.3",
         "summary": "Provides tools and utility methods to write and debug ANTARES filters with Python.",
         "pub_date": 1771537240
-      },
-      {
-        "name": "vorbote",
-        "version": "1.4.0",
-        "summary": "Communicate releases/changes via Git annotations",
-        "pub_date": 1771536619
       }
     ],
-    "no_github_actions_count": 11274,
+    "no_github_actions_count": 11278,
     "no_github_actions": [
       {
+        "name": "aurora-to-rs",
+        "version": "0.1.5",
+        "summary": "Lean Aurora PostgreSQL to Redshift loader via copy_expert + S3 COPY",
+        "pub_date": 1771746351
+      },
+      {
+        "name": "zenlink-mcp",
+        "version": "1.0.0",
+        "summary": "MCP server for browser automation via ZenLink - gives Claude Desktop and other MCP clients native browser control.",
+        "pub_date": 1771746236
+      },
+      {
+        "name": "prysmai",
+        "version": "0.3.1",
+        "summary": "Prysm AI — The observability and security layer for LLM applications. Full trace capture, real-time dashboard, alerting, cost tracking, multi-provider support (OpenAI, Anthropic, Google Gemini, vLLM, Ollama), prompt injection detection, PII redaction, and content policy enforcement. One line of code.",
+        "pub_date": 1771745761
+      },
+      {
+        "name": "simmetry",
+        "version": "1.0.2",
+        "summary": "Blazing-fast similarity scores for strings, vectors, points, and sets.",
+        "pub_date": 1771745284
+      },
+      {
+        "name": "naturalshell-mac",
+        "version": "1.0.0",
+        "summary": "Natural language to shell command converter with bilingual support",
+        "pub_date": 1771745224
+      },
+      {
+        "name": "langchain-caching",
+        "version": "0.1.1",
+        "summary": "A minimal caching utility",
+        "pub_date": 1771744935
+      },
+      {
         "name": "pypizza",
-        "version": "1.3.10",
+        "version": "1.3.11",
         "summary": "Pizza Python Project Manager",
-        "pub_date": 1771741775
+        "pub_date": 1771744876
+      },
+      {
+        "name": "mcp-server-tibet-core",
+        "version": "0.1.0",
+        "summary": "MCP Server for TIBET - The Trust Kernel for AI. Audit as a Precondition, Not an Afterthought.",
+        "pub_date": 1771744865
+      },
+      {
+        "name": "classixclustering",
+        "version": "1.4.5",
+        "summary": "Fast and explainable clustering based on sorting",
+        "pub_date": 1771744720
+      },
+      {
+        "name": "mcp-bastion-python",
+        "version": "1.0.1",
+        "summary": "Security middleware for MCP servers protecting LLM agents from prompt injection, resource exhaustion, and PII leakage",
+        "pub_date": 1771744646
+      },
+      {
+        "name": "grover-visualizer",
+        "version": "0.1.5",
+        "summary": "Visualize Grover's Algorithm with quantum state animations",
+        "pub_date": 1771744543
+      },
+      {
+        "name": "wemo-mcp-server",
+        "version": "1.3.0",
+        "summary": "Model Context Protocol server for WeMo smart home device discovery and control",
+        "pub_date": 1771744339
+      },
+      {
+        "name": "mantic-thinking",
+        "version": "2.0.1",
+        "summary": "Cross-domain anomaly and opportunity detection using 4-layer hierarchical analysis",
+        "pub_date": 1771744330
+      },
+      {
+        "name": "cdk-express-pipeline",
+        "version": "2.3.0",
+        "summary": "CDK pipelines provides constructs for Waves, Stages using only native CDK stack dependencies",
+        "pub_date": 1771744279
       },
       {
         "name": "humanlayer-ai",
@@ -2666,18 +2744,6 @@
         "pub_date": 1771739670
       },
       {
-        "name": "mantic-thinking",
-        "version": "1.5.6",
-        "summary": "Cross-domain anomaly and opportunity detection using 4-layer hierarchical analysis",
-        "pub_date": 1771739353
-      },
-      {
-        "name": "aurora-to-rs",
-        "version": "0.1.2",
-        "summary": "Lean Aurora PostgreSQL to Redshift loader via copy_expert + S3 COPY",
-        "pub_date": 1771739282
-      },
-      {
         "name": "agentward",
         "version": "0.2.3",
         "summary": "Open-source permission control plane for AI agents. Scan, enforce, and audit every tool call.",
@@ -2742,81 +2808,219 @@
         "version": "14.0.1.0.1.dev4",
         "summary": "Employee External Assignment Agreement",
         "pub_date": 1771737576
-      },
-      {
-        "name": "cachekit",
-        "version": "0.3.1",
-        "summary": "Production-ready Redis caching for Python with intelligent reliability features and Rust-powered performance",
-        "pub_date": 1771737472
-      },
-      {
-        "name": "django-mindoff",
-        "version": "0.1.2",
-        "summary": "Architectural framework for reliable, scalable Django REST APIs with native Polars.",
-        "pub_date": 1771737453
-      },
-      {
-        "name": "aarushlohit-git",
-        "version": "1.1.0",
-        "summary": "A Clean & Powerful Git Workflow Engine",
-        "pub_date": 1771737381
-      },
-      {
-        "name": "wemo-mcp-server",
-        "version": "1.2.0",
-        "summary": "Model Context Protocol server for WeMo smart home device discovery and control",
-        "pub_date": 1771737240
-      },
-      {
-        "name": "usecli",
-        "version": "0.1.29",
-        "summary": "A powerful Python CLI framework for building beautiful, developer-friendly command-line tools.",
-        "pub_date": 1771737112
-      },
-      {
-        "name": "claude-mpm",
-        "version": "5.9.21b10",
-        "summary": "Claude Code workflow and agent management framework - Multi-agent orchestration, skills system, MCP integration, session management, and semantic code search for AI-powered development",
-        "pub_date": 1771736969
-      },
-      {
-        "name": "homebrew-mcp",
-        "version": "1.0.1",
-        "summary": "Homebrew MCP Server — manage packages, casks, taps, and services through Claude on macOS. 19 tools for full Homebrew control.",
-        "pub_date": 1771736737
-      },
-      {
-        "name": "heaven-framework",
-        "version": "0.1.20",
-        "summary": "HEAVEN - Hierarchical, Embodied, Autonomously Validating Evolution Network",
-        "pub_date": 1771736576
-      },
-      {
-        "name": "mnemom-reputation",
-        "version": "0.1.0",
-        "summary": "Client SDK for Mnemom reputation scores",
-        "pub_date": 1771736482
-      },
-      {
-        "name": "sanctuary-dna",
-        "version": "0.3.5",
-        "summary": "Sanctuary DNA - Gnostic agent workflow DSL. Ariadne (threading) + Poimandres (generation) = SDNA spiral",
-        "pub_date": 1771736431
-      },
-      {
-        "name": "emotionics",
-        "version": "0.1.2",
-        "summary": "Emotionics API (Python library)",
-        "pub_date": 1771736390
       }
     ],
-    "has_github_actions_count": 17696,
+    "has_github_actions_count": 17705,
     "has_github_actions": [
       {
+        "name": "astra-engine",
+        "version": "0.0.2b8",
+        "summary": "A high-performance WhatsApp Web automation library for Python.",
+        "pub_date": 1771746275
+      },
+      {
+        "name": "pyalexs3",
+        "version": "0.1.5",
+        "summary": "OpenAlex S3 processor",
+        "pub_date": 1771746223
+      },
+      {
+        "name": "know-cli",
+        "version": "0.7.6",
+        "summary": "Context Intelligence for AI Coding Agents — smart, token-budgeted code context",
+        "pub_date": 1771746081
+      },
+      {
+        "name": "iyakku",
+        "version": "1.0.0",
+        "summary": "Remote media controller - control your laptop's media from your phone",
+        "pub_date": 1771746079
+      },
+      {
+        "name": "vmklib",
+        "version": "2.0.9",
+        "summary": "Simplify project workflows by standardizing use of GNU Make.",
+        "pub_date": 1771746065
+      },
+      {
+        "name": "bicep-whatif-advisor",
+        "version": "2.5.2",
+        "summary": "AI-powered Azure Bicep What-If deployment advisor with automated safety reviews",
+        "pub_date": 1771746055
+      },
+      {
+        "name": "mteb",
+        "version": "2.8.4",
+        "summary": "Massive Text Embedding Benchmark",
+        "pub_date": 1771745967
+      },
+      {
+        "name": "invar-tools",
+        "version": "1.17.33",
+        "summary": "AI-native software engineering tools with design-by-contract verification",
+        "pub_date": 1771745893
+      },
+      {
+        "name": "ractogateway",
+        "version": "0.1.3",
+        "summary": "A unified, production-ready AI SDK that enforces structured outputs and anti-hallucination prompting via the RACTO principle. One package for OpenAI, Gemini, and Anthropic — with streaming, tool calling, embeddings, and strict Pydantic validation.",
+        "pub_date": 1771745885
+      },
+      {
+        "name": "archipy",
+        "version": "4.3.0",
+        "summary": "Architecture + Python – Perfect for structured design.",
+        "pub_date": 1771745748
+      },
+      {
+        "name": "copilot-session-tools",
+        "version": "0.2.0",
+        "summary": "A collection of tools for VS Code GitHub Copilot chat history",
+        "pub_date": 1771745714
+      },
+      {
+        "name": "wisent",
+        "version": "0.7.1559",
+        "summary": "Monitor and influence AI Brains",
+        "pub_date": 1771745703
+      },
+      {
+        "name": "albums",
+        "version": "0.1.17",
+        "summary": "Manage music albums, automatically correct tags, organize and sync copies with interactive command line interface.",
+        "pub_date": 1771745683
+      },
+      {
+        "name": "np_codeocean",
+        "version": "0.3.18",
+        "summary": "Tools for uploading and interacting with Mindscope Neuropixels experiments on Code Ocean",
+        "pub_date": 1771745651
+      },
+      {
+        "name": "hbase-driver",
+        "version": "1.0.3",
+        "summary": null,
+        "pub_date": 1771745629
+      },
+      {
+        "name": "feldera",
+        "version": "0.250.0",
+        "summary": "The feldera python client",
+        "pub_date": 1771745609
+      },
+      {
+        "name": "summon-ai",
+        "version": "0.1.0",
+        "summary": "Autonomous idea-to-product pipeline — one idea in, working project out",
+        "pub_date": 1771745498
+      },
+      {
+        "name": "pyspacer",
+        "version": "0.13.0",
+        "summary": "Spatial image analysis with pytorch and caffe backends.",
+        "pub_date": 1771745332
+      },
+      {
+        "name": "lain-shorten",
+        "version": "1.18",
+        "summary": "A simple CLI URL shortener using s.lain.la API, with optional clipboard copy.",
+        "pub_date": 1771745245
+      },
+      {
+        "name": "overlay.library",
+        "version": "0.2.0.post7.dev0",
+        "summary": "The Overlay language standard library — built-in definitions for the Overlay language",
+        "pub_date": 1771745230
+      },
+      {
+        "name": "overlay.language",
+        "version": "0.2.0.post7.dev0",
+        "summary": "A dependency injection framework with pytest-fixture syntax, plus a configuration language for declarative programming",
+        "pub_date": 1771745229
+      },
+      {
+        "name": "uipath-dev",
+        "version": "0.0.58",
+        "summary": "UiPath Developer Console",
+        "pub_date": 1771745212
+      },
+      {
+        "name": "diesel-heater-ble",
+        "version": "0.2.17",
+        "summary": "BLE protocol library for diesel heaters (Vevor, Hcalory, Sunster, HeaterCC)",
+        "pub_date": 1771745208
+      },
+      {
+        "name": "lain-upload",
+        "version": "1.18",
+        "summary": "A simple CLI file uploader for multiple file-hosting services, with optional clipboard copy.",
+        "pub_date": 1771745175
+      },
+      {
+        "name": "bussdcc-system-health",
+        "version": "0.5.0",
+        "summary": "bussdcc-system-health",
+        "pub_date": 1771745152
+      },
+      {
+        "name": "pyscn-mcp",
+        "version": "1.11.1",
+        "summary": "MCP (Model Context Protocol) server for pyscn Python code analyzer",
+        "pub_date": 1771745065
+      },
+      {
+        "name": "pyscn",
+        "version": "1.11.1",
+        "summary": "An intelligent Python code quality analyzer with architectural guidance",
+        "pub_date": 1771745064
+      },
+      {
+        "name": "npc_session",
+        "version": "0.1.41",
+        "summary": "Basic tools for parsing subject, session, date and time associated with data from the Mindscope Neuropixels team, in the cloud.",
+        "pub_date": 1771744945
+      },
+      {
+        "name": "staticpipes",
+        "version": "0.7.1",
+        "summary": "StaticPipes, the flexible and extendable static site website generator in Python",
+        "pub_date": 1771744944
+      },
+      {
+        "name": "rain-assistant",
+        "version": "1.0.4",
+        "summary": "AI-powered coding assistant with voice, plugins, web UI, and Telegram bot",
+        "pub_date": 1771744920
+      },
+      {
+        "name": "python-devlog",
+        "version": "2.1",
+        "summary": "No more logging in your code business logic with decorators",
+        "pub_date": 1771744812
+      },
+      {
+        "name": "distillate",
+        "version": "0.4.4",
+        "summary": "Distill research papers from Zotero through reMarkable into structured notes",
+        "pub_date": 1771744662
+      },
+      {
         "name": "experimental-lowqa",
-        "version": "0.1.11",
+        "version": "0.1.12",
         "summary": "Read the sign.",
-        "pub_date": 1771741654
+        "pub_date": 1771744584
+      },
+      {
+        "name": "zython",
+        "version": "0.6.0",
+        "summary": "Express constraint programming problem with python and solve it with minizinc",
+        "pub_date": 1771744395
+      },
+      {
+        "name": "streamlit-nightly",
+        "version": "1.54.1.dev20260221",
+        "summary": "A faster way to build and share data apps",
+        "pub_date": 1771744080
       },
       {
         "name": "pg-here",
@@ -2835,12 +3039,6 @@
         "version": "1.6.1",
         "summary": "Graph-based agent framework powered by oauth-codex",
         "pub_date": 1771741323
-      },
-      {
-        "name": "wisent",
-        "version": "0.7.1556",
-        "summary": "Monitor and influence AI Brains",
-        "pub_date": 1771741255
       },
       {
         "name": "MapleX",
@@ -2913,225 +3111,279 @@
         "version": "0.0.8",
         "summary": "Ray tracing using CUDA accessible from Python",
         "pub_date": 1771740643
+      }
+    ],
+    "no_dependabot_count": 25377,
+    "no_dependabot": [
+      {
+        "name": "aurora-to-rs",
+        "version": "0.1.5",
+        "summary": "Lean Aurora PostgreSQL to Redshift loader via copy_expert + S3 COPY",
+        "pub_date": 1771746351
       },
       {
-        "name": "iflow2api",
-        "version": "1.5.10",
-        "summary": "将 iFlow CLI 的 AI 服务暴露为 OpenAI 兼容 API",
-        "pub_date": 1771740583
+        "name": "zenlink-mcp",
+        "version": "1.0.0",
+        "summary": "MCP server for browser automation via ZenLink - gives Claude Desktop and other MCP clients native browser control.",
+        "pub_date": 1771746236
       },
       {
-        "name": "mcp-mesh",
-        "version": "0.9.7",
-        "summary": "Python SDK for MCP Mesh — build distributed AI agents with auto-discovery, dependency injection, and LLM integration",
-        "pub_date": 1771740540
+        "name": "pyalexs3",
+        "version": "0.1.5",
+        "summary": "OpenAlex S3 processor",
+        "pub_date": 1771746223
       },
       {
-        "name": "mcp-mesh-core",
-        "version": "0.9.7",
-        "summary": "Rust core runtime for MCP Mesh agents",
-        "pub_date": 1771740489
+        "name": "know-cli",
+        "version": "0.7.6",
+        "summary": "Context Intelligence for AI Coding Agents — smart, token-budgeted code context",
+        "pub_date": 1771746081
       },
       {
-        "name": "mcp-ssh-session",
-        "version": "0.2.2",
-        "summary": "MCP server for managing persistent SSH sessions",
-        "pub_date": 1771740468
+        "name": "iyakku",
+        "version": "1.0.0",
+        "summary": "Remote media controller - control your laptop's media from your phone",
+        "pub_date": 1771746079
       },
       {
-        "name": "mdb-engine",
-        "version": "0.8.0",
-        "summary": "MongoDB Engine",
-        "pub_date": 1771740270
+        "name": "vmklib",
+        "version": "2.0.9",
+        "summary": "Simplify project workflows by standardizing use of GNU Make.",
+        "pub_date": 1771746065
       },
       {
-        "name": "speedtest-z",
-        "version": "0.6.0",
-        "summary": "Automates major speed test sites with a web browser for continuous network quality monitoring",
-        "pub_date": 1771739897
+        "name": "bicep-whatif-advisor",
+        "version": "2.5.2",
+        "summary": "AI-powered Azure Bicep What-If deployment advisor with automated safety reviews",
+        "pub_date": 1771746055
       },
       {
-        "name": "django-tex",
-        "version": "1.1.12",
-        "summary": "A simple Django app to render Latex templates and compile them into PDF files.",
-        "pub_date": 1771739831
+        "name": "mteb",
+        "version": "2.8.4",
+        "summary": "Massive Text Embedding Benchmark",
+        "pub_date": 1771745967
       },
       {
-        "name": "jnitrace-ex",
-        "version": "1.0.1",
-        "summary": "JNITrace EX: trace JNI in Android apps (Frida 16+/17+)",
-        "pub_date": 1771739605
+        "name": "invar-tools",
+        "version": "1.17.33",
+        "summary": "AI-native software engineering tools with design-by-contract verification",
+        "pub_date": 1771745893
       },
       {
-        "name": "anymap-ts",
-        "version": "0.12.0",
-        "summary": "A Python package for creating interactive maps with anywidget and TypeScript",
-        "pub_date": 1771739522
+        "name": "ractogateway",
+        "version": "0.1.3",
+        "summary": "A unified, production-ready AI SDK that enforces structured outputs and anti-hallucination prompting via the RACTO principle. One package for OpenAI, Gemini, and Anthropic — with streaming, tool calling, embeddings, and strict Pydantic validation.",
+        "pub_date": 1771745885
       },
       {
-        "name": "context-linter",
-        "version": "3.0.0",
-        "summary": "Context CLI — LLM Readiness Linter for token efficiency and RAG readiness",
-        "pub_date": 1771739517
+        "name": "prysmai",
+        "version": "0.3.1",
+        "summary": "Prysm AI — The observability and security layer for LLM applications. Full trace capture, real-time dashboard, alerting, cost tracking, multi-provider support (OpenAI, Anthropic, Google Gemini, vLLM, Ollama), prompt injection detection, PII redaction, and content policy enforcement. One line of code.",
+        "pub_date": 1771745761
       },
       {
-        "name": "argus-ai-sdk",
+        "name": "copilot-session-tools",
+        "version": "0.2.0",
+        "summary": "A collection of tools for VS Code GitHub Copilot chat history",
+        "pub_date": 1771745714
+      },
+      {
+        "name": "wisent",
+        "version": "0.7.1559",
+        "summary": "Monitor and influence AI Brains",
+        "pub_date": 1771745703
+      },
+      {
+        "name": "albums",
+        "version": "0.1.17",
+        "summary": "Manage music albums, automatically correct tags, organize and sync copies with interactive command line interface.",
+        "pub_date": 1771745683
+      },
+      {
+        "name": "np_codeocean",
+        "version": "0.3.18",
+        "summary": "Tools for uploading and interacting with Mindscope Neuropixels experiments on Code Ocean",
+        "pub_date": 1771745651
+      },
+      {
+        "name": "hbase-driver",
+        "version": "1.0.3",
+        "summary": null,
+        "pub_date": 1771745629
+      },
+      {
+        "name": "feldera",
+        "version": "0.250.0",
+        "summary": "The feldera python client",
+        "pub_date": 1771745609
+      },
+      {
+        "name": "summon-ai",
         "version": "0.1.0",
-        "summary": "Argus Python SDK - Instrumentation for AI-native observability",
-        "pub_date": 1771739203
+        "summary": "Autonomous idea-to-product pipeline — one idea in, working project out",
+        "pub_date": 1771745498
       },
       {
-        "name": "zsasa",
-        "version": "0.1.1",
-        "summary": "Fast SASA calculation using Zig",
-        "pub_date": 1771739154
+        "name": "pyspacer",
+        "version": "0.13.0",
+        "summary": "Spatial image analysis with pytorch and caffe backends.",
+        "pub_date": 1771745332
       },
       {
-        "name": "tree-sitter-zsh",
-        "version": "0.55.0",
-        "summary": "Zsh grammar for tree-sitter",
-        "pub_date": 1771738859
+        "name": "simmetry",
+        "version": "1.0.2",
+        "summary": "Blazing-fast similarity scores for strings, vectors, points, and sets.",
+        "pub_date": 1771745284
       },
       {
-        "name": "pytest-gremlins",
-        "version": "1.3.0",
-        "summary": "Fast-first mutation testing for pytest. Let the gremlins loose, see which ones survive.",
-        "pub_date": 1771738611
-      },
-      {
-        "name": "bvalcalc",
-        "version": "1.4.0",
-        "summary": "Calculate relative diversity (B) under background selection",
-        "pub_date": 1771738532
+        "name": "lain-shorten",
+        "version": "1.18",
+        "summary": "A simple CLI URL shortener using s.lain.la API, with optional clipboard copy.",
+        "pub_date": 1771745245
       },
       {
         "name": "overlay.library",
-        "version": "0.2.0.post4.dev0",
+        "version": "0.2.0.post7.dev0",
         "summary": "The Overlay language standard library — built-in definitions for the Overlay language",
-        "pub_date": 1771738259
+        "pub_date": 1771745230
       },
       {
         "name": "overlay.language",
-        "version": "0.2.0.post4.dev0",
+        "version": "0.2.0.post7.dev0",
         "summary": "A dependency injection framework with pytest-fixture syntax, plus a configuration language for declarative programming",
-        "pub_date": 1771738258
+        "pub_date": 1771745229
       },
       {
-        "name": "aider-ce",
-        "version": "0.97.1",
-        "summary": "⚠️ DEPRECATED: This package has been renamed to 'cecli-dev'.",
-        "pub_date": 1771738216
-      },
-      {
-        "name": "cecli-dev",
-        "version": "0.97.1",
-        "summary": "we also can't pronounce cecli",
-        "pub_date": 1771738188
-      },
-      {
-        "name": "epstein-files-downloader",
-        "version": "1.0.2",
-        "summary": "A tool to download PDFs from the DOJ Epstein files",
-        "pub_date": 1771737966
-      },
-      {
-        "name": "flaresolverr-cli",
-        "version": "0.3.2",
-        "summary": "A requests.Session that proxies through a FlareSolverr instance.",
-        "pub_date": 1771737882
-      },
-      {
-        "name": "flaresolverr-session",
-        "version": "0.3.2",
-        "summary": "A requests.Session that proxies through a FlareSolverr instance.",
-        "pub_date": 1771737880
-      },
-      {
-        "name": "uipath-agent-framework",
-        "version": "0.0.8",
-        "summary": "Python SDK that enables developers to build and deploy Microsoft Agent Framework agents to the UiPath Cloud Platform",
-        "pub_date": 1771737852
-      },
-      {
-        "name": "signate-deploy",
-        "version": "0.1.6",
-        "summary": "A CLI tool to automate SIGNATE competition workflows via GitHub Actions",
-        "pub_date": 1771737833
-      },
-      {
-        "name": "square_common_bl",
-        "version": "6.1.1",
-        "summary": "common business layer for my personal server.",
-        "pub_date": 1771737729
+        "name": "naturalshell-mac",
+        "version": "1.0.0",
+        "summary": "Natural language to shell command converter with bilingual support",
+        "pub_date": 1771745224
       },
       {
         "name": "uipath-dev",
-        "version": "0.0.57",
+        "version": "0.0.58",
         "summary": "UiPath Developer Console",
-        "pub_date": 1771737663
+        "pub_date": 1771745212
       },
       {
-        "name": "mcp-ssh-tmux",
-        "version": "0.1.0",
-        "summary": "MCP server for persistent SSH sessions via local tmux",
-        "pub_date": 1771737656
+        "name": "diesel-heater-ble",
+        "version": "0.2.17",
+        "summary": "BLE protocol library for diesel heaters (Vevor, Hcalory, Sunster, HeaterCC)",
+        "pub_date": 1771745208
       },
       {
-        "name": "notebooklm-mcp-cli",
-        "version": "0.3.6",
-        "summary": "Unified CLI and MCP server for Google NotebookLM",
-        "pub_date": 1771737435
+        "name": "lain-upload",
+        "version": "1.18",
+        "summary": "A simple CLI file uploader for multiple file-hosting services, with optional clipboard copy.",
+        "pub_date": 1771745175
       },
       {
-        "name": "aiinbx",
-        "version": "0.479.0",
-        "summary": "The official Python library for the AIInbx API",
-        "pub_date": 1771737371
+        "name": "bussdcc-system-health",
+        "version": "0.5.0",
+        "summary": "bussdcc-system-health",
+        "pub_date": 1771745152
       },
       {
-        "name": "tgcore",
-        "version": "1.0.27",
-        "summary": "TGCoreSDK | Enterprise Telegram Bot API Framework.",
-        "pub_date": 1771737290
+        "name": "npc_session",
+        "version": "0.1.41",
+        "summary": "Basic tools for parsing subject, session, date and time associated with data from the Mindscope Neuropixels team, in the cloud.",
+        "pub_date": 1771744945
       },
       {
-        "name": "holoviz-mcp",
-        "version": "0.16.1",
-        "summary": "A Model Context Protocol (MCP) server for the HoloViz ecosystem",
-        "pub_date": 1771737277
+        "name": "staticpipes",
+        "version": "0.7.1",
+        "summary": "StaticPipes, the flexible and extendable static site website generator in Python",
+        "pub_date": 1771744944
       },
       {
-        "name": "square_authentication",
-        "version": "11.2.3",
-        "summary": "authentication layer for my personal server.",
-        "pub_date": 1771737104
+        "name": "langchain-caching",
+        "version": "0.1.1",
+        "summary": "A minimal caching utility",
+        "pub_date": 1771744935
       },
       {
-        "name": "sigil-protocol",
-        "version": "0.1.0",
-        "summary": "SIGIL security layer for AI agent tool calls — scans MCP tool arguments for leaked secrets, enforces policies, and writes audit logs",
-        "pub_date": 1771736825
-      }
-    ],
-    "no_dependabot_count": 25364,
-    "no_dependabot": [
+        "name": "rain-assistant",
+        "version": "1.0.4",
+        "summary": "AI-powered coding assistant with voice, plugins, web UI, and Telegram bot",
+        "pub_date": 1771744920
+      },
       {
         "name": "pypizza",
-        "version": "1.3.10",
+        "version": "1.3.11",
         "summary": "Pizza Python Project Manager",
-        "pub_date": 1771741775
+        "pub_date": 1771744876
+      },
+      {
+        "name": "mcp-server-tibet-core",
+        "version": "0.1.0",
+        "summary": "MCP Server for TIBET - The Trust Kernel for AI. Audit as a Precondition, Not an Afterthought.",
+        "pub_date": 1771744865
+      },
+      {
+        "name": "python-devlog",
+        "version": "2.1",
+        "summary": "No more logging in your code business logic with decorators",
+        "pub_date": 1771744812
+      },
+      {
+        "name": "classixclustering",
+        "version": "1.4.5",
+        "summary": "Fast and explainable clustering based on sorting",
+        "pub_date": 1771744720
+      },
+      {
+        "name": "distillate",
+        "version": "0.4.4",
+        "summary": "Distill research papers from Zotero through reMarkable into structured notes",
+        "pub_date": 1771744662
+      },
+      {
+        "name": "mcp-bastion-python",
+        "version": "1.0.1",
+        "summary": "Security middleware for MCP servers protecting LLM agents from prompt injection, resource exhaustion, and PII leakage",
+        "pub_date": 1771744646
+      },
+      {
+        "name": "experimental-lowqa",
+        "version": "0.1.12",
+        "summary": "Read the sign.",
+        "pub_date": 1771744584
+      },
+      {
+        "name": "grover-visualizer",
+        "version": "0.1.5",
+        "summary": "Visualize Grover's Algorithm with quantum state animations",
+        "pub_date": 1771744543
+      },
+      {
+        "name": "zython",
+        "version": "0.6.0",
+        "summary": "Express constraint programming problem with python and solve it with minizinc",
+        "pub_date": 1771744395
+      },
+      {
+        "name": "wemo-mcp-server",
+        "version": "1.3.0",
+        "summary": "Model Context Protocol server for WeMo smart home device discovery and control",
+        "pub_date": 1771744339
+      },
+      {
+        "name": "mantic-thinking",
+        "version": "2.0.1",
+        "summary": "Cross-domain anomaly and opportunity detection using 4-layer hierarchical analysis",
+        "pub_date": 1771744330
+      },
+      {
+        "name": "cdk-express-pipeline",
+        "version": "2.3.0",
+        "summary": "CDK pipelines provides constructs for Waves, Stages using only native CDK stack dependencies",
+        "pub_date": 1771744279
       },
       {
         "name": "humanlayer-ai",
         "version": "0.2.1",
         "summary": "Zero-code AI agent monitoring with Human-in-the-Loop for LangChain, LangGraph, CrewAI, AutoGen, and any agentic framework",
         "pub_date": 1771741738
-      },
-      {
-        "name": "experimental-lowqa",
-        "version": "0.1.11",
-        "summary": "Read the sign.",
-        "pub_date": 1771741654
       },
       {
         "name": "django-rahavard",
@@ -3162,262 +3414,40 @@
         "version": "0.4.3",
         "summary": "Lightweight, performant, deep table extraction",
         "pub_date": 1771741522
-      },
-      {
-        "name": "graphbus",
-        "version": "0.4.0",
-        "summary": "Multi-agent orchestration framework — LLM-powered agents negotiate, refactor, and evolve your codebase",
-        "pub_date": 1771741397
-      },
-      {
-        "name": "davybot",
-        "version": "0.1.5",
-        "summary": "Dawei AI Assistant - Server Package (Backend + Frontend)",
-        "pub_date": 1771741386
-      },
-      {
-        "name": "fabrix-ai",
-        "version": "1.6.1",
-        "summary": "Graph-based agent framework powered by oauth-codex",
-        "pub_date": 1771741323
-      },
-      {
-        "name": "rahavard",
-        "version": "0.0.76",
-        "summary": "Re-Usable Utils",
-        "pub_date": 1771741320
-      },
-      {
-        "name": "wisent",
-        "version": "0.7.1556",
-        "summary": "Monitor and influence AI Brains",
-        "pub_date": 1771741255
-      },
-      {
-        "name": "retio-pagemap",
-        "version": "0.5.2",
-        "summary": "Structured web page representation for AI agents — 97% HTML token reduction",
-        "pub_date": 1771741199
-      },
-      {
-        "name": "pyg-nightly",
-        "version": "2.8.0.dev20260222",
-        "summary": "Graph Neural Network Library for PyTorch",
-        "pub_date": 1771741171
-      },
-      {
-        "name": "cdk8s-plus-32",
-        "version": "2.5.27",
-        "summary": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-32 synthesizes Kubernetes manifests for Kubernetes 1.32.0",
-        "pub_date": 1771741153
-      },
-      {
-        "name": "tars-robot",
-        "version": "0.5.1",
-        "summary": "TARS robot control library with daemon, dashboard, and SDK",
-        "pub_date": 1771741132
-      },
-      {
-        "name": "MapleX",
-        "version": "3.0.0",
-        "summary": "A Python library for simple logging, json file operations, Maple file format operations, and console color utilities.",
-        "pub_date": 1771741100
-      },
-      {
-        "name": "akshare",
-        "version": "1.18.26",
-        "summary": "AKShare is an elegant and simple financial data interface library for Python, built for human beings!",
-        "pub_date": 1771741065
-      },
-      {
-        "name": "fleeks-sdk",
-        "version": "0.4.0",
-        "summary": "Python SDK for the Fleeks AI Development Platform",
-        "pub_date": 1771740965
-      },
-      {
-        "name": "llm-vertex",
-        "version": "0.2.4",
-        "summary": "Plugin for LLM adding support for Google Cloud Vertex AI",
-        "pub_date": 1771740914
-      },
-      {
-        "name": "sai-chat",
-        "version": "0.1.4",
-        "summary": "Simple AI interface to chat with your LLM models from the terminal",
-        "pub_date": 1771740908
-      },
-      {
-        "name": "portacode",
-        "version": "1.4.33.dev3",
-        "summary": "Portacode CLI client and SDK",
-        "pub_date": 1771740864
-      },
-      {
-        "name": "apcore-mcp",
-        "version": "0.3.0",
-        "summary": "Automatic MCP Server & OpenAI Tools Bridge for apcore",
-        "pub_date": 1771740861
-      },
-      {
-        "name": "cucu",
-        "version": "1.4.7",
-        "summary": "Easy BDD web testing",
-        "pub_date": 1771740831
-      },
-      {
-        "name": "siglab-py",
-        "version": "0.7.60",
-        "summary": "Market data fetches, TA calculations and generic order gateway.",
-        "pub_date": 1771740815
-      },
-      {
-        "name": "federated-graph",
-        "version": "0.1.0",
-        "summary": "Federated Graph Intelligence SDK for financial fraud detection",
-        "pub_date": 1771740762
-      },
-      {
-        "name": "aerospike-py",
-        "version": "0.0.1b1",
-        "summary": "Aerospike Python Client - PyO3 + Rust binding",
-        "pub_date": 1771740702
-      },
-      {
-        "name": "geventhttpclient",
-        "version": "2.3.8",
-        "summary": "HTTP client library for gevent",
-        "pub_date": 1771740682
-      },
-      {
-        "name": "rtxpy",
-        "version": "0.0.8",
-        "summary": "Ray tracing using CUDA accessible from Python",
-        "pub_date": 1771740643
-      },
-      {
-        "name": "ainb",
-        "version": "0.2.9",
-        "summary": null,
-        "pub_date": 1771740602
-      },
-      {
-        "name": "iflow2api",
-        "version": "1.5.10",
-        "summary": "将 iFlow CLI 的 AI 服务暴露为 OpenAI 兼容 API",
-        "pub_date": 1771740583
-      },
-      {
-        "name": "litesoc",
-        "version": "1.0.1",
-        "summary": "Official Python SDK for LiteSOC - Security event tracking and threat detection",
-        "pub_date": 1771740544
-      },
-      {
-        "name": "mcp-mesh",
-        "version": "0.9.7",
-        "summary": "Python SDK for MCP Mesh — build distributed AI agents with auto-discovery, dependency injection, and LLM integration",
-        "pub_date": 1771740540
-      },
-      {
-        "name": "mcp-mesh-core",
-        "version": "0.9.7",
-        "summary": "Rust core runtime for MCP Mesh agents",
-        "pub_date": 1771740489
-      },
-      {
-        "name": "mcp-ssh-session",
-        "version": "0.2.2",
-        "summary": "MCP server for managing persistent SSH sessions",
-        "pub_date": 1771740468
-      },
-      {
-        "name": "scope-rx",
-        "version": "2.0.0",
-        "summary": "A comprehensive neural network explainability and interpretability library",
-        "pub_date": 1771740293
-      },
-      {
-        "name": "mdb-engine",
-        "version": "0.8.0",
-        "summary": "MongoDB Engine",
-        "pub_date": 1771740270
-      },
-      {
-        "name": "ParsWeather",
-        "version": "2.0.0",
-        "summary": "A Python package for getting Iran's weather data, including temperature and RealFeel.",
-        "pub_date": 1771740232
-      },
-      {
-        "name": "srilankan-food-trainer",
-        "version": "0.2.1",
-        "summary": "Easy-to-use library for extending Sri Lankan food recognition models",
-        "pub_date": 1771740147
-      },
-      {
-        "name": "autoscorecard",
-        "version": "0.1.0",
-        "summary": "一个简单的示例包",
-        "pub_date": 1771740121
-      },
-      {
-        "name": "colab-grading-client",
-        "version": "1.0.9",
-        "summary": "Client functions for colab notebook to access AI teaching and grading assistant",
-        "pub_date": 1771740023
-      },
-      {
-        "name": "octave-mcp",
-        "version": "1.4.1",
-        "summary": "OCTAVE MCP Server - Lenient-to-Canonical OCTAVE pipeline with schema validation and generative holographic contracts",
-        "pub_date": 1771739912
-      },
-      {
-        "name": "speedtest-z",
-        "version": "0.6.0",
-        "summary": "Automates major speed test sites with a web browser for continuous network quality monitoring",
-        "pub_date": 1771739897
-      },
-      {
-        "name": "django-tex",
-        "version": "1.1.12",
-        "summary": "A simple Django app to render Latex templates and compile them into PDF files.",
-        "pub_date": 1771739831
-      },
-      {
-        "name": "pyrobotiqgripper",
-        "version": "2.0.3",
-        "summary": "Python Driver for Robotiq Grippers",
-        "pub_date": 1771739799
-      },
-      {
-        "name": "fallrisk-itpuf",
-        "version": "0.1.0",
-        "summary": "Biometric identity verification for AI models — challenge-response fingerprinting with cryptographic guarantees.",
-        "pub_date": 1771739670
-      },
-      {
-        "name": "jnitrace-ex",
-        "version": "1.0.1",
-        "summary": "JNITrace EX: trace JNI in Android apps (Frida 16+/17+)",
-        "pub_date": 1771739605
-      },
-      {
-        "name": "context-linter",
-        "version": "3.0.0",
-        "summary": "Context CLI — LLM Readiness Linter for token efficiency and RAG readiness",
-        "pub_date": 1771739517
-      },
-      {
-        "name": "mantic-thinking",
-        "version": "1.5.6",
-        "summary": "Cross-domain anomaly and opportunity detection using 4-layer hierarchical analysis",
-        "pub_date": 1771739353
       }
     ],
     "has_dependabot_count": 3606,
     "has_dependabot": [
+      {
+        "name": "astra-engine",
+        "version": "0.0.2b8",
+        "summary": "A high-performance WhatsApp Web automation library for Python.",
+        "pub_date": 1771746275
+      },
+      {
+        "name": "archipy",
+        "version": "4.3.0",
+        "summary": "Architecture + Python – Perfect for structured design.",
+        "pub_date": 1771745748
+      },
+      {
+        "name": "pyscn-mcp",
+        "version": "1.11.1",
+        "summary": "MCP (Model Context Protocol) server for pyscn Python code analyzer",
+        "pub_date": 1771745065
+      },
+      {
+        "name": "pyscn",
+        "version": "1.11.1",
+        "summary": "An intelligent Python code quality analyzer with architectural guidance",
+        "pub_date": 1771745064
+      },
+      {
+        "name": "streamlit-nightly",
+        "version": "1.54.1.dev20260221",
+        "summary": "A faster way to build and share data apps",
+        "pub_date": 1771744080
+      },
       {
         "name": "couchers",
         "version": "0.0.51",
@@ -3687,36 +3717,6 @@
         "version": "0.4.2",
         "summary": "Test framework for AI agents",
         "pub_date": 1771714526
-      },
-      {
-        "name": "openpathresolver",
-        "version": "0.1.4",
-        "summary": "A simple path resolver framework",
-        "pub_date": 1771714503
-      },
-      {
-        "name": "attune-ai",
-        "version": "3.1.0",
-        "summary": "AI-powered developer workflows for Claude with cost optimization, multi-agent orchestration, and workflow automation.",
-        "pub_date": 1771714403
-      },
-      {
-        "name": "tunacode-cli",
-        "version": "0.1.74",
-        "summary": "Your agentic CLI developer.",
-        "pub_date": 1771714392
-      },
-      {
-        "name": "doctyper",
-        "version": "0.24.1.post2",
-        "summary": "Typer, build great CLIs. Easy to code. Based on Python type hints.",
-        "pub_date": 1771711755
-      },
-      {
-        "name": "kuhl-haus-mdp",
-        "version": "0.2.26",
-        "summary": "Market data processing pipeline for stock market scanner",
-        "pub_date": 1771711326
       }
     ],
     "has_gitlab_pipeline_count": 218,
@@ -4022,8 +4022,20 @@
         "pub_date": 1771284478
       }
     ],
-    "no_gitlab_pipeline_count": 274,
+    "no_gitlab_pipeline_count": 275,
     "no_gitlab_pipeline": [
+      {
+        "name": "xync-client",
+        "version": "0.0.217",
+        "summary": null,
+        "pub_date": 1771745642
+      },
+      {
+        "name": "kinpy2",
+        "version": "1.0.2",
+        "summary": "Reaction kinetics intergration from user-friendly input",
+        "pub_date": 1771745425
+      },
       {
         "name": "core-mixins",
         "version": "3.0.0",
@@ -4035,12 +4047,6 @@
         "version": "0.0.97",
         "summary": "XyncNet project database model schema",
         "pub_date": 1771736415
-      },
-      {
-        "name": "xync-client",
-        "version": "0.0.216",
-        "summary": null,
-        "pub_date": 1771726858
       },
       {
         "name": "dev-tools-loader",
@@ -4317,16 +4323,16 @@
         "version": "0.3.0",
         "summary": "CLI para desenvolvimento local de casos de teste de acessibilidade da plataforma Wally",
         "pub_date": 1771368041
-      },
-      {
-        "name": "cascache",
-        "version": "0.1.1",
-        "summary": "Flexible ContentAddressableStorage written in python",
-        "pub_date": 1771364244
       }
     ],
     "has_setup_cfg_count": 1816,
     "has_setup_cfg": [
+      {
+        "name": "staticpipes",
+        "version": "0.7.1",
+        "summary": "StaticPipes, the flexible and extendable static site website generator in Python",
+        "pub_date": 1771744944
+      },
       {
         "name": "django-rahavard",
         "version": "0.0.63",
@@ -4610,12 +4616,6 @@
         "pub_date": 1771672926
       },
       {
-        "name": "staticpipes",
-        "version": "0.7.0",
-        "summary": "StaticPipes, the flexible and extendable static site website generator in Python",
-        "pub_date": 1771671085
-      },
-      {
         "name": "pytoonio",
         "version": "0.1.0",
         "summary": "Django OTP key generator and validator",
@@ -4628,13 +4628,55 @@
         "pub_date": 1771669284
       }
     ],
-    "no_pyproject_toml_count": 7312,
+    "no_pyproject_toml_count": 7313,
     "no_pyproject_toml": [
       {
+        "name": "feldera",
+        "version": "0.250.0",
+        "summary": "The feldera python client",
+        "pub_date": 1771745609
+      },
+      {
+        "name": "kinpy2",
+        "version": "1.0.2",
+        "summary": "Reaction kinetics intergration from user-friendly input",
+        "pub_date": 1771745425
+      },
+      {
         "name": "pypizza",
-        "version": "1.3.10",
+        "version": "1.3.11",
         "summary": "Pizza Python Project Manager",
-        "pub_date": 1771741775
+        "pub_date": 1771744876
+      },
+      {
+        "name": "classixclustering",
+        "version": "1.4.5",
+        "summary": "Fast and explainable clustering based on sorting",
+        "pub_date": 1771744720
+      },
+      {
+        "name": "grover-visualizer",
+        "version": "0.1.5",
+        "summary": "Visualize Grover's Algorithm with quantum state animations",
+        "pub_date": 1771744543
+      },
+      {
+        "name": "wemo-mcp-server",
+        "version": "1.3.0",
+        "summary": "Model Context Protocol server for WeMo smart home device discovery and control",
+        "pub_date": 1771744339
+      },
+      {
+        "name": "mantic-thinking",
+        "version": "2.0.1",
+        "summary": "Cross-domain anomaly and opportunity detection using 4-layer hierarchical analysis",
+        "pub_date": 1771744330
+      },
+      {
+        "name": "cdk-express-pipeline",
+        "version": "2.3.0",
+        "summary": "CDK pipelines provides constructs for Waves, Stages using only native CDK stack dependencies",
+        "pub_date": 1771744279
       },
       {
         "name": "cdk8s-plus-31",
@@ -4715,12 +4757,6 @@
         "pub_date": 1771739605
       },
       {
-        "name": "mantic-thinking",
-        "version": "1.5.6",
-        "summary": "Cross-domain anomaly and opportunity detection using 4-layer hierarchical analysis",
-        "pub_date": 1771739353
-      },
-      {
         "name": "argus-ai-sdk",
         "version": "0.1.0",
         "summary": "Argus Python SDK - Instrumentation for AI-native observability",
@@ -4779,12 +4815,6 @@
         "version": "1.0.27",
         "summary": "TGCoreSDK | Enterprise Telegram Bot API Framework.",
         "pub_date": 1771737290
-      },
-      {
-        "name": "wemo-mcp-server",
-        "version": "1.2.0",
-        "summary": "Model Context Protocol server for WeMo smart home device discovery and control",
-        "pub_date": 1771737240
       },
       {
         "name": "usecli",
@@ -4899,910 +4929,881 @@
         "version": "0.12.0",
         "summary": "A fast, configurable linter for Dockerfiles and Containerfiles",
         "pub_date": 1771732863
-      },
-      {
-        "name": "odoo-addon-sale-purchase-force-vendor",
-        "version": "16.0.1.0.3.3",
-        "summary": "Sale Purchase Force Vendor",
-        "pub_date": 1771732203
-      },
-      {
-        "name": "maple-fep",
-        "version": "0.1.0",
-        "summary": "Maximum A Posteriori Learning of Energies - Bayesian inference tools for Free Energy Perturbation (FEP) calculations in computational drug discovery",
-        "pub_date": 1771731195
-      },
-      {
-        "name": "odoo14-addon-product-supplierinfo-intercompany",
-        "version": "14.0.1.1.4.dev1",
-        "summary": "Product SupplierInfo Intercompany",
-        "pub_date": 1771731137
-      },
-      {
-        "name": "odoo-addon-odoo-repository-migration",
-        "version": "16.0.1.3.2.3",
-        "summary": "Collect modules migration data for Odoo Repositories.",
-        "pub_date": 1771731113
-      },
-      {
-        "name": "odoo-addon-odoo-repository",
-        "version": "16.0.1.5.0.3",
-        "summary": "Base module to host data collected from Odoo repositories.",
-        "pub_date": 1771731109
       }
     ]
   },
   "project_urls_count": {
-    "Bug tracker": 19,
-    "Troubleshooting": 2,
-    "Author Website": 3,
-    "Database (csv)": 1,
-    "MRzero-Paper": 1,
-    "中文文档 (Chinese)": 1,
-    "bug_tracker": 4,
-    "Release Management": 1,
-    "SonarCloud": 1,
-    "GitHub Discussions": 1,
-    "project-url/documentation": 1,
-    "Arprax": 1,
-    "bugs": 36,
-    "Protobuf": 1,
-    "Original_documentation": 1,
-    "Diagnostics": 1,
-    "CarConnectivity Framework": 1,
-    "D-Starting": 1,
-    "seaweedfs": 1,
-    "homepage (upstream)": 113,
-    "Docker": 2,
-    "Donate via Ko-Fi": 1,
-    "Github mirror": 1,
-    "Free Support Forum": 1,
-    "Demo": 20,
-    "Patent Information": 1,
-    "Developer docs": 1,
-    "Agent Hypervisor": 1,
-    "Live example": 1,
-    "Compress PDF": 1,
-    "Issue 反馈（主站）": 1,
-    "Core Developer - @virrius": 1,
-    "GitHub 主站": 1,
-    "Config Browser": 1,
-    "releases": 5,
-    "Original Source": 1,
-    "Github Pages API Docs": 1,
-    "Source - Compiled (.c)": 2,
-    "ASCOM Initiative": 1,
-    "Issue / Bug Reports": 1,
-    "Home": 175,
-    "IssueTracker": 9,
-    "Homepage": 27405,
-    "Pypi": 9,
-    "Source Archive": 3,
-    "Help": 10,
-    "Download": 569,
-    "Say Thanks!": 22,
-    "CI": 50,
-    "GitHub: repo": 13,
-    "Merge PDF": 1,
-    "Buy Me a Coffee": 2,
-    "Matrix Room": 1,
-    "Chrome Extension": 1,
-    "TermsConditions": 1,
-    "MyHomepage": 1,
-    "Purchase": 1,
-    "huggingface": 1,
-    "lazygit": 1,
-    "tubes": 1,
-    "Zulip": 1,
-    "Help Desk": 3,
-    "github": 29,
-    "Arthur Homepage": 1,
-    "release notes": 121,
-    "Demo Server": 1,
-    "Finance Calculators": 1,
-    "Assistant Platform": 1,
-    "NiPreps": 1,
-    "Helios Core": 1,
-    "GitHub Mirror": 1,
-    "RDKit": 1,
-    "ArcadeDB Upstream": 1,
-    "Discussions": 164,
-    "Pull Requests": 2,
-    "Tools": 1,
-    "Stash GitHub": 1,
-    "Certified": 1,
-    "arpakit_company_support_tg": 1,
-    "Library Guide": 1,
-    "Nuclia": 1,
-    "Author-Github": 2,
-    "GitLab XMU Group": 1,
-    "Solo Factory Plugin": 1,
-    "Wiki": 15,
-    "Enterprise Edition": 2,
-    "Hompage": 1,
-    "UserSupport": 2,
-    "GitHub Page": 1,
-    "Credits": 1,
-    "Telekinesis Examples Repository": 2,
-    "Git Hub": 1,
-    "releasenotes": 14,
-    "Coordinator - @VaKovaLskii": 1,
-    "download_url": 1,
-    "BugReports": 2,
-    "support": 3,
-    "API": 12,
-    "Notebook": 1,
-    "user_support": 1,
-    "Releasenotes": 4,
-    "Vastxiao Blog": 1,
-    "Docs: Contributor Guide": 1,
-    "Dev.to": 1,
-    "Parent Project": 2,
-    "Tee_Logger": 1,
-    "Wiliot": 1,
-    "Source Code On Github": 1,
-    "TemporaryLicense": 2,
-    "Source_code": 1,
-    "Book": 2,
-    "Schedule Demo": 1,
-    "Paper": 26,
-    "bugtracker": 9,
-    "pocketbase": 1,
-    "Hawky.ai": 1,
-    "forum": 3,
-    "Document": 3,
-    "Bug-tracker": 2,
-    "issue_tracker": 1,
-    "Donate via GitHub": 1,
-    "Docker Image": 1,
-    "SoundCloud": 2,
-    "Pelican-Source": 1,
-    "Messanger": 1,
-    "Getting Started": 3,
-    "Home page": 4,
-    "Git repository": 1,
-    "My GitHub": 1,
-    "tracker": 181,
-    "Translation": 8,
-    "Feature Requests": 5,
-    "ChangeLog": 6,
-    "GPU Extension": 1,
-    "Health Calculators": 1,
-    "repo (upstream)": 113,
-    "Source (Python)": 1,
-    "GitHub Sponsor": 1,
-    "Examples": 27,
-    "Readme": 3,
-    "Split PDF": 1,
-    "Forum": 37,
-    "chatroom": 1,
-    "Upstream (Rust)": 1,
-    "Examples & Demos": 1,
-    "pypi": 4,
-    "Funding (PayPal)": 1,
-    "Selfhosted (Gitea)": 1,
-    "multiSSH3": 1,
-    "Logo": 4,
-    "Mastodon": 51,
-    "hpcp": 1,
-    "opentrons.com": 1,
-    "Build Data": 1,
-    "Código": 2,
-    "Github releases": 1,
-    "Quick Start Guide": 1,
-    "Docs": 51,
-    "api": 1,
-    "paper": 1,
-    "Original": 7,
-    "Public Ledger": 1,
-    "MAD Source": 1,
-    "doc": 2,
-    "Dashboard": 10,
-    "OutputGuide": 1,
-    "CompOmics": 2,
-    "ERC-8004 Spec": 1,
-    "Fork of": 1,
-    "upstream": 2,
-    "Security Policy": 6,
-    "Get API Key": 1,
-    "codes": 1,
-    "Research Reference": 1,
-    "Author": 21,
-    "ReleaseNotes": 5,
-    "donations": 1,
-    "bugtrack": 1,
-    "Mailing List": 3,
-    "SourceHut Mirror": 1,
-    "News": 13,
-    "Customization": 1,
-    "History": 22,
-    "Source_Code": 4,
-    "Blog": 30,
-    "bug tracker": 5,
-    "Moodle": 1,
-    "Resources": 1,
-    "Licensing": 1,
-    "API Reference (Rust)": 1,
-    "Hardware": 1,
-    "bale": 1,
-    "OutputDirectory": 1,
-    "discord": 6,
-    "Bugs/Issues/Features": 4,
-    "Contribute": 2,
-    "Pricing": 2,
-    "Donate (India/UPI)": 1,
-    "IRC": 1,
-    "Samples": 1,
-    "Miguel Hernán (ORCID)": 1,
-    "Project PANOPTES": 1,
-    "GitHub Issues": 1,
-    "Installation": 2,
-    "x402 Ecosystem": 1,
-    "Doxygen": 2,
-    "Agent Mesh": 1,
-    "Discord Server": 1,
-    "SpRIT App (streamlit) Docs": 1,
-    "OpenPTV": 1,
-    "PyMuPDF": 1,
-    "Official Website": 1,
-    "PiWheels": 3,
-    "Support": 27,
-    "code-of-conduct": 1,
-    "DOI": 7,
-    "Documentation Site": 1,
-    "LibreNMS_Documentation": 2,
-    "API Documentation": 4,
-    "About ReputAgent": 1,
-    "Configuration Reference": 1,
-    "Repo": 8,
-    "Full Applications": 1,
-    "API Docs": 4,
-    "Homebrew": 1,
-    "SourceCode": 2,
-    "Docs: RTD": 10,
-    "Mastodon (nedbat)": 1,
-    "ci": 2,
-    "CI: Travis": 1,
-    "Signal Ocean": 1,
-    "Facebook": 4,
-    "墨问API文档": 1,
-    "tracker (upstream)": 113,
-    "chat": 1,
-    "Zairok App": 1,
-    "Microservice_repository": 1,
-    "LICENSE": 1,
-    "Search": 1,
-    "Issues Tracking System": 1,
-    "publication": 1,
-    "discourse": 113,
-    "Computational Cardiology Lab": 1,
-    "Source Code (mirror)": 1,
-    "Chat: Matrix Space": 1,
-    "Twitter / X": 1,
-    "Telegram Group": 1,
-    "文件教學": 1,
-    "Github": 40,
-    "Tandoor Recipes": 1,
-    "HuggingFace": 5,
-    "changelog": 282,
-    "Organization": 11,
-    "HuggingFace Space": 1,
-    "Ouster Customer Support": 1,
-    "App": 1,
-    "Demonstration website": 1,
-    "Source Code (GitHub)": 1,
-    "BugTracker": 29,
-    "MeaningfulData": 3,
-    "Company": 4,
-    "Use_Case": 1,
-    "Bug-Tracker": 21,
-    "B-CollectionlessAI": 1,
-    "Bluesky": 6,
-    "Benchmarks": 4,
-    "Baseten": 1,
-    "Founding": 2,
-    "IETF Draft": 1,
-    "LangChain Docs": 1,
-    "X": 7,
-    "Documentations": 2,
-    "Cultural Attribution": 1,
-    "Failure Modes": 1,
-    "Coding Standards": 1,
-    "Replacement": 1,
-    "Documentation-latest": 1,
-    "Developer": 1,
-    "Issue tracker": 87,
-    "HED Resources": 2,
-    "Echoes SF page": 1,
-    "homepage": 1176,
-    "Gitee Repo": 1,
-    "donation": 1,
-    "GitLab": 4,
-    "Commercial License": 2,
-    "Change log": 9,
-    "Models & Reports": 1,
-    "Ryan O'Dea (ORCID)": 1,
-    "Gitlab": 3,
-    "Research": 4,
-    "Bug_Tracker": 10,
-    "Modelpage": 1,
-    "Social Resources": 1,
-    "ReductStore": 1,
-    "Readthedocs": 1,
-    "Free Support": 9,
-    "Doumentation": 1,
-    "Personal website": 1,
-    "Icon": 2,
-    "Zenodo": 7,
-    "Download GUI": 1,
-    "GPG Public Key": 1,
-    "Sponsor": 17,
-    "CI: GitHub Actions": 10,
-    "Gitter": 17,
-    "Jira": 1,
-    "Documentaion": 1,
-    "Original R Package": 1,
-    "report": 1,
-    "Index": 23,
-    "FIA Ecosystem": 1,
-    "Code": 49,
-    "Live Page": 1,
-    "repo": 121,
-    "Agent Card": 1,
-    "author": 1,
-    "Math Calculators": 1,
-    "CI: Azure Pipelines": 1,
-    "community": 2,
-    "Paid Support Helpdesk": 1,
-    "DeepWiki": 2,
-    "Release Notes": 108,
-    "MeshTool": 1,
-    "Quantms": 1,
-    "Discourse": 2,
-    "Stats Page": 1,
-    "Third-Party Licenses": 1,
-    "Web App": 1,
-    "CLI": 1,
-    "Data System Docs": 1,
-    "soucecode": 1,
-    "Chat room": 1,
-    "ClawHub Skill Listing": 1,
-    "Organisation": 1,
-    "license": 3,
-    "Stats": 2,
-    "What's New": 1,
-    "Tutorial": 3,
-    "Discord Community": 1,
-    "Portfolio": 2,
-    "Release-notes": 1,
-    "Chat: Matrix": 1,
-    "Documentación": 1,
-    "Sensing Garden": 1,
-    "tutorial": 1,
-    "Power BI Connector": 1,
-    "Claude Code": 1,
-    "Donate via GitHub Sponsors": 1,
-    "SpRIT Web App": 1,
-    "Downloads": 15,
-    "Git Repository": 1,
-    "API Key Application": 1,
-    "Youtube_Tutorial": 1,
-    "nats.io": 1,
-    "Mann Labs Homepage": 2,
-    "DevOps & Deployment - @mixaill76": 1,
-    "EUDI Wallet reference": 1,
-    "Docker Images": 1,
-    "UCalgary SRS Open Data Platform": 2,
-    "Demonstration": 1,
-    "Sources": 6,
-    "Pull_Requests": 1,
-    "Change Log": 9,
-    "DOWNLOAD": 4,
-    "Release notes": 28,
-    "Bug-Reports": 1,
-    "DAGModelling Team": 2,
-    "AI Trading Assistant": 1,
-    "ReadtheDocs API Docs": 1,
-    "PyPI Package": 1,
-    "Snakemake Repository": 1,
-    "OneTick": 1,
-    "Software paper": 1,
-    "Contact": 18,
-    "OpenCGA-enterprise": 1,
-    "FAF Specification": 1,
-    "Userguide": 1,
-    "Distribution": 2,
-    "source": 280,
-    "simple-iotest": 1,
+    "KAYA Vision Point SDK": 1,
     "Código fonte": 2,
-    "User Forum": 16,
-    "Tutorials & Wiki": 1,
-    "Skyline": 1,
-    "C-Source": 1,
-    "PyTorch CUDA Wheels": 1,
-    "sourcecode": 1,
-    "Downloadable_Version": 1,
-    "About": 1,
-    "Main Code": 1,
-    "選股策略": 1,
+    "Customization": 1,
+    "Chat room": 1,
+    "Finance Calculators": 1,
+    "EUDI Wallet reference": 1,
     "Builds": 5,
-    "Model Hub": 1,
-    "Get started": 1,
-    "conda": 2,
-    "E-Examples": 1,
-    "Temporary License": 8,
-    "Original MATLAB Library": 1,
+    "WordGrain Schema": 1,
+    "Labs": 1,
+    "Security Policy": 6,
     "Issue Tracker": 265,
-    "Discord": 77,
-    "All Releases": 1,
-    "Help Center": 1,
-    "Feature Request Tracker": 1,
-    "POC Tool": 1,
-    "Library Source": 1,
-    "donate": 1,
-    "AbstractRuntime (GitHub)": 1,
-    "WordCounts": 1,
-    "Discussion": 13,
-    "ACP-Spec": 1,
-    "FraiseQL": 1,
-    "Maintained by": 2,
-    "Community": 18,
-    "Docs: Dev": 2,
-    "CHANGELOG": 1,
-    "JA4+ Specification": 1,
-    "Full Package": 1,
-    "Article": 1,
-    "Core Developer - @EvilFreelancer": 1,
-    "Source (GitHub)": 1,
-    "documentation": 893,
-    "RDKit on Github": 1,
-    "Notebook Examples": 2,
-    "ArchDesign": 1,
-    "slides": 1,
-    "x402 Discovery": 1,
-    "ImplementationCase": 1,
-    "Merge requests": 1,
-    "Concept_DOI": 1,
-    "Binder": 1,
-    "ReadTheDocs": 6,
-    "Project": 3,
-    "Donate (Crypto)": 1,
-    "PayPal": 1,
-    "Security": 9,
-    "Workflows": 1,
-    "YouTube": 58,
-    "Fishweb": 1,
-    "Live Server": 1,
-    "source-code": 3,
-    "AgentMesh": 1,
-    "Source": 3252,
-    "Projectpage": 1,
-    "Documentation_Updated": 1,
-    "Original Repository": 1,
-    "Versioned_DOI": 1,
-    "Guides": 1,
-    "Chat": 44,
-    "home": 9,
-    "Original Project": 9,
-    "support-forum": 1,
-    "Codelab": 1,
-    "Subtree": 2,
-    "Documentation-stable": 1,
-    "Maritaca AI": 1,
-    "VK": 1,
-    "ESRF Radia Page": 1,
-    "Bug": 2,
-    "Maintainer": 4,
-    "multiCMD": 1,
-    "Telegram": 7,
-    "SkillLite": 1,
-    "Linkedin": 2,
-    "contributing": 1,
-    "Documentation & usage": 1,
-    "issue tracker": 1,
-    "statbtrfs": 1,
-    "Research Paper": 4,
-    "Author GitHub": 1,
-    "Snakemake Documentation": 1,
-    "Bug Tracker": 3291,
-    "Guide": 1,
-    "Original Radia": 1,
-    "Deephaven": 1,
-    "Slack": 35,
-    "Mirror": 2,
-    "Demos": 7,
-    "VergeOS Docs": 1,
-    "Evaluation Patterns": 1,
-    "ProxyMesh": 2,
-    "CI: Github Actions": 1,
-    "Latest Release": 1,
-    "Author's Twitch": 1,
-    "Documentação": 2,
-    "FreeSupport": 1,
-    "Further Documentation": 1,
-    "Glory Wall": 1,
-    "Documenation": 1,
-    "Original C++ Project": 1,
-    "Change_log": 1,
-    "Report bugs": 1,
-    "HoloViz": 5,
-    "Console": 2,
-    "IP Fabric": 1,
-    "homeSource Codepage": 2,
-    "Telegram Bot": 1,
-    "sponsor": 1,
-    "Model (Hugging Face)": 2,
-    "Code Download": 1,
-    "quiz": 1,
-    "Doctrine": 1,
-    "Changelog": 3214,
-    "source code": 2,
-    "HuggingFace Models": 1,
-    "Matt Stammers's GitHub": 1,
-    "Source code": 47,
+    "E-Examples": 1,
+    "Dataset": 5,
+    "community": 2,
+    "GitHub 主站": 1,
+    "Case Study": 1,
+    "Tee_Logger": 1,
+    "QuickStart": 1,
+    "Donate (India/UPI)": 1,
+    "Service": 1,
+    "Fork": 1,
+    "DOWNLOAD": 4,
+    "CUDA Wheel": 1,
+    "Docker Hub: Repo": 1,
+    "Documentation Site": 1,
     "Release": 4,
-    "Code coverage": 6,
+    "VK": 1,
+    "OpenCGA-enterprise": 1,
+    "Chat: Matrix Space": 1,
+    "ci": 2,
+    "PayPal": 1,
+    "AuroraX Platform": 1,
+    "API Reference": 21,
+    "GitHub Mirror": 1,
+    "Legal": 1,
+    "Apps Gallery": 1,
+    "Community Forum": 1,
+    "benchmark": 1,
+    "huggingface": 1,
+    "Backlog": 1,
+    "墨问API文档": 1,
+    "History": 22,
+    "Project Page": 1,
     "Chaneglog": 1,
-    "Author Blog": 1,
-    "Protobuf Github": 1,
-    "iotest": 1,
+    "Console": 2,
+    "forum": 3,
+    "Failure Modes": 1,
+    "upstream": 2,
+    "DevOps & Deployment - @mixaill76": 1,
+    "Live example": 1,
+    "Bugs/Issues/Features": 4,
+    "Homepage": 27423,
+    "respository": 1,
+    "PrivacyPolicy": 1,
+    "Docker Images": 1,
+    "Issue 反馈（主站）": 1,
+    "Fostrom": 1,
+    "Examples Gallery": 1,
+    "donate": 1,
+    "User Forum": 16,
+    "Toolkit Download": 1,
+    "Source code": 47,
+    "Wiki": 15,
+    "Book": 2,
+    "Help": 10,
+    "ESRF Radia Page": 1,
+    "Apify Homepage": 4,
+    "Dashboard": 10,
+    "Repo": 8,
+    "Report Issues": 2,
+    "NEMO": 1,
+    "GPG Public Key": 1,
+    "Modelpage": 1,
+    "Discord": 77,
+    "Discord Server": 1,
+    "Rustic AI Core": 18,
+    "Rust": 1,
+    "Hyperglot web interface": 1,
+    "The Forge": 1,
+    "source code": 2,
+    "release-notes": 1,
+    "Releases": 74,
+    "Documenation": 1,
+    "Social Resources": 1,
+    "simple-iotest": 1,
+    "Health Calculators": 1,
+    "twitter": 4,
+    "Donate via Ko-Fi": 1,
+    "Weights": 1,
+    "Leonid Shpaner's Website": 1,
+    "About": 1,
+    "FreeSupport": 1,
+    "bugtrack": 1,
+    "Original Source": 1,
+    "SpRIT Web App": 1,
+    "Tutorial": 3,
+    "tracker": 181,
+    "Repository": 15153,
+    "Microservice_repository": 1,
+    "Echoes SF page": 1,
+    "Toolkit Overview": 1,
     "Engine": 2,
-    "download": 38,
-    "Hugging Face Organization": 1,
-    "Commercial": 1,
-    "Pro": 1,
-    "User Guide": 1,
-    "Artifacts": 1,
-    "Hybrid FC research - @Shadekss": 1,
+    "SonarCloud": 1,
+    "Trust Framework": 1,
+    "Roadmap": 6,
+    "Package": 11,
+    "Wikidata": 1,
+    "HuggingFace Space": 1,
+    "X / Twitter": 1,
+    "FormBuilder": 1,
+    "home": 9,
+    "Code Download": 1,
+    "Free Support": 9,
+    "Sponsor on GitHub": 1,
+    "MCP Server": 1,
+    "Maintainer PyPI": 1,
+    "Original MATLAB Library": 1,
+    "bug_tracker": 4,
+    "Math Calculators": 1,
+    "ClawHub": 1,
+    "Selfhosted (Gitea)": 1,
+    "What's New": 1,
+    "Documentation & usage": 1,
+    "BugTracker": 29,
+    "Demonstration website": 1,
+    "Grazer (Discovery)": 1,
+    "issue tracker": 1,
+    "Hompage": 1,
+    "Download GUI": 1,
+    "ArchDesign": 1,
+    "project-url/documentation": 1,
+    "bugtracker": 9,
+    "license": 3,
+    "Donate (Crypto)": 1,
+    "TSVZ": 1,
+    "Upgrade to Globus Compute": 2,
+    "JA4+ Specification": 1,
+    "PyMuPDF": 1,
+    "discord": 6,
+    "Extended Matrix": 1,
+    "Agent SRE": 2,
+    "Guide": 1,
+    "report": 1,
+    "Release Management": 1,
+    "source": 280,
+    "C-Source": 1,
+    "help": 1,
+    "Alejandro Szmulewicz (ORCID)": 1,
+    "Live Page": 1,
+    "Library Guide": 1,
+    "Gitee Repo": 1,
+    "RDKit on Github": 1,
+    "API Key Application": 1,
+    "Doxygen": 2,
+    "Bug": 2,
+    "Tutorials & Wiki": 1,
+    "Fishweb": 1,
+    "Source_Code": 4,
+    "Contributors": 3,
+    "issue": 3,
+    "Matt Stammers's GitHub": 1,
+    "Discovery API": 1,
+    "Distribution": 2,
+    "GitHub 中文镜像": 1,
+    "Assistant Platform": 1,
+    "Product Home": 1,
+    "The Signal Ocean Platform": 1,
+    "MCP Registry": 1,
+    "Agent Card": 1,
+    "Sponsoring": 15,
+    "Bug Traccker": 1,
+    "Bugtracker": 7,
+    "codes": 1,
+    "API Server": 1,
+    "Github Repository": 1,
+    "github": 29,
+    "Paid Support Helpdesk": 1,
+    "tutorial": 1,
+    "Model Hub": 1,
+    "POCS Documentation": 1,
+    "SDK": 1,
+    "Author ORCiD": 1,
+    "Restapi": 1,
+    "Community": 18,
+    "Quick Start": 2,
+    "Mastodon (nedbat)": 1,
+    "D-Starting": 1,
+    "Hugging Face Spaces": 1,
+    "Github": 40,
+    "Bug tracker": 19,
+    "ChangeLog": 6,
+    "Coverage: codecov": 1,
+    "TextMessages": 1,
+    "Linkedin": 2,
+    "Citation": 2,
+    "Sponsor on Open Collective": 1,
+    "Setup & configuration": 1,
+    "Logo": 4,
+    "Article": 1,
+    "Download RPMs": 1,
+    "選股策略": 1,
+    "Repositorio": 1,
+    "CI/CD": 4,
+    "Bluesky": 6,
+    "Youtube_Tutorial": 1,
+    "Upstream (Rust)": 1,
+    "Gitter": 17,
+    "Leaderborad": 1,
+    "Author-Github": 2,
+    "Pricing": 2,
+    "Main instance": 1,
+    "Issues Tracking System": 1,
+    "source-code": 3,
+    "Home page": 4,
+    "Purchase": 1,
+    "API Docs": 4,
+    "Workflows": 1,
+    "issue_tracker": 1,
+    "API-Docs": 1,
+    "Lean Proofs": 1,
+    "Documentation_Updated": 1,
+    "Quickstart": 1,
+    "source_archive": 5,
+    "Home-Page": 1,
+    "discourse": 113,
+    "Readme": 3,
+    "Sources": 6,
+    "Licence": 1,
+    "Issues tracker": 1,
+    "FIA Ecosystem": 1,
+    "API Reference (Rust)": 1,
+    "bug_reports": 1,
+    "Licensing": 1,
+    "homeSource Codepage": 2,
+    "Google Group": 1,
+    "Issue-Tracker": 1,
+    "Tutorials": 11,
+    "University of Bristol (ROR)": 1,
+    "Installation": 2,
+    "MCP Endpoint": 1,
+    "Source Code": 760,
+    "ProxyMesh": 2,
+    "Github Pages API Docs": 1,
+    "JAX-sklearn": 1,
+    "Cli app": 1,
+    "Trust & Permissions": 1,
+    "releases": 5,
+    "Enterprise Edition": 2,
+    "PiWheels": 3,
+    "words": 1,
+    "API Status": 1,
+    "Third-Party Licenses": 1,
+    "Core Developer - @virrius": 1,
+    "Bugs and Features": 1,
+    "Donate via GitHub Sponsors": 1,
+    "Snakemake Repository": 1,
+    "CarConnectivity Framework": 1,
+    "author": 1,
+    "Tracker": 729,
+    "bugs": 36,
+    "Slack": 35,
+    "Documentation": 11215,
+    "Conda-forge": 1,
+    "Projectpage": 1,
+    "Beamline Information": 1,
+    "Skyline": 1,
+    "issue-new": 1,
+    "Matrix": 2,
+    "API Keys": 1,
+    "Maintained by": 2,
+    "Feature Request Tracker": 1,
+    "Change Log": 9,
+    "Signal Ocean": 1,
+    "DOI": 7,
+    "Csvpath.org": 1,
+    "Original_documentation": 1,
+    "FAF Specification": 1,
+    "Schedule Demo": 1,
+    "News": 13,
     "manual": 2,
+    "Hybrid FC research - @Shadekss": 1,
+    "Telegram Channel": 2,
+    "Organization": 11,
+    "Systemd Guide": 1,
+    "Maritaca AI": 1,
+    "HED Resources": 2,
+    "PyPI Stats": 2,
+    "Docker": 2,
+    "Moodle": 1,
+    "B-CollectionlessAI": 1,
+    "Preprint": 4,
+    "Gofile API": 1,
+    "Homebrew": 1,
+    "Document": 3,
+    "Mirror (GitVerse)": 1,
+    "Container": 1,
+    "Bug Reports": 505,
+    "API": 12,
+    "GitHub Discussions": 1,
+    "Web App": 1,
+    "Data System Docs": 1,
+    "Twitter": 172,
+    "DOI (paper)": 1,
+    "Original R Package": 1,
+    "discussions": 4,
+    "CI: Travis": 1,
+    "Homebrew Tap": 1,
+    "Agent Hypervisor": 1,
+    "Rust Crate": 1,
+    "Reference": 3,
+    "donations": 1,
+    "Method paper": 1,
+    "repo": 121,
+    "Deephaven GitHub": 1,
+    "Donations": 4,
+    "About Ouranos": 3,
+    "Model Zoo": 1,
+    "tracker (upstream)": 113,
+    "Stats Page": 1,
+    "Doumentation": 1,
+    "GitHub": 188,
+    "LinkedIn": 20,
+    "Telegram Group": 1,
+    "Project PANOPTES": 1,
+    "Readthedocs": 1,
+    "HoloViz": 5,
+    "Author-Website": 2,
+    "X": 7,
+    "IANA Registration": 1,
+    "pip": 2,
+    "IssueTracker": 9,
+    "paper": 1,
+    "tubes": 1,
+    "OpenAPI": 1,
+    "Coverage": 10,
+    "Bugs": 5,
+    "Demos": 7,
+    "Merge requests": 1,
+    "Emails": 1,
+    "TermsConditions": 1,
+    "Contribute": 2,
+    "code-of-conduct": 1,
+    "examples": 2,
+    "Binder": 1,
+    "Merge PDF": 1,
+    "Trademarks": 1,
+    "Deephaven": 1,
+    "Evaluation Patterns": 1,
+    "Notebook": 1,
+    "Index": 23,
+    "Mailing-list": 3,
+    "Health": 4,
+    "TVheadend Guide": 1,
+    "Discussion": 13,
+    "Project-URL": 4,
+    "Ouster SDK Documentation": 1,
+    "space": 1,
+    "slides": 1,
+    "Zenodo": 7,
+    "LibreNMS_Documentation": 2,
+    "TemporaryLicense": 2,
+    "GitHub Repository": 1,
+    "Skills": 1,
+    "Organisation Homepage": 1,
+    "openbabel_repository": 1,
+    "Source Code (mirror)": 1,
+    "Quick Manual": 1,
+    "quiz": 1,
+    "cite": 1,
+    "Git page": 1,
+    "MyHomepage": 1,
+    "DAHITI Homepage": 1,
+    "LICENSE": 1,
+    "Bug Tracker": 3294,
+    "Chrome Extension": 1,
+    "Live Demo": 5,
+    "Release Notes": 108,
+    "Database (csv)": 1,
+    "RRID": 1,
+    "Newsletter": 3,
+    "Development": 2,
+    "GitHub Page": 1,
+    "Documentation-Versioned": 1,
+    "Documentaion": 1,
+    "Telegram chat": 1,
+    "seaweedfs": 1,
+    "Discussions": 164,
+    "homepage": 1176,
+    "Keyword docs": 1,
+    "funding": 15,
+    "Twitter / X": 1,
+    "Benchmarks": 4,
+    "api": 1,
+    "LangChain Docs": 1,
+    "Use_Case": 1,
+    "home_page": 1,
+    "Codelab": 1,
+    "changelog": 282,
+    "Instagram": 4,
+    "Bug-Tracker": 21,
+    "Bug Report": 3,
+    "Original": 7,
+    "Live Interactive Console": 1,
+    "Original Radia": 1,
+    "IPFS": 3,
+    "Source Archive": 3,
+    "Docs: User Guide": 1,
+    "Repositories": 1,
+    "Commercial License": 2,
+    "Power BI Connector": 1,
+    "Reddit": 19,
+    "Author GitHub": 1,
+    "Harvard University (ROR)": 1,
+    "Archive": 2,
+    "Facebook": 4,
+    "GitHub Docs": 1,
+    "Protobuf Github": 1,
+    "Full Applications": 1,
+    "Source With Tests": 1,
+    "UserSupport": 2,
+    "Releases and Changelogs": 1,
+    "Arprax": 1,
+    "OutputGuide": 1,
+    "Further Documentation": 1,
+    "nats.io": 1,
+    "Donation": 12,
+    "ASCOM Developer Forum": 1,
+    "FraiseQL": 1,
+    "Arthur Homepage": 1,
+    "ArcadeDB Upstream": 1,
+    "Config Browser": 1,
+    "Romepage": 1,
+    "Sample Reports": 1,
+    "Publications": 2,
+    "Source Repository": 4,
+    "BugReports": 2,
+    "multiCMD": 1,
+    "Glory Wall": 1,
+    "User Guide": 1,
+    "Smithery": 1,
+    "Chat": 44,
+    "Agent Skills": 1,
+    "Developer docs": 1,
+    "Git Hub": 1,
+    "chat": 1,
+    "Youtube": 3,
+    "Jakobi Lab": 1,
+    "OutputDirectory": 1,
+    "Sponsor": 17,
+    "All Releases": 1,
+    "Developers": 1,
+    "Issue": 12,
+    "Information": 1,
+    "live_demo": 1,
+    "Q & A": 2,
+    "Docs": 52,
+    "Privacy Policy": 2,
+    "conda": 2,
+    "IETF Draft": 1,
+    "ONNXRuntime-Compatibility": 1,
+    "bug-tracker": 4,
+    "Original Repository": 1,
+    "Stash GitHub": 1,
+    "Help Desk": 3,
+    "Sibling package": 2,
+    "Project": 3,
+    "Discourse": 2,
+    "Issues": 9165,
+    "Donate via Ko-fi": 1,
+    "Git Repository": 1,
+    "Split PDF": 1,
+    "Gitlab": 3,
+    "Buy Me a Coffee": 2,
+    "Source_archive": 1,
+    "Website": 170,
+    "HOME": 1,
+    "Hugging Face Organization": 1,
+    "A-Homepage": 1,
+    "Source": 3253,
+    "Downloadable_Version": 1,
+    "AbstractRuntime (GitHub)": 1,
+    "Org. Homepage": 1,
+    "bug": 1,
+    "AbstractFramework (monorepo)": 1,
+    "Icon": 2,
+    "download": 38,
+    "GitLab": 4,
+    "Documentation-stable": 1,
+    "Replit": 1,
+    "pypi": 4,
+    "Unit Converters": 1,
+    "文件教學": 1,
+    "Bug System": 1,
+    "Helios Core": 1,
+    "Models & Reports": 1,
+    "Search": 1,
+    "Source - Precompiled (.py)": 2,
+    "Live Server": 1,
+    "CI": 50,
+    "contributing": 1,
+    "Issues Tracker": 3,
+    "Commit": 1,
+    "Patent Information": 1,
+    "Analytics": 1,
+    "Code": 49,
+    "Zairok App": 1,
+    "wiki": 2,
+    "Code_of_Conduct": 4,
+    "OneTick": 1,
+    "Stats": 2,
+    "SGR Concept Creator - @abdullin": 1,
+    "FAQ": 2,
+    "Jira": 1,
+    "PyPI": 125,
+    "Contact": 18,
+    "Codex-App-Server": 1,
+    "Launch on Lab": 2,
+    "UCalgary SRS Open Data Platform": 2,
+    "HuggingFace": 5,
+    "Author": 21,
+    "Modaic": 2,
+    "Health Check": 1,
+    "ALF Homepage": 1,
+    "IP Fabric": 1,
+    "CPU Package": 1,
+    "Github releases": 1,
+    "DOI (source)": 1,
+    "Computational Cardiology Lab": 1,
+    "Claude Code": 1,
+    "chatroom": 1,
+    "JOSS paper": 1,
+    "Company": 4,
+    "Echoes FB page": 1,
+    "Library Source": 1,
+    "Forums": 1,
+    "Samples": 1,
+    "Downloads": 15,
+    "Agent Mesh": 1,
+    "Code coverage": 6,
+    "Organisation": 1,
+    "Zenodo (v0.1.2 DOI)": 1,
+    "Build Data": 1,
+    "Demo Server": 1,
+    "Baseten": 1,
+    "YouTube": 58,
+    "Software paper": 1,
+    "example": 1,
+    "Live demo": 2,
+    "CHANGELOG": 1,
+    "Main Code": 1,
+    "Author PyPI": 1,
+    "Quick Start Guide": 1,
+    "Cultural Attribution": 1,
+    "Mirror": 2,
+    "Source Code On Github": 1,
+    "Personal website": 1,
+    "MRzero-Paper": 1,
+    "Contribute!": 7,
+    "Bug-Reports": 1,
+    "Versioned_DOI": 1,
+    "Discussion Forum": 2,
+    "Messanger": 1,
+    "ReductStore": 1,
+    "Dev.to": 1,
+    "Original Pomice": 1,
+    "Pro": 1,
+    "bug tracker": 5,
+    "Apify homepage": 1,
+    "Source - Compiled (.c)": 2,
+    "User Documentation": 1,
+    "About ReputAgent": 1,
+    "Translation": 8,
+    "Official Website": 1,
+    "Pelican-Source": 1,
+    "SDK Docs": 1,
+    "Mailing List": 3,
+    "Latest Release": 1,
+    "Author Blog": 1,
+    "documentation": 893,
+    "readme": 3,
+    "Certified": 1,
+    "Matrix Room": 1,
+    "PDF to Word": 1,
+    "ACP-Spec": 1,
+    "project_source": 1,
+    "Funding": 197,
+    "Tom Palmer (ORCID)": 1,
+    "R Package": 1,
+    "ImplementationCase": 1,
+    "support-forum": 1,
+    "arpakit_company_site": 1,
+    "support": 3,
+    "Feature Requests": 5,
+    "Concept_DOI": 1,
+    "HuggingFace Models": 1,
+    "bitbucket": 1,
+    "Authors": 5,
+    "SourceCode": 2,
+    "npm": 1,
+    "Credits": 1,
+    "Author's Twitch": 1,
+    "My GitHub": 1,
+    "WordCounts": 1,
+    "CI: Azure Pipelines": 1,
+    "Mann Labs Homepage": 2,
+    "Team website": 1,
+    "README": 2,
+    "Hardware": 1,
+    "Documentations": 2,
+    "docs": 32,
+    "Migration Guide": 2,
+    "Bioexcel": 5,
+    "Benchmarks - Results": 2,
+    "GPU Extension": 1,
+    "Docs: Contributor Guide": 1,
+    "Public Ledger": 1,
+    "Parent Project": 2,
+    "LangChain": 1,
+    "telegram_channel": 1,
+    "CI: Github Actions": 1,
+    "Founding": 2,
+    "Mailing list": 2,
+    "Clients": 1,
+    "Nuclia": 1,
+    "issue-tracker": 6,
+    "Discord server": 1,
+    "Donate": 16,
+    "Protobuf": 1,
+    "Examples & Demos": 1,
+    "Discord Community": 1,
+    "HuggingFaceModels": 1,
+    "Paper preprint": 1,
+    "Original Project": 9,
+    "Marketplace": 1,
+    "Profile": 1,
+    "Demo": 20,
+    "SourceHut Mirror": 1,
+    "Coordinator - @VaKovaLskii": 1,
     "PRIDE": 1,
     "CarConnectivity CLI": 1,
-    "FormBuilder": 1,
-    "Benchmarks - Results": 2,
-    "Getting help": 3,
-    "Issue": 12,
-    "CUDA Wheel": 1,
-    "Developers": 1,
-    "Homebrew Tap": 1,
-    "pip": 2,
-    "Playground": 3,
-    "Jakobi Lab": 1,
-    "repository": 1145,
-    "Reference": 3,
-    "Sponsoring": 15,
-    "Org. Homepage": 1,
-    "Agent Skills": 1,
-    "CI/CD": 4,
-    "Bugtracker": 7,
-    "SDev Finance": 1,
-    "Docs: User Guide": 1,
     "Api Doc": 1,
-    "SGR Concept Creator - @abdullin": 1,
-    "AuroraX Platform": 1,
-    "Bugs and Features": 1,
-    "TextMessages": 1,
-    "Documentation-Versioned": 1,
-    "ALF Homepage": 1,
-    "ASCOM Developer Forum": 1,
-    "issues": 263,
-    "Codecov": 12,
-    "Bug System": 1,
-    "issue-new": 1,
-    "ICLR 2026 Paper": 1,
-    "Launch on Lab": 2,
-    "Licence": 1,
-    "Upgrade to Globus Compute": 2,
-    "Telegram BotAPI Docs": 1,
-    "Source Code": 760,
-    "NEMO": 1,
-    "Romepage": 1,
-    "IPFS": 3,
-    "Issues tracker": 1,
-    "Trust & Permissions": 1,
-    "Analytics": 1,
+    "Wiliot": 1,
+    "Código": 2,
+    "API Documentation": 4,
+    "Pull Requests": 2,
+    "MeaningfulData": 3,
+    "Research Paper": 4,
+    "Terms of Service": 1,
+    "Developer": 1,
+    "Zulip": 1,
+    "ASCOM Initiative": 1,
+    "Specification": 1,
+    "Research": 4,
+    "Doctrine": 1,
+    "releasenotes": 14,
+    "opentrons.com": 1,
+    "F-Documentation": 1,
+    "Telemetry + AI Studio": 1,
+    "Metadata": 1,
+    "Source_code": 1,
+    "soucecode": 1,
+    "Telegram": 7,
+    "Source (Python)": 1,
+    "AgentMesh": 1,
+    "arpakit_company_support_tg": 1,
+    "Knowledge Base": 4,
+    "Author Website": 3,
+    "Sensing Garden": 1,
+    "Client Configurations": 1,
+    "DAGModelling Team": 2,
+    "Change_log": 1,
+    "user_support": 1,
+    "Original-NIST-Repository": 1,
+    "release notes": 121,
+    "Telegram Bot": 1,
+    "AI Trading Assistant": 1,
+    "Demonstration": 1,
+    "x402 Discovery": 1,
+    "Source Code (GitHub)": 1,
+    "Julia repository": 1,
+    "Artifacts": 1,
+    "The Signal Group": 1,
+    "IRC": 1,
     "Outerl Homepage": 1,
-    "Marketplace": 1,
-    "Issue-Tracker": 1,
-    "example": 1,
-    "Echoes FB page": 1,
-    "wiki": 2,
-    "Privacy Policy": 2,
-    "Sponsor on Open Collective": 1,
-    "Trademarks": 1,
-    "Maintainer GitHub": 1,
-    "Container": 1,
-    "twitter": 4,
-    "Developer Doc": 3,
+    "Documentación": 1,
+    "GitHub Issues": 1,
+    "issues": 263,
+    "Paper": 26,
+    "GitLab XMU Group": 1,
+    "ZenLink Bridge": 1,
+    "App": 1,
+    "release_notes": 23,
+    "repository": 1145,
+    "dogesec HQ": 5,
+    "Getting Started": 3,
+    "donation": 1,
+    "Agent OS": 2,
+    "publication": 1,
+    "Releasenotes": 4,
+    "Development Branch": 1,
+    "repo (upstream)": 113,
+    "Register": 1,
+    "Codecov": 12,
+    "Diagnostics": 1,
+    "source_code": 2,
+    "SpRIT App (streamlit) Docs": 1,
+    "Code Repository": 2,
+    "SoundCloud": 2,
     "Test-Coverage": 4,
-    "readme": 3,
-    "Documentation": 11210,
-    "Sibling package": 2,
-    "LangChain": 1,
-    "Project Page": 1,
+    "Documentation-latest": 1,
+    "Model (Hugging Face)": 2,
+    "CompOmics": 2,
+    "PyPi": 7,
+    "IPNS": 1,
+    "Home-page": 16,
+    "pocketbase": 1,
+    "Tests": 3,
+    "Chat: Matrix": 1,
+    "Lab Website": 1,
+    "Home": 175,
+    "Slack Chat": 45,
+    "Tandoor Recipes": 1,
+    "Git repository": 1,
+    "VergeOS Docs": 1,
+    "NiPreps": 1,
+    "Documentação": 2,
+    "SDev Finance": 1,
+    "Security": 9,
+    "doc": 2,
+    "MAD Source": 1,
+    "GitHub Sponsor": 1,
+    "Mobile app": 1,
+    "Tools": 1,
+    "Release-notes": 1,
+    "ArXiv Paper": 1,
+    "Tidelift": 1,
+    "AbstractCore (website)": 1,
+    "PyPI Package": 1,
+    "Changes": 67,
+    "bale": 1,
+    "NPM": 1,
+    "Contributing": 18,
+    "CLI": 1,
+    "Release notes": 28,
+    "Userguide": 1,
+    "user_group": 1,
+    "Commercial": 1,
+    "Subtree": 2,
+    "PyTorch CUDA Wheels": 1,
+    "Solo Factory Plugin": 1,
+    "iotest": 1,
+    "Issuses": 1,
+    "openbabel_homepage": 1,
+    "download-url": 1,
+    "ERC-8004 Spec": 1,
+    "POC Tool": 1,
+    "Developer Doc": 3,
+    "homepage (upstream)": 113,
+    "Docker Image": 1,
+    "Conda-Forge": 2,
+    "RDKit": 1,
+    "sourcecode": 1,
+    "Support": 27,
+    "linkedin": 2,
+    "Configuration Reference": 1,
+    "Code of Conduct": 8,
+    "GitHub: issues": 12,
+    "Full Package": 1,
+    "Ouster Customer Support": 1,
+    "Pull_Requests": 1,
+    "Github mirror": 1,
+    "MCP Tools": 1,
+    "Hawky.ai": 1,
+    "Download": 569,
+    "Research Reference": 1,
+    "git_repository": 1,
+    "Guides": 1,
+    "Portfolio": 2,
+    "python documentation": 1,
+    "Maintainer": 4,
+    "FoxNose Docs": 1,
+    "Change log": 9,
+    "Examples": 27,
+    "Report bugs": 1,
+    "Replacement": 1,
+    "Issue / Bug Reports": 1,
+    "WeChat": 1,
+    "Quantms": 1,
+    "Original_respository": 1,
+    "x402 Ecosystem": 1,
+    "ICLR 2026 Paper": 1,
+    "package": 1,
+    "Funding (PayPal)": 1,
+    "Help Center": 1,
+    "SecretFlow": 1,
+    "Source (GitHub)": 1,
+    "blog": 1,
+    "ClawHub Skill Listing": 1,
+    "Changelogs": 2,
+    "Maintainer GitHub": 1,
+    "Original C++ Project": 1,
+    "Free Support Forum": 1,
+    "CI: GitHub": 2,
+    "Vastxiao Blog": 1,
+    "HomePage": 8,
+    "Get started": 1,
+    "CI: GitHub Actions": 10,
+    "Bug-tracker": 2,
+    "Docs: Dev": 2,
+    "GitHub: repo": 13,
+    "Compress PDF": 1,
+    "SkillLite": 1,
+    "LatestRelease": 1,
+    "MeshTool": 1,
+    "Fork of": 1,
+    "GitHub Source": 1,
+    "License": 37,
+    "Getting help": 3,
+    "Troubleshooting": 2,
+    "Pypi": 9,
+    "website": 1,
+    "ReadtheDocs API Docs": 1,
+    "Core Developer - @EvilFreelancer": 1,
+    "DAMON": 1,
+    "Jan Homepage": 1,
+    "Changelog": 3214,
+    "OpenPTV": 1,
+    "Miguel Hernán (ORCID)": 1,
+    "ReleaseNotes": 5,
+    "Issue tracker": 87,
+    "Forum": 37,
+    "Blog": 30,
+    "hpcp": 1,
+    "B++": 1,
+    "Temporary License": 8,
+    "中文文档 (Chinese)": 1,
+    "Donate via GitHub": 1,
+    "statbtrfs": 1,
+    "Ryan O'Dea (ORCID)": 1,
     "Docker Hub": 5,
     "Linux System Dependencies": 1,
-    "Agent SRE": 2,
-    "Maintainer PyPI": 1,
-    "Git page": 1,
-    "Citation": 2,
-    "Original Pomice": 1,
-    "Quick Manual": 1,
-    "Discussion Forum": 2,
-    "WeChat": 1,
-    "OpenAPI": 1,
-    "Julia repository": 1,
-    "DOI (source)": 1,
-    "Skills": 1,
-    "Home-Page": 1,
-    "Source_archive": 1,
-    "Development Branch": 1,
-    "The Forge": 1,
-    "linkedin": 2,
-    "Donate via Ko-fi": 1,
-    "Original-NIST-Repository": 1,
-    "Sample Reports": 1,
-    "Newsletter": 3,
-    "release_notes": 23,
-    "PrivacyPolicy": 1,
-    "Labs": 1,
-    "Extended Matrix": 1,
-    "Rustic AI Core": 18,
-    "HuggingFaceDatasets": 1,
-    "Report Issues": 2,
-    "Development": 2,
-    "TSVZ": 1,
-    "GitHub Source": 1,
-    "Contributors": 3,
-    "Publications": 2,
-    "Matrix": 2,
-    "CI: GitHub": 2,
-    "Beamline Information": 1,
-    "Donate": 16,
-    "Health": 4,
-    "telegram_channel": 1,
-    "Archive": 2,
-    "Mailing list": 2,
-    "Discord server": 1,
-    "PYPI": 1,
-    "Code of Conduct": 8,
-    "benchmark": 1,
-    "API Server": 1,
-    "Client Configurations": 1,
-    "NPM": 1,
-    "git_repository": 1,
-    "Sponsor on GitHub": 1,
-    "PyPi": 7,
-    "Author-Website": 2,
-    "Toolkit Overview": 1,
-    "Unit Converters": 1,
-    "Download RPMs": 1,
-    "Package": 11,
-    "Telegram Channel": 2,
-    "HOME": 1,
-    "discussions": 4,
-    "Metadata": 1,
-    "FoxNose Docs": 1,
-    "Telegram chat": 1,
-    "Releases and Changelogs": 1,
-    "python documentation": 1,
-    "space": 1,
-    "Quickstart": 1,
-    "funding": 15,
-    "POCS Documentation": 1,
-    "issue": 3,
-    "Preprint": 4,
-    "Tom Palmer (ORCID)": 1,
-    "Tests": 3,
-    "Tracker": 729,
-    "bitbucket": 1,
-    "Bug Report": 3,
-    "Ouster SDK Documentation": 1,
-    "DOI (paper)": 1,
-    "Mirror (GitVerse)": 1,
-    "Reddit": 19,
-    "Source Repository": 4,
-    "Rust Crate": 1,
-    "Authors": 5,
-    "Backlog": 1,
-    "Coverage: codecov": 1,
-    "Instagram": 4,
-    "Google Group": 1,
-    "Zenodo (v0.1.2 DOI)": 1,
-    "DAHITI Homepage": 1,
-    "SimpleCore Documentation": 1,
-    "Lab Website": 1,
-    "HuggingFaceModels": 1,
-    "JAX-sklearn": 1,
-    "Gofile API": 1,
-    "Slack Chat": 45,
-    "Original_respository": 1,
-    "The Signal Ocean Platform": 1,
-    "R Package": 1,
-    "live_demo": 1,
-    "SecretFlow": 1,
-    "User Support": 38,
-    "KAYA Vision Point SDK": 1,
-    "Conda-Forge": 2,
-    "Contribute!": 7,
-    "AbstractCore (website)": 1,
-    "Knowledge Base": 4,
-    "Systemd Guide": 1,
-    "Deephaven GitHub": 1,
-    "README": 2,
-    "SDK": 1,
-    "Service": 1,
-    "QuickStart": 1,
-    "Fostrom": 1,
-    "cite": 1,
-    "Product Home": 1,
-    "issue-tracker": 6,
-    "Q & A": 2,
-    "Harvard University (ROR)": 1,
-    "Organisation Homepage": 1,
-    "Live Interactive Console": 1,
-    "openbabel_repository": 1,
-    "A-Homepage": 1,
-    "Examples Gallery": 1,
-    "SDK Docs": 1,
-    "MCP Registry": 1,
-    "Register": 1,
-    "Paper preprint": 1,
-    "Setup & configuration": 1,
-    "package": 1,
-    "Rust": 1,
-    "Releases": 74,
-    "MCP Server": 1,
-    "IPNS": 1,
-    "Donation": 12,
-    "Codex-App-Server": 1,
-    "GitHub Repository": 1,
-    "F-Documentation": 1,
-    "arpakit_company_site": 1,
-    "PyPI": 125,
-    "ClawHub": 1,
-    "PyPI Stats": 2,
-    "Dataset": 5,
-    "Restapi": 1,
-    "Quick Start": 2,
-    "Youtube": 3,
-    "API-Docs": 1,
-    "Trust Framework": 1,
-    "Tidelift": 1,
-    "Roadmap": 6,
-    "words": 1,
-    "Repositories": 1,
-    "Website": 170,
-    "Team website": 1,
-    "Issue_Tracker": 1,
-    "API Keys": 1,
-    "bug": 1,
-    "JOSS paper": 1,
-    "The Signal Group": 1,
-    "Twitter": 172,
-    "Specification": 1,
-    "Author PyPI": 1,
-    "LinkedIn": 20,
-    "Keyword docs": 1,
-    "Coverage": 10,
-    "home_page": 1,
-    "Case Study": 1,
-    "Contributing": 18,
-    "GitHub: issues": 12,
-    "AbstractFramework (monorepo)": 1,
-    "Apify homepage": 1,
-    "Jan Homepage": 1,
-    "Wikidata": 1,
-    "Bug Reports": 505,
-    "Clients": 1,
-    "Mailing-list": 3,
-    "MCP Tools": 1,
-    "Smithery": 1,
-    "IANA Registration": 1,
-    "bug-tracker": 4,
-    "project_source": 1,
-    "Home Page": 4,
-    "Project-URL": 4,
-    "examples": 2,
-    "Changes": 67,
-    "Hyperglot web interface": 1,
-    "Live demo": 2,
-    "Alejandro Szmulewicz (ORCID)": 1,
-    "TVheadend Guide": 1,
-    "Code Repository": 2,
-    "GitHub": 188,
-    "Replit": 1,
-    "Weights": 1,
-    "Community Forum": 1,
-    "dogesec HQ": 5,
-    "Leonid Shpaner's Website": 1,
-    "Migration Guide": 2,
-    "Mobile app": 1,
-    "SciPy2015-talk": 1,
-    "Source-Code": 5,
-    "website": 1,
-    "Toolkit Download": 1,
-    "FAQ": 2,
-    "Leaderborad": 1,
-    "Information": 1,
-    "Repositorio": 1,
-    "B++": 1,
-    "University of Bristol (ROR)": 1,
-    "Source - Precompiled (.py)": 2,
-    "LatestRelease": 1,
-    "Plugin Discussion Thread": 1,
-    "user_group": 1,
-    "Telemetry + AI Studio": 1,
-    "npm": 1,
-    "ONNXRuntime-Compatibility": 1,
-    "ArXiv Paper": 1,
-    "Bioexcel": 5,
-    "Emails": 1,
-    "HomePage": 8,
-    "CPU Package": 1,
-    "Tutorials": 11,
-    "About Ouranos": 3,
-    "Donations": 4,
-    "GitHub 中文镜像": 1,
-    "Cli app": 1,
-    "WordGrain Schema": 1,
-    "Main instance": 1,
-    "Author ORCiD": 1,
-    "Github Repository": 1,
-    "Profile": 1,
-    "Legal": 1,
-    "blog": 1,
-    "Live Demo": 5,
-    "Issues Tracker": 3,
-    "API Status": 1,
-    "Apify Homepage": 4,
-    "download-url": 1,
-    "source_code": 2,
-    "MCP Endpoint": 1,
-    "Csvpath.org": 1,
-    "help": 1,
-    "Method paper": 1,
-    "Conda-forge": 1,
-    "License": 37,
-    "Issues": 9157,
-    "Bugs": 5,
-    "API Reference": 21,
-    "Modaic": 2,
-    "release-notes": 1,
-    "Fork": 1,
-    "Docker Hub: Repo": 1,
-    "bug_reports": 1,
-    "RRID": 1,
-    "Health Check": 1,
-    "GitHub Docs": 1,
-    "respository": 1,
-    "Platform": 2,
-    "Terms of Service": 1,
-    "Forums": 1,
-    "Funding": 197,
-    "Discovery API": 1,
-    "Repository": 15144,
-    "Lean Proofs": 1,
-    "Hugging Face Spaces": 1,
-    "Home-page": 16,
-    "Apps Gallery": 1,
-    "User Documentation": 1,
-    "Model Zoo": 1,
+    "Docs: RTD": 10,
+    "Discuss": 1,
+    "lazygit": 1,
     "Upstream": 20,
-    "Bug Traccker": 1,
-    "X / Twitter": 1,
-    "Issuses": 1,
-    "DAMON": 1,
-    "Grazer (Discovery)": 1,
-    "docs": 32,
-    "openbabel_homepage": 1,
-    "Commit": 1,
-    "source_archive": 5,
-    "Changelogs": 2,
-    "Agent OS": 2,
-    "Code_of_Conduct": 4,
+    "Plugin Discussion Thread": 1,
+    "Resources": 1,
+    "Bug_Tracker": 10,
+    "download_url": 1,
+    "SimpleCore Documentation": 1,
+    "Platform": 2,
     "Author on Bluesky": 1,
-    "Source With Tests": 1,
-    "PDF to Word": 1,
-    "Discuss": 1
+    "multiSSH3": 1,
+    "Get API Key": 1,
+    "sponsor": 1,
+    "SciPy2015-talk": 1,
+    "Mastodon": 51,
+    "Notebook Examples": 2,
+    "Snakemake Documentation": 1,
+    "Telegram BotAPI Docs": 1,
+    "Telekinesis Examples Repository": 2,
+    "ReadTheDocs": 6,
+    "Issue_Tracker": 1,
+    "Home Page": 4,
+    "Playground": 3,
+    "PYPI": 1,
+    "DeepWiki": 2,
+    "HuggingFaceDatasets": 1,
+    "Say Thanks!": 22,
+    "User Support": 38,
+    "Source-Code": 5,
+    "Coding Standards": 1
   }
 }
