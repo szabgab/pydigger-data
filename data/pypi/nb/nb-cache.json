@@ -1,7 +1,7 @@
 {
   "name": "nb-cache",
-  "version": "0.2",
-  "summary": "更强的缓存装饰器，支持同步和异步函数，支持加锁防止缓存击穿，支持内存和Redis作为缓存器，支持Redis+内存双缓存提高性能",
+  "version": "0.3",
+  "summary": "`nb_cache` 不仅是一个基础的缓存装饰器，它在彻底抹平 Python 同步与异步代码差异的同时，开箱即用地提供了内存/Redis双层缓存、防击穿、防雪崩、限流与熔断等企业级高可用特性。",
   "license": null,
   "license_expression": null,
   "home_page": "https://github.com/ydf0509/nb_cache",
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1772264267,
+  "pub_date": 1772278665,
   "project_urls": {
     "Repository": "https://github.com/ydf0509/nb_cache",
     "Homepage": "https://github.com/ydf0509/nb_cache"
@@ -20,7 +20,7 @@
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
