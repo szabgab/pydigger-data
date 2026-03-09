@@ -1,7 +1,7 @@
 {
   "name": "llm-guard-kit",
-  "version": "0.6.0",
-  "summary": "Real-time reliability monitoring for LLM agents. v0.6.0: SC_OLD behavioral signals + Sonnet judge in AgentGuard (AUROC ~0.81 within / ~0.74 cross), A2ATrustObject for agent-to-agent handoff, QueryRewriter for query diversification on low-confidence chains.",
+  "version": "0.7.0",
+  "summary": "Real-time reliability monitoring for LLM agents. v0.7.0: LocalVerifier (LogReg, AUROC ~0.80 within, $0 inference after 200 labels), QPPGNano (zero-install self-contained scorer), calibrate_from_agreement() for label-free conformal calibration.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1773006407,
+  "pub_date": 1773087177,
   "project_urls": {
     "Issues": "https://github.com/avighan/qppg/issues",
     "Repository": "https://github.com/avighan/qppg"
