@@ -1,7 +1,7 @@
 {
   "name": "llm-guard-kit",
-  "version": "0.12.0",
-  "summary": "Real-time reliability monitoring for LLM agents. v0.12.0: DeepLocalVerifier bootstrap MLP (AUROC 0.855 + ptrue), LSTMRiskAccumulator step-level LSTM (AUROC 0.828 standalone, $0 inference, exp138). v0.11.0: calibrate_isotonic, conformal_alert_threshold, kalman_smooth_risks (exp134-137).",
+  "version": "0.13.0",
+  "summary": "Real-time reliability monitoring for LLM agents. v0.13.0: A2A HTTP endpoints (/.well-known/agent.json, /v1/a2a/*), multi-hop HMAC trust chain (TrustHop, add_hop, verify_chain), calibration REST API. v0.12.0: DeepLocalVerifier, LSTMRiskAccumulator.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1773260454,
+  "pub_date": 1773261343,
   "project_urls": {
-    "Issues": "https://github.com/avighan/qppg/issues",
-    "Repository": "https://github.com/avighan/qppg"
+    "Repository": "https://github.com/avighan/qppg",
+    "Issues": "https://github.com/avighan/qppg/issues"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
