@@ -1,7 +1,7 @@
 {
   "name": "llm-guard-kit",
-  "version": "0.7.0",
-  "summary": "Real-time reliability monitoring for LLM agents. v0.7.0: LocalVerifier (LogReg, AUROC ~0.80 within, $0 inference after 200 labels), QPPGNano (zero-install self-contained scorer), calibrate_from_agreement() for label-free conformal calibration.",
+  "version": "0.9.1",
+  "summary": "Real-time reliability monitoring for LLM agents. v0.9.0: cross-domain scoring via P(True) ensemble (AUROC ~0.78, ~$0.0003/call) and structural LogReg (AUROC ~0.73, $0); score_with_ptrue(), fit_structural_verifier() with optional target normalization. v0.8.0: GuardClient SDK, LocalVerifier, QPPGNano, LangChain/LlamaIndex/CrewAI callbacks.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1773087177,
+  "pub_date": 1773216506,
   "project_urls": {
-    "Issues": "https://github.com/avighan/qppg/issues",
-    "Repository": "https://github.com/avighan/qppg"
+    "Repository": "https://github.com/avighan/qppg",
+    "Issues": "https://github.com/avighan/qppg/issues"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
