@@ -1,7 +1,7 @@
 {
   "name": "llm-guard-kit",
-  "version": "0.16.0",
-  "summary": "Real-time reliability monitoring for LLM agents. v0.16.0: hosted calibration endpoint (POST /v2/calibrate/fit), multilevel feature engineering (L1-L4+L5 semantic), 3-domain validation (code/SQL/CS), latency SLA benchmark (behavioral p50=19ms), L1 behavioral cross-domain AUROC 0.770 on real HP→TV chains. v0.15.0: probe_ensemble_blend() helper (+1.6pp cross-domain AUROC), corrected LSTM AUROC (0.545 not 0.8280).",
+  "version": "0.16.1",
+  "summary": "Real-time reliability monitoring for LLM agents. v0.16.1: fix FastAPI>=0.115 (starlette 0.52 compat), domain-invariant feature selection 0.778 cross-domain. v0.16.0: hosted calibration endpoint, multilevel features, 3-domain validation, latency SLA. v0.15.0: probe_ensemble_blend() +1.6pp AUROC.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1773320421,
+  "pub_date": 1773321500,
   "project_urls": {
-    "Repository": "https://github.com/avighan/qppg",
-    "Issues": "https://github.com/avighan/qppg/issues"
+    "Issues": "https://github.com/avighan/qppg/issues",
+    "Repository": "https://github.com/avighan/qppg"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
