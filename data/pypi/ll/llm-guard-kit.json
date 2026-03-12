@@ -1,7 +1,7 @@
 {
   "name": "llm-guard-kit",
-  "version": "0.15.0",
-  "summary": "Real-time reliability monitoring for LLM agents. v0.15.0: probe_ensemble_blend() helper (+1.6pp cross-domain AUROC), corrected LSTM AUROC (0.545 not 0.8280, exp143 3-domain), real white-box probe validation (Qwen2.5 exp145/146). v0.14.0: ProcessReliabilityMonitor, StepExtractor ABC, domain-invariant LSTM, confident_wrong adapter, exp142 P(True) AUROC 0.817.",
+  "version": "0.16.0",
+  "summary": "Real-time reliability monitoring for LLM agents. v0.16.0: hosted calibration endpoint (POST /v2/calibrate/fit), multilevel feature engineering (L1-L4+L5 semantic), 3-domain validation (code/SQL/CS), latency SLA benchmark (behavioral p50=19ms), L1 behavioral cross-domain AUROC 0.770 on real HP→TV chains. v0.15.0: probe_ensemble_blend() helper (+1.6pp cross-domain AUROC), corrected LSTM AUROC (0.545 not 0.8280).",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1773315865,
+  "pub_date": 1773320421,
   "project_urls": {
-    "Issues": "https://github.com/avighan/qppg/issues",
-    "Repository": "https://github.com/avighan/qppg"
+    "Repository": "https://github.com/avighan/qppg",
+    "Issues": "https://github.com/avighan/qppg/issues"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
