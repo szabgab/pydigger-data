@@ -1,7 +1,7 @@
 {
   "name": "llm-guard-kit",
-  "version": "0.13.0",
-  "summary": "Real-time reliability monitoring for LLM agents. v0.13.0: A2A HTTP endpoints (/.well-known/agent.json, /v1/a2a/*), multi-hop HMAC trust chain (TrustHop, add_hop, verify_chain), calibration REST API. v0.12.0: DeepLocalVerifier, LSTMRiskAccumulator.",
+  "version": "0.15.0",
+  "summary": "Real-time reliability monitoring for LLM agents. v0.15.0: probe_ensemble_blend() helper (+1.6pp cross-domain AUROC), corrected LSTM AUROC (0.545 not 0.8280, exp143 3-domain), real white-box probe validation (Qwen2.5 exp145/146). v0.14.0: ProcessReliabilityMonitor, StepExtractor ABC, domain-invariant LSTM, confident_wrong adapter, exp142 P(True) AUROC 0.817.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1773261343,
+  "pub_date": 1773315865,
   "project_urls": {
-    "Repository": "https://github.com/avighan/qppg",
-    "Issues": "https://github.com/avighan/qppg/issues"
+    "Issues": "https://github.com/avighan/qppg/issues",
+    "Repository": "https://github.com/avighan/qppg"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
