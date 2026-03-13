@@ -1,7 +1,7 @@
 {
   "name": "agent-bom",
-  "version": "0.70.5",
-  "summary": "Security scanner for AI infrastructure. Discover MCP configs (22 clients), scan for CVEs (OSV/NVD/EPSS/KEV), map blast radius to reachable credentials and tools, runtime proxy with 7 detectors, 30 MCP tools, CIS benchmarks (AWS/Azure/GCP/Snowflake), MITRE ATT&CK mapping, and 11-framework compliance.",
+  "version": "0.70.7",
+  "summary": "Security scanner for AI infrastructure and supply chain. Discover MCP configs (22 clients), generate SBOMs, scan for CVEs (OSV/NVD/EPSS/KEV), map blast radius to credentials and tools, runtime proxy with 7 detectors, 32 MCP tools, CIS benchmarks (AWS/Azure/GCP/Snowflake), MITRE ATT&CK mapping, 11-framework compliance, and 16 output formats.",
   "license": "Apache-2.0",
   "license_expression": null,
   "home_page": "https://github.com/msaad00/agent-bom",
@@ -12,20 +12,20 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1773292456,
+  "pub_date": 1773429012,
   "project_urls": {
-    "Security Policy": "https://github.com/msaad00/agent-bom/blob/main/SECURITY.md",
-    "Changelog": "https://github.com/msaad00/agent-bom/releases",
-    "Documentation": "https://github.com/msaad00/agent-bom#readme",
-    "Homepage": "https://github.com/msaad00/agent-bom",
     "Repository": "https://github.com/msaad00/agent-bom",
-    "Trust & Permissions": "https://github.com/msaad00/agent-bom/blob/main/PERMISSIONS.md",
-    "Issues": "https://github.com/msaad00/agent-bom/issues"
+    "Documentation": "https://github.com/msaad00/agent-bom#readme",
+    "Changelog": "https://github.com/msaad00/agent-bom/releases",
+    "Homepage": "https://github.com/msaad00/agent-bom",
+    "Issues": "https://github.com/msaad00/agent-bom/issues",
+    "Security Policy": "https://github.com/msaad00/agent-bom/blob/main/SECURITY.md",
+    "Trust & Permissions": "https://github.com/msaad00/agent-bom/blob/main/PERMISSIONS.md"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
-  "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_dependabot": true,
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
