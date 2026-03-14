@@ -1,7 +1,7 @@
 {
   "name": "llm-guard-kit",
-  "version": "0.20.1",
-  "summary": "v0.20.1: Publishability fixes — bootstrap CIs for alert precision 0.896 [0.826,0.960], stream_guard AUROC 0.666, naive baseline table; scope_limitations.md; FARL Phase 2 bug fixes (C1-C4). v0.20.0: FARL discovery loop (230 novel failures, 3 modes), MiniJudge AUROC 0.7638. v0.19.0: FARL ablation + A2A replay protection. v0.18.0: cross-domain MiniJudge AUROC 0.769.",
+  "version": "0.20.2",
+  "summary": "v0.20.2: P(True) statistical validation — AUROC 0.759/0.682/0.758 [all CIs above 0.5] across 3 domains (HotpotQA/TriviaQA/2WikiMultiHop, n=60 each, $0 cached); 2Wiki ensemble 0.817 [0.706,0.912]; scope_limitations.md updated. v0.20.1: Publishability fixes — bootstrap CIs for alert precision 0.896 [0.826,0.960], stream_guard AUROC 0.666, naive baseline table. v0.20.0: FARL discovery loop (230 novel failures, 3 modes), MiniJudge AUROC 0.7638.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1773491794,
+  "pub_date": 1773495689,
   "project_urls": {
-    "Repository": "https://github.com/avighan/qppg",
-    "Issues": "https://github.com/avighan/qppg/issues"
+    "Issues": "https://github.com/avighan/qppg/issues",
+    "Repository": "https://github.com/avighan/qppg"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
