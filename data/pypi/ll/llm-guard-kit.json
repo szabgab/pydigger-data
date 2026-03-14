@@ -1,7 +1,7 @@
 {
   "name": "llm-guard-kit",
-  "version": "0.20.0",
-  "summary": "v0.20.0: FARL discovery loop (230 novel failures, 3 modes), MiniJudge retrained AUROC 0.7638 (+0.033, SIGNIFICANT), A2A v0.5 replay protection (31/31 security tests), real DuckDuckGo search backend, confident_wrong failure mode. v0.19.0: FARL ablation + A2A HMAC replay protection. v0.18.0: exp156 cross-domain MiniJudge (AUROC 0.731 → 0.769). v0.16.0: hosted calibration endpoint, multilevel features, 3-domain validation, latency SLA. v0.15.0: probe_ensemble_blend() +1.6pp AUROC.",
+  "version": "0.20.1",
+  "summary": "v0.20.1: Publishability fixes — bootstrap CIs for alert precision 0.896 [0.826,0.960], stream_guard AUROC 0.666, naive baseline table; scope_limitations.md; FARL Phase 2 bug fixes (C1-C4). v0.20.0: FARL discovery loop (230 novel failures, 3 modes), MiniJudge AUROC 0.7638. v0.19.0: FARL ablation + A2A replay protection. v0.18.0: cross-domain MiniJudge AUROC 0.769.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1773475059,
+  "pub_date": 1773491794,
   "project_urls": {
-    "Issues": "https://github.com/avighan/qppg/issues",
-    "Repository": "https://github.com/avighan/qppg"
+    "Repository": "https://github.com/avighan/qppg",
+    "Issues": "https://github.com/avighan/qppg/issues"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
