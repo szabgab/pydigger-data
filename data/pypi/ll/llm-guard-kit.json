@@ -1,7 +1,7 @@
 {
   "name": "llm-guard-kit",
-  "version": "0.24.0",
-  "summary": "v0.24.0: confident_wrong FP fix (FARL-calibrated risk>0.37 gate). Non-ReAct auto-boost: score_with_ptrue() raises ptrue_weight to 0.95 for function-calling agents. P(True) AUROC 0.767 CI[0.697,0.829] confirmed n=200.",
+  "version": "0.25.0",
+  "summary": "v0.25.0: StepTransformerVerifier (2-layer Transformer, best HP+TV joint training AUROC 0.705), ZeroShotCalibrator (0-label conformal calibration precision 0.708), MathVerifier (TPR=100% FPR=15%), score_with_selfconsistency + score_with_selfcritique. NLI grounding negative result documented.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1773604274,
+  "pub_date": 1773609483,
   "project_urls": {
     "Repository": "https://github.com/avighan/qppg",
     "Issues": "https://github.com/avighan/qppg/issues"
