@@ -1,7 +1,7 @@
 {
   "name": "llm-guard-kit",
-  "version": "0.31.0",
-  "summary": "v0.31.0: AdversarialChainDetector — $0 behavioral detection of confident-wrong FARL chains (AUROC 0.996, Precision@FPR10 0.955). v0.30.0: FederatedCalibrator (Laplace DP, federated merge ≤5pp MAE). v0.29.0: ConformalRiskBudget, QuestionComplexityScorer (AUROC 0.79), DebateVerifier (precision 85.4%).",
+  "version": "0.33.0",
+  "summary": "v0.33.0: ToolCallExtractor, GuardPipeline, ModelTransferCalibrator, ActiveSamplingStrategy, ChatGuard unfitted guard + metadata. v0.32.0: ChatGuard.score_chat_with_judge() (AUROC 0.7704), GuardState (SQLite), MetricsExporter (Prometheus).",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1773908380,
+  "pub_date": 1773930205,
   "project_urls": {
-    "Repository": "https://github.com/avighan/qppg",
-    "Issues": "https://github.com/avighan/qppg/issues"
+    "Issues": "https://github.com/avighan/qppg/issues",
+    "Repository": "https://github.com/avighan/qppg"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
