@@ -1,7 +1,7 @@
 {
   "name": "llm-guard-kit",
-  "version": "0.45.0",
-  "summary": "v0.39.0: AdversarialDetector natural-chain caveat (AUROC 0.3974 negatively correlated); FailureTaxonomist LLM agreement study (RETRIEVAL_FAILURE F1=0.701 only); P(True) cross-model AUROC 0.648 (below gate); MultiTurnGuard few-shot FAIL (zero-shot preferred); HumanEval scope-limited (execution-based verification needed); A2A routing requires judge signal; causal drift requires strong base signal.",
+  "version": "0.46.0",
+  "summary": "v0.46.0: MechanismFeatureExtractor — 12 text-level signals (sem_sim, certainty, hedge, lexical overlap, polarity, TTR, numeric/entity density, context sim) + 3 Phase B SC signals. Phase A: 4/5 datasets gate PASS (halueval2_qa AUROC=0.964, summary=0.787, dialogue=0.702, truthfulqa=0.668). Bootstrap CI, stratified CV, cross-dataset transfer test. Phase B: f13-f15 + code execution oracle.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1774123667,
+  "pub_date": 1774129037,
   "project_urls": {
     "Repository": "https://github.com/avighan/qppg",
     "Issues": "https://github.com/avighan/qppg/issues"
