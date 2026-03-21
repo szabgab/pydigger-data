@@ -1,7 +1,7 @@
 {
   "name": "llm-guard-kit",
-  "version": "0.46.0",
-  "summary": "v0.46.0: MechanismFeatureExtractor — 12 text-level signals (sem_sim, certainty, hedge, lexical overlap, polarity, TTR, numeric/entity density, context sim) + 3 Phase B SC signals. Phase A: 4/5 datasets gate PASS (halueval2_qa AUROC=0.964, summary=0.787, dialogue=0.702, truthfulqa=0.668). Bootstrap CI, stratified CV, cross-dataset transfer test. Phase B: f13-f15 + code execution oracle.",
+  "version": "0.47.0",
+  "summary": "v0.47.0: Phase A extended to 8 datasets; DeBERTa-v3-small encoder option; EnsembleMechanismClassifier (mechanism+SC_OLD joint features); 3 new loaders (pubmed_qa, context_drift, arc_research). Finding: text signals detect hallucination (AUROC=0.96) not reasoning errors (AUROC~0.53). Mamba-CPC workshop paper draft.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1774129037,
+  "pub_date": 1774131648,
   "project_urls": {
     "Repository": "https://github.com/avighan/qppg",
     "Issues": "https://github.com/avighan/qppg/issues"
