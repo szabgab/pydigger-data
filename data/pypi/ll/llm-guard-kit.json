@@ -1,7 +1,7 @@
 {
   "name": "llm-guard-kit",
-  "version": "0.52.0",
-  "summary": "v0.52.0: DeepChainScorer+RetrievalCascade for 5-8 step chains (AUROC 0.629 vs SC_OLD 0.545 on 2wiki); browser agent step adapter (Playwright/OpenHands/browser-use); MultiTurnGuard.score_factual_turn() P(True) factual path.",
+  "version": "0.53.0",
+  "summary": "v0.53.0: score_factual_turn() AUROC 0.687 (PASS); browser chain AUROC 0.636 (PASS); MFE Phase B Sonnet 0.467 (gap model-agnostic); SelfHealer heal_outcome MCP; FailureTaxonomist domain thresholds; A2A disclaimer; sycophancy premise-flip gated AUROC 0.480 FAIL.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1774164413,
+  "pub_date": 1774169541,
   "project_urls": {
-    "Repository": "https://github.com/avighan/qppg",
-    "Issues": "https://github.com/avighan/qppg/issues"
+    "Issues": "https://github.com/avighan/qppg/issues",
+    "Repository": "https://github.com/avighan/qppg"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
