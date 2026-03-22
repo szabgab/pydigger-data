@@ -1,7 +1,7 @@
 {
   "name": "llm-guard-kit",
-  "version": "0.47.0",
-  "summary": "v0.47.0: Phase A extended to 8 datasets; DeBERTa-v3-small encoder option; EnsembleMechanismClassifier (mechanism+SC_OLD joint features); 3 new loaders (pubmed_qa, context_drift, arc_research). Finding: text signals detect hallucination (AUROC=0.96) not reasoning errors (AUROC~0.53). Mamba-CPC workshop paper draft.",
+  "version": "0.48.0",
+  "summary": "v0.48.0: sycophancy_score() gated with validation-fail warning (AUROC=0.0452 on real Perez 2022 data, anti-correlated). SelfHealer test fixed (NO_ACTION not NO_ACTION_VALIDATED). No API changes.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1774131648,
+  "pub_date": 1774159262,
   "project_urls": {
     "Repository": "https://github.com/avighan/qppg",
     "Issues": "https://github.com/avighan/qppg/issues"
