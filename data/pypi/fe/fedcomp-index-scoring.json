@@ -1,7 +1,7 @@
 {
   "name": "fedcomp-index-scoring",
-  "version": "2026.3.4",
-  "summary": "FedComp Index scoring engine. Computes posture scores and posture classes for federal contractors from USASpending award data.",
+  "version": "2026.4.0",
+  "summary": "FedComp Index classification engine. Assigns contractors to four Posture Classes using two-axis classification (volume x frequency) from USASpending award data.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://fedcompindex.org/",
@@ -12,13 +12,13 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1774651144,
+  "pub_date": 1774805849,
   "project_urls": {
-    "Documentation": "https://fedcompindex.org/methodology/",
     "Homepage": "https://fedcompindex.org/",
-    "Repository": "https://github.com/fedcompindex/FedCompIndex",
+    "Documentation": "https://fedcompindex.org/methodology/",
+    "Datasets": "https://huggingface.co/datasets/npetro6/nevada-federal-contractors",
     "Rankings": "https://fedcompindex.org/nv/",
-    "Datasets": "https://huggingface.co/datasets/npetro6/nevada-federal-contractors"
+    "Repository": "https://github.com/fedcompindex/FedCompIndex"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
