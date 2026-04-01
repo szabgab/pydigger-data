@@ -1,28 +1,29 @@
 {
   "name": "django-security-hunter",
-  "version": "0.4.0",
-  "summary": "Django + DRF security, reliability and performance inspector",
+  "version": "0.5.0",
+  "summary": "Install: pip install django-security-hunter. Run: django_security_hunter scan --project . --settings yourproject.settings. Django & DRF security/reliability inspector (settings, REST defaults, static XSS/SSRF/secrets hints, ORM & N+1 signals); optional pip-audit, Bandit, Semgrep; JSON & SARIF.",
   "license": null,
   "license_expression": "MIT",
-  "home_page": "https://github.com/abu-rayhan-alif/djangoGuard",
+  "home_page": "https://github.com/abu-rayhan-alif/djangoSecurityHunter",
   "home_page_source": "project_urls.homepage",
   "maintainer": null,
   "author": "Abu Rayhan Alif",
-  "repository": "https://github.com/abu-rayhan-alif/djangoGuard",
+  "repository": "https://github.com/abu-rayhan-alif/djangoSecurityHunter",
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1774731965,
+  "pub_date": 1775071987,
   "project_urls": {
-    "Homepage": "https://github.com/abu-rayhan-alif/djangoGuard",
-    "Issues": "https://github.com/abu-rayhan-alif/djangoGuard/issues",
-    "Repository": "https://github.com/abu-rayhan-alif/djangoGuard",
-    "Documentation": "https://github.com/abu-rayhan-alif/djangoGuard/blob/main/docs/rules.md"
+    "Repository": "https://github.com/abu-rayhan-alif/djangoSecurityHunter",
+    "Documentation": "https://github.com/abu-rayhan-alif/djangoSecurityHunter/blob/main/docs/rules.md",
+    "Homepage": "https://github.com/abu-rayhan-alif/djangoSecurityHunter",
+    "Issues": "https://github.com/abu-rayhan-alif/djangoSecurityHunter/issues",
+    "Changelog": "https://github.com/abu-rayhan-alif/djangoSecurityHunter/releases"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
