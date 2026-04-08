@@ -1,7 +1,7 @@
 {
   "name": "warp-cache",
-  "version": "0.2.0",
-  "summary": "Thread-safe Python caching decorator backed by a Rust extension",
+  "version": "0.6.0",
+  "summary": "Thread-safe Python caching decorator powered by a Rust extension. Implements SIEVE eviction for scan-resistant, near-optimal hit rates with zero-cost locking under the GIL — entire cache lookup in a single Rust __call__, no Python wrapper overhead. 16–23M ops/s single-threaded, 25× faster than cachetools, with cross-process shared memory support.",
   "license": null,
   "license_expression": "MIT",
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1771361017,
+  "pub_date": 1775653372,
   "project_urls": {
     "Repository": "https://github.com/toloco/warp_cache"
   },
