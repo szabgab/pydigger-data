@@ -1,7 +1,7 @@
 {
   "name": "SymbolicDSGE",
-  "version": "0.5.0",
-  "summary": "A diagnostic symbolic adjustment layer for simple DSGE models. Features a built-in linearized DSGE engine constructed from symbolic expressions. Though currently in development, the library will provide symbolic regression based measurement correction capabilities. In addition, a heavily constrained symbolic search for model equation-augmentation is being planned, but may never come to life.",
+  "version": "1.2.0.dev1",
+  "summary": "A diagnostic symbolic adjustment layer for simple DSGE models. Features a built-in linearized DSGE engine constructed from symbolic expressions. Functionality is included to regress on measurement equations with symbolic function discovery using Kalman Filter innovations. The library is designed to be a diagnostic tool to provide isight into potential model misspecifications through said mesaurement regressions.",
   "license": null,
   "license_expression": null,
   "home_page": null,
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1772421739,
+  "pub_date": 1775739766,
   "project_urls": {
-    "Documentation": "https://gongjr0.github.io/SymbolicDSGE/",
-    "Repository": "https://github.com/GongJr0/SymbolicDSGE"
+    "Repository": "https://github.com/GongJr0/SymbolicDSGE",
+    "Documentation": "https://gongjr0.github.io/SymbolicDSGE/"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
