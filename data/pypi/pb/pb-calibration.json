@@ -1,7 +1,7 @@
 {
   "name": "pb-calibration",
-  "version": "0.1.3",
-  "summary": "PB 车辆配置/标定文件（vehicle_config.proto）反序列化校验、解析为 YAML、从 YAML 组装为 .pb.txt。V0.1.3：VehicleConfig 新增 vehicle_lidar_config（enable_ids），兼容 mdrive_conf master_T5 标定。",
+  "version": "0.1.5",
+  "summary": "PB 车辆配置/标定文件（vehicle_config.proto）反序列化校验、解析为 YAML、从 YAML 保真优先地组装为 .pb.txt。V0.1.5：支持未知字段警告、未修改原文保真、浮点标准化输出、YAML 全量字符串化。",
   "license": null,
   "license_expression": "MIT",
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": null,
   "download": null,
   "download_source": null,
-  "pub_date": 1773973095,
+  "pub_date": 1776159162,
   "project_urls": {},
   "has_github_actions": null,
   "has_gitlab_pipeline": null,
