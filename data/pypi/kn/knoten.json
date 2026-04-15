@@ -1,10 +1,10 @@
 {
   "name": "knoten",
-  "version": "0.1.1",
-  "summary": "Standalone CLI zettelkasten with a local markdown vault and SQLite FTS5 index; can also mirror a notes.vcoeur.com instance",
+  "version": "0.2.1",
+  "summary": "Standalone CLI zettelkasten with a local markdown vault and SQLite FTS5 index; optionally plugs into a remote backend for multi-device sync",
   "license": "MIT",
   "license_expression": null,
-  "home_page": "https://github.com/vcoeur/knoten",
+  "home_page": "https://knoten.vcoeur.com/",
   "home_page_source": "project_urls.homepage",
   "maintainer": null,
   "author": "Alice Voland",
@@ -12,16 +12,17 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1776262240,
+  "pub_date": 1776274469,
   "project_urls": {
-    "Homepage": "https://github.com/vcoeur/knoten",
+    "Homepage": "https://knoten.vcoeur.com/",
+    "Documentation": "https://knoten.vcoeur.com/",
     "Issues": "https://github.com/vcoeur/knoten/issues",
     "Repository": "https://github.com/vcoeur/knoten"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
