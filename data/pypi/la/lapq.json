@@ -1,7 +1,7 @@
 {
   "name": "lapq",
-  "version": "1.0.6.1",
-  "summary": "LAP Technologies Python SDK for the QPU-1 quantum processor — 170+ algorithms, full gate set with auto-decomposition. ECC Shor now uses Cuccaro RCA adder (~100x fewer gates).",
+  "version": "1.0.7.0",
+  "summary": "LAP Technologies Python SDK for the QPU-1 quantum processor — 170+ algorithms, full gate set with auto-decomposition. v1.0.7: Critical ECC Shor bugfix — compute-copy-uncompute (CCU) Jacobian point addition with dedicated parity ancilla banks; fixes dirty-ancilla contamination that caused u==v measurements on all non-trivial keys.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://qpu-1.lovable.app",
@@ -12,12 +12,12 @@
   "repository_source": "project_urls.sourcecode",
   "download": null,
   "download_source": null,
-  "pub_date": 1776145818,
+  "pub_date": 1776329855,
   "project_urls": {
+    "Homepage": "https://qpu-1.lovable.app",
     "API Access": "https://qpu-1.lovable.app/api-access",
     "Bug Tracker": "https://github.com/laptechnologies/lapq/issues",
-    "Source Code": "https://github.com/laptechnologies/lapq",
-    "Homepage": "https://qpu-1.lovable.app"
+    "Source Code": "https://github.com/laptechnologies/lapq"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
