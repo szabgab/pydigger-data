@@ -1,7 +1,7 @@
 {
   "name": "radia-mcp",
-  "version": "0.23.1",
-  "summary": "MCP servers for the Radia CAE ecosystem. 0.23.0 absorbs YouTube tutorial transcripts (cubit/build123d/gmsh sub-sources via youtube-transcript-api), Coreform training .zip into cubit_local, and PAT-gated GitHub-wide .jou code search. 0.22.x base: mcp-server-radia-interop universal CAD-MCP mesh backend; first-and-only public MCP for Gmsh + Cubit.",
+  "version": "0.25.1",
+  "summary": "MCP servers for the Radia CAE ecosystem. 0.25.0: cubit_mesh_race_with_human — the signature workflow. User asks AI to mesh a stuck geometry; N AI batches race in parallel WHILE the user keeps working in the live Cubit GUI; first to produce mesh wins (could be human, could be AI); never overwrites the user's in-progress work. 0.24.x base: cubit_mesh_race / build123d_try_race / freecad_exec_safely.",
   "license": "BSD-3-Clause",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1776635599,
+  "pub_date": 1776637905,
   "project_urls": {
     "Repository": "https://github.com/ksugahar/Radia"
   },
