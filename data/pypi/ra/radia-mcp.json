@@ -1,7 +1,7 @@
 {
   "name": "radia-mcp",
-  "version": "0.15.0",
-  "summary": "MCP servers for the Radia CAE ecosystem. 0.15.0 adds: build123d_discussions (GitHub issues + comment threads as de-facto forum, unioned into build123d_examples family); 0.14.1 base: mcp-server-gmsh-post (MSH v4.1 only — .vol via radia_export netgen for HO curved) + lint rule gmsh-v22-deprecated; cubit_exec_safely (auto-checkpoint + batch dry-run gate + silent-error detection).",
+  "version": "0.22.0",
+  "summary": "MCP servers for the Radia CAE ecosystem. 0.22.0 adds mcp-server-radia-interop (universal CAD-MCP mesh backend): any_step_to_cubit_hex + OpenSCAD/FreeCAD adapters so any upstream CAD MCP (FreeCAD/OpenSCAD/Blender/Onshape/...) can dispatch to cubit_mesh_auto. First-and-only public MCP for Gmsh + Cubit + mesh generators.",
   "license": "BSD-3-Clause",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1776600499,
+  "pub_date": 1776617173,
   "project_urls": {
     "Repository": "https://github.com/ksugahar/Radia"
   },
