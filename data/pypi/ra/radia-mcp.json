@@ -1,7 +1,7 @@
 {
   "name": "radia-mcp",
-  "version": "0.7.0",
-  "summary": "MCP servers for the Radia CAE ecosystem. Standalone for Cubit and build123d (Plan A: persistent Cubit GUI + PyQt5 QTimer + file-drop IPC, socket-free). 0.7.0 adds cubit_checkpoint / cubit_restore (named .cub5 snapshots, lightweight undo) and cubit_mesh_diagnose (per-volume meshing analysis with scheme alternatives). Radia-coupled servers (radia-ngsolve, ih, electromagnet, peec, gmsh, elf) require the `radia` extra.",
+  "version": "0.10.0",
+  "summary": "MCP servers for the Radia CAE ecosystem: standalone Cubit + build123d via Plan A (persistent Cubit GUI + PyQt5 QTimer + file-drop IPC). 0.10.0 adds cubit_batch_try / cubit_mesh_auto (scheme ladder validated headlessly, winner replayed in live GUI). 0.9.0 base: failure log, tf-idf retrieval, live doc fetchers. radia-mcp[radia] enables radia-coupled servers.",
   "license": "BSD-3-Clause",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1776572415,
+  "pub_date": 1776575501,
   "project_urls": {
     "Repository": "https://github.com/ksugahar/Radia"
   },
