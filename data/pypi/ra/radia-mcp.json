@@ -1,7 +1,7 @@
 {
   "name": "radia-mcp",
-  "version": "0.13.0",
-  "summary": "MCP servers for the Radia CAE ecosystem: standalone Cubit + build123d via Plan A. 0.13.0 adds CadQuery interop (sibling OCCT CAD): execute_cadquery runs CadQuery scripts + cadquery_to_cubit_hex pipes cadquery → STEP → cubit_mesh_auto in one call, enabling interop with cadquery-mcp community. 0.12.0: cubit_examples unions forum + local lab (~750 files), build123d_examples + bd_warehouse.",
+  "version": "0.14.0",
+  "summary": "MCP servers for the Radia CAE ecosystem. 0.14.0 adds: mcp-server-gmsh-post (MSH v4.1 inspect/validate/convert/write_node_data — lab-wide v4.1 standardization, .vol via radia_export netgen for HO curved); cubit_exec_safely (auto-checkpoint + batch dry-run gate + live apply, silent-error detection via get_error_count). 0.13.0 base: CadQuery interop. 0.12.0: multi-source example unions.",
   "license": "BSD-3-Clause",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1776596235,
+  "pub_date": 1776599043,
   "project_urls": {
     "Repository": "https://github.com/ksugahar/Radia"
   },
