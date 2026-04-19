@@ -1,7 +1,7 @@
 {
   "name": "radia-mcp",
-  "version": "0.14.0",
-  "summary": "MCP servers for the Radia CAE ecosystem. 0.14.0 adds: mcp-server-gmsh-post (MSH v4.1 inspect/validate/convert/write_node_data — lab-wide v4.1 standardization, .vol via radia_export netgen for HO curved); cubit_exec_safely (auto-checkpoint + batch dry-run gate + live apply, silent-error detection via get_error_count). 0.13.0 base: CadQuery interop. 0.12.0: multi-source example unions.",
+  "version": "0.15.0",
+  "summary": "MCP servers for the Radia CAE ecosystem. 0.15.0 adds: build123d_discussions (GitHub issues + comment threads as de-facto forum, unioned into build123d_examples family); 0.14.1 base: mcp-server-gmsh-post (MSH v4.1 only — .vol via radia_export netgen for HO curved) + lint rule gmsh-v22-deprecated; cubit_exec_safely (auto-checkpoint + batch dry-run gate + silent-error detection).",
   "license": "BSD-3-Clause",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1776599043,
+  "pub_date": 1776600499,
   "project_urls": {
     "Repository": "https://github.com/ksugahar/Radia"
   },
