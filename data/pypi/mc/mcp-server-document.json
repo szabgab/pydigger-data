@@ -1,7 +1,7 @@
 {
   "name": "mcp-server-document",
-  "version": "0.7.0",
-  "summary": "MCP server for academic document authoring: grant proposals (科研費/JSPS), journal papers (IEEE/IEEJ/APS/Elsevier), research-talk slides + Excalidraw diagram pipeline + cross-cutting meta helpers. 94 diagnostic tools distilled from classical writing books (木下/本多/Wallwork). 0.7.0: diagram preprocess (deskew/CLAHE/Sauvola), Hough shape detect, MSER+DBSCAN text grouping, Bezier fit, semantic group, stroke-width normalise, SVG/TikZ export.",
+  "version": "0.9.0",
+  "summary": "MCP server for academic document authoring: grant proposals (科研費/JSPS), journal papers (IEEE/IEEJ/APS/Elsevier), research-talk slides + Excalidraw diagram pipeline + meta helpers. 99 diagnostic tools distilled from classical writing books (木下/本多/Wallwork/児島/中島塚本/中安/宮野). 0.9.0 adds OCR-based knowledge ingestion of 宮野『研究発表のためのスライドデザイン』, 15 slide-design principles in presentation/skill.md + new tool presentation_check_color_count_per_slide enforcing the ベース/メイン/アクセント 3-color rule.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/ksugahar/mcp-server-document",
@@ -12,11 +12,11 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1776844236,
+  "pub_date": 1776871917,
   "project_urls": {
+    "Issues": "https://github.com/ksugahar/mcp-server-document/issues",
     "Homepage": "https://github.com/ksugahar/mcp-server-document",
-    "Repository": "https://github.com/ksugahar/mcp-server-document",
-    "Issues": "https://github.com/ksugahar/mcp-server-document/issues"
+    "Repository": "https://github.com/ksugahar/mcp-server-document"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
