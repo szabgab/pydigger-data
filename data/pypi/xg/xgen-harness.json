@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "0.24.4",
-  "summary": "XGEN Harness — MCP annotations 를 tool payload 에서 분리 (provider-agnostic). state.tool.annotations 맵 신설, Tool.to_api_format() 순수화, s07/HITL 3단 폴백",
+  "version": "0.24.5",
+  "summary": "XGEN Harness — 공용 tool sanitize (base.LLMProvider._sanitize_tool_defs). Anthropic 화이트리스트 하드코딩을 기반 메서드 + ALLOWED_TOOL_KEYS 오버라이드로 일반화",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777022874,
+  "pub_date": 1777024295,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
