@@ -1,7 +1,7 @@
 {
   "name": "radia-mcp",
-  "version": "0.30.0",
-  "summary": "MCP servers for the Radia CAE ecosystem. 0.27.0: cubit_mesh_race_review (wait-all + shortlist sorted by min-Jacobian + persisted history) + cubit_mesh_apply_choice (human picks from shortlist) + quality_summary probe. Pivots from auto-commit to human-decides. 0.26.0 base: cubit_mesh_race_smart auto-generates N candidates from geometry.",
+  "version": "0.32.3",
+  "summary": "MCP servers for the Radia CAE ecosystem. 0.31.0 (2026-04-21): Monorepo restructure. Public MCPs (cubit/build123d/gmsh/elf/radia-ngsolve/radia-interop) now all live under radia_mcp.* namespace. Private MCPs (ih/electromagnet/peec) split out to separate s:\\mcp-server\\ packages. 0.27.0 base: cubit_mesh_race_review (wait-all + shortlist sorted by min-Jacobian + persisted history) + cubit_mesh_apply_choice.",
   "license": "BSD-3-Clause",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1776642120,
+  "pub_date": 1777008406,
   "project_urls": {
     "Repository": "https://github.com/ksugahar/Radia"
   },
@@ -20,6 +20,6 @@
   "has_gitlab_pipeline": null,
   "has_dependabot": true,
   "has_pyproject_toml": true,
-  "has_setup_py": true,
+  "has_setup_py": false,
   "has_setup_cfg": false
 }
