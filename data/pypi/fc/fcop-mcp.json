@@ -1,7 +1,7 @@
 {
   "name": "fcop-mcp",
-  "version": "0.6.1",
-  "summary": "MCP (Model Context Protocol) server exposing the fcop library's Project/Task/Report/Issue API to Cursor, Claude Desktop, and other MCP clients.",
+  "version": "0.6.2",
+  "summary": "stdio MCP server for the FCoP Python library: exposes the fcop package's Project, task, report, and issue APIs to MCP clients (Cursor, Claude Desktop, …). Optional bridge, not a second protocol; depends on fcop 0.6.x, FastMCP, websockets.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/joinwell52-AI/FCoP",
@@ -12,18 +12,19 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1776965529,
+  "pub_date": 1777055184,
   "project_urls": {
+    "Changelog": "https://github.com/joinwell52-AI/FCoP/blob/main/CHANGELOG.md",
     "Homepage": "https://github.com/joinwell52-AI/FCoP",
-    "Documentation": "https://github.com/joinwell52-AI/FCoP#readme",
-    "Repository": "https://github.com/joinwell52-AI/FCoP",
     "Issues": "https://github.com/joinwell52-AI/FCoP/issues",
-    "Changelog": "https://github.com/joinwell52-AI/FCoP/blob/main/CHANGELOG.md"
+    "Repository": "https://github.com/joinwell52-AI/FCoP",
+    "FCoP (protocol)": "https://github.com/joinwell52-AI/FCoP/blob/main/docs/fcop-standalone.en.md",
+    "Documentation": "https://github.com/joinwell52-AI/FCoP/blob/main/mcp/README.md"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": false,
+  "has_pyproject_toml": true,
   "has_setup_py": false,
   "has_setup_cfg": false
 }
