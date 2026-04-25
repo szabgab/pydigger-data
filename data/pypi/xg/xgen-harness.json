@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "0.26.5",
-  "summary": "XGEN Harness — v0.26.4 + Anthropic thinking 시 max_tokens 자동 보정 (max_tokens <= budget_tokens → budget+1024). 이전엔 사용자가 thinking 켜기만 해도 무조건 HTTP 400.",
+  "version": "0.26.6",
+  "summary": "XGEN Harness — v0.26.5 + DAG orchestrator PipelineState init 결함 fix (tool_definitions kwarg → setter). 이전엔 멀티 하네스 DAG 실행 100% TypeError.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777128077,
+  "pub_date": 1777129356,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
