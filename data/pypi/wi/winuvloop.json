@@ -1,7 +1,7 @@
 {
   "name": "winuvloop",
-  "version": "0.2.2",
-  "summary": "Cross-platform asyncio event loop selection: uvloop on POSIX and winloop on Windows.",
+  "version": "0.2.3",
+  "summary": "Use uvloop on Linux/macOS and winloop on Windows through one small asyncio compatibility import.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/aviadr1/winuvloop",
@@ -12,14 +12,15 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777128972,
+  "pub_date": 1777132275,
   "project_urls": {
-    "Repository": "https://github.com/aviadr1/winuvloop.git",
     "Homepage": "https://github.com/aviadr1/winuvloop",
-    "Issues": "https://github.com/aviadr1/winuvloop/issues",
+    "Repository": "https://github.com/aviadr1/winuvloop.git",
+    "Documentation": "https://github.com/aviadr1/winuvloop#readme",
+    "Source: uvloop": "https://github.com/MagicStack/uvloop",
     "Source: winloop": "https://github.com/Vizonex/Winloop",
     "Changelog": "https://github.com/aviadr1/winuvloop/blob/main/CHANGELOG.md",
-    "Source: uvloop": "https://github.com/MagicStack/uvloop"
+    "Issues": "https://github.com/aviadr1/winuvloop/issues"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
