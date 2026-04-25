@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "0.26.4",
-  "summary": "XGEN Harness — v0.26.3 + batch transport 응답 누락 fix. STOP 이벤트의 text 필드 처리 추가 (이전엔 result_text='' 로 빈 응답).",
+  "version": "0.26.5",
+  "summary": "XGEN Harness — v0.26.4 + Anthropic thinking 시 max_tokens 자동 보정 (max_tokens <= budget_tokens → budget+1024). 이전엔 사용자가 thinking 켜기만 해도 무조건 HTTP 400.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777122292,
+  "pub_date": 1777128077,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
