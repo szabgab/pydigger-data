@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "0.26.3",
-  "summary": "XGEN Harness — v0.26.2 + s10_save record 컬럼명을 실 DB schema (input_text/output_text) 와 정합. 이전엔 input_data/output_data 보내서 PostgreSQL column does not exist 에러로 100% 저장 실패.",
+  "version": "0.26.4",
+  "summary": "XGEN Harness — v0.26.3 + batch transport 응답 누락 fix. STOP 이벤트의 text 필드 처리 추가 (이전엔 result_text='' 로 빈 응답).",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777114993,
+  "pub_date": 1777122292,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
