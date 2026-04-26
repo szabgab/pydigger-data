@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "0.26.12",
-  "summary": "XGEN Harness — v0.26.8 + MCPClient header forward fix: list_tools/call_tool_raw/check_session now forward Authorization+x-user-* via the use_request_headers contextvar so self-loopback to the MCP station preserves user context (Stage 4 mcp-sessions tools were silently empty in production).",
+  "version": "0.26.13",
+  "summary": "XGEN Harness — OpenAI tool schema normalization: type 배열(['string','null']) / anyOf-null branch / $ref 같은 Tavily MCP 류 도구 schema 가 OpenAI Function calling 의 invalid_function_parameters 400 을 유발하던 결함 수정. _convert_tools 가 첫 단계에서 정규화 (단방향 평탄화) — Anthropic 은 무영향, OpenAI 만 통과 경로 확보.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777222969,
+  "pub_date": 1777246555,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
