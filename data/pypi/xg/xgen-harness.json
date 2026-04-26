@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "0.26.6",
-  "summary": "XGEN Harness — v0.26.5 + DAG orchestrator PipelineState init 결함 fix (tool_definitions kwarg → setter). 이전엔 멀티 하네스 DAG 실행 100% TypeError.",
+  "version": "0.26.9",
+  "summary": "XGEN Harness — v0.26.8 + MCPClient header forward fix: list_tools/call_tool_raw/check_session now forward Authorization+x-user-* via the use_request_headers contextvar so self-loopback to the MCP station preserves user context (Stage 4 mcp-sessions tools were silently empty in production).",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777129356,
+  "pub_date": 1777203387,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
