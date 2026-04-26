@@ -1,7 +1,7 @@
 {
   "name": "radia-mcp",
-  "version": "0.33.0",
-  "summary": "MCP servers for the Radia CAE ecosystem. 0.33.0 (2026-04-24): Finish monorepo consolidation by promoting mcp-server-peec and mcp-server-electromagnet into radia_mcp.peec / radia_mcp.electromagnet subpackages (same pattern as 0.32.x mcp-server-ih promotion). All 9 MCP entry points now live under radia_mcp.* namespace. 0.31.0 (2026-04-21): Monorepo restructure. 0.27.0 base: cubit_mesh_race_review (wait-all + shortlist sorted by min-Jacobian + persisted history) + cubit_mesh_apply_choice.",
+  "version": "0.33.4",
+  "summary": "MCP servers for the Radia CAE ecosystem. 0.33.4 (2026-04-26): Kelvin knowledge maturity pass -- radia_ngsolve.kelvin (why 1/8 sphere benchmark is BVP-invalid, rho_min sweep diagnostic, -specialcf.normal sign), cubit kelvin_reduction_traps (subtract-keep no-op in 2025.3, octant anchor determinism), electromagnet symmetry_reductions (sphere vs C-yoke 1/8 path + ELF CEFC 2020 BC). 0.33.0: Finish monorepo consolidation.",
   "license": "BSD-3-Clause",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777023361,
+  "pub_date": 1777199594,
   "project_urls": {
     "Repository": "https://github.com/ksugahar/Radia"
   },
