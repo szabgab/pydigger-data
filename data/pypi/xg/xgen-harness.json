@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "0.26.13",
-  "summary": "XGEN Harness — OpenAI tool schema normalization: type 배열(['string','null']) / anyOf-null branch / $ref 같은 Tavily MCP 류 도구 schema 가 OpenAI Function calling 의 invalid_function_parameters 400 을 유발하던 결함 수정. _convert_tools 가 첫 단계에서 정규화 (단방향 평탄화) — Anthropic 은 무영향, OpenAI 만 통과 경로 확보.",
+  "version": "0.26.15",
+  "summary": "XGEN Harness — OpenAI enum dict 평탄화 + s06 reranker toggle 정상화 + s06 description 축약. xgen-nodes 가 options [{value,label}] 로 들고 있던 게 OpenAI enum 으로 그대로 흘러 invalid_function_parameters 400 유발하던 결함 (Tavily 등). _normalize_for_openai 가 enum 의 dict 항목을 .value 만 추출. s06 reranker 는 bool(str(False))=True 함정 회피로 toggle 파라미터 정상 OFF.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777246555,
+  "pub_date": 1777276052,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
