@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "0.29.2",
-  "summary": "XGEN Harness — Stage UI 필드 end-to-end 정합. v0.29.1 의 s09 추가 6건 dead 발견(ThresholdDecide v0.17.0+ 가 안 씀, Policy Gate 가 단일 채널) → 제거 + s09_decide.execute() 의 dead get_param 호출도 정리. 추가로 코드는 read 중인데 UI 미노출이던 진짜 active 2건 노출(s04 rag_tool_mode, s06 window_size). off_mode source 분리 + 도구 이벤트 SSE 파서 정정 (frontend) 함께. 모든 stage UI 필드가 engine read 와 1:1 align.",
+  "version": "1.0.3",
+  "summary": "XGEN Harness v1.0 — 10-stage 고결화 (BREAKING). s05_strategy 분해 / s08_judge·s10_save 격하 / 번호 시프트 / s05_policy 일반 순번 진입 + 4훅. 4 신규 레지스트리 (prompt_templates / evaluation_criteria / output_formatters / persist_defaults). 마이그레이션 가이드: docs/harness/2026-04-29-stage-consolidation-v1.md",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777450886,
+  "pub_date": 1777484484,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
