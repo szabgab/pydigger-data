@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "0.26.15",
-  "summary": "XGEN Harness — OpenAI enum dict 평탄화 + s06 reranker toggle 정상화 + s06 description 축약. xgen-nodes 가 options [{value,label}] 로 들고 있던 게 OpenAI enum 으로 그대로 흘러 invalid_function_parameters 400 유발하던 결함 (Tavily 등). _normalize_for_openai 가 enum 의 dict 항목을 .value 만 추출. s06 reranker 는 bool(str(False))=True 함정 회피로 toggle 파라미터 정상 OFF.",
+  "version": "0.27.1",
+  "summary": "XGEN Harness — vLLM/Qwen native <tool_call> XML 텍스트 파서 추가. Qwen3 등이 vLLM serve 의 hermes parser 미활성 환경에서 native 형식(`<tool_call>{json}</tool_call>` 또는 `<function=name><parameter=k>v</parameter>...</function>`)으로 응답할 때 text content 를 후처리해 ProviderEvent.TOOL_USE 로 변환. chunk 경계 buffering 으로 stream 안전. 인프라 변경 없이 Qwen tool 사용 회복.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777276052,
+  "pub_date": 1777427038,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
