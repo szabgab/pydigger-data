@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "0.27.1",
-  "summary": "XGEN Harness — vLLM/Qwen native <tool_call> XML 텍스트 파서 추가. Qwen3 등이 vLLM serve 의 hermes parser 미활성 환경에서 native 형식(`<tool_call>{json}</tool_call>` 또는 `<function=name><parameter=k>v</parameter>...</function>`)으로 응답할 때 text content 를 후처리해 ProviderEvent.TOOL_USE 로 변환. chunk 경계 buffering 으로 stream 안전. 인프라 변경 없이 Qwen tool 사용 회복.",
+  "version": "0.29.2",
+  "summary": "XGEN Harness — Stage UI 필드 end-to-end 정합. v0.29.1 의 s09 추가 6건 dead 발견(ThresholdDecide v0.17.0+ 가 안 씀, Policy Gate 가 단일 채널) → 제거 + s09_decide.execute() 의 dead get_param 호출도 정리. 추가로 코드는 read 중인데 UI 미노출이던 진짜 active 2건 노출(s04 rag_tool_mode, s06 window_size). off_mode source 분리 + 도구 이벤트 SSE 파서 정정 (frontend) 함께. 모든 stage UI 필드가 engine read 와 1:1 align.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777427038,
+  "pub_date": 1777450886,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
