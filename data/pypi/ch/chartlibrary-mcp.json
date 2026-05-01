@@ -1,7 +1,7 @@
 {
   "name": "chartlibrary-mcp",
-  "version": "3.0.0",
-  "summary": "Chart Library MCP Server — intelligence layer for stock pattern agents. 11 tools: search, cohort, analyze, context, explain, portfolio, anchor_fetch, decompose (conditional slice discovery), clusters (K-means on intraday resolution), live_search (raw-bars → historical matches), report_feedback. Conditional distributions with conformal-calibrated quantile bands, catalyst-aware metadata, and per-cohort decomposition + clustering for SMB/prop-trader-style conditional analysis.",
+  "version": "3.3.0",
+  "summary": "Chart Library MCP Server — intelligence layer for stock pattern agents. 18 tools: cohort retrieval (search, cohort, cohort_analyze), Layer 5 memory (symbol_intelligence, similar_cohorts, cohort_compare, discover_picks), realtime News v2 (narrative_pulse, narrative_alerts), analysis (analyze, context, explain, portfolio, anchor_fetch, decompose, clusters, live_search). Combined conviction = cohort_score + news pulse boost. +19.5pp quintile spread on n=1094.",
   "license": null,
   "license_expression": null,
   "home_page": "https://chartlibrary.io",
@@ -12,11 +12,11 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1776516793,
+  "pub_date": 1777663007,
   "project_urls": {
-    "Documentation": "https://chartlibrary.io/developers",
+    "Repository": "https://github.com/grahammccain/chart-library-mcp",
     "Homepage": "https://chartlibrary.io",
-    "Repository": "https://github.com/grahammccain/chart-library-mcp"
+    "Documentation": "https://chartlibrary.io/developers"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
