@@ -1,7 +1,7 @@
 {
   "name": "axon-lang",
-  "version": "1.5.0",
-  "summary": "AXON v1.5.0 — Fase 13 fully GA cross-stack. Coordinate sync with axon-rs v1.5.0 which closes 13.f.2 (native Rust TypedEventBus runtime parity). Python package itself unchanged from v1.4.2 — same first-class typed channels with π-calculus mobility, second-order session types, runtime TypedEventBus with QoS dispatch, migration path from legacy string topics (removed v2.0). See paper_mobile_channels.md.",
+  "version": "1.7.0",
+  "summary": "AXON v1.5.1 — Lockstep cross-stack release. axon-lang Python + axon-lang Rust crate (renamed from axon-rs, now on crates.io) ship the same version every release, eliminating compatibility-matrix questions. Bumps coordinated via bump-my-version + a GitHub Actions workflow. Functional surface unchanged from v1.5.0: typed channels with pi-calculus mobility, second-order session types, runtime TypedEventBus, migration path from legacy string topics. See paper_mobile_channels.md.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/bemarking/axon-constructor",
@@ -12,12 +12,12 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777564290,
+  "pub_date": 1777742912,
   "project_urls": {
     "Issues": "https://github.com/bemarking/axon-constructor/issues",
-    "Changelog": "https://github.com/bemarking/axon-constructor/blob/main/.axon-dev/CHANGELOG.md",
     "Homepage": "https://github.com/bemarking/axon-constructor",
-    "Repository": "https://github.com/bemarking/axon-constructor"
+    "Repository": "https://github.com/bemarking/axon-constructor",
+    "Changelog": "https://github.com/bemarking/axon-constructor/blob/main/.axon-dev/CHANGELOG.md"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
