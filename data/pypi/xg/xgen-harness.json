@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "1.0.9",
-  "summary": "XGEN Harness v1.0 — 10-stage 고결화 (BREAKING). s05_strategy 분해 / s08_judge·s10_save 격하 / 번호 시프트 / s05_policy 일반 순번 진입 + 4훅. 4 신규 레지스트리 (prompt_templates / evaluation_criteria / output_formatters / persist_defaults). 마이그레이션 가이드: docs/harness/2026-04-29-stage-consolidation-v1.md",
+  "version": "1.1.0",
+  "summary": "XGEN Harness v1.1.0 — harness_mode/use_planner 제거 (BREAKING) + Planner OFF 직선 흐름 고정 + Judge LLM 별도 모델 옵션. autonomous Plan 분기 dead code 제거. judge_provider/judge_model 신규 필드 (s08_decide.judge_then_loop 가 본문 LLM 과 다른 모델로 평가 가능).",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777647473,
+  "pub_date": 1778120443,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
