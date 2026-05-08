@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "1.5.0",
-  "summary": "XGEN Harness v1.5.0 BREAKING — Ontology / GraphRAG R3 도구 위임. s06_context 가 ontology_collections 박혀있으면 매 턴 자동으로 multi_turn_rag.query() 호출하던 구조 → s04_tool 이 query_graph 빌트인을 LLM 손에 노출 (rag_search 와 isomorphic). LLM 이 도구로 호출 결정 (자율) → 결과 progressive PD 로 본문은 pd_stores['graph'] 보관, 인덱스+snippet 만 LLM 노출. fetch_pd(kind='graph', id=...) 로 lazy fetch. 이중 LLM 호출 (백엔드 child ReAct + 본문 LLM) 잔존하지만 호출 자체가 자율 → 비용/자율성 큰 개선. ontology_tool_mode default 'tool' (백워드: 'context'/'both' 명시 시 s06 자체 호출도 동작).",
+  "version": "1.5.1",
+  "summary": "XGEN Harness v1.5.1 — 9 stage UI 텍스트 사용자 친화 톤으로 재작성 (patch). 모든 stage 의 description_ko / behavior 항목에서 버전 명시 (v1.X.0 / R3) / 코드 path (state.* / pd_stores / fetch_pd / s06_context.*) / 영어 약어 (Cascade L3/L4/L5 / microcompact / autocompact / progressive disclosure / ToolSearch) 모두 자연어 한국어로 풀어쓰기. v1.5.0 의 BREAKING 동작 일체 그대로 유지 — 안내 텍스트만 친화화.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1778222524,
+  "pub_date": 1778224863,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
