@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "1.1.0",
-  "summary": "XGEN Harness v1.1.0 — harness_mode/use_planner 제거 (BREAKING) + Planner OFF 직선 흐름 고정 + Judge LLM 별도 모델 옵션. autonomous Plan 분기 dead code 제거. judge_provider/judge_model 신규 필드 (s08_decide.judge_then_loop 가 본문 LLM 과 다른 모델로 평가 가능).",
+  "version": "1.5.0",
+  "summary": "XGEN Harness v1.5.0 BREAKING — Ontology / GraphRAG R3 도구 위임. s06_context 가 ontology_collections 박혀있으면 매 턴 자동으로 multi_turn_rag.query() 호출하던 구조 → s04_tool 이 query_graph 빌트인을 LLM 손에 노출 (rag_search 와 isomorphic). LLM 이 도구로 호출 결정 (자율) → 결과 progressive PD 로 본문은 pd_stores['graph'] 보관, 인덱스+snippet 만 LLM 노출. fetch_pd(kind='graph', id=...) 로 lazy fetch. 이중 LLM 호출 (백엔드 child ReAct + 본문 LLM) 잔존하지만 호출 자체가 자율 → 비용/자율성 큰 개선. ontology_tool_mode default 'tool' (백워드: 'context'/'both' 명시 시 s06 자체 호출도 동작).",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1778120443,
+  "pub_date": 1778222524,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
