@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "1.5.5",
-  "summary": "XGEN Harness v1.5.5 — <reference_resources> 메타 풍부화 (name + description + total_documents 자동 fetch) + <active_policies> 신규 섹션 (정책 LLM 가시화). LLM 이 메타(지도) 보고 rag_search 자율 호출 → fetch_pd 본문 lazy fetch (Anthropic Skills 패턴 isomorphic). db / files 도 reference_resources 메타로 합류.",
+  "version": "1.5.6",
+  "summary": "XGEN Harness v1.5.6 — <reference_resources> 메타 only (도구 이름 instruction 제거, LLM 이 <available_tools> 통해 자율 발견).",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1778330680,
+  "pub_date": 1778342865,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
