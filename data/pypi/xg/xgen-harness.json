@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "1.5.1",
-  "summary": "XGEN Harness v1.5.1 — 9 stage UI 텍스트 사용자 친화 톤으로 재작성 (patch). 모든 stage 의 description_ko / behavior 항목에서 버전 명시 (v1.X.0 / R3) / 코드 path (state.* / pd_stores / fetch_pd / s06_context.*) / 영어 약어 (Cascade L3/L4/L5 / microcompact / autocompact / progressive disclosure / ToolSearch) 모두 자연어 한국어로 풀어쓰기. v1.5.0 의 BREAKING 동작 일체 그대로 유지 — 안내 텍스트만 친화화.",
+  "version": "1.5.5",
+  "summary": "XGEN Harness v1.5.5 — <reference_resources> 메타 풍부화 (name + description + total_documents 자동 fetch) + <active_policies> 신규 섹션 (정책 LLM 가시화). LLM 이 메타(지도) 보고 rag_search 자율 호출 → fetch_pd 본문 lazy fetch (Anthropic Skills 패턴 isomorphic). db / files 도 reference_resources 메타로 합류.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1778224863,
+  "pub_date": 1778330680,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
