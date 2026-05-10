@@ -1,7 +1,7 @@
 {
   "name": "swarph-cli",
-  "version": "0.5.0",
-  "summary": "The `swarph` binary — multi-LLM CLI with mesh-gateway integration. v0.5.0 ships Phase 5.6 `swarph daemon` (foreground inbox drain — retires the orphaned-tail-F class) on top of Phase 2 one-shot + Phase 2.5 import + Phase 5 REPL + Phase 5.5 onboard/ratify (PLAN.md §13 / §16).",
+  "version": "0.7.0",
+  "summary": "The `swarph` binary — multi-LLM CLI with mesh-gateway integration. v0.7.0 ships Phase 7 substrate-doc R7 §11.1.7 operator-tooling layer in 5 increments: PR-A `--new-instance` flag (sibling-spawn case) + PR-B auto-suffix on collision (sibling-slot persistence) + PR-C SessionStart hook (closes bare-claude operator-paste gap) + watchdog (stranded-session recovery) + PR-D swarph-shared cell.yaml relocation (cell-yaml schema graduates to swarph-shared 0.3.0 kernel-tier; substrate-doc R7 §11.1.5 (O5) RESOLVED).",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/darw007d/swarph-cli",
@@ -12,12 +12,12 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1778276692,
+  "pub_date": 1778441488,
   "project_urls": {
     "Substrate": "https://github.com/darw007d/swarph-mesh",
-    "Spec": "https://github.com/darw007d/hedge-fund-mcp/blob/main/research/swarph_cli/PLAN.md",
+    "Source": "https://github.com/darw007d/swarph-cli",
     "Homepage": "https://github.com/darw007d/swarph-cli",
-    "Source": "https://github.com/darw007d/swarph-cli"
+    "Spec": "https://github.com/darw007d/hedge-fund-mcp/blob/main/research/swarph_cli/PLAN.md"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
