@@ -1,7 +1,7 @@
 {
   "name": "relayshield-mcp",
-  "version": "0.1.0",
-  "summary": "MCP server for RelayShield — breach detection, URL/file scanning, SIM swap detection, and domain lookalike monitoring",
+  "version": "0.2.1",
+  "summary": "MCP server for RelayShield — breach detection, SIM swap, domain lookalikes, OAuth watchlist, and URL/file scanning. Subscription (RapidAPI) and pay-as-you-go (x402 USDC on Base) access modes.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://relayshield.net",
@@ -12,17 +12,17 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1777842754,
+  "pub_date": 1778434912,
   "project_urls": {
     "Documentation": "https://rapidapi.com/relayshield/relayshield-security-intelligence",
     "Homepage": "https://relayshield.net",
-    "Repository": "https://github.com/relayshield/relayshield-mcp",
-    "Bug Tracker": "https://github.com/relayshield/relayshield-mcp/issues"
+    "Bug Tracker": "https://github.com/relayshield/relayshield-mcp/issues",
+    "Repository": "https://github.com/relayshield/relayshield-mcp"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
