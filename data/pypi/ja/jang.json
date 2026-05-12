@@ -1,7 +1,7 @@
 {
   "name": "jang",
-  "version": "2.5.25",
-  "summary": "JANG — Adaptive Mixed-Precision Quantization for Apple Silicon. v2.5.18: DSV4 sampling defaults bumped to thinking-rep_penalty=1.15 / chat-rep_penalty=1.05 / max_new_tokens=4096 (audit-validated; prevents OOD-prompt repetition collapse in thinking mode). v2.5.17: force lazy parameter materialization at end of _hydrate_jangtq_model. v2.5.16: DSV4 eos list survives PreTrainedTokenizerFast fallback.",
+  "version": "2.5.28",
+  "summary": "JANG — Adaptive Mixed-Precision Quantization for Apple Silicon. v2.5.28: DSV4 JANGTQ conversion defaults to the V3 runtime-candidate lane with MTP dropped and explicit bit-plan metadata; std remains baseline-only. v2.5.27: ZAYA JANGTQ/MXFP converters and tools-only CCA capability contract.",
   "license": "Apache-2.0",
   "license_expression": null,
   "home_page": "https://jangq.ai",
@@ -12,13 +12,13 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1778045292,
+  "pub_date": 1778583115,
   "project_urls": {
+    "Repository": "https://github.com/jjang-ai/jangq",
+    "Bug Tracker": "https://github.com/jjang-ai/jangq/issues",
     "Homepage": "https://jangq.ai",
     "Documentation": "https://github.com/jjang-ai/jangq#readme",
-    "HuggingFace": "https://huggingface.co/JANGQ-AI",
-    "Bug Tracker": "https://github.com/jjang-ai/jangq/issues",
-    "Repository": "https://github.com/jjang-ai/jangq"
+    "HuggingFace": "https://huggingface.co/JANGQ-AI"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
