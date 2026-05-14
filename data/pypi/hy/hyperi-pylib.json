@@ -1,29 +1,29 @@
 {
   "name": "hyperi-pylib",
-  "version": "2.27.0",
-  "summary": "Enterprise infrastructure for containerized Python applications - configuration, logging, timeouts, database, metrics, and application framework",
+  "version": "2.28.1",
+  "summary": "Opinionated, drop-in Python toolkit for production services at scale. The patterns from blog posts as actual code: 8-layer config cascade, structured logging with PII masking, Prometheus + OpenTelemetry, multi-backend secrets (Vault/AWS/GCP/Azure), Kafka helpers, CEL expression engine, FastAPI-friendly.",
   "license": null,
   "license_expression": "LicenseRef-FSL-1.1-ALv2",
   "home_page": "https://github.com/hyperi-io/hyperi-pylib",
   "home_page_source": "project_urls.homepage",
-  "maintainer": null,
+  "maintainer": "HyperI Team",
   "author": "HyperI Team",
   "repository": "https://github.com/hyperi-io/hyperi-pylib",
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1775902698,
+  "pub_date": 1778799669,
   "project_urls": {
+    "Changelog": "https://github.com/hyperi-io/hyperi-pylib/blob/main/CHANGELOG.md",
     "Documentation": "https://hyperi-io.github.io/hyperi-pylib/",
-    "Bug Reports": "https://github.com/hyperi-io/hyperi-pylib/issues",
-    "Homepage": "https://github.com/hyperi-io/hyperi-pylib",
     "Repository": "https://github.com/hyperi-io/hyperi-pylib",
-    "Changelog": "https://github.com/hyperi-io/hyperi-pylib/blob/main/CHANGELOG.md"
+    "Homepage": "https://github.com/hyperi-io/hyperi-pylib",
+    "Bug Reports": "https://github.com/hyperi-io/hyperi-pylib/issues"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": true,
+  "has_setup_cfg": false
 }
