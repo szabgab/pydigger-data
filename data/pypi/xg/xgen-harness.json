@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "1.9.0",
-  "summary": "XGEN Harness v1.9.0 — BREAKING: Option C 라디칼 (s06_context pre-search 폐기, 모든 search 가 LLM 자율 도구 호출 단일 경로). RAG/Ontology/Gallery/MCP isomorphic. 옛 s06 9 stage_params → RAGSearchTool default args 자동 이주. s03 <active_resources> 명령형 강화. fetch_synthesize 가 Claude Code 서브에이전트 패턴 재설계 (read_chunk / search_in_body / done — body lazy load). 도구 N연속 실패 graceful fallback. judge_provider 별도 인스턴스 (UI 약속 실현).",
+  "version": "1.10.2",
+  "summary": "XGEN Harness v1.10.2 — transpile 산출물에 사용자 편의 1 줄 helper. build_pipeline(simple=, enable_logging=, overrides=) + run / run_sync top-level export + MissingApiKeyError 친화적 안내 + --simple / --verbose CLI 플래그. v1.10.0 외부 wire 인프라 (interfaces/, adapters/qdrant, config/sources Dict/Env/File 5 단계 chain, Pipeline.from_config doc_service/provider inject, compile.python_compile, compile.python_pack) 위에 사용자 onboarding 마찰 제거.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1778550582,
+  "pub_date": 1778807582,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
