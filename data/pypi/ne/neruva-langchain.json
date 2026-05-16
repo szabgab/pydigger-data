@@ -1,7 +1,7 @@
 {
   "name": "neruva-langchain",
-  "version": "0.1.0",
-  "summary": "Drop-in LangChain integration for Neruva agent memory. Wraps BaseChatMessageHistory + BaseMemory + BaseRetriever to auto-pipe agent turns into the Neruva substrate (records + KG + federated agent_context). One-line install, works with every LangChain LLM.",
+  "version": "0.1.1",
+  "summary": "Drop-in LangChain integration for Neruva agent memory. NeruvaChatMessageHistory (BaseChatMessageHistory) auto-pipes turns into Records + KG via agent_remember. NeruvaContextRetriever (BaseRetriever) federates Records + KG across one or many namespaces. Works with RunnableWithMessageHistory + RetrievalQA. Persists across restarts. Sub-100ms p95.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://neruva.io/integrations/",
@@ -12,11 +12,11 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1778946825,
+  "pub_date": 1778959264,
   "project_urls": {
     "Source": "https://github.com/CloutSimLabs/neruva",
-    "Documentation": "https://neruva.io/docs/",
-    "Homepage": "https://neruva.io/integrations/"
+    "Homepage": "https://neruva.io/integrations/",
+    "Documentation": "https://neruva.io/docs/"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,

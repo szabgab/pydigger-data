@@ -1,7 +1,7 @@
 {
   "name": "neruva-mcp",
-  "version": "0.16.0",
-  "summary": "Model Context Protocol server for Neruva — typed agentic memory (Records: decisions, mistakes, llm_turns, tool_calls), knowledge graph with 4 engines (Hadamard / OPB / multi-shard / quorum / feature-bundle) + raw-text ingest + N-hop matrix-power derive + customizable context blocks, Pearl's do-operator, HD analogy, plus self-introspection (wallet, op stats, op log, keys). Drop-in for any MCP host.",
+  "version": "0.16.1",
+  "summary": "MCP server for Neruva agent memory: typed Records, 5-engine knowledge graph, managed/BYO-LLM extraction, federated agent_remember/recall/context with question-type dispatch, Pearl's do-operator, HD analogy, concept blending, CBR, snapshot/restore for provable replay, quorum anomaly detection, fact invalidation, portable .neruva container. Drop-in for any MCP host (Claude Code, Cursor, Codex, Gemini CLI). LangChain / LangGraph / CrewAI adapters. Sub-100ms p95.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://neruva.io/integrations/",
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1778958526,
+  "pub_date": 1778958924,
   "project_urls": {
     "Homepage": "https://neruva.io/integrations/",
     "Documentation": "https://neruva.io/docs/",
