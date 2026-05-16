@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "1.11.5",
-  "summary": "XGEN Harness v1.11.5 — <harness_stages> + <meta_tools_by_stage> 환경 영역 신설. stage 토폴로지 + 도구 tag/category 자동 그룹화로 LLM 이 자기 환경을 fact 로 인지. DEFAULT_RULES 의 조각 조각 박힌 RESTRICTIONS_ONLY 톤은 사용자 검증 패턴이라 유지 (v1.11.4 over-correction 정정). v1.11.0 의 외부 자족 dispatch + PD builtin engine-node 이식 유지.",
+  "version": "1.12.1",
+  "summary": "XGEN Harness v1.12.1 — s04_tool 의 strict 모드 신설 + default 로 승격. 사용자가 명시 안 한 도구는 카탈로그에서 완전 제외 (deferred 도 X — search_tools 검색 결과에서도 안 보임). 메타 도구 (search_tools/discover_tools/ToolSearch) 와 자원 매칭 도구 (rag_search/query_graph) 만 자동 노출. v1.8~v1.12.0 의 deferred_default 모드는 register_default_tool_strategy('deferred_default') 로 복원 가능.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1778947588,
+  "pub_date": 1778951378,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
