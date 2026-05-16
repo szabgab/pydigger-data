@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "1.11.2",
-  "summary": "XGEN Harness v1.11.2 — SYNTHESIS MODE 에 reasoning trace 가이드 추가. 합성 답변 첫머리에 어떤 도구를 왜 호출했고 무엇을 얻었는지 1~3 줄 요약을 LLM 이 자율적으로 박게 한다 (Claude Code 식 흐름 노출). 5/17 사용자 라이브 로그 적발 — 답변은 정상이나 PD 흐름이 보이지 않음. v1.11.0 의 외부 자족 + v1.11.1 의 SYNTHESIS MODE 기반 유지.",
+  "version": "1.11.4",
+  "summary": "XGEN Harness v1.11.4 — PD 정신 회복: synthesis_kick 전면 폐기 + 다중 stage 의 행동 강제 톤 일괄 제거. max_iter 부족 시 사용자가 환경값을 올릴 일이지 엔진이 도구 비활성 강제 안전망 박을 일 아님. s03_prompt 의 active_resources MUST 강제 / s07_act skill auto-load 의 명령형 / pipeline fetched body inject 의 인용 권유 / builtin 도구 description+결과의 next action 권유 모두 환경 노출만 남기고 폐기. v1.11.0 의 외부 자족 dispatch + PD builtin engine-node 이식 유지.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1778944078,
+  "pub_date": 1778945237,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
