@@ -1,7 +1,7 @@
 {
   "name": "linkworld",
-  "version": "0.9.0",
-  "summary": "Linkworld CLI — develop and deploy apps to the Linkworld Open App Platform. 0.9.0: scaffold ships sdk-browser with inline source maps (no more CSP-blocked .map fetches), linkworld lint adds LWP006 (read/write_app_records is for chat-built apps only — marketplace apps must use ctx.kv).",
+  "version": "0.10.0",
+  "summary": "Linkworld CLI — develop and deploy apps to the Linkworld Open App Platform. 0.10.0: linkworld doctor + linkworld lint (LWP007) catch @app.tool decorators that aren't mirrored in manifest.tools[] — the silent reason chat-tool calls die with 'tool unavailable'.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://linkworld.ai",
@@ -12,11 +12,11 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1778879325,
+  "pub_date": 1778915140,
   "project_urls": {
     "Documentation": "https://linkworld.ai/docs/cli",
-    "Source": "https://github.com/linkworld/linkworld",
-    "Homepage": "https://linkworld.ai"
+    "Homepage": "https://linkworld.ai",
+    "Source": "https://github.com/linkworld/linkworld"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
