@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "1.10.2",
-  "summary": "XGEN Harness v1.10.2 — transpile 산출물에 사용자 편의 1 줄 helper. build_pipeline(simple=, enable_logging=, overrides=) + run / run_sync top-level export + MissingApiKeyError 친화적 안내 + --simple / --verbose CLI 플래그. v1.10.0 외부 wire 인프라 (interfaces/, adapters/qdrant, config/sources Dict/Env/File 5 단계 chain, Pipeline.from_config doc_service/provider inject, compile.python_compile, compile.python_pack) 위에 사용자 onboarding 마찰 제거.",
+  "version": "1.11.2",
+  "summary": "XGEN Harness v1.11.2 — SYNTHESIS MODE 에 reasoning trace 가이드 추가. 합성 답변 첫머리에 어떤 도구를 왜 호출했고 무엇을 얻었는지 1~3 줄 요약을 LLM 이 자율적으로 박게 한다 (Claude Code 식 흐름 노출). 5/17 사용자 라이브 로그 적발 — 답변은 정상이나 PD 흐름이 보이지 않음. v1.11.0 의 외부 자족 + v1.11.1 의 SYNTHESIS MODE 기반 유지.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1778807582,
+  "pub_date": 1778944078,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
