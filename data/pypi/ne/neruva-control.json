@@ -1,7 +1,7 @@
 {
   "name": "neruva-control",
-  "version": "0.8.9",
-  "summary": "Local daemon for Neruva Cockpit -- the web dashboard for AI that runs your computer and writes code. Two agents: Neruva Computer (sees your screen, clicks, types, navigates apps for you) and Neruva Code (writes code, edits files, runs commands, debugs). Remembers what you've done across sessions. Chat with it mid-task to redirect. Loopback-only; runs on your machine.",
+  "version": "0.10.0",
+  "summary": "Local loopback daemon for the Neruva substrate. Maintenance-only as of v0.10.0 -- the screen-control (Neruva Computer) and code-editing (Neruva Code) agents were retired in the 2026-05-18 substrate-first pivot and archived to _attic/. For new installs use neruva-mcp (Claude Code / Cursor / any MCP agent) or neruva-record (auto-record Claude Code sessions). The daemon still binds to 127.0.0.1:7331 with auth-token gating for users who want to host a local control plane for custom agents on the substrate.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://neruva.io/",
@@ -12,11 +12,11 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1779045387,
+  "pub_date": 1779127398,
   "project_urls": {
-    "Source": "https://github.com/CloutSimLabs/neruva",
+    "Documentation": "https://neruva.io/docs/",
     "Homepage": "https://neruva.io/",
-    "Documentation": "https://neruva.io/docs/"
+    "Source": "https://github.com/CloutSimLabs/neruva"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
