@@ -1,7 +1,7 @@
 {
   "name": "permisapi-mcp",
-  "version": "0.5.7",
-  "summary": "Serveur MCP pour PermisAPI : 17 outils pour consulter 1,2 M+ permis de construire de France (2014-2026) depuis Claude Desktop, Cursor, Windsurf et tout client MCP-compatible. v0.5.7 ajoute get_economics : estimation budget chantier (fourchette EUR + scenario neuf / renovation / demolition) basee sur surfaces declarees Sitadel + bareme Capeb / FFB + modulateur INSEE ICP-BT, pour le sprint 15 killer feature Marchand de Biens et PropTech.",
+  "version": "0.5.8",
+  "summary": "Serveur MCP pour PermisAPI : 18 outils pour consulter 1,2 M+ permis de construire de France (2014-2026) depuis Claude Desktop, Cursor, Windsurf et tout client MCP. v0.5.8 ajoute get_contractors : entreprises BTP locales SIRENE NAF 41/42/43 (1.087M actifs en BDD, 76% geolocalises), filtres rayon / metier / effectif, pont natif avec breakdown_by_lot de get_economics pour identifier les entreprises qualifiees par lot. Sprint 16 killer feature MDB / PropTech.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://permisapi.fr/mcp",
@@ -12,13 +12,13 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1779125113,
+  "pub_date": 1779133459,
   "project_urls": {
-    "Homepage": "https://permisapi.fr/mcp",
     "Documentation": "https://permisapi.fr/mcp",
+    "Homepage": "https://permisapi.fr/mcp",
+    "Issues": "https://github.com/Evan-Crx/permisapi-mcp/issues",
     "Setup": "https://github.com/Evan-Crx/permisapi-mcp/blob/main/README.md",
-    "Source": "https://github.com/Evan-Crx/permisapi-mcp",
-    "Issues": "https://github.com/Evan-Crx/permisapi-mcp/issues"
+    "Source": "https://github.com/Evan-Crx/permisapi-mcp"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
