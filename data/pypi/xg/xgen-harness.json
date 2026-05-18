@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "1.12.1",
-  "summary": "XGEN Harness v1.12.1 — s04_tool 의 strict 모드 신설 + default 로 승격. 사용자가 명시 안 한 도구는 카탈로그에서 완전 제외 (deferred 도 X — search_tools 검색 결과에서도 안 보임). 메타 도구 (search_tools/discover_tools/ToolSearch) 와 자원 매칭 도구 (rag_search/query_graph) 만 자동 노출. v1.8~v1.12.0 의 deferred_default 모드는 register_default_tool_strategy('deferred_default') 로 복원 가능.",
+  "version": "1.12.2",
+  "summary": "XGEN Harness v1.12.2 — s06_context 압축 임계 7 line operator precedence 버그 fix (None or 0 / 100.0 → _pct_threshold 헬퍼 통일). runtime_defaults 의 cascade/microcompact/autocompact floor 7개가 진짜 적용. s05_policy strategy picker 화이트리스트 제거 (빈 dropdown 함정). DEAD 3개 (enhance_prompt / rag_ingestion_mode / rag_tool_mode) 청소. cascade L3/L4/L5 임계 advanced UI 노출. ContextStage 4 cascade 메서드 + _autocompact_summarize + _apply_intent_routing 중복 정의 제거 (MRO 로 Mixin 본체 위임).",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1778951378,
+  "pub_date": 1779062319,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
