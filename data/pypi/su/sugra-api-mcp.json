@@ -1,7 +1,7 @@
 {
   "name": "sugra-api-mcp",
-  "version": "0.3.3",
-  "summary": "Connector between LLM agents and world data. 518+ endpoints aggregating 55+ primary sources across financial markets, macroeconomics, company fundamentals, government, physical world, and news. Works with Anthropic Claude, OpenAI GPT, Google Gemini, xAI, and any MCP-enabled IDE.",
+  "version": "0.5.1",
+  "summary": "Gateway connector between LLM agents and Sugra API world data through a bundled endpoint catalog and operation_id calls. Works with Anthropic Claude, OpenAI GPT, Google Gemini, xAI, and any MCP-enabled IDE.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://sugra.ai",
@@ -12,17 +12,18 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1776530697,
+  "pub_date": 1779167980,
   "project_urls": {
-    "Repository": "https://github.com/Sugra-Systems/prod-sugra-ai-MCP",
-    "Documentation": "https://docs.sugra.ai",
     "Homepage": "https://sugra.ai",
+    "Repository": "https://github.com/Sugra-Systems/prod-sugra-ai-MCP",
+    "Security": "https://github.com/Sugra-Systems/prod-sugra-ai-MCP/blob/main/SECURITY.md",
+    "Documentation": "https://docs.sugra.ai",
     "Issues": "https://github.com/Sugra-Systems/prod-sugra-ai-MCP/issues"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
