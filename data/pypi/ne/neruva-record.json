@@ -1,7 +1,7 @@
 {
   "name": "neruva-record",
-  "version": "0.6.3",
-  "summary": "Auto-record AI agent activity into Neruva. Two paths: (1) Claude Code hook installer — run `neruva-record-install` to capture every chat turn + tool call in every Claude Code session; (2) Anthropic Python SDK wrapper — wrap your client to auto-record messages.create() round-trips. Client-side secrets redaction (14 patterns: OpenAI/Anthropic/Neruva/GitHub/AWS/Stripe keys, JWT, BEARER_TOKEN, BASIC_AUTH, PRIVATE_KEY_PEM). Recalled-context prompt-injection guard. Cross-session, portable.",
+  "version": "0.8.0",
+  "summary": "Auto-record AI agent activity into Neruva. v0.8.0: zero-config (default namespace claude_code, cwd:<repo> tag auto-added). Three install paths: Claude Code hook, claude-agent-sdk wrapper, Anthropic SDK wrapper. 14-pattern client-side secrets redaction. Substrate v0.5.7: tenant PII rules, typed-shape context, depth-unlimited nested-belief, deterministic bit-identical replay. Recalled-context prompt-injection guard.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://neruva.io/",
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1778959267,
+  "pub_date": 1779244098,
   "project_urls": {
-    "Homepage": "https://neruva.io/",
     "Documentation": "https://neruva.io/docs/",
+    "Homepage": "https://neruva.io/",
     "Source": "https://github.com/CloutSimLabs/neruva"
   },
   "has_github_actions": false,
