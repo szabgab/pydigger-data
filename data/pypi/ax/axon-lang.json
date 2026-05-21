@@ -1,7 +1,7 @@
 {
   "name": "axon-lang",
-  "version": "1.38.5",
-  "summary": "AXON v1.5.1 — Lockstep cross-stack release. axon-lang Python + axon-lang Rust crate (renamed from axon-rs, now on crates.io) ship the same version every release, eliminating compatibility-matrix questions. Bumps coordinated via bump-my-version + a GitHub Actions workflow. Functional surface unchanged from v1.5.0: typed channels with pi-calculus mobility, second-order session types, runtime TypedEventBus, migration path from legacy string topics. See paper_mobile_channels.md.",
+  "version": "2.0.0",
+  "summary": "AXON — the formal cognitive language. Native Rust + C23 runtime (v2.0.0 Pure Silicon Cognition). This PyPI package is a thin launcher that fetches + execs the precompiled native `axon` binary; the lexer, parser, type-checker, IR generator, runtime, server, and CLI are all native Rust + C23. `pip install axon-lang && axon check x.axon` works exactly like the native binary. Alternatives: `cargo install axon-lang`, GitHub Release binaries, or the axon-enterprise Docker image.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/bemarking/axon-constructor",
@@ -12,12 +12,12 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1779320758,
+  "pub_date": 1779403989,
   "project_urls": {
+    "Issues": "https://github.com/bemarking/axon-constructor/issues",
     "Repository": "https://github.com/bemarking/axon-constructor",
     "Changelog": "https://github.com/bemarking/axon-constructor/blob/main/.axon-dev/CHANGELOG.md",
-    "Homepage": "https://github.com/bemarking/axon-constructor",
-    "Issues": "https://github.com/bemarking/axon-constructor/issues"
+    "Homepage": "https://github.com/bemarking/axon-constructor"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
