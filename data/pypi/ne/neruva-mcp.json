@@ -1,7 +1,7 @@
 {
   "name": "neruva-mcp",
-  "version": "0.18.4",
-  "summary": "MCP server for Neruva agent memory + reasoning substrate. Records, 5-engine KG (OPB / quorum / multishard / feature-bundle / Hadamard), federated agent_remember/recall/context, Pearl do-operator, HD analogy, CBR, concept blend. Cognitive primitives: depth-unlimited theory of mind, counterfactual rollouts, schema lifting, EFE planning, continual learning, hierarchical chunking, rule induction. Snapshot/restore replay. .neruva container. Drop into Claude Code / Cursor / Codex / Gemini CLI. Sub-100ms p95.",
+  "version": "0.20.0",
+  "summary": "MCP server for Neruva agent memory + reasoning substrate. v0.20 adds code_kg_callees/callers/class_of/module_of/imports for sub-ms structural code queries on KGs built locally via neruva-record-code-index. Plus Records, 5-engine KG, federated agent_remember/recall/context, Pearl do-operator, HD analogy, CBR, ToM, counterfactual rollouts, schema lifting, EFE, continual K-gram, rule induction, replay, .neruva V3. MCP drop-in for Claude Code, Cursor, Codex.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://neruva.io/claude-code/",
@@ -12,11 +12,11 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1779161582,
+  "pub_date": 1779405602,
   "project_urls": {
     "Documentation": "https://neruva.io/docs/",
-    "Homepage": "https://neruva.io/claude-code/",
-    "Source": "https://github.com/CloutSimLabs/neruva"
+    "Source": "https://github.com/CloutSimLabs/neruva",
+    "Homepage": "https://neruva.io/claude-code/"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
