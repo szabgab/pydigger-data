@@ -1,7 +1,7 @@
 {
   "name": "swarph-mesh",
-  "version": "0.7.3",
-  "summary": "Model-agnostic Python substrate for the swarph-mesh ecosystem — the graph protocol third-party CLIs plug into. v0.7.3 ships Sphinx auto-docs + GitHub Pages: public contract surface (Tier 1/2/3 from DEPRECATIONS.md) auto-rendered from py.typed package via autodoc/autosummary; CHANGELOG / DEPRECATIONS / SECURITY included via myst-parser; furo theme; CI builds + deploys to gh-pages on every main push.",
+  "version": "0.7.6",
+  "summary": "Model-agnostic Python substrate for the swarph-mesh ecosystem — the graph protocol third-party CLIs plug into. v0.7.6 adds the GeminiCLIAdapter (provider=\"gemini-cli\"): a subprocess gemini -p subscription path mirroring ClaudeAdapter, OAuth-billed flat-rate ($0/call), with GEMINI_API_KEY/GOOGLE_API_KEY scrubbed from the subprocess env to prevent a silent flip to metered billing; default model pinned to the GA gemini-2.5-flash, override via GEMINI_SUBSCRIPTION_MODEL.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/darw007d/swarph-mesh",
@@ -12,18 +12,18 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1778303083,
+  "pub_date": 1779385357,
   "project_urls": {
-    "Source": "https://github.com/darw007d/swarph-mesh",
-    "CLI": "https://github.com/darw007d/swarph-cli",
-    "Spec": "https://github.com/darw007d/hedge-fund-mcp/blob/main/research/swarph_cli/PLAN.md",
     "Homepage": "https://github.com/darw007d/swarph-mesh",
-    "Plugin": "https://github.com/darw007d/swarph-meshlm"
+    "Plugin": "https://github.com/darw007d/swarph-meshlm",
+    "Source": "https://github.com/darw007d/swarph-mesh",
+    "Spec": "https://github.com/darw007d/hedge-fund-mcp/blob/main/research/swarph_cli/PLAN.md",
+    "CLI": "https://github.com/darw007d/swarph-cli"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
