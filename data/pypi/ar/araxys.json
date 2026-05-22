@@ -1,7 +1,7 @@
 {
   "name": "araxys",
-  "version": "0.5.0",
-  "summary": "Plug & play security library for FastAPI — CORS, CSRF, IP blocking, rate limiting, honeypots, JWT (RS256/ES256), API keys, brute force, sessions, OTEL, Prometheus metrics, encrypted audit logging with async I/O, CSP headers, sanitization (NoSQL/command/path-traversal), and more.",
+  "version": "0.10.1",
+  "summary": "Plug & play security for FastAPI — CORS (glob), CSRF, IP blocking (trusted proxies), rate limiting (fixed+sliding), honeypots (URL+passive), JWT (RS256/ES256, token binding, leeway), API keys (sk_/pk_), MFA (TOTP), OAuth2/OIDC (PKCE), RBAC (resource:action), brute force (TTL), sessions, OTEL, Prometheus, encrypted audit (hash-chain), CSP, sanitization (JSON+form+multipart), DB security (Redis+PG pool, TLS, secrets), SQL parser",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": null,
   "download": null,
   "download_source": null,
-  "pub_date": 1779211647,
+  "pub_date": 1779475295,
   "project_urls": {},
   "has_github_actions": null,
   "has_gitlab_pipeline": null,
