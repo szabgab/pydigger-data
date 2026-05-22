@@ -1,7 +1,7 @@
 {
   "name": "swarph-cli",
-  "version": "0.7.0",
-  "summary": "The `swarph` binary — multi-LLM CLI with mesh-gateway integration. v0.7.0 ships Phase 7 substrate-doc R7 §11.1.7 operator-tooling layer in 5 increments: PR-A `--new-instance` flag (sibling-spawn case) + PR-B auto-suffix on collision (sibling-slot persistence) + PR-C SessionStart hook (closes bare-claude operator-paste gap) + watchdog (stranded-session recovery) + PR-D swarph-shared cell.yaml relocation (cell-yaml schema graduates to swarph-shared 0.3.0 kernel-tier; substrate-doc R7 §11.1.5 (O5) RESOLVED).",
+  "version": "0.7.8",
+  "summary": "The `swarph` binary — multi-LLM CLI with mesh-gateway integration: one-shot + chat REPL, multi-provider routing (gemini/claude/deepseek/openai/grok), cell.yaml spawn, session import, and watchdog. v0.7.8 fixes Windows chat-REPL portability: stdlib `readline` is POSIX-only, so native Windows fell back to bare input() and echoed Enter as ^M (CR=Ctrl-M) while breaking line editing — adds a `pyreadline3` fallback (win32-only dependency) plus a CR-strip guard on parsed input.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/darw007d/swarph-cli",
@@ -12,12 +12,12 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1778441488,
+  "pub_date": 1779444996,
   "project_urls": {
-    "Substrate": "https://github.com/darw007d/swarph-mesh",
     "Source": "https://github.com/darw007d/swarph-cli",
     "Homepage": "https://github.com/darw007d/swarph-cli",
-    "Spec": "https://github.com/darw007d/hedge-fund-mcp/blob/main/research/swarph_cli/PLAN.md"
+    "Spec": "https://github.com/darw007d/hedge-fund-mcp/blob/main/research/swarph_cli/PLAN.md",
+    "Substrate": "https://github.com/darw007d/swarph-mesh"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
