@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "1.12.2",
-  "summary": "XGEN Harness v1.12.2 — s06_context 압축 임계 7 line operator precedence 버그 fix (None or 0 / 100.0 → _pct_threshold 헬퍼 통일). runtime_defaults 의 cascade/microcompact/autocompact floor 7개가 진짜 적용. s05_policy strategy picker 화이트리스트 제거 (빈 dropdown 함정). DEAD 3개 (enhance_prompt / rag_ingestion_mode / rag_tool_mode) 청소. cascade L3/L4/L5 임계 advanced UI 노출. ContextStage 4 cascade 메서드 + _autocompact_summarize + _apply_intent_routing 중복 정의 제거 (MRO 로 Mixin 본체 위임).",
+  "version": "1.14.0",
+  "summary": "XGEN Harness v1.14.0 — Python wheel 채널 standalone 도구 dispatch 패리티. FrozenToolSource 신규: 컴파일된 wheel 이 spec.tool_definitions 를 http/rag/mcp_session 으로 직접 실행(node-engine dispatch.ts 와 동일 표면, cluster 0 의존), 도구 호출 시 미설정 env 명시 안내. transpile_to_python 이 tool_definitions/metadata 를 _frozen_tools.py 로 박고 flow.build_pipeline 이 자동 등록. v1.13: RAG 외부 자족 dispatch — QDRANT_URL + embedder 메타 둘 다 있으면 Qdrant 직접 검색, 없으면 spec.metadata.rag_endpoint 폴백.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1779062319,
+  "pub_date": 1779419559,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
