@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "1.14.0",
-  "summary": "XGEN Harness v1.14.0 — Python wheel 채널 standalone 도구 dispatch 패리티. FrozenToolSource 신규: 컴파일된 wheel 이 spec.tool_definitions 를 http/rag/mcp_session 으로 직접 실행(node-engine dispatch.ts 와 동일 표면, cluster 0 의존), 도구 호출 시 미설정 env 명시 안내. transpile_to_python 이 tool_definitions/metadata 를 _frozen_tools.py 로 박고 flow.build_pipeline 이 자동 등록. v1.13: RAG 외부 자족 dispatch — QDRANT_URL + embedder 메타 둘 다 있으면 Qdrant 직접 검색, 없으면 spec.metadata.rag_endpoint 폴백.",
+  "version": "1.15.0",
+  "summary": "XGEN Harness — LLM 자율 조립 에이전트 하네스. 컴파일 산출물(npm tarball / Python wheel)이 동일 spec 으로 standalone 실행. v1.15.0: s04 tool_description_overrides — 사용자가 도구 설명을 UI 에서 직접 고치면 LLM 이 그 텍스트로 도구를 고름(eager/deferred/schema 캐시 일괄 적용). v1.14: Python wheel 도 FrozenToolSource 로 http/rag/mcp 도구 직접 dispatch + 미설정 env 안내.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1779419559,
+  "pub_date": 1779529985,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
