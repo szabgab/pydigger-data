@@ -1,7 +1,7 @@
 {
   "name": "capfence",
-  "version": "0.8.2",
-  "summary": "Runtime governance for AI agents — deterministic fail-closed enforcement. Wraps any agent tool and blocks dangerous calls before execution. Zero LLM calls, zero cloud dependencies, works offline.",
+  "version": "0.8.3",
+  "summary": "Deterministic execution authorization for AI agent side effects. CapFence gates tool calls before execution, fail-closes unsafe requests, and records decisions for replay.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://capfence.dev/",
@@ -12,15 +12,15 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1779091999,
+  "pub_date": 1779582516,
   "project_urls": {
-    "Repository": "https://github.com/capfencelabs/capfence",
     "Issues": "https://github.com/capfencelabs/capfence/issues",
-    "Homepage": "https://capfence.dev/"
+    "Homepage": "https://capfence.dev/",
+    "Repository": "https://github.com/capfencelabs/capfence"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
-  "has_dependabot": false,
+  "has_dependabot": true,
   "has_pyproject_toml": true,
   "has_setup_py": false,
   "has_setup_cfg": false
