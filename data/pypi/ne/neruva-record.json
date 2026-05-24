@@ -1,7 +1,7 @@
 {
   "name": "neruva-record",
-  "version": "0.10.0",
-  "summary": "Auto-record AI agent activity into Neruva. v0.10 adds neruva-record-code-index CLI (Python via ast + JS/TS via @neruva/js-extractor) + SessionStart auto-hook (NERUVA_AUTO_CODE_INDEX=1) for any pyproject/package.json/Cargo/go.mod project. Per-turn auto-recall + auto-postmortem (pattern C mistake learning). Zero-config (default namespace claude_code). Claude Code hook, claude-agent-sdk + Anthropic SDK wrappers. 14-pattern secrets redaction. Recalled-context + postmortem prompt-injection guards.",
+  "version": "0.15.1",
+  "summary": "Auto-record + auto-pilot for Claude Code, Cursor, and other agent harnesses backed by Neruva memory substrate. v0.15 ships a warm daemon with TTL cache: cache-hit p95 ~80ms (faster than Mem0). Pair with @neruva/mcp 0.23+ for the native Rust hook binary. AUTO-PILOT: KG auto-extract on ingest, 18-pattern intent router, reflective self-curation. Plus 8-language code-graph, per-turn recall, secrets redaction.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://neruva.io/",
@@ -12,11 +12,11 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1779405657,
+  "pub_date": 1779632477,
   "project_urls": {
-    "Documentation": "https://neruva.io/docs/",
     "Homepage": "https://neruva.io/",
-    "Source": "https://github.com/CloutSimLabs/neruva"
+    "Source": "https://github.com/CloutSimLabs/neruva",
+    "Documentation": "https://neruva.io/docs/"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
