@@ -1,7 +1,7 @@
 {
   "name": "neruva-mcp",
-  "version": "0.22.0",
-  "summary": "MCP server for Neruva agent memory + reasoning substrate. v0.22 adds the AUTO-PILOT surface: agent_route_intent_prompt (Layer 2 -- 18-pattern intent classifier) + agent_reflect_prompt (Layer 3 -- self-curates substrate from recent turns). Combined with auto-extract on records_ingest (Layer 1), the agent uses the full substrate without prompting. Plus Records, 5-engine KG, federated agent_remember/recall/context, Pearl do-operator, HD analogy, CBR, ToM, EFE, rule induction, replay, code_kg_* navigation.",
+  "version": "0.23.0",
+  "summary": "MCP server for Neruva agent memory + reasoning substrate (Python mirror of @neruva/mcp 0.23 on npm). Pair with neruva-record 0.16+ for warm daemon + TTL cache + reflect-cadence: cache-hit p95 ~80ms (faster than Mem0). AUTO-PILOT: agent_route_intent_prompt (18-pattern router) + agent_reflect_prompt (self-curation) + auto-extract on records_ingest. Plus Records, 5-engine KG, federated recall, Pearl do-operator, HD analogy, CBR, ToM, EFE, rule induction, replay, code_kg_*.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://neruva.io/claude-code/",
@@ -12,11 +12,11 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1779617108,
+  "pub_date": 1779634014,
   "project_urls": {
-    "Homepage": "https://neruva.io/claude-code/",
+    "Documentation": "https://neruva.io/docs/",
     "Source": "https://github.com/CloutSimLabs/neruva",
-    "Documentation": "https://neruva.io/docs/"
+    "Homepage": "https://neruva.io/claude-code/"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
