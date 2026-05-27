@@ -1,7 +1,7 @@
 {
   "name": "xgen-harness",
-  "version": "1.15.0",
-  "summary": "XGEN Harness — LLM 자율 조립 에이전트 하네스. 컴파일 산출물(npm tarball / Python wheel)이 동일 spec 으로 standalone 실행. v1.15.0: s04 tool_description_overrides — 사용자가 도구 설명을 UI 에서 직접 고치면 LLM 이 그 텍스트로 도구를 고름(eager/deferred/schema 캐시 일괄 적용). v1.14: Python wheel 도 FrozenToolSource 로 http/rag/mcp 도구 직접 dispatch + 미설정 env 안내.",
+  "version": "1.16.4",
+  "summary": "XGEN Harness — LLM 자율 조립 에이전트 하네스. 컴파일 산출물(npm tarball / Python wheel)이 동일 spec 으로 env-only standalone 실행. v1.16: workflow-as-tool 을 nested subpipeline(call_kind=subpipeline) freeze + selected_tools flat baking. v1.16.3: agentflow 캔버스 그래프 인터프리터(call_kind=canvas) — 캔버스 nodes/edges 를 다중포트 DAG 로 env-only 실행(call=subpipeline/rag/http 재사용 + transform/foreach/router).",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1779529985,
+  "pub_date": 1779870177,
   "project_urls": {
     "Repository": "https://github.com/jinsoo96/xgen-harness-executor"
   },
