@@ -1,7 +1,7 @@
 {
   "name": "neruva-mcp",
-  "version": "0.25.0",
-  "summary": "MCP server for Neruva agent memory + reasoning substrate (Python mirror of @neruva/mcp 0.23 on npm). Pair with neruva-record 0.16+ for warm daemon + TTL cache + reflect-cadence: cache-hit p95 ~80ms (faster than Mem0). AUTO-PILOT: agent_route_intent_prompt (18-pattern router) + agent_reflect_prompt (self-curation) + auto-extract on records_ingest. Plus Records, 5-engine KG, federated recall, Pearl do-operator, HD analogy, CBR, ToM, EFE, rule induction, replay, code_kg_*.",
+  "version": "0.27.1",
+  "summary": "MCP server for Neruva -- reliability infrastructure for production AI agents. Agent stops forgetting / drifting / repeating mistakes. v0.27: qbound KG engine for conflict resolution where docs override LLM priors. 6 KG engines, 7-layer federated recall, counterfactual queries, HD analogy, CBR, belief tracking, code_kg_*. Free tier, no card.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://neruva.io/claude-code/",
@@ -12,11 +12,11 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1779661328,
+  "pub_date": 1780020306,
   "project_urls": {
-    "Documentation": "https://neruva.io/docs/",
+    "Source": "https://github.com/CloutSimLabs/neruva",
     "Homepage": "https://neruva.io/claude-code/",
-    "Source": "https://github.com/CloutSimLabs/neruva"
+    "Documentation": "https://neruva.io/docs/"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
