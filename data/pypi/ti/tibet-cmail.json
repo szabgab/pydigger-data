@@ -1,7 +1,7 @@
 {
   "name": "tibet-cmail",
-  "version": "0.1.0",
-  "summary": "Cmail — capsulated email + command hub for HumoticaOS. Light Mode v0.1: I-Poll transport + JSON envelopes + cap-bus event emit. Sealed Mode (TBZ + continuityd) comes in 0.2.x.",
+  "version": "0.2.4",
+  "summary": "Cmail — capsulated email + command hub for HumoticaOS. Light + Sealed Mode + friendly TimeoutError + opt-in cap-bus runtime POST. 0.2.4: gateway-event.v1 records now carry top-level `kind=cmail.message.event.v1` and `sealed: bool` so evidence-adapters (tibet-audit cockpit) can count Light vs Sealed accurately without falling back to content_hash duck-type.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://humotica.com",
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1780112269,
+  "pub_date": 1780117060,
   "project_urls": {
     "Homepage": "https://humotica.com",
     "Repository": "https://github.com/Humotica/tibet-cmail"
@@ -20,7 +20,7 @@
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
