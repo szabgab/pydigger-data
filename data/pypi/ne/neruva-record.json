@@ -1,7 +1,7 @@
 {
   "name": "neruva-record",
-  "version": "0.23.0",
-  "summary": "Auto-record + pre-action mistake recall + per-domain routing + QBound deterministic KG recall + inspectable recall chain. v0.23: `neruva-record-migrate-to-kg` populates per-domain QBound KGs from existing records, `neruva-replay recall-path` inspects the exact recall chain (proves deterministic replay). 11 default domains. Probe-c bench: 100% drift accuracy std 0.0.",
+  "version": "0.29.0",
+  "summary": "Auto-record + pre-action mistake recall + code-graph/consistency pushes for Claude Code on the Neruva substrate. v0.29 adds two default-on multi-agent coordination layers: AUTO_RESOURCE_CLAIM (deterministic canonical-owner file partition so a contended agent swarm self-distributes confluently with no orchestrator; distinguishes Agent-tool sub-agents via transcript actor-identity) and AUTO_CONSENSUS (flags + localizes Byzantine contradictory value-claims). Warm Rust->Python daemon, ~50ms warm.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://neruva.io/",
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1779977044,
+  "pub_date": 1780205120,
   "project_urls": {
     "Source": "https://github.com/CloutSimLabs/neruva",
     "Homepage": "https://neruva.io/",
