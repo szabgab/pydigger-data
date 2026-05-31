@@ -1,7 +1,7 @@
 {
   "name": "neruva-record",
-  "version": "0.29.0",
-  "summary": "Auto-record + pre-action mistake recall + code-graph/consistency pushes for Claude Code on the Neruva substrate. v0.29 adds two default-on multi-agent coordination layers: AUTO_RESOURCE_CLAIM (deterministic canonical-owner file partition so a contended agent swarm self-distributes confluently with no orchestrator; distinguishes Agent-tool sub-agents via transcript actor-identity) and AUTO_CONSENSUS (flags + localizes Byzantine contradictory value-claims). Warm Rust->Python daemon, ~50ms warm.",
+  "version": "0.30.0",
+  "summary": "Auto-record + pre-action recall (mistakes AND solutions) + code-graph/consistency pushes for Claude Code on the Neruva substrate. v0.30 adds SOLUTION-recall: surface relevant prior decisions/fixes/probe-hits before an action -- reuse, don't re-derive. v0.29 multi-agent layers: AUTO_RESOURCE_CLAIM (confluent canonical-owner file partition so a swarm self-distributes with no orchestrator; sub-agents via actor-identity) + AUTO_CONSENSUS (Byzantine value-conflict flag).",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://neruva.io/",
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1780205120,
+  "pub_date": 1780206780,
   "project_urls": {
     "Source": "https://github.com/CloutSimLabs/neruva",
     "Homepage": "https://neruva.io/",
