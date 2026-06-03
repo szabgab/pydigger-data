@@ -1,7 +1,7 @@
 {
   "name": "swarph-cli",
-  "version": "0.9.2",
-  "summary": "The `swarph` binary — multi-LLM CLI + mesh-gateway integration: multi-provider spawn (claude/codex/antigravity per cell.provider via a ProviderMembrane), cell.yaml, `swarph mesh` (send/inbox/register with per-peer tokens) + inbox sidecar, `assisted_memory` (git-backed durable memory), session import, watchdog. v0.9.2 makes the watchdog deploy-safe: no false A2 when no tmux server is reachable (root-cron), and F3 uses window/session activity so active sessions are correctly detected.",
+  "version": "0.9.5",
+  "summary": "The `swarph` binary — multi-LLM CLI + mesh-gateway integration: multi-provider `swarph spawn` (claude/codex/antigravity per cell.provider via a ProviderMembrane + subprocess billing-scrub), interactive `swarph init`, `swarph mesh` (send/inbox/register) + inbox sidecar, `assisted_memory` (git-backed durable memory), session import, watchdog. v0.9.5: foolproof Windows auto-relaunch (genuine-WT detection via process ancestry, not WT_SESSION).",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/darw007d/swarph-cli",
@@ -12,12 +12,12 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1780378248,
+  "pub_date": 1780485842,
   "project_urls": {
-    "Source": "https://github.com/darw007d/swarph-cli",
     "Spec": "https://github.com/darw007d/hedge-fund-mcp/blob/main/research/swarph_cli/PLAN.md",
-    "Substrate": "https://github.com/darw007d/swarph-mesh",
-    "Homepage": "https://github.com/darw007d/swarph-cli"
+    "Source": "https://github.com/darw007d/swarph-cli",
+    "Homepage": "https://github.com/darw007d/swarph-cli",
+    "Substrate": "https://github.com/darw007d/swarph-mesh"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
