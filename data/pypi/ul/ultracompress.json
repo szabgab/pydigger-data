@@ -1,7 +1,7 @@
 {
   "name": "ultracompress",
-  "version": "0.6.19",
-  "summary": "Lossless 5-bit transformer compression — 20 PPL-verified architectures (19 transformer + 1 state-space model with comparator-note caveat) across 22 packs shipped (0.6B–405B; dense + MoE + SSM). Public CLI does pack structure + download-integrity checks; the codec is patent-pending and not distributed. BUSL-1.1 + Additional Use Grant.",
+  "version": "0.6.27",
+  "summary": "Near-lossless 5-bit transformer compression (~1% perplexity vs the bf16 reference; lossy), with reproducible, cryptographically verifiable reconstruction — 22 PPL-verified architectures (17 dense + 4 MoE + 1 SSM) plus 1 ViT cosine-verified — across 4 architecture classes (0.6B–405B). Public CLI does pack structure + download-integrity checks; the codec is patent-pending and not distributed. BUSL-1.1 + Additional Use Grant.",
   "license": "BUSL-1.1",
   "license_expression": null,
   "home_page": "https://github.com/sipsalabs/ultracompress",
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1779837758,
+  "pub_date": 1780629868,
   "project_urls": {
     "Repository": "https://github.com/sipsalabs/ultracompress",
     "Homepage": "https://github.com/sipsalabs/ultracompress",
