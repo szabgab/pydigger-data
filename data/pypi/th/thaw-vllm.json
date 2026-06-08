@@ -1,8 +1,8 @@
 {
   "name": "thaw-vllm",
-  "version": "0.3.2",
-  "summary": "Fast snapshot/restore for LLM inference. 17x faster cold starts, multi-GPU tensor parallel, KV cache snapshots. Supports vLLM and SGLang.",
-  "license": "MIT",
+  "version": "0.6.0",
+  "summary": "The fork primitive for LLM inference. Snapshot a running session — weights + KV cache + scheduler state — and hydrate it into N divergent children that skip prefill. For RL rollouts, parallel coding agents, agent branching. Supports vLLM and SGLang.",
+  "license": "Apache-2.0",
   "license_expression": null,
   "home_page": "https://github.com/thaw-ai/thaw",
   "home_page_source": "project_urls.homepage",
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1776739018,
+  "pub_date": 1780876589,
   "project_urls": {
-    "Repository": "https://github.com/thaw-ai/thaw",
-    "Homepage": "https://github.com/thaw-ai/thaw"
+    "Homepage": "https://github.com/thaw-ai/thaw",
+    "Repository": "https://github.com/thaw-ai/thaw"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
