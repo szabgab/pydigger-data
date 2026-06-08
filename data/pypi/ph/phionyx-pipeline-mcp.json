@@ -1,7 +1,7 @@
 {
   "name": "phionyx-pipeline-mcp",
-  "version": "0.1.0",
-  "summary": "Phionyx self-governance gate for Claude Code — three-layer verification (LLM declaration → git diff truth → physics gate) over the agent's own 'fixed / tested / changed' claims.",
+  "version": "0.3.0",
+  "summary": "Phionyx self-governance gate for Claude Code — three-layer verification (LLM declaration → git diff truth → deterministic gate) over the agent's own 'fixed / tested / changed' claims. v0.3.0 adds opt-in evidence binding: the require_tool directive (a factual claim without same-turn evidence must bind a tool first) and continuity binding (catches 'read-but-not-bound'). Both default-OFF / non-regressive; detector calibration is not yet validated.",
   "license": "AGPL-3.0-or-later",
   "license_expression": null,
   "home_page": "https://phionyx.ai",
@@ -12,13 +12,13 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1779514600,
+  "pub_date": 1780935421,
   "project_urls": {
     "Bug Tracker": "https://github.com/halvrenofviryel/phionyx-pipeline-mcp/issues",
+    "Companion package": "https://github.com/halvrenofviryel/phionyx-mcp-server",
     "Homepage": "https://phionyx.ai",
     "Repository": "https://github.com/halvrenofviryel/phionyx-pipeline-mcp",
-    "Project Hub": "https://github.com/halvrenofviryel/phionyx-research",
-    "Companion package": "https://github.com/halvrenofviryel/phionyx-mcp-server"
+    "Project Hub": "https://github.com/halvrenofviryel/phionyx-research"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
