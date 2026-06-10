@@ -1,7 +1,7 @@
 {
   "name": "jang",
-  "version": "2.5.28",
-  "summary": "JANG — Adaptive Mixed-Precision Quantization for Apple Silicon. v2.5.28: DSV4 JANGTQ conversion defaults to the V3 runtime-candidate lane with MTP dropped and explicit bit-plan metadata; std remains baseline-only. v2.5.27: ZAYA JANGTQ/MXFP converters and tools-only CCA capability contract.",
+  "version": "2.5.30",
+  "summary": "JANG — Adaptive Mixed-Precision Quantization for Apple Silicon. v2.5.30: JANGTQ MPP/NAX auto dispatch is prefill-gated, health checks avoid smoke Metal evals, and Kimi/VLM warmup compiles the trained-router prefill shape. v2.5.29: Kimi K2.6 JANGTQ_K conversion adds mixed routed bits, VL aux-file preservation, and prestacked runtime metadata.",
   "license": "Apache-2.0",
   "license_expression": null,
   "home_page": "https://jangq.ai",
@@ -12,13 +12,13 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1778583115,
+  "pub_date": 1781049958,
   "project_urls": {
-    "Repository": "https://github.com/jjang-ai/jangq",
     "Bug Tracker": "https://github.com/jjang-ai/jangq/issues",
+    "HuggingFace": "https://huggingface.co/JANGQ-AI",
+    "Repository": "https://github.com/jjang-ai/jangq",
     "Homepage": "https://jangq.ai",
-    "Documentation": "https://github.com/jjang-ai/jangq#readme",
-    "HuggingFace": "https://huggingface.co/JANGQ-AI"
+    "Documentation": "https://github.com/jjang-ai/jangq#readme"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
