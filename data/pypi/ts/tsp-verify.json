@@ -1,0 +1,28 @@
+{
+  "name": "tsp-verify",
+  "version": "0.1.0",
+  "summary": "Python port of the Trust Standard Protocol (TSP) v3.0 reference verifier core: canonicalization, trust envelope and manifest validation, Ed25519 local verification.",
+  "license": "# LexiCo TSP License\n        ### Free to verify. Licensed to issue. Controlled to certify. Forbidden to counterfeit.\n        \n        Version 1.0 — applies to **TSP v3.1 and later** SDK / verifier implementation\n        materials in this repository.\n        Copyright © 2026 LexiCo AS (Norway). All rights reserved.\n        \n        This License governs the source code, build artifacts, and implementation\n        materials in this repository **as of TSP v3.1 and later** (\"the Software\"). It\n        does not revoke or alter any open-source license under which earlier TSP v3.0\n        alpha / public-preview snapshots were distributed; those notices are retained and\n        continue to govern those historical snapshots (see `DEPRECATED.md`).\n        \n        ## 1. Definitions\n        \n        - **TSP** — the Trust Standard Protocol as specified by LexiCo AS.\n        - **TrustEnvelope** — a TSP-defined signed manifest artifact.\n        - **Verify** — to validate a TrustEnvelope or TSP license against the\n          specification, without issuing or certifying.\n        - **Issue** — to construct and sign a TrustEnvelope or TSP license intended to be\n          treated as authentic.\n        - **Certify** — to assert, or operate authority asserting, that a thing is\n          TSP-compatible or TSP-certified.\n        - **Marks** — the trademarks listed in `TRADEMARK.md`.\n        \n        ## 2. Verification grant (free)\n        \n        LexiCo AS grants you a perpetual, worldwide, royalty-free, non-exclusive license\n        to use, copy, and modify the Software **for the purpose of verifying** TSP\n        artifacts, and to run such verification offline and at no charge. This grant is\n        not conditioned on holding a TSP license. **TSP is free to verify.**\n        \n        ## 3. Issuance and certification (licensed / controlled)\n        \n        Using the Software — or any derivative — to **Issue** TrustEnvelopes or TSP\n        licenses in production, or to **Certify**, requires a separate **LexiCo-authorized\n        TSP license**. Absent that authorization, no right to Issue or Certify is granted.\n        You must not remove, disable, or weaken the fail-closed license gate (including the\n        `402 unlicensed_platform` path) or the canonicalization used to bind signatures.\n        \n        ## 4. Redistribution\n        \n        You may redistribute the Software and modifications provided you (a) retain this\n        License, `TRADEMARK.md`, `NOTICE.md`, and all historical notices; (b) mark changed\n        files; and (c) do not present the result as TSP-compatible, TSP-certified, or\n        TrustBadge-authorized except as permitted by `TRADEMARK.md`. Redistribution does\n        not grant Issue/Certify rights or any rights in the Marks.\n        \n        ## 5. Trademarks\n        \n        No rights in the Marks are granted by this License. Mark use is governed solely by\n        `TRADEMARK.md`.\n        \n        ## 6. Prohibited conduct (counterfeiting)\n        \n        You must not forge TrustEnvelopes, fabricate TrustBadges, or make false\n        TSP-compatible / TSP-certified claims. **TSP is forbidden to counterfeit.**\n        \n        ## 7. Termination\n        \n        Rights under Sections 3–4 terminate automatically on breach of Sections 3, 5,\n        or 6. The Section 2 verification grant survives for conformant verification use.\n        \n        ## 8. Warranty / liability\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM\n        EXTENT PERMITTED BY LAW, LEXICO AS SHALL NOT BE LIABLE FOR ANY CLAIM OR DAMAGES\n        ARISING FROM THE SOFTWARE OR ITS USE.\n        \n        ## 9. Governing law\n        \n        This License is governed by the laws of Norway, without regard to conflict-of-laws\n        rules.\n        \n        Licensing & authorization: hello@truststandardprotocol.com\n        ",
+  "license_expression": null,
+  "home_page": "https://truststandardprotocol.com",
+  "home_page_source": "project_urls.homepage",
+  "maintainer": null,
+  "author": null,
+  "repository": "https://github.com/Lexi-TSP/tsp-python",
+  "repository_source": "project_urls.repository",
+  "download": null,
+  "download_source": null,
+  "pub_date": 1781645449,
+  "project_urls": {
+    "Repository": "https://github.com/Lexi-TSP/tsp-python",
+    "Specification": "https://github.com/Lexi-TSP/tsp-spec",
+    "Homepage": "https://truststandardprotocol.com",
+    "Issues": "https://github.com/Lexi-TSP/tsp-python/issues"
+  },
+  "has_github_actions": true,
+  "has_gitlab_pipeline": null,
+  "has_dependabot": false,
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
+}
