@@ -1,0 +1,28 @@
+{
+  "name": "comfyui-arc-save",
+  "version": "1.0.3",
+  "summary": "Sign-on-arrival save node for ArcVelvetOS. POSTs the encoded image to the ArcVelvet arcIngest API and writes the C2PA-signed copy returned by the server. The unsigned bytes never touch disk. Prompt moderation runs server-side: prompts are scanned in-flight for minor-safety violations and discarded on pass; plaintext prompts never enter the public C2PA manifest unless you opt in.",
+  "license": "MIT",
+  "license_expression": null,
+  "home_page": "https://arcvelvet.com",
+  "home_page_source": "project_urls.homepage",
+  "maintainer": null,
+  "author": null,
+  "repository": "https://github.com/arcvelvetOS/comfyui-arc-save",
+  "repository_source": "project_urls.repository",
+  "download": null,
+  "download_source": null,
+  "pub_date": 1781734029,
+  "project_urls": {
+    "Documentation": "https://arcvelvet.com/docs/comfyui-arc-save",
+    "Issues": "https://github.com/arcvelvetOS/comfyui-arc-save/issues",
+    "Repository": "https://github.com/arcvelvetOS/comfyui-arc-save",
+    "Homepage": "https://arcvelvet.com"
+  },
+  "has_github_actions": false,
+  "has_gitlab_pipeline": null,
+  "has_dependabot": false,
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
+}
