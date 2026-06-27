@@ -1,7 +1,7 @@
 {
   "name": "nodii-outbox-dispatcher",
-  "version": "0.1.0",
-  "summary": "Nodii Pattern 3 producer-side outbox drainer — define_dispatcher + start_dispatcher + single-active SET-NX-EX lease (D209) + FOR UPDATE SKIP LOCKED drain + XADD to Redis Streams + current_hwm + DLQ + graceful drain + migrate-gen. Symmetric peer of nodii-replica-consumer.",
+  "version": "0.5.0",
+  "summary": "Nodii Pattern 3 producer-side outbox drainer — define_dispatcher + start_dispatcher + single-active SET-NX-EX lease (D209) + FOR UPDATE SKIP LOCKED drain + XADD to Redis Streams + current_hwm + 24h-unpublished ops-alert sweep (D401: no publish-side DLQ) + graceful drain + migrate-gen. Symmetric peer of nodii-replica-consumer.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/cognion-nucleus/nodii-libs",
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1780589548,
+  "pub_date": 1782589315,
   "project_urls": {
     "Repository": "https://github.com/cognion-nucleus/nodii-libs",
     "Homepage": "https://github.com/cognion-nucleus/nodii-libs"
