@@ -1,7 +1,7 @@
 {
   "name": "swarph-cli",
-  "version": "0.12.1",
-  "summary": "The `swarph` binary — multi-LLM CLI + mesh-gateway integration: multi-provider `swarph spawn` (claude/codex/antigravity per cell.provider via a ProviderMembrane + subprocess billing-scrub), interactive `swarph init`, `swarph mesh` (send/inbox/register) + inbox sidecar, `assisted_memory` (git-backed durable memory), session import, watchdog. v0.9.5: foolproof Windows auto-relaunch (genuine-WT detection via process ancestry, not WT_SESSION).",
+  "version": "0.18.0",
+  "summary": "The `swarph` binary — a multi-LLM CLI and mesh-gateway client + bundled server (`swarph gateway`): one-shot prompts across providers, interactive `chat`, multi-provider `spawn` (claude/codex/antigravity via a ProviderMembrane with subprocess billing-scrub), `mesh` send/inbox/register, `brain-ask` over the swarph-brain (gbrain) semantic memory, git-backed `assisted_memory`, session `import`, and a stranded-session `watchdog`.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/BrainSurfing-tech/swarph-cli",
@@ -12,12 +12,12 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1781513811,
+  "pub_date": 1782526598,
   "project_urls": {
-    "Source": "https://github.com/BrainSurfing-tech/swarph-cli",
+    "Homepage": "https://github.com/BrainSurfing-tech/swarph-cli",
     "Substrate": "https://github.com/BrainSurfing-tech/swarph-mesh",
     "Spec": "https://github.com/darw007d/hedge-fund-mcp/blob/main/research/swarph_cli/PLAN.md",
-    "Homepage": "https://github.com/BrainSurfing-tech/swarph-cli"
+    "Source": "https://github.com/BrainSurfing-tech/swarph-cli"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
