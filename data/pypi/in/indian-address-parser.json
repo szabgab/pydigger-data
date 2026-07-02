@@ -1,7 +1,7 @@
 {
   "name": "indian-address-parser",
-  "version": "0.1.3",
-  "summary": "Parse raw Indian address strings into structured fields using a fine-tuned Qwen3 LoRA adapter",
+  "version": "0.2.0",
+  "summary": "Parse raw Indian address strings into structured fields using fine-tuned flan-t5-small (default) or Qwen3 LoRA models",
   "license": null,
   "license_expression": "Apache-2.0",
   "home_page": "https://github.com/innerkorehq/indian-address-parser",
@@ -12,10 +12,11 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1782922404,
+  "pub_date": 1783023093,
   "project_urls": {
-    "Model": "https://huggingface.co/gagan1985/qwen3-0.6b-indian-address-parser",
     "Homepage": "https://github.com/innerkorehq/indian-address-parser",
+    "Model (t5 - default)": "https://huggingface.co/gagan1985/flan-t5-small-indian-address-parser",
+    "Model (qwen)": "https://huggingface.co/gagan1985/qwen3-0.6b-indian-address-parser",
     "Repository": "https://github.com/innerkorehq/indian-address-parser"
   },
   "has_github_actions": false,
