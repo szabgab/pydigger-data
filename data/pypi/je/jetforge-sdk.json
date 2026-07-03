@@ -1,7 +1,7 @@
 {
   "name": "jetforge-sdk",
-  "version": "0.5.0",
-  "summary": "JetForge SDK — lightweight client for capability discovery, prompt loading, real-time updates, and JIT credential resolution. v0.5.0 is a hard break versus 0.4.x: ResolveRequest reduced to (tool_id, environment); caller passes OBO bearer_token via Authorization header (JETP-082.1 v0.3 path B). Requires JetForge ≥ JETP-082.1 server (POST /internal/credentials/resolve).",
+  "version": "0.5.1",
+  "summary": "JetForge SDK — lightweight client for capability discovery, prompt loading, real-time updates, and JIT credential resolution. v0.5.x is a hard break versus 0.4.x: ResolveRequest reduced to (tool_id, environment); caller passes OBO bearer_token via Authorization header (JETP-082.1 v0.3 path B). Requires JetForge ≥ JETP-082.1 server (POST /api/v1/internal/tools/{tool_id}/credentials/resolve).",
   "license": "Proprietary",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": null,
   "download": null,
   "download_source": null,
-  "pub_date": 1778499314,
+  "pub_date": 1783117807,
   "project_urls": {},
   "has_github_actions": null,
   "has_gitlab_pipeline": null,
