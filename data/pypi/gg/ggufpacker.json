@@ -1,7 +1,7 @@
 {
   "name": "ggufpacker",
-  "version": "0.4.1",
-  "summary": "Pack a directory of GGUF quantizations into a compact store; reconstruct every file bit-exact.",
+  "version": "0.4.2",
+  "summary": "Check that a GGUF quant derives bit-exactly from its claimed base model; pack quant ladders as recipes and regenerate every file bit-exact.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/theadamdanielsson/ggufpacker",
@@ -12,13 +12,13 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1783378111,
+  "pub_date": 1783423345,
   "project_urls": {
     "Homepage": "https://github.com/theadamdanielsson/ggufpacker",
-    "Source": "https://github.com/theadamdanielsson/ggufpacker",
-    "Evidence": "https://github.com/theadamdanielsson/gguf-quant-determinism",
     "Issues": "https://github.com/theadamdanielsson/ggufpacker/issues",
-    "UpstreamPR": "https://github.com/ggml-org/llama.cpp/pull/25353"
+    "Source": "https://github.com/theadamdanielsson/ggufpacker",
+    "UpstreamPR": "https://github.com/ggml-org/llama.cpp/pull/25353",
+    "Evidence": "https://github.com/theadamdanielsson/gguf-quant-determinism"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
