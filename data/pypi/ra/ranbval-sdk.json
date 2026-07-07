@@ -1,7 +1,7 @@
 {
   "name": "ranbval-sdk",
-  "version": "0.10.0",
-  "summary": "Keep API secrets out of plaintext config: layered .ranbval* env files, decrypt vault tokens only when used, optional usage telemetry—minimal deps, your own HTTP/SDK stack.",
+  "version": "1.2.0",
+  "summary": "Keep API secrets out of plaintext config: layered .ranbval* env files, decrypt vault tokens only when used, with built-in repo-allowlist enforcement and automatic usage telemetry to the Live Monitor—minimal deps, your own HTTP/SDK stack.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://www.ranbval.com",
@@ -12,16 +12,16 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1780509036,
+  "pub_date": 1783452362,
   "project_urls": {
-    "Documentation": "https://api.ranbval.com/docs",
+    "Repository": "https://github.com/TariqDreamsTech/ranbval-sdk",
     "Homepage": "https://www.ranbval.com",
-    "Repository": "https://github.com/TariqDreamsTech/ranbval-sdk"
+    "Documentation": "https://api.ranbval.com/docs"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
