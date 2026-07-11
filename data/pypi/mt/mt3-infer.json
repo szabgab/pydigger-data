@@ -1,0 +1,28 @@
+{
+  "name": "mt3-infer",
+  "version": "0.2.0",
+  "summary": "Unified, inference-only toolkit for MT3 model family (Magenta MT3, MR-MT3, MT3-PyTorch, YourMT3)",
+  "license": "MIT License\n        \n        Copyright (c) 2025 MT3-Infer Contributors\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.\n        \n        ---\n        \n        This project includes code adapted from the following sources:\n        \n        1. MR-MT3 (https://github.com/gudgud96/MR-MT3)\n           License: MIT\n           Copyright (c) 2024 Hao Hao Tan, Kin Wai Cheuk, Taemin Cho, Wei-Hsiang Liao, Yuki Mitsufuji\n           Note: vendored in mt3_infer/models/mr_mt3/\n        \n        2. MT3-PyTorch (https://github.com/kunato/mt3-pytorch)\n           License: No license declared upstream. Vendored code is retained\n           unmodified; see mt3_infer/models/mt3_pytorch/. (Previously misattributed\n           here to https://github.com/rlax59us/MT3-pytorch, which is not the\n           repository the vendored code and adapter actually derive from -- the\n           code and mt3_infer/adapters/mt3_pytorch.py have always cited kunato.)\n        \n        3. YourMT3 (https://huggingface.co/spaces/mimbres/YourMT3)\n           License: Apache-2.0\n           Copyright: 2024 The YourMT3 Authors\n           Note: vendored in mt3_infer/models/yourmt3/\n        \n        Magenta MT3 (https://github.com/magenta/mt3, Apache-2.0, Google Research) is\n        NOT currently vendored anywhere in this repository -- a prior version of\n        this file credited it as such; that was inaccurate and has been removed.\n        Support for it is deferred (see pyproject.toml's commented-out `jax` extra).\n        \n        See mt3_infer/models/yourmt3/LICENSE for the full Apache-2.0 license text.",
+  "license_expression": null,
+  "home_page": "https://github.com/openmirlab/mt3-infer",
+  "home_page_source": "project_urls.homepage",
+  "maintainer": null,
+  "author": "MT3-Infer Contributors",
+  "repository": "https://github.com/openmirlab/mt3-infer",
+  "repository_source": "project_urls.repository",
+  "download": null,
+  "download_source": null,
+  "pub_date": 1783785182,
+  "project_urls": {
+    "Issues": "https://github.com/openmirlab/mt3-infer/issues",
+    "Repository": "https://github.com/openmirlab/mt3-infer",
+    "Homepage": "https://github.com/openmirlab/mt3-infer",
+    "Documentation": "https://github.com/openmirlab/mt3-infer/blob/master/README.md"
+  },
+  "has_github_actions": true,
+  "has_gitlab_pipeline": null,
+  "has_dependabot": false,
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
+}
