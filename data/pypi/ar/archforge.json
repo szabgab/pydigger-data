@@ -1,7 +1,7 @@
 {
   "name": "archforge",
-  "version": "0.1.0",
-  "summary": "PPTX quality linter with Korean-typography awareness: catches silent font fallback, tracking damage, text collisions, off-canvas bleed, and AI-generated deck tells in built .pptx files",
+  "version": "0.8.1",
+  "summary": "Preflight quality linter for AI-generated PowerPoint: catches silent font fallback (Hangul-deep, CJK-aware), tracking damage, text collisions, off-canvas bleed, and AI-generated deck tells in built .pptx files",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/Love-Ash/archforge",
@@ -9,17 +9,21 @@
   "maintainer": null,
   "author": "Minjae Kwon (Ash)",
   "repository": "https://github.com/Love-Ash/archforge",
-  "repository_source": "project_urls.homepage",
+  "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1783615724,
+  "pub_date": 1783767902,
   "project_urls": {
-    "Homepage": "https://github.com/Love-Ash/archforge"
+    "Homepage": "https://github.com/Love-Ash/archforge",
+    "Issues": "https://github.com/Love-Ash/archforge/issues",
+    "Source": "https://github.com/Love-Ash/archforge",
+    "Documentation": "https://github.com/Love-Ash/archforge#readme",
+    "Changelog": "https://github.com/Love-Ash/archforge/blob/main/CHANGELOG.md"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
