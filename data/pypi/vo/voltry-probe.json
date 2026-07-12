@@ -1,26 +1,29 @@
 {
   "name": "voltry-probe",
-  "version": "0.3.0",
-  "summary": "Local evidence capture, signing, and offline certificate rendering for data-center GPUs. Scan reads NVML/DCGM/Redfish/attestation without mutating the device; submission is a separate opt-in command.",
+  "version": "0.3.1",
+  "summary": "Local evidence capture, signing, and offline certificate rendering for data-center GPUs. Scan reads NVML without mutating the device and verifies operator-supplied attestation reports; submission is a separate opt-in command.",
   "license": null,
   "license_expression": "Apache-2.0",
   "home_page": "https://www.voltry.io",
   "home_page_source": "project_urls.homepage",
   "maintainer": null,
-  "author": null,
-  "repository": "https://www.voltry.io",
-  "repository_source": "project_urls.homepage",
+  "author": "Voltry",
+  "repository": "https://github.com/Voltry-tech/voltry-probe",
+  "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1783815331,
+  "pub_date": 1783837781,
   "project_urls": {
+    "Issues": "https://github.com/Voltry-tech/voltry-probe/issues",
+    "Source": "https://github.com/Voltry-tech/voltry-probe",
     "Homepage": "https://www.voltry.io",
-    "Verify": "https://verify.voltry.io"
+    "Verify": "https://verify.voltry.io",
+    "Changelog": "https://github.com/Voltry-tech/voltry-probe/blob/main/packages/voltry-probe/CHANGELOG.md"
   },
-  "has_github_actions": null,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
-  "has_dependabot": null,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_dependabot": false,
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
