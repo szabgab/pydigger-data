@@ -1,7 +1,7 @@
 {
   "name": "uqff",
-  "version": "5.61.2",
-  "summary": "UQFF Star-Magic v5.61.1: Phase E deferred-work cleanup patch — PAPER_1218 + PAPER_1801 PDF LaTeX builds fixed (percent escape + Unicode sanitize + text underscore normalization); PAPER_1087 pinned to Sec.3 table value -0.9435 with explicit OPEN_QUESTION marker; PAPER_872 augmented with DPM shell-transition mechanism (26 shells to Fe, 14 to Si); CP1 audit: 99.2 percent functional or by-design, only 11 real bugs found; 4 fixed (3 NameError F_UQFF_factor typo + RedDwarf OverflowError guard). Gate 1031/0.",
+  "version": "5.62.1",
+  "summary": "UQFF Star-Magic v5.62.1: pyproject.toml TOML syntax repair (unclosed [tool.ruff.lint.per-file-ignores] table from prior truncation blocked v5.62.0 wheel build; per-file-ignores now closed with sensible defaults). All v5.62.0 payload preserved: R117-R129 CP1 P2 stub drainage + PAPER_1985-1992 + 4 catalog revisions. Fidelity gate 1062/0.",
   "license": null,
   "license_expression": "AGPL-3.0-or-later",
   "home_page": "https://github.com/Daniel8Murphy0007/Star-Magic",
@@ -12,14 +12,14 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1783804287,
+  "pub_date": 1783888309,
   "project_urls": {
-    "Commercial License": "https://github.com/Daniel8Murphy0007/Star-Magic/blob/main/COMMERCIAL.md",
-    "Changelog": "https://github.com/Daniel8Murphy0007/Star-Magic/blob/main/SESSION_LOG.md",
-    "Documentation": "https://github.com/Daniel8Murphy0007/Star-Magic#readme",
     "Homepage": "https://github.com/Daniel8Murphy0007/Star-Magic",
+    "Issues": "https://github.com/Daniel8Murphy0007/Star-Magic/issues",
+    "Documentation": "https://github.com/Daniel8Murphy0007/Star-Magic#readme",
+    "Commercial License": "https://github.com/Daniel8Murphy0007/Star-Magic/blob/main/COMMERCIAL.md",
     "Repository": "https://github.com/Daniel8Murphy0007/Star-Magic",
-    "Issues": "https://github.com/Daniel8Murphy0007/Star-Magic/issues"
+    "Changelog": "https://github.com/Daniel8Murphy0007/Star-Magic/blob/main/SESSION_LOG.md"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
