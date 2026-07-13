@@ -1,26 +1,26 @@
 {
   "name": "swarph-shared",
-  "version": "0.3.0",
-  "summary": "Shared substrate primitives for swarph-mesh ecosystem (caller convention, subprocess env scrubbing, JSON-mode harness, peer-name registry, cell.yaml schema). v0.3.0 adds the cell module per substrate-doc R7 §11.1.5 (O5) cell.yaml universal-genome relocation — pure dict→Cell parser; file I/O is swarph-cli's concern.",
+  "version": "0.4.0",
+  "summary": "Shared substrate primitives for swarph-mesh ecosystem (caller convention, subprocess env scrubbing, JSON-mode harness, peer-name registry, cell.yaml schema). v0.3.2 bundles the adversarial-sweep hardening: subprocess_env billing-redirect scrub, string-aware JSON brace extraction, and peer_registry empty-token/malformed-shape/regex-unification fixes.",
   "license": "MIT",
   "license_expression": null,
-  "home_page": "https://github.com/darw007d/swarph-shared",
+  "home_page": "https://github.com/BrainSurfing-tech/swarph-shared",
   "home_page_source": "project_urls.homepage",
   "maintainer": null,
   "author": "Pierre Samson, Claude Opus",
-  "repository": "https://github.com/darw007d/swarph-shared",
+  "repository": "https://github.com/BrainSurfing-tech/swarph-shared",
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1778441425,
+  "pub_date": 1783916516,
   "project_urls": {
-    "Homepage": "https://github.com/darw007d/swarph-shared",
-    "Source": "https://github.com/darw007d/swarph-shared"
+    "Homepage": "https://github.com/BrainSurfing-tech/swarph-shared",
+    "Source": "https://github.com/BrainSurfing-tech/swarph-shared"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
