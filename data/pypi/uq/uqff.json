@@ -1,7 +1,7 @@
 {
   "name": "uqff",
-  "version": "5.62.1",
-  "summary": "UQFF Star-Magic v5.62.1: pyproject.toml TOML syntax repair (unclosed [tool.ruff.lint.per-file-ignores] table from prior truncation blocked v5.62.0 wheel build; per-file-ignores now closed with sensible defaults). All v5.62.0 payload preserved: R117-R129 CP1 P2 stub drainage + PAPER_1985-1992 + 4 catalog revisions. Fidelity gate 1062/0.",
+  "version": "5.62.3",
+  "summary": "UQFF Star-Magic v5.62.3: revert PDF shipping — 233 MB pdf/ + 39 MB whitepapers/ blew past PyPI 100 MB project limit (v5.62.2 upload got 400 File too large). PDFs stay on GitHub + will ship as Release asset; wheel ships MD whitepapers only. All other v5.62.2 fixes preserved: 14 canonical modules added, uqff_api/cli/jupyter restored from v5.61.2, ua_vacuum_manifold + scm_vacuum_manifold fixed. Gate 1062/0.",
   "license": null,
   "license_expression": "AGPL-3.0-or-later",
   "home_page": "https://github.com/Daniel8Murphy0007/Star-Magic",
@@ -12,14 +12,14 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1783888309,
+  "pub_date": 1783906681,
   "project_urls": {
     "Homepage": "https://github.com/Daniel8Murphy0007/Star-Magic",
-    "Issues": "https://github.com/Daniel8Murphy0007/Star-Magic/issues",
-    "Documentation": "https://github.com/Daniel8Murphy0007/Star-Magic#readme",
     "Commercial License": "https://github.com/Daniel8Murphy0007/Star-Magic/blob/main/COMMERCIAL.md",
-    "Repository": "https://github.com/Daniel8Murphy0007/Star-Magic",
-    "Changelog": "https://github.com/Daniel8Murphy0007/Star-Magic/blob/main/SESSION_LOG.md"
+    "Issues": "https://github.com/Daniel8Murphy0007/Star-Magic/issues",
+    "Changelog": "https://github.com/Daniel8Murphy0007/Star-Magic/blob/main/SESSION_LOG.md",
+    "Documentation": "https://github.com/Daniel8Murphy0007/Star-Magic#readme",
+    "Repository": "https://github.com/Daniel8Murphy0007/Star-Magic"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
