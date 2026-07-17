@@ -1,7 +1,7 @@
 {
   "name": "ranbval-sdk",
-  "version": "3.4.0",
-  "summary": "Keep API secrets out of plaintext config: layered .ranbval* env files, decrypt vault tokens only when used, with built-in repo-allowlist enforcement and automatic usage telemetry to the Live Monitor—minimal deps, your own HTTP/SDK stack.",
+  "version": "3.5.3",
+  "summary": "Secrets that refuse to be stolen: API keys sealed with AES-256-GCM that decrypt only on your allowlisted repo, raise a security error if anything tries to print or read them, and alert you on every access attempt.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://secret.ranbval.com",
@@ -12,13 +12,16 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1783966119,
+  "pub_date": 1784304348,
   "project_urls": {
+    "Company": "https://ranbval.com",
+    "Documentation": "https://github.com/TariqDreamsTech/ranbval-sdk#readme",
+    "Changelog": "https://github.com/TariqDreamsTech/ranbval-sdk/blob/main/CHANGELOG.md",
+    "Homepage": "https://secret.ranbval.com",
     "Repository": "https://github.com/TariqDreamsTech/ranbval-sdk",
-    "Documentation": "https://api.secret.ranbval.com/docs",
-    "Homepage": "https://secret.ranbval.com"
+    "Bug Tracker": "https://github.com/TariqDreamsTech/ranbval-sdk/issues"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
   "has_pyproject_toml": true,
