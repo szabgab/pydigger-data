@@ -1,7 +1,7 @@
 {
   "name": "hotato",
-  "version": "1.6.1",
-  "summary": "Conversation QA for voice agents. Catch the calls that pass every text check but talk over the caller, skip a required disclosure, or claim a task that never happened. Self-hosted, offline, MIT.",
+  "version": "1.9.0",
+  "summary": "Regression testing for voice agents: turn timing scored from two-channel calls, exit 0/1 in CI; plus say-do verification from your traces and content-addressed failure records that reproduce byte-for-byte. Self-hosted, MIT.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://hotato.dev",
@@ -12,18 +12,18 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1784046729,
+  "pub_date": 1784326208,
   "project_urls": {
+    "Changelog": "https://github.com/attenlabs/hotato/blob/main/CHANGELOG.md",
+    "Documentation": "https://github.com/attenlabs/hotato/tree/main/docs",
+    "Bug Tracker": "https://github.com/attenlabs/hotato/issues",
     "Open engine (upstream)": "https://github.com/quantumCF/voice-agent-barge-in-tests",
     "Repository": "https://github.com/attenlabs/hotato",
-    "Bug Tracker": "https://github.com/attenlabs/hotato/issues",
-    "Documentation": "https://github.com/attenlabs/hotato/tree/main/docs",
-    "Changelog": "https://github.com/attenlabs/hotato/blob/main/CHANGELOG.md",
     "Homepage": "https://hotato.dev"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
-  "has_dependabot": false,
+  "has_dependabot": true,
   "has_pyproject_toml": true,
   "has_setup_py": false,
   "has_setup_cfg": false
