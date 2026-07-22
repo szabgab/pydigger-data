@@ -1,28 +1,26 @@
 {
   "name": "axon-lang",
-  "version": "2.17.1",
-  "summary": "AXON — the formal cognitive language. Native Rust + C23 runtime (v2.0.0 Pure Silicon Cognition). This PyPI package is a thin launcher that fetches + execs the precompiled native `axon` binary; the lexer, parser, type-checker, IR generator, runtime, server, and CLI are all native Rust + C23. `pip install axon-lang && axon check x.axon` works exactly like the native binary. Alternatives: `cargo install axon-lang`, GitHub Release binaries, or the axon-enterprise Docker image.",
+  "version": "3.0.0",
+  "summary": "DISCONTINUED — AXON is now a Rust toolchain: cargo install axon-lang",
   "license": null,
-  "license_expression": "AGPL-3.0-or-later",
-  "home_page": "https://github.com/bemarking/axon-constructor",
-  "home_page_source": "project_urls.homepage",
+  "license_expression": "MIT",
+  "home_page": null,
+  "home_page_source": null,
   "maintainer": null,
   "author": "Bemarking AI S.A.S.",
-  "repository": "https://github.com/bemarking/axon-constructor",
-  "repository_source": "project_urls.repository",
+  "repository": "https://github.com/Bemarking/axon-lang",
+  "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1782353826,
+  "pub_date": 1784691296,
   "project_urls": {
-    "Homepage": "https://github.com/bemarking/axon-constructor",
-    "Repository": "https://github.com/bemarking/axon-constructor",
-    "Changelog": "https://github.com/bemarking/axon-constructor/blob/main/.axon-dev/CHANGELOG.md",
-    "Issues": "https://github.com/bemarking/axon-constructor/issues"
+    "Source": "https://github.com/Bemarking/axon-lang",
+    "Rust crate (the real AXON)": "https://crates.io/crates/axon-lang"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
