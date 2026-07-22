@@ -1,0 +1,31 @@
+{
+  "name": "vida-wallet",
+  "version": "0.2.0",
+  "summary": "Session-gated agent wallet for Kaspa (KAS) and Bittensor (TAO) — covenants, subnet payments, x402 auto-pay",
+  "license": "Copyright (c) 2026 Vida Wallet Contributors\n        \n        ## MIT License (Kaspa core, TAO plugin, Agent layer, CLI tools)\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.\n        \n        ## Commercial License (Covenant module)\n        \n        The covenant module — including SilverScript contract sources, escrow\n        logic, payment channel implementations, and agent negotiation protocols\n        under `vida/plugins/covenant/` — is licensed under a commercial,\n        royalty-bearing model. This module is NOT covered by the MIT grant above.\n        \n        ### What this means\n        \n        - **Free for non-commercial use, evaluation, and testing.** You may run,\n          modify, and experiment with covenant code locally, on testnet, and in\n          personal projects at no cost.\n        - **Commercial deployment requires a license.** If you use Vida's covenant\n          module in a revenue-generating product, service, or agent fleet (including\n          hosted or embedded deployments), you must obtain a paid license.\n        - **Small-scale / low-revenue exemption:** Projects under $10,000 annual\n          revenue may request a free commercial license.\n        \n        ### How to obtain a license\n        \n        Contact: `vida-license@` (domain TBD) or open an issue on GitHub titled\n        \"Commercial License Inquiry.\" Include your use case, expected volume,\n        and deployment details. We respond within 5 business days.\n        \n        ### Why commercial?\n        \n        Covenants are the moat — they're the hard on-chain limits that make agent\n        delegation cryptographically enforceable. The R&D and toolchain investment\n        (including SilverScript, Kaspa SDK integration, and Toccata mainnet\n        readiness) is significant. A commercial covenant license ensures ongoing\n        maintenance while keeping the core wallet, TAO plugin, agent layer, and\n        CLI tools MIT-licensed and free forever.\n        \n        ### Scope boundaries\n        \n        | MIT (free forever) | Commercial (license required) |\n        |---|---|\n        | `vida/secure_wallet.py` | `vida/plugins/covenant/` |\n        | `vida/transactions.py` | `vida/plugins/covenant/silverscript/` |\n        | `vida/agents/` (orchestrator, memory, verification) | `vida/agents/negotiation/` |\n        | `vida/plugins/tao/` | Covenant deploy/spend RPC paths |\n        | `scripts/` (CLI tools, admin, MCP) | Fee collection logic |\n        | `tests/` (all test suites) | — |",
+  "license_expression": null,
+  "home_page": "https://github.com/jeffsiegel1965/vida",
+  "home_page_source": "project_urls.homepage",
+  "maintainer": null,
+  "author": null,
+  "repository": "https://github.com/jeffsiegel1965/vida",
+  "repository_source": "project_urls.repository",
+  "download": null,
+  "download_source": null,
+  "pub_date": 1784717629,
+  "project_urls": {
+    "Issues": "https://github.com/jeffsiegel1965/vida/issues",
+    "Homepage": "https://github.com/jeffsiegel1965/vida",
+    "Security": "https://github.com/jeffsiegel1965/vida/blob/main/SECURITY.md",
+    "Documentation": "https://github.com/jeffsiegel1965/vida#readme",
+    "Changelog": "https://github.com/jeffsiegel1965/vida/blob/main/CHANGELOG.md",
+    "Repository": "https://github.com/jeffsiegel1965/vida",
+    "Roadmap": "https://github.com/jeffsiegel1965/vida/blob/main/ROADMAP.md"
+  },
+  "has_github_actions": true,
+  "has_gitlab_pipeline": null,
+  "has_dependabot": false,
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
+}
