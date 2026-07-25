@@ -1,7 +1,7 @@
 {
   "name": "sbi-tt-rates",
-  "version": "0.1.0",
-  "summary": "Unofficial lookup for historical SBI TT buy/sell forex rates, with nearest-prior-date fallback. Not affiliated with SBI. Data may be inaccurate, use at your own risk.",
+  "version": "0.1.1",
+  "summary": "sbi-tt-rates is a lightweight, dependency-free Python library for retrieving historical SBI Telegraphic Transfer (TT) buy and sell forex rates. It automatically falls back to the nearest previous published trading day when an exact date is unavailable, making it useful for income tax calculations, foreign asset reporting, accounting, and financial analysis. Not affiliated with SBI. Data may be inaccurate, use at your own risk.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/jdecodes/sbi-tt-rates",
@@ -9,13 +9,17 @@
   "maintainer": null,
   "author": null,
   "repository": "https://github.com/jdecodes/sbi-tt-rates",
-  "repository_source": "project_urls.homepage",
+  "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1784982668,
+  "pub_date": 1784985073,
   "project_urls": {
+    "Changelog": "https://github.com/jdecodes/sbi-tt-rates/releases",
     "Data Source": "https://github.com/sahilgupta/sbi-fx-ratekeeper",
-    "Homepage": "https://github.com/jdecodes/sbi-tt-rates"
+    "Documentation": "https://github.com/jdecodes/sbi-tt-rates",
+    "Issues": "https://github.com/jdecodes/sbi-tt-rates/issues",
+    "Homepage": "https://github.com/jdecodes/sbi-tt-rates",
+    "Repository": "https://github.com/jdecodes/sbi-tt-rates"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
