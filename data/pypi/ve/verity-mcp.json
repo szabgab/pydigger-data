@@ -1,7 +1,7 @@
 {
   "name": "verity-mcp",
-  "version": "0.1.0",
-  "summary": "Independent fail-closed 'verify before you spend/send/trust' gate for AI agents — MCP server (fact-check, prompt-injection, moderation, PII, pre-action guardrail). Keyless, pay-per-call via x402.",
+  "version": "0.4.2",
+  "summary": "Independent fail-closed 'verify before you act' trust gate for AI agents — MCP server. Tiered, disclosed, pay-per-call via x402 (USDC on Base): quick_verify $0.02, grounded_verify $0.25 (live web citations), pro_verify $0.35, free verify_receipt (checks Ed25519-signed verdict receipts), plus prompt-injection, moderation, PII, and pre-action guardrail checks at $0.02. Keyless.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://veritylayer.dev",
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1782664436,
+  "pub_date": 1785361901,
   "project_urls": {
-    "Homepage": "https://veritylayer.dev",
-    "Repository": "https://github.com/meloliva14/verity-mcp"
+    "Repository": "https://github.com/meloliva14/verity-mcp",
+    "Homepage": "https://veritylayer.dev"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
