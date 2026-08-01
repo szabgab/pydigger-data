@@ -1,7 +1,7 @@
 {
   "name": "chuzom-router",
-  "version": "0.8.6",
-  "summary": "Smart LLM router for Claude Code, Cursor & Copilot — 3× longer sessions, 60–90% token savings. Auto-routes to Ollama, Codex CLI, and Gemini CLI before burning Claude quota.",
+  "version": "1.1.0",
+  "summary": "LLM cost router. On Claude Code a UserPromptSubmit hook intercepts every prompt and can run eligible ones on local/free providers (Ollama, Codex CLI, Gemini CLI) before using Claude quota; on Cursor/Copilot/Windsurf a rules file asks the host model to route (best-effort, not guaranteed). Savings depend on a configured local provider and workload.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/Chuzom/Chuzom",
@@ -12,18 +12,18 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1784585391,
+  "pub_date": 1785596472,
   "project_urls": {
     "Documentation": "https://github.com/Chuzom/Chuzom#readme",
-    "Repository": "https://github.com/Chuzom/Chuzom",
     "Homepage": "https://github.com/Chuzom/Chuzom",
+    "Changelog": "https://github.com/Chuzom/Chuzom/blob/main/CHANGELOG.md",
     "Bug Tracker": "https://github.com/Chuzom/Chuzom/issues",
-    "Changelog": "https://github.com/Chuzom/Chuzom/blob/main/CHANGELOG.md"
+    "Repository": "https://github.com/Chuzom/Chuzom"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": true,
   "has_pyproject_toml": true,
   "has_setup_py": false,
-  "has_setup_cfg": false
+  "has_setup_cfg": true
 }
