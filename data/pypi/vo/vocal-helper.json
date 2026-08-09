@@ -1,7 +1,7 @@
 {
   "name": "vocal-helper",
-  "version": "1.0.0",
-  "summary": "Vocal Helper — async producer/consumer pipeline turning a live PCM stream into diarized, transcribed utterances and (optionally) a rolling LLM summary. Stages: Voice Activity Detection → online speaker diarization (Hungarian-style cosine clustering on backend embeddings) → STT (pywhispercpp turbo) → optional analyst (a local Ollama model, picked by best-engine-ai-helper).",
+  "version": "2.0.0",
+  "summary": "Vocal Helper — async producer/consumer pipeline turning a live PCM stream into diarized, transcribed utterances and (optionally) a rolling LLM summary. Stages: Voice Activity Detection → online speaker diarization (Hungarian-style cosine clustering on backend embeddings) → STT (pywhispercpp turbo) → optional analyst (a local model served via Ollama or vLLM, resolved by best-engine-ai-helper from a committed brief).",
   "license": "BSD-3-Clause",
   "license_expression": null,
   "home_page": "https://github.com/warith-harchaoui/vocal-helper",
@@ -12,14 +12,14 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1785697170,
+  "pub_date": 1786288526,
   "project_urls": {
-    "Homepage": "https://github.com/warith-harchaoui/vocal-helper",
     "Changelog": "https://github.com/warith-harchaoui/vocal-helper/blob/main/CHANGELOG.md",
+    "Homepage": "https://github.com/warith-harchaoui/vocal-helper",
     "Repository": "https://github.com/warith-harchaoui/vocal-helper",
+    "Documentation": "https://github.com/warith-harchaoui/vocal-helper#readme",
     "Deployment guide": "https://github.com/warith-harchaoui/vocal-helper/blob/main/TECHNICAL_STACK.md",
     "Issues": "https://github.com/warith-harchaoui/vocal-helper/issues",
-    "Documentation": "https://github.com/warith-harchaoui/vocal-helper#readme",
     "Study log": "https://github.com/warith-harchaoui/vocal-helper/tree/main/studies"
   },
   "has_github_actions": true,
