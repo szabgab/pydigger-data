@@ -1,7 +1,7 @@
 {
   "name": "ragleap-rag",
-  "version": "0.11.0",
-  "summary": "A fast, honest, self-hosted RAG engine — hybrid dense+sparse retrieval, streaming, provider fallback, and real token usage reporting. BYOK, no vendor lock-in.",
+  "version": "0.12.2",
+  "summary": "Self-hosted RAG engine: hybrid dense+sparse retrieval, 28-format ingestion (docs, URLs, images, audio, video), 6 vector backends, 8 embedding providers, 12+ generation providers with automatic fallback, query rewriting (HyDE/contextual/multi-query), structured JSON output, real per-call cost tracking, and standalone retrieval via retrieve(). Composable with the optional ragleap-graph package for knowledge-graph-augmented retrieval. BYOK, no vendor lock-in, no hardcoded model defaults.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/antonyrag/ragleap-core",
@@ -12,16 +12,16 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1785581838,
+  "pub_date": 1786445453,
   "project_urls": {
-    "Documentation": "https://docs.ragleap.com",
+    "Documentation": "https://packages.ragleap.com/docs/ragleap-rag.html",
+    "Repository": "https://github.com/antonyrag/ragleap-core",
     "Issues": "https://github.com/antonyrag/ragleap-core/issues",
-    "Homepage": "https://github.com/antonyrag/ragleap-core",
-    "Repository": "https://github.com/antonyrag/ragleap-core"
+    "Homepage": "https://github.com/antonyrag/ragleap-core"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
-  "has_dependabot": false,
+  "has_dependabot": true,
   "has_pyproject_toml": false,
   "has_setup_py": false,
   "has_setup_cfg": false
