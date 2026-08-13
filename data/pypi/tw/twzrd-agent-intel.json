@@ -1,30 +1,30 @@
 {
   "name": "twzrd-agent-intel",
-  "version": "0.2.7",
-  "summary": "Trust + receipt layer that Solana agents call before and after paying over x402 — free preflight readiness cards, paid signed V5 trust receipts, and a wash/Sybil-resistant agent reputation corpus. MCP + HTTP.",
+  "version": "0.5.8",
+  "summary": "Pre-spend x402 counterparty reputation from observed behavior, with free preflight, signed V6 receipts, and a 24-tool MCP.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://intel.twzrd.xyz",
   "home_page_source": "project_urls.homepage",
   "maintainer": null,
   "author": null,
-  "repository": "https://github.com/twzrd-sol/wzrd-final",
-  "repository_source": "project_urls.repository",
+  "repository": "https://github.com/twzrd-sol/twzrd-trust",
+  "repository_source": "project_urls.sourcecode",
   "download": null,
   "download_source": null,
-  "pub_date": 1780863682,
+  "pub_date": 1786650876,
   "project_urls": {
+    "Agent Card": "https://intel.twzrd.xyz/.well-known/agent-card.json",
+    "Documentation": "https://intel.twzrd.xyz/llms.txt",
     "Homepage": "https://intel.twzrd.xyz",
     "MCP Card": "https://intel.twzrd.xyz/.well-known/mcp.json",
-    "Agent Card": "https://intel.twzrd.xyz/.well-known/agent-card.json",
-    "Public Leaderboard": "https://twzrd.xyz/leaderboard",
-    "Repository": "https://github.com/twzrd-sol/wzrd-final",
-    "Documentation": "https://intel.twzrd.xyz/llms.txt"
+    "Source Code": "https://github.com/twzrd-sol/twzrd-trust",
+    "Public Leaderboard": "https://twzrd.xyz/leaderboard"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": false,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
