@@ -1,6 +1,6 @@
 {
   "name": "swarph-cli",
-  "version": "0.42.9",
+  "version": "0.43.0",
   "summary": "The `swarph` binary — a multi-LLM CLI and mesh-gateway client + bundled server (`swarph gateway`): one-shot prompts across providers, interactive `chat`, multi-provider `spawn` (claude/codex/antigravity via a ProviderMembrane with subprocess billing-scrub), `mesh` send/inbox/register, `brain-ask` over the swarph-brain (gbrain) semantic memory, git-backed `assisted_memory`, session `import`, and a stranded-session `watchdog`.",
   "license": "MIT",
   "license_expression": null,
@@ -12,16 +12,16 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1786544999,
+  "pub_date": 1786911293,
   "project_urls": {
-    "Substrate": "https://github.com/BrainSurfing-tech/swarph-mesh",
     "Homepage": "https://github.com/BrainSurfing-tech/swarph-cli",
-    "Source": "https://github.com/BrainSurfing-tech/swarph-cli"
+    "Source": "https://github.com/BrainSurfing-tech/swarph-cli",
+    "Substrate": "https://github.com/BrainSurfing-tech/swarph-mesh"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
