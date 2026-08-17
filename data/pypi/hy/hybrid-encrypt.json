@@ -1,7 +1,7 @@
 {
   "name": "hybrid-encrypt",
-  "version": "1.0.0",
-  "summary": "A hybrid encryption library combining RSA-2048 and AES-256 for secure message encryption and decryption",
+  "version": "1.0.1",
+  "summary": "A hybrid encryption library combining RSA-2048 and AES-256 for secure message encryption and decryption. Messages are encrypted with a freshly generated AES-256 key, which is then wrapped with the recipient's RSA-2048 public key, combining the security of asymmetric cryptography with the speed of symmetric encryption. Ships a pure-Python API (HybridEncryption, EncryptedPayload, KeyStorage, PayloadStorage), PEM key management, JSON payload serialisation, and a full CLI.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/raptor7197/hybrid-encrypt",
@@ -12,12 +12,12 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1773508601,
+  "pub_date": 1786946022,
   "project_urls": {
-    "Homepage": "https://github.com/raptor7197/hybrid-encrypt",
-    "Repository": "https://github.com/raptor7197/hybrid-encrypt",
     "Issues": "https://github.com/raptor7197/hybrid-encrypt/issues",
-    "Changelog": "https://github.com/raptor7197/hybrid-encrypt/CHANGELOG.md"
+    "Homepage": "https://github.com/raptor7197/hybrid-encrypt",
+    "Changelog": "https://github.com/raptor7197/hybrid-encrypt/CHANGELOG.md",
+    "Repository": "https://github.com/raptor7197/hybrid-encrypt"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
