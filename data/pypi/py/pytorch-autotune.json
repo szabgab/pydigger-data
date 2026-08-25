@@ -1,7 +1,7 @@
 {
   "name": "pytorch-autotune",
-  "version": "1.0.3",
-  "summary": "One-call setup of PyTorch's built-in training optimizations (AMP, torch.compile, fused optimizers, TF32, channels-last)",
+  "version": "2.0.0",
+  "summary": "Measurement-driven PyTorch training autotuner: tries precision/compile/memory-format configs on your model, keeps the fastest, never returns one slower than your baseline",
   "license": null,
   "license_expression": null,
   "home_page": "https://github.com/JonSnow1807/pytorch-autotune",
@@ -12,14 +12,14 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1787681098,
+  "pub_date": 1787692005,
   "project_urls": {
-    "Bug Reports": "https://github.com/JonSnow1807/pytorch-autotune/issues",
-    "Homepage": "https://github.com/JonSnow1807/pytorch-autotune",
     "Source": "https://github.com/JonSnow1807/pytorch-autotune",
-    "Documentation": "https://github.com/JonSnow1807/pytorch-autotune#readme"
+    "Homepage": "https://github.com/JonSnow1807/pytorch-autotune",
+    "Documentation": "https://github.com/JonSnow1807/pytorch-autotune#readme",
+    "Bug Reports": "https://github.com/JonSnow1807/pytorch-autotune/issues"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
   "has_pyproject_toml": false,
