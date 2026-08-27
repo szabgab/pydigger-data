@@ -1,7 +1,7 @@
 {
   "name": "gridpointcode-algo-pranavpatel-ca",
-  "version": "1.1.0",
-  "summary": "Grid Point Code (GPC) is a global geocoding system that gives any location a compact 11-character alphanumeric code. Encoding and decoding run offline, with no network or API, and round-trip exactly at the code's fixed precision of five decimal places of latitude and longitude.",
+  "version": "2.0.0",
+  "summary": "Grid Point Code (GPC) names any location on Earth with a compact ten-character alphanumeric code. Encoding and decoding run offline, with no network and no lookup table, and two codes share their first k characters exactly when the two points lie in the same level-k cell, so a shared prefix is a shared region.",
   "license": null,
   "license_expression": null,
   "home_page": "https://github.com/octopranav/Grid-Point-Code",
@@ -9,15 +9,18 @@
   "maintainer": null,
   "author": null,
   "repository": "https://github.com/octopranav/Grid-Point-Code",
-  "repository_source": "project_urls.homepage",
+  "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1787607380,
+  "pub_date": 1787802901,
   "project_urls": {
+    "Documentation": "https://github.com/octopranav/Grid-Point-Code/blob/main/SPEC.md",
     "Bug Tracker": "https://github.com/octopranav/Grid-Point-Code/issues",
-    "Homepage": "https://github.com/octopranav/Grid-Point-Code"
+    "Changelog": "https://github.com/octopranav/Grid-Point-Code/blob/main/CHANGELOG.md",
+    "Homepage": "https://github.com/octopranav/Grid-Point-Code",
+    "Repository": "https://github.com/octopranav/Grid-Point-Code"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
   "has_pyproject_toml": false,
