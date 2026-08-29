@@ -1,25 +1,26 @@
 {
   "name": "brainsless-connect",
-  "version": "1.0.0",
-  "summary": "Seals a repository's environment variables and hands them to Brainsless",
+  "version": "2.0.0",
+  "summary": "Collects the environment variables a repository needs to run, encrypts them on your machine against the Brainsless vault's key, and sends only ciphertext. The control plane that stores them cannot read them.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://brainsless.com",
   "home_page_source": "project_urls.homepage",
   "maintainer": null,
-  "author": "Brainsless",
-  "repository": "https://brainsless.com",
-  "repository_source": "project_urls.homepage",
+  "author": null,
+  "repository": "https://github.com/brainsless/vault",
+  "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1786894999,
+  "pub_date": 1788003789,
   "project_urls": {
-    "Homepage": "https://brainsless.com"
+    "Homepage": "https://brainsless.com",
+    "Repository": "https://github.com/brainsless/vault"
   },
-  "has_github_actions": null,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
-  "has_dependabot": null,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_dependabot": false,
+  "has_pyproject_toml": false,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
