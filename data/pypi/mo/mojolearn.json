@@ -1,7 +1,7 @@
 {
   "name": "mojolearn",
-  "version": "0.1.0",
-  "summary": "GPU machine learning in Mojo. Gradient boosting, random forests, extra trees, k-means, k-NN, DBSCAN, PCA and OLS on Apple silicon, bit-identical across GPU vendors on request",
+  "version": "0.2.0",
+  "summary": "GPU machine learning in Mojo. Gradient boosting, random forests, extra trees, SVM, k-means, k-NN, DBSCAN, PCA, hierarchical and spectral clustering, GLMs, scoring metrics and an FP32 matmul, on Apple silicon through Metal and from the same source on NVIDIA and AMD. Three numeric modes per estimator: fast, deterministic (same bits every run) and identical (same bits on every GPU vendor)",
   "license": null,
   "license_expression": "Apache-2.0",
   "home_page": "https://github.com/mojolearn/mojolearn",
@@ -12,11 +12,11 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1787488460,
+  "pub_date": 1788076138,
   "project_urls": {
-    "Repository": "https://github.com/mojolearn/mojolearn",
     "Homepage": "https://github.com/mojolearn/mojolearn",
-    "Issues": "https://github.com/mojolearn/mojolearn/issues"
+    "Issues": "https://github.com/mojolearn/mojolearn/issues",
+    "Repository": "https://github.com/mojolearn/mojolearn"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
