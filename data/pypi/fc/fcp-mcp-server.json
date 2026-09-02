@@ -1,7 +1,7 @@
 {
   "name": "fcp-mcp-server",
-  "version": "0.16.0",
-  "summary": "MCP server for Final Cut Pro XML. 7 grouped tools (62 underlying operations) for timeline analysis, batch editing, QC, generation, multi-track support, NLE export, templates, media relink, .fcpxmld bundles, and real media analysis (silence detection + auto-removal, beat detection, local Whisper transcript editing) via Claude.",
+  "version": "0.19.3",
+  "summary": "MCP server for Final Cut Pro XML. 13 grouped tools (88 operations): timeline analysis, batch editing, QC, generation, multi-track, NLE export, media relink, .fcpxmld bundles, real media analysis (silence, beats, shot boundaries, local Whisper or ElevenLabs transcripts), a SQLite cache, ffmpeg proxy preview with source-media verification, export watch-folder round-trip, EDL import, an operation journal with undo, a review gate on delivery, bulk organize, tiered shot search with offline captions.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/DareDev256/fcp-mcp-server",
@@ -12,12 +12,12 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1787098836,
+  "pub_date": 1788363837,
   "project_urls": {
-    "Issues": "https://github.com/DareDev256/fcp-mcp-server/issues",
     "Changelog": "https://github.com/DareDev256/fcp-mcp-server/blob/main/CHANGELOG.md",
-    "Homepage": "https://github.com/DareDev256/fcp-mcp-server",
-    "Repository": "https://github.com/DareDev256/fcp-mcp-server.git"
+    "Issues": "https://github.com/DareDev256/fcp-mcp-server/issues",
+    "Repository": "https://github.com/DareDev256/fcp-mcp-server.git",
+    "Homepage": "https://github.com/DareDev256/fcp-mcp-server"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
