@@ -1,7 +1,7 @@
 {
   "name": "swarph-shared",
-  "version": "0.7.0",
-  "summary": "Shared substrate primitives for swarph-mesh ecosystem (caller convention, subprocess env scrubbing, JSON-mode harness, peer-name registry, cell.yaml schema). v0.3.2 bundles the adversarial-sweep hardening: subprocess_env billing-redirect scrub, string-aware JSON brace extraction, and peer_registry empty-token/malformed-shape/regex-unification fixes.",
+  "version": "0.8.1",
+  "summary": "Shared substrate primitives for swarph-mesh ecosystem (caller convention, subprocess env scrubbing, JSON-mode harness, peer-name registry, cell.yaml schema, LLM cost reconciliation). v0.8.0 adds llm_cost: one LiteLLM-sourced price base + one cost function for the whole mesh, self-checking via claude -p's own reported cost per call. v0.8.1 fixes fetch_price_base() silently zero-pricing entries LiteLLM has no real listing for, instead of excluding them.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/BrainSurfing-tech/swarph-shared",
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1786377447,
+  "pub_date": 1788561316,
   "project_urls": {
     "Source": "https://github.com/BrainSurfing-tech/swarph-shared",
     "Homepage": "https://github.com/BrainSurfing-tech/swarph-shared"
