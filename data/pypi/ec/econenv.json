@@ -1,6 +1,6 @@
 {
   "name": "econenv",
-  "version": "0.1.7",
+  "version": "1.0.9",
   "summary": "One Notebook. Multiple Econometric Engines. Python, R, Stata and EViews in a single Jupyter session.",
   "license": "MIT License\n        \n        Copyright (c) 2026 Merwan Roudane\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.\n        \n        ---------------------------------------------------------------------------\n        THIRD-PARTY SOFTWARE\n        ---------------------------------------------------------------------------\n        \n        The MIT licence above covers the EconEnv source code only. It grants no rights\n        whatsoever in the third-party programs EconEnv can talk to.\n        \n        EconEnv contains, bundles and redistributes NO part of:\n        \n          * Stata      (c) StataCorp LLC       - https://www.stata.com\n          * EViews     (c) IHS Global Inc.     - https://www.eviews.com\n          * R          (c) The R Foundation    - GPL-2 / GPL-3\n        \n        No binaries, no libraries, no licence files, no serial numbers, no activation\n        keys. EconEnv locates software that is already installed on the user's own\n        machine and drives it through each vendor's documented automation interface\n        (PyStata for Stata, COM for EViews, the R console or rpy2 for R).\n        \n        Users are solely responsible for obtaining, installing and licensing Stata and\n        EViews, and for complying with those licences - including any restriction on\n        concurrent sessions, server deployment or automated use. Nothing in this\n        licence modifies, waives or supersedes the terms of the Stata, EViews or R\n        licences.\n        \n        R is free software distributed under the GNU General Public Licence. EconEnv's\n        default R backend runs R as a separate process over its documented command-line\n        interface and does not link against R, so EconEnv is not a derivative work of\n        R. The optional rpy2 backend is a separate package, installed by the user, and\n        is governed by rpy2's own licence.",
   "license_expression": null,
@@ -12,13 +12,13 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1788542687,
+  "pub_date": 1788588614,
   "project_urls": {
+    "Homepage": "https://github.com/merwanroudane/econenv",
     "Issues": "https://github.com/merwanroudane/econenv/issues",
     "PyPI": "https://pypi.org/project/econenv/",
     "Repository": "https://github.com/merwanroudane/econenv",
     "Changelog": "https://github.com/merwanroudane/econenv/blob/main/CHANGELOG.md",
-    "Homepage": "https://github.com/merwanroudane/econenv",
     "Documentation": "https://merwanroudane.github.io/econenv/"
   },
   "has_github_actions": true,
