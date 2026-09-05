@@ -1,7 +1,7 @@
 {
   "name": "agentic-hil",
-  "version": "0.21.2",
-  "summary": "A green build is not enough: Agentic HIL lets an AI agent probe, flash, reset and exchange UART and CAN traffic with a real STM32 or other embedded target, through policy-gated MCP tools instead of a raw debugger shell, so hardware-in-the-loop tests run unattended in CI.",
+  "version": "0.21.3",
+  "summary": "Hardware-in-the-loop MCP server for AI coding agents: develop firmware on the real board behind your debug probe, flashing, resetting and driving UART and CAN against it. The run on the hardware is the gate that decides the work is done, and a pytest plugin runs the same gate in CI.",
   "license": null,
   "license_expression": "Apache-2.0",
   "home_page": "https://github.com/agentic-hil/agentic-hil",
@@ -12,13 +12,13 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1788502188,
+  "pub_date": 1788600604,
   "project_urls": {
     "Documentation": "https://agentic-hil.readthedocs.io/",
-    "Changelog": "https://github.com/agentic-hil/agentic-hil/blob/master/CHANGELOG.md",
     "Issues": "https://github.com/agentic-hil/agentic-hil/issues",
     "Repository": "https://github.com/agentic-hil/agentic-hil.git",
-    "Homepage": "https://github.com/agentic-hil/agentic-hil"
+    "Homepage": "https://github.com/agentic-hil/agentic-hil",
+    "Changelog": "https://github.com/agentic-hil/agentic-hil/blob/master/CHANGELOG.md"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
