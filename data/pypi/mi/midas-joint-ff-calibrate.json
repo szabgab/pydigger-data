@@ -1,6 +1,6 @@
 {
   "name": "midas-joint-ff-calibrate",
-  "version": "0.4.0",
+  "version": "0.4.2",
   "summary": "Joint differentiable powder + FF-HEDM detector calibration for MIDAS. Breaks single-distance per-panel rank-1 degeneracy by combining a powder calibrant pseudo-strain residual with HEDM grain spot residuals in one Bayesian MAP + Laplace inference. Pure-Python, fully autograd-traced; consumes the shared midas_peakfit substrate (ParameterSpec, lm_minimise, laplace_at_map, TPSpline, zero_sum_residual) plus midas_calibrate_v2 (powder forward + pseudo_strain) and midas_fit_grain (HEDM spot forward).",
   "license": "BSD-3-Clause",
   "license_expression": null,
@@ -12,7 +12,7 @@
   "repository_source": null,
   "download": null,
   "download_source": null,
-  "pub_date": 1787167862,
+  "pub_date": 1788724648,
   "project_urls": {},
   "has_github_actions": null,
   "has_gitlab_pipeline": null,
