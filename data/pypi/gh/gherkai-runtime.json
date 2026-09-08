@@ -1,7 +1,7 @@
 {
   "name": "gherkai-runtime",
-  "version": "0.0.0",
-  "summary": "Name reserved for the gherkai project (placeholder). Real releases start at 1.4.0 — see https://github.com/zhiyanliu/gherkai",
+  "version": "1.4.0",
+  "summary": "gherkai 产品本体 = 组合根共享层：引擎注册表/装配 + local 无状态跑批宿主 + 资源命名真源（ADR 0016「演进」节）。cli/Lambda/WebUI 都是它的入口皮。发行名 gherkai-runtime / import 名 gherkai_runtime（ADR 0037）",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/zhiyanliu/gherkai",
@@ -12,15 +12,16 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1788765663,
+  "pub_date": 1788858095,
   "project_urls": {
     "Repository": "https://github.com/zhiyanliu/gherkai",
-    "Homepage": "https://github.com/zhiyanliu/gherkai"
+    "Homepage": "https://github.com/zhiyanliu/gherkai",
+    "Changelog": "https://github.com/zhiyanliu/gherkai/releases"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": false,
+  "has_pyproject_toml": true,
   "has_setup_py": false,
   "has_setup_cfg": false
 }
