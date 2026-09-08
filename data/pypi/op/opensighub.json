@@ -1,7 +1,7 @@
 {
   "name": "opensighub",
-  "version": "0.3.0a1",
-  "summary": "OpenSigHub wraps different code signing tools and schemes in a common CLI",
+  "version": "0.3.1a1",
+  "summary": "OpenSigHub signs boot and operating system artifacts like UEFI Secure Boot, NXP HAB4 or swupdate files",
   "license": null,
   "license_expression": "GPL-3.0-or-later AND 0BSD",
   "home_page": "https://github.com/Linutronix/opensighub",
@@ -12,16 +12,17 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1787694073,
+  "pub_date": 1788865841,
   "project_urls": {
     "Issues": "https://github.com/Linutronix/opensighub/issues",
-    "Repository": "https://github.com/Linutronix/opensighub",
-    "Homepage": "https://github.com/Linutronix/opensighub"
+    "Homepage": "https://github.com/Linutronix/opensighub",
+    "Documentation": "https://github.com/Linutronix/opensighub/blob/main/docs/user-manual.md",
+    "Repository": "https://github.com/Linutronix/opensighub"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
