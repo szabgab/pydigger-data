@@ -1,7 +1,7 @@
 {
   "name": "s-iokit",
-  "version": "0.1.0",
-  "summary": "Переиспользуемое ядро масштабируемой in-out архитектуры: 3-осевая композиция Transport × Connector × Service поверх s-librarykit. Generic Event + Router + DeliveryBus + Supervisor; белые API (токен/REST) и hidden (сессия/реверс) — единый контракт входящих/исходящих точек.",
+  "version": "0.2.0",
+  "summary": "Волна 5 (Atlas #2710) разрезала iokit на три части: транспорт — алиас на netkit.inbound; Router/Bus/Connector/Event/Service/Supervisor и живые встроенные сервисы — переехали физически внутрь gateway (единственный потребитель). Пакет остаётся только ради обратной совместимости адреса iokit.transport.",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": null,
   "download": null,
   "download_source": null,
-  "pub_date": 1784147107,
+  "pub_date": 1788890754,
   "project_urls": {},
   "has_github_actions": null,
   "has_gitlab_pipeline": null,
