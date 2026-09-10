@@ -1,7 +1,7 @@
 {
   "name": "django-explain-errors",
-  "version": "0.5.0",
-  "summary": "Django middleware that captures errors and exceptions, sends them to OpenAI for a detailed explanation, and prints the explanation to stdout when debug mode is enabled. Supports both sync and async views.",
+  "version": "0.6.0",
+  "summary": "Django middleware that explains unhandled exceptions in DEBUG using an LLM, optionally grounded in your own project source via a local vector index. Works with OpenAI, Claude, or any OpenAI-compatible endpoint including local models.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/topunix/django-explain-errors",
@@ -12,7 +12,7 @@
   "repository_source": "project_urls.homepage",
   "download": null,
   "download_source": null,
-  "pub_date": 1789007688,
+  "pub_date": 1789082949,
   "project_urls": {
     "Homepage": "https://github.com/topunix/django-explain-errors"
   },
