@@ -1,7 +1,7 @@
 {
   "name": "swarph-mesh",
-  "version": "0.7.9",
-  "summary": "Model-agnostic Python substrate for the swarph-mesh ecosystem — the graph protocol third-party CLIs plug into. v0.7.9 adds the GrokCLIAdapter (provider 'grok-cli'): the $0 SUBSCRIPTION Grok lane via firejail-sandboxed `grok --prompt-file` on a SuperGrok-Heavy OIDC session token (sibling of the metered 'grok' adapter), with prompt-file 0600 + memory-store blacklist + endpoint-redirect scrub hardening.",
+  "version": "0.9.0",
+  "summary": "Model-agnostic Python substrate for the swarph-mesh ecosystem — the graph protocol third-party CLIs plug into. v0.8.0 adds the VibeCLIAdapter (provider 'vibe-cli'): the EU-domiciled SUBSCRIPTION Mistral lane via firejail-sandboxed `vibe -p`, with a --max-price hard cost ceiling enforced per call, no tools at all, an ephemeral VIBE_HOME (stateless by construction), the prompt piped on stdin so it never touches disk, and a declared-not-attested jurisdiction attribute for residency-aware routing.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/BrainSurfing-tech/swarph-mesh",
@@ -12,12 +12,12 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1781380881,
+  "pub_date": 1789110978,
   "project_urls": {
-    "Plugin": "https://github.com/BrainSurfing-tech/swarph-meshlm",
+    "Source": "https://github.com/BrainSurfing-tech/swarph-mesh",
     "CLI": "https://github.com/BrainSurfing-tech/swarph-cli",
     "Homepage": "https://github.com/BrainSurfing-tech/swarph-mesh",
-    "Source": "https://github.com/BrainSurfing-tech/swarph-mesh"
+    "Plugin": "https://github.com/BrainSurfing-tech/swarph-meshlm"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
