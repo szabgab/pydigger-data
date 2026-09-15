@@ -1,7 +1,7 @@
 {
   "name": "hipcortex",
-  "version": "3.11.0",
-  "summary": "Cognitive state substrate for AI agents — Python SDK + CLI. Universal server-side passive capture (any channel, zero client changes); ships the 61-tool / 7-resource MCP server; hard single-role runner, observation-content predicate scorer, GoalRevision→ClarifyEngine, 24h field log, WAL-persistent. LangChain, AutoGen, CrewAI, MCP",
+  "version": "3.13.0",
+  "summary": "Cognitive state substrate for AI agents — Python SDK + CLI. Graceful shutdown + auto-backup (POST /v1/backup tars 4 data files); actor merge (merge_actor MCP tool); snapshot CLI; VSIX dedup guard; schema-compat proven; universal passive capture; 62-tool / 7-resource MCP server; WAL-persistent. LangChain, AutoGen, CrewAI, MCP",
   "license": "Apache-2.0",
   "license_expression": null,
   "home_page": "https://github.com/farmountain/HipCortex",
@@ -12,12 +12,12 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1789229276,
+  "pub_date": 1789488122,
   "project_urls": {
-    "Homepage": "https://github.com/farmountain/HipCortex",
     "Issues": "https://github.com/farmountain/HipCortex/issues",
     "Repository": "https://github.com/farmountain/HipCortex",
-    "Benchmark": "https://github.com/farmountain/HipCortex/blob/main/BENCHMARK.md"
+    "Benchmark": "https://github.com/farmountain/HipCortex/blob/main/BENCHMARK.md",
+    "Homepage": "https://github.com/farmountain/HipCortex"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
