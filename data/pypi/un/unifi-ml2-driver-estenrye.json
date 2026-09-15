@@ -1,6 +1,6 @@
 {
   "name": "unifi-ml2-driver-estenrye",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "summary": "Unifi Modular Layer 2 (ML2) driver -- estenrye fork: fixes the _get_controller NoSuchOptError bug (see ubiquiti-community/networking-unifi#17) and relaxes requires-python back to >=3.10.12, matching what the code actually needs (verified against a real Python 3.10.12 + neutron/oslo_config environment) rather than upstream's >=3.12.0 policy bump. Same import name (unifi_ml2_driver) and entry point (unifi) as upstream -- only the distribution name differs, so this is a drop-in pip replacement.",
   "license": null,
   "license_expression": null,
@@ -12,11 +12,11 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1789440245,
+  "pub_date": 1789444526,
   "project_urls": {
-    "Repository": "https://github.com/estenrye/networking-unifi",
+    "upstream": "https://github.com/ubiquiti-community/networking-unifi",
     "Documentation": "https://github.com/estenrye/networking-unifi/tree/main/doc/source",
-    "upstream": "https://github.com/ubiquiti-community/networking-unifi"
+    "Repository": "https://github.com/estenrye/networking-unifi"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
