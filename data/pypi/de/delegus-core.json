@@ -1,7 +1,7 @@
 {
   "name": "delegus-core",
-  "version": "0.1.0",
-  "summary": "Python port of the Delegus v0.2 protocol layer (delegus-base-v1): Grant/Proof parsing, checks P1-P20, receipt assembly, signing and offline re-verification. No I/O; snapshots and clock are injected. Passes the 40 conformance vectors.",
+  "version": "0.2.0",
+  "summary": "Python port of the Delegus v0.2 protocol layer (delegus-base-v1): Grant/Proof parsing, checks P1-P20, receipt assembly, signing and offline re-verification; and verification of Delegus v0.3 receipts and /verify responses (delegus-receipt-v2). No I/O; snapshots and clock are injected. Passes the 40 v0.2 conformance vectors and verifies every committed v0.3 receipt.",
   "license": null,
   "license_expression": "Apache-2.0",
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": null,
   "download": null,
   "download_source": null,
-  "pub_date": 1790271423,
+  "pub_date": 1790314636,
   "project_urls": {},
   "has_github_actions": null,
   "has_gitlab_pipeline": null,
