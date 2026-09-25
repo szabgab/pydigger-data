@@ -1,7 +1,7 @@
 {
   "name": "smartinno",
-  "version": "1.1.7",
-  "summary": "Message Bus infrastructure for multi-cloud systems with AES-256-GCM encryption, HMAC signing, 3-day nonces, and multi-tier idempotency.",
+  "version": "1.2.0",
+  "summary": "Message Bus infrastructure for multi-cloud systems with AES-256-GCM encryption, HMAC signing, sliding-window nonces, Dead-Letter Queue (DLQ), dynamic Redis Cluster uniform slotting, atomic numeric operations (HINCRBY/INCR), native deterministic O(1) set lookups, token-verified lock ownership release, strict Pydantic validation propagation, zero pre-publish write overhead, sub-millisecond Token Bucket rate limiting (§8.0), and W3C distributed tracing traceparent propagation (§7.0).",
   "license": "MIT",
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": null,
   "download": null,
   "download_source": null,
-  "pub_date": 1790174585,
+  "pub_date": 1790339887,
   "project_urls": {},
   "has_github_actions": null,
   "has_gitlab_pipeline": null,
