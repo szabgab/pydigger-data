@@ -1,7 +1,7 @@
 {
   "name": "stepledger",
-  "version": "0.1.0",
-  "summary": "A Temporal plugin that records every LangGraph node exactly once per Activity execution in Postgres, fenced and committed against Temporal's history, with a deduplicating External Storage driver for large state.",
+  "version": "0.1.2",
+  "summary": "A Temporal plugin for LangGraph agents: one fenced Postgres row per node Activity execution, committed when the workflow accepts the result, plus a deduplicating External Storage driver for large state.",
   "license": null,
   "license_expression": "Apache-2.0",
   "home_page": "https://github.com/Poojan6216/stepledger",
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.homepage",
   "download": null,
   "download_source": null,
-  "pub_date": 1790451728,
+  "pub_date": 1790559450,
   "project_urls": {
-    "Homepage": "https://github.com/Poojan6216/stepledger",
-    "Issues": "https://github.com/Poojan6216/stepledger/issues"
+    "Issues": "https://github.com/Poojan6216/stepledger/issues",
+    "Homepage": "https://github.com/Poojan6216/stepledger"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
