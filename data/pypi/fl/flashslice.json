@@ -1,7 +1,7 @@
 {
   "name": "flashslice",
-  "version": "0.0.1",
-  "summary": "Placeholder for FlashSlice, fused Triton kernels for the slice/deslice bottleneck of physics-attention. The kernels ship with the paper; this release holds the eager reference of the operators.",
+  "version": "0.3.0",
+  "summary": "Fused Triton kernels for the slice/deslice bottleneck of physics-attention, and the Transolver layer they accelerate.",
   "license": null,
   "license_expression": "Apache-2.0",
   "home_page": "https://github.com/Shizheng-Wen/flashslice",
@@ -9,17 +9,21 @@
   "maintainer": null,
   "author": null,
   "repository": "https://github.com/Shizheng-Wen/flashslice",
-  "repository_source": "project_urls.homepage",
+  "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1788711366,
+  "pub_date": 1790669375,
   "project_urls": {
-    "Homepage": "https://github.com/Shizheng-Wen/flashslice"
+    "Paper": "https://arxiv.org/abs/2609.32525",
+    "Repository": "https://github.com/Shizheng-Wen/flashslice",
+    "Changelog": "https://github.com/Shizheng-Wen/flashslice/blob/main/CHANGELOG.md",
+    "Homepage": "https://github.com/Shizheng-Wen/flashslice",
+    "Issues": "https://github.com/Shizheng-Wen/flashslice/issues"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
