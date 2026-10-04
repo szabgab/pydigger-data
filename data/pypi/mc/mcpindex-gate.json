@@ -1,7 +1,7 @@
 {
   "name": "mcpindex-gate",
-  "version": "0.14.0",
-  "summary": "mcpindex gate - the in-path, zero-egress-by-default trust-to-act client for MCP tool calls, from mcpindex.ai (the MCP server index).",
+  "version": "0.16.1",
+  "summary": "mcpindex gate - the in-path trust-to-act client for MCP tool calls, from mcpindex.ai (the MCP server index). The config-wire install wires a proxy that posts nothing; the Python SDK wrapper posts credential-blind call receipts by default (MCPINDEX_RECEIPT_INGEST_ENABLED=0 to disable).",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://mcpindex.ai",
@@ -12,8 +12,9 @@
   "repository_source": "project_urls.homepage",
   "download": null,
   "download_source": null,
-  "pub_date": 1786729549,
+  "pub_date": 1791148984,
   "project_urls": {
+    "Documentation": "https://mcpindex.ai/docs",
     "Homepage": "https://mcpindex.ai"
   },
   "has_github_actions": null,
