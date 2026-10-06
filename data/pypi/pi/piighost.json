@@ -1,10 +1,10 @@
 {
   "name": "piighost",
-  "version": "1.10.0",
-  "summary": "Protect personal data (PII) in your LLM prompts. piighost hides sensitive values from the model, then restores the real values in the response, so tools and the user still get the real data. Pluggable detectors (regex, NER, LLM), LangChain and Pydantic AI integrations, and a companion OpenAI/Anthropic proxy.",
+  "version": "2.0.1",
+  "summary": "piighost replaces personal data with placeholders before the LLM sees it, then restores the real values in the reply and in tool calls.",
   "license": null,
   "license_expression": "MIT",
-  "home_page": "https://github.com/Athroniaeth/piighost",
+  "home_page": "https://piighost.dev/en",
   "home_page_source": "project_urls.homepage",
   "maintainer": null,
   "author": "Athroniaeth",
@@ -12,13 +12,13 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1790671066,
+  "pub_date": 1791320429,
   "project_urls": {
-    "Repository": "https://github.com/Athroniaeth/piighost",
     "Issues": "https://github.com/Athroniaeth/piighost/issues",
-    "Documentation": "https://athroniaeth.github.io/piighost/",
-    "Changelog": "https://github.com/Athroniaeth/piighost/blob/master/CHANGELOG.md",
-    "Homepage": "https://github.com/Athroniaeth/piighost"
+    "Homepage": "https://piighost.dev/en",
+    "Repository": "https://github.com/Athroniaeth/piighost",
+    "Documentation": "https://docs.piighost.dev/en/guide/",
+    "Changelog": "https://github.com/Athroniaeth/piighost/blob/master/CHANGELOG.md"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
