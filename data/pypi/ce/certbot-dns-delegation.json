@@ -1,7 +1,7 @@
 {
   "name": "certbot-dns-delegation",
-  "version": "0.1.2",
-  "summary": "Installation alias for certbot-dns-alias: Certbot DNS-01 plugin with CNAME delegation for Alibaba Cloud DNS and Tencent Cloud DNSPod",
+  "version": "1.0.0",
+  "summary": "Installation alias for certbot-dns-alias: Certbot DNS-01 plugin with CNAME delegation for Alibaba Cloud DNS, Tencent Cloud DNSPod, Cloudflare, and GoDaddy",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/tiyee/certbot-dns-alias",
@@ -12,16 +12,18 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1791308956,
+  "pub_date": 1791380869,
   "project_urls": {
-    "Issues": "https://github.com/tiyee/certbot-dns-alias/issues",
+    "Changelog": "https://github.com/tiyee/certbot-dns-alias/blob/master/CHANGELOG.md",
     "Homepage": "https://github.com/tiyee/certbot-dns-alias",
-    "Repository": "https://github.com/tiyee/certbot-dns-alias"
+    "Issues": "https://github.com/tiyee/certbot-dns-alias/issues",
+    "Repository": "https://github.com/tiyee/certbot-dns-alias",
+    "Security": "https://github.com/tiyee/certbot-dns-alias/blob/master/SECURITY.md"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
