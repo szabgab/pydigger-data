@@ -1,7 +1,7 @@
 {
   "name": "elecext",
-  "version": "1.3.34",
-  "summary": "MRCC CPU binding fix: concurrent MRCC runs (parall_n, parall_n_mpi, parall) now get disjoint physical-core slots instead of piling their OpenMP threads onto the same cores; per-rank Intel MPI pin domains; warns and runs unbound if the slots do not fit",
+  "version": "1.3.38",
+  "summary": "parall_n_mpi persistent queue workers: occupy = true keeps worker jobs alive across Gaussian optimization steps (no queue wait after the first step; workers inherit the Gaussian job remaining walltime; release with elecext-occupy-release after g16 in the SLURM/PBS script); [queue.NAME] x N replicates a queue block into N identical worker jobs",
   "license": null,
   "license_expression": null,
   "home_page": null,
@@ -12,7 +12,7 @@
   "repository_source": null,
   "download": null,
   "download_source": null,
-  "pub_date": 1790264607,
+  "pub_date": 1791407365,
   "project_urls": {},
   "has_github_actions": null,
   "has_gitlab_pipeline": null,
