@@ -1,7 +1,7 @@
 {
   "name": "permisapi-mcp",
-  "version": "0.5.8",
-  "summary": "Serveur MCP pour PermisAPI : 18 outils pour consulter 1,2 M+ permis de construire de France (2014-2026) depuis Claude Desktop, Cursor, Windsurf et tout client MCP. v0.5.8 ajoute get_contractors : entreprises BTP locales SIRENE NAF 41/42/43 (1.087M actifs en BDD, 76% geolocalises), filtres rayon / metier / effectif, pont natif avec breakdown_by_lot de get_economics pour identifier les entreprises qualifiees par lot. Sprint 16 killer feature MDB / PropTech.",
+  "version": "0.5.9",
+  "summary": "Serveur MCP pour PermisAPI : 18 outils en lecture seule pour interroger 1,3 million de permis de construire en France (depuis 2013) depuis Claude, ChatGPT, Claude Desktop, Cursor, Windsurf et tout client MCP. v0.5.9 : formule exacte requise par chaque outil (la plupart dès Régional), score v0.3 à 11 signaux, ventes DVF 2021-2025, page d'autorisation claire et vouvoyée, filtre SIREN contrôlé.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://permisapi.fr/mcp",
@@ -12,13 +12,13 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1779133459,
+  "pub_date": 1791549612,
   "project_urls": {
+    "Issues": "https://github.com/Evan-Crx/permisapi-mcp/issues",
+    "Source": "https://github.com/Evan-Crx/permisapi-mcp",
     "Documentation": "https://permisapi.fr/mcp",
     "Homepage": "https://permisapi.fr/mcp",
-    "Issues": "https://github.com/Evan-Crx/permisapi-mcp/issues",
-    "Setup": "https://github.com/Evan-Crx/permisapi-mcp/blob/main/README.md",
-    "Source": "https://github.com/Evan-Crx/permisapi-mcp"
+    "Setup": "https://github.com/Evan-Crx/permisapi-mcp/blob/main/README.md"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
