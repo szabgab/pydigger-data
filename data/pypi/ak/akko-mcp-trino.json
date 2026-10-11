@@ -1,7 +1,7 @@
 {
   "name": "akko-mcp-trino",
-  "version": "0.4.0",
-  "summary": "Governed MCP server for Trino: every tool call carries the identity of the user the agent acts for, and the engine decides.",
+  "version": "0.5.1",
+  "summary": "Read-only MCP server for Trino: six tools, writes refused on the SQL tree, queries as one configured Trino identity or as the user by their own token, bounded rows and time, one audit line per call.",
   "license": null,
   "license_expression": "Apache-2.0",
   "home_page": "https://github.com/AKKO-p/akko-mcp-trino",
@@ -12,13 +12,13 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1790537827,
+  "pub_date": 1791725439,
   "project_urls": {
-    "AKKO": "https://akko-ai.com",
     "Changelog": "https://github.com/AKKO-p/akko-mcp-trino/blob/main/CHANGELOG.md",
     "Documentation": "https://github.com/AKKO-p/akko-mcp-trino#readme",
-    "Homepage": "https://github.com/AKKO-p/akko-mcp-trino",
     "Repository": "https://github.com/AKKO-p/akko-mcp-trino",
+    "AKKO": "https://akko-ai.com",
+    "Homepage": "https://github.com/AKKO-p/akko-mcp-trino",
     "Issues": "https://github.com/AKKO-p/akko-mcp-trino/issues"
   },
   "has_github_actions": true,
