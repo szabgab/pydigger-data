@@ -1,26 +1,29 @@
 {
   "name": "agentic-system-core",
-  "version": "0.0.2",
-  "summary": "A specification for publishing machine-discoverable knowledge bundles. This 0.0.x release reserves the package name; no runtime is published yet. The specification, JSON Schemas, ontology and conformance test vectors are the deliverable and are developed in the open.",
+  "version": "1.0.0",
+  "summary": "Two standalone checkers and a reading API for AgenticSystemCore knowledge nodes, in pure Python, with one agsc command that hands every other verb to the Node engine.",
   "license": null,
-  "license_expression": null,
+  "license_expression": "Apache-2.0",
   "home_page": "https://agenticsystemcore.com",
   "home_page_source": "project_urls.homepage",
   "maintainer": null,
-  "author": "Andrei Nicolae Besleaga",
-  "repository": "https://agenticsystemcore.com",
-  "repository_source": "project_urls.homepage",
+  "author": "Andrei N. Besleaga",
+  "repository": "https://github.com/andreibesleaga/agentic-system-core-python",
+  "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1789193522,
+  "pub_date": 1791975583,
   "project_urls": {
+    "Bug Tracker": "https://github.com/andreibesleaga/agentic-system-core-python/issues",
+    "Changelog": "https://github.com/andreibesleaga/agentic-system-core-python/blob/main/CHANGELOG.md",
+    "Source": "https://github.com/andreibesleaga/agentic-system-core-python",
     "Homepage": "https://agenticsystemcore.com",
-    "Bug Tracker": "https://github.com/andreibesleaga/agentic-system-core/issues"
+    "Specification": "https://agenticsystemcore.com/specs/agentic-knowledge/"
   },
-  "has_github_actions": null,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
-  "has_dependabot": null,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_dependabot": true,
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
