@@ -1,6 +1,6 @@
 {
   "name": "carl-merge",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "summary": "A merge bot for repositories where several AI coding agents open pull requests in parallel: it bypass-merges a behind pull request when main changed nothing it touches, so CI is not rerun for nothing.",
   "license": null,
   "license_expression": "MIT",
@@ -8,16 +8,20 @@
   "home_page_source": null,
   "maintainer": null,
   "author": null,
-  "repository": null,
-  "repository_source": null,
+  "repository": "https://github.com/saalse/carl-merge",
+  "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1792047842,
-  "project_urls": {},
-  "has_github_actions": null,
+  "pub_date": 1792085447,
+  "project_urls": {
+    "Issues": "https://github.com/saalse/carl-merge/issues",
+    "Source": "https://github.com/saalse/carl-merge",
+    "Documentation": "https://github.com/saalse/carl-merge/blob/main/docs/guide.md"
+  },
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
-  "has_dependabot": null,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_dependabot": false,
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
