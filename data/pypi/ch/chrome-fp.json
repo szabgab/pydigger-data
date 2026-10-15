@@ -1,7 +1,7 @@
 {
   "name": "chrome-fp",
-  "version": "0.5.0",
-  "summary": "与真 Chrome 153 逐字节同指纹(JA4/HTTP2 Akamai/请求头顺序)的纯 Python HTTP 请求库, 用法与 requests 一致",
+  "version": "0.7.0",
+  "summary": "与真 Chrome 逐字节同指纹(JA4/HTTP2 Akamai/请求头顺序)的纯 Python HTTP 请求库, 支持 Chrome 153/154 多版本 profile, API 与 requests 逐项对齐",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/DreamXiaoJing",
@@ -12,16 +12,16 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1790001765,
+  "pub_date": 1792036808,
   "project_urls": {
-    "Issues": "https://github.com/DreamXiaoJing/chrome-fp/issues",
+    "Homepage": "https://github.com/DreamXiaoJing",
     "Source": "https://github.com/DreamXiaoJing/chrome-fp",
-    "Homepage": "https://github.com/DreamXiaoJing"
+    "Issues": "https://github.com/DreamXiaoJing/chrome-fp/issues"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
