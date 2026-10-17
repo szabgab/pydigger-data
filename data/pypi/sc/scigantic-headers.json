@@ -1,7 +1,7 @@
 {
   "name": "scigantic-headers",
-  "version": "0.4.1",
-  "summary": "Decode scientific file headers (cryo-EM, imaging, tabular, flow cytometry, mass spec, sequencing, structural biology) into typed fields. Pure, zero-dependency, with bounded parallel readers.",
+  "version": "0.6.0",
+  "summary": "Decode scientific file headers (cryo-EM, light microscopy and light-sheet imaging incl. TIFF/OME-TIFF, CZI, HDF5/Imaris/BigDataViewer, LIF, ND2, Zarr/N5; tabular, flow cytometry, mass spec, sequencing, structural biology) into typed fields. Pure, zero-dependency, with bounded readers that follow internal pointers without downloading the file.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://scigantic.com",
@@ -12,11 +12,11 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1788189705,
+  "pub_date": 1792276073,
   "project_urls": {
+    "Issues": "https://github.com/Scigantic/scigantic-headers/issues",
     "Homepage": "https://scigantic.com",
-    "Repository": "https://github.com/Scigantic/scigantic-headers",
-    "Issues": "https://github.com/Scigantic/scigantic-headers/issues"
+    "Repository": "https://github.com/Scigantic/scigantic-headers"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
