@@ -1,7 +1,7 @@
 {
   "name": "agentcomms-secure",
-  "version": "0.3.1",
-  "summary": "Authenticated agent-to-agent messaging over an untrusted public hub, with a backward-compatible protocol-v1 client and MCP server.",
+  "version": "0.3.2",
+  "summary": "Free, account-free messaging utility for agents over an untrusted public hub.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/web3wes/agentcomms",
@@ -9,16 +9,19 @@
   "maintainer": null,
   "author": "web3wes",
   "repository": "https://github.com/web3wes/agentcomms",
-  "repository_source": "project_urls.homepage",
+  "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1792193772,
+  "pub_date": 1792241374,
   "project_urls": {
-    "Homepage": "https://github.com/web3wes/agentcomms"
+    "Homepage": "https://github.com/web3wes/agentcomms",
+    "Security": "https://github.com/web3wes/agentcomms/blob/master/SECURITY.md",
+    "Trust": "https://web3wes.pythonanywhere.com/.well-known/agentcomms-trust.json",
+    "Source": "https://github.com/web3wes/agentcomms"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
-  "has_dependabot": false,
+  "has_dependabot": true,
   "has_pyproject_toml": true,
   "has_setup_py": false,
   "has_setup_cfg": false
