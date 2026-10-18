@@ -1,0 +1,23 @@
+{
+  "name": "tds-core",
+  "version": "0.2.0",
+  "summary": "太极调度层 TDS 引擎核心：大模型权重-显存动态调度与 KV 分页中间层（零宿主依赖，可独立安装/授权）",
+  "license": "Copyright (c) 2026 BY LAOMENG 网络工作室（孟祥辉）\r\n        \r\n        太极调度层 TDS（Taiji Dispatch Scheduler）\r\n        保留所有权利（All Rights Reserved）。\r\n        \r\n        本项目核心调度逻辑为独立实现，拥有完整自主知识产权。\r\n        \r\n        对外部推理引擎的调用均通过其公开、开放的接口完成：\r\n          - llama.cpp（MIT License）— 仅通过其公开 API / GGUF 格式交互\r\n          - ComfyUI — 仅通过其官方 custom_node 扩展接口交互\r\n          - 移动端后端（NCNN / MNN / llama.cpp-mobile）— 仅通过统一 Adapter 契约对接\r\n        \r\n        本项目不包含、不复制、不内联任何第三方受版权保护的源代码。\r\n        ",
+  "license_expression": null,
+  "home_page": null,
+  "home_page_source": null,
+  "maintainer": null,
+  "author": "BY LAOMENG 网络工作室",
+  "repository": null,
+  "repository_source": null,
+  "download": null,
+  "download_source": null,
+  "pub_date": 1792293268,
+  "project_urls": {},
+  "has_github_actions": null,
+  "has_gitlab_pipeline": null,
+  "has_dependabot": null,
+  "has_pyproject_toml": null,
+  "has_setup_py": null,
+  "has_setup_cfg": null
+}
