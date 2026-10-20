@@ -1,7 +1,7 @@
 {
   "name": "datalake-medallion-sdk",
-  "version": "0.1.0",
-  "summary": "Contract-enforced Bronze-layer ingestion for medallion data lakes: JSON Schema validation, PII pseudonymization, dead-letter quarantine and Hive-partitioned Parquet on S3",
+  "version": "0.3.0",
+  "summary": "Build and serve multi-tenant medallion data lakes on S3: contract-checked Bronze ingestion, Silver and Gold Iceberg writes and maintenance, and tenant-scoped Parquet/Iceberg reads without Athena. Per-call tenancy, any input (Arrow, Polars, DuckDB, JSON, files), optional PII protection. Rust core, Python API",
   "license": null,
   "license_expression": "MIT OR Apache-2.0",
   "home_page": "https://github.com/cluu-ai/datalake-medallion-sdk",
@@ -12,13 +12,13 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1792203651,
+  "pub_date": 1792511537,
   "project_urls": {
+    "Homepage": "https://github.com/cluu-ai/datalake-medallion-sdk",
+    "Changelog": "https://github.com/cluu-ai/datalake-medallion-sdk/blob/main/CHANGELOG.md",
     "Issues": "https://github.com/cluu-ai/datalake-medallion-sdk/issues",
     "Repository": "https://github.com/cluu-ai/datalake-medallion-sdk",
-    "Security": "https://github.com/cluu-ai/datalake-medallion-sdk/security/policy",
-    "Homepage": "https://github.com/cluu-ai/datalake-medallion-sdk",
-    "Changelog": "https://github.com/cluu-ai/datalake-medallion-sdk/blob/main/CHANGELOG.md"
+    "Security": "https://github.com/cluu-ai/datalake-medallion-sdk/security/policy"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
