@@ -1,7 +1,7 @@
 {
   "name": "obelize",
-  "version": "0.2.0",
-  "summary": "Find code that still uses a deprecated Python library (google-generativeai, PyPDF2, openai 0.x) and migrate the provably safe part to its replacement, with a reviewable report.",
+  "version": "0.8.0",
+  "summary": "Verified Python dependency upgrades: rewrites what it can prove, can ask an agent for the rest, keeps a move if tests pass. Ships google-generativeai to google-genai, openai to 1.x, PyPDF2 to pypdf.",
   "license": null,
   "license_expression": "Apache-2.0",
   "home_page": "https://github.com/hakanbogan/obelize",
@@ -12,14 +12,14 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1791617199,
+  "pub_date": 1792793415,
   "project_urls": {
-    "Changelog": "https://github.com/hakanbogan/obelize/blob/main/CHANGELOG.md",
     "Issues": "https://github.com/hakanbogan/obelize/issues",
-    "Documentation": "https://github.com/hakanbogan/obelize/blob/main/docs/CLI.md",
-    "Repository": "https://github.com/hakanbogan/obelize",
     "Homepage": "https://github.com/hakanbogan/obelize",
-    "Security": "https://github.com/hakanbogan/obelize/security/policy"
+    "Documentation": "https://hakanbogan.github.io/obelize/",
+    "Security": "https://github.com/hakanbogan/obelize/security/policy",
+    "Changelog": "https://github.com/hakanbogan/obelize/blob/main/CHANGELOG.md",
+    "Repository": "https://github.com/hakanbogan/obelize"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
