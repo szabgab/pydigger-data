@@ -1,7 +1,7 @@
 {
   "name": "pii-gate",
-  "version": "0.2.0",
-  "summary": "Fail-closed personal-data gate for AI coding agents (Codex CLI, Claude Code): blocks national IDs, IBANs, card numbers, secrets, exfiltration commands and PII-selecting SQL before they leave your machine.",
+  "version": "0.3.0",
+  "summary": "Pre-execution hook for Codex CLI, Claude Code and Gemini CLI that blocks tool calls carrying national IDs, IBANs, card numbers, secrets, upload commands or PII-selecting SQL.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/sdursun1979/pii-gate",
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.homepage",
   "download": null,
   "download_source": null,
-  "pub_date": 1792785897,
+  "pub_date": 1792836090,
   "project_urls": {
-    "Homepage": "https://github.com/sdursun1979/pii-gate",
     "Changelog": "https://github.com/sdursun1979/pii-gate/blob/main/CHANGELOG.md",
+    "Homepage": "https://github.com/sdursun1979/pii-gate",
     "Issues": "https://github.com/sdursun1979/pii-gate/issues"
   },
   "has_github_actions": true,
