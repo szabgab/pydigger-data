@@ -1,7 +1,7 @@
 {
   "name": "botsrated",
-  "version": "0.1.5",
-  "summary": "Pre-payment check for x402 agents: free BotsRated preflight before paying a seller; paid lookups opt-in with a budget.",
+  "version": "0.2.0",
+  "summary": "Payment guard for x402 agents: checks facts BotsRated measured about a seller before paying (advice-only by default), adds a payment-identifier retry key where supported, and checks on chain, read-only, whether a payment settled once. Not affiliated with Coinbase or the x402 Foundation.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://botsrated.com",
@@ -12,12 +12,16 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1792808152,
+  "pub_date": 1792895882,
   "project_urls": {
-    "Homepage": "https://botsrated.com",
-    "Repository": "https://github.com/botsrated/botsrated"
+    "Privacy": "https://botsrated.com/privacy",
+    "Repository": "https://github.com/botsrated/botsrated",
+    "Issues": "https://github.com/botsrated/botsrated/issues",
+    "Terms": "https://botsrated.com/terms",
+    "Security": "https://github.com/botsrated/botsrated/blob/main/SECURITY.md",
+    "Homepage": "https://botsrated.com"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
   "has_pyproject_toml": false,
