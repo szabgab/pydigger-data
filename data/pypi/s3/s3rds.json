@@ -1,7 +1,7 @@
 {
   "name": "s3rds",
-  "version": "0.1.0",
-  "summary": "A truly serverless RDS on your own AWS account: Lambda URL endpoint, SQLite on S3, ≈ $0 when idle. Drivers named after the standard clients: s3rds.sqlite, s3rds.pymysql.",
+  "version": "0.2.0",
+  "summary": "A truly serverless RDS on your own AWS account: Lambda URL endpoint, SQLite on S3, ≈ $0 when idle. Drivers named after the standard clients: s3rds.sqlite, s3rds.pymysql; SQLAlchemy via sqlite+s3rds://.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/cloudformer/s3rds",
@@ -9,14 +9,19 @@
   "maintainer": null,
   "author": "Frank Zhang",
   "repository": "https://github.com/cloudformer/s3rds",
-  "repository_source": "project_urls.homepage",
+  "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1792944274,
+  "pub_date": 1793152190,
   "project_urls": {
-    "Homepage": "https://github.com/cloudformer/s3rds"
+    "Changelog": "https://github.com/cloudformer/s3rds/blob/main/CHANGELOG.md",
+    "Compatibility": "https://github.com/cloudformer/s3rds/blob/main/tests/compat/REPORT.md",
+    "Homepage": "https://github.com/cloudformer/s3rds",
+    "Deploy": "https://github.com/cloudformer/s3rds#quick-start",
+    "Repository": "https://github.com/cloudformer/s3rds",
+    "Issues": "https://github.com/cloudformer/s3rds/issues"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
   "has_pyproject_toml": false,
