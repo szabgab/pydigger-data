@@ -1,27 +1,27 @@
 {
   "name": "contradish",
-  "version": "1.34.0",
-  "summary": "Semantic invariance testing (paraphrase robustness testing) for LLMs. Tells you what's actually wrong with your LLM, not just that something is. Findings layer mines every run for the one specific surprise: root-cause clusters, rigidity vs drift, the cases where your model gave both the right and the wrong answer to the same question. Plus: Judgment Strain (two-sided), the one-command repair loop, and per-case equivalence audit. CAI-Bench v2: 20 domains, 2,160 strain tests.",
+  "version": "1.65.0",
+  "summary": "contradish certifies that an AI agent's changes, to what it does and what it remembers, are exactly what its governing information warrants, on every future the policy permits. Judge-free: correct answers are derived from a machine-readable policy and re-derived by an independent checker. Behavioral Update Fidelity was introduced by Michele Joseph in 2026.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://contradish.com",
   "home_page_source": "project_urls.homepage",
   "maintainer": null,
-  "author": null,
+  "author": "Michele Joseph",
   "repository": "https://github.com/michelejoseph/contradish",
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1789273355,
+  "pub_date": 1793381880,
   "project_urls": {
-    "Repository": "https://github.com/michelejoseph/contradish",
     "Homepage": "https://contradish.com",
+    "Repository": "https://github.com/michelejoseph/contradish",
     "Issues": "https://github.com/michelejoseph/contradish/issues"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
