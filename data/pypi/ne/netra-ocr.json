@@ -1,6 +1,6 @@
 {
   "name": "netra-ocr",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "summary": "Khmer OCR engine using a Squeeze-and-Excitation Transformer network for text-line recognition, with pluggable text detectors (YOLO, Tesseract, classic CV).",
   "license": "MIT",
   "license_expression": null,
@@ -12,13 +12,14 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1786118868,
+  "pub_date": 1793472688,
   "project_urls": {
+    "Model Download": "https://huggingface.co/Netra-Lab/Netra-OCR",
+    "PyTorch weights": "https://huggingface.co/Darayut/khmer-text-recognition",
     "Repository": "https://github.com/netra-ai-lab/Khmer-OCR-CNN-Transformer",
-    "Homepage": "https://github.com/netra-ai-lab/Khmer-OCR-CNN-Transformer",
-    "Model Download": "https://huggingface.co/Darayut/khmer-text-recognition"
+    "Homepage": "https://github.com/netra-ai-lab/Khmer-OCR-CNN-Transformer"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
   "has_pyproject_toml": true,
