@@ -1,7 +1,7 @@
 {
   "name": "sanhang-mcp",
-  "version": "1.0.0",
-  "summary": "MCP server that turns one sentence of math into a Manim animation video, rendered on a hosted backend (no local Manim or LaTeX)",
+  "version": "1.1.0",
+  "summary": "MCP server that turns one sentence of math into a Manim animation video. Default connects to no server; use your own DeepSeek key + local Manim, or point SANHANG_BASE_URL at your own backend.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://sanhangmath.top",
@@ -12,17 +12,17 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1793329629,
+  "pub_date": 1793629488,
   "project_urls": {
-    "Repository": "https://github.com/sanhangkc/sanhang-mcp",
-    "Homepage": "https://sanhangmath.top",
+    "Changelog": "https://github.com/sanhangkc/sanhang-mcp/releases",
     "Issues": "https://github.com/sanhangkc/sanhang-mcp/issues",
-    "Changelog": "https://github.com/sanhangkc/sanhang-mcp/releases"
+    "Homepage": "https://sanhangmath.top",
+    "Repository": "https://github.com/sanhangkc/sanhang-mcp"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
