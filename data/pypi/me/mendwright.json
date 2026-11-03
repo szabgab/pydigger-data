@@ -1,7 +1,7 @@
 {
   "name": "mendwright",
-  "version": "0.10.0",
-  "summary": "Self-healing selectors for Playwright and Selenium. When a selector breaks, a model suggests a new one, mendwright checks it against the page, and the step is retried.",
+  "version": "0.11.0",
+  "summary": "Self-healing selectors for Playwright and Selenium: a broken selector is repaired from a saved fingerprint of its element first, by a model only when needed, and every repair is checked on the live page.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/saadbuilt/mendwright",
@@ -12,11 +12,11 @@
   "repository_source": "project_urls.homepage",
   "download": null,
   "download_source": null,
-  "pub_date": 1793552554,
+  "pub_date": 1793677172,
   "project_urls": {
-    "Documentation": "https://github.com/saadbuilt/mendwright/blob/main/docs/guide.md",
-    "Changelog": "https://github.com/saadbuilt/mendwright/blob/main/CHANGELOG.md",
     "Homepage": "https://github.com/saadbuilt/mendwright",
+    "Changelog": "https://github.com/saadbuilt/mendwright/blob/main/CHANGELOG.md",
+    "Documentation": "https://github.com/saadbuilt/mendwright/blob/main/docs/guide.md",
     "Issues": "https://github.com/saadbuilt/mendwright/issues"
   },
   "has_github_actions": true,
