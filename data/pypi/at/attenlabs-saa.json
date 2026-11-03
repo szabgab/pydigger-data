@@ -1,25 +1,29 @@
 {
   "name": "attenlabs-saa",
-  "version": "0.6.1",
-  "summary": "Python SDK for SAA, Attention Labs' device-directed speech detection.",
+  "version": "0.9.1",
+  "summary": "Python SDK for SAA, the addressee layer for voice agents — device-directed speech detection that emits a turn_ready event per addressed utterance, so only speech meant for your agent reaches your STT, LLM, or TTS.",
   "license": "Apache-2.0",
   "license_expression": null,
   "home_page": "https://attentionlabs.ai",
   "home_page_source": "project_urls.homepage",
   "maintainer": null,
   "author": "Attention Labs",
-  "repository": "https://attentionlabs.ai",
-  "repository_source": "project_urls.homepage",
+  "repository": "https://github.com/attenlabs/saa-sdk",
+  "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1781906946,
+  "pub_date": 1793667117,
   "project_urls": {
-    "Homepage": "https://attentionlabs.ai"
+    "Source": "https://github.com/attenlabs/saa-sdk",
+    "Documentation": "https://github.com/attenlabs/saa-sdk/tree/main/packages/saa-py",
+    "Homepage": "https://attentionlabs.ai",
+    "Issues": "https://github.com/attenlabs/saa-sdk/issues",
+    "Changelog": "https://github.com/attenlabs/saa-sdk/blob/main/CHANGELOG.md"
   },
-  "has_github_actions": null,
+  "has_github_actions": false,
   "has_gitlab_pipeline": null,
-  "has_dependabot": null,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_dependabot": true,
+  "has_pyproject_toml": false,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
