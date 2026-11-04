@@ -1,7 +1,7 @@
 {
   "name": "hk-dsl",
-  "version": "0.8.0",
-  "summary": "AMD GPU kernels in Python (RDNA3/4, CDNA3/4) over an MLIR dialect, generating HipKittens C++",
+  "version": "0.9.0",
+  "summary": "A general-purpose Python DSL for AMD GPU kernels on RDNA and CDNA, with build-time gates against silent tile-level errors (spills, missing waits, MFMA hazards). Its largest end-to-end gains today are on Radeon (RDNA3/RDNA4), through vLLM and SGLang.",
   "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/vivienfanghuagood/hk-dsl",
@@ -12,11 +12,11 @@
   "repository_source": "project_urls.homepage",
   "download": null,
   "download_source": null,
-  "pub_date": 1793079079,
+  "pub_date": 1793791239,
   "project_urls": {
     "Homepage": "https://github.com/vivienfanghuagood/hk-dsl",
-    "Documentation": "https://github.com/vivienfanghuagood/hk-dsl/tree/main/docs",
     "Issues": "https://github.com/vivienfanghuagood/hk-dsl/issues",
+    "Documentation": "https://github.com/vivienfanghuagood/hk-dsl/tree/main/docs",
     "Examples": "https://github.com/vivienfanghuagood/hk-dsl/tree/main/examples"
   },
   "has_github_actions": true,
