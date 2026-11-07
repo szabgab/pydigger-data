@@ -1,7 +1,7 @@
 {
   "name": "honestly",
-  "version": "0.6.3",
-  "summary": "Stops a coding agent from claiming \"tests pass\", \"fixed\", \"sent\" or \"deployed\" without evidence on the transcript. Hooks for Claude Code, Codex, Cursor and Gemini CLI; audits past sessions. Deterministic rules, no model, no API key.",
+  "version": "0.7.0",
+  "summary": "Blocks a coding agent's \"tests pass\" / \"fixed\" / \"pushed\" reply when no check ran after its last edit. Hooks for Claude Code and Codex (Cursor, Gemini CLI experimental); audits past sessions. Standard-library Python, no model calls.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/kennywu411-dev/honestly",
@@ -12,15 +12,15 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1794014181,
+  "pub_date": 1794041869,
   "project_urls": {
+    "Repository": "https://github.com/kennywu411-dev/honestly",
     "Homepage": "https://github.com/kennywu411-dev/honestly",
-    "Issues": "https://github.com/kennywu411-dev/honestly/issues",
-    "Repository": "https://github.com/kennywu411-dev/honestly"
+    "Issues": "https://github.com/kennywu411-dev/honestly/issues"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
-  "has_dependabot": false,
+  "has_dependabot": true,
   "has_pyproject_toml": true,
   "has_setup_py": false,
   "has_setup_cfg": false
