@@ -1,7 +1,7 @@
 {
   "name": "flockspeech",
-  "version": "0.2.1",
-  "summary": "Tiny on-device text to speech: Junco (clear reading voice) and Goldfinch (conversational, with [laugh] tags). Runs faster than real time on one CPU thread.",
+  "version": "0.2.2",
+  "summary": "Tiny offline text-to-speech (TTS) for Python: two natural English voices, 44 MB each, that run on any CPU with ONNX Runtime. No GPU, no cloud. Goldfinch laughs on cue with [laugh] tags.",
   "license": null,
   "license_expression": "Apache-2.0",
   "home_page": "https://github.com/flockspeech/flockspeech",
@@ -9,14 +9,18 @@
   "maintainer": null,
   "author": "Flock Speech",
   "repository": "https://github.com/flockspeech/flockspeech",
-  "repository_source": "project_urls.homepage",
+  "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1794330178,
+  "pub_date": 1794330651,
   "project_urls": {
+    "Documentation": "https://github.com/flockspeech/flockspeech#quick-start",
+    "Source": "https://github.com/flockspeech/flockspeech",
+    "Goldfinch model card": "https://huggingface.co/flockspeech/goldfinch",
     "Homepage": "https://github.com/flockspeech/flockspeech",
-    "Junco": "https://huggingface.co/flockspeech/junco",
-    "Goldfinch": "https://huggingface.co/flockspeech/goldfinch"
+    "Junco model card": "https://huggingface.co/flockspeech/junco",
+    "Changelog": "https://github.com/flockspeech/flockspeech/releases",
+    "Issues": "https://github.com/flockspeech/flockspeech/issues"
   },
   "has_github_actions": false,
   "has_gitlab_pipeline": null,
