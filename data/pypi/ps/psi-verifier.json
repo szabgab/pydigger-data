@@ -1,0 +1,27 @@
+{
+  "name": "psi-verifier",
+  "version": "1.6.0",
+  "summary": "MIT-licensed verifier for the PSI-SEAL/1 canonical seal schema. Verification is free forever; enforcement is on by default, rule R11 (Ed25519 over the ASCII seal_hash) is actually checked against caller-supplied public keys, R11.6 makes a signature name the digest it authenticates, R13.1 verifies an RFC 9162 inclusion proof by walking the tree's split, and R13.2 verifies an RFC 9162 consistency proof between two tree heads, which is what proves the log never forgot a receipt.",
+  "license": "MIT",
+  "license_expression": null,
+  "home_page": "https://ai-governance-standard.com/license",
+  "home_page_source": "project_urls.homepage",
+  "maintainer": null,
+  "author": "APEX Infrastructure",
+  "repository": "https://ai-governance-standard.com/license",
+  "repository_source": "project_urls.homepage",
+  "download": null,
+  "download_source": null,
+  "pub_date": 1794605803,
+  "project_urls": {
+    "Schema": "https://ai-governance-standard.com/.well-known/psi-schema.json",
+    "Specification": "https://ai-governance-standard.com/spec",
+    "Homepage": "https://ai-governance-standard.com/license"
+  },
+  "has_github_actions": null,
+  "has_gitlab_pipeline": null,
+  "has_dependabot": null,
+  "has_pyproject_toml": null,
+  "has_setup_py": null,
+  "has_setup_cfg": null
+}
