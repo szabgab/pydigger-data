@@ -1,27 +1,29 @@
 {
   "name": "ukvocab",
-  "version": "0.4.1",
-  "summary": "The published Ukrainian vocabulary data from jakelawrence.xyz/research/ukrainian-frequency, offline: the top-12,000 lemma frequency list, the validated PULS CEFR overlay, the Borodin A1 and A2 lexical minimums, their crosswalk, the B1 enrichment tables, and a per-lemma word-stress column.",
+  "version": "0.5.0",
+  "summary": "Renamed: this package is now uavocab (pip install uavocab). Installing ukvocab installs uavocab and keeps `import ukvocab` working.",
   "license": null,
   "license_expression": "CC-BY-NC-SA-4.0",
-  "home_page": "https://www.jakelawrence.xyz/research/ukrainian-frequency",
+  "home_page": "https://uavocab.org/research",
   "home_page_source": "project_urls.homepage",
   "maintainer": null,
   "author": "Jake Lawrence",
-  "repository": "https://github.com/jake0lawrence/jakelawrence.xyz/tree/main/packages/ukvocab",
+  "repository": "https://github.com/jake0lawrence/UA-Vocab",
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1794705815,
+  "pub_date": 1794713827,
   "project_urls": {
-    "Source": "https://github.com/jake0lawrence/jakelawrence.xyz/tree/main/packages/ukvocab",
-    "Data": "https://www.jakelawrence.xyz/downloads/ukrainian-frequency/",
-    "Homepage": "https://www.jakelawrence.xyz/research/ukrainian-frequency"
+    "Data": "https://uavocab.org/data",
+    "Homepage": "https://uavocab.org/research",
+    "New name: uavocab": "https://pypi.org/project/uavocab/",
+    "Source": "https://github.com/jake0lawrence/UA-Vocab",
+    "Changelog": "https://github.com/jake0lawrence/UA-Vocab/blob/main/python/uavocab/CHANGELOG.md"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": false,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
