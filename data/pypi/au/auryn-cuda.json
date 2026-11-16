@@ -1,6 +1,6 @@
 {
   "name": "auryn-cuda",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "summary": "CUDA language plugin for Auryn: a fast tree-sitter-cuda engine. CUDA is a superset of C++, so it reuses the auryn-cpp extraction engine verbatim (namespaces/classes/structs/enums/methods/fields/params, type hierarchy, templates, includes/macros, calls) and adds the CUDA-only graph signals: an `execution_space` property (__global__/__device__/__host__) and a LAUNCHES edge for `kernel<<<...>>>` launches. A deep libclang/nvcc pass is the planned second phase.",
   "license": "MIT",
   "license_expression": null,
@@ -12,7 +12,7 @@
   "repository_source": null,
   "download": null,
   "download_source": null,
-  "pub_date": 1794862934,
+  "pub_date": 1794865384,
   "project_urls": {},
   "has_github_actions": null,
   "has_gitlab_pipeline": null,
