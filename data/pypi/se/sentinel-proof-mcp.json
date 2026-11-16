@@ -1,7 +1,7 @@
 {
   "name": "sentinel-proof-mcp",
-  "version": "0.1.0",
-  "summary": "MCP server that checks an LLM answer against its sources: every number and citation verified, wrong citations fixed, unsupported claims removed. Local, no API key, no model.",
+  "version": "0.1.1",
+  "summary": "MCP server that fact-checks an LLM answer against its source passages before the user sees it: every number and citation verified, wrong citations fixed, unsupported sentences removed. Local, deterministic, no API key, no model. For Claude Desktop, Claude Code, Cursor, VS Code and any MCP client.",
   "license": null,
   "license_expression": "Apache-2.0",
   "home_page": "https://github.com/92kareeem/sentinel-rag",
@@ -12,12 +12,12 @@
   "repository_source": "project_urls.homepage",
   "download": null,
   "download_source": null,
-  "pub_date": 1794809718,
+  "pub_date": 1794814262,
   "project_urls": {
-    "Documentation": "https://github.com/92kareeem/sentinel-rag/tree/main/packages/sentinel-proof-mcp",
     "Changelog": "https://github.com/92kareeem/sentinel-rag/blob/main/packages/sentinel-proof-mcp/CHANGELOG.md",
-    "Homepage": "https://github.com/92kareeem/sentinel-rag",
     "Playground": "https://92kareeem.github.io/sentinel-rag/",
+    "Homepage": "https://github.com/92kareeem/sentinel-rag",
+    "Documentation": "https://github.com/92kareeem/sentinel-rag/tree/main/packages/sentinel-proof-mcp",
     "Issues": "https://github.com/92kareeem/sentinel-rag/issues"
   },
   "has_github_actions": true,
