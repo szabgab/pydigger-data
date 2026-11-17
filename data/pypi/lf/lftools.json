@@ -1,7 +1,7 @@
 {
   "name": "lftools",
-  "version": "0.37.26",
-  "summary": "Linux Foundation Release Engineering Tools",
+  "version": "0.37.27",
+  "summary": "Linux Foundation Release Engineering Tools (DEPRECATED: use lftools-uv)",
   "license": "EPL-1.0",
   "license_expression": null,
   "home_page": "https://docs.releng.linuxfoundation.org/projects/lftools",
@@ -12,16 +12,17 @@
   "repository_source": "project_urls.sourcecode",
   "download": null,
   "download_source": null,
-  "pub_date": 1792066189,
+  "pub_date": 1794920872,
   "project_urls": {
     "Bug Tracker": "https://github.com/lfit/releng-tools/issues",
-    "Source Code": "https://github.com/lfit/releng-lftools",
     "Documentation": "https://docs.releng.linuxfoundation.org/projects/lftools",
-    "Homepage": "https://docs.releng.linuxfoundation.org/projects/lftools"
+    "Homepage": "https://docs.releng.linuxfoundation.org/projects/lftools",
+    "Replacement": "https://github.com/lfreleng-actions/lftools-uv",
+    "Source Code": "https://github.com/lfit/releng-lftools"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
-  "has_dependabot": false,
+  "has_dependabot": true,
   "has_pyproject_toml": true,
   "has_setup_py": false,
   "has_setup_cfg": false
