@@ -1,28 +1,29 @@
 {
   "name": "cronradar",
-  "version": "0.1.0",
-  "summary": "Dead-simple cron job monitoring with auto-registration. Two functions: ping() and sync_monitor(). Self-healing monitors.",
-  "license": "Proprietary",
+  "version": "0.1.2",
+  "summary": "Non-blocking lifecycle and heartbeat monitoring for Python scheduled jobs, with missed-run, failure, and stuck-run detection.",
+  "license": "MIT",
   "license_expression": null,
   "home_page": "https://github.com/cronradar/cronradar-python",
   "home_page_source": "project_urls.homepage",
   "maintainer": null,
-  "author": "Administrator",
+  "author": "CronRadar",
   "repository": "https://github.com/cronradar/cronradar-python",
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1784145540,
+  "pub_date": 1794905146,
   "project_urls": {
-    "Tracker": "https://github.com/cronradar/cronradar-python/issues",
-    "Homepage": "https://github.com/cronradar/cronradar-python",
+    "Documentation": "https://docs.cronradar.com/integrations/python",
+    "Product": "https://cronradar.com/python",
     "Source": "https://github.com/cronradar/cronradar-python",
-    "Documentation": "https://cronradar.com/docs"
+    "Homepage": "https://github.com/cronradar/cronradar-python",
+    "Tracker": "https://github.com/cronradar/cronradar-python/issues"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_pyproject_toml": false,
+  "has_setup_py": true,
+  "has_setup_cfg": false
 }
