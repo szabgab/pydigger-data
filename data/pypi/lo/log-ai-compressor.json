@@ -1,7 +1,7 @@
 {
   "name": "log-ai-compressor",
-  "version": "3.0.3",
-  "summary": "本机日志取证层：每条结论带行号出处与原文 sha256，可脱离本工具自校验；拿不出因果链就说证据不足并列出还缺什么。本地分析不出网；可选 AI 解读将脱敏后的片段发送给所配置的模型服务商（默认关闭）。附 Loghub 2.0 可复现基准（对照 Drain3 / tail / grep）。",
+  "version": "3.0.5",
+  "summary": "Local log forensics: line numbers + sha256 per finding, offline re-checkable; no causal chain = INSUFFICIENT. Optional AI off by default, redacted excerpts only. Loghub benchmarks reproducible.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://gitee.com/hu-chenyu-dev/log-ai-compressor",
@@ -12,12 +12,15 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1795190243,
+  "pub_date": 1795282345,
   "project_urls": {
     "Repository": "https://gitee.com/hu-chenyu-dev/log-ai-compressor",
-    "Changelog": "https://gitee.com/hu-chenyu-dev/log-ai-compressor/blob/main/CHANGELOG.md",
     "Releases": "https://gitee.com/hu-chenyu-dev/log-ai-compressor/releases",
-    "Homepage": "https://gitee.com/hu-chenyu-dev/log-ai-compressor"
+    "Homepage": "https://gitee.com/hu-chenyu-dev/log-ai-compressor",
+    "Reproduction": "https://gitee.com/hu-chenyu-dev/log-ai-compressor/issues/IKWWD3",
+    "Changelog": "https://gitee.com/hu-chenyu-dev/log-ai-compressor/blob/main/CHANGELOG.md",
+    "Issues": "https://gitee.com/hu-chenyu-dev/log-ai-compressor/issues",
+    "Documentation": "https://gitee.com/hu-chenyu-dev/log-ai-compressor/blob/main/docs/REPRODUCIBILITY.md"
   },
   "has_github_actions": null,
   "has_gitlab_pipeline": null,
