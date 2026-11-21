@@ -1,7 +1,7 @@
 {
   "name": "rampgate",
-  "version": "0.1.0",
-  "summary": "Observation-based admission scheduler: serialized warm-up, observed-peak reservations, OOM feedback. Pure Python, zero dependencies.",
+  "version": "0.2.0",
+  "summary": "Decides when memory-ramping jobs, such as GPU training, may start: serializes warm-ups, reserves observed peaks, learns from OOMs. Pure Python, zero dependencies, with a deterministic simulator.",
   "license": null,
   "license_expression": "Apache-2.0",
   "home_page": "https://github.com/KebanFiru/rampgate",
@@ -12,13 +12,13 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1793367178,
+  "pub_date": 1795281565,
   "project_urls": {
-    "Changelog": "https://github.com/KebanFiru/rampgate/blob/main/packages/rampgate/CHANGELOG.md",
-    "Source": "https://github.com/KebanFiru/rampgate",
     "Documentation": "https://kebanfiru.github.io/rampgate/",
+    "Homepage": "https://github.com/KebanFiru/rampgate",
+    "Changelog": "https://github.com/KebanFiru/rampgate/blob/main/packages/rampgate/CHANGELOG.md",
     "Issues": "https://github.com/KebanFiru/rampgate/issues",
-    "Homepage": "https://github.com/KebanFiru/rampgate"
+    "Source": "https://github.com/KebanFiru/rampgate"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
