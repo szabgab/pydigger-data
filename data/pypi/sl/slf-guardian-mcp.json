@@ -1,7 +1,7 @@
 {
   "name": "slf-guardian-mcp",
-  "version": "1.2.0",
-  "summary": "MCP server with six security checks an AI agent runs before it delivers code, installs a package, runs a command or opens a link",
+  "version": "1.2.2",
+  "summary": "Local stdio MCP client for hosted pre-action checks on packages, commands, code and untrusted content",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://slfguardian.com",
@@ -12,15 +12,16 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1794780565,
+  "pub_date": 1795275593,
   "project_urls": {
-    "Homepage": "https://slfguardian.com",
-    "API": "https://slfguardian.com/openapi.json",
     "Issues": "https://github.com/slfguardian/slf-guardian-mcp/issues",
+    "Homepage": "https://slfguardian.com",
+    "Documentation": "https://github.com/slfguardian/slf-guardian-mcp#install-in-about-two-minutes",
+    "MCPRegistry": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.slfguardian%2Fslf-guardian-mcp&limit=10",
     "Repository": "https://github.com/slfguardian/slf-guardian-mcp",
-    "Documentation": "https://slfguardian.com/api"
+    "API": "https://slfguardian.com/openapi.json"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
   "has_dependabot": false,
   "has_pyproject_toml": true,
