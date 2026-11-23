@@ -1,6 +1,6 @@
 {
   "name": "auryn-compose",
-  "version": "0.8.2",
+  "version": "0.8.4",
   "summary": "Docker Compose plugin for Auryn (deployment & infrastructure tier, ADR 0007). Parses docker-compose files into Service nodes (RUNS_IMAGE the shared Image hub, DEPENDS_ON other services). A `deploy-compose` enrichment links each service that has both `build:` and `image:` to the Dockerfile stage it builds (`build.target`, else the final stage) with BUILDS_IMAGE, marking the image resolved/internal; the stages come from auryn-docker, so install both. Depends on auryn-core and PyYAML.",
   "license": "MIT",
   "license_expression": null,
@@ -12,7 +12,7 @@
   "repository_source": null,
   "download": null,
   "download_source": null,
-  "pub_date": 1795017927,
+  "pub_date": 1795454933,
   "project_urls": {},
   "has_github_actions": null,
   "has_gitlab_pipeline": null,

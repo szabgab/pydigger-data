@@ -1,0 +1,23 @@
+{
+  "name": "auryn-kustomize",
+  "version": "0.8.4",
+  "summary": "Kustomize plugin for Auryn (deployment & infrastructure tier, ADR 0007). Render-free: parses kustomization.yaml into a Resource (overlay/base) that RUNS_IMAGE the shared Image hub for each ref its images: transformer sets (newName/newTag/digest), and DEPENDS_ON the base kustomizations it layers on (resources/bases/components). A deploy-kustomize enrichment runs the shared image lifecycle. Composes with docker/compose/k8s/terraform/helm onto the same hub. Depends on auryn-core and PyYAML.",
+  "license": "MIT",
+  "license_expression": null,
+  "home_page": null,
+  "home_page_source": null,
+  "maintainer": null,
+  "author": null,
+  "repository": null,
+  "repository_source": null,
+  "download": null,
+  "download_source": null,
+  "pub_date": 1795454945,
+  "project_urls": {},
+  "has_github_actions": null,
+  "has_gitlab_pipeline": null,
+  "has_dependabot": null,
+  "has_pyproject_toml": null,
+  "has_setup_py": null,
+  "has_setup_cfg": null
+}
