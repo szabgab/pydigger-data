@@ -1,7 +1,7 @@
 {
   "name": "schemagate",
-  "version": "1.18.3",
-  "summary": "Identity-scoped schema selection for text-to-SQL: give the model only the tables this caller may read (a 91% median prompt saving on 50+ table warehouses)",
+  "version": "1.19.1",
+  "summary": "91% fewer schema tokens for text-to-SQL: send the model only the tables the question needs and the caller may read. PostgreSQL, MySQL, SQL Server, Oracle, SQLite; LangChain, LlamaIndex, MCP.",
   "license": null,
   "license_expression": "Apache-2.0",
   "home_page": "https://github.com/ashishsinha1602/schemagate",
@@ -12,12 +12,15 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1794979928,
+  "pub_date": 1795495642,
   "project_urls": {
+    "Live demo": "https://ashishsinha1602.github.io/schemagate/",
     "Changelog": "https://github.com/ashishsinha1602/schemagate/blob/main/CHANGELOG.md",
+    "Repository": "https://github.com/ashishsinha1602/schemagate",
+    "Documentation": "https://ashishsinha1602.github.io/schemagate/install/",
     "Homepage": "https://github.com/ashishsinha1602/schemagate",
     "Issues": "https://github.com/ashishsinha1602/schemagate/issues",
-    "Repository": "https://github.com/ashishsinha1602/schemagate"
+    "Hosted app": "https://schemagate.app"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
