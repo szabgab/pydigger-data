@@ -1,7 +1,7 @@
 {
   "name": "palito",
-  "version": "0.14.0",
-  "summary": "Ultra-fast local LLM inference for Python powered by Rust, custom CUDA/Vulkan/Metal kernels, PLT1/QTIP quantization, and native EAGLE-3 speculative decoding (up to 1,000+ tok/s on Llama 3.1 8B) — no llama.cpp or Python ML stack required.",
+  "version": "0.15.0",
+  "summary": "Fast local LLM inference for Python powered by Rust, custom CUDA/Vulkan/Metal kernels, PLT1/QTIP quantization, and native EAGLE-3 + SuffixDecoding speculative decoding (up to 1,360+ tok/s on 1B and 1.3x faster than llama.cpp on 8B) — no llama.cpp or Python ML stack required.",
   "license": null,
   "license_expression": "MIT",
   "home_page": "https://github.com/natanloterio/palito",
@@ -12,10 +12,10 @@
   "repository_source": "project_urls.source",
   "download": null,
   "download_source": null,
-  "pub_date": 1795690092,
+  "pub_date": 1795706081,
   "project_urls": {
-    "Source": "https://github.com/natanloterio/palito/tree/master/bindings/python",
-    "Homepage": "https://github.com/natanloterio/palito"
+    "Homepage": "https://github.com/natanloterio/palito",
+    "Source": "https://github.com/natanloterio/palito/tree/master/bindings/python"
   },
   "has_github_actions": true,
   "has_gitlab_pipeline": null,
