@@ -1,10 +1,10 @@
 {
   "name": "feraterra-sdk",
-  "version": "4.9.2",
-  "summary": "FeraTerra / Arena Exchange official zero-dependency Python REST/WS, 64-byte HFT binary wire, ArenaITCH L3, CCXT adapter, 24-tool MCP gateway, and EVM Clearinghouse client SDK.",
+  "version": "4.9.4",
+  "summary": "FeraTerra / Arena Exchange official zero-dependency Python REST/WS, 64-byte HFT binary wire, ArenaITCH L3, CCXT adapter, MCP gateway, LangChain/PydanticAI toolkits, and EVM Clearinghouse client SDK.",
   "license": "MIT",
   "license_expression": null,
-  "home_page": "https://testnet.feraterra.app",
+  "home_page": "https://feraterra.app",
   "home_page_source": "project_urls.homepage",
   "maintainer": null,
   "author": null,
@@ -12,18 +12,22 @@
   "repository_source": "project_urls.repository",
   "download": null,
   "download_source": null,
-  "pub_date": 1795670619,
+  "pub_date": 1795755557,
   "project_urls": {
     "OpenAPI": "https://testnet.feraterra.app/openapi.json",
-    "Homepage": "https://testnet.feraterra.app",
     "Documentation": "https://testnet.feraterra.app/llms.txt",
-    "Repository": "https://github.com/FeraTerra/feraterra-sdk",
-    "Leaderboard": "https://testnet.feraterra.app/leaderboard"
+    "Homepage": "https://feraterra.app",
+    "Changelog": "https://github.com/FeraTerra/feraterra-sdk/releases",
+    "Leaderboard": "https://testnet.feraterra.app/leaderboard",
+    "Testnet": "https://testnet.feraterra.app",
+    "Issues": "https://github.com/FeraTerra/feraterra-sdk/issues",
+    "RemoteMCP": "https://mcp.feraterra.app/mcp",
+    "Repository": "https://github.com/FeraTerra/feraterra-sdk"
   },
-  "has_github_actions": false,
+  "has_github_actions": true,
   "has_gitlab_pipeline": null,
-  "has_dependabot": false,
-  "has_pyproject_toml": null,
-  "has_setup_py": null,
-  "has_setup_cfg": null
+  "has_dependabot": true,
+  "has_pyproject_toml": true,
+  "has_setup_py": false,
+  "has_setup_cfg": false
 }
