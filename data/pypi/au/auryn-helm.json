@@ -1,6 +1,6 @@
 {
   "name": "auryn-helm",
-  "version": "0.8.4",
+  "version": "0.8.6",
   "summary": "Helm-chart plugin for Auryn (deployment & infrastructure tier, ADR 0007). Render-free static parse: Chart.yaml + values.yaml become a Resource (the chart/release) that DEPENDS_ON its chart dependencies (in-repo chart else a placeholder), RUNS_IMAGE the shared Image hub for each values.yaml image, and MOUNTS the chart's notable ConfigValues. A deploy-helm enrichment runs the shared image lifecycle. Composes with docker/compose/k8s/terraform onto the same hub. Depends on auryn-core and PyYAML.",
   "license": "MIT",
   "license_expression": null,
@@ -12,7 +12,7 @@
   "repository_source": null,
   "download": null,
   "download_source": null,
-  "pub_date": 1795454941,
+  "pub_date": 1795868733,
   "project_urls": {},
   "has_github_actions": null,
   "has_gitlab_pipeline": null,

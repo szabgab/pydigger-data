@@ -1,6 +1,6 @@
 {
   "name": "auryn-ci",
-  "version": "0.8.4",
+  "version": "0.8.6",
   "summary": "CI plugin for Auryn (deployment & infrastructure tier, ADR 0007). Parses GitHub Actions workflows (.github/workflows/*.yml) into a Resource (the pipeline) that BUILDS_IMAGE the shared Image hub for each image its steps build or push (docker/build-push-action tags, docker build -t / docker push). That edge flips a hub image resolved/internal, closing the build->image->run loop the docker producer defers to CI. A deploy-ci enrichment runs the shared image lifecycle. Depends on auryn-core and PyYAML.",
   "license": "MIT",
   "license_expression": null,
@@ -12,7 +12,7 @@
   "repository_source": null,
   "download": null,
   "download_source": null,
-  "pub_date": 1795454932,
+  "pub_date": 1795868725,
   "project_urls": {},
   "has_github_actions": null,
   "has_gitlab_pipeline": null,

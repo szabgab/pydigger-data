@@ -1,6 +1,6 @@
 {
   "name": "auryn-terraform",
-  "version": "0.8.4",
+  "version": "0.8.6",
   "summary": "Terraform/OpenTofu plugin for Auryn and the cloud-topology producer of the deployment & infrastructure tier (ADR 0007). Parses HCL (.tf) into Resource nodes (resource/module/data) and DEPENDS_ON edges from interpolation refs, plus the seams: a container image RUNS_IMAGE the shared Image hub, rds -> Database, aws_ecr_repository -> Registry (PROVISIONS). A deploy-terraform enrichment runs the shared image lifecycle. Composes with docker/compose/k8s onto the same hub. Depends on auryn-core + python-hcl2.",
   "license": "MIT",
   "license_expression": null,
@@ -12,7 +12,7 @@
   "repository_source": null,
   "download": null,
   "download_source": null,
-  "pub_date": 1795454953,
+  "pub_date": 1795868745,
   "project_urls": {},
   "has_github_actions": null,
   "has_gitlab_pipeline": null,

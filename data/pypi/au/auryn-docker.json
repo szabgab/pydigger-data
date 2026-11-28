@@ -1,6 +1,6 @@
 {
   "name": "auryn-docker",
-  "version": "0.8.4",
+  "version": "0.8.6",
   "summary": "Dockerfile plugin for Auryn and the first producer of the deployment & infrastructure tier (ADR 0007). A dependency-free Dockerfile parser emits BuildStage nodes, the shared image-keyed `Image` hub (the FROM chain, as resolved:false placeholders) and multi-stage COPY --from edges; a `deploy` enrichment links build stages to the code they package (PACKAGES), recomputes image `resolved` and GCs orphan images. Compose/k8s/Helm/Terraform producers join onto the hub. Depends only on auryn-core.",
   "license": "MIT",
   "license_expression": null,
@@ -12,7 +12,7 @@
   "repository_source": null,
   "download": null,
   "download_source": null,
-  "pub_date": 1795454938,
+  "pub_date": 1795868730,
   "project_urls": {},
   "has_github_actions": null,
   "has_gitlab_pipeline": null,
